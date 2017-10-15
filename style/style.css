@@ -14,7 +14,6 @@ body {
   max-width: 1240px;
 }
 a {
-  text-shadow: black 1px 0px 0px;
   text-decoration: none;
   text-decoration-color: black!important;
   background-color: blue;
@@ -26,7 +25,6 @@ a:hover {
   color: blue;
 }
 h1 {
-  text-shadow: black 1px 0px 0px;
   letter-spacing: 2px;
   font-weight: 400;
   font-size: 1.8em;
@@ -56,7 +54,6 @@ h1 {
 .projects li {
   padding: 2px 0;
   line-height: 22px;
-  text-shadow: black 1px 0px 0px;
 }
 
 .line {
@@ -64,7 +61,5 @@ h1 {
 }
 
 p {
-  text-shadow: #FFF 2px 2px 2px;
   line-height: 22px;
-  text-shadow: black 1px 0px 0px;
 }
