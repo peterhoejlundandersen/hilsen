@@ -9,6 +9,25 @@ body {
 .small {
   font-size: 0.7em;
 }
+.hidden {
+  display: none;
+}
+.show-techlove {
+  display: block;
+}
+.buttons {
+  cursor: pointer;
+}
+.buttons:hover {
+  border-bottom: 1px solid blue;
+}
+.button-active {
+  border-bottom: 1px solid blue;
+}
+.float-right {
+  float: right;
+  margin: 0 10px;
+}
 .tomat {
   padding: 0px 10px;
   margin-top: -5px;
