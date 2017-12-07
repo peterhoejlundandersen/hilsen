@@ -6,6 +6,17 @@ html {
 body {
   width: 100%;
 }
+.small {
+  font-size: 0.7em;
+}
+.tomat {
+  padding: 0px 10px;
+  margin-top: -5px;
+}
+.number {
+  margin-left: -20px;
+  padding: 20px;
+}
 .wrapper {
   font-size: 14px;
   margin: 0 auto;
