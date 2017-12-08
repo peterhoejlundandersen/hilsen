@@ -15,7 +15,7 @@ body {
 .show-techlove {
   display: block;
 }
-.buttons {
+.button {
   cursor: pointer;
 }
 .buttons:hover {
