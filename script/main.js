@@ -24,8 +24,6 @@ window.onload = function() {
         div.classList.add('show-techlove');
         div.classList.remove('hidden');
       }
-      div = document.querySelector('#' + this_btn);
-      div.classList.add('show-techlove');
 
     }); // techloves.forEach
 
