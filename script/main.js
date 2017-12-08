@@ -3,8 +3,6 @@ window.onload = function() {
 
   techloves.forEach(function(techlove, i) {
     i += 1;
-    console.log(techlove);
-    console.log(i);
     // Set the connection and number
     var connection = 'expl' + i;
     var btn = techlove.getElementsByClassName('button')[0];
@@ -24,7 +22,6 @@ window.onload = function() {
         div.classList.add('show-techlove');
         div.classList.remove('hidden');
       }
-
     }); // techloves.forEach
 
 
