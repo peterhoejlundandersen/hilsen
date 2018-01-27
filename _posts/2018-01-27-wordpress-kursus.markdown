@@ -248,7 +248,7 @@ Og nu ender vi med det ønskede resultat:
 
 <br>
 
-### JavaScript
+### JavaScript (opførsel/bevægelse)
 
 JavaScript er det vildeste!
 Det er et af de mest udbredte kodesprog i verden (mest aktive på [StackOverflow](https://stackoverflow.com/)) og er dit kodedyrs bevægelse og opførelse. Det er helt klart et sværere kodesprog at skrive end HTML og CSS og der vil derfor ikke være eksempler, men blot en kort indsigt.
@@ -268,7 +268,6 @@ Det kan hente data uden at dit vindue reloader. Det kan sætte cookies og meget,
 JavaScript kan bruges i en simplere form, som hedder [jQuery](https://jquery.com/). 
 
 Hvis vi får tid kommer vi til at lege lidt med jQuery med nogle dropdown-menuer og vilde effekter (bounce, bounce).
-
 
 <br>
 
