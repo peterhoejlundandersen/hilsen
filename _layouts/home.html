@@ -1,0 +1,22 @@
+---
+layout: default
+---
+
+<div class="home">
+	{% include introduction.html %}
+  {{ content }}
+
+	<br>
+	<h3>Undervisning: </h3>
+  {% if site.posts.size > 0 %}
+    <ul>
+      {% for post in site.posts %}
+        <li>
+          {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
+					<a class="highlight" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+          <!-- <span class="post-meta">{{ post.date | date: date_format }}</span> -->
+        </li>
+      {% endfor %}
+    </ul>
+  {% endif %}
+</div>
