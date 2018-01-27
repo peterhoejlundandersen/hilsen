@@ -3,7 +3,7 @@ layout: post
 title:  "WordPress kursus"
 date:   2018-01-25 22:09:58 +0100
 ---
-> **Forberedelse**: Start med at <a href="/assets/wordpress-master.zip" download>downloade eksemplet</a> og åben den downloadede mappe i f.eks. [Sublime Text 3](https://www.sublimetext.com/3). Åben derefter `index.html` i en browser for at se indholdet.
+> **Forberedelse**: Start med at <a href="/assets/wordpress-master.zip" download>downloade eksemplet</a> og åben den downloadede mappe i f.eks. [Sublime Text 3](https://www.sublimetext.com/3). Åben derefter `index.html` i en browser for at se indholdet. Dette vil være mappen, hvor du selv kan lave ændringer og afprøve den viden, som du møder hen af vejen.
 
 ## 1. Introduktion til HTML, CSS og JavaScript
 
@@ -12,10 +12,10 @@ For at forstå WordPress ordentligt og senere hen at kunne lave de små ændring
 
 Vi starter med: 
 
-### Kodedyret - skelet, udseende og opførsel!
+## Kodedyret - skelet, udseende og opførsel!
 ![Hvad gør de tre, og hvordan er de forskellige?]({{ "assets/skeleton.png" || absolute_url }})
 
-#### HTML (SKELETTET):
+### HTML (SKELETTET):
 Er den grundlæggende struktur og er oftest det første en besøgende møder, når de besøger en hjemmeside.
 
 Det er den, der holder styr på de resterende koder (CSS, JavaScript), og hvor de skal kaldes.
@@ -89,7 +89,7 @@ Fortvivl ikke. Deres funktion kommer vi til senere. :)
 
 <br>
 
-#### CSS (HUDEN/UDSEENDET):
+### CSS (HUDEN/UDSEENDET):
 CSS'en er style, altså hvordan skal hjemmesiden se ud.  
 
 Den styler det indhold (content) som er i HTML. Alt indhold mellem `<body>` og `</body>` fra før.
@@ -117,7 +117,7 @@ h1 {
 
 Altså: det første: `h1`(også kaldet en **selector**) siger: Alle HTML h1 tags skal være som jeg befaler inden for de næste `{` og `}`.
 
-Jeg befaler at `color`(også kaldet **property**) skal være `orange` (også kaldet **value**).
+Jeg befaler at `color`(også kaldet en **property**) skal være `orange` (også kaldet en **value**).
 > **VIGTIGT:** Læg mærke til at property og value er opdelt af et kolon og value afslutter linjen med et semikolon: `color: orange;`. Uden dette gennemføres koden ikke.
 
 
@@ -166,15 +166,17 @@ På den måde findes der et utal af **properties** for næsten alle tænkelige �
 
 Heldigvis giver de oftest sig selv og er derfor lette at huske. F.eks. `background-color`.
 
-> **Udfordring:** Prøv f.eks. selv at indstille højden på din h1 selector til et antal px. på over 100 - hvad er højde mon skrevet som? 
+> **Udfordring:** Prøv f.eks. selv at indstille højden på din h1 selector til et antal px. på over 100 i dit eget dokument: `style.css` i css mappen - hvad er højde mon skrevet som? (husk at reload siden, efter at du har lavet ændringerne) 
 
 -------------------------
 
 <br>
-#### CSS klasser
-> Vi mangler at komme ind på, hvad man gør, hvis man har 2 forskellige h4-tags og gerne vil have, at den ene skal være rød og den anden brun? 
+#### CSS klasser 
+For at forklare hvorfor CSS klasser er så pokkers smarte, kan vi prøve at besvare spørgsmålet:
 
-F.eks.:
+> Hvad gør man, hvis man har 2 forskellige h4-tags og gerne vil have, at den ene skal være rød og den anden brun? 
+
+Eksemplet:
 
 **HTML**
 {% highlight html %}
@@ -203,26 +205,100 @@ Men lad os prøve at se hvilken farve de får:
 
 Hvorfor dog det?
 
-Jo, der kan kun være en indstilling for hver **selector** (i det her tilfælde `h4`).
-Det giver ikke mening, at der kunne være to forskellige, for hvornår skulle den ene vises og hvornår den anden. 
+Jo, der kan kun være en indstilling for hver **selectors**(h4) **property**(color, background-color, letter-spacing etc.).
+Det giver ikke mening, at der kunne være to forskellige, for hvornår skulle den ene vises og hvornår den anden? Computeren ser alle h4 tags som de samme. Vi bliver nødt til at gøre brug af endnu en inddeling for at kunne adskille dem i deres style(CSS). Det er her **CSS klasser** kommer ind i billedet.  
 
-Det er altid den sidste, som overskriver. Altså står `color: red` i det her tilfælde på den nederste linje af de to (computeren læser oppefra og ned) og godtager det sidste den møder som `color` som det gældende.
+> **Men hvorfor rød?:** Det er altid den sidste property(color i det her tilfælde), som overskriver. Altså står `color: red` i det her tilfælde nederst af de to og overskriver derfor det tidligere fundet `color: brown` (computeren læser oppefra og ned).
 
+CSS klasser giver os mulighed for at tilføje en værdi til et HTML tag, som vi så kan referere til i vores CSS. 
 
+Se hvordan HTML'en har ændret sig:
+
+{% highlight html %}
+<h4 class="heading-red">Jeg vil gerne være RØD!</h4>
+<h4 class="heading-brown">Jeg vil gerne være BRUN!</h4>
+{% endhighlight %}
+
+**Hvad sker der?** - Vi har i det første tilfælde tilføjet `class="heading-red"` direkte ind i HTML-tagget. Inden for `<` og `>` af start-tagget. 
+
+Vi har simpelthen tilføjet information til HTML-tagget, som nu gør os istand til at kalde specifikt denne klasse i CSS'en:
+
+Nu kan vi udforme vores CSS på en helt anden måde:
+{% highlight css %}
+.heading-red {
+	color: red;
+}
+.heading-brown {
+	color: brown;
+}
+{% endhighlight %}
+
+Og nu ender vi med det ønskede resultat:
+
+------------------------
+
+<h4 class="heading-red">Jeg vil gerne være RØD!</h4>
+<h4 class="heading-brown">Jeg vil gerne være BRUN!</h4>
+
+-----------------------
+
+> **Forklaring:** Punktummet før `heading-brown` er CSS's måde at sige på: Denne **selector** leder efter en class af samme navn! Computeren møder altså `<h4 class="heading-brown">...</h4>` og husker så, at den har en style for dette element i CSS'en (.heading-brown). 
+
+> **Udfordring:** Prøv selv at tilføje `class=".."` og CSS i din `index.html` og `style.css` - kan du ramme en klasse på samme måde? Hvad med at give hver sin h4 forskellige baggrundsfarver? Hvordan går det?
+
+<br>
+
+### JavaScript
+
+JavaScript er det vildeste!
+Det er et af de mest udbredte kodesprog i verden (mest aktive på [StackOverflow](https://stackoverflow.com/)) og er dit kodedyrs bevægelse og opførelse. Det er helt klart et sværere kodesprog at skrive end HTML og CSS og der vil derfor ikke være eksempler, men blot en kort indsigt.
+
+Du aktiverer JavaScript 100-vis af gange om dagen. 
+
+Du bruger det, når du søger, og der bliver vist søgeresultater imens. 
+
+Du bruger det, når dit billede uploader på Facebook. 
+
+Du bruger det i enorm grad på Google Maps. 
+
+Hvis du har en drøm om at blive en rig programmør, så skulle du tage at blive ekspert i dette.
+
+Det kan hente data uden at dit vindue reloader. Det kan sætte cookies og meget, meget, meget mere.
+
+JavaScript kan bruges i en simplere form, som hedder [jQuery](https://jquery.com/). 
+
+Hvis vi får tid kommer vi til at lege lidt med jQuery med nogle dropdown-menuer og vilde effekter (bounce, bounce).
 
 
 <br>
+
+
 ### Lektier/stigninger
 
 > Lektierne er inddelt i stigninger, så man selv kan bestemme, hvor svær en udfordring, som man vil tage op. Jeg vil selvfølgelig anbefale, at man laver alle tre, men se, hvad i kan få tid til. Hvis man ønsker at gå videre, så er det altid muligt at fortsætte læringen via et af de kurser, som er nævnt underneden.
 
-#### 1. grads stigning:
+#### 1. grads stigning
+Kan du forklare hvad forskellen på et span-tag og et div-tag er?
+
+#### 2. grads stigning:
 Indsæt et billede øverst på din hjemmeside med et `<img>` HTML-tag i din `index.html` og få det til at fylde hele din hjemmesides bredde. 
 [Læs mere her](https://www.w3schools.com/html/html_images.asp)
 > **Hint til bredde:** Man kan bruge `%`(procenttegnet) i CSS. Derudover kan du også bruge `width:`. Så hvor mange procent skal `width:` sættes til for at fylde hele bredden?
 
 
+#### 3. grads stigning:
+Lav 4 bokse med `<div></div>` og giv dem hver især forskellige baggrundsfarver, højder og bredder via forskellige klasser.
+
+> **Hint:** En div uden indhold har ingen højde og bredde, så den vil ikke kunne ses, før du giver den en højde `height: ...` og en bredde `width: ...`.
+
 ### Kurser:
 
 1. [HTML kursus - CodeCademy](https://www.codecademy.com/learn/learn-html)
 2. [CSS kursus - CodeCademy](https://www.codecademy.com/learn/learn-css)
+
+-----------------------------------
+
+<br>
+
+Tak for denne gang - glæder mig til næste del! :)
+

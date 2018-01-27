@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-01-27T01:18:58+01:00</updated><id>http://localhost:4000/</id><title type="html">Hilsen IT</title><subtitle>Designer hjemmesider med et sikkert fundament i Ruby on Rails, Jekyll og Angular</subtitle><entry><title type="html">WordPress kursus</title><link href="http://localhost:4000/2018/01/25/wordpress-kursus.html" rel="alternate" type="text/html" title="WordPress kursus" /><published>2018-01-25T22:09:58+01:00</published><updated>2018-01-25T22:09:58+01:00</updated><id>http://localhost:4000/2018/01/25/wordpress-kursus</id><content type="html" xml:base="http://localhost:4000/2018/01/25/wordpress-kursus.html">&lt;blockquote&gt;
-  &lt;p&gt;&lt;strong&gt;Forberedelse&lt;/strong&gt;: Start med at &lt;a href=&quot;/assets/wordpress-master.zip&quot; download=&quot;&quot;&gt;downloade eksemplet&lt;/a&gt; og åben den downloadede mappe i f.eks. &lt;a href=&quot;https://www.sublimetext.com/3&quot;&gt;Sublime Text 3&lt;/a&gt;. Åben derefter &lt;code class=&quot;highlighter-rouge&quot;&gt;index.html&lt;/code&gt; i en browser for at se indholdet.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-01-27T02:25:41+01:00</updated><id>http://localhost:4000/</id><title type="html">Hilsen IT</title><subtitle>Designer hjemmesider med et sikkert fundament i Ruby on Rails, Jekyll og Angular</subtitle><entry><title type="html">WordPress kursus</title><link href="http://localhost:4000/2018/01/25/wordpress-kursus.html" rel="alternate" type="text/html" title="WordPress kursus" /><published>2018-01-25T22:09:58+01:00</published><updated>2018-01-25T22:09:58+01:00</updated><id>http://localhost:4000/2018/01/25/wordpress-kursus</id><content type="html" xml:base="http://localhost:4000/2018/01/25/wordpress-kursus.html">&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;Forberedelse&lt;/strong&gt;: Start med at &lt;a href=&quot;/assets/wordpress-master.zip&quot; download=&quot;&quot;&gt;downloade eksemplet&lt;/a&gt; og åben den downloadede mappe i f.eks. &lt;a href=&quot;https://www.sublimetext.com/3&quot;&gt;Sublime Text 3&lt;/a&gt;. Åben derefter &lt;code class=&quot;highlighter-rouge&quot;&gt;index.html&lt;/code&gt; i en browser for at se indholdet. Dette vil være mappen, hvor du selv kan lave ændringer og afprøve den viden, som du møder hen af vejen.&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;h2 id=&quot;1-introduktion-til-html-css-og-javascript&quot;&gt;1. Introduktion til HTML, CSS og JavaScript&lt;/h2&gt;
@@ -8,10 +8,10 @@
 
 &lt;p&gt;Vi starter med:&lt;/p&gt;
 
-&lt;h3 id=&quot;kodedyret---skelet-udseende-og-opførsel&quot;&gt;Kodedyret - skelet, udseende og opførsel!&lt;/h3&gt;
+&lt;h2 id=&quot;kodedyret---skelet-udseende-og-opførsel&quot;&gt;Kodedyret - skelet, udseende og opførsel!&lt;/h2&gt;
 &lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/skeleton.png&quot; alt=&quot;Hvad gør de tre, og hvordan er de forskellige?&quot; /&gt;&lt;/p&gt;
 
-&lt;h4 id=&quot;html-skelettet&quot;&gt;HTML (SKELETTET):&lt;/h4&gt;
+&lt;h3 id=&quot;html-skelettet&quot;&gt;HTML (SKELETTET):&lt;/h3&gt;
 &lt;p&gt;Er den grundlæggende struktur og er oftest det første en besøgende møder, når de besøger en hjemmeside.&lt;/p&gt;
 
 &lt;p&gt;Det er den, der holder styr på de resterende koder (CSS, JavaScript), og hvor de skal kaldes.&lt;/p&gt;
@@ -83,7 +83,7 @@ I HTML er der 6: &lt;code class=&quot;highlighter-rouge&quot;&gt;h1, h2, h3, h4,
 
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
-&lt;h4 id=&quot;css-hudenudseendet&quot;&gt;CSS (HUDEN/UDSEENDET):&lt;/h4&gt;
+&lt;h3 id=&quot;css-hudenudseendet&quot;&gt;CSS (HUDEN/UDSEENDET):&lt;/h3&gt;
 &lt;p&gt;CSS’en er style, altså hvordan skal hjemmesiden se ud.&lt;/p&gt;
 
 &lt;p&gt;Den styler det indhold (content) som er i HTML. Alt indhold mellem &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;body&amp;gt;&lt;/code&gt; og &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;/body&amp;gt;&lt;/code&gt; fra før.&lt;/p&gt;
@@ -111,7 +111,7 @@ I HTML er der 6: &lt;code class=&quot;highlighter-rouge&quot;&gt;h1, h2, h3, h4,
 
 &lt;p&gt;Altså: det første: &lt;code class=&quot;highlighter-rouge&quot;&gt;h1&lt;/code&gt;(også kaldet en &lt;strong&gt;selector&lt;/strong&gt;) siger: Alle HTML h1 tags skal være som jeg befaler inden for de næste &lt;code class=&quot;highlighter-rouge&quot;&gt;{&lt;/code&gt; og &lt;code class=&quot;highlighter-rouge&quot;&gt;}&lt;/code&gt;.&lt;/p&gt;
 
-&lt;p&gt;Jeg befaler at &lt;code class=&quot;highlighter-rouge&quot;&gt;color&lt;/code&gt;(også kaldet &lt;strong&gt;property&lt;/strong&gt;) skal være &lt;code class=&quot;highlighter-rouge&quot;&gt;orange&lt;/code&gt; (også kaldet &lt;strong&gt;value&lt;/strong&gt;).&lt;/p&gt;
+&lt;p&gt;Jeg befaler at &lt;code class=&quot;highlighter-rouge&quot;&gt;color&lt;/code&gt;(også kaldet en &lt;strong&gt;property&lt;/strong&gt;) skal være &lt;code class=&quot;highlighter-rouge&quot;&gt;orange&lt;/code&gt; (også kaldet en &lt;strong&gt;value&lt;/strong&gt;).&lt;/p&gt;
 &lt;blockquote&gt;
   &lt;p&gt;&lt;strong&gt;VIGTIGT:&lt;/strong&gt; Læg mærke til at property og value er opdelt af et kolon og value afslutter linjen med et semikolon: &lt;code class=&quot;highlighter-rouge&quot;&gt;color: orange;&lt;/code&gt;. Uden dette gennemføres koden ikke.&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -161,18 +161,20 @@ I HTML er der 6: &lt;code class=&quot;highlighter-rouge&quot;&gt;h1, h2, h3, h4,
 &lt;p&gt;Heldigvis giver de oftest sig selv og er derfor lette at huske. F.eks. &lt;code class=&quot;highlighter-rouge&quot;&gt;background-color&lt;/code&gt;.&lt;/p&gt;
 
 &lt;blockquote&gt;
-  &lt;p&gt;&lt;strong&gt;Udfordring:&lt;/strong&gt; Prøv f.eks. selv at indstille højden på din h1 selector til et antal px. på over 100 - hvad er højde mon skrevet som?&lt;/p&gt;
+  &lt;p&gt;&lt;strong&gt;Udfordring:&lt;/strong&gt; Prøv f.eks. selv at indstille højden på din h1 selector til et antal px. på over 100 i dit eget dokument: &lt;code class=&quot;highlighter-rouge&quot;&gt;style.css&lt;/code&gt; i css mappen - hvad er højde mon skrevet som? (husk at reload siden, efter at du har lavet ændringerne)&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;hr /&gt;
 
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;h4 id=&quot;css-klasser&quot;&gt;CSS klasser&lt;/h4&gt;
+&lt;p&gt;For at forklare hvorfor CSS klasser er så pokkers smarte, kan vi prøve at besvare spørgsmålet:&lt;/p&gt;
+
 &lt;blockquote&gt;
-  &lt;p&gt;Vi mangler at komme ind på, hvad man gør, hvis man har 2 forskellige h4-tags og gerne vil have, at den ene skal være rød og den anden brun?&lt;/p&gt;
+  &lt;p&gt;Hvad gør man, hvis man har 2 forskellige h4-tags og gerne vil have, at den ene skal være rød og den anden brun?&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;F.eks.:&lt;/p&gt;
+&lt;p&gt;Eksemplet:&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;HTML&lt;/strong&gt;&lt;/p&gt;
 
@@ -199,23 +201,96 @@ I HTML er der 6: &lt;code class=&quot;highlighter-rouge&quot;&gt;h1, h2, h3, h4,
 
 &lt;p&gt;Hvorfor dog det?&lt;/p&gt;
 
-&lt;p&gt;Jo, der kan kun være en indstilling for hver &lt;strong&gt;selector&lt;/strong&gt; (i det her tilfælde &lt;code class=&quot;highlighter-rouge&quot;&gt;h4&lt;/code&gt;).
-Det giver ikke mening, at der kunne være to forskellige, for hvornår skulle den ene vises og hvornår den anden.&lt;/p&gt;
+&lt;p&gt;Jo, der kan kun være en indstilling for hver &lt;strong&gt;selectors&lt;/strong&gt;(h4) &lt;strong&gt;property&lt;/strong&gt;(color, background-color, letter-spacing etc.).
+Det giver ikke mening, at der kunne være to forskellige, for hvornår skulle den ene vises og hvornår den anden? Computeren ser alle h4 tags som de samme. Vi bliver nødt til at gøre brug af endnu en inddeling for at kunne adskille dem i deres style(CSS). Det er her &lt;strong&gt;CSS klasser&lt;/strong&gt; kommer ind i billedet.&lt;/p&gt;
 
-&lt;p&gt;Det er altid den sidste, som overskriver. Altså står &lt;code class=&quot;highlighter-rouge&quot;&gt;color: red&lt;/code&gt; i det her tilfælde på den nederste linje af de to (computeren læser oppefra og ned) og godtager det sidste den møder som &lt;code class=&quot;highlighter-rouge&quot;&gt;color&lt;/code&gt; som det gældende.&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;Men hvorfor rød?:&lt;/strong&gt; Det er altid den sidste property(color i det her tilfælde), som overskriver. Altså står &lt;code class=&quot;highlighter-rouge&quot;&gt;color: red&lt;/code&gt; i det her tilfælde nederst af de to og overskriver derfor det tidligere fundet &lt;code class=&quot;highlighter-rouge&quot;&gt;color: brown&lt;/code&gt; (computeren læser oppefra og ned).&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;CSS klasser giver os mulighed for at tilføje en værdi til et HTML tag, som vi så kan referere til i vores CSS.&lt;/p&gt;
+
+&lt;p&gt;Se hvordan HTML’en har ændret sig:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;h4&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;heading-red&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;Jeg vil gerne være RØD!&lt;span class=&quot;nt&quot;&gt;&amp;lt;/h4&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;h4&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;heading-brown&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;Jeg vil gerne være BRUN!&lt;span class=&quot;nt&quot;&gt;&amp;lt;/h4&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;&lt;strong&gt;Hvad sker der?&lt;/strong&gt; - Vi har i det første tilfælde tilføjet &lt;code class=&quot;highlighter-rouge&quot;&gt;class=&quot;heading-red&quot;&lt;/code&gt; direkte ind i HTML-tagget. Inden for &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;&lt;/code&gt; og &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;gt;&lt;/code&gt; af start-tagget.&lt;/p&gt;
+
+&lt;p&gt;Vi har simpelthen tilføjet information til HTML-tagget, som nu gør os istand til at kalde specifikt denne klasse i CSS’en:&lt;/p&gt;
+
+&lt;p&gt;Nu kan vi udforme vores CSS på en helt anden måde:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-css&quot; data-lang=&quot;css&quot;&gt;&lt;span class=&quot;nc&quot;&gt;.heading-red&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+	&lt;span class=&quot;nl&quot;&gt;color&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;red&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;nc&quot;&gt;.heading-brown&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+	&lt;span class=&quot;nl&quot;&gt;color&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;brown&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Og nu ender vi med det ønskede resultat:&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h4 class=&quot;heading-red&quot;&gt;Jeg vil gerne være RØD!&lt;/h4&gt;
+&lt;h4 class=&quot;heading-brown&quot;&gt;Jeg vil gerne være BRUN!&lt;/h4&gt;
+
+&lt;hr /&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;Forklaring:&lt;/strong&gt; Punktummet før &lt;code class=&quot;highlighter-rouge&quot;&gt;heading-brown&lt;/code&gt; er CSS’s måde at sige på: Denne &lt;strong&gt;selector&lt;/strong&gt; leder efter en class af samme navn! Computeren møder altså &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;h4 class=&quot;heading-brown&quot;&amp;gt;...&amp;lt;/h4&amp;gt;&lt;/code&gt; og husker så, at den har en style for dette element i CSS’en (.heading-brown).&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;Udfordring:&lt;/strong&gt; Prøv selv at tilføje &lt;code class=&quot;highlighter-rouge&quot;&gt;class=&quot;..&quot;&lt;/code&gt; og CSS i din &lt;code class=&quot;highlighter-rouge&quot;&gt;index.html&lt;/code&gt; og &lt;code class=&quot;highlighter-rouge&quot;&gt;style.css&lt;/code&gt; - kan du ramme en klasse på samme måde? Hvad med at give hver sin h4 forskellige baggrundsfarver? Hvordan går det?&lt;/p&gt;
+&lt;/blockquote&gt;
 
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;javascript&quot;&gt;JavaScript&lt;/h3&gt;
+
+&lt;p&gt;JavaScript er det vildeste!
+Det er et af de mest udbredte kodesprog i verden (mest aktive på &lt;a href=&quot;https://stackoverflow.com/&quot;&gt;StackOverflow&lt;/a&gt;) og er dit kodedyrs bevægelse og opførelse. Det er helt klart et sværere kodesprog at skrive end HTML og CSS og der vil derfor ikke være eksempler, men blot en kort indsigt.&lt;/p&gt;
+
+&lt;p&gt;Du aktiverer JavaScript 100-vis af gange om dagen.&lt;/p&gt;
+
+&lt;p&gt;Du bruger det, når du søger, og der bliver vist søgeresultater imens.&lt;/p&gt;
+
+&lt;p&gt;Du bruger det, når dit billede uploader på Facebook.&lt;/p&gt;
+
+&lt;p&gt;Du bruger det i enorm grad på Google Maps.&lt;/p&gt;
+
+&lt;p&gt;Hvis du har en drøm om at blive en rig programmør, så skulle du tage at blive ekspert i dette.&lt;/p&gt;
+
+&lt;p&gt;Det kan hente data uden at dit vindue reloader. Det kan sætte cookies og meget, meget, meget mere.&lt;/p&gt;
+
+&lt;p&gt;JavaScript kan bruges i en simplere form, som hedder &lt;a href=&quot;https://jquery.com/&quot;&gt;jQuery&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Hvis vi får tid kommer vi til at lege lidt med jQuery med nogle dropdown-menuer og vilde effekter (bounce, bounce).&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
 &lt;h3 id=&quot;lektierstigninger&quot;&gt;Lektier/stigninger&lt;/h3&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;Lektierne er inddelt i stigninger, så man selv kan bestemme, hvor svær en udfordring, som man vil tage op. Jeg vil selvfølgelig anbefale, at man laver alle tre, men se, hvad i kan få tid til. Hvis man ønsker at gå videre, så er det altid muligt at fortsætte læringen via et af de kurser, som er nævnt underneden.&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;h4 id=&quot;1-grads-stigning&quot;&gt;1. grads stigning:&lt;/h4&gt;
+&lt;h4 id=&quot;1-grads-stigning&quot;&gt;1. grads stigning&lt;/h4&gt;
+&lt;p&gt;Kan du forklare hvad forskellen på et span-tag og et div-tag er?&lt;/p&gt;
+
+&lt;h4 id=&quot;2-grads-stigning&quot;&gt;2. grads stigning:&lt;/h4&gt;
 &lt;p&gt;Indsæt et billede øverst på din hjemmeside med et &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;img&amp;gt;&lt;/code&gt; HTML-tag i din &lt;code class=&quot;highlighter-rouge&quot;&gt;index.html&lt;/code&gt; og få det til at fylde hele din hjemmesides bredde. 
 &lt;a href=&quot;https://www.w3schools.com/html/html_images.asp&quot;&gt;Læs mere her&lt;/a&gt;&lt;/p&gt;
 &lt;blockquote&gt;
   &lt;p&gt;&lt;strong&gt;Hint til bredde:&lt;/strong&gt; Man kan bruge &lt;code class=&quot;highlighter-rouge&quot;&gt;%&lt;/code&gt;(procenttegnet) i CSS. Derudover kan du også bruge &lt;code class=&quot;highlighter-rouge&quot;&gt;width:&lt;/code&gt;. Så hvor mange procent skal &lt;code class=&quot;highlighter-rouge&quot;&gt;width:&lt;/code&gt; sættes til for at fylde hele bredden?&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h4 id=&quot;3-grads-stigning&quot;&gt;3. grads stigning:&lt;/h4&gt;
+&lt;p&gt;Lav 4 bokse med &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;div&amp;gt;&amp;lt;/div&amp;gt;&lt;/code&gt; og giv dem hver især forskellige baggrundsfarver, højder og bredder via forskellige klasser.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;Hint:&lt;/strong&gt; En div uden indhold har ingen højde og bredde, så den vil ikke kunne ses, før du giver den en højde &lt;code class=&quot;highlighter-rouge&quot;&gt;height: ...&lt;/code&gt; og en bredde &lt;code class=&quot;highlighter-rouge&quot;&gt;width: ...&lt;/code&gt;.&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;h3 id=&quot;kurser&quot;&gt;Kurser:&lt;/h3&gt;
@@ -223,4 +298,10 @@ Det giver ikke mening, at der kunne være to forskellige, for hvornår skulle de
 &lt;ol&gt;
   &lt;li&gt;&lt;a href=&quot;https://www.codecademy.com/learn/learn-html&quot;&gt;HTML kursus - CodeCademy&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://www.codecademy.com/learn/learn-css&quot;&gt;CSS kursus - CodeCademy&lt;/a&gt;&lt;/li&gt;
-&lt;/ol&gt;</content><author><name></name></author><summary type="html">Forberedelse: Start med at downloade eksemplet og åben den downloadede mappe i f.eks. Sublime Text 3. Åben derefter index.html i en browser for at se indholdet.</summary></entry></feed>
+&lt;/ol&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Tak for denne gang - glæder mig til næste del! :)&lt;/p&gt;</content><author><name></name></author><summary type="html">Forberedelse: Start med at downloade eksemplet og åben den downloadede mappe i f.eks. Sublime Text 3. Åben derefter index.html i en browser for at se indholdet. Dette vil være mappen, hvor du selv kan lave ændringer og afprøve den viden, som du møder hen af vejen.</summary></entry></feed>
