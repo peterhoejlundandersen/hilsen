@@ -1,11 +1,9 @@
 ---
 layout: post
-title:  "WordPress kursus - Del 1 - HTML, CSS og JavaScript" 
+title:  "Del 1 - HTML, CSS og JavaScript" 
 date:   2018-01-25 22:09:58 +0100
 ---
 > **Forberedelse**: Start med at <a href="/assets/wordpress-master.zip" download>downloade eksemplet</a> og åben den downloadede mappe i f.eks. [Sublime Text 3](https://www.sublimetext.com/3). Åben derefter `index.html` i en browser for at se indholdet. Dette vil være mappen, hvor du selv kan lave ændringer og afprøve den viden, som du møder hen af vejen.
-
-## 1. Introduktion til HTML, CSS og JavaScript
 
 
 For at forstå WordPress ordentligt og senere hen at kunne lave de små ændringer, som temaet og de indbyggede page-builders ikke kan, bliver man nødt til at forstå hvad HTML, CSS og JavaScript er, og hvad man kan bruge dem til.
@@ -279,9 +277,12 @@ Hvis vi får tid kommer vi til at lege lidt med jQuery med nogle dropdown-menuer
 #### 1. grads stigning
 Kan du forklare hvad forskellen på et span-tag og et div-tag er?
 
+> **Hint:** Div og span er begge HTML-tags (`<div>` og `<span>`), som bliver brugt på kryds og tværs af internettet. De har dog to vidt forskellige funktioner, som har noget med deres standard CSS property `display:.. ` at gøre.
+
 #### 2. grads stigning:
 Indsæt et billede øverst på din hjemmeside med et `<img>` HTML-tag i din `index.html` og få det til at fylde hele din hjemmesides bredde. 
-[Læs mere her](https://www.w3schools.com/html/html_images.asp)
+[Læs mere her](https://www.w3schools.com/html/html_images.asp){:target="_blank"}
+
 > **Hint til bredde:** Man kan bruge `%`(procenttegnet) i CSS. Derudover kan du også bruge `width:`. Så hvor mange procent skal `width:` sættes til for at fylde hele bredden?
 
 
