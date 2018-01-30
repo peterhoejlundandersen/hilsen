@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-01-30T21:27:58+01:00</updated><id>http://localhost:4000/</id><title type="html">Hilsen IT</title><subtitle>Designer hjemmesider med et sikkert fundament i Ruby on Rails, Jekyll og Angular</subtitle><entry><title type="html">Techlove! - Vim, LastPass, Tomighty &amp;amp; DTTM</title><link href="http://localhost:4000/blogs/2018/01/27/techlove.html" rel="alternate" type="text/html" title="Techlove! - Vim, LastPass, Tomighty &amp; DTTM" /><published>2018-01-27T00:00:00+01:00</published><updated>2018-01-27T00:00:00+01:00</updated><id>http://localhost:4000/blogs/2018/01/27/techlove</id><content type="html" xml:base="http://localhost:4000/blogs/2018/01/27/techlove.html">&lt;blockquote&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-01-30T21:44:47+01:00</updated><id>http://localhost:4000/</id><title type="html">Hilsen IT</title><subtitle>Designer hjemmesider med et sikkert fundament i Ruby on Rails, Jekyll og Angular</subtitle><entry><title type="html">Techlove! - Vim, LastPass, Tomighty &amp;amp; DTTM</title><link href="http://localhost:4000/blogs/2018/01/27/techlove.html" rel="alternate" type="text/html" title="Techlove! - Vim, LastPass, Tomighty &amp; DTTM" /><published>2018-01-27T00:00:00+01:00</published><updated>2018-01-27T00:00:00+01:00</updated><id>http://localhost:4000/blogs/2018/01/27/techlove</id><content type="html" xml:base="http://localhost:4000/blogs/2018/01/27/techlove.html">&lt;blockquote&gt;
   &lt;p&gt;Techlove er en samling af værktøjer, som jeg gør brug af hver dag. De hjælper mig dagligt med at gøre det til en mere flydende bevægelse at arbejde på en computer. Hvis du som jeg sidder størstedelen af din arbejdstid ved en computer og samtidig elsker dette værktøj, så har du nu mulighed for at slibe det en smule ‘skarpere’.&lt;/p&gt;
 &lt;/blockquote&gt;
 
@@ -224,7 +224,7 @@ SÅ tag at gå over og prøv spillet &lt;a href=&quot;https://vim-adventures.com
 
 &lt;p&gt;Når din tomat er gået igangsætter programmet automatisk en 5-min pause (som du også selv kan indstille tiden på) og starter derefter de 25 minutters arbejdstid igen.&lt;/p&gt;
 
-&lt;p&gt;Det bygger på en teknik, som Pomodoro teknikken. En teknik, som er skabt for at hjælpe dig til at beholde dit fokus på projekter, selvom de strækker sig over længere tid.&lt;/p&gt;
+&lt;p&gt;Det bygger på en teknik, som hedder Pomodoro teknikken. En teknik, som er skabt for at hjælpe dig til at beholde dit fokus på projekter, selvom de strækker sig over længere tid.&lt;/p&gt;
 
 &lt;p&gt;Den samlede cyklus, som jeg har indstillet, ser således ud:&lt;/p&gt;
 
@@ -274,9 +274,144 @@ SÅ tag at gå over og prøv spillet &lt;a href=&quot;https://vim-adventures.com
 &lt;p&gt;&lt;br /&gt;
 &lt;br /&gt;&lt;/p&gt;
 
-&lt;h2 id=&quot;dttm&quot;&gt;DTTM&lt;/h2&gt;
+&lt;h2 id=&quot;dttm---dont-touch-the-mouse&quot;&gt;DTTM - &lt;strong&gt;D&lt;/strong&gt;on’t &lt;strong&gt;T&lt;/strong&gt;ouch &lt;strong&gt;T&lt;/strong&gt;he &lt;strong&gt;M&lt;/strong&gt;ouse&lt;/h2&gt;
 
-&lt;p&gt;KOMMER SNART&lt;/p&gt;</content><author><name></name></author><category term="blogs" /><summary type="html">Techlove er en samling af værktøjer, som jeg gør brug af hver dag. De hjælper mig dagligt med at gøre det til en mere flydende bevægelse at arbejde på en computer. Hvis du som jeg sidder størstedelen af din arbejdstid ved en computer og samtidig elsker dette værktøj, så har du nu mulighed for at slibe det en smule ‘skarpere’.</summary></entry><entry><title type="html">Del 1 - HTML, CSS og JavaScript</title><link href="http://localhost:4000/wordpress/2018/01/25/wordpress-kursus.html" rel="alternate" type="text/html" title="Del 1 - HTML, CSS og JavaScript" /><published>2018-01-25T22:09:58+01:00</published><updated>2018-01-25T22:09:58+01:00</updated><id>http://localhost:4000/wordpress/2018/01/25/wordpress-kursus</id><content type="html" xml:base="http://localhost:4000/wordpress/2018/01/25/wordpress-kursus.html">&lt;blockquote&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;Don’t touch the mouse er mere en indstilling end en decideret kodebaseret teknologi. Det går kort og godt ud på at røre musen/mousepad så lidt som overhovedet muligt. Men hvorfor egentlig det?&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Når du flytter din hånd fra tastaturet til musen/mousepad er det ikke kun en belastning for håndledende (seneskedehindebetændelse!), men også en meget lille afbrydelse i dit arbejde. Mange bække små, gør en stor å!&lt;/p&gt;
+
+&lt;p&gt;Hvis du vil undgå dette, så vil jeg anbefale at lære de underliggende genveje og blot at tænke, hver gang du skal til at røre musen/mousepaden, “don’t touch the mouse!” og “er der en smartere måde at gøre det her på med en genvej?”.
+Efter en måned eller 2 - du vil være langsommere i starten - vil du skåne dine håndled og ikke mindst opleve et bedre flow i dit arbejde på computer.&lt;/p&gt;
+
+&lt;h3 id=&quot;genveje-til-mac-windows-kommer-snart&quot;&gt;Genveje til Mac (Windows kommer snart)&lt;/h3&gt;
+
+&lt;div class=&quot;shorcuts&quot;&gt;
+	&lt;div class=&quot;in-finder&quot;&gt;
+		&lt;p&gt;I Finder:&lt;/p&gt;
+		&lt;div class=&quot;box-wrap&quot;&gt;
+			&lt;span class=&quot;box small&quot;&gt;PILETASTERNEZ&lt;/span&gt;&lt;span class=&quot;use&quot;&gt;Naviger i dine filer&lt;/span&gt;
+		&lt;/div&gt;
+		&lt;div class=&quot;box-wrap&quot;&gt;
+			&lt;span class=&quot;box small&quot;&gt;CMD + DOWN ARROW&lt;/span&gt;&lt;span class=&quot;use&quot;&gt;Åben valgte&lt;/span&gt;
+		&lt;/div&gt;
+		&lt;div class=&quot;box-wrap&quot;&gt;
+			&lt;span class=&quot;box small&quot;&gt;CMD + UP ARROW&lt;/span&gt;&lt;span class=&quot;use&quot;&gt;Gå en tand op i din Folder-structure&lt;/span&gt;
+		&lt;/div&gt;
+		&lt;div class=&quot;box-wrap&quot;&gt;
+			&lt;span class=&quot;box small&quot;&gt;CMD + (1, 2, 3, 4)&lt;/span&gt;&lt;span class=&quot;use&quot;&gt;Skift visning af dine filer&lt;/span&gt;
+		&lt;/div&gt;
+		&lt;div class=&quot;box-wrap&quot;&gt;
+			&lt;span class=&quot;box small&quot;&gt;CMD + DELETE&lt;/span&gt;&lt;span class=&quot;use&quot;&gt;Slet valgte&lt;/span&gt;
+		&lt;/div&gt;
+		&lt;div class=&quot;box-wrap&quot;&gt;
+			&lt;span class=&quot;box small&quot;&gt;CMD + SHIFT + DELETE&lt;/span&gt;&lt;span class=&quot;use&quot;&gt;Tøm Papirskurven&lt;/span&gt;
+		&lt;/div&gt;
+		&lt;div class=&quot;box-wrap&quot;&gt;
+			&lt;span class=&quot;box small&quot;&gt;ALT + UP ARROW/DOWN ARROW&lt;/span&gt;&lt;span class=&quot;use&quot;&gt;Hop til øverste/nederste&lt;/span&gt;
+		&lt;/div&gt;
+		&lt;div class=&quot;box-wrap&quot;&gt;
+			&lt;span class=&quot;box small&quot;&gt;CMD + CTRL + 1/3&lt;/span&gt;&lt;span class=&quot;use&quot;&gt;Sorter efter navn/sidst redigeret&lt;/span&gt;
+		&lt;/div&gt;
+		&lt;div class=&quot;box-wrap&quot;&gt;
+			&lt;span class=&quot;box small&quot;&gt;CMD + F&lt;/span&gt;&lt;span class=&quot;use&quot;&gt;Søg&lt;/span&gt;
+		&lt;/div&gt;
+		&lt;div class=&quot;box-wrap&quot;&gt;
+			&lt;span class=&quot;box small&quot;&gt;CMD+SHIFT+D&lt;/span&gt;&lt;span class=&quot;use&quot;&gt;Åbner Skrivebordet i Finder&lt;/span&gt;
+		&lt;/div&gt;
+		&lt;div class=&quot;box-wrap&quot;&gt;
+			&lt;span class=&quot;box small&quot;&gt;CMD+OPTION+L&lt;/span&gt;&lt;span class=&quot;use&quot;&gt;Åbner Overførsler&lt;/span&gt;
+		&lt;/div&gt;
+		&lt;div class=&quot;box-wrap&quot;&gt;
+			&lt;span class=&quot;box small&quot;&gt;CMD+SHIFT+A&lt;/span&gt;&lt;span class=&quot;use&quot;&gt;Åbner Programmer&lt;/span&gt;
+		&lt;/div&gt;
+		&lt;div class=&quot;box-wrap&quot;&gt;
+			&lt;span class=&quot;box small&quot;&gt;CMD + C &amp;amp; CMD + V&lt;/span&gt;&lt;span class=&quot;use&quot;&gt;Du kender dem!&lt;/span&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+	&lt;div class=&quot;in-finder general&quot;&gt;
+		&lt;p&gt;Mere generelt:&lt;/p&gt;
+		&lt;div class=&quot;box-wrap&quot;&gt;
+			&lt;span class=&quot;box small&quot;&gt;CMD + TAB&lt;/span&gt;&lt;span class=&quot;use&quot;&gt;Naviger i dine programmer (hold CMD inde)&lt;/span&gt;&lt;br /&gt;
+			- &lt;span class=&quot;box smaller&quot;&gt;CMD + W&lt;/span&gt;&lt;span class=&quot;use small&quot;&gt;(imens) Luk et program-vindue&lt;/span&gt;&lt;br /&gt;
+			- &lt;span class=&quot;box smaller&quot;&gt;CMD + Q&lt;/span&gt;&lt;span class=&quot;use small&quot;&gt;(imens) Luk programmet&lt;/span&gt;&lt;br /&gt;
+		&lt;/div&gt;
+		&lt;div class=&quot;box-wrap&quot;&gt;
+			&lt;span class=&quot;box small&quot;&gt;CMD + SPACE&lt;/span&gt;&lt;span class=&quot;use&quot;&gt;Åbner dit Spotlight søgefelt, som giver dig hurtigt adgang til programmer og filer.&lt;/span&gt;&lt;br /&gt;
+			&lt;span class=&quot;smaller&quot;&gt;(Skal i nogle tilfælde indstilles under System Preferences &amp;gt; Keyboard &amp;gt; Spotlight)&lt;/span&gt;&lt;br /&gt;
+			- &lt;span class=&quot;box smaller&quot;&gt;CMD imens du trykker ENTER&lt;/span&gt;&lt;span class=&quot;use small&quot;&gt;Vis hvor det du åbner ligger i Finder&lt;/span&gt;
+		&lt;/div&gt;
+		&lt;div class=&quot;box-wrap&quot;&gt;
+			&lt;span class=&quot;box small&quot;&gt;CMD + $&lt;/span&gt;&lt;span class=&quot;use&quot;&gt;Skift mellem program-vinduer&lt;/span&gt;&lt;br /&gt;
+			&lt;span class=&quot;smaller&quot;&gt;(Skal indstilles under System Preferences &amp;gt; Keyboard &amp;gt; Keyboard &amp;gt; Move focus to next window)&lt;/span&gt;&lt;br /&gt;
+		&lt;/div&gt;
+		&lt;div class=&quot;box-wrap&quot;&gt;
+			&lt;span class=&quot;box small&quot;&gt;CMD + ALT + ESC&lt;/span&gt;&lt;span class=&quot;use&quot;&gt;Åbner Afbryd programmer, hvor du har mulighed for at lukke et program, hvis det fryser.&lt;/span&gt;
+		&lt;/div&gt;
+
+	&lt;/div&gt;
+	&lt;div class=&quot;in-finder general&quot;&gt;
+		&lt;p&gt;I Chrome&lt;/p&gt;
+		&lt;div class=&quot;box-wrap&quot;&gt;
+			&lt;span class=&quot;box small&quot;&gt;CMD + T&lt;/span&gt;&lt;span class=&quot;use&quot;&gt;Åbner en ny fane&lt;/span&gt;
+		&lt;/div&gt;
+		&lt;div class=&quot;box-wrap&quot;&gt;
+			&lt;span class=&quot;box small&quot;&gt;CMD + ALT + LEFT ARROW/RIGHT ARROW&lt;/span&gt;&lt;span class=&quot;use&quot;&gt;Forrige/næste fane&lt;/span&gt;
+		&lt;/div&gt;
+
+		&lt;div class=&quot;box-wrap&quot;&gt;
+			&lt;span class=&quot;box small&quot;&gt;CMD + L&lt;/span&gt;&lt;span class=&quot;use&quot;&gt;Gå til søgefelt&lt;/span&gt;
+		&lt;/div&gt;
+
+		&lt;div class=&quot;box-wrap&quot;&gt;
+			&lt;span class=&quot;box small&quot;&gt;CMD + R&lt;/span&gt;&lt;span class=&quot;use&quot;&gt;Reload side&lt;/span&gt;
+		&lt;/div&gt;
+
+		&lt;div class=&quot;box-wrap&quot;&gt;
+			&lt;span class=&quot;box small&quot;&gt;CMD + N&lt;/span&gt;&lt;span class=&quot;use&quot;&gt;Åbner nyt vindue&lt;/span&gt;
+		&lt;/div&gt;
+
+		&lt;div class=&quot;box-wrap&quot;&gt;
+			&lt;span class=&quot;box small&quot;&gt;CMD + F&lt;/span&gt;&lt;span class=&quot;use&quot;&gt;Søg på siden&lt;/span&gt;&lt;br /&gt;
+			- &lt;span class=&quot;box smaller&quot;&gt;ENTER&lt;/span&gt;&lt;span class=&quot;use small&quot;&gt;(imens) Gå til næste &lt;/span&gt;&lt;br /&gt;
+			- &lt;span class=&quot;box smaller&quot;&gt;SHIFT + ENTER&lt;/span&gt;&lt;span class=&quot;use small&quot;&gt;(imens) Gå til forrige&lt;/span&gt;
+		&lt;/div&gt;
+
+		&lt;div class=&quot;box-wrap&quot;&gt;
+			&lt;span class=&quot;box small&quot;&gt;FN + UP ARROW/DOWN ARROW&lt;/span&gt;&lt;span class=&quot;use&quot;&gt;Scroll et helt vindue op eller ned&lt;/span&gt;
+		&lt;/div&gt;
+
+		&lt;div class=&quot;box-wrap&quot;&gt;
+			&lt;span class=&quot;box small&quot;&gt;CMD + Y&lt;/span&gt;&lt;span class=&quot;use&quot;&gt;Gå til historik&lt;/span&gt;
+		&lt;/div&gt;
+
+		&lt;div class=&quot;box-wrap&quot;&gt;
+			&lt;span class=&quot;box small&quot;&gt;CMD + SHIFT + T&lt;/span&gt;&lt;span class=&quot;use&quot;&gt;Åbn sidst lukkede fane/faner&lt;/span&gt;
+		&lt;/div&gt;
+
+		&lt;div class=&quot;box-wrap&quot;&gt;
+			&lt;span class=&quot;box small&quot;&gt;CMD + ,&lt;/span&gt;&lt;span class=&quot;use&quot;&gt;Åbn indstillinger&lt;/span&gt;
+		&lt;/div&gt;
+
+		&lt;div class=&quot;box-wrap&quot;&gt;
+			&lt;span class=&quot;box small&quot;&gt;CMD + SHIFT + M&lt;/span&gt;&lt;span class=&quot;use&quot;&gt;Skift konto, hvis du som mig har forskellige Gmail kontoer.&lt;/span&gt;
+		&lt;/div&gt;
+
+		&lt;p class=&quot;small&quot;&gt;Web development:&lt;/p&gt;
+		&lt;div class=&quot;box-wrap&quot;&gt;
+			&lt;span class=&quot;box small&quot;&gt;CMD + ALT + J&lt;/span&gt;&lt;span class=&quot;use&quot;&gt;Åbn Chrome Development Tool&lt;/span&gt;
+		&lt;/div&gt;
+		&lt;div class=&quot;box-wrap&quot;&gt;
+			&lt;span class=&quot;box small&quot;&gt;CMD + ALT + U&lt;/span&gt;&lt;span class=&quot;use&quot;&gt;Åbn hjemmesidens Source&lt;/span&gt;
+		&lt;/div&gt;
+		&lt;p class=&quot;small&quot;&gt;FIF: Installer &lt;a href=&quot;https://chrome.google.com/webstore/detail/google-search-navigator/cohamjploocgoejdfanacfgkhjkhdkek&quot; target=&quot;_blank&quot;&gt;Google Search Navigator&lt;/a&gt; hvis du vil gå gennem Google søgeresultater med piletasterne.&lt;/p&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;Fif:&lt;/strong&gt; Hvis du vil ‘tvinge’ dig selv til at undgå musen, så kan jeg varmt anbefale at købe et &lt;a href=&quot;https://www.therooststand.com/&quot; target=&quot;_blank&quot;&gt;Roosts Stand&lt;/a&gt; og et tilhørende tastatur (min favorit er &lt;a href=&quot;https://www.apple.com/dk/shop/product/MLA22B/A/magic-keyboard-engelsk-storbritannien?fnode=56&quot; target=&quot;_blank&quot;&gt;Apple Keyboard&lt;/a&gt;. Nu mangler du en mus, og vil automatisk ændre dine vaner. Derudover flytter Roost stativet din computer op i en højde, så du sidder med ret ryg, når du arbejder.&lt;/p&gt;
+&lt;/blockquote&gt;</content><author><name></name></author><category term="blogs" /><summary type="html">Techlove er en samling af værktøjer, som jeg gør brug af hver dag. De hjælper mig dagligt med at gøre det til en mere flydende bevægelse at arbejde på en computer. Hvis du som jeg sidder størstedelen af din arbejdstid ved en computer og samtidig elsker dette værktøj, så har du nu mulighed for at slibe det en smule ‘skarpere’.</summary></entry><entry><title type="html">Del 1 - HTML, CSS og JavaScript</title><link href="http://localhost:4000/wordpress/2018/01/25/wordpress-kursus.html" rel="alternate" type="text/html" title="Del 1 - HTML, CSS og JavaScript" /><published>2018-01-25T22:09:58+01:00</published><updated>2018-01-25T22:09:58+01:00</updated><id>http://localhost:4000/wordpress/2018/01/25/wordpress-kursus</id><content type="html" xml:base="http://localhost:4000/wordpress/2018/01/25/wordpress-kursus.html">&lt;blockquote&gt;
   &lt;p&gt;&lt;strong&gt;Forberedelse&lt;/strong&gt;: Start med at &lt;a href=&quot;/assets/wordpress-master.zip&quot; download=&quot;&quot;&gt;downloade eksemplet&lt;/a&gt; og åben den downloadede mappe i f.eks. &lt;a href=&quot;https://www.sublimetext.com/3&quot;&gt;Sublime Text 3&lt;/a&gt;. Åben derefter &lt;code class=&quot;highlighter-rouge&quot;&gt;index.html&lt;/code&gt; i en browser for at se indholdet. Dette vil være mappen, hvor du selv kan lave ændringer og afprøve den viden, som du møder hen af vejen.&lt;/p&gt;
 &lt;/blockquote&gt;
 

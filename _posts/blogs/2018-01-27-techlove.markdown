@@ -170,7 +170,7 @@ Tomighty er et simpelt program, hvor du instiller en genvej på dit tastatur (DT
 
 Når din tomat er gået igangsætter programmet automatisk en 5-min pause (som du også selv kan indstille tiden på) og starter derefter de 25 minutters arbejdstid igen.
 
-Det bygger på en teknik, som Pomodoro teknikken. En teknik, som er skabt for at hjælpe dig til at beholde dit fokus på projekter, selvom de strækker sig over længere tid.
+Det bygger på en teknik, som hedder Pomodoro teknikken. En teknik, som er skabt for at hjælpe dig til at beholde dit fokus på projekter, selvom de strækker sig over længere tid.
 
 Den samlede cyklus, som jeg har indstillet, ser således ud:
 
@@ -204,7 +204,21 @@ Held og lykke!
 <br>
 <br>
 
-## DTTM
+## DTTM - **D**on't **T**ouch **T**he **M**ouse
 
-KOMMER SNART
+> Don't touch the mouse er mere en indstilling end en decideret kodebaseret teknologi. Det går kort og godt ud på at røre musen/mousepad så lidt som overhovedet muligt. Men hvorfor egentlig det?
+
+
+Når du flytter din hånd fra tastaturet til musen/mousepad er det ikke kun en belastning for håndledende (seneskedehindebetændelse!), men også en meget lille afbrydelse i dit arbejde. Mange bække små, gør en stor å!
+
+
+Hvis du vil undgå dette, så vil jeg anbefale at lære de underliggende genveje og blot at tænke, hver gang du skal til at røre musen/mousepaden, "don't touch the mouse!" og "er der en smartere måde at gøre det her på med en genvej?".
+Efter en måned eller 2 - du vil være langsommere i starten - vil du skåne dine håndled og ikke mindst opleve et bedre flow i dit arbejde på computer. 
+
+### Genveje til Mac (Windows kommer snart)
+
+{% include shortcuts.html %}
+
+> **Fif:** Hvis du vil 'tvinge' dig selv til at undgå musen, så kan jeg varmt anbefale at købe et [Roosts Stand](https://www.therooststand.com/){:target="_blank"} og et tilhørende tastatur (min favorit er [Apple Keyboard](https://www.apple.com/dk/shop/product/MLA22B/A/magic-keyboard-engelsk-storbritannien?fnode=56){:target="_blank"}. Nu mangler du en mus, og vil automatisk ændre dine vaner. Derudover flytter Roost stativet din computer op i en højde, så du sidder med ret ryg, når du arbejder.
+
 

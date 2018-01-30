@@ -29,3 +29,28 @@ h3 {
 		padding-left: 0;
 	}
 }
+
+.shortcuts {
+  margin: 20px 0px;
+  margin-right: 10px;
+}
+.in-finder {
+  display: inline-block;
+  width: auto;
+  border: 1px solid blue;
+  overflow: hidden;
+  padding: 10px;
+}
+.in-finder .box-wrap {
+}
+.in-finder .box {
+ border: 1px solid black; 
+ padding: 0px 3px;
+ margin: 10px;
+ margin-left: 0;
+}
+.in-finder .box .use {
+  display: block;
+  padding: 5px;
+}
+
