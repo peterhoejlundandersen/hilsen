@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: blog
 title:  "Del 1 - HTML, CSS og JavaScript"
 date:   2018-01-25 22:09:58 +0100
 category: wordpress

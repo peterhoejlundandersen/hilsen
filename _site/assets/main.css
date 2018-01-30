@@ -509,8 +509,23 @@ table {
 .post-link {
   color: black !important; }
 
+.hilsen-pagination {
+  height: 50px; }
+
+h2 {
+  padding-top: 50px; }
+
+h3 {
+  padding-top: 30px; }
+
 .heading-red {
   color: red; }
 
 .heading-brown {
   color: brown; }
+
+.js-hilsen-list {
+  height: 150px;
+  padding: 30px 0px; }
+  .js-hilsen-list li {
+    padding-left: 0; }
