@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-01-30T21:44:47+01:00</updated><id>http://localhost:4000/</id><title type="html">Hilsen IT</title><subtitle>Designer hjemmesider med et sikkert fundament i Ruby on Rails, Jekyll og Angular</subtitle><entry><title type="html">Techlove! - Vim, LastPass, Tomighty &amp;amp; DTTM</title><link href="http://localhost:4000/blogs/2018/01/27/techlove.html" rel="alternate" type="text/html" title="Techlove! - Vim, LastPass, Tomighty &amp; DTTM" /><published>2018-01-27T00:00:00+01:00</published><updated>2018-01-27T00:00:00+01:00</updated><id>http://localhost:4000/blogs/2018/01/27/techlove</id><content type="html" xml:base="http://localhost:4000/blogs/2018/01/27/techlove.html">&lt;blockquote&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-01-30T21:49:23+01:00</updated><id>http://localhost:4000/</id><title type="html">Hilsen IT</title><subtitle>Designer hjemmesider med et sikkert fundament i Ruby on Rails, Jekyll og Angular</subtitle><entry><title type="html">Techlove! - Vim, LastPass, Tomighty &amp;amp; DTTM</title><link href="http://localhost:4000/blogs/2018/01/27/techlove.html" rel="alternate" type="text/html" title="Techlove! - Vim, LastPass, Tomighty &amp; DTTM" /><published>2018-01-27T00:00:00+01:00</published><updated>2018-01-27T00:00:00+01:00</updated><id>http://localhost:4000/blogs/2018/01/27/techlove</id><content type="html" xml:base="http://localhost:4000/blogs/2018/01/27/techlove.html">&lt;blockquote&gt;
   &lt;p&gt;Techlove er en samling af værktøjer, som jeg gør brug af hver dag. De hjælper mig dagligt med at gøre det til en mere flydende bevægelse at arbejde på en computer. Hvis du som jeg sidder størstedelen af din arbejdstid ved en computer og samtidig elsker dette værktøj, så har du nu mulighed for at slibe det en smule ‘skarpere’.&lt;/p&gt;
 &lt;/blockquote&gt;
 
@@ -352,7 +352,7 @@ Efter en måned eller 2 - du vil være langsommere i starten - vil du skåne din
 
 	&lt;/div&gt;
 	&lt;div class=&quot;in-finder general&quot;&gt;
-		&lt;p&gt;I Chrome&lt;/p&gt;
+		&lt;p&gt;I Chrome:&lt;/p&gt;
 		&lt;div class=&quot;box-wrap&quot;&gt;
 			&lt;span class=&quot;box small&quot;&gt;CMD + T&lt;/span&gt;&lt;span class=&quot;use&quot;&gt;Åbner en ny fane&lt;/span&gt;
 		&lt;/div&gt;
