@@ -119,7 +119,7 @@ VIM er for dig, som ved, at du kommer til at sidde 1000-vis af timer ved et tast
 
 Tro mig.. 
 
-Den første gang jeg prøvede, var jeg nødt til at opgive, da jeg var igang med et projekt med en stram deadline. To måneder senere tog jeg kampen op igen og blev ved med at tro på, at det ville betale sig en dag. Nu er det en fornøjelse hver gang, at jeg skal skrive kode eller f.eks. skrive indlæg til denne blog i [Jekyll](https://jekyllrb.com/){:target="_blank"}, og min hastighed er langt over, hvor jeg tidligere lå i [Sublime Text 2](https://www.sublimetext.com/2) (en normal teksteditor).
+Den første gang jeg prøvede, var jeg nødt til at opgive, da jeg var igang med et projekt med en stram deadline. To måneder senere tog jeg kampen op igen og blev ved med at tro på, at det ville betale sig en dag. Nu er det en fornøjelse hver gang, at jeg skal skrive kode eller f.eks. skrive indlæg til denne blog i [Jekyll](https://jekyllrb.com/){:target="_blank"}, og min hastighed er langt over, hvor jeg tidligere lå i [Sublime Text 2](https://www.sublimetext.com/2){:target="_blank"} (en normal teksteditor).
 
 Hvis du har lyst til at læse mere:
 
