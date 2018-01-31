@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-01-30T21:50:36+01:00</updated><id>http://localhost:4000/</id><title type="html">Hilsen IT</title><subtitle>Designer hjemmesider med et sikkert fundament i Ruby on Rails, Jekyll og Angular</subtitle><entry><title type="html">Techlove! - Vim, LastPass, Tomighty &amp;amp; DTTM</title><link href="http://localhost:4000/blogs/2018/01/27/techlove.html" rel="alternate" type="text/html" title="Techlove! - Vim, LastPass, Tomighty &amp; DTTM" /><published>2018-01-27T00:00:00+01:00</published><updated>2018-01-27T00:00:00+01:00</updated><id>http://localhost:4000/blogs/2018/01/27/techlove</id><content type="html" xml:base="http://localhost:4000/blogs/2018/01/27/techlove.html">&lt;blockquote&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-01-31T11:13:30+01:00</updated><id>http://localhost:4000/</id><title type="html">Hilsen IT</title><subtitle>Designer hjemmesider med et sikkert fundament i Ruby on Rails, Jekyll og Angular</subtitle><entry><title type="html">Techlove! - Vim, LastPass, Tomighty &amp;amp; DTTM</title><link href="http://localhost:4000/blogs/2018/01/27/techlove.html" rel="alternate" type="text/html" title="Techlove! - Vim, LastPass, Tomighty &amp; DTTM" /><published>2018-01-27T00:00:00+01:00</published><updated>2018-01-27T00:00:00+01:00</updated><id>http://localhost:4000/blogs/2018/01/27/techlove</id><content type="html" xml:base="http://localhost:4000/blogs/2018/01/27/techlove.html">&lt;blockquote&gt;
   &lt;p&gt;Techlove er en samling af værktøjer, som jeg gør brug af hver dag. De hjælper mig dagligt med at gøre det til en mere flydende bevægelse at arbejde på en computer. Hvis du som jeg sidder størstedelen af din arbejdstid ved en computer og samtidig elsker dette værktøj, så har du nu mulighed for at slibe det en smule ‘skarpere’.&lt;/p&gt;
 &lt;/blockquote&gt;
 
@@ -25,7 +25,9 @@
   &lt;p&gt;&lt;strong&gt;VIM modes&lt;/strong&gt; er overordnede indstillinger for dit tastatur. Altså kan dit tastatur (dine taster) have forskellige funktioner afhængig af hvilket mode dit tastatur er i. Normalt har vi kun &lt;strong&gt;insert-mode&lt;/strong&gt; på en computer, hvor c-tasten skriver ‘c’, men i VIM kan c-tasten også stå for &lt;strong&gt;change&lt;/strong&gt; hvis man er i &lt;strong&gt;normal-mode&lt;/strong&gt;. Eksempel følger:&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;I normal-mode, som man tilgår ved at trykke ESC-knappen, betyder knappen c &lt;strong&gt;change&lt;/strong&gt;. Knappen w betyder &lt;strong&gt;word&lt;/strong&gt;, så hvis du sætter din cursor over et ord i normal-mode og trykker c og så w lige efter, vil du &lt;strong&gt;change word&lt;/strong&gt;, som betyder, at det ord du står på forsvinder og bliver erstattet af din cursor(går til insert-mode). Nu kan du taste et ord, som du kender det fra dit normale tekstbehandlingsprogram, og derefter trykke ESC-knappen for at gå til normal-mode igen.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Der findes også visual- og command-line-mode, men det bliver for kompliceret at forklare her. Du kan læse mere via de links, som er listet under &lt;strong&gt;Konklusion&lt;/strong&gt; senere.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;I normal-mode, som man tilgår ved at trykke ESC-knappen, betyder knappen c &lt;strong&gt;change&lt;/strong&gt;. Knappen w betyder &lt;strong&gt;word&lt;/strong&gt; og knappen i betyder &lt;strong&gt;inside&lt;/strong&gt;, så hvis du sætter din cursor over et ord i normal-mode og trykker c, så i og så w lige efter, vil du &lt;strong&gt;change inside word&lt;/strong&gt;, som betyder, at det ord du står på forsvinder og bliver erstattet af din cursor(går til insert-mode). Nu kan du taste et ord, som du kender det fra dit normale tekstbehandlingsprogram, og derefter trykke ESC-knappen for at gå til normal-mode igen.&lt;/p&gt;
 
 &lt;p&gt;Forvirret?&lt;/p&gt;
 
@@ -33,7 +35,7 @@
 
 &lt;p&gt;Tilbage til normal-mode:&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Hvad med andre knapper end ‘w’ og ‘c’… Hvis man ikke kan bruge dem til at taste, hvad kan de så i normal-mode?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Hvad med andre knapper end w, i og c… Hvis man ikke kan bruge dem til at taste, hvad kan de så i normal-mode?&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;Ja, de har så alle deres egen funktion, som du kan bruge til at navigere, gemme, kopiere, erstatte etc. Her kommer et lille udsnit, for at give dig en idé om, hvad du snart kommer til at mestre:&lt;/p&gt;
 
@@ -66,12 +68,20 @@
       &lt;td style=&quot;text-align: center&quot;&gt;Slet hele linjen&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;D&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Slet resten af linjen&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
       &lt;td style=&quot;text-align: left&quot;&gt;c&lt;/td&gt;
       &lt;td style=&quot;text-align: center&quot;&gt;slet og gå til insert-mode (change)&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td style=&quot;text-align: left&quot;&gt;cc&lt;/td&gt;
       &lt;td style=&quot;text-align: center&quot;&gt;slet hele linjen og gå til insert-mode&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;C&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Slet resten af linjen(fra hvor cursoren er) og gå til insert mode&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td style=&quot;text-align: left&quot;&gt;e&lt;/td&gt;
@@ -90,6 +100,18 @@
       &lt;td style=&quot;text-align: center&quot;&gt;Inden i (in)&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;w&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Ord (word)&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;s&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Sætning (sentence)&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;t&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Tag (HTML-tag)&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
       &lt;td style=&quot;text-align: left&quot;&gt;o&lt;/td&gt;
       &lt;td style=&quot;text-align: center&quot;&gt;Lav ny linje under og gå til insert-mode&lt;/td&gt;
     &lt;/tr&gt;
@@ -98,13 +120,47 @@
       &lt;td style=&quot;text-align: center&quot;&gt;Lav ny linje over og gå til insert-mode&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;y&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Kopier (yank)&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Y&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Kopier hele linjen, som din cursor er på&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;p&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Indsæt (paste)&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;P&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Lav ny linje over og indsæt&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;f&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Gå til næste på linjen&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;F&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Gå til forrige på linjen&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;t&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Gå til næste men på pladsen før det valgte&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;T&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Gå til forrige men på pladsen før det valgte&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
       &lt;td style=&quot;text-align: left&quot;&gt;h, j, k og l&lt;/td&gt;
       &lt;td style=&quot;text-align: center&quot;&gt;Fungerer som piletasterne: venstre, ned, op, højre, så du ikke skal flytte hånden for at navigere&lt;/td&gt;
     &lt;/tr&gt;
   &lt;/tbody&gt;
 &lt;/table&gt;
 
-&lt;p&gt;Det er blot et meget lille udsnit, men hvad der er værd at vide er, at &lt;strong&gt;de kan sættes sammen!&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Forskellen på delete og change er, at change går direkte til insert-mode (normal indtastning), mens man efter at have brugt delete bliver i normal-mode.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Det er blot et meget lille udsnit, men hvad der er værd at vide er, at &lt;strong&gt;funktionerne kan sættes sammen!&lt;/strong&gt;&lt;/p&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;&lt;strong&gt;Sammensætning:&lt;/strong&gt; I VIM kan du sætte forskellige indtastninger sammen, så man f.eks. kan taste di”, som betyder: Slet alt inde i gåseøjnene. Eller med c, a og parentes: ca(, der betyder: Slet alt inden i parenteserne og tag parenteserne med og gå til insert-mode!&lt;/p&gt;
@@ -112,20 +168,69 @@
 
 &lt;p&gt;Andre eksempler på sammensætninger - tal kan også bruges:&lt;/p&gt;
 
-&lt;ul&gt;
-  &lt;li&gt;5j: hop 5 linjer ned.&lt;/li&gt;
-  &lt;li&gt;10e: hop 10 ord frem.&lt;/li&gt;
-  &lt;li&gt;dis: slet denne sætning (uden punktum)&lt;/li&gt;
-&lt;/ul&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;Indtastning&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Funktion i normal-mode&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;dG&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;slet resten af dokumentet&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;5j&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;hop 5 linjer ned&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;d5j&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;slet 5 linjer&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;10e&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;hop 10 ord frem&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;c10e&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;slet 10 ord frem og gå til insert-mode&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;dis&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;slet denne sætning (uden punktum)&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;ya(&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;kopier hele parentesen inkl. parenteserne&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;df”&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;slet indtil gåseøjnene inkl. gåseøjnene&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;dt”&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;slet indtil gåseøjnene  ekskl. gåseøjnene&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;dT(&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;slet bagud indtil åben parentes ekskl. parentes&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
 
-&lt;p&gt;Osv. osv. osv.&lt;/p&gt;
+&lt;p&gt;Igen er det &lt;strong&gt;kun et lille udsnit&lt;/strong&gt;! Du kan nok forestille dig, hvor mange 100-vis af sammensatte kommandoer, der findes. Nogle af dem mere brugte end andre, men pointen er, at du pludselig kan sætte dine værktøjer sammen og bygge løsninger, der passer til en hver situation i tekst-sammenhænge.&lt;/p&gt;
 
-&lt;p&gt;Til sidst vil du bruge kommandoerne uden at tænke over det og får derved en vanvittig hurtig værktøjskasse!&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;Til sidst vil du bruge VIM-funktionerne i forlængelse af hinanden uden at tænke over det og får derved en vanvittig hurtig og fleksibel værktøjskasse!&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;VIM har nogle mere advancerede funktioner såsom &lt;strong&gt;register&lt;/strong&gt;, &lt;strong&gt;makros&lt;/strong&gt; og mange, mange flere. Jeg er kun selv lige begyndt at udforske disse og bliver stadig overrasket over hvad VIM er i stand til!&lt;/p&gt;
 
 &lt;h3 id=&quot;fortvivlet---spil-det&quot;&gt;Fortvivlet? - spil det!&lt;/h3&gt;
 
 &lt;p&gt;Hvis du synes, at det lyder bare nogenlunde spændende, men tænker: Wtf? 
-SÅ tag at gå over og prøv spillet &lt;a href=&quot;https://vim-adventures.com/&quot; target=&quot;_blank&quot;&gt;Vim Adventures&lt;/a&gt;, hvor du kan spille dig igennem de første mange funktioner og prøve kræfter med det. Det er en god smagsprøve.&lt;/p&gt;
+SÅ tag at gå over og prøv spillet &lt;a href=&quot;https://vim-adventures.com/&quot; target=&quot;_blank&quot;&gt;VIM Adventures&lt;/a&gt;, hvor du kan spille dig igennem de første mange funktioner og prøve kræfter med det. Det er en god smagsprøve.&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;https://vim-adventures.com/&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;/assets/blogs/vim-adventure.jpg&quot; alt=&quot;VIM Adventure&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 
@@ -135,13 +240,13 @@ SÅ tag at gå over og prøv spillet &lt;a href=&quot;https://vim-adventures.com
 
 &lt;p&gt;Tro mig..&lt;/p&gt;
 
-&lt;p&gt;Den første gang jeg prøvede var jeg nødt til at opgive, da jeg var igang med et projekt med en deadline. To måneder senere to jeg kampen op igen og blev ved med at tro på, at det ville betale sig en dag. Nu er det en fornøjelse hver gang, at jeg skal skrive kode eller f.eks. skrive indlæg til denne blog, og min hastighed er langt over, hvor jeg tidligere lå i &lt;a href=&quot;https://www.sublimetext.com/2&quot;&gt;Sublime Text 2&lt;/a&gt; (en normal teksteditor).&lt;/p&gt;
+&lt;p&gt;Den første gang jeg prøvede, var jeg nødt til at opgive, da jeg var igang med et projekt med en stram deadline. To måneder senere tog jeg kampen op igen og blev ved med at tro på, at det ville betale sig en dag. Nu er det en fornøjelse hver gang, at jeg skal skrive kode eller f.eks. skrive indlæg til denne blog i &lt;a href=&quot;https://jekyllrb.com/&quot; target=&quot;_blank&quot;&gt;Jekyll&lt;/a&gt;, og min hastighed er langt over, hvor jeg tidligere lå i &lt;a href=&quot;https://www.sublimetext.com/2&quot;&gt;Sublime Text 2&lt;/a&gt; (en normal teksteditor).&lt;/p&gt;
 
 &lt;p&gt;Hvis du har lyst til at læse mere:&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;http://www.vim.org/&quot;&gt;VIM Online&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://vim.wikia.com/wiki/Vim_Tips_Wiki&quot; target=&quot;_blank&quot;&gt;Vim Tips Wiki&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://vim.wikia.com/wiki/Vim_Tips_Wiki&quot; target=&quot;_blank&quot;&gt;VIM Tips Wiki&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=Xp0cTB1llqU&quot; target=&quot;_blank&quot;&gt;Youtube video - Intro to VIM&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://da.wikipedia.org/wiki/Vim&quot;&gt;VIM Wikipedia&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
@@ -164,9 +269,9 @@ SÅ tag at gå over og prøv spillet &lt;a href=&quot;https://vim-adventures.com
 
 &lt;p&gt;LastPass er et simpelt program til din computer/smartphone, hvor du opretter dig og derefter indtaster ét kodeord til en &lt;strong&gt;online platform (skattekiste), der fremover vil indeholde alle dine kodeord&lt;/strong&gt;. Det er kun den(dig) med det ene kodeord, som så kan få lov at komme ind til alle de andre kodeord i fremtiden.&lt;/p&gt;
 
-&lt;h3 id=&quot;hvorfor-er-dette-smart&quot;&gt;Hvorfor er dette smart?&lt;/h3&gt;
+&lt;h3 id=&quot;hvorfor-er-det-smart&quot;&gt;Hvorfor er det smart?&lt;/h3&gt;
 
-&lt;p&gt;Det er smart fordi at LastPass fra da af vil hjælpe dig til at ændre/oprette kodeord til din skattekiste hver gang, at du besøger en hjemmeside, hvor du skal bruge et kodeord.&lt;/p&gt;
+&lt;p&gt;Det er smart, fordi LastPass fra da af vil hjælpe dig til at ændre/oprette kodeord til din skattekiste hver gang, at du besøger en hjemmeside, hvor du skal bruge et kodeord.&lt;/p&gt;
 
 &lt;p&gt;Hvis jeg for eksempel ville oprette en bruger på &lt;a href=&quot;https://www.heroku.com/&quot;&gt;Heroku&lt;/a&gt; - min fortrukne serverløsning - ser det således ud under adgangskodefeltet:&lt;/p&gt;
 
@@ -184,7 +289,7 @@ SÅ tag at gå over og prøv spillet &lt;a href=&quot;https://vim-adventures.com
   &lt;p&gt;LastPass gør det muligt kun at have én indgang til alle dine kodeord, som du så kan fokusere alle dine kræfter på at gøre sikker!&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;h4 id=&quot;tre-gode-råd-til-din-sikkerhed&quot;&gt;Tre gode råd til din sikkerhed:&lt;/h4&gt;
+&lt;h4 id=&quot;to-gode-råd-til-din-sikkerhed&quot;&gt;To gode råd til din sikkerhed:&lt;/h4&gt;
 
 &lt;ol&gt;
   &lt;li&gt;
@@ -192,9 +297,6 @@ SÅ tag at gå over og prøv spillet &lt;a href=&quot;https://vim-adventures.com
   &lt;/li&gt;
   &lt;li&gt;
     &lt;p&gt;Aktiver &lt;a href=&quot;https://lastpass.com/multifactor-authentication/&quot;&gt;Multifactor Authentication&lt;/a&gt;, så du skal bruge en tidsindstillet kode fra en app på din mobil for at åbne LastPass fra en anden computer end din egen.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Sæt en timer i din kalender, så du skifter kodeord(mother-password) mindst én gang pr. kvartal.&lt;/p&gt;
   &lt;/li&gt;
 &lt;/ol&gt;
 
@@ -253,19 +355,19 @@ SÅ tag at gå over og prøv spillet &lt;a href=&quot;https://vim-adventures.com
   &lt;/tbody&gt;
 &lt;/table&gt;
 
-&lt;p&gt;I alt varer 4 arbejdstomater altså 2 timer og 15 minutter med automatisk indlagte pauser.&lt;/p&gt;
+&lt;p&gt;I alt varer 4 arbejdstomater altså 2 timer og 15 minutter med automatisk indlagte pauser samt en længere pause til sidst (i mit tilfælde 15 min.).&lt;/p&gt;
 
 &lt;p&gt;Det sikrer - især vigtigt, hvis du sidder foran en skærm hele dagen - at du får nogle pauser og at &lt;strong&gt;din hjerne ikke ender som grød efter 5 timer&lt;/strong&gt;.&lt;/p&gt;
 
 &lt;h3 id=&quot;pomodoro-teknikken---advanced&quot;&gt;Pomodoro teknikken - advanced!&lt;/h3&gt;
 
-&lt;p&gt;Teknikken er ikke kun en cyklus af arbejde og pause. Man kan også, hvis man har lyst, give sig i kast med 6 udfordringer, for at mestre teknikken.&lt;/p&gt;
+&lt;p&gt;Teknikken er ikke kun en cyklus af arbejde og pause. Man kan også, hvis man har lyst, give sig i kast med 6 udfordringer, for at mestre den til fulde.&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://cirillocompany.de/pages/pomodoro-technique&quot;&gt;Gå til Pomodoro Teknikkens hjemmeside&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://cirillocompany.de/pages/pomodoro-technique&quot; target=&quot;_blank&quot;&gt;Gå til Pomodoro Teknikkens hjemmeside&lt;/a&gt;&lt;/p&gt;
 
 &lt;h3 id=&quot;konklusion-2&quot;&gt;Konklusion&lt;/h3&gt;
 
-&lt;p&gt;Hvis du ønsker at give dig i kast med en udfordring, så prøv Tomighty. Det vil være svært, hvis du lideraf overspringshandlingssyge, men programmet kan være med til at give dig helt faste rammer for dine nye prøvelser.&lt;/p&gt;
+&lt;p&gt;Hvis du ønsker at give dig i kast med en udfordring, så prøv Tomighty. Det vil være svært, hvis du lider af overspringshandlingssyge, men programmet kan være med til at give dig et helt nyt værktøj til kampen for koncentrationen!&lt;/p&gt;
 
 &lt;p&gt;Held og lykke!&lt;/p&gt;
 
@@ -277,10 +379,10 @@ SÅ tag at gå over og prøv spillet &lt;a href=&quot;https://vim-adventures.com
 &lt;h2 id=&quot;dttm---dont-touch-the-mouse&quot;&gt;DTTM - &lt;strong&gt;D&lt;/strong&gt;on’t &lt;strong&gt;T&lt;/strong&gt;ouch &lt;strong&gt;T&lt;/strong&gt;he &lt;strong&gt;M&lt;/strong&gt;ouse&lt;/h2&gt;
 
 &lt;blockquote&gt;
-  &lt;p&gt;Don’t touch the mouse er mere en indstilling end en decideret kodebaseret teknologi. Det går kort og godt ud på at røre musen/mousepad så lidt som overhovedet muligt. Men hvorfor egentlig det?&lt;/p&gt;
+  &lt;p&gt;Don’t touch the mouse er mere en indstilling end en decideret kodebaseret teknologi. Det går kort og godt ud på at røre musen/mousepaden så lidt som overhovedet muligt. Men hvorfor egentlig det?&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;Når du flytter din hånd fra tastaturet til musen/mousepad er det ikke kun en belastning for håndledende (seneskedehindebetændelse!), men også en meget lille afbrydelse i dit arbejde. Mange bække små, gør en stor å!&lt;/p&gt;
+&lt;p&gt;Når du flytter din hånd fra tastaturet til musen/mousepaden er det ikke kun en belastning for håndledende (seneskedehindebetændelse!), men også en meget lille afbrydelse i dit arbejde. Mange bække små, gør en stor å!&lt;/p&gt;
 
 &lt;p&gt;Hvis du vil undgå dette, så vil jeg anbefale at lære de underliggende genveje og blot at tænke, hver gang du skal til at røre musen/mousepaden, “don’t touch the mouse!” og “er der en smartere måde at gøre det her på med en genvej?”.
 Efter en måned eller 2 - du vil være langsommere i starten - vil du skåne dine håndled og ikke mindst opleve et bedre flow i dit arbejde på computer.&lt;/p&gt;
@@ -410,16 +512,22 @@ Efter en måned eller 2 - du vil være langsommere i starten - vil du skåne din
 &lt;/div&gt;
 
 &lt;blockquote&gt;
-  &lt;p&gt;&lt;strong&gt;Fif:&lt;/strong&gt; Hvis du vil ‘tvinge’ dig selv til at undgå musen, så kan jeg varmt anbefale at købe et &lt;a href=&quot;https://www.therooststand.com/&quot; target=&quot;_blank&quot;&gt;Roosts Stand&lt;/a&gt; og et tilhørende tastatur (min favorit er &lt;a href=&quot;https://www.apple.com/dk/shop/product/MLA22B/A/magic-keyboard-engelsk-storbritannien?fnode=56&quot; target=&quot;_blank&quot;&gt;Apple Keyboard&lt;/a&gt;. Nu mangler du en mus, og vil automatisk ændre dine vaner. Derudover flytter Roost stativet din computer op i en højde, så du sidder med ret ryg, når du arbejder.&lt;/p&gt;
+  &lt;p&gt;&lt;strong&gt;Fif:&lt;/strong&gt; Hvis du vil ‘tvinge’ dig selv til at undgå musen, så kan jeg varmt anbefale at købe et &lt;a href=&quot;https://www.therooststand.com/&quot; target=&quot;_blank&quot;&gt;Roosts Stand&lt;/a&gt; og et tilhørende tastatur (min favorit er &lt;a href=&quot;https://www.apple.com/dk/shop/product/MLA22B/A/magic-keyboard-engelsk-storbritannien?fnode=56&quot; target=&quot;_blank&quot;&gt;Apple Keyboard&lt;/a&gt;). Nu mangler du en mus, og vil automatisk ændre dine vaner. Derudover flytter Roost stativet din computer op i en højde, så du sidder med ret ryg, når du arbejder.&lt;/p&gt;
 &lt;/blockquote&gt;
+
+&lt;p&gt;Alt i alt er DTTM med til at forbedre dit værktøj(computeren) i en retning, så du bliver hurtigere, oplever færre afbrydelser og skåner dine håndled.&lt;/p&gt;
+
+&lt;p&gt;På samme vis som med VIM er dette en investering, som vil forværre dit arbejde i starten, men på sigt forvandle det til et mere skånsomt og produktivt miljø.&lt;/p&gt;
+
+&lt;p&gt;Hvis du ved, at du har nok timer til at øve dig foran computeren, vil jeg klart anbefale at give dig i kast med Don’t Touch The Mouse!&lt;/p&gt;
+
+&lt;hr /&gt;
 
 &lt;hr /&gt;
 
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
-&lt;h4 id=&quot;det-var-de-4-værktøjer-som-jeg-bruger-hver-dag--jeg-håber-at-du-kunne-bruge-dem-til-noget&quot;&gt;Det var de 4 værktøjer, som jeg bruger hver dag.  Jeg håber, at du kunne bruge dem til noget.&lt;/h4&gt;
-
-&lt;p&gt;Hilsen IT&lt;/p&gt;</content><author><name></name></author><category term="blogs" /><summary type="html">Techlove er en samling af værktøjer, som jeg gør brug af hver dag. De hjælper mig dagligt med at gøre det til en mere flydende bevægelse at arbejde på en computer. Hvis du som jeg sidder størstedelen af din arbejdstid ved en computer og samtidig elsker dette værktøj, så har du nu mulighed for at slibe det en smule ‘skarpere’.</summary></entry><entry><title type="html">Del 1 - HTML, CSS og JavaScript</title><link href="http://localhost:4000/wordpress/2018/01/25/wordpress-kursus.html" rel="alternate" type="text/html" title="Del 1 - HTML, CSS og JavaScript" /><published>2018-01-25T22:09:58+01:00</published><updated>2018-01-25T22:09:58+01:00</updated><id>http://localhost:4000/wordpress/2018/01/25/wordpress-kursus</id><content type="html" xml:base="http://localhost:4000/wordpress/2018/01/25/wordpress-kursus.html">&lt;blockquote&gt;
+&lt;h4 id=&quot;det-var-de-4-værktøjer-som-jeg-bruger-hver-dag--jeg-håber-at-du-kunne-bruge-dem-til-noget&quot;&gt;Det var de 4 værktøjer, som jeg bruger hver dag.  Jeg håber, at du kunne bruge dem til noget.&lt;/h4&gt;</content><author><name></name></author><category term="blogs" /><summary type="html">Techlove er en samling af værktøjer, som jeg gør brug af hver dag. De hjælper mig dagligt med at gøre det til en mere flydende bevægelse at arbejde på en computer. Hvis du som jeg sidder størstedelen af din arbejdstid ved en computer og samtidig elsker dette værktøj, så har du nu mulighed for at slibe det en smule ‘skarpere’.</summary></entry><entry><title type="html">Del 1 - HTML, CSS og JavaScript</title><link href="http://localhost:4000/wordpress/2018/01/25/wordpress-kursus.html" rel="alternate" type="text/html" title="Del 1 - HTML, CSS og JavaScript" /><published>2018-01-25T22:09:58+01:00</published><updated>2018-01-25T22:09:58+01:00</updated><id>http://localhost:4000/wordpress/2018/01/25/wordpress-kursus</id><content type="html" xml:base="http://localhost:4000/wordpress/2018/01/25/wordpress-kursus.html">&lt;blockquote&gt;
   &lt;p&gt;&lt;strong&gt;Forberedelse&lt;/strong&gt;: Start med at &lt;a href=&quot;/assets/wordpress-master.zip&quot; download=&quot;&quot;&gt;downloade eksemplet&lt;/a&gt; og åben den downloadede mappe i f.eks. &lt;a href=&quot;https://www.sublimetext.com/3&quot;&gt;Sublime Text 3&lt;/a&gt;. Åben derefter &lt;code class=&quot;highlighter-rouge&quot;&gt;index.html&lt;/code&gt; i en browser for at se indholdet. Dette vil være mappen, hvor du selv kan lave ændringer og afprøve den viden, som du møder hen af vejen.&lt;/p&gt;
 &lt;/blockquote&gt;
 

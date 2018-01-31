@@ -30,7 +30,9 @@ For at forklare VIM ordentligt, bliver man nødt til at forstå **VIM modes**.
 
 > **VIM modes** er overordnede indstillinger for dit tastatur. Altså kan dit tastatur (dine taster) have forskellige funktioner afhængig af hvilket mode dit tastatur er i. Normalt har vi kun **insert-mode** på en computer, hvor c-tasten skriver 'c', men i VIM kan c-tasten også stå for **change** hvis man er i **normal-mode**. Eksempel følger:
 
-I normal-mode, som man tilgår ved at trykke ESC-knappen, betyder knappen c **change**. Knappen w betyder **word**, så hvis du sætter din cursor over et ord i normal-mode og trykker c og så w lige efter, vil du **change word**, som betyder, at det ord du står på forsvinder og bliver erstattet af din cursor(går til insert-mode). Nu kan du taste et ord, som du kender det fra dit normale tekstbehandlingsprogram, og derefter trykke ESC-knappen for at gå til normal-mode igen.
+*Der findes også visual- og command-line-mode, men det bliver for kompliceret at forklare her. Du kan læse mere via de links, som er listet under **Konklusion** senere.*
+
+I normal-mode, som man tilgår ved at trykke ESC-knappen, betyder knappen c **change**. Knappen w betyder **word** og knappen i betyder **inside**, så hvis du sætter din cursor over et ord i normal-mode og trykker c, så i og så w lige efter, vil du **change inside word**, som betyder, at det ord du står på forsvinder og bliver erstattet af din cursor(går til insert-mode). Nu kan du taste et ord, som du kender det fra dit normale tekstbehandlingsprogram, og derefter trykke ESC-knappen for at gå til normal-mode igen.
 
 Forvirret? 
 
@@ -38,7 +40,7 @@ Sådan er det med VIM. Det tager tid at forstå og at implementere. Det er utrol
 
 Tilbage til normal-mode:
  
-**Hvad med andre knapper end 'w' og 'c'... Hvis man ikke kan bruge dem til at taste, hvad kan de så i normal-mode?** 
+**Hvad med andre knapper end w, i og c... Hvis man ikke kan bruge dem til at taste, hvad kan de så i normal-mode?** 
 
 Ja, de har så alle deres egen funktion, som du kan bruge til at navigere, gemme, kopiere, erstatte etc. Her kommer et lille udsnit, for at give dig en idé om, hvad du snart kommer til at mestre:
 
@@ -52,35 +54,61 @@ Ja, de har så alle deres egen funktion, som du kan bruge til at navigere, gemme
 | gg   | Gå til første linje |
 | d   | Slet |
 | dd   | Slet hele linjen |
+| D | Slet resten af linjen |
 | c | slet og gå til insert-mode (change) | 
 | cc | slet hele linjen og gå til insert-mode |
+| C | Slet resten af linjen(fra hvor cursoren er) og gå til insert mode |
 | e | Hop et ord frem |
 | b | Hop et ord tilbage |
 | a | Rundt om (around) |
 | i | Inden i (in) | 
+| w | Ord (word) |
+| s | Sætning (sentence) |
+| t | Tag (HTML-tag) |
 | o | Lav ny linje under og gå til insert-mode |
 | O | Lav ny linje over og gå til insert-mode |
+| y | Kopier (yank) |
+| Y | Kopier hele linjen, som din cursor er på |
+| p | Indsæt (paste) |
+| P | Lav ny linje over og indsæt | 
+| f | Gå til næste på linjen |
+| F | Gå til forrige på linjen |
+| t | Gå til næste men på pladsen før det valgte |
+| T | Gå til forrige men på pladsen før det valgte |
 | h, j, k og l | Fungerer som piletasterne: venstre, ned, op, højre, så du ikke skal flytte hånden for at navigere |  
 
-Det er blot et meget lille udsnit, men hvad der er værd at vide er, at **de kan sættes sammen!**
+*Forskellen på delete og change er, at change går direkte til insert-mode (normal indtastning), mens man efter at have brugt delete bliver i normal-mode.*
+
+Det er blot et meget lille udsnit, men hvad der er værd at vide er, at **funktionerne kan sættes sammen!**
 
 > **Sammensætning:** I VIM kan du sætte forskellige indtastninger sammen, så man f.eks. kan taste di", som betyder: Slet alt inde i gåseøjnene. Eller med c, a og parentes: ca(, der betyder: Slet alt inden i parenteserne og tag parenteserne med og gå til insert-mode!
 
 Andre eksempler på sammensætninger - tal kan også bruges:
 
- * 5j: hop 5 linjer ned.
- * 10e: hop 10 ord frem.
- * dis: slet denne sætning (uden punktum)
+| Indtastning | Funktion i normal-mode |
+|:--------|:-------:|
+| dG | slet resten af dokumentet |
+| 5j | hop 5 linjer ned |
+| d5j | slet 5 linjer |
+| 10e | hop 10 ord frem |
+| c10e | slet 10 ord frem og gå til insert-mode |
+| dis | slet denne sætning (uden punktum) |
+| ya( | kopier hele parentesen inkl. parenteserne |
+| df" | slet indtil gåseøjnene inkl. gåseøjnene |
+| dt" | slet indtil gåseøjnene  ekskl. gåseøjnene |
+| dT( | slet bagud indtil åben parentes ekskl. parentes |
 
-Osv. osv. osv. 
+Igen er det **kun et lille udsnit**! Du kan nok forestille dig, hvor mange 100-vis af sammensatte kommandoer, der findes. Nogle af dem mere brugte end andre, men pointen er, at du pludselig kan sætte dine værktøjer sammen og bygge løsninger, der passer til en hver situation i tekst-sammenhænge.
 
-Til sidst vil du bruge kommandoerne uden at tænke over det og får derved en vanvittig hurtig værktøjskasse!
+> Til sidst vil du bruge VIM-funktionerne i forlængelse af hinanden uden at tænke over det og får derved en vanvittig hurtig og fleksibel værktøjskasse!
+
+VIM har nogle mere advancerede funktioner såsom **register**, **makros** og mange, mange flere. Jeg er kun selv lige begyndt at udforske disse og bliver stadig overrasket over hvad VIM er i stand til!
 
 
 ### Fortvivlet? - spil det!
 
 Hvis du synes, at det lyder bare nogenlunde spændende, men tænker: Wtf? 
-SÅ tag at gå over og prøv spillet [Vim Adventures](https://vim-adventures.com/){:target="_blank"}, hvor du kan spille dig igennem de første mange funktioner og prøve kræfter med det. Det er en god smagsprøve.
+SÅ tag at gå over og prøv spillet [VIM Adventures](https://vim-adventures.com/){:target="_blank"}, hvor du kan spille dig igennem de første mange funktioner og prøve kræfter med det. Det er en god smagsprøve.
 
 [![VIM Adventure](/assets/blogs/vim-adventure.jpg)](https://vim-adventures.com/){:target="_blank"}
 
@@ -91,12 +119,12 @@ VIM er for dig, som ved, at du kommer til at sidde 1000-vis af timer ved et tast
 
 Tro mig.. 
 
-Den første gang jeg prøvede var jeg nødt til at opgive, da jeg var igang med et projekt med en deadline. To måneder senere to jeg kampen op igen og blev ved med at tro på, at det ville betale sig en dag. Nu er det en fornøjelse hver gang, at jeg skal skrive kode eller f.eks. skrive indlæg til denne blog, og min hastighed er langt over, hvor jeg tidligere lå i [Sublime Text 2](https://www.sublimetext.com/2) (en normal teksteditor).
+Den første gang jeg prøvede, var jeg nødt til at opgive, da jeg var igang med et projekt med en stram deadline. To måneder senere tog jeg kampen op igen og blev ved med at tro på, at det ville betale sig en dag. Nu er det en fornøjelse hver gang, at jeg skal skrive kode eller f.eks. skrive indlæg til denne blog i [Jekyll](https://jekyllrb.com/){:target="_blank"}, og min hastighed er langt over, hvor jeg tidligere lå i [Sublime Text 2](https://www.sublimetext.com/2) (en normal teksteditor).
 
 Hvis du har lyst til at læse mere:
 
 * [VIM Online](http://www.vim.org/)
-* [Vim Tips Wiki](http://vim.wikia.com/wiki/Vim_Tips_Wiki){:target="_blank"}
+* [VIM Tips Wiki](http://vim.wikia.com/wiki/Vim_Tips_Wiki){:target="_blank"}
 * [Youtube video - Intro to VIM](https://www.youtube.com/watch?v=Xp0cTB1llqU){:target="_blank"}
 * [VIM Wikipedia](https://da.wikipedia.org/wiki/Vim)
 
@@ -117,9 +145,9 @@ Hvis du har lyst til at læse mere:
 
 LastPass er et simpelt program til din computer/smartphone, hvor du opretter dig og derefter indtaster ét kodeord til en **online platform (skattekiste), der fremover vil indeholde alle dine kodeord**. Det er kun den(dig) med det ene kodeord, som så kan få lov at komme ind til alle de andre kodeord i fremtiden.
 
-### Hvorfor er dette smart?
+### Hvorfor er det smart?
 
-Det er smart fordi at LastPass fra da af vil hjælpe dig til at ændre/oprette kodeord til din skattekiste hver gang, at du besøger en hjemmeside, hvor du skal bruge et kodeord.
+Det er smart, fordi LastPass fra da af vil hjælpe dig til at ændre/oprette kodeord til din skattekiste hver gang, at du besøger en hjemmeside, hvor du skal bruge et kodeord.
 
 Hvis jeg for eksempel ville oprette en bruger på [Heroku](https://www.heroku.com/) - min fortrukne serverløsning - ser det således ud under adgangskodefeltet:
 
@@ -135,13 +163,11 @@ Ja.. Så er jeg færdig... Med alt hvad det indebærer. Men.. LastPass gør det 
  
 > LastPass gør det muligt kun at have én indgang til alle dine kodeord, som du så kan fokusere alle dine kræfter på at gøre sikker!
 
-#### Tre gode råd til din sikkerhed:
+#### To gode råd til din sikkerhed:
 
 1. Memorer ét langt og sindssygt svært kodeord til LastPass. Inkluder gerne alle mulige underlige tegn udover bogstaver og tal, for at gøre det endnu sikrere. **Lad være med at gem det på din computer!** 
 
 2. Aktiver [Multifactor Authentication](https://lastpass.com/multifactor-authentication/), så du skal bruge en tidsindstillet kode fra en app på din mobil for at åbne LastPass fra en anden computer end din egen.
-
-3. Sæt en timer i din kalender, så du skifter kodeord(mother-password) mindst én gang pr. kvartal.
 
 
 ### Konklusion
@@ -180,20 +206,20 @@ Den samlede cyklus, som jeg har indstillet, ser således ud:
 | 25 min. arbejde | 5 min. pause |
 | **15. min. pause** |
 
-I alt varer 4 arbejdstomater altså 2 timer og 15 minutter med automatisk indlagte pauser. 
+I alt varer 4 arbejdstomater altså 2 timer og 15 minutter med automatisk indlagte pauser samt en længere pause til sidst (i mit tilfælde 15 min.). 
 
 Det sikrer - især vigtigt, hvis du sidder foran en skærm hele dagen - at du får nogle pauser og at **din hjerne ikke ender som grød efter 5 timer**. 
 
 
 ### Pomodoro teknikken - advanced!
 
-Teknikken er ikke kun en cyklus af arbejde og pause. Man kan også, hvis man har lyst, give sig i kast med 6 udfordringer, for at mestre teknikken. 
+Teknikken er ikke kun en cyklus af arbejde og pause. Man kan også, hvis man har lyst, give sig i kast med 6 udfordringer, for at mestre den til fulde.
 
-[Gå til Pomodoro Teknikkens hjemmeside](https://cirillocompany.de/pages/pomodoro-technique).
+[Gå til Pomodoro Teknikkens hjemmeside](https://cirillocompany.de/pages/pomodoro-technique){:target="_blank"}
 
 ### Konklusion
 
-Hvis du ønsker at give dig i kast med en udfordring, så prøv Tomighty. Det vil være svært, hvis du lideraf overspringshandlingssyge, men programmet kan være med til at give dig helt faste rammer for dine nye prøvelser.
+Hvis du ønsker at give dig i kast med en udfordring, så prøv Tomighty. Det vil være svært, hvis du lider af overspringshandlingssyge, men programmet kan være med til at give dig et helt nyt værktøj til kampen for koncentrationen!
 
 Held og lykke!
 
@@ -206,10 +232,10 @@ Held og lykke!
 
 ## DTTM - **D**on't **T**ouch **T**he **M**ouse
 
-> Don't touch the mouse er mere en indstilling end en decideret kodebaseret teknologi. Det går kort og godt ud på at røre musen/mousepad så lidt som overhovedet muligt. Men hvorfor egentlig det?
+> Don't touch the mouse er mere en indstilling end en decideret kodebaseret teknologi. Det går kort og godt ud på at røre musen/mousepaden så lidt som overhovedet muligt. Men hvorfor egentlig det?
 
 
-Når du flytter din hånd fra tastaturet til musen/mousepad er det ikke kun en belastning for håndledende (seneskedehindebetændelse!), men også en meget lille afbrydelse i dit arbejde. Mange bække små, gør en stor å!
+Når du flytter din hånd fra tastaturet til musen/mousepaden er det ikke kun en belastning for håndledende (seneskedehindebetændelse!), men også en meget lille afbrydelse i dit arbejde. Mange bække små, gør en stor å!
 
 
 Hvis du vil undgå dette, så vil jeg anbefale at lære de underliggende genveje og blot at tænke, hver gang du skal til at røre musen/mousepaden, "don't touch the mouse!" og "er der en smartere måde at gøre det her på med en genvej?".
@@ -219,15 +245,20 @@ Efter en måned eller 2 - du vil være langsommere i starten - vil du skåne din
 
 {% include shortcuts.html %}
 
-> **Fif:** Hvis du vil 'tvinge' dig selv til at undgå musen, så kan jeg varmt anbefale at købe et [Roosts Stand](https://www.therooststand.com/){:target="_blank"} og et tilhørende tastatur (min favorit er [Apple Keyboard](https://www.apple.com/dk/shop/product/MLA22B/A/magic-keyboard-engelsk-storbritannien?fnode=56){:target="_blank"}. Nu mangler du en mus, og vil automatisk ændre dine vaner. Derudover flytter Roost stativet din computer op i en højde, så du sidder med ret ryg, når du arbejder.
+> **Fif:** Hvis du vil 'tvinge' dig selv til at undgå musen, så kan jeg varmt anbefale at købe et [Roosts Stand](https://www.therooststand.com/){:target="_blank"} og et tilhørende tastatur (min favorit er [Apple Keyboard](https://www.apple.com/dk/shop/product/MLA22B/A/magic-keyboard-engelsk-storbritannien?fnode=56){:target="_blank"}). Nu mangler du en mus, og vil automatisk ændre dine vaner. Derudover flytter Roost stativet din computer op i en højde, så du sidder med ret ryg, når du arbejder.
 
+
+Alt i alt er DTTM med til at forbedre dit værktøj(computeren) i en retning, så du bliver hurtigere, oplever færre afbrydelser og skåner dine håndled.
+
+På samme vis som med VIM er dette en investering, som vil forværre dit arbejde i starten, men på sigt forvandle det til et mere skånsomt og produktivt miljø.
+
+Hvis du ved, at du har nok timer til at øve dig foran computeren, vil jeg klart anbefale at give dig i kast med Don't Touch The Mouse!
+
+***
 
 ***
 
 <br>
 
 #### Det var de 4 værktøjer, som jeg bruger hver dag.  Jeg håber, at du kunne bruge dem til noget.
-
-Hilsen IT
-
 

@@ -1,6 +1,6 @@
 <!DOCTYPE html>
-<html lang="en">
 
+<html lang="en">
   <head>
 	<link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32x32.png">
 	<link rel="icon" type="image/png" sizes="96x96" href="/assets/favicon-96x96.png">
@@ -14,16 +14,13 @@
 	<title>Hilsen IT</title>
 </head>
 
-
   <body>
-
     <header class="site-header" role="banner">
 
   <div class="wrapper">
     
     
     <a class="site-title" rel="author" href="/">Hilsen IT</a>
-
 
     
       <nav class="site-nav">
@@ -58,7 +55,6 @@
   </div>
 </header>
 
-
     <main class="page-content" aria-label="Content">
       <div class="wrapper">
         <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
@@ -82,6 +78,8 @@
       </time>
       </p>
   </header>
+
+	<hr>
 
   <div class="post-content e-content" itemprop="articleBody">
     <blockquote>
@@ -111,7 +109,9 @@
   <p><strong>VIM modes</strong> er overordnede indstillinger for dit tastatur. Altså kan dit tastatur (dine taster) have forskellige funktioner afhængig af hvilket mode dit tastatur er i. Normalt har vi kun <strong>insert-mode</strong> på en computer, hvor c-tasten skriver ‘c’, men i VIM kan c-tasten også stå for <strong>change</strong> hvis man er i <strong>normal-mode</strong>. Eksempel følger:</p>
 </blockquote>
 
-<p>I normal-mode, som man tilgår ved at trykke ESC-knappen, betyder knappen c <strong>change</strong>. Knappen w betyder <strong>word</strong>, så hvis du sætter din cursor over et ord i normal-mode og trykker c og så w lige efter, vil du <strong>change word</strong>, som betyder, at det ord du står på forsvinder og bliver erstattet af din cursor(går til insert-mode). Nu kan du taste et ord, som du kender det fra dit normale tekstbehandlingsprogram, og derefter trykke ESC-knappen for at gå til normal-mode igen.</p>
+<p><em>Der findes også visual- og command-line-mode, men det bliver for kompliceret at forklare her. Du kan læse mere via de links, som er listet under <strong>Konklusion</strong> senere.</em></p>
+
+<p>I normal-mode, som man tilgår ved at trykke ESC-knappen, betyder knappen c <strong>change</strong>. Knappen w betyder <strong>word</strong> og knappen i betyder <strong>inside</strong>, så hvis du sætter din cursor over et ord i normal-mode og trykker c, så i og så w lige efter, vil du <strong>change inside word</strong>, som betyder, at det ord du står på forsvinder og bliver erstattet af din cursor(går til insert-mode). Nu kan du taste et ord, som du kender det fra dit normale tekstbehandlingsprogram, og derefter trykke ESC-knappen for at gå til normal-mode igen.</p>
 
 <p>Forvirret?</p>
 
@@ -119,7 +119,7 @@
 
 <p>Tilbage til normal-mode:</p>
 
-<p><strong>Hvad med andre knapper end ‘w’ og ‘c’… Hvis man ikke kan bruge dem til at taste, hvad kan de så i normal-mode?</strong></p>
+<p><strong>Hvad med andre knapper end w, i og c… Hvis man ikke kan bruge dem til at taste, hvad kan de så i normal-mode?</strong></p>
 
 <p>Ja, de har så alle deres egen funktion, som du kan bruge til at navigere, gemme, kopiere, erstatte etc. Her kommer et lille udsnit, for at give dig en idé om, hvad du snart kommer til at mestre:</p>
 
@@ -152,12 +152,20 @@
       <td style="text-align: center">Slet hele linjen</td>
     </tr>
     <tr>
+      <td style="text-align: left">D</td>
+      <td style="text-align: center">Slet resten af linjen</td>
+    </tr>
+    <tr>
       <td style="text-align: left">c</td>
       <td style="text-align: center">slet og gå til insert-mode (change)</td>
     </tr>
     <tr>
       <td style="text-align: left">cc</td>
       <td style="text-align: center">slet hele linjen og gå til insert-mode</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">C</td>
+      <td style="text-align: center">Slet resten af linjen(fra hvor cursoren er) og gå til insert mode</td>
     </tr>
     <tr>
       <td style="text-align: left">e</td>
@@ -176,6 +184,18 @@
       <td style="text-align: center">Inden i (in)</td>
     </tr>
     <tr>
+      <td style="text-align: left">w</td>
+      <td style="text-align: center">Ord (word)</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">s</td>
+      <td style="text-align: center">Sætning (sentence)</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">t</td>
+      <td style="text-align: center">Tag (HTML-tag)</td>
+    </tr>
+    <tr>
       <td style="text-align: left">o</td>
       <td style="text-align: center">Lav ny linje under og gå til insert-mode</td>
     </tr>
@@ -184,13 +204,47 @@
       <td style="text-align: center">Lav ny linje over og gå til insert-mode</td>
     </tr>
     <tr>
+      <td style="text-align: left">y</td>
+      <td style="text-align: center">Kopier (yank)</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">Y</td>
+      <td style="text-align: center">Kopier hele linjen, som din cursor er på</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">p</td>
+      <td style="text-align: center">Indsæt (paste)</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">P</td>
+      <td style="text-align: center">Lav ny linje over og indsæt</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">f</td>
+      <td style="text-align: center">Gå til næste på linjen</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">F</td>
+      <td style="text-align: center">Gå til forrige på linjen</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">t</td>
+      <td style="text-align: center">Gå til næste men på pladsen før det valgte</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">T</td>
+      <td style="text-align: center">Gå til forrige men på pladsen før det valgte</td>
+    </tr>
+    <tr>
       <td style="text-align: left">h, j, k og l</td>
       <td style="text-align: center">Fungerer som piletasterne: venstre, ned, op, højre, så du ikke skal flytte hånden for at navigere</td>
     </tr>
   </tbody>
 </table>
 
-<p>Det er blot et meget lille udsnit, men hvad der er værd at vide er, at <strong>de kan sættes sammen!</strong></p>
+<p><em>Forskellen på delete og change er, at change går direkte til insert-mode (normal indtastning), mens man efter at have brugt delete bliver i normal-mode.</em></p>
+
+<p>Det er blot et meget lille udsnit, men hvad der er værd at vide er, at <strong>funktionerne kan sættes sammen!</strong></p>
 
 <blockquote>
   <p><strong>Sammensætning:</strong> I VIM kan du sætte forskellige indtastninger sammen, så man f.eks. kan taste di”, som betyder: Slet alt inde i gåseøjnene. Eller med c, a og parentes: ca(, der betyder: Slet alt inden i parenteserne og tag parenteserne med og gå til insert-mode!</p>
@@ -198,20 +252,69 @@
 
 <p>Andre eksempler på sammensætninger - tal kan også bruges:</p>
 
-<ul>
-  <li>5j: hop 5 linjer ned.</li>
-  <li>10e: hop 10 ord frem.</li>
-  <li>dis: slet denne sætning (uden punktum)</li>
-</ul>
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: left">Indtastning</th>
+      <th style="text-align: center">Funktion i normal-mode</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left">dG</td>
+      <td style="text-align: center">slet resten af dokumentet</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">5j</td>
+      <td style="text-align: center">hop 5 linjer ned</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">d5j</td>
+      <td style="text-align: center">slet 5 linjer</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">10e</td>
+      <td style="text-align: center">hop 10 ord frem</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">c10e</td>
+      <td style="text-align: center">slet 10 ord frem og gå til insert-mode</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">dis</td>
+      <td style="text-align: center">slet denne sætning (uden punktum)</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">ya(</td>
+      <td style="text-align: center">kopier hele parentesen inkl. parenteserne</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">df”</td>
+      <td style="text-align: center">slet indtil gåseøjnene inkl. gåseøjnene</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">dt”</td>
+      <td style="text-align: center">slet indtil gåseøjnene  ekskl. gåseøjnene</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">dT(</td>
+      <td style="text-align: center">slet bagud indtil åben parentes ekskl. parentes</td>
+    </tr>
+  </tbody>
+</table>
 
-<p>Osv. osv. osv.</p>
+<p>Igen er det <strong>kun et lille udsnit</strong>! Du kan nok forestille dig, hvor mange 100-vis af sammensatte kommandoer, der findes. Nogle af dem mere brugte end andre, men pointen er, at du pludselig kan sætte dine værktøjer sammen og bygge løsninger, der passer til en hver situation i tekst-sammenhænge.</p>
 
-<p>Til sidst vil du bruge kommandoerne uden at tænke over det og får derved en vanvittig hurtig værktøjskasse!</p>
+<blockquote>
+  <p>Til sidst vil du bruge VIM-funktionerne i forlængelse af hinanden uden at tænke over det og får derved en vanvittig hurtig og fleksibel værktøjskasse!</p>
+</blockquote>
+
+<p>VIM har nogle mere advancerede funktioner såsom <strong>register</strong>, <strong>makros</strong> og mange, mange flere. Jeg er kun selv lige begyndt at udforske disse og bliver stadig overrasket over hvad VIM er i stand til!</p>
 
 <h3 id="fortvivlet---spil-det">Fortvivlet? - spil det!</h3>
 
 <p>Hvis du synes, at det lyder bare nogenlunde spændende, men tænker: Wtf? 
-SÅ tag at gå over og prøv spillet <a href="https://vim-adventures.com/" target="_blank">Vim Adventures</a>, hvor du kan spille dig igennem de første mange funktioner og prøve kræfter med det. Det er en god smagsprøve.</p>
+SÅ tag at gå over og prøv spillet <a href="https://vim-adventures.com/" target="_blank">VIM Adventures</a>, hvor du kan spille dig igennem de første mange funktioner og prøve kræfter med det. Det er en god smagsprøve.</p>
 
 <p><a href="https://vim-adventures.com/" target="_blank"><img src="/assets/blogs/vim-adventure.jpg" alt="VIM Adventure" /></a></p>
 
@@ -221,13 +324,13 @@ SÅ tag at gå over og prøv spillet <a href="https://vim-adventures.com/" targe
 
 <p>Tro mig..</p>
 
-<p>Den første gang jeg prøvede var jeg nødt til at opgive, da jeg var igang med et projekt med en deadline. To måneder senere to jeg kampen op igen og blev ved med at tro på, at det ville betale sig en dag. Nu er det en fornøjelse hver gang, at jeg skal skrive kode eller f.eks. skrive indlæg til denne blog, og min hastighed er langt over, hvor jeg tidligere lå i <a href="https://www.sublimetext.com/2">Sublime Text 2</a> (en normal teksteditor).</p>
+<p>Den første gang jeg prøvede, var jeg nødt til at opgive, da jeg var igang med et projekt med en stram deadline. To måneder senere tog jeg kampen op igen og blev ved med at tro på, at det ville betale sig en dag. Nu er det en fornøjelse hver gang, at jeg skal skrive kode eller f.eks. skrive indlæg til denne blog i <a href="https://jekyllrb.com/" target="_blank">Jekyll</a>, og min hastighed er langt over, hvor jeg tidligere lå i <a href="https://www.sublimetext.com/2">Sublime Text 2</a> (en normal teksteditor).</p>
 
 <p>Hvis du har lyst til at læse mere:</p>
 
 <ul>
   <li><a href="http://www.vim.org/">VIM Online</a></li>
-  <li><a href="http://vim.wikia.com/wiki/Vim_Tips_Wiki" target="_blank">Vim Tips Wiki</a></li>
+  <li><a href="http://vim.wikia.com/wiki/Vim_Tips_Wiki" target="_blank">VIM Tips Wiki</a></li>
   <li><a href="https://www.youtube.com/watch?v=Xp0cTB1llqU" target="_blank">Youtube video - Intro to VIM</a></li>
   <li><a href="https://da.wikipedia.org/wiki/Vim">VIM Wikipedia</a></li>
 </ul>
@@ -250,9 +353,9 @@ SÅ tag at gå over og prøv spillet <a href="https://vim-adventures.com/" targe
 
 <p>LastPass er et simpelt program til din computer/smartphone, hvor du opretter dig og derefter indtaster ét kodeord til en <strong>online platform (skattekiste), der fremover vil indeholde alle dine kodeord</strong>. Det er kun den(dig) med det ene kodeord, som så kan få lov at komme ind til alle de andre kodeord i fremtiden.</p>
 
-<h3 id="hvorfor-er-dette-smart">Hvorfor er dette smart?</h3>
+<h3 id="hvorfor-er-det-smart">Hvorfor er det smart?</h3>
 
-<p>Det er smart fordi at LastPass fra da af vil hjælpe dig til at ændre/oprette kodeord til din skattekiste hver gang, at du besøger en hjemmeside, hvor du skal bruge et kodeord.</p>
+<p>Det er smart, fordi LastPass fra da af vil hjælpe dig til at ændre/oprette kodeord til din skattekiste hver gang, at du besøger en hjemmeside, hvor du skal bruge et kodeord.</p>
 
 <p>Hvis jeg for eksempel ville oprette en bruger på <a href="https://www.heroku.com/">Heroku</a> - min fortrukne serverløsning - ser det således ud under adgangskodefeltet:</p>
 
@@ -270,7 +373,7 @@ SÅ tag at gå over og prøv spillet <a href="https://vim-adventures.com/" targe
   <p>LastPass gør det muligt kun at have én indgang til alle dine kodeord, som du så kan fokusere alle dine kræfter på at gøre sikker!</p>
 </blockquote>
 
-<h4 id="tre-gode-råd-til-din-sikkerhed">Tre gode råd til din sikkerhed:</h4>
+<h4 id="to-gode-råd-til-din-sikkerhed">To gode råd til din sikkerhed:</h4>
 
 <ol>
   <li>
@@ -278,9 +381,6 @@ SÅ tag at gå over og prøv spillet <a href="https://vim-adventures.com/" targe
   </li>
   <li>
     <p>Aktiver <a href="https://lastpass.com/multifactor-authentication/">Multifactor Authentication</a>, så du skal bruge en tidsindstillet kode fra en app på din mobil for at åbne LastPass fra en anden computer end din egen.</p>
-  </li>
-  <li>
-    <p>Sæt en timer i din kalender, så du skifter kodeord(mother-password) mindst én gang pr. kvartal.</p>
   </li>
 </ol>
 
@@ -339,19 +439,19 @@ SÅ tag at gå over og prøv spillet <a href="https://vim-adventures.com/" targe
   </tbody>
 </table>
 
-<p>I alt varer 4 arbejdstomater altså 2 timer og 15 minutter med automatisk indlagte pauser.</p>
+<p>I alt varer 4 arbejdstomater altså 2 timer og 15 minutter med automatisk indlagte pauser samt en længere pause til sidst (i mit tilfælde 15 min.).</p>
 
 <p>Det sikrer - især vigtigt, hvis du sidder foran en skærm hele dagen - at du får nogle pauser og at <strong>din hjerne ikke ender som grød efter 5 timer</strong>.</p>
 
 <h3 id="pomodoro-teknikken---advanced">Pomodoro teknikken - advanced!</h3>
 
-<p>Teknikken er ikke kun en cyklus af arbejde og pause. Man kan også, hvis man har lyst, give sig i kast med 6 udfordringer, for at mestre teknikken.</p>
+<p>Teknikken er ikke kun en cyklus af arbejde og pause. Man kan også, hvis man har lyst, give sig i kast med 6 udfordringer, for at mestre den til fulde.</p>
 
-<p><a href="https://cirillocompany.de/pages/pomodoro-technique">Gå til Pomodoro Teknikkens hjemmeside</a>.</p>
+<p><a href="https://cirillocompany.de/pages/pomodoro-technique" target="_blank">Gå til Pomodoro Teknikkens hjemmeside</a></p>
 
 <h3 id="konklusion-2">Konklusion</h3>
 
-<p>Hvis du ønsker at give dig i kast med en udfordring, så prøv Tomighty. Det vil være svært, hvis du lideraf overspringshandlingssyge, men programmet kan være med til at give dig helt faste rammer for dine nye prøvelser.</p>
+<p>Hvis du ønsker at give dig i kast med en udfordring, så prøv Tomighty. Det vil være svært, hvis du lider af overspringshandlingssyge, men programmet kan være med til at give dig et helt nyt værktøj til kampen for koncentrationen!</p>
 
 <p>Held og lykke!</p>
 
@@ -363,10 +463,10 @@ SÅ tag at gå over og prøv spillet <a href="https://vim-adventures.com/" targe
 <h2 id="dttm---dont-touch-the-mouse">DTTM - <strong>D</strong>on’t <strong>T</strong>ouch <strong>T</strong>he <strong>M</strong>ouse</h2>
 
 <blockquote>
-  <p>Don’t touch the mouse er mere en indstilling end en decideret kodebaseret teknologi. Det går kort og godt ud på at røre musen/mousepad så lidt som overhovedet muligt. Men hvorfor egentlig det?</p>
+  <p>Don’t touch the mouse er mere en indstilling end en decideret kodebaseret teknologi. Det går kort og godt ud på at røre musen/mousepaden så lidt som overhovedet muligt. Men hvorfor egentlig det?</p>
 </blockquote>
 
-<p>Når du flytter din hånd fra tastaturet til musen/mousepad er det ikke kun en belastning for håndledende (seneskedehindebetændelse!), men også en meget lille afbrydelse i dit arbejde. Mange bække små, gør en stor å!</p>
+<p>Når du flytter din hånd fra tastaturet til musen/mousepaden er det ikke kun en belastning for håndledende (seneskedehindebetændelse!), men også en meget lille afbrydelse i dit arbejde. Mange bække små, gør en stor å!</p>
 
 <p>Hvis du vil undgå dette, så vil jeg anbefale at lære de underliggende genveje og blot at tænke, hver gang du skal til at røre musen/mousepaden, “don’t touch the mouse!” og “er der en smartere måde at gøre det her på med en genvej?”.
 Efter en måned eller 2 - du vil være langsommere i starten - vil du skåne dine håndled og ikke mindst opleve et bedre flow i dit arbejde på computer.</p>
@@ -496,8 +596,16 @@ Efter en måned eller 2 - du vil være langsommere i starten - vil du skåne din
 </div>
 
 <blockquote>
-  <p><strong>Fif:</strong> Hvis du vil ‘tvinge’ dig selv til at undgå musen, så kan jeg varmt anbefale at købe et <a href="https://www.therooststand.com/" target="_blank">Roosts Stand</a> og et tilhørende tastatur (min favorit er <a href="https://www.apple.com/dk/shop/product/MLA22B/A/magic-keyboard-engelsk-storbritannien?fnode=56" target="_blank">Apple Keyboard</a>. Nu mangler du en mus, og vil automatisk ændre dine vaner. Derudover flytter Roost stativet din computer op i en højde, så du sidder med ret ryg, når du arbejder.</p>
+  <p><strong>Fif:</strong> Hvis du vil ‘tvinge’ dig selv til at undgå musen, så kan jeg varmt anbefale at købe et <a href="https://www.therooststand.com/" target="_blank">Roosts Stand</a> og et tilhørende tastatur (min favorit er <a href="https://www.apple.com/dk/shop/product/MLA22B/A/magic-keyboard-engelsk-storbritannien?fnode=56" target="_blank">Apple Keyboard</a>). Nu mangler du en mus, og vil automatisk ændre dine vaner. Derudover flytter Roost stativet din computer op i en højde, så du sidder med ret ryg, når du arbejder.</p>
 </blockquote>
+
+<p>Alt i alt er DTTM med til at forbedre dit værktøj(computeren) i en retning, så du bliver hurtigere, oplever færre afbrydelser og skåner dine håndled.</p>
+
+<p>På samme vis som med VIM er dette en investering, som vil forværre dit arbejde i starten, men på sigt forvandle det til et mere skånsomt og produktivt miljø.</p>
+
+<p>Hvis du ved, at du har nok timer til at øve dig foran computeren, vil jeg klart anbefale at give dig i kast med Don’t Touch The Mouse!</p>
+
+<hr />
 
 <hr />
 
@@ -505,41 +613,26 @@ Efter en måned eller 2 - du vil være langsommere i starten - vil du skåne din
 
 <h4 id="det-var-de-4-værktøjer-som-jeg-bruger-hver-dag--jeg-håber-at-du-kunne-bruge-dem-til-noget">Det var de 4 værktøjer, som jeg bruger hver dag.  Jeg håber, at du kunne bruge dem til noget.</h4>
 
-<p>Hilsen IT</p>
-
 
   </div>
 
+		
+			<div class="hilsen-pagination">
+	
+	<a class="blue-highlight hilsen-prev" href="/wordpress/2018/01/25/wordpress-kursus.html">&#8592; Del 1 - HTML, CSS og JavaScript</a>
+	
+	
+</div>
+
+
+		
 
   <a class="u-url" href="/blogs/2018/01/27/techlove.html" hidden></a>
 </article>
 
       <div>
     </main>
-
-    <footer class="site-footer h-card">
-  <div class="wrapper">
-	<h3>Kontakt:</h3>
-        <ul class="contact-list">
-          <li>
-						Mail: <a class="u-email blue-highlight" href="mailto:kontakt@hilsen.it">kontakt@hilsen.it</a>
-					</li>
-          <li>
-						Tlf. nr.: (+45) 42 64 58 98
-					</li>
-					<li>
-						<a class="blue-highlight" href="https://github.com/peterhoejlundandersen" target="_blank">Github</a>
-					</li>
-					<li>
-						CVR nr.: 35 70 23 18 
-					</li>
-        </ul>
-    </div>
-  </div>
-
-</footer>
-
-
   </body>
-
+  <a class="site-title" rel="author" href="/">Hilsen IT</a>
+	<div class="site-title-footer"></div>
 </html>
