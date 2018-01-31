@@ -260,5 +260,12 @@ Hvis du ved, at du har nok timer til at øve dig foran computeren, vil jeg klart
 
 <br>
 
-#### Det var de 4 værktøjer, som jeg bruger hver dag.  Jeg håber, at du kunne bruge dem til noget.
+#### Det var de 4 værktøjer, som jeg bruger hver dag.  Jeg håber, at du kan bruge dem til noget.
 
+***
+
+<br>
+
+#### HackerNews - for dig der vil have endnu mere TECH!
+
+*LastPass og Tomighty stiftede jeg bekendskab med gennem min storebror, som sidder på [HackerNews](https://news.ycombinator.com/){:target="_blank"}, når andre sidder på Facebook. Hvis du gerne vil have nyheder, der omhandler det nyeste nye inden for teknologi, så er det stedet at være!*
