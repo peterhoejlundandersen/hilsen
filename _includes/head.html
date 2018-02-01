@@ -10,5 +10,9 @@
     {% include google-analytics.html %}
   {% endif %}
 	<script src="/assets/js/heading_list.js"></script>
-	<title>Hilsen IT</title>
+	{% if page.title %}
+		<title>Hilsen IT | {{page.title}}</title>
+	{% else %}
+		<title>Hilsen IT</title>
+	{% endif %}
 </head>
