@@ -1,13 +1,13 @@
 ---
 layout: blog
 title: "Fire superkræfter til den studerende"
-desc: "Tre nemme værktøjer (plus et svært), der vil forbedre dit arbejde på computeren"
+desc: "Tre nemme værktøjer (plus et svært), der vil forbedre og sikre dit arbejde på computeren"
 category: blogs
 ---
 
 <h3>{{page.desc}}</h3>
 
-> Dette blogindlæg er en samling af værktøjer, som jeg gør brug af hver dag. De hjælper mig dagligt med at gøre det til en mere flydende bevægelse at arbejde på en computer. Hvis du som jeg sidder størstedelen af din arbejdstid ved en computer og samtidig elsker dette værktøj, så har du nu mulighed for at slibe det en smule 'skarpere'.
+> Dette blogindlæg er en samling af værktøjer, som jeg gør brug af hver dag. De hjælper mig dagligt med at gøre det til en mere flydende bevægelse at arbejde på en computer. Hvis du som jeg sidder størstedelen af din arbejdstid ved computeren og samtidig elsker dette værktøj, så har du nu mulighed for at slibe det en smule 'skarpere'.
 
 <div class="js-hilsen-list">
 	<!-- bliver udfyldt med en indholdsbetegnelse af js -->
@@ -19,21 +19,21 @@ category: blogs
 
 ## LastPass - din skattekiste til kodeord
 
-> Du har måske, som jeg opdaget, at det er yderst vanskeligt at memorere sikre kodeord.  Man kommer let til at genbruge et på tværs af mange hjemmesider. Det er en potientiel bombe under din sikkerhed, hvis uheldet er ude. Her kan LastPass hjælpe dig til en sikrere fremtid.
+> Du har måske, som jeg, opdaget at det er yderst vanskeligt at memorere sikre kodeord.  Man kommer let til at genbruge et kodeord på tværs af mange hjemmesider. Det er en potientiel bombe under din sikkerhed, hvis uheldet er ude og du bliver hacket. Her kan LastPass hjælpe dig til en sikrere fremtid.
 
-LastPass er et simpelt program til din computer/smartphone, hvor du opretter dig og derefter indtaster ét kodeord til en **online platform (skattekiste), der fremover vil indeholde alle dine kodeord**. Det er kun den(dig) med det ene kodeord, som så kan få lov at komme ind til alle de andre kodeord i fremtiden.
+LastPass er et simpelt program til din computer/smartphone, der er integreret i din browser. Du opretter dig og indtaster ét avanceret (!) kodeord til en **skattekiste, der fremover vil indeholde alle dine kodeord**. Det er kun dig, der - med dette ene kodeord - kan få adgang til skattekisten (omtalt "vault").
 
 ### Hvorfor er det smart?
 
-Det er smart, fordi LastPass fra da af vil hjælpe dig til at ændre/oprette kodeord til din skattekiste hver gang, at du besøger en hjemmeside, hvor du skal bruge et.
+Det er smart, fordi du i fremtiden kun skal huske **et enkelt kodeord**, og samtidig får du nærmest ubrydelige kodeord genereret til dine konti på nettet.
 
 Hvis jeg for eksempel ville oprette en bruger på [Heroku](https://www.heroku.com/) - min fortrukne serverløsning - ser det således ud under adgangskodefeltet:
 
 ![LastPass adgangskode generer](/assets/last-pass-example.jpg)
 
-Jeg får altså en hjælper til at genererer **adgangskoder, der er længere og mere kompliceret** end jeg i min vildeste fantasi ville have mulighed for at huske. LastPass gemmer så kodeordet i den førnævnte skattekiste efter oprettelse.
+LastPass hjælper dig altså til at generere **adgangskoder, der er længere og mere kompliceret** end du i din vildeste fantasi ville have mulighed for at huske. (Medmindre du selvfølgelig er Rain Man reinkarneret.)
 
-Lige nu har jeg fx **96 forskellige automatisk genereret kodeord på over 20 cifre**. [LastPass Chrome Extension](https://chrome.google.com/webstore/detail/lastpass-free-password-ma/hdokiejnpimakedhajhdlcegeplioahd?hl=da) holder så øje med min færden og udfylder kodeords-feltet, så snart jeg rammer en side, som jeg har gemt et kodeord til. Du kender det måske fra Chrome, Safari og Firefox keychain.
+Lige nu har jeg fx **96 automatisk genererede kodeord på over 20 cifre i min skattekiste/vault**. [LastPass Chrome Extension](https://chrome.google.com/webstore/detail/lastpass-free-password-ma/hdokiejnpimakedhajhdlcegeplioahd?hl=da) (min primære browser er Chrome) holder så øje med min færden og udfylder kodeords-feltet, så snart jeg besøger en hjemmeside, som jeg har gemt et kodeord til. Du kender måske princippet fra Chrome, Safari og Firefox keychain.
 
 ### Men hvad hvis der er én, der får adgang til skattekisten - så er alt vel tabt?
 
@@ -41,18 +41,19 @@ Ja.. Så er jeg færdig... Med alt hvad det indebærer. Men..
  
 > LastPass gør det muligt kun at have én indgang til alle dine kodeord, som du så kan fokusere alle dine kræfter på at gøre sikker!
 
-#### To gode råd til din sikkerhed:
+#### To gode råd til at sikre dig selv:
 
-1. Memorer ét langt og sindssygt svært kodeord til LastPass. Inkluder gerne alle mulige underlige tegn udover bogstaver og tal, for at gøre det endnu sikrere. **Lad være med at gem det på din computer!** 
+1. Memorer ét langt og sindssygt svært kodeord til LastPass. Inkluder gerne alle mulige underlige tegn udover bogstaver og tal for at gøre det endnu sikrere. **Lad være med at gem det på din computer!** 
 
 2. Aktiver [Multifactor Authentication](https://lastpass.com/multifactor-authentication/), så du skal bruge en tidsindstillet kode fra en app på din mobil for at åbne LastPass fra en anden computer end din egen.
 
 
+
 ### Konklusion
 
-LastPass slogan er "Simplify your life", og det må man sige, at det har gjort, når det kommer til adgangskoder, for mig. Hvis du ønsker at højne din sikkerhed til et niveau, som du kan være bekendt i 2018, så er det skridtet at tage.
+LastPass slogan er "Simplify your life". Hvis du ønsker at højne din sikkerhed til et niveau, som du kan være bekendt i 2018, så er det skridtet at tage.
 
-Du kan læse mere på [LastPass hjemmeside](https://lastpass.com/){:target="_blank"}
+Du kan læse mere på [LastPass' hjemmeside](https://lastpass.com/){:target="_blank"}
 
 **Pris?** LastPass koster lidt velfortjente dollars om året til mobil. Der findes gratis alternativer, som du kan læse om [her.](https://www.makeuseof.com/tag/best-lastpass-alternatives/){:target="_blank"}
 
@@ -68,13 +69,13 @@ Du kan læse mere på [LastPass hjemmeside](https://lastpass.com/){:target="_bla
 
 ## Tomighty - dit nye tidsmodul: Tomaten
 
-> Hvorfor er det så svært at dæmme op for Facebook, Youtube og Heste-nettet, når man skal arbejde? Et af svarene, har jeg fundet ud af, er, at der mangler et nyt tidsmodul... Et tidsmodul, hvor du aftaler med dig selv, at du kun vil arbejde. Et tidsmodul, som gør dig opmærksom på, at det er forbi og derved giver dig pause! Sig hej til Tomaten fra Tomighty!
+> Hvorfor er det så svært at dæmme op for Facebook, Youtube og Heste-nettet, når man skal arbejde? Ander det ikke! Men et rigtig godt værktøj , har jeg fundet ud af, er tidsstyring... Til dette fungerer Tomighty fantastisk. Den indrammer din arbejdstid - og dine pause, så du har fuldstændig faste rammer for, hvornår du skal arbejde, og hvornår du kan tage dig en velfortjent pause. Sig hej til Tomaten fra Tomighty.
 
 Tomighty er et simpelt program, hvor du instiller en genvej på dit tastatur (DTTM) til at igangsætte en nedtælling. Den er standard 25 min. (én tomat), men du kan selv bestemme, hvor lang den skal være. 
 
-Når din tomat er gået igangsætter programmet automatisk en 5-min pause (som du også selv kan indstille tiden på) og starter derefter de 25 minutters arbejdstid igen.
+Når din tomat er færdig, igangsætter Tomighty automatisk en  pause (som du også selv kan indstille tiden på) og starter derefter de 25 minutters arbejdstid igen.
 
-Det bygger på en teknik, som hedder Pomodoro teknikken. En teknik, som er skabt for at hjælpe dig til at beholde dit fokus på projekter, selvom de strækker sig over længere tid.
+Det bygger på en teknik, som hedder Pomodoro-teknikken. En teknik, som er skabt for at hjælpe dig til at beholde dit fokus på projekter, selvom de strækker sig over længere tid.
 
 Den samlede cyklus, som jeg har indstillet, ser således ud:
 
@@ -84,16 +85,16 @@ Den samlede cyklus, som jeg har indstillet, ser således ud:
 | 25 min. arbejde | 5 min. pause |
 | **15. min. pause** |
 
-I alt varer 4 arbejdstomater altså 2 timer og 15 minutter med automatisk indlagte pauser samt en længere pause til sidst (i mit tilfælde 15 min.). 
+I alt varer fire arbejdstomater altså 2 timer og 15 minutter med automatisk indlagte pauser samt en længere pause til sidst (i mit tilfælde 15 min.). 
 
-Det sikrer - især vigtigt, hvis du sidder foran en skærm hele dagen - at du får nogle pauser og at **din hjerne ikke ender som grød efter 5 timer**. 
+Det sikrer - især vigtigt, hvis du sidder foran en skærm hele dagen - at du får nogle pauser og at **din hjerne ikke ender som grød efter fem timer**. 
 
 
-### Pomodoro teknikken - advanced!
+### Pomodoro-teknikken - advanced!
 
-Teknikken er ikke kun en cyklus af arbejde og pause. Man kan også, hvis man har lyst, give sig i kast med 6 udfordringer, for at mestre den til fulde.
+Teknikken er ikke kun en cyklus af arbejde og pause. Man kan også, hvis man har lyst, give sig i kast med seks Pomodoro-udfordringer, for at mestre den til fulde.
 
-[Gå til Pomodoro Teknikkens hjemmeside](https://cirillocompany.de/pages/pomodoro-technique){:target="_blank"}
+[Gå til Pomodoro-teknikkens hjemmeside](https://cirillocompany.de/pages/pomodoro-technique){:target="_blank"}
 
 ### Konklusion
 
@@ -110,28 +111,28 @@ Held og lykke!
 
 ## DTTM - **D**on't **T**ouch **T**he **M**ouse
 
-> Don't touch the mouse er mere en indstilling end en decideret kodebaseret teknologi. Det går kort og godt ud på at røre musen/mousepaden så lidt som overhovedet muligt. Men hvorfor egentlig det?
+> Don't touch the mouse er ikke et konkret program, men mere et mantra for dit brug af computeren. Det går kort og godt ud på at røre musen/mousepaden så lidt som overhovedet muligt. Men hvorfor egentlig det?
 
 
-Når du flytter din hånd fra tastaturet til musen/mousepaden er det ikke kun en belastning for håndledende (seneskedehindebetændelse!), men også en meget lille afbrydelse i dit arbejde. Mange bække små, gør en stor å!
+Når du flytter din hånd fra tastaturet til musen/mousepaden er det ikke kun en belastning for håndledende (seneskedehindebetændelse!), men også en afbrydelse i dit arbejde. Mange bække små gør en stor å!
 
 
-Hvis du vil undgå dette, så vil jeg anbefale at lære de underliggende genveje og blot at tænke, hver gang du skal til at røre musen/mousepaden, "don't touch the mouse!" og "er der en smartere måde at gøre det her på med en genvej?".
-Efter en måned eller 2 - du vil være langsommere i starten - vil du skåne dine håndled og ikke mindst opleve et bedre flow i dit arbejde på computer. 
+Hvis du vil undgå dette, så vil jeg anbefale at lære de underliggende tastaturgenveje. 
+
+Hver gang, du skal til at røre musen/mousepaden, tænk da: "don't touch the mouse!" og "er der en smartere måde at gøre det her på med en genvej?".
+
+Efter en måned eller to - du vil være langsommere i starten - vil du skåne dine håndled og ikke mindst opleve et bedre flow i dit arbejde på computeren. 
 
 ### Genveje til Mac (Windows kommer snart)
 
 {% include shortcuts.html %}
 
-> **Fif:** Hvis du vil 'tvinge' dig selv til at undgå musen, så kan jeg varmt anbefale at købe et [Roosts Stand](https://www.therooststand.com/){:target="_blank"} og et tilhørende tastatur (min favorit er [Apple Keyboard](https://www.apple.com/dk/shop/product/MLA22B/A/magic-keyboard-engelsk-storbritannien?fnode=56){:target="_blank"}). Nu mangler du en mus, og vil automatisk ændre dine vaner. Derudover flytter Roost stativet din computer op i en højde, så du sidder med ret ryg, når du arbejder.
+> **Fif:** Hvis du vil 'tvinge' dig selv til at undgå musen, så kan jeg varmt anbefale at købe et [Roosts Stand](https://www.therooststand.com/){:target="_blank"} og et tilhørende tastatur (min favorit er [Apple Keyboard](https://www.apple.com/dk/shop/product/MLA22B/A/magic-keyboard-engelsk-storbritannien?fnode=56){:target="_blank"}). Nu mangler du en mus, og du vil automatisk ændre dine vaner. Derudover flytter Roost-stativet din computer op i en højde, så du sidder med ret ryg, når du arbejder.
 
 
-Alt i alt er DTTM med til at forbedre dit værktøj(computeren) i en retning, så du bliver hurtigere, oplever færre afbrydelser og skåner dine håndled.
+Alt i alt er DTTM med til at forbedre dit værktøj (computeren), så du bliver hurtigere, oplever færre afbrydelser og skåner dine håndled.
 
-På samme vis som med VIM er dette en investering, som vil forværre din arbejdsrytme i starten, men på sigt forvandle det til et mere skånsomt og produktivt miljø.
-
-Hvis du ved, at du har nok timer til at øve dig foran computeren, vil jeg klart anbefale at give dig i kast med Don't Touch The Mouse!
-
+God fornøjelse!
 
 <br>
 <br>
@@ -149,7 +150,7 @@ VIM er noget ret specielt inden for kodeverden... Det er gammelt.. 26 år og det
 
 VIM er meget kort fortalt et tekstbehandlingsprogram med superkræfter!
 
-Det er svært at forklare, hvad det helt nøjagtigt er, og ikke mindst hvor i enorm en grad det kan hjælpe dig, hvis du har meget med tekst-redigering at gøre på en computer: programmering, korrekturlæsning, oversættelse eller opgaveskrivning .osv (næsten alle under 40 idag), men jeg har tænkt mig at gøre et forsøg!
+Det er svært at forklare, hvad det helt nøjagtigt er, og ikke mindst hvor i enorm en grad det kan hjælpe dig, hvis du har meget med tekstredigering at gøre på en computer: programmering, korrekturlæsning, oversættelse eller opgaveskrivning .osv (næsten alle under 40 idag), men jeg har tænkt mig at gøre et forsøg!
 
 
 ### Vim modes - dit tastatur kan mere end at indtaste!
