@@ -14,6 +14,7 @@ layout: default
 			{% for blog in site.categories.blogs %}
 			  <li>
 					<a class="blue-highlight" href="{{ blog.url | relative_url }}">{{ blog.title | escape }}</a>
+					<p>{{ blog.desc }}</p>
 				</li>
 			{% endfor %}
 		</ul>
