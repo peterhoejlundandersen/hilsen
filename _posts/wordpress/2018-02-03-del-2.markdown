@@ -1,0 +1,152 @@
+---
+layout: blog
+title:  "Del 2 - HTML og CSS Advanced"
+category: wordpress
+---
+
+#Del 2 - WordPress kursus
+
+> **Forberedelse:** Download <a href="/assets/wordpress-del-2.zip" download>eksemplet</a>, pak ZIP-filen ud og åben hele mappen i Sublime Text 3. Åben derefter `index.html` i en browser.
+
+> I denne del går vi lidt mere i dybden med HTML og CSS. Vi besøger nogle **properties** i CSS, som er nogle af de mest brugte og brugbare. Lad os komme igang :)
+
+*Som nævnt i forrige del kommer der en value lige efter en CSS-property: `property: value` - dette er et mønster, der går igen for alle properties.*
+
+
+### Position - din tro følgesvend
+
+Den første property er `position: ...` - og som den giver udtryk for - omhandler den positioneringen af HTML-tags på en hjemmeside.
+
+Position kunne f.eks. blive brugt i disse scenarier:
+
+* Jeg vil gerne have, at min tekst står under mit billede og ikke ved siden af.
+* Det kunne være fedt at have en telefonikon-knap til mine mobilbrugere, som blev på skærmen ligemeget hvor man var på hjemmesiden.
+* De her 3 bokse må gerne stå ved siden af hinanden i stedet for oven på.
+* Jeg vil gerne have det her symbol øverst i højre hjørne af min browser på min hjemmeside.
+
+Values for position er: `static`, `absolute`, `fixed` og `relative`. 
+
+ 
+*Prøv at åben dit dokument og se de forskellige bokse. Husk at scrolle op og ned på siden, for at se fixed unikke funktion.*
+
+Som du kan se, har jeg allerede forberedt noget CSS og HTML til jer, så i kan se position i levende live!
+
+Prøv at åben CSS-filen. Der har jeg brugt properties som `top: ..`, `right: .. ` og `left: ..` - disse er tæt forbundet til `position` da de bestemmer, for fixed og absolutes tilfælde, hvor de skal stå i forhold til browservinduet.
+
+Her er en illustration (Élement parent er hele vinduet):
+
+
+![Position i CSS]({{ "assets/position.gif" || absolute_url }})
+
+*Det du specificerer i CSS'en gennem `left`, `top`, `right` og `bottom` bestemmer altså hvor boksen skal være i browser-vinduet.*
+
+Det er vigtigt at kende de 4 før vi går videre til **position absolute!**
+
+#### Position **absolute**! (Jeg skal bare være lige her! Basta!)  
+
+Absolute er den value, som sætter sig mest lige hvor den vil! Du giver den blot nogle oplysninger om, hvor langt den skal være fra browser-vinduets kanter (left, top, right og bottom). Så vil den optræde der, lige meget hvad der er over, under eller ved siden af den. Deraf navnet.
+
+*Prøv at gå ind i CSS'en og ændre på `top: ..` og `right: ..` og se hvad der sker. I kan også prøve at ændre hele property til `bottom` eller `left`, hvis I har lyst.*
+
+#### Position **fixed**! (Jeg scroller med skærmen mester)
+
+Fixed er, hvis man ikke scroller, det samme som absolute. Men så snart, at du begynder at scrolle, ned kan du se, at fixed position beholder sin position (left, top, right, bottom) lige meget hvor den er. Deraf navnet. 
+
+Fixed bruges sjældent, men kan give et fantastisk overblik som f.eks. [på denne side](http://book.scoutapp.com/memory-bloat.html){:target="_blank"} ved at lave en indholdsfortegnelse, der følger brugerens scroll (Man ser det også på Politiken.dk nogle gange, hvor en artikel følger dit scroll) 
+
+#### Position **static** (Jeg er default!)
+`position: static` er standard for et HTML-tag og betyder blot at den bliver vist i den struktur, som HTML'en er skrevet i og ikke reagerer på left, top, right og bottom*
+
+Det er det du overskriver, når du vælger en af de andre.
+
+#### Position **relative** (Jeg lægger mig i forhold til andre!)
+
+Position relative er nok den mest brugte. Den gør - *som du også kan se i eksemplet* - det, at den tager højde for, hvad der er før den. **MEN KUN HVIS DET OGSÅ ER RELATIVE POSITIONERET!** 
+
+Den tager vi lige igen.
+
+Position relative kan altså **ikke lægge sig op af noget, der er position absolute eller fixed**. De spiller simpelthen på forskellige hold.
+
+`position: relative` leger altså med hinanden og `position: fixed` og `position: absolute` leger hver især med sig selv (hmm). 
+
+Men hvad hvis de ligger oven på hinanden - hvem skal så ligge øverst? Det kommer vi til nu:
+
+#### **Z-index** (Hvem skal være tættest på?)
+ 
+*Hvis du kigger i eksemplet i `index.html` kan du se, at den røde boks gerne vil oven på de to gule. Det er her vi bruger `z-index: ...` property.*
+
+Z-index er den tredje akse ligesom i matematik. X-, y- og z-aksen. Det er den akse, der går ud mod dig. Altså **jo højere Z-index for et HTML-tag, jo tættere er det på dig**. Men der er dog en vigtig, vigtig pointe:
+
+> Z-index virker kun, hvis dit HTML-tag har en `position` property, som ikke er static!
+
+*Men det har boksene jo i index.html!... Prøv at ændre på `.fixed` i CSS og giv den et `z-index: ..` for at se, om den nu er oven på de to gule.*
+
+Alt i alt er position en utrolig vigtig property, som man bruger gang på gang, når man skal bygge en hjemmeside. 
+
+> Forstå de 4 forskellige positioneringer og du vil slippe for et utal af begynderfejl og -spørgsmål. 
+
+------------------------
+
+### Display - hvor meget skal dine bokse fylde af sig selv og skal de overhovedet vises?
+
+> Display er, som navnet også tilkendegiver, spørgsmålet om, hvordan dine HTML-tags skal vises. Vi vil kun komme ind på `display: block` og `display: inline`. Der findes et utal af values, som man kan læse mere om på [W3 School](https://www.w3schools.com/cssref/pr_class_display.asp){:target="_blank"}. Men det er ikke nødvendigt på dette kursus. 
+
+#### Display block - jeg vil fylde hele bredden af det rum, som jeg er i!
+
+`display: block` er standard value for et div-tag (`<div></div>`) det betyder altså, at et div tag fylder hele bredden af det den bliver sat i.
+
+*Åben `index.html` i en browser og se forskellen på de to `.display`-tags nederst.*
+
+Altså vil et div tag i en browser fylde 100% af bredden, hvis der ikke var andet indstillet. **Også selvom div-tagget ikke har noget indhold/tekst.**
+
+> Det betyder altså at **du ikke kan sætte div-tags ved siden af hinanden** uden at hjælpe dem med CSS, da de automatisk vil lægge sig **oven på hinanden**.
+
+#### Display inline - jeg fylder kun mit indre!
+
+`display: inline` er standard value for et span-tag (`<span></span>`). Det betyder at et span tag kun fylder det, som den har i sig (tekst/billeder). 
+
+*Prøv at se eksemplets span-tag i browseren*
+
+> Det betyder, at du kan sætte span-tags ved siden af hinanden.
+
+
+#### Display none - jeg er her ikke!
+
+`display: none` er simpelthen en måde at **fjerne et HTML-tag i CSS'en uden at fjerne det i HTML'en**.
+
+Det bruges meget ofte i webdesign, for at få et overblik (hvad er under dette) eller prøve et design uden en boks.
+
+> Hvis du pludselig en dag undrer dig over hvorfor dit HTML-tag ikke bliver vist på din side, er det højest sandsynligt fordi, at du har sat `display: none` i din CSS eller fordi der ligger et HTML-tag oven på.
+
+
+
+
+## Border, padding og margin - afstande der er til at forstå
+
+For at forstå border, padding og margin er det lettest at starte med et billede:
+
+![Border padding og margin]({{ "assets/border-padding.png" || absolute_url }})
+*Billedet er lånt af [W3 Schools](https://www.w3schools.com/css/css_boxmodel.asp){:target="_blank"}*
+
+Dette illustrerer properties, som gælder for **alle dine HTML-tags**:
+
+**Content:** Er dit indhold. Din tekst/billeder eller andet, som er i din boks (div, span etc.)
+
+**Padding:** Er et område rundt om dit indhold, som du kan bestemme størrelsen på. F.eks.:
+`padding: 10px;`
+
+**Border:** Er en grænse rundt om din indhold + evt. padding, som du kan bestemme størrelse, form og farve på. F.eks.:
+`border: 1px dotted red;`
+
+**Margin:** Er din afstand rundt om dit indhold + evt. padding + evt. border, som du kan bestemme størrelsen på. F.eks.:
+`margin: 20px;`
+
+> **FIF:** Når du skriver én afstand (f.eks. `margin: 20px`) gælder det for alle sider (top, right, bottom, left). Hvis du skriver to: `20px 10px` gælder den første for top og bottom(20px) mens den næste gælder for left og right(10px). Du kan også skrive fire: `padding: 10px 15px 20px 30px`, som så følger rækkefølgen top (10px), right (15px), bottom (20px) og left (30px).
+
+*Prøv det af i din CSS. Tilføj en padding til en boks. Hvad med en border. Reagerer de forskellige postitioner forskelligt på padding, border og margin?*
+
+## Afstande
+
+Kommer snart
+
+

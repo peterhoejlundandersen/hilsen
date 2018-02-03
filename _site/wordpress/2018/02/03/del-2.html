@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+	<link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/assets/favicon-96x96.png">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="/assets/main.css">
+  <link rel="alternate" type="application/rss+xml" title="Hilsen IT" href="/feed.xml">
+  
+	<script src="/assets/js/heading_list.js"></script>
+	
+		<title>Hilsen IT | Del 2 - HTML og CSS Advanced</title>
+	
+</head>
+
+  <body>
+    <header class="site-header" role="banner">
+
+  <div class="wrapper">
+    
+    
+    <a class="site-title" rel="author" href="/">Hilsen IT</a>
+
+    
+      <nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+              <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+              <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger">
+          
+            
+            
+          
+            
+            
+          
+            
+            
+          
+            
+            
+          
+        </div>
+      </nav>
+    
+  </div>
+</header>
+
+    <main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">Del 2 - HTML og CSS Advanced</h1>
+    <p class="post-meta">
+      <time class="dt-published" datetime="2018-02-03T00:00:00+01:00" itemprop="datePublished">
+        
+        Feb 3, 2018
+      </time>
+      </p>
+  </header>
+
+	<hr>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <p>#Del 2 - WordPress kursus</p>
+
+<blockquote>
+  <p><strong>Forberedelse:</strong> Download <a href="/assets/wordpress-del-2.zip" download="">eksemplet</a>, pak ZIP-filen ud og åben hele mappen i Sublime Text 3. Åben derefter <code class="highlighter-rouge">index.html</code> i en browser.</p>
+</blockquote>
+
+<blockquote>
+  <p>I denne del går vi lidt mere i dybden med HTML og CSS. Vi besøger nogle <strong>properties</strong> i CSS, som er nogle af de mest brugte og brugbare. Lad os komme igang :)</p>
+</blockquote>
+
+<p><em>Som nævnt i forrige del kommer der en value lige efter en CSS-property: <code class="highlighter-rouge">property: value</code> - dette er et mønster, der går igen for alle properties.</em></p>
+
+<h3 id="position---din-tro-følgesvend">Position - din tro følgesvend</h3>
+
+<p>Den første property er <code class="highlighter-rouge">position: ...</code> - og som den giver udtryk for - omhandler den positioneringen af HTML-tags på en hjemmeside.</p>
+
+<p>Position kunne f.eks. blive brugt i disse scenarier:</p>
+
+<ul>
+  <li>Jeg vil gerne have, at min tekst står under mit billede og ikke ved siden af.</li>
+  <li>Det kunne være fedt at have en telefonikon-knap til mine mobilbrugere, som blev på skærmen ligemeget hvor man var på hjemmesiden.</li>
+  <li>De her 3 bokse må gerne stå ved siden af hinanden i stedet for oven på.</li>
+  <li>Jeg vil gerne have det her symbol øverst i højre hjørne af min browser på min hjemmeside.</li>
+</ul>
+
+<p>Values for position er: <code class="highlighter-rouge">static</code>, <code class="highlighter-rouge">absolute</code>, <code class="highlighter-rouge">fixed</code> og <code class="highlighter-rouge">relative</code>.</p>
+
+<p><em>Prøv at åben dit dokument og se de forskellige bokse. Husk at scrolle op og ned på siden, for at se fixed unikke funktion.</em></p>
+
+<p>Som du kan se, har jeg allerede forberedt noget CSS og HTML til jer, så i kan se position i levende live!</p>
+
+<p>Prøv at åben CSS-filen. Der har jeg brugt properties som <code class="highlighter-rouge">top: ..</code>, <code class="highlighter-rouge">right: .. </code> og <code class="highlighter-rouge">left: ..</code> - disse er tæt forbundet til <code class="highlighter-rouge">position</code> da de bestemmer, for fixed og absolutes tilfælde, hvor de skal stå i forhold til browservinduet.</p>
+
+<p>Her er en illustration (Élement parent er hele vinduet):</p>
+
+<p><img src="http://localhost:4000/assets/position.gif" alt="Position i CSS" /></p>
+
+<p><em>Det du specificerer i CSS’en gennem <code class="highlighter-rouge">left</code>, <code class="highlighter-rouge">top</code>, <code class="highlighter-rouge">right</code> og <code class="highlighter-rouge">bottom</code> bestemmer altså hvor boksen skal være i browser-vinduet.</em></p>
+
+<p>Det er vigtigt at kende de 4 før vi går videre til <strong>position absolute!</strong></p>
+
+<h4 id="position-absolute-jeg-skal-bare-være-lige-her-basta">Position <strong>absolute</strong>! (Jeg skal bare være lige her! Basta!)</h4>
+
+<p>Absolute er den value, som sætter sig mest lige hvor den vil! Du giver den blot nogle oplysninger om, hvor langt den skal være fra browser-vinduets kanter (left, top, right og bottom). Så vil den optræde der, lige meget hvad der er over, under eller ved siden af den. Deraf navnet.</p>
+
+<p><em>Prøv at gå ind i CSS’en og ændre på <code class="highlighter-rouge">top: ..</code> og <code class="highlighter-rouge">right: ..</code> og se hvad der sker. I kan også prøve at ændre hele property til <code class="highlighter-rouge">bottom</code> eller <code class="highlighter-rouge">left</code>, hvis I har lyst.</em></p>
+
+<h4 id="position-fixed-jeg-scroller-med-skærmen-mester">Position <strong>fixed</strong>! (Jeg scroller med skærmen mester)</h4>
+
+<p>Fixed er, hvis man ikke scroller, det samme som absolute. Men så snart, at du begynder at scrolle, ned kan du se, at fixed position beholder sin position (left, top, right, bottom) lige meget hvor den er. Deraf navnet.</p>
+
+<p>Fixed bruges sjældent, men kan give et fantastisk overblik som f.eks. <a href="http://book.scoutapp.com/memory-bloat.html" target="_blank">på denne side</a> ved at lave en indholdsfortegnelse, der følger brugerens scroll (Man ser det også på Politiken.dk nogle gange, hvor en artikel følger dit scroll)</p>
+
+<h4 id="position-static-jeg-er-default">Position <strong>static</strong> (Jeg er default!)</h4>
+<p><code class="highlighter-rouge">position: static</code> er standard for et HTML-tag og betyder blot at den bliver vist i den struktur, som HTML’en er skrevet i og ikke reagerer på left, top, right og bottom*</p>
+
+<p>Det er det du overskriver, når du vælger en af de andre.</p>
+
+<h4 id="position-relative-jeg-lægger-mig-i-forhold-til-andre">Position <strong>relative</strong> (Jeg lægger mig i forhold til andre!)</h4>
+
+<p>Position relative er nok den mest brugte. Den gør - <em>som du også kan se i eksemplet</em> - det, at den tager højde for, hvad der er før den. <strong>MEN KUN HVIS DET OGSÅ ER RELATIVE POSITIONERET!</strong></p>
+
+<p>Den tager vi lige igen.</p>
+
+<p>Position relative kan altså <strong>ikke lægge sig op af noget, der er position absolute eller fixed</strong>. De spiller simpelthen på forskellige hold.</p>
+
+<p><code class="highlighter-rouge">position: relative</code> leger altså med hinanden og <code class="highlighter-rouge">position: fixed</code> og <code class="highlighter-rouge">position: absolute</code> leger hver især med sig selv (hmm).</p>
+
+<p>Men hvad hvis de ligger oven på hinanden - hvem skal så ligge øverst? Det kommer vi til nu:</p>
+
+<h4 id="z-index-hvem-skal-være-tættest-på"><strong>Z-index</strong> (Hvem skal være tættest på?)</h4>
+
+<p><em>Hvis du kigger i eksemplet i <code class="highlighter-rouge">index.html</code> kan du se, at den røde boks gerne vil oven på de to gule. Det er her vi bruger <code class="highlighter-rouge">z-index: ...</code> property.</em></p>
+
+<p>Z-index er den tredje akse ligesom i matematik. X-, y- og z-aksen. Det er den akse, der går ud mod dig. Altså <strong>jo højere Z-index for et HTML-tag, jo tættere er det på dig</strong>. Men der er dog en vigtig, vigtig pointe:</p>
+
+<blockquote>
+  <p>Z-index virker kun, hvis dit HTML-tag har en <code class="highlighter-rouge">position</code> property, som ikke er static!</p>
+</blockquote>
+
+<p><em>Men det har boksene jo i index.html!… Prøv at ændre på <code class="highlighter-rouge">.fixed</code> i CSS og giv den et <code class="highlighter-rouge">z-index: ..</code> for at se, om den nu er oven på de to gule.</em></p>
+
+<p>Alt i alt er position en utrolig vigtig property, som man bruger gang på gang, når man skal bygge en hjemmeside.</p>
+
+<blockquote>
+  <p>Forstå de 4 forskellige positioneringer og du vil slippe for et utal af begynderfejl og -spørgsmål.</p>
+</blockquote>
+
+<hr />
+
+<h3 id="display---hvor-meget-skal-dine-bokse-fylde-af-sig-selv-og-skal-de-overhovedet-vises">Display - hvor meget skal dine bokse fylde af sig selv og skal de overhovedet vises?</h3>
+
+<blockquote>
+  <p>Display er, som navnet også tilkendegiver, spørgsmålet om, hvordan dine HTML-tags skal vises. Vi vil kun komme ind på <code class="highlighter-rouge">display: block</code> og <code class="highlighter-rouge">display: inline</code>. Der findes et utal af values, som man kan læse mere om på <a href="https://www.w3schools.com/cssref/pr_class_display.asp" target="_blank">W3 School</a>. Men det er ikke nødvendigt på dette kursus.</p>
+</blockquote>
+
+<h4 id="display-block---jeg-vil-fylde-hele-bredden-af-det-rum-som-jeg-er-i">Display block - jeg vil fylde hele bredden af det rum, som jeg er i!</h4>
+
+<p><code class="highlighter-rouge">display: block</code> er standard value for et div-tag (<code class="highlighter-rouge">&lt;div&gt;&lt;/div&gt;</code>) det betyder altså, at et div tag fylder hele bredden af det den bliver sat i.</p>
+
+<p><em>Åben <code class="highlighter-rouge">index.html</code> i en browser og se forskellen på de to <code class="highlighter-rouge">.display</code>-tags nederst.</em></p>
+
+<p>Altså vil et div tag i en browser fylde 100% af bredden, hvis der ikke var andet indstillet. <strong>Også selvom div-tagget ikke har noget indhold/tekst.</strong></p>
+
+<blockquote>
+  <p>Det betyder altså at <strong>du ikke kan sætte div-tags ved siden af hinanden</strong> uden at hjælpe dem med CSS, da de automatisk vil lægge sig <strong>oven på hinanden</strong>.</p>
+</blockquote>
+
+<h4 id="display-inline---jeg-fylder-kun-mit-indre">Display inline - jeg fylder kun mit indre!</h4>
+
+<p><code class="highlighter-rouge">display: inline</code> er standard value for et span-tag (<code class="highlighter-rouge">&lt;span&gt;&lt;/span&gt;</code>). Det betyder at et span tag kun fylder det, som den har i sig (tekst/billeder).</p>
+
+<p><em>Prøv at se eksemplets span-tag i browseren</em></p>
+
+<blockquote>
+  <p>Det betyder, at du kan sætte span-tags ved siden af hinanden.</p>
+</blockquote>
+
+<h4 id="display-none---jeg-er-her-ikke">Display none - jeg er her ikke!</h4>
+
+<p><code class="highlighter-rouge">display: none</code> er simpelthen en måde at <strong>fjerne et HTML-tag i CSS’en uden at fjerne det i HTML’en</strong>.</p>
+
+<p>Det bruges meget ofte i webdesign, for at få et overblik (hvad er under dette) eller prøve et design uden en boks.</p>
+
+<blockquote>
+  <p>Hvis du pludselig en dag undrer dig over hvorfor dit HTML-tag ikke bliver vist på din side, er det højest sandsynligt fordi, at du har sat <code class="highlighter-rouge">display: none</code> i din CSS eller fordi der ligger et HTML-tag oven på.</p>
+</blockquote>
+
+<h2 id="border-padding-og-margin---afstande-der-er-til-at-forstå">Border, padding og margin - afstande der er til at forstå</h2>
+
+<p>For at forstå border, padding og margin er det lettest at starte med et billede:</p>
+
+<p><img src="http://localhost:4000/assets/border-padding.png" alt="Border padding og margin" />
+<em>Billedet er lånt af <a href="https://www.w3schools.com/css/css_boxmodel.asp" target="_blank">W3 Schools</a></em></p>
+
+<p>Dette illustrerer properties, som gælder for <strong>alle dine HTML-tags</strong>:</p>
+
+<p><strong>Content:</strong> Er dit indhold. Din tekst/billeder eller andet, som er i din boks (div, span etc.)</p>
+
+<p><strong>Padding:</strong> Er et område rundt om dit indhold, som du kan bestemme størrelsen på. F.eks.:
+<code class="highlighter-rouge">padding: 10px;</code></p>
+
+<p><strong>Border:</strong> Er en grænse rundt om din indhold + evt. padding, som du kan bestemme størrelse, form og farve på. F.eks.:
+<code class="highlighter-rouge">border: 1px dotted red;</code></p>
+
+<p><strong>Margin:</strong> Er din afstand rundt om dit indhold + evt. padding + evt. border, som du kan bestemme størrelsen på. F.eks.:
+<code class="highlighter-rouge">margin: 20px;</code></p>
+
+<blockquote>
+  <p><strong>FIF:</strong> Når du skriver én afstand (f.eks. <code class="highlighter-rouge">margin: 20px</code>) gælder det for alle sider (top, right, bottom, left). Hvis du skriver to: <code class="highlighter-rouge">20px 10px</code> gælder den første for top og bottom(20px) mens den næste gælder for left og right(10px). Du kan også skrive fire: <code class="highlighter-rouge">padding: 10px 15px 20px 30px</code>, som så følger rækkefølgen top (10px), right (15px), bottom (20px) og left (30px).</p>
+</blockquote>
+
+<p><em>Prøv det af i din CSS. Tilføj en padding til en boks. Hvad med en border. Reagerer de forskellige postitioner forskelligt på padding, border og margin?</em></p>
+
+<h2 id="afstande">Afstande</h2>
+
+<p>Kommer snart</p>
+
+
+  </div>
+
+		
+			<div class="hilsen-pagination">
+	
+	<a class="blue-highlight hilsen-prev" href="/wordpress/2018/01/27/wordpress-kursus.html">&#8592; Del 1 - HTML, CSS og JavaScript</a>
+	
+	
+</div>
+
+
+		
+
+  <a class="u-url" href="/wordpress/2018/02/03/del-2.html" hidden></a>
+</article>
+
+      <div>
+    </main>
+  </body>
+  <a class="site-title" rel="author" href="/">Hilsen IT</a>
+	<div class="site-title-footer"></div>
+</html>

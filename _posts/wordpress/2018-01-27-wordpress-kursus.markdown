@@ -1,9 +1,9 @@
 ---
 layout: blog
 title:  "Del 1 - HTML, CSS og JavaScript"
-date:   2018-01-25 22:09:58 +0100
 category: wordpress
 ---
+
 > **Forberedelse**: Start med at <a href="/assets/wordpress-master.zip" download>downloade eksemplet</a> og åben den downloadede mappe i f.eks. [Sublime Text 3](https://www.sublimetext.com/3). Åben derefter `index.html` i en browser for at se indholdet. Dette vil være mappen, hvor du selv kan lave ændringer og afprøve den viden, som du møder hen af vejen.
 
 

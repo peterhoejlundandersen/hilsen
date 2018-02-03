@@ -1,4 +1,469 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-02-02T19:36:46+01:00</updated><id>http://localhost:4000/</id><title type="html">Hilsen IT</title><subtitle>Designer hjemmesider med et sikkert fundament i Ruby on Rails, Jekyll og Angular</subtitle><entry><title type="html">Fire superkræfter til den studerende</title><link href="http://localhost:4000/blogs/2018/01/27/techlove.html" rel="alternate" type="text/html" title="Fire superkræfter til den studerende" /><published>2018-01-27T00:00:00+01:00</published><updated>2018-01-27T00:00:00+01:00</updated><id>http://localhost:4000/blogs/2018/01/27/techlove</id><content type="html" xml:base="http://localhost:4000/blogs/2018/01/27/techlove.html">&lt;h3&gt;Tre nemme værktøjer (plus et svært), der vil forbedre og sikre dit arbejde på computeren&lt;/h3&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-02-03T13:45:01+01:00</updated><id>http://localhost:4000/</id><title type="html">Hilsen IT</title><subtitle>Designer hjemmesider med et sikkert fundament i Ruby on Rails, Jekyll og Angular</subtitle><entry><title type="html">Del 2 - HTML og CSS Advanced</title><link href="http://localhost:4000/wordpress/2018/02/03/del-2.html" rel="alternate" type="text/html" title="Del 2 - HTML og CSS Advanced" /><published>2018-02-03T00:00:00+01:00</published><updated>2018-02-03T00:00:00+01:00</updated><id>http://localhost:4000/wordpress/2018/02/03/del-2</id><content type="html" xml:base="http://localhost:4000/wordpress/2018/02/03/del-2.html">&lt;p&gt;#Del 2 - WordPress kursus&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;Forberedelse:&lt;/strong&gt; Download &lt;a href=&quot;/assets/wordpress-del-2.zip&quot; download=&quot;&quot;&gt;eksemplet&lt;/a&gt;, pak ZIP-filen ud og åben hele mappen i Sublime Text 3. Åben derefter &lt;code class=&quot;highlighter-rouge&quot;&gt;index.html&lt;/code&gt; i en browser.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;I denne del går vi lidt mere i dybden med HTML og CSS. Vi besøger nogle &lt;strong&gt;properties&lt;/strong&gt; i CSS, som er nogle af de mest brugte og brugbare. Lad os komme igang :)&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;em&gt;Som nævnt i forrige del kommer der en value lige efter en CSS-property: &lt;code class=&quot;highlighter-rouge&quot;&gt;property: value&lt;/code&gt; - dette er et mønster, der går igen for alle properties.&lt;/em&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;position---din-tro-følgesvend&quot;&gt;Position - din tro følgesvend&lt;/h3&gt;
+
+&lt;p&gt;Den første property er &lt;code class=&quot;highlighter-rouge&quot;&gt;position: ...&lt;/code&gt; - og som den giver udtryk for - omhandler den positioneringen af HTML-tags på en hjemmeside.&lt;/p&gt;
+
+&lt;p&gt;Position kunne f.eks. blive brugt i disse scenarier:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Jeg vil gerne have, at min tekst står under mit billede og ikke ved siden af.&lt;/li&gt;
+  &lt;li&gt;Det kunne være fedt at have en telefonikon-knap til mine mobilbrugere, som blev på skærmen ligemeget hvor man var på hjemmesiden.&lt;/li&gt;
+  &lt;li&gt;De her 3 bokse må gerne stå ved siden af hinanden i stedet for oven på.&lt;/li&gt;
+  &lt;li&gt;Jeg vil gerne have det her symbol øverst i højre hjørne af min browser på min hjemmeside.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Values for position er: &lt;code class=&quot;highlighter-rouge&quot;&gt;static&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;absolute&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;fixed&lt;/code&gt; og &lt;code class=&quot;highlighter-rouge&quot;&gt;relative&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Prøv at åben dit dokument og se de forskellige bokse. Husk at scrolle op og ned på siden, for at se fixed unikke funktion.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Som du kan se, har jeg allerede forberedt noget CSS og HTML til jer, så i kan se position i levende live!&lt;/p&gt;
+
+&lt;p&gt;Prøv at åben CSS-filen. Der har jeg brugt properties som &lt;code class=&quot;highlighter-rouge&quot;&gt;top: ..&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;right: .. &lt;/code&gt; og &lt;code class=&quot;highlighter-rouge&quot;&gt;left: ..&lt;/code&gt; - disse er tæt forbundet til &lt;code class=&quot;highlighter-rouge&quot;&gt;position&lt;/code&gt; da de bestemmer, for fixed og absolutes tilfælde, hvor de skal stå i forhold til browservinduet.&lt;/p&gt;
+
+&lt;p&gt;Her er en illustration (Élement parent er hele vinduet):&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/position.gif&quot; alt=&quot;Position i CSS&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Det du specificerer i CSS’en gennem &lt;code class=&quot;highlighter-rouge&quot;&gt;left&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;top&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;right&lt;/code&gt; og &lt;code class=&quot;highlighter-rouge&quot;&gt;bottom&lt;/code&gt; bestemmer altså hvor boksen skal være i browser-vinduet.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Det er vigtigt at kende de 4 før vi går videre til &lt;strong&gt;position absolute!&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;position-absolute-jeg-skal-bare-være-lige-her-basta&quot;&gt;Position &lt;strong&gt;absolute&lt;/strong&gt;! (Jeg skal bare være lige her! Basta!)&lt;/h4&gt;
+
+&lt;p&gt;Absolute er den value, som sætter sig mest lige hvor den vil! Du giver den blot nogle oplysninger om, hvor langt den skal være fra browser-vinduets kanter (left, top, right og bottom). Så vil den optræde der, lige meget hvad der er over, under eller ved siden af den. Deraf navnet.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Prøv at gå ind i CSS’en og ændre på &lt;code class=&quot;highlighter-rouge&quot;&gt;top: ..&lt;/code&gt; og &lt;code class=&quot;highlighter-rouge&quot;&gt;right: ..&lt;/code&gt; og se hvad der sker. I kan også prøve at ændre hele property til &lt;code class=&quot;highlighter-rouge&quot;&gt;bottom&lt;/code&gt; eller &lt;code class=&quot;highlighter-rouge&quot;&gt;left&lt;/code&gt;, hvis I har lyst.&lt;/em&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;position-fixed-jeg-scroller-med-skærmen-mester&quot;&gt;Position &lt;strong&gt;fixed&lt;/strong&gt;! (Jeg scroller med skærmen mester)&lt;/h4&gt;
+
+&lt;p&gt;Fixed er, hvis man ikke scroller, det samme som absolute. Men så snart, at du begynder at scrolle, ned kan du se, at fixed position beholder sin position (left, top, right, bottom) lige meget hvor den er. Deraf navnet.&lt;/p&gt;
+
+&lt;p&gt;Fixed bruges sjældent, men kan give et fantastisk overblik som f.eks. &lt;a href=&quot;http://book.scoutapp.com/memory-bloat.html&quot; target=&quot;_blank&quot;&gt;på denne side&lt;/a&gt; ved at lave en indholdsfortegnelse, der følger brugerens scroll (Man ser det også på Politiken.dk nogle gange, hvor en artikel følger dit scroll)&lt;/p&gt;
+
+&lt;h4 id=&quot;position-static-jeg-er-default&quot;&gt;Position &lt;strong&gt;static&lt;/strong&gt; (Jeg er default!)&lt;/h4&gt;
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;position: static&lt;/code&gt; er standard for et HTML-tag og betyder blot at den bliver vist i den struktur, som HTML’en er skrevet i og ikke reagerer på left, top, right og bottom*&lt;/p&gt;
+
+&lt;p&gt;Det er det du overskriver, når du vælger en af de andre.&lt;/p&gt;
+
+&lt;h4 id=&quot;position-relative-jeg-lægger-mig-i-forhold-til-andre&quot;&gt;Position &lt;strong&gt;relative&lt;/strong&gt; (Jeg lægger mig i forhold til andre!)&lt;/h4&gt;
+
+&lt;p&gt;Position relative er nok den mest brugte. Den gør - &lt;em&gt;som du også kan se i eksemplet&lt;/em&gt; - det, at den tager højde for, hvad der er før den. &lt;strong&gt;MEN KUN HVIS DET OGSÅ ER RELATIVE POSITIONERET!&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Den tager vi lige igen.&lt;/p&gt;
+
+&lt;p&gt;Position relative kan altså &lt;strong&gt;ikke lægge sig op af noget, der er position absolute eller fixed&lt;/strong&gt;. De spiller simpelthen på forskellige hold.&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;position: relative&lt;/code&gt; leger altså med hinanden og &lt;code class=&quot;highlighter-rouge&quot;&gt;position: fixed&lt;/code&gt; og &lt;code class=&quot;highlighter-rouge&quot;&gt;position: absolute&lt;/code&gt; leger hver især med sig selv (hmm).&lt;/p&gt;
+
+&lt;p&gt;Men hvad hvis de ligger oven på hinanden - hvem skal så ligge øverst? Det kommer vi til nu:&lt;/p&gt;
+
+&lt;h4 id=&quot;z-index-hvem-skal-være-tættest-på&quot;&gt;&lt;strong&gt;Z-index&lt;/strong&gt; (Hvem skal være tættest på?)&lt;/h4&gt;
+
+&lt;p&gt;&lt;em&gt;Hvis du kigger i eksemplet i &lt;code class=&quot;highlighter-rouge&quot;&gt;index.html&lt;/code&gt; kan du se, at den røde boks gerne vil oven på de to gule. Det er her vi bruger &lt;code class=&quot;highlighter-rouge&quot;&gt;z-index: ...&lt;/code&gt; property.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Z-index er den tredje akse ligesom i matematik. X-, y- og z-aksen. Det er den akse, der går ud mod dig. Altså &lt;strong&gt;jo højere Z-index for et HTML-tag, jo tættere er det på dig&lt;/strong&gt;. Men der er dog en vigtig, vigtig pointe:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Z-index virker kun, hvis dit HTML-tag har en &lt;code class=&quot;highlighter-rouge&quot;&gt;position&lt;/code&gt; property, som ikke er static!&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;em&gt;Men det har boksene jo i index.html!… Prøv at ændre på &lt;code class=&quot;highlighter-rouge&quot;&gt;.fixed&lt;/code&gt; i CSS og giv den et &lt;code class=&quot;highlighter-rouge&quot;&gt;z-index: ..&lt;/code&gt; for at se, om den nu er oven på de to gule.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Alt i alt er position en utrolig vigtig property, som man bruger gang på gang, når man skal bygge en hjemmeside.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Forstå de 4 forskellige positioneringer og du vil slippe for et utal af begynderfejl og -spørgsmål.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;display---hvor-meget-skal-dine-bokse-fylde-af-sig-selv-og-skal-de-overhovedet-vises&quot;&gt;Display - hvor meget skal dine bokse fylde af sig selv og skal de overhovedet vises?&lt;/h3&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Display er, som navnet også tilkendegiver, spørgsmålet om, hvordan dine HTML-tags skal vises. Vi vil kun komme ind på &lt;code class=&quot;highlighter-rouge&quot;&gt;display: block&lt;/code&gt; og &lt;code class=&quot;highlighter-rouge&quot;&gt;display: inline&lt;/code&gt;. Der findes et utal af values, som man kan læse mere om på &lt;a href=&quot;https://www.w3schools.com/cssref/pr_class_display.asp&quot; target=&quot;_blank&quot;&gt;W3 School&lt;/a&gt;. Men det er ikke nødvendigt på dette kursus.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h4 id=&quot;display-block---jeg-vil-fylde-hele-bredden-af-det-rum-som-jeg-er-i&quot;&gt;Display block - jeg vil fylde hele bredden af det rum, som jeg er i!&lt;/h4&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;display: block&lt;/code&gt; er standard value for et div-tag (&lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;div&amp;gt;&amp;lt;/div&amp;gt;&lt;/code&gt;) det betyder altså, at et div tag fylder hele bredden af det den bliver sat i.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Åben &lt;code class=&quot;highlighter-rouge&quot;&gt;index.html&lt;/code&gt; i en browser og se forskellen på de to &lt;code class=&quot;highlighter-rouge&quot;&gt;.display&lt;/code&gt;-tags nederst.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Altså vil et div tag i en browser fylde 100% af bredden, hvis der ikke var andet indstillet. &lt;strong&gt;Også selvom div-tagget ikke har noget indhold/tekst.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Det betyder altså at &lt;strong&gt;du ikke kan sætte div-tags ved siden af hinanden&lt;/strong&gt; uden at hjælpe dem med CSS, da de automatisk vil lægge sig &lt;strong&gt;oven på hinanden&lt;/strong&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h4 id=&quot;display-inline---jeg-fylder-kun-mit-indre&quot;&gt;Display inline - jeg fylder kun mit indre!&lt;/h4&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;display: inline&lt;/code&gt; er standard value for et span-tag (&lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;span&amp;gt;&amp;lt;/span&amp;gt;&lt;/code&gt;). Det betyder at et span tag kun fylder det, som den har i sig (tekst/billeder).&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Prøv at se eksemplets span-tag i browseren&lt;/em&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Det betyder, at du kan sætte span-tags ved siden af hinanden.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h4 id=&quot;display-none---jeg-er-her-ikke&quot;&gt;Display none - jeg er her ikke!&lt;/h4&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;display: none&lt;/code&gt; er simpelthen en måde at &lt;strong&gt;fjerne et HTML-tag i CSS’en uden at fjerne det i HTML’en&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;Det bruges meget ofte i webdesign, for at få et overblik (hvad er under dette) eller prøve et design uden en boks.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Hvis du pludselig en dag undrer dig over hvorfor dit HTML-tag ikke bliver vist på din side, er det højest sandsynligt fordi, at du har sat &lt;code class=&quot;highlighter-rouge&quot;&gt;display: none&lt;/code&gt; i din CSS eller fordi der ligger et HTML-tag oven på.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;border-padding-og-margin---afstande-der-er-til-at-forstå&quot;&gt;Border, padding og margin - afstande der er til at forstå&lt;/h2&gt;
+
+&lt;p&gt;For at forstå border, padding og margin er det lettest at starte med et billede:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/border-padding.png&quot; alt=&quot;Border padding og margin&quot; /&gt;
+&lt;em&gt;Billedet er lånt af &lt;a href=&quot;https://www.w3schools.com/css/css_boxmodel.asp&quot; target=&quot;_blank&quot;&gt;W3 Schools&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Dette illustrerer properties, som gælder for &lt;strong&gt;alle dine HTML-tags&lt;/strong&gt;:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Content:&lt;/strong&gt; Er dit indhold. Din tekst/billeder eller andet, som er i din boks (div, span etc.)&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Padding:&lt;/strong&gt; Er et område rundt om dit indhold, som du kan bestemme størrelsen på. F.eks.:
+&lt;code class=&quot;highlighter-rouge&quot;&gt;padding: 10px;&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Border:&lt;/strong&gt; Er en grænse rundt om din indhold + evt. padding, som du kan bestemme størrelse, form og farve på. F.eks.:
+&lt;code class=&quot;highlighter-rouge&quot;&gt;border: 1px dotted red;&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Margin:&lt;/strong&gt; Er din afstand rundt om dit indhold + evt. padding + evt. border, som du kan bestemme størrelsen på. F.eks.:
+&lt;code class=&quot;highlighter-rouge&quot;&gt;margin: 20px;&lt;/code&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;FIF:&lt;/strong&gt; Når du skriver én afstand (f.eks. &lt;code class=&quot;highlighter-rouge&quot;&gt;margin: 20px&lt;/code&gt;) gælder det for alle sider (top, right, bottom, left). Hvis du skriver to: &lt;code class=&quot;highlighter-rouge&quot;&gt;20px 10px&lt;/code&gt; gælder den første for top og bottom(20px) mens den næste gælder for left og right(10px). Du kan også skrive fire: &lt;code class=&quot;highlighter-rouge&quot;&gt;padding: 10px 15px 20px 30px&lt;/code&gt;, som så følger rækkefølgen top (10px), right (15px), bottom (20px) og left (30px).&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;em&gt;Prøv det af i din CSS. Tilføj en padding til en boks. Hvad med en border. Reagerer de forskellige postitioner forskelligt på padding, border og margin?&lt;/em&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;afstande&quot;&gt;Afstande&lt;/h2&gt;
+
+&lt;p&gt;Kommer snart&lt;/p&gt;</content><author><name></name></author><category term="wordpress" /><summary type="html">#Del 2 - WordPress kursus</summary></entry><entry><title type="html">Del 1 - HTML, CSS og JavaScript</title><link href="http://localhost:4000/wordpress/2018/01/27/wordpress-kursus.html" rel="alternate" type="text/html" title="Del 1 - HTML, CSS og JavaScript" /><published>2018-01-27T00:00:00+01:00</published><updated>2018-01-27T00:00:00+01:00</updated><id>http://localhost:4000/wordpress/2018/01/27/wordpress-kursus</id><content type="html" xml:base="http://localhost:4000/wordpress/2018/01/27/wordpress-kursus.html">&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;Forberedelse&lt;/strong&gt;: Start med at &lt;a href=&quot;/assets/wordpress-master.zip&quot; download=&quot;&quot;&gt;downloade eksemplet&lt;/a&gt; og åben den downloadede mappe i f.eks. &lt;a href=&quot;https://www.sublimetext.com/3&quot;&gt;Sublime Text 3&lt;/a&gt;. Åben derefter &lt;code class=&quot;highlighter-rouge&quot;&gt;index.html&lt;/code&gt; i en browser for at se indholdet. Dette vil være mappen, hvor du selv kan lave ændringer og afprøve den viden, som du møder hen af vejen.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;For at forstå WordPress ordentligt og senere hen at kunne lave de små ændringer, som temaet og de indbyggede page-builders ikke kan, bliver man nødt til at forstå hvad HTML, CSS og JavaScript er, og hvad man kan bruge dem til.&lt;/p&gt;
+
+&lt;p&gt;Vi starter med:&lt;/p&gt;
+
+&lt;h2 id=&quot;kodedyret---skelet-udseende-og-opførsel&quot;&gt;Kodedyret - skelet, udseende og opførsel!&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/skeleton.png&quot; alt=&quot;Hvad gør de tre, og hvordan er de forskellige?&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;html-skelettet&quot;&gt;HTML (SKELETTET):&lt;/h3&gt;
+&lt;p&gt;Er den grundlæggende struktur og er oftest det første en besøgende møder, når de besøger en hjemmeside.&lt;/p&gt;
+
+&lt;p&gt;Det er den, der holder styr på de resterende koder (CSS, JavaScript), og hvor de skal kaldes.&lt;/p&gt;
+
+&lt;p&gt;I HTML er der grundlæggende to inddelinger:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;HEAD&lt;/strong&gt; samler alle ressourcerne, så siden har hvad den skal bruge, når den bliver vist og har alt information om hjemmesiden, der ikke er nødvendig at vise til en bruger.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;BODY&lt;/strong&gt; er content, det er alt det rå indhold, som skal vises, såsom tekst og billeder. Det bliver stylet af CSS, så det kommer til at se godt ud senere.&lt;/p&gt;
+
+&lt;p&gt;De ser sådan her ud i HTML:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;head&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;c&quot;&gt;&amp;lt;!-- Jeg bliver ikke vist til en besøgende --&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;c&quot;&gt;&amp;lt;!-- Jeg samler ressourcerne ved at kalde dem ind --&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/head&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;body&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;c&quot;&gt;&amp;lt;!-- Jeg er alt indhold og bliver designet af,
+hvad &amp;lt;head&amp;gt; har fundet af ressourcer(CSS og Javacript) --&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/body&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;&lt;em&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;!--&lt;/code&gt; og &lt;code class=&quot;highlighter-rouge&quot;&gt;--&amp;gt;&lt;/code&gt; bruges til at starte og slutte HTML kommentarer. Det er en måde at sige til computeren: Læs IKKE hvad der er imellem disse!&lt;/em&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;Huskeregel:&lt;/strong&gt; Hovedet (head) tænker og forbereder sig(samler ressourcer) til, hvad kroppen(body) skal gøre. Når hovedet er færdig med det, så gør kroppen det.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Et HTML tag starter med &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;&lt;/code&gt; og slutter med &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;gt;&lt;/code&gt; - som f.eks. &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;head&amp;gt;&lt;/code&gt;. Det er en måde at sige til computeren på: Du skal læse alt fra dette tegn &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;&lt;/code&gt; til dette tegn &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;gt;&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;Derudover er der et &lt;strong&gt;start-tag&lt;/strong&gt; og et &lt;strong&gt;slut-tag&lt;/strong&gt;: &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;head&amp;gt;&lt;/code&gt; og &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;/head&amp;gt;&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;Så når computeren er færdig med et start-tag, så ved den, at indtil den møder slut-tagget, så gælder det den har læst i start-tagget.&lt;/p&gt;
+
+&lt;p&gt;F.eks. ved &lt;strong&gt;headings&lt;/strong&gt;, som er det samme som overskrifter i Word, hvor der findes forskellige størrelser:
+I HTML er der 6: &lt;code class=&quot;highlighter-rouge&quot;&gt;h1, h2, h3, h4, h5&lt;/code&gt; og &lt;code class=&quot;highlighter-rouge&quot;&gt;h6&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;De har hver deres tilsvarende HTML start- og slut-tag: &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;h1&amp;gt;&amp;lt;/h1&amp;gt;&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;h2&amp;gt;&amp;lt;/h2&amp;gt;&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;h3&amp;gt;&amp;lt;/h3&amp;gt;&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;h4&amp;gt;&amp;lt;/h4&amp;gt;&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;h5&amp;gt;&amp;lt;/h5&amp;gt;&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;h6&amp;gt;&amp;lt;/h6&amp;gt;&lt;/code&gt; (h1 er størst, h6 er mindst).
+ `&lt;/p&gt;
+
+&lt;p&gt;Altså kan du i HTML skrive:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;c&quot;&gt;&amp;lt;!-- Computeren rammer &amp;lt;h1&amp;gt; og ved at alt indtil den rammer &amp;lt;/h1&amp;gt; skal laves stort --&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;h1&amp;gt;&lt;/span&gt;Jeg er den største!&lt;span class=&quot;nt&quot;&gt;&amp;lt;/h1&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;c&quot;&gt;&amp;lt;!-- Computeren rammer nu &amp;lt;h6&amp;gt; og ved at alt indtil den rammer &amp;lt;/h6&amp;gt; skal være småt --&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;h6&amp;gt;&lt;/span&gt;Jeg er den mindste&lt;span class=&quot;nt&quot;&gt;&amp;lt;/h6&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Dette vil på denne side blive vist som (uden streger selvfølgelig):&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h1 id=&quot;jeg-er-den-største&quot;&gt;Jeg er den største!&lt;/h1&gt;
+
+&lt;h6 id=&quot;jeg-er-den-mindste&quot;&gt;Jeg er den mindste&lt;/h6&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Som du kan se, så er de HTML tags vi brugte væk!&lt;/p&gt;
+
+&lt;p&gt;Computeren har fået information om, hvordan vi gerne vil have, at teksten skal se ud og kan nu fjerne HTML tagsne, så de ikke gør hjemmesiden rodet og ulæselig.&lt;/p&gt;
+
+&lt;p&gt;Dette koncept gør sig så gældene for en bred vifte af HTML-tags, som så hver især ‘fortæller’ computeren noget forskelligt. De har hver især en funktion, som er en anden end h1-h6 tags.&lt;/p&gt;
+
+&lt;p&gt;Her er et lille udsnit, som er meget brugte: &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;div&amp;gt;&amp;lt;/div&amp;gt;&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;span&amp;gt;&amp;lt;span&amp;gt;&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;strong&amp;gt;&amp;lt;/strong&amp;gt;&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;footer&amp;gt;&amp;lt;/footer&amp;gt;&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;a&amp;gt;&amp;lt;/a&amp;gt;&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;nav&amp;gt;&amp;lt;/nav&amp;gt;&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;section&amp;gt;&amp;lt;/section&amp;gt;&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;Fortvivl ikke. Deres funktion kommer vi til senere. :)
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;css-hudenudseendet&quot;&gt;CSS (HUDEN/UDSEENDET):&lt;/h3&gt;
+&lt;p&gt;CSS’en er style, altså hvordan skal hjemmesiden se ud.&lt;/p&gt;
+
+&lt;p&gt;Den styler det indhold (content) som er i HTML. Alt indhold mellem &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;body&amp;gt;&lt;/code&gt; og &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;/body&amp;gt;&lt;/code&gt; fra før.&lt;/p&gt;
+
+&lt;p&gt;Eksempler på dette kan være:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Hvor stor skal fonten(teksten) være? (Men hov, var det ikke h1-h6… Jo, men det kan CSS’en også bestemme)&lt;/li&gt;
+  &lt;li&gt;Hvor skal dette billede være placeret på hjemmesiden?&lt;/li&gt;
+  &lt;li&gt;Hvilken farve skal baggrunden være og hvor meget plads skal denne tekst have omkring sig?&lt;/li&gt;
+  &lt;li&gt;Hvordan skal hjemmesiden se ud på mobil?&lt;/li&gt;
+  &lt;li&gt;Skal billedet blive gennemsigtigt, når jeg holder musen over det?&lt;/li&gt;
+  &lt;li&gt;Hvor meget rum (pixels) skal der være mellem de her to bokse?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Men hvordan snakker HTML og CSS sammen? Hvordan styler CSS HTML?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Hvis jeg f.eks. ønskede at HTML tagget fra før: &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;h1&amp;gt;Jeg er den største!&amp;lt;/h1&amp;gt;&lt;/code&gt; skulle være orange, så ville jeg skrive CSS for at gøre det.&lt;/p&gt;
+
+&lt;p&gt;CSS’en ville se således ud:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-css&quot; data-lang=&quot;css&quot;&gt;&lt;span class=&quot;nt&quot;&gt;h1&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; 
+	&lt;span class=&quot;nl&quot;&gt;color&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;orange&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; 
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt; &lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Altså: det første: &lt;code class=&quot;highlighter-rouge&quot;&gt;h1&lt;/code&gt;(også kaldet en &lt;strong&gt;selector&lt;/strong&gt;) siger: Alle HTML h1 tags skal være som jeg befaler inden for de næste &lt;code class=&quot;highlighter-rouge&quot;&gt;{&lt;/code&gt; og &lt;code class=&quot;highlighter-rouge&quot;&gt;}&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;Jeg befaler at &lt;code class=&quot;highlighter-rouge&quot;&gt;color&lt;/code&gt;(også kaldet en &lt;strong&gt;property&lt;/strong&gt;) skal være &lt;code class=&quot;highlighter-rouge&quot;&gt;orange&lt;/code&gt; (også kaldet en &lt;strong&gt;value&lt;/strong&gt;).&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;VIGTIGT:&lt;/strong&gt; Læg mærke til at property og value er opdelt af et kolon og value afslutter linjen med et semikolon: &lt;code class=&quot;highlighter-rouge&quot;&gt;color: orange;&lt;/code&gt;. Uden dette gennemføres koden ikke.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Nu ville den blive vist som:&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h1 style=&quot;color: orange&quot;&gt;Jeg er den største!&lt;/h1&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Eller hvis jeg ville have mere afstand mellem bogstaverne ville jeg tilføje:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-css&quot; data-lang=&quot;css&quot;&gt;&lt;span class=&quot;nt&quot;&gt;h1&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; 
+	&lt;span class=&quot;nl&quot;&gt;color&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;orange&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; 
+	&lt;span class=&quot;nl&quot;&gt;letter-spacing&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;5px&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt; &lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;&lt;em&gt;px er, som det lyder, dit antal pixels på din skærm&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Så ville det så således ud:&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h1 style=&quot;color: orange; letter-spacing: 5px;&quot;&gt;Jeg er den største!&lt;/h1&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Eller en anden baggrundsfarve:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-css&quot; data-lang=&quot;css&quot;&gt;&lt;span class=&quot;nt&quot;&gt;h1&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; 
+	&lt;span class=&quot;nl&quot;&gt;color&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;orange&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; 
+	&lt;span class=&quot;nl&quot;&gt;letter-spacing&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;5px&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+	&lt;span class=&quot;nl&quot;&gt;background-color&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;red&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt; &lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;hr /&gt;
+
+&lt;h1 style=&quot;background-color: red; color: orange; letter-spacing: 5px;&quot;&gt;Jeg er den største!&lt;/h1&gt;
+
+&lt;hr /&gt;
+&lt;p&gt;Osv. osv.&lt;/p&gt;
+
+&lt;p&gt;På den måde findes der et utal af &lt;strong&gt;properties&lt;/strong&gt; for næsten alle tænkelige ændringer, som man kunne lave på sine tekst og billeder.&lt;/p&gt;
+
+&lt;p&gt;Heldigvis giver de oftest sig selv og er derfor lette at huske. F.eks. &lt;code class=&quot;highlighter-rouge&quot;&gt;background-color&lt;/code&gt;.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;Udfordring:&lt;/strong&gt; Prøv f.eks. selv at indstille højden på din h1 selector til et antal px. på over 100 i dit eget dokument: &lt;code class=&quot;highlighter-rouge&quot;&gt;style.css&lt;/code&gt; i css mappen - hvad er højde mon skrevet som? (husk at reload siden, efter at du har lavet ændringerne)&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;h4 id=&quot;css-klasser&quot;&gt;CSS klasser&lt;/h4&gt;
+&lt;p&gt;For at forklare hvorfor CSS klasser er så pokkers smarte, kan vi prøve at besvare spørgsmålet:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Hvad gør man, hvis man har 2 forskellige h4-tags og gerne vil have, at den ene skal være rød og den anden brun?&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Eksemplet:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;HTML&lt;/strong&gt;&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;h4&amp;gt;&lt;/span&gt;Jeg vil gerne være RØD!&lt;span class=&quot;nt&quot;&gt;&amp;lt;/h4&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;h4&amp;gt;&lt;/span&gt;Jeg vil gerne være BRUN!&lt;span class=&quot;nt&quot;&gt;&amp;lt;/h4&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Så kunne man måske tro at dette ville virke:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;CSS&lt;/strong&gt;&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-css&quot; data-lang=&quot;css&quot;&gt;&lt;span class=&quot;nt&quot;&gt;h4&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+	&lt;span class=&quot;nl&quot;&gt;color&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;brown&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+	&lt;span class=&quot;nl&quot;&gt;color&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;red&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Men lad os prøve at se hvilken farve de får:&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h4 style=&quot;color: brown; color: red;&quot;&gt;Jeg vil gerne være RØD!&lt;/h4&gt;
+&lt;h4 style=&quot;color: brown; color: red;&quot;&gt;Jeg vil gerne være BRUN!&lt;/h4&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Hvorfor dog det?&lt;/p&gt;
+
+&lt;p&gt;Jo, der kan kun være en indstilling for hver &lt;strong&gt;selectors&lt;/strong&gt;(h4) &lt;strong&gt;property&lt;/strong&gt;(color, background-color, letter-spacing etc.).
+Det giver ikke mening, at der kunne være to forskellige, for hvornår skulle den ene vises og hvornår den anden? Computeren ser alle h4 tags som de samme. Vi bliver nødt til at gøre brug af endnu en inddeling for at kunne adskille dem i deres style(CSS). Det er her &lt;strong&gt;CSS klasser&lt;/strong&gt; kommer ind i billedet.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;Men hvorfor rød?:&lt;/strong&gt; Det er altid den sidste property(color i det her tilfælde), som overskriver. Altså står &lt;code class=&quot;highlighter-rouge&quot;&gt;color: red&lt;/code&gt; i det her tilfælde nederst af de to og overskriver derfor det tidligere fundet &lt;code class=&quot;highlighter-rouge&quot;&gt;color: brown&lt;/code&gt; (computeren læser oppefra og ned).&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;CSS klasser giver os mulighed for at tilføje en værdi til et HTML tag, som vi så kan referere til i vores CSS.&lt;/p&gt;
+
+&lt;p&gt;Se hvordan HTML’en har ændret sig:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;h4&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;heading-red&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;Jeg vil gerne være RØD!&lt;span class=&quot;nt&quot;&gt;&amp;lt;/h4&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;h4&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;heading-brown&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;Jeg vil gerne være BRUN!&lt;span class=&quot;nt&quot;&gt;&amp;lt;/h4&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;&lt;strong&gt;Hvad sker der?&lt;/strong&gt; - Vi har i det første tilfælde tilføjet &lt;code class=&quot;highlighter-rouge&quot;&gt;class=&quot;heading-red&quot;&lt;/code&gt; direkte ind i HTML-tagget. Inden for &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;&lt;/code&gt; og &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;gt;&lt;/code&gt; af start-tagget.&lt;/p&gt;
+
+&lt;p&gt;Vi har simpelthen tilføjet information til HTML-tagget, som nu gør os istand til at kalde specifikt denne klasse i CSS’en:&lt;/p&gt;
+
+&lt;p&gt;Nu kan vi udforme vores CSS på en helt anden måde:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-css&quot; data-lang=&quot;css&quot;&gt;&lt;span class=&quot;nc&quot;&gt;.heading-red&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+	&lt;span class=&quot;nl&quot;&gt;color&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;red&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;nc&quot;&gt;.heading-brown&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+	&lt;span class=&quot;nl&quot;&gt;color&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;brown&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Og nu ender vi med det ønskede resultat:&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h4 class=&quot;heading-red&quot;&gt;Jeg vil gerne være RØD!&lt;/h4&gt;
+&lt;h4 class=&quot;heading-brown&quot;&gt;Jeg vil gerne være BRUN!&lt;/h4&gt;
+
+&lt;hr /&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;Forklaring:&lt;/strong&gt; Punktummet før &lt;code class=&quot;highlighter-rouge&quot;&gt;heading-brown&lt;/code&gt; er CSS’s måde at sige på: Denne &lt;strong&gt;selector&lt;/strong&gt; leder efter en class af samme navn! Computeren møder altså &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;h4 class=&quot;heading-brown&quot;&amp;gt;...&amp;lt;/h4&amp;gt;&lt;/code&gt; og husker så, at den har en style for dette element i CSS’en (.heading-brown).&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;Udfordring:&lt;/strong&gt; Prøv selv at tilføje &lt;code class=&quot;highlighter-rouge&quot;&gt;class=&quot;..&quot;&lt;/code&gt; og CSS i din &lt;code class=&quot;highlighter-rouge&quot;&gt;index.html&lt;/code&gt; og &lt;code class=&quot;highlighter-rouge&quot;&gt;style.css&lt;/code&gt; - kan du ramme en klasse på samme måde? Hvad med at give hver sin h4 forskellige baggrundsfarver? Hvordan går det?&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;javascript-opførselbevægelse&quot;&gt;JavaScript (opførsel/bevægelse)&lt;/h3&gt;
+
+&lt;p&gt;JavaScript er det vildeste!
+Det er et af de mest udbredte kodesprog i verden (mest aktive på &lt;a href=&quot;https://stackoverflow.com/&quot;&gt;StackOverflow&lt;/a&gt;) og er dit kodedyrs bevægelse og opførelse. Det er helt klart et sværere kodesprog at skrive end HTML og CSS og der vil derfor ikke være eksempler, men blot en kort indsigt.&lt;/p&gt;
+
+&lt;p&gt;Du aktiverer JavaScript 100-vis af gange om dagen.&lt;/p&gt;
+
+&lt;p&gt;Du bruger det, når du søger, og der bliver vist søgeresultater imens.&lt;/p&gt;
+
+&lt;p&gt;Du bruger det, når dit billede uploader på Facebook.&lt;/p&gt;
+
+&lt;p&gt;Du bruger det i enorm grad på Google Maps.&lt;/p&gt;
+
+&lt;p&gt;Hvis du har en drøm om at blive en rig programmør, så skulle du tage at blive ekspert i dette.&lt;/p&gt;
+
+&lt;p&gt;Det kan hente data uden at dit vindue reloader. Det kan sætte cookies og meget, meget, meget mere.&lt;/p&gt;
+
+&lt;p&gt;JavaScript kan bruges i en simplere form, som hedder &lt;a href=&quot;https://jquery.com/&quot;&gt;jQuery&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Hvis vi får tid kommer vi til at lege lidt med jQuery med nogle dropdown-menuer og vilde effekter (bounce, bounce).&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;lektierstigninger&quot;&gt;Lektier/stigninger&lt;/h3&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Lektierne er inddelt i stigninger, så man selv kan bestemme, hvor svær en udfordring, som man vil tage op. Jeg vil selvfølgelig anbefale, at man laver alle tre, men se, hvad i kan få tid til. Hvis man ønsker at gå videre, så er det altid muligt at fortsætte læringen via et af de kurser, som er nævnt underneden.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h4 id=&quot;1-grads-stigning&quot;&gt;1. grads stigning&lt;/h4&gt;
+&lt;p&gt;Kan du forklare hvad forskellen på et span-tag og et div-tag er?&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;Hint:&lt;/strong&gt; Div og span er begge HTML-tags (&lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;div&amp;gt;&lt;/code&gt; og &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;span&amp;gt;&lt;/code&gt;), som bliver brugt på kryds og tværs af internettet. De har dog to vidt forskellige funktioner, som har noget med deres standard CSS property &lt;code class=&quot;highlighter-rouge&quot;&gt;display:.. &lt;/code&gt; at gøre.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h4 id=&quot;2-grads-stigning&quot;&gt;2. grads stigning:&lt;/h4&gt;
+&lt;p&gt;Indsæt et billede øverst på din hjemmeside med et &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;img&amp;gt;&lt;/code&gt; HTML-tag i din &lt;code class=&quot;highlighter-rouge&quot;&gt;index.html&lt;/code&gt; og få det til at fylde hele din hjemmesides bredde. 
+&lt;a href=&quot;https://www.w3schools.com/html/html_images.asp&quot; target=&quot;_blank&quot;&gt;Læs mere her&lt;/a&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;Hint til bredde:&lt;/strong&gt; Man kan bruge &lt;code class=&quot;highlighter-rouge&quot;&gt;%&lt;/code&gt;(procenttegnet) i CSS. Derudover kan du også bruge &lt;code class=&quot;highlighter-rouge&quot;&gt;width:&lt;/code&gt;. Så hvor mange procent skal &lt;code class=&quot;highlighter-rouge&quot;&gt;width:&lt;/code&gt; sættes til for at fylde hele bredden?&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h4 id=&quot;3-grads-stigning&quot;&gt;3. grads stigning:&lt;/h4&gt;
+&lt;p&gt;Lav 4 bokse med &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;div&amp;gt;&amp;lt;/div&amp;gt;&lt;/code&gt; og giv dem hver især forskellige baggrundsfarver, højder og bredder via forskellige klasser.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;Hint:&lt;/strong&gt; En div uden indhold har ingen højde og bredde, så den vil ikke kunne ses, før du giver den en højde &lt;code class=&quot;highlighter-rouge&quot;&gt;height: ...&lt;/code&gt; og en bredde &lt;code class=&quot;highlighter-rouge&quot;&gt;width: ...&lt;/code&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&quot;kurser&quot;&gt;Kurser:&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.codecademy.com/learn/learn-html&quot;&gt;HTML kursus - CodeCademy&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.codecademy.com/learn/learn-css&quot;&gt;CSS kursus - CodeCademy&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Tak for denne gang - glæder mig til næste del! :)&lt;/p&gt;</content><author><name></name></author><category term="wordpress" /><summary type="html">Forberedelse: Start med at downloade eksemplet og åben den downloadede mappe i f.eks. Sublime Text 3. Åben derefter index.html i en browser for at se indholdet. Dette vil være mappen, hvor du selv kan lave ændringer og afprøve den viden, som du møder hen af vejen.</summary></entry><entry><title type="html">Fire superkræfter til den studerende</title><link href="http://localhost:4000/blogs/2018/01/27/techlove.html" rel="alternate" type="text/html" title="Fire superkræfter til den studerende" /><published>2018-01-27T00:00:00+01:00</published><updated>2018-01-27T00:00:00+01:00</updated><id>http://localhost:4000/blogs/2018/01/27/techlove</id><content type="html" xml:base="http://localhost:4000/blogs/2018/01/27/techlove.html">&lt;h3&gt;Tre nemme værktøjer (plus et svært), der vil forbedre og sikre dit arbejde på computeren&lt;/h3&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;Dette blogindlæg er en samling af værktøjer, som jeg gør brug af hver dag. De hjælper mig dagligt med at gøre det til en mere flydende bevægelse at arbejde på en computer. Hvis du som jeg sidder størstedelen af din arbejdstid ved computeren og samtidig elsker dette værktøj, så har du nu mulighed for at slibe det en smule ‘skarpere’.&lt;/p&gt;
@@ -543,313 +1008,4 @@ SÅ tag at gå over og prøv spillet &lt;a href=&quot;https://vim-adventures.com
 
 &lt;h4 id=&quot;ps-hackernews---for-dig-der-vil-have-endnu-mere-tech&quot;&gt;PS HackerNews - for dig der vil have endnu mere TECH!&lt;/h4&gt;
 
-&lt;p&gt;&lt;em&gt;LastPass og Tomighty stiftede jeg bekendtskab med gennem min storebror, som sidder på &lt;a href=&quot;https://news.ycombinator.com/&quot; target=&quot;_blank&quot;&gt;Hacker News&lt;/a&gt;, når andre sidder på Facebook. Hvis du gerne vil have nyheder, der omhandler det nyeste nye inden for teknologi, så er det stedet at være!&lt;/em&gt;&lt;/p&gt;</content><author><name></name></author><category term="blogs" /><summary type="html">Tre nemme værktøjer (plus et svært), der vil forbedre og sikre dit arbejde på computeren</summary></entry><entry><title type="html">Del 1 - HTML, CSS og JavaScript</title><link href="http://localhost:4000/wordpress/2018/01/25/wordpress-kursus.html" rel="alternate" type="text/html" title="Del 1 - HTML, CSS og JavaScript" /><published>2018-01-25T22:09:58+01:00</published><updated>2018-01-25T22:09:58+01:00</updated><id>http://localhost:4000/wordpress/2018/01/25/wordpress-kursus</id><content type="html" xml:base="http://localhost:4000/wordpress/2018/01/25/wordpress-kursus.html">&lt;blockquote&gt;
-  &lt;p&gt;&lt;strong&gt;Forberedelse&lt;/strong&gt;: Start med at &lt;a href=&quot;/assets/wordpress-master.zip&quot; download=&quot;&quot;&gt;downloade eksemplet&lt;/a&gt; og åben den downloadede mappe i f.eks. &lt;a href=&quot;https://www.sublimetext.com/3&quot;&gt;Sublime Text 3&lt;/a&gt;. Åben derefter &lt;code class=&quot;highlighter-rouge&quot;&gt;index.html&lt;/code&gt; i en browser for at se indholdet. Dette vil være mappen, hvor du selv kan lave ændringer og afprøve den viden, som du møder hen af vejen.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;For at forstå WordPress ordentligt og senere hen at kunne lave de små ændringer, som temaet og de indbyggede page-builders ikke kan, bliver man nødt til at forstå hvad HTML, CSS og JavaScript er, og hvad man kan bruge dem til.&lt;/p&gt;
-
-&lt;p&gt;Vi starter med:&lt;/p&gt;
-
-&lt;h2 id=&quot;kodedyret---skelet-udseende-og-opførsel&quot;&gt;Kodedyret - skelet, udseende og opførsel!&lt;/h2&gt;
-&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/skeleton.png&quot; alt=&quot;Hvad gør de tre, og hvordan er de forskellige?&quot; /&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;html-skelettet&quot;&gt;HTML (SKELETTET):&lt;/h3&gt;
-&lt;p&gt;Er den grundlæggende struktur og er oftest det første en besøgende møder, når de besøger en hjemmeside.&lt;/p&gt;
-
-&lt;p&gt;Det er den, der holder styr på de resterende koder (CSS, JavaScript), og hvor de skal kaldes.&lt;/p&gt;
-
-&lt;p&gt;I HTML er der grundlæggende to inddelinger:&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;HEAD&lt;/strong&gt; samler alle ressourcerne, så siden har hvad den skal bruge, når den bliver vist og har alt information om hjemmesiden, der ikke er nødvendig at vise til en bruger.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;BODY&lt;/strong&gt; er content, det er alt det rå indhold, som skal vises, såsom tekst og billeder. Det bliver stylet af CSS, så det kommer til at se godt ud senere.&lt;/p&gt;
-
-&lt;p&gt;De ser sådan her ud i HTML:&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;head&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;c&quot;&gt;&amp;lt;!-- Jeg bliver ikke vist til en besøgende --&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;c&quot;&gt;&amp;lt;!-- Jeg samler ressourcerne ved at kalde dem ind --&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;nt&quot;&gt;&amp;lt;/head&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;nt&quot;&gt;&amp;lt;body&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;c&quot;&gt;&amp;lt;!-- Jeg er alt indhold og bliver designet af,
-hvad &amp;lt;head&amp;gt; har fundet af ressourcer(CSS og Javacript) --&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;nt&quot;&gt;&amp;lt;/body&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;&lt;em&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;!--&lt;/code&gt; og &lt;code class=&quot;highlighter-rouge&quot;&gt;--&amp;gt;&lt;/code&gt; bruges til at starte og slutte HTML kommentarer. Det er en måde at sige til computeren: Læs IKKE hvad der er imellem disse!&lt;/em&gt;&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;&lt;strong&gt;Huskeregel:&lt;/strong&gt; Hovedet (head) tænker og forbereder sig(samler ressourcer) til, hvad kroppen(body) skal gøre. Når hovedet er færdig med det, så gør kroppen det.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Et HTML tag starter med &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;&lt;/code&gt; og slutter med &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;gt;&lt;/code&gt; - som f.eks. &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;head&amp;gt;&lt;/code&gt;. Det er en måde at sige til computeren på: Du skal læse alt fra dette tegn &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;&lt;/code&gt; til dette tegn &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;gt;&lt;/code&gt;.&lt;/p&gt;
-
-&lt;p&gt;Derudover er der et &lt;strong&gt;start-tag&lt;/strong&gt; og et &lt;strong&gt;slut-tag&lt;/strong&gt;: &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;head&amp;gt;&lt;/code&gt; og &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;/head&amp;gt;&lt;/code&gt;.&lt;/p&gt;
-
-&lt;p&gt;Så når computeren er færdig med et start-tag, så ved den, at indtil den møder slut-tagget, så gælder det den har læst i start-tagget.&lt;/p&gt;
-
-&lt;p&gt;F.eks. ved &lt;strong&gt;headings&lt;/strong&gt;, som er det samme som overskrifter i Word, hvor der findes forskellige størrelser:
-I HTML er der 6: &lt;code class=&quot;highlighter-rouge&quot;&gt;h1, h2, h3, h4, h5&lt;/code&gt; og &lt;code class=&quot;highlighter-rouge&quot;&gt;h6&lt;/code&gt;.&lt;/p&gt;
-
-&lt;p&gt;De har hver deres tilsvarende HTML start- og slut-tag: &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;h1&amp;gt;&amp;lt;/h1&amp;gt;&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;h2&amp;gt;&amp;lt;/h2&amp;gt;&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;h3&amp;gt;&amp;lt;/h3&amp;gt;&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;h4&amp;gt;&amp;lt;/h4&amp;gt;&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;h5&amp;gt;&amp;lt;/h5&amp;gt;&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;h6&amp;gt;&amp;lt;/h6&amp;gt;&lt;/code&gt; (h1 er størst, h6 er mindst).
- `&lt;/p&gt;
-
-&lt;p&gt;Altså kan du i HTML skrive:&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;c&quot;&gt;&amp;lt;!-- Computeren rammer &amp;lt;h1&amp;gt; og ved at alt indtil den rammer &amp;lt;/h1&amp;gt; skal laves stort --&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;nt&quot;&gt;&amp;lt;h1&amp;gt;&lt;/span&gt;Jeg er den største!&lt;span class=&quot;nt&quot;&gt;&amp;lt;/h1&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;c&quot;&gt;&amp;lt;!-- Computeren rammer nu &amp;lt;h6&amp;gt; og ved at alt indtil den rammer &amp;lt;/h6&amp;gt; skal være småt --&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;nt&quot;&gt;&amp;lt;h6&amp;gt;&lt;/span&gt;Jeg er den mindste&lt;span class=&quot;nt&quot;&gt;&amp;lt;/h6&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;Dette vil på denne side blive vist som (uden streger selvfølgelig):&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h1 id=&quot;jeg-er-den-største&quot;&gt;Jeg er den største!&lt;/h1&gt;
-
-&lt;h6 id=&quot;jeg-er-den-mindste&quot;&gt;Jeg er den mindste&lt;/h6&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;Som du kan se, så er de HTML tags vi brugte væk!&lt;/p&gt;
-
-&lt;p&gt;Computeren har fået information om, hvordan vi gerne vil have, at teksten skal se ud og kan nu fjerne HTML tagsne, så de ikke gør hjemmesiden rodet og ulæselig.&lt;/p&gt;
-
-&lt;p&gt;Dette koncept gør sig så gældene for en bred vifte af HTML-tags, som så hver især ‘fortæller’ computeren noget forskelligt. De har hver især en funktion, som er en anden end h1-h6 tags.&lt;/p&gt;
-
-&lt;p&gt;Her er et lille udsnit, som er meget brugte: &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;div&amp;gt;&amp;lt;/div&amp;gt;&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;span&amp;gt;&amp;lt;span&amp;gt;&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;strong&amp;gt;&amp;lt;/strong&amp;gt;&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;footer&amp;gt;&amp;lt;/footer&amp;gt;&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;a&amp;gt;&amp;lt;/a&amp;gt;&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;nav&amp;gt;&amp;lt;/nav&amp;gt;&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;section&amp;gt;&amp;lt;/section&amp;gt;&lt;/code&gt;.&lt;/p&gt;
-
-&lt;p&gt;Fortvivl ikke. Deres funktion kommer vi til senere. :)
-&lt;br /&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;css-hudenudseendet&quot;&gt;CSS (HUDEN/UDSEENDET):&lt;/h3&gt;
-&lt;p&gt;CSS’en er style, altså hvordan skal hjemmesiden se ud.&lt;/p&gt;
-
-&lt;p&gt;Den styler det indhold (content) som er i HTML. Alt indhold mellem &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;body&amp;gt;&lt;/code&gt; og &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;/body&amp;gt;&lt;/code&gt; fra før.&lt;/p&gt;
-
-&lt;p&gt;Eksempler på dette kan være:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Hvor stor skal fonten(teksten) være? (Men hov, var det ikke h1-h6… Jo, men det kan CSS’en også bestemme)&lt;/li&gt;
-  &lt;li&gt;Hvor skal dette billede være placeret på hjemmesiden?&lt;/li&gt;
-  &lt;li&gt;Hvilken farve skal baggrunden være og hvor meget plads skal denne tekst have omkring sig?&lt;/li&gt;
-  &lt;li&gt;Hvordan skal hjemmesiden se ud på mobil?&lt;/li&gt;
-  &lt;li&gt;Skal billedet blive gennemsigtigt, når jeg holder musen over det?&lt;/li&gt;
-  &lt;li&gt;Hvor meget rum (pixels) skal der være mellem de her to bokse?&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;Men hvordan snakker HTML og CSS sammen? Hvordan styler CSS HTML?&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Hvis jeg f.eks. ønskede at HTML tagget fra før: &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;h1&amp;gt;Jeg er den største!&amp;lt;/h1&amp;gt;&lt;/code&gt; skulle være orange, så ville jeg skrive CSS for at gøre det.&lt;/p&gt;
-
-&lt;p&gt;CSS’en ville se således ud:&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-css&quot; data-lang=&quot;css&quot;&gt;&lt;span class=&quot;nt&quot;&gt;h1&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; 
-	&lt;span class=&quot;nl&quot;&gt;color&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;orange&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; 
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt; &lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;Altså: det første: &lt;code class=&quot;highlighter-rouge&quot;&gt;h1&lt;/code&gt;(også kaldet en &lt;strong&gt;selector&lt;/strong&gt;) siger: Alle HTML h1 tags skal være som jeg befaler inden for de næste &lt;code class=&quot;highlighter-rouge&quot;&gt;{&lt;/code&gt; og &lt;code class=&quot;highlighter-rouge&quot;&gt;}&lt;/code&gt;.&lt;/p&gt;
-
-&lt;p&gt;Jeg befaler at &lt;code class=&quot;highlighter-rouge&quot;&gt;color&lt;/code&gt;(også kaldet en &lt;strong&gt;property&lt;/strong&gt;) skal være &lt;code class=&quot;highlighter-rouge&quot;&gt;orange&lt;/code&gt; (også kaldet en &lt;strong&gt;value&lt;/strong&gt;).&lt;/p&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;&lt;strong&gt;VIGTIGT:&lt;/strong&gt; Læg mærke til at property og value er opdelt af et kolon og value afslutter linjen med et semikolon: &lt;code class=&quot;highlighter-rouge&quot;&gt;color: orange;&lt;/code&gt;. Uden dette gennemføres koden ikke.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Nu ville den blive vist som:&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h1 style=&quot;color: orange&quot;&gt;Jeg er den største!&lt;/h1&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;Eller hvis jeg ville have mere afstand mellem bogstaverne ville jeg tilføje:&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-css&quot; data-lang=&quot;css&quot;&gt;&lt;span class=&quot;nt&quot;&gt;h1&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; 
-	&lt;span class=&quot;nl&quot;&gt;color&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;orange&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; 
-	&lt;span class=&quot;nl&quot;&gt;letter-spacing&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;5px&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt; &lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;&lt;em&gt;px er, som det lyder, dit antal pixels på din skærm&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;Så ville det så således ud:&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h1 style=&quot;color: orange; letter-spacing: 5px;&quot;&gt;Jeg er den største!&lt;/h1&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;Eller en anden baggrundsfarve:&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-css&quot; data-lang=&quot;css&quot;&gt;&lt;span class=&quot;nt&quot;&gt;h1&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; 
-	&lt;span class=&quot;nl&quot;&gt;color&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;orange&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; 
-	&lt;span class=&quot;nl&quot;&gt;letter-spacing&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;5px&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-	&lt;span class=&quot;nl&quot;&gt;background-color&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;red&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt; &lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;hr /&gt;
-
-&lt;h1 style=&quot;background-color: red; color: orange; letter-spacing: 5px;&quot;&gt;Jeg er den største!&lt;/h1&gt;
-
-&lt;hr /&gt;
-&lt;p&gt;Osv. osv.&lt;/p&gt;
-
-&lt;p&gt;På den måde findes der et utal af &lt;strong&gt;properties&lt;/strong&gt; for næsten alle tænkelige ændringer, som man kunne lave på sine tekst og billeder.&lt;/p&gt;
-
-&lt;p&gt;Heldigvis giver de oftest sig selv og er derfor lette at huske. F.eks. &lt;code class=&quot;highlighter-rouge&quot;&gt;background-color&lt;/code&gt;.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;&lt;strong&gt;Udfordring:&lt;/strong&gt; Prøv f.eks. selv at indstille højden på din h1 selector til et antal px. på over 100 i dit eget dokument: &lt;code class=&quot;highlighter-rouge&quot;&gt;style.css&lt;/code&gt; i css mappen - hvad er højde mon skrevet som? (husk at reload siden, efter at du har lavet ændringerne)&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;h4 id=&quot;css-klasser&quot;&gt;CSS klasser&lt;/h4&gt;
-&lt;p&gt;For at forklare hvorfor CSS klasser er så pokkers smarte, kan vi prøve at besvare spørgsmålet:&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Hvad gør man, hvis man har 2 forskellige h4-tags og gerne vil have, at den ene skal være rød og den anden brun?&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Eksemplet:&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;HTML&lt;/strong&gt;&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;h4&amp;gt;&lt;/span&gt;Jeg vil gerne være RØD!&lt;span class=&quot;nt&quot;&gt;&amp;lt;/h4&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;nt&quot;&gt;&amp;lt;h4&amp;gt;&lt;/span&gt;Jeg vil gerne være BRUN!&lt;span class=&quot;nt&quot;&gt;&amp;lt;/h4&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;Så kunne man måske tro at dette ville virke:&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;CSS&lt;/strong&gt;&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-css&quot; data-lang=&quot;css&quot;&gt;&lt;span class=&quot;nt&quot;&gt;h4&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-	&lt;span class=&quot;nl&quot;&gt;color&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;brown&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-	&lt;span class=&quot;nl&quot;&gt;color&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;red&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;Men lad os prøve at se hvilken farve de får:&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h4 style=&quot;color: brown; color: red;&quot;&gt;Jeg vil gerne være RØD!&lt;/h4&gt;
-&lt;h4 style=&quot;color: brown; color: red;&quot;&gt;Jeg vil gerne være BRUN!&lt;/h4&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;Hvorfor dog det?&lt;/p&gt;
-
-&lt;p&gt;Jo, der kan kun være en indstilling for hver &lt;strong&gt;selectors&lt;/strong&gt;(h4) &lt;strong&gt;property&lt;/strong&gt;(color, background-color, letter-spacing etc.).
-Det giver ikke mening, at der kunne være to forskellige, for hvornår skulle den ene vises og hvornår den anden? Computeren ser alle h4 tags som de samme. Vi bliver nødt til at gøre brug af endnu en inddeling for at kunne adskille dem i deres style(CSS). Det er her &lt;strong&gt;CSS klasser&lt;/strong&gt; kommer ind i billedet.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;&lt;strong&gt;Men hvorfor rød?:&lt;/strong&gt; Det er altid den sidste property(color i det her tilfælde), som overskriver. Altså står &lt;code class=&quot;highlighter-rouge&quot;&gt;color: red&lt;/code&gt; i det her tilfælde nederst af de to og overskriver derfor det tidligere fundet &lt;code class=&quot;highlighter-rouge&quot;&gt;color: brown&lt;/code&gt; (computeren læser oppefra og ned).&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;CSS klasser giver os mulighed for at tilføje en værdi til et HTML tag, som vi så kan referere til i vores CSS.&lt;/p&gt;
-
-&lt;p&gt;Se hvordan HTML’en har ændret sig:&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;h4&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;heading-red&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;Jeg vil gerne være RØD!&lt;span class=&quot;nt&quot;&gt;&amp;lt;/h4&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;nt&quot;&gt;&amp;lt;h4&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;heading-brown&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;Jeg vil gerne være BRUN!&lt;span class=&quot;nt&quot;&gt;&amp;lt;/h4&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;&lt;strong&gt;Hvad sker der?&lt;/strong&gt; - Vi har i det første tilfælde tilføjet &lt;code class=&quot;highlighter-rouge&quot;&gt;class=&quot;heading-red&quot;&lt;/code&gt; direkte ind i HTML-tagget. Inden for &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;&lt;/code&gt; og &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;gt;&lt;/code&gt; af start-tagget.&lt;/p&gt;
-
-&lt;p&gt;Vi har simpelthen tilføjet information til HTML-tagget, som nu gør os istand til at kalde specifikt denne klasse i CSS’en:&lt;/p&gt;
-
-&lt;p&gt;Nu kan vi udforme vores CSS på en helt anden måde:&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-css&quot; data-lang=&quot;css&quot;&gt;&lt;span class=&quot;nc&quot;&gt;.heading-red&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-	&lt;span class=&quot;nl&quot;&gt;color&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;red&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-&lt;span class=&quot;nc&quot;&gt;.heading-brown&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-	&lt;span class=&quot;nl&quot;&gt;color&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;brown&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;Og nu ender vi med det ønskede resultat:&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h4 class=&quot;heading-red&quot;&gt;Jeg vil gerne være RØD!&lt;/h4&gt;
-&lt;h4 class=&quot;heading-brown&quot;&gt;Jeg vil gerne være BRUN!&lt;/h4&gt;
-
-&lt;hr /&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;&lt;strong&gt;Forklaring:&lt;/strong&gt; Punktummet før &lt;code class=&quot;highlighter-rouge&quot;&gt;heading-brown&lt;/code&gt; er CSS’s måde at sige på: Denne &lt;strong&gt;selector&lt;/strong&gt; leder efter en class af samme navn! Computeren møder altså &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;h4 class=&quot;heading-brown&quot;&amp;gt;...&amp;lt;/h4&amp;gt;&lt;/code&gt; og husker så, at den har en style for dette element i CSS’en (.heading-brown).&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;&lt;strong&gt;Udfordring:&lt;/strong&gt; Prøv selv at tilføje &lt;code class=&quot;highlighter-rouge&quot;&gt;class=&quot;..&quot;&lt;/code&gt; og CSS i din &lt;code class=&quot;highlighter-rouge&quot;&gt;index.html&lt;/code&gt; og &lt;code class=&quot;highlighter-rouge&quot;&gt;style.css&lt;/code&gt; - kan du ramme en klasse på samme måde? Hvad med at give hver sin h4 forskellige baggrundsfarver? Hvordan går det?&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;javascript-opførselbevægelse&quot;&gt;JavaScript (opførsel/bevægelse)&lt;/h3&gt;
-
-&lt;p&gt;JavaScript er det vildeste!
-Det er et af de mest udbredte kodesprog i verden (mest aktive på &lt;a href=&quot;https://stackoverflow.com/&quot;&gt;StackOverflow&lt;/a&gt;) og er dit kodedyrs bevægelse og opførelse. Det er helt klart et sværere kodesprog at skrive end HTML og CSS og der vil derfor ikke være eksempler, men blot en kort indsigt.&lt;/p&gt;
-
-&lt;p&gt;Du aktiverer JavaScript 100-vis af gange om dagen.&lt;/p&gt;
-
-&lt;p&gt;Du bruger det, når du søger, og der bliver vist søgeresultater imens.&lt;/p&gt;
-
-&lt;p&gt;Du bruger det, når dit billede uploader på Facebook.&lt;/p&gt;
-
-&lt;p&gt;Du bruger det i enorm grad på Google Maps.&lt;/p&gt;
-
-&lt;p&gt;Hvis du har en drøm om at blive en rig programmør, så skulle du tage at blive ekspert i dette.&lt;/p&gt;
-
-&lt;p&gt;Det kan hente data uden at dit vindue reloader. Det kan sætte cookies og meget, meget, meget mere.&lt;/p&gt;
-
-&lt;p&gt;JavaScript kan bruges i en simplere form, som hedder &lt;a href=&quot;https://jquery.com/&quot;&gt;jQuery&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Hvis vi får tid kommer vi til at lege lidt med jQuery med nogle dropdown-menuer og vilde effekter (bounce, bounce).&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;lektierstigninger&quot;&gt;Lektier/stigninger&lt;/h3&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Lektierne er inddelt i stigninger, så man selv kan bestemme, hvor svær en udfordring, som man vil tage op. Jeg vil selvfølgelig anbefale, at man laver alle tre, men se, hvad i kan få tid til. Hvis man ønsker at gå videre, så er det altid muligt at fortsætte læringen via et af de kurser, som er nævnt underneden.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h4 id=&quot;1-grads-stigning&quot;&gt;1. grads stigning&lt;/h4&gt;
-&lt;p&gt;Kan du forklare hvad forskellen på et span-tag og et div-tag er?&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;&lt;strong&gt;Hint:&lt;/strong&gt; Div og span er begge HTML-tags (&lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;div&amp;gt;&lt;/code&gt; og &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;span&amp;gt;&lt;/code&gt;), som bliver brugt på kryds og tværs af internettet. De har dog to vidt forskellige funktioner, som har noget med deres standard CSS property &lt;code class=&quot;highlighter-rouge&quot;&gt;display:.. &lt;/code&gt; at gøre.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h4 id=&quot;2-grads-stigning&quot;&gt;2. grads stigning:&lt;/h4&gt;
-&lt;p&gt;Indsæt et billede øverst på din hjemmeside med et &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;img&amp;gt;&lt;/code&gt; HTML-tag i din &lt;code class=&quot;highlighter-rouge&quot;&gt;index.html&lt;/code&gt; og få det til at fylde hele din hjemmesides bredde. 
-&lt;a href=&quot;https://www.w3schools.com/html/html_images.asp&quot; target=&quot;_blank&quot;&gt;Læs mere her&lt;/a&gt;&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;&lt;strong&gt;Hint til bredde:&lt;/strong&gt; Man kan bruge &lt;code class=&quot;highlighter-rouge&quot;&gt;%&lt;/code&gt;(procenttegnet) i CSS. Derudover kan du også bruge &lt;code class=&quot;highlighter-rouge&quot;&gt;width:&lt;/code&gt;. Så hvor mange procent skal &lt;code class=&quot;highlighter-rouge&quot;&gt;width:&lt;/code&gt; sættes til for at fylde hele bredden?&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h4 id=&quot;3-grads-stigning&quot;&gt;3. grads stigning:&lt;/h4&gt;
-&lt;p&gt;Lav 4 bokse med &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;div&amp;gt;&amp;lt;/div&amp;gt;&lt;/code&gt; og giv dem hver især forskellige baggrundsfarver, højder og bredder via forskellige klasser.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;&lt;strong&gt;Hint:&lt;/strong&gt; En div uden indhold har ingen højde og bredde, så den vil ikke kunne ses, før du giver den en højde &lt;code class=&quot;highlighter-rouge&quot;&gt;height: ...&lt;/code&gt; og en bredde &lt;code class=&quot;highlighter-rouge&quot;&gt;width: ...&lt;/code&gt;.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h3 id=&quot;kurser&quot;&gt;Kurser:&lt;/h3&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.codecademy.com/learn/learn-html&quot;&gt;HTML kursus - CodeCademy&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.codecademy.com/learn/learn-css&quot;&gt;CSS kursus - CodeCademy&lt;/a&gt;&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;Tak for denne gang - glæder mig til næste del! :)&lt;/p&gt;</content><author><name></name></author><category term="wordpress" /><summary type="html">Forberedelse: Start med at downloade eksemplet og åben den downloadede mappe i f.eks. Sublime Text 3. Åben derefter index.html i en browser for at se indholdet. Dette vil være mappen, hvor du selv kan lave ændringer og afprøve den viden, som du møder hen af vejen.</summary></entry></feed>
+&lt;p&gt;&lt;em&gt;LastPass og Tomighty stiftede jeg bekendtskab med gennem min storebror, som sidder på &lt;a href=&quot;https://news.ycombinator.com/&quot; target=&quot;_blank&quot;&gt;Hacker News&lt;/a&gt;, når andre sidder på Facebook. Hvis du gerne vil have nyheder, der omhandler det nyeste nye inden for teknologi, så er det stedet at være!&lt;/em&gt;&lt;/p&gt;</content><author><name></name></author><category term="blogs" /><summary type="html">Tre nemme værktøjer (plus et svært), der vil forbedre og sikre dit arbejde på computeren</summary></entry></feed>
