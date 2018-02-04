@@ -31,7 +31,7 @@ Values for position er: `static`, `absolute`, `fixed` og `relative`.
 
 Som du kan se, har jeg allerede forberedt noget CSS og HTML til jer, så i kan se position i levende live!
 
-Prøv at åben CSS-filen. Der har jeg brugt properties som `top: ..`, `right: .. ` og `left: ..` - disse er tæt forbundet til `position` da de bestemmer, for fixed og absolutes tilfælde, hvor de skal stå i forhold til browservinduet.
+Prøv at åben CSS-filen. Der har jeg brugt properties som `top: ..`, `right: .. ` og `left: ..` - disse er tæt forbundet til `position` da de bestemmer, for fixed og absolutes tilfælde, hvor de skal stå i relation til browservinduet.
 
 Her er en illustration (Élement parent er hele vinduet):
 
