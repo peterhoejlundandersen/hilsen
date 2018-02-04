@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-02-04T20:18:20+01:00</updated><id>http://localhost:4000/</id><title type="html">Hilsen IT</title><subtitle>Designer hjemmesider med et sikkert fundament i Ruby on Rails, Jekyll og Angular</subtitle><entry><title type="html">Del 2 - HTML og CSS Advanced</title><link href="http://localhost:4000/wordpress/2018/02/03/del-2.html" rel="alternate" type="text/html" title="Del 2 - HTML og CSS Advanced" /><published>2018-02-03T00:00:00+01:00</published><updated>2018-02-03T00:00:00+01:00</updated><id>http://localhost:4000/wordpress/2018/02/03/del-2</id><content type="html" xml:base="http://localhost:4000/wordpress/2018/02/03/del-2.html">&lt;p&gt;#Del 2 - WordPress kursus&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-02-04T20:43:33+01:00</updated><id>http://localhost:4000/</id><title type="html">Hilsen IT</title><subtitle>Designer hjemmesider med et sikkert fundament i Ruby on Rails, Jekyll og Angular</subtitle><entry><title type="html">Del 2 - HTML og CSS Advanced</title><link href="http://localhost:4000/wordpress/2018/02/03/del-2.html" rel="alternate" type="text/html" title="Del 2 - HTML og CSS Advanced" /><published>2018-02-03T00:00:00+01:00</published><updated>2018-02-03T00:00:00+01:00</updated><id>http://localhost:4000/wordpress/2018/02/03/del-2</id><content type="html" xml:base="http://localhost:4000/wordpress/2018/02/03/del-2.html">&lt;p&gt;#Del 2 - WordPress kursus&lt;/p&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;&lt;strong&gt;Forberedelse:&lt;/strong&gt; Download &lt;a href=&quot;/assets/wordpress/del-2.zip&quot; download=&quot;&quot;&gt;eksemplet&lt;/a&gt;, pak ZIP-filen ud og åben hele mappen i Sublime Text 3. Åben derefter &lt;code class=&quot;highlighter-rouge&quot;&gt;index.html&lt;/code&gt; i en browser.&lt;/p&gt;
@@ -945,36 +945,36 @@ Det er et af de mest udbredte kodesprog i verden (mest aktive på &lt;a href=&qu
 &lt;h2 id=&quot;vim---en-gammel-teksteditor-med-superkræfter-den-svære&quot;&gt;VIM - en gammel teksteditor med superkræfter (den svære)!&lt;/h2&gt;
 
 &lt;blockquote&gt;
-  &lt;p&gt;VIM er mest kendt som et værktøj for programmører/webdesignere, men kan også bruges til opgaveskrvning, korrekturlæsning og meget andet. Mest af alt vil det nok være interessant at se, hvis du ikke skriver kode, hvilke værktøjer, der findes, udover det velkendte (og langsomme) WORD.&lt;/p&gt;
+  &lt;p&gt;VIM er mest kendt som et værktøj for programmører/webdesignere, men kan også bruges til opgaveskrvning, korrekturlæsning og meget andet. Mest af alt vil det nok være interessant at se - hvis du ikke skriver kode - hvilke værktøjer, der findes, udover det velkendte (og langsomme) Microsoft Word. Det er som sagt den sværeste af de fire og vil, hvis klokken er blevet mange, være en hård nød at knække lige nu. Men kom endelig tilbage - du vil ikke fortryde det!&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;p&gt;VIM er noget ret specielt inden for kodeverden… Det er gammelt.. 26 år og det lever i bedste velgående.&lt;/p&gt;
 
-&lt;p&gt;VIM er meget kort fortalt et tekstbehandlingsprogram med superkræfter!&lt;/p&gt;
+&lt;p&gt;Meget kort fortalt er VIM et tekstbehandlingsprogram med superkræfter!&lt;/p&gt;
 
-&lt;p&gt;Det er svært at forklare, hvad de superkræfter består af, og ikke mindst hvor i enorm en grad de kan hjælpe dig, hvis du har meget med tekstredigering at gøre på en computer: programmering, korrekturlæsning, oversættelse eller opgaveskrivning .osv (næsten alle under 40 idag), men jeg har tænkt mig at gøre et forsøg!&lt;/p&gt;
+&lt;p&gt;Det er svært at forklare, hvad de superkræfter består af, og ikke mindst hvor i enorm en grad de kan hjælpe dig, hvis du har meget med tekstredigering at gøre på en computer: programmering, korrekturlæsning, oversættelse eller opgaveskrivning osv. (næsten alle under 40 idag), men jeg har tænkt mig at gøre et forsøg!&lt;/p&gt;
 
-&lt;h3 id=&quot;vim-modes---dit-tastatur-kan-mere-end-at-indtaste&quot;&gt;Vim modes - dit tastatur kan mere end at indtaste!&lt;/h3&gt;
+&lt;h3 id=&quot;vim-modes---dit-tastatur-kan-mere-end-at-indtaste&quot;&gt;VIM-modes - dit tastatur kan mere end at indtaste!&lt;/h3&gt;
 
-&lt;p&gt;For at forklare VIM ordentligt, bliver man nødt til at forstå &lt;strong&gt;VIM modes&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;For at forklare VIM ordentligt, bliver man nødt til at forstå &lt;strong&gt;VIM modes&lt;/strong&gt;, som er et grundlæggende koncept i VIM.&lt;/p&gt;
 
 &lt;blockquote&gt;
-  &lt;p&gt;&lt;strong&gt;VIM modes&lt;/strong&gt; er overordnede indstillinger for dit tastatur. Altså kan dit tastatur (dine taster) have forskellige funktioner afhængig af hvilket mode dit tastatur er i. Normalt har vi kun &lt;strong&gt;insert-mode&lt;/strong&gt; på en computer, hvor c-tasten skriver ‘c’, men i VIM kan c-tasten også stå for &lt;strong&gt;change&lt;/strong&gt; hvis man er i &lt;strong&gt;normal-mode&lt;/strong&gt;. Eksempel følger:&lt;/p&gt;
+  &lt;p&gt;&lt;strong&gt;VIM modes&lt;/strong&gt; er overordnede indstillinger for dit tastatur. Altså kan dit tastatur (dine taster) have forskellige funktioner, afhængig af hvilket mode dit tastatur er i. I almindelige tekstprogrammer arbejder vi kun i såkaldt &lt;strong&gt;insert-mode&lt;/strong&gt;, hvor c-tasten skriver ‘c’, men i VIM kan du som sagt skifte mode. Eksempelvis vil c-tasten stå for &lt;strong&gt;change&lt;/strong&gt;, hvis du skifter til &lt;strong&gt;normal-mode&lt;/strong&gt;. Eksempel følger:&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;&lt;em&gt;Der findes også visual- og command-line-mode, men det bliver for kompliceret at forklare her. Du kan læse mere via de links, som er listet under &lt;strong&gt;Konklusion&lt;/strong&gt; senere.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Der findes også visual- og command-line-mode, men det tager vi en anden dag. Du kan læse mere via de links, som er listet under &lt;strong&gt;Konklusion&lt;/strong&gt; nederst.&lt;/em&gt;&lt;/p&gt;
 
-&lt;p&gt;I normal-mode, som man tilgår ved at trykke ESC-knappen, betyder knappen c &lt;strong&gt;change&lt;/strong&gt;. Knappen w betyder &lt;strong&gt;word&lt;/strong&gt; og knappen i betyder &lt;strong&gt;inside&lt;/strong&gt;, så hvis du sætter din cursor over et ord i normal-mode og trykker c, så i og så w lige efter, vil du &lt;strong&gt;change inside word&lt;/strong&gt;, som betyder, at det ord du står på forsvinder og bliver erstattet af din cursor (går til insert-mode). Nu kan du taste et ord, som du kender det fra dit normale tekstbehandlingsprogram, og derefter trykke ESC-knappen for at gå til normal-mode igen.&lt;/p&gt;
+&lt;p&gt;I normal-mode, som man tilgår ved at trykke ESC-knappen, betyder knappen c som sagt &lt;strong&gt;change&lt;/strong&gt;. Knappen w betyder &lt;strong&gt;word&lt;/strong&gt; og knappen i betyder &lt;strong&gt;inside&lt;/strong&gt;, så hvis du sætter din cursor over et ord i normal-mode og trykker c, så i og så w lige efter, vil du &lt;strong&gt;change inside word&lt;/strong&gt;, som betyder, at det ord, du står på, forsvinder og bliver erstattet af din cursor (går til insert-mode). Nu kan du taste et ord, som du kender det fra dit normale tekstprogram (insert-mode), og derefter trykke ESC-knappen for at gå til normal-mode igen.&lt;/p&gt;
 
 &lt;p&gt;Forvirret?&lt;/p&gt;
 
-&lt;p&gt;Sådan er det med VIM. Det tager tid at forstå og at implementere. Det er utrolig brugbart, men ENORMT svært at lære. Du kommer til at vågne 1-3 måneder - afhængigt af, hvor mange kræfter du lægger i at lære det - med 10 tommelfingrer og vil med det samme være på en brøkdel af din oprindelige tastehastighed, men fortvivl ikke. Det skal nok give pote og du vil, efter min egen erfaring, efter de tre måneder er gået, aldrig bruge et andet program til at behandle tekst igen.&lt;/p&gt;
+&lt;p&gt;Sådan er det altid med VIM i starten. Det tager tid at forstå og at implementere. Det er utrolig brugbart, men ENORMT svært at lære. Det skal nok give pote, og min erfaring siger mig, at du efter et par måneder aldrig vender tilbage til et normalt tekstprogram igen.&lt;/p&gt;
 
 &lt;p&gt;Tilbage til normal-mode:&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Hvad med andre knapper end w, i og c?.. Hvis man ikke kan bruge dem til at taste, hvad kan de så i normal-mode?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Hvad med andre knapper end w, i og c?.. Hvis man ikke kan bruge dem til at taste, hvad kan tastaturet så i normal-mode?&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;Ja, de har så alle deres egen funktion, som du kan bruge til at navigere, gemme, kopiere, erstatte tekst mm. Her kommer et lille udsnit, for at give dig en idé om, hvad du kan komme til at mestre!&lt;/p&gt;
+&lt;p&gt;Ja, som du nok har regnet ud, så har alle taster deres egen funktion, som du kan bruge til at navigere, gemme, kopiere, erstatte tekst mm. Her kommer et lille udsnit for at give dig en idé om, hvad du kan komme til at mestre!&lt;/p&gt;
 
 &lt;h3 id=&quot;powers-of-vim-i-normal-mode&quot;&gt;Powers of VIM i normal-mode!&lt;/h3&gt;
 
@@ -1100,7 +1100,7 @@ Det er et af de mest udbredte kodesprog i verden (mest aktive på &lt;a href=&qu
 &lt;p&gt;Det er blot et meget lille udsnit, men hvad der er værd at vide er, at &lt;strong&gt;funktionerne kan sættes sammen!&lt;/strong&gt;&lt;/p&gt;
 
 &lt;blockquote&gt;
-  &lt;p&gt;&lt;strong&gt;Sammensætning:&lt;/strong&gt; I VIM kan du sætte forskellige indtastninger sammen, så man f.eks. kan taste di”, som betyder: Slet alt inde i gåseøjnene. Eller med c, a og parentes: ca(, der betyder: Slet alt inden i parenteserne og tag parenteserne med og gå til insert-mode!&lt;/p&gt;
+  &lt;p&gt;&lt;strong&gt;Sammensætning:&lt;/strong&gt; I VIM kan du sætte forskellige indtastninger sammen, så man f.eks. kan taste &lt;code class=&quot;highlighter-rouge&quot;&gt;di&quot;&lt;/code&gt;, som betyder: Slet alt inde i gåseøjnene. Eller med c, a og parentes: &lt;code class=&quot;highlighter-rouge&quot;&gt;ca(&lt;/code&gt;, der betyder: Slet alt inden i parenteserne og tag parenteserne med og gå til insert-mode!&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;p&gt;Andre eksempler på sammensætninger - tal kan også bruges:&lt;/p&gt;
@@ -1156,18 +1156,18 @@ Det er et af de mest udbredte kodesprog i verden (mest aktive på &lt;a href=&qu
   &lt;/tbody&gt;
 &lt;/table&gt;
 
-&lt;p&gt;Igen er det &lt;strong&gt;kun et lille udsnit&lt;/strong&gt;! Du kan nok forestille dig, hvor mange 100-vis af sammensatte kommandoer, der findes. Nogle af dem mere brugte end andre, men pointen er, at du pludselig kan sætte dine værktøjer sammen og bygge løsninger, der passer til en hver situation i tekst-sammenhænge.&lt;/p&gt;
+&lt;p&gt;Som sagt er det &lt;strong&gt;kun et lille udsnit&lt;/strong&gt;! Du kan nok forestille dig, hvor mange 100-vis af sammensatte kommandoer, der findes. Nogle af dem mere brugte end andre, men pointen er, at du pludselig kan sætte dine værktøjer sammen og bygge løsninger, der passer til enhver situation i tekst-sammenhænge.&lt;/p&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;Til sidst vil du bruge VIM-funktionerne i forlængelse af hinanden uden at tænke over det og får derved en vanvittig hurtig og fleksibel værktøjskasse!&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;VIM har nogle mere advancerede funktioner såsom &lt;strong&gt;register&lt;/strong&gt;, &lt;strong&gt;makros&lt;/strong&gt; og mange, mange flere. Jeg er kun selv lige begyndt at udforske disse og bliver stadig overrasket over hvad VIM er i stand til!&lt;/p&gt;
+&lt;p&gt;VIM har nogle mere advancerede funktioner såsom &lt;strong&gt;register&lt;/strong&gt;, &lt;strong&gt;makros&lt;/strong&gt; og mange, mange flere. Jeg er kun selv lige begyndt at udforske disse og bliver stadig overrasket over, hvad VIM er i stand til!&lt;/p&gt;
 
 &lt;h3 id=&quot;fortvivlet---spil-det&quot;&gt;Fortvivlet? - spil det!&lt;/h3&gt;
 
 &lt;p&gt;Hvis du synes, at det lyder bare nogenlunde spændende, men tænker: Wtf? 
-SÅ tag at gå over og prøv spillet &lt;a href=&quot;https://vim-adventures.com/&quot; target=&quot;_blank&quot;&gt;VIM Adventures&lt;/a&gt;, hvor du kan spille dig igennem de første mange funktioner og prøve kræfter med det. Det er en god smagsprøve.&lt;/p&gt;
+Så tag at prøv spillet &lt;a href=&quot;https://vim-adventures.com/&quot; target=&quot;_blank&quot;&gt;VIM Adventures&lt;/a&gt;, hvor du kan spille dig igennem de første mange funktioner og prøve kræfter med det. Det er en god smagsprøve.&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;https://vim-adventures.com/&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;/assets/blogs/vim-adventure.jpg&quot; alt=&quot;VIM Adventure&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 
@@ -1182,13 +1182,13 @@ SÅ tag at gå over og prøv spillet &lt;a href=&quot;https://vim-adventures.com
 &lt;p&gt;Hvis du har lyst til at læse mere:&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;http://stevelosh.com/blog/2010/09/coming-home-to-vim/&quot; target=&quot;_blank&quot;&gt;En vandvittig god artikel om VIM&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://stevelosh.com/blog/2010/09/coming-home-to-vim/&quot; target=&quot;_blank&quot;&gt;En vanvittig god artikel om VIM&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;http://derekwyatt.org/vim/tutorials/novice/&quot; target=&quot;_blank&quot;&gt;VIM guide videoer&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;http://vimcasts.org/episodes/archive/&quot; target=&quot;_blank&quot;&gt;VIM CASTS&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://da.wikipedia.org/wiki/Vim&quot; target=&quot;_blank&quot;&gt;VIM Wikipedia&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;em&gt;Hvis du ejer en Mac og har lyst til at prøve det direkte i din Terminal, så åben terminalen og tast &lt;code class=&quot;highlighter-rouge&quot;&gt;vimtutor&lt;/code&gt; og tryk derefter Enter. &lt;strong&gt;Ja, VIM findes på din computer&lt;/strong&gt; uden, at du skal til at installere det!&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Hvis du ejer en Mac og har lyst til at prøve det direkte i din Terminal, så åbn terminalen og tast &lt;code class=&quot;highlighter-rouge&quot;&gt;vimtutor&lt;/code&gt; og tryk derefter Enter. &lt;strong&gt;Ja, VIM findes på din computer&lt;/strong&gt; uden, at du skal til at installere det!&lt;/em&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;br /&gt;
 &lt;br /&gt;&lt;/p&gt;
