@@ -72,7 +72,7 @@ Du kan læse mere på [LastPass' hjemmeside](https://lastpass.com/){:target="_bl
 
 ## Tomighty - dit nye tidsmodul: Tomaten
 
-> Hvorfor er det så svært at dæmme op for Facebook, Youtube og Heste-nettet, når man skal arbejde? Ander det ikke! Men et rigtig godt værktøj , har jeg fundet ud af, er tidsstyring... Til dette fungerer Tomighty fantastisk. Den indrammer din arbejdstid - og dine pause, så du har fuldstændig faste rammer for, hvornår du skal arbejde, og hvornår du kan tage dig en velfortjent pause. Sig hej til Tomaten fra Tomighty.
+> Hvorfor er det så svært at dæmme op for Facebook, Youtube og Heste-nettet, når man skal arbejde? Aner det ikke! Men et rigtig godt værktøj , har jeg fundet ud af, er tidsstyring... Til dette fungerer Tomighty fantastisk. Den indrammer din arbejdstid - og dine pause, så du har fuldstændig faste rammer for, hvornår du skal arbejde, og hvornår du kan tage dig en velfortjent pause. Sig hej til Tomaten fra Tomighty.
 
 Tomighty er et simpelt program, hvor du instiller en genvej på dit tastatur (DTTM) til at igangsætte en nedtælling. Den er standard 25 min. (én tomat), men du kan selv bestemme, hvor lang den skal være. 
 

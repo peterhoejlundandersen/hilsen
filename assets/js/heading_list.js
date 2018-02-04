@@ -7,9 +7,22 @@ function setHeadingsList() {
 		html_list += html;
 	});
 	html_list += "</ol>";
-	list.innerHTML = html_list;
+	if (list) { list.innerHTML = html_list; }
+}
+
+function setSlideDown() {
+	var objects = document.querySelectorAll('[data-open-this]');
+	Array.from(objects).forEach(function(obj) {
+		obj.addEventListener('click', function() {
+			var open_this = document.querySelector("." + obj.dataset.openThis);
+			open_this.classList.remove('hide-it');
+		});
+	});
 }
 
 window.addEventListener('load', function() {
 	setHeadingsList();
+	setSlideDown();
 });
+
+

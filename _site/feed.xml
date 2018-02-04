@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-02-04T21:10:06+01:00</updated><id>http://localhost:4000/</id><title type="html">Hilsen IT</title><subtitle>Designer hjemmesider med et sikkert fundament i Ruby on Rails, Jekyll og Angular</subtitle><entry><title type="html">Del 2 - HTML og CSS Advanced</title><link href="http://localhost:4000/wordpress/2018/02/03/del-2.html" rel="alternate" type="text/html" title="Del 2 - HTML og CSS Advanced" /><published>2018-02-03T00:00:00+01:00</published><updated>2018-02-03T00:00:00+01:00</updated><id>http://localhost:4000/wordpress/2018/02/03/del-2</id><content type="html" xml:base="http://localhost:4000/wordpress/2018/02/03/del-2.html">&lt;p&gt;#Del 2 - WordPress kursus&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-02-04T23:06:28+01:00</updated><id>http://localhost:4000/</id><title type="html">Hilsen IT</title><subtitle>Designer hjemmesider med et sikkert fundament i Ruby on Rails, Jekyll og Angular</subtitle><entry><title type="html">Del 2 - HTML og CSS Advanced</title><link href="http://localhost:4000/wordpress/2018/02/03/del-2.html" rel="alternate" type="text/html" title="Del 2 - HTML og CSS Advanced" /><published>2018-02-03T00:00:00+01:00</published><updated>2018-02-03T00:00:00+01:00</updated><id>http://localhost:4000/wordpress/2018/02/03/del-2</id><content type="html" xml:base="http://localhost:4000/wordpress/2018/02/03/del-2.html">&lt;p&gt;#Del 2 - WordPress kursus&lt;/p&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;&lt;strong&gt;Forberedelse:&lt;/strong&gt; Download &lt;a href=&quot;/assets/wordpress/del-2.zip&quot; download=&quot;&quot;&gt;eksemplet&lt;/a&gt;, pak ZIP-filen ud og åben hele mappen i Sublime Text 3. Åben derefter &lt;code class=&quot;highlighter-rouge&quot;&gt;index.html&lt;/code&gt; i en browser.&lt;/p&gt;
@@ -655,7 +655,7 @@ Det er et af de mest udbredte kodesprog i verden (mest aktive på &lt;a href=&qu
 &lt;h2 id=&quot;tomighty---dit-nye-tidsmodul-tomaten&quot;&gt;Tomighty - dit nye tidsmodul: Tomaten&lt;/h2&gt;
 
 &lt;blockquote&gt;
-  &lt;p&gt;Hvorfor er det så svært at dæmme op for Facebook, Youtube og Heste-nettet, når man skal arbejde? Ander det ikke! Men et rigtig godt værktøj , har jeg fundet ud af, er tidsstyring… Til dette fungerer Tomighty fantastisk. Den indrammer din arbejdstid - og dine pause, så du har fuldstændig faste rammer for, hvornår du skal arbejde, og hvornår du kan tage dig en velfortjent pause. Sig hej til Tomaten fra Tomighty.&lt;/p&gt;
+  &lt;p&gt;Hvorfor er det så svært at dæmme op for Facebook, Youtube og Heste-nettet, når man skal arbejde? Aner det ikke! Men et rigtig godt værktøj , har jeg fundet ud af, er tidsstyring… Til dette fungerer Tomighty fantastisk. Den indrammer din arbejdstid - og dine pause, så du har fuldstændig faste rammer for, hvornår du skal arbejde, og hvornår du kan tage dig en velfortjent pause. Sig hej til Tomaten fra Tomighty.&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;p&gt;Tomighty er et simpelt program, hvor du instiller en genvej på dit tastatur (DTTM) til at igangsætte en nedtælling. Den er standard 25 min. (én tomat), men du kan selv bestemme, hvor lang den skal være.&lt;/p&gt;
@@ -821,11 +821,11 @@ Det er et af de mest udbredte kodesprog i verden (mest aktive på &lt;a href=&qu
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td style=&quot;text-align: left&quot;&gt;&lt;sub&gt;(imens) CMD&lt;/sub&gt;&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;&lt;sub&gt;Åbner mappen med filen istedet for at åbne filen&lt;/sub&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;sub&gt;Åbner mappen hvori filen ligger i Finder istedet for at åbne filen&lt;/sub&gt;&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td style=&quot;text-align: left&quot;&gt;CMD + $&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;Skift mellem program-vinduer (Skal indstilles under System Preferences &amp;gt; Keyboard &amp;gt; Keyboard &amp;gt; Move focus to next window&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Skift mellem program-vinduer (Skal indstilles under System Preferences &amp;gt; Keyboard &amp;gt; Keyboard &amp;gt; Move focus to next window)&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td style=&quot;text-align: left&quot;&gt;CMD + ALT + ESC&lt;/td&gt;
@@ -894,7 +894,7 @@ Det er et af de mest udbredte kodesprog i verden (mest aktive på &lt;a href=&qu
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td style=&quot;text-align: left&quot;&gt;CMD + SHIFT + M&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;Skift konto, hvis du som mig har forskellige Gmail kontoer.&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Skift konto, hvis du som jeg har forskellige Gmail kontoer.&lt;/td&gt;
     &lt;/tr&gt;
   &lt;/tbody&gt;
 &lt;/table&gt;

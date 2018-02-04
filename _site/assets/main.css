@@ -1,3 +1,10 @@
+.hide-it {
+  display: none;
+  cursor: pointer; }
+
+.menu-icon {
+  display: none; }
+
 /**
  * Reset some basic elements
  */
