@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-02-04T16:51:43+01:00</updated><id>http://localhost:4000/</id><title type="html">Hilsen IT</title><subtitle>Designer hjemmesider med et sikkert fundament i Ruby on Rails, Jekyll og Angular</subtitle><entry><title type="html">Del 2 - HTML og CSS Advanced</title><link href="http://localhost:4000/wordpress/2018/02/03/del-2.html" rel="alternate" type="text/html" title="Del 2 - HTML og CSS Advanced" /><published>2018-02-03T00:00:00+01:00</published><updated>2018-02-03T00:00:00+01:00</updated><id>http://localhost:4000/wordpress/2018/02/03/del-2</id><content type="html" xml:base="http://localhost:4000/wordpress/2018/02/03/del-2.html">&lt;p&gt;#Del 2 - WordPress kursus&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-02-04T20:06:51+01:00</updated><id>http://localhost:4000/</id><title type="html">Hilsen IT</title><subtitle>Designer hjemmesider med et sikkert fundament i Ruby on Rails, Jekyll og Angular</subtitle><entry><title type="html">Del 2 - HTML og CSS Advanced</title><link href="http://localhost:4000/wordpress/2018/02/03/del-2.html" rel="alternate" type="text/html" title="Del 2 - HTML og CSS Advanced" /><published>2018-02-03T00:00:00+01:00</published><updated>2018-02-03T00:00:00+01:00</updated><id>http://localhost:4000/wordpress/2018/02/03/del-2</id><content type="html" xml:base="http://localhost:4000/wordpress/2018/02/03/del-2.html">&lt;p&gt;#Del 2 - WordPress kursus&lt;/p&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;&lt;strong&gt;Forberedelse:&lt;/strong&gt; Download &lt;a href=&quot;/assets/wordpress/del-2.zip&quot; download=&quot;&quot;&gt;eksemplet&lt;/a&gt;, pak ZIP-filen ud og åben hele mappen i Sublime Text 3. Åben derefter &lt;code class=&quot;highlighter-rouge&quot;&gt;index.html&lt;/code&gt; i en browser.&lt;/p&gt;
@@ -18,8 +18,8 @@
 
 &lt;ul&gt;
   &lt;li&gt;Jeg vil gerne have, at min tekst står under mit billede og ikke ved siden af.&lt;/li&gt;
-  &lt;li&gt;Det kunne være fedt at have en telefonikon-knap til mine mobilbrugere, som blev på skærmen ligemeget hvor man var på hjemmesiden.&lt;/li&gt;
-  &lt;li&gt;De her 3 bokse må gerne stå ved siden af hinanden i stedet for oven på.&lt;/li&gt;
+  &lt;li&gt;Det kunne være fedt at have en telefonikon-knap til mine mobilbrugere, som blev på skærmen, ligemeget hvor man var på hjemmesiden.&lt;/li&gt;
+  &lt;li&gt;De her 3 bokse må gerne stå ved siden af hinanden i stedet for oven på hinanden.&lt;/li&gt;
   &lt;li&gt;Jeg vil gerne have det her symbol øverst i højre hjørne af min browser på min hjemmeside.&lt;/li&gt;
 &lt;/ul&gt;
 
@@ -29,7 +29,7 @@
 
 &lt;p&gt;Som du kan se, har jeg allerede forberedt noget CSS og HTML til jer, så i kan se position i levende live!&lt;/p&gt;
 
-&lt;p&gt;Prøv at åben CSS-filen. Der har jeg brugt properties som &lt;code class=&quot;highlighter-rouge&quot;&gt;top: ..&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;right: .. &lt;/code&gt; og &lt;code class=&quot;highlighter-rouge&quot;&gt;left: ..&lt;/code&gt; - disse er tæt forbundet til &lt;code class=&quot;highlighter-rouge&quot;&gt;position&lt;/code&gt; da de bestemmer, for fixed og absolutes tilfælde, hvor de skal stå i forhold til browservinduet.&lt;/p&gt;
+&lt;p&gt;Prøv at åben CSS-filen. Der har jeg brugt properties som &lt;code class=&quot;highlighter-rouge&quot;&gt;top: ..&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;right: .. &lt;/code&gt; og &lt;code class=&quot;highlighter-rouge&quot;&gt;left: ..&lt;/code&gt; - disse er tæt forbundet til &lt;code class=&quot;highlighter-rouge&quot;&gt;position&lt;/code&gt; da de bestemmer, for fixed og absolutes tilfælde, hvor de skal stå i relation til browservinduet.&lt;/p&gt;
 
 &lt;p&gt;Her er en illustration (Élement parent er hele vinduet):&lt;/p&gt;
 
@@ -267,7 +267,7 @@
 
 &lt;p&gt;&lt;em&gt;Disse enheder er dog en smule kompliceret, og jeg vil anbefale at man giver sig i kast med dem, når man har færdiggjort kurset helt.&lt;/em&gt;&lt;/p&gt;
 
-&lt;h3 id=&quot;signingerlektier&quot;&gt;Signinger/lektier&lt;/h3&gt;
+&lt;h3 id=&quot;stigningerlektier&quot;&gt;Stigninger/lektier&lt;/h3&gt;
 
 &lt;ol&gt;
   &lt;li&gt;
@@ -728,130 +728,180 @@ Det er et af de mest udbredte kodesprog i verden (mest aktive på &lt;a href=&qu
 
 &lt;h3 id=&quot;genveje-til-mac-windows-kommer-snart&quot;&gt;Genveje til Mac (Windows kommer snart)&lt;/h3&gt;
 
-&lt;div class=&quot;shorcuts&quot;&gt;
-	&lt;div class=&quot;in-finder&quot;&gt;
-		&lt;p&gt;I Finder:&lt;/p&gt;
-		&lt;div class=&quot;box-wrap&quot;&gt;
-			&lt;span class=&quot;box small&quot;&gt;PILETASTERNEZ&lt;/span&gt;&lt;span class=&quot;use&quot;&gt;Naviger i dine filer&lt;/span&gt;
-		&lt;/div&gt;
-		&lt;div class=&quot;box-wrap&quot;&gt;
-			&lt;span class=&quot;box small&quot;&gt;CMD + DOWN ARROW&lt;/span&gt;&lt;span class=&quot;use&quot;&gt;Åben valgte&lt;/span&gt;
-		&lt;/div&gt;
-		&lt;div class=&quot;box-wrap&quot;&gt;
-			&lt;span class=&quot;box small&quot;&gt;CMD + UP ARROW&lt;/span&gt;&lt;span class=&quot;use&quot;&gt;Gå en tand op i din Folder-structure&lt;/span&gt;
-		&lt;/div&gt;
-		&lt;div class=&quot;box-wrap&quot;&gt;
-			&lt;span class=&quot;box small&quot;&gt;CMD + (1, 2, 3, 4)&lt;/span&gt;&lt;span class=&quot;use&quot;&gt;Skift visning af dine filer&lt;/span&gt;
-		&lt;/div&gt;
-		&lt;div class=&quot;box-wrap&quot;&gt;
-			&lt;span class=&quot;box small&quot;&gt;CMD + DELETE&lt;/span&gt;&lt;span class=&quot;use&quot;&gt;Slet valgte&lt;/span&gt;
-		&lt;/div&gt;
-		&lt;div class=&quot;box-wrap&quot;&gt;
-			&lt;span class=&quot;box small&quot;&gt;CMD + SHIFT + DELETE&lt;/span&gt;&lt;span class=&quot;use&quot;&gt;Tøm Papirskurven&lt;/span&gt;
-		&lt;/div&gt;
-		&lt;div class=&quot;box-wrap&quot;&gt;
-			&lt;span class=&quot;box small&quot;&gt;ALT + UP ARROW/DOWN ARROW&lt;/span&gt;&lt;span class=&quot;use&quot;&gt;Hop til øverste/nederste&lt;/span&gt;
-		&lt;/div&gt;
-		&lt;div class=&quot;box-wrap&quot;&gt;
-			&lt;span class=&quot;box small&quot;&gt;CMD + CTRL + 1/3&lt;/span&gt;&lt;span class=&quot;use&quot;&gt;Sorter efter navn/sidst redigeret&lt;/span&gt;
-		&lt;/div&gt;
-		&lt;div class=&quot;box-wrap&quot;&gt;
-			&lt;span class=&quot;box small&quot;&gt;CMD + F&lt;/span&gt;&lt;span class=&quot;use&quot;&gt;Søg&lt;/span&gt;
-		&lt;/div&gt;
-		&lt;div class=&quot;box-wrap&quot;&gt;
-			&lt;span class=&quot;box small&quot;&gt;CMD+SHIFT+D&lt;/span&gt;&lt;span class=&quot;use&quot;&gt;Åbner Skrivebordet i Finder&lt;/span&gt;
-		&lt;/div&gt;
-		&lt;div class=&quot;box-wrap&quot;&gt;
-			&lt;span class=&quot;box small&quot;&gt;CMD+OPTION+L&lt;/span&gt;&lt;span class=&quot;use&quot;&gt;Åbner Overførsler&lt;/span&gt;
-		&lt;/div&gt;
-		&lt;div class=&quot;box-wrap&quot;&gt;
-			&lt;span class=&quot;box small&quot;&gt;CMD+SHIFT+A&lt;/span&gt;&lt;span class=&quot;use&quot;&gt;Åbner Programmer&lt;/span&gt;
-		&lt;/div&gt;
-		&lt;div class=&quot;box-wrap&quot;&gt;
-			&lt;span class=&quot;box small&quot;&gt;CMD + C &amp;amp; CMD + V&lt;/span&gt;&lt;span class=&quot;use&quot;&gt;Du kender dem!&lt;/span&gt;
-		&lt;/div&gt;
-	&lt;/div&gt;
-	&lt;div class=&quot;in-finder general&quot;&gt;
-		&lt;p&gt;Mere generelt:&lt;/p&gt;
-		&lt;div class=&quot;box-wrap&quot;&gt;
-			&lt;span class=&quot;box small&quot;&gt;CMD + TAB&lt;/span&gt;&lt;span class=&quot;use&quot;&gt;Naviger i dine programmer (hold CMD inde)&lt;/span&gt;&lt;br /&gt;
-			- &lt;span class=&quot;box smaller&quot;&gt;CMD + W&lt;/span&gt;&lt;span class=&quot;use small&quot;&gt;(imens) Luk et program-vindue&lt;/span&gt;&lt;br /&gt;
-			- &lt;span class=&quot;box smaller&quot;&gt;CMD + Q&lt;/span&gt;&lt;span class=&quot;use small&quot;&gt;(imens) Luk programmet&lt;/span&gt;&lt;br /&gt;
-		&lt;/div&gt;
-		&lt;div class=&quot;box-wrap&quot;&gt;
-			&lt;span class=&quot;box small&quot;&gt;CMD + SPACE&lt;/span&gt;&lt;span class=&quot;use&quot;&gt;Åbner dit Spotlight søgefelt, som giver dig hurtigt adgang til programmer og filer.&lt;/span&gt;&lt;br /&gt;
-			&lt;span class=&quot;smaller&quot;&gt;(Skal i nogle tilfælde indstilles under System Preferences &amp;gt; Keyboard &amp;gt; Spotlight)&lt;/span&gt;&lt;br /&gt;
-			- &lt;span class=&quot;box smaller&quot;&gt;CMD imens du trykker ENTER&lt;/span&gt;&lt;span class=&quot;use small&quot;&gt;Vis hvor det du åbner ligger i Finder&lt;/span&gt;
-		&lt;/div&gt;
-		&lt;div class=&quot;box-wrap&quot;&gt;
-			&lt;span class=&quot;box small&quot;&gt;CMD + $&lt;/span&gt;&lt;span class=&quot;use&quot;&gt;Skift mellem program-vinduer&lt;/span&gt;&lt;br /&gt;
-			&lt;span class=&quot;smaller&quot;&gt;(Skal indstilles under System Preferences &amp;gt; Keyboard &amp;gt; Keyboard &amp;gt; Move focus to next window)&lt;/span&gt;&lt;br /&gt;
-		&lt;/div&gt;
-		&lt;div class=&quot;box-wrap&quot;&gt;
-			&lt;span class=&quot;box small&quot;&gt;CMD + ALT + ESC&lt;/span&gt;&lt;span class=&quot;use&quot;&gt;Åbner Afbryd programmer, hvor du har mulighed for at lukke et program, hvis det fryser.&lt;/span&gt;
-		&lt;/div&gt;
+&lt;p&gt;I Finder:&lt;/p&gt;
 
-	&lt;/div&gt;
-	&lt;div class=&quot;in-finder general&quot;&gt;
-		&lt;p&gt;I Chrome:&lt;/p&gt;
-		&lt;div class=&quot;box-wrap&quot;&gt;
-			&lt;span class=&quot;box small&quot;&gt;CMD + T&lt;/span&gt;&lt;span class=&quot;use&quot;&gt;Åbner en ny fane&lt;/span&gt;
-		&lt;/div&gt;
-		&lt;div class=&quot;box-wrap&quot;&gt;
-			&lt;span class=&quot;box small&quot;&gt;CMD + ALT + LEFT ARROW/RIGHT ARROW&lt;/span&gt;&lt;span class=&quot;use&quot;&gt;Forrige/næste fane&lt;/span&gt;
-		&lt;/div&gt;
+&lt;table&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;PILETASTERNE&lt;/td&gt;
+      &lt;td&gt;Naviger i dine filer&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;CMD + DOWN ARROW&lt;/td&gt;
+      &lt;td&gt;Åben valgte&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;CMD + UP ARROW&lt;/td&gt;
+      &lt;td&gt;Gå en tand op i din folder-structure&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;CMD + (1, 2, 3, 4)&lt;/td&gt;
+      &lt;td&gt;Skift visning af dine filer&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;CMD + DELETE&lt;/td&gt;
+      &lt;td&gt;Slet valgte&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;CMD + SHIFT + DELETE&lt;/td&gt;
+      &lt;td&gt;Tøm Papirskurven&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;ALT + UP ARROW/DOWN ARROW&lt;/td&gt;
+      &lt;td&gt;Hop til øverste/nederste&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;CMD + CTRL + 1/3&lt;/td&gt;
+      &lt;td&gt;Sorter efter navn/sidst redigeret&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;CMD + F&lt;/td&gt;
+      &lt;td&gt;Søg&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;CMD+SHIFT+D&lt;/td&gt;
+      &lt;td&gt;Åbner Skrivebordet i Finder&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;CMD+OPTION+L&lt;/td&gt;
+      &lt;td&gt;Åbner Overførsler&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;CMD+SHIFT+A&lt;/td&gt;
+      &lt;td&gt;Åbner Programmer&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;CMD + C &amp;amp; CMD + V&lt;/td&gt;
+      &lt;td&gt;Du kender dem!&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
 
-		&lt;div class=&quot;box-wrap&quot;&gt;
-			&lt;span class=&quot;box small&quot;&gt;CMD + L&lt;/span&gt;&lt;span class=&quot;use&quot;&gt;Gå til søgefelt&lt;/span&gt;
-		&lt;/div&gt;
+&lt;p&gt;Mere generelt:&lt;/p&gt;
 
-		&lt;div class=&quot;box-wrap&quot;&gt;
-			&lt;span class=&quot;box small&quot;&gt;CMD + R&lt;/span&gt;&lt;span class=&quot;use&quot;&gt;Reload side&lt;/span&gt;
-		&lt;/div&gt;
+&lt;table&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;CMD + TAB&lt;/td&gt;
+      &lt;td&gt;Naviger i dine programmer (hold CMD inde)&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;sub&gt;(imens) CMD + W&lt;/sub&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;sub&gt;Luk et program-vindue&lt;/sub&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;sub&gt;(imens) CMD + Q&lt;/sub&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;sub&gt;Luk programmet&lt;/sub&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;CMD + SPACE&lt;/td&gt;
+      &lt;td&gt;Åbner dit Spotlight søgefelt, som giver dig hurtigt adgang til programmer og filer. (Skal i nogle tilfælde indstilles under System Preferences &amp;gt; Keyboard &amp;gt; Spotlight)&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;sub&gt;(imens) CMD&lt;/sub&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;sub&gt;Åbner mappen med filen istedet for at åbne filen&lt;/sub&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;CMD + $&lt;/td&gt;
+      &lt;td&gt;Skift mellem program-vinduer (Skal indstilles under System Preferences &amp;gt; Keyboard &amp;gt; Keyboard &amp;gt; Move focus to next window&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;CMD + ALT + ESC&lt;/td&gt;
+      &lt;td&gt;Åbner Afbryd programmer, hvor du har mulighed for at lukke et program, hvis det fryser.&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
 
-		&lt;div class=&quot;box-wrap&quot;&gt;
-			&lt;span class=&quot;box small&quot;&gt;CMD + N&lt;/span&gt;&lt;span class=&quot;use&quot;&gt;Åbner nyt vindue&lt;/span&gt;
-		&lt;/div&gt;
+&lt;p&gt;I Chrome:&lt;/p&gt;
 
-		&lt;div class=&quot;box-wrap&quot;&gt;
-			&lt;span class=&quot;box small&quot;&gt;CMD + F&lt;/span&gt;&lt;span class=&quot;use&quot;&gt;Søg på siden&lt;/span&gt;&lt;br /&gt;
-			- &lt;span class=&quot;box smaller&quot;&gt;ENTER&lt;/span&gt;&lt;span class=&quot;use small&quot;&gt;(imens) Gå til næste &lt;/span&gt;&lt;br /&gt;
-			- &lt;span class=&quot;box smaller&quot;&gt;SHIFT + ENTER&lt;/span&gt;&lt;span class=&quot;use small&quot;&gt;(imens) Gå til forrige&lt;/span&gt;
-		&lt;/div&gt;
+&lt;table&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;CMD + T&lt;/td&gt;
+      &lt;td&gt;Åbner en ny fane&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;CMD + ALT + LEFT ARROW/RIGHT ARROW&lt;/td&gt;
+      &lt;td&gt;Forrige/næste fane&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;CMD + L&lt;/td&gt;
+      &lt;td&gt;Gå til søgefelt&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;CMD + R&lt;/td&gt;
+      &lt;td&gt;Reload side&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;CMD + N&lt;/td&gt;
+      &lt;td&gt;Åbner nyt vindue&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;CMD + F&lt;/td&gt;
+      &lt;td&gt;Søg på siden&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;sub&gt;(imens) ENTER&lt;/sub&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;sub&gt;Gå til næste&lt;/sub&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;sub&gt;(imens) SHIFT + ENTER&lt;/sub&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;sub&gt;Gå til forrige&lt;/sub&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;FN + UP ARROW/DOWN ARROW&lt;/td&gt;
+      &lt;td&gt;Scroll et helt vindue op eller ned&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;CMD + Y&lt;/td&gt;
+      &lt;td&gt;Gå til historik&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;CMD + SHIFT + T&lt;/td&gt;
+      &lt;td&gt;Åbn sidst lukkede fane/faner&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;CMD + ,&lt;/td&gt;
+      &lt;td&gt;Åbn indstillinger&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;CMD + SHIFT + M&lt;/td&gt;
+      &lt;td&gt;Skift konto, hvis du som mig har forskellige Gmail kontoer.&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
 
-		&lt;div class=&quot;box-wrap&quot;&gt;
-			&lt;span class=&quot;box small&quot;&gt;FN + UP ARROW/DOWN ARROW&lt;/span&gt;&lt;span class=&quot;use&quot;&gt;Scroll et helt vindue op eller ned&lt;/span&gt;
-		&lt;/div&gt;
+&lt;p&gt;Web development i Chrome:&lt;/p&gt;
 
-		&lt;div class=&quot;box-wrap&quot;&gt;
-			&lt;span class=&quot;box small&quot;&gt;CMD + Y&lt;/span&gt;&lt;span class=&quot;use&quot;&gt;Gå til historik&lt;/span&gt;
-		&lt;/div&gt;
-
-		&lt;div class=&quot;box-wrap&quot;&gt;
-			&lt;span class=&quot;box small&quot;&gt;CMD + SHIFT + T&lt;/span&gt;&lt;span class=&quot;use&quot;&gt;Åbn sidst lukkede fane/faner&lt;/span&gt;
-		&lt;/div&gt;
-
-		&lt;div class=&quot;box-wrap&quot;&gt;
-			&lt;span class=&quot;box small&quot;&gt;CMD + ,&lt;/span&gt;&lt;span class=&quot;use&quot;&gt;Åbn indstillinger&lt;/span&gt;
-		&lt;/div&gt;
-
-		&lt;div class=&quot;box-wrap&quot;&gt;
-			&lt;span class=&quot;box small&quot;&gt;CMD + SHIFT + M&lt;/span&gt;&lt;span class=&quot;use&quot;&gt;Skift konto, hvis du som mig har forskellige Gmail kontoer.&lt;/span&gt;
-		&lt;/div&gt;
-
-		&lt;p class=&quot;small&quot;&gt;Web development:&lt;/p&gt;
-		&lt;div class=&quot;box-wrap&quot;&gt;
-			&lt;span class=&quot;box small&quot;&gt;CMD + ALT + J&lt;/span&gt;&lt;span class=&quot;use&quot;&gt;Åbn Chrome Development Tool&lt;/span&gt;
-		&lt;/div&gt;
-		&lt;div class=&quot;box-wrap&quot;&gt;
-			&lt;span class=&quot;box small&quot;&gt;CMD + ALT + U&lt;/span&gt;&lt;span class=&quot;use&quot;&gt;Åbn hjemmesidens Source&lt;/span&gt;
-		&lt;/div&gt;
-		&lt;p class=&quot;small&quot;&gt;FIF: Installer &lt;a href=&quot;https://chrome.google.com/webstore/detail/google-search-navigator/cohamjploocgoejdfanacfgkhjkhdkek&quot; target=&quot;_blank&quot;&gt;Google Search Navigator&lt;/a&gt; hvis du vil gå gennem Google søgeresultater med piletasterne.&lt;/p&gt;
-	&lt;/div&gt;
-&lt;/div&gt;
+&lt;table&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;CMD + ALT + J&lt;/td&gt;
+      &lt;td&gt;Åbn Chrome Development Tool&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;CMD + ALT + U&lt;/td&gt;
+      &lt;td&gt;Åbn hjemmesidens Source&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
 
 &lt;blockquote&gt;
-  &lt;p&gt;&lt;strong&gt;Fif:&lt;/strong&gt; Hvis du vil ‘tvinge’ dig selv til at undgå musen, så kan jeg varmt anbefale at købe et &lt;a href=&quot;https://www.therooststand.com/&quot; target=&quot;_blank&quot;&gt;Roosts Stand&lt;/a&gt; og et tilhørende tastatur (min favorit er &lt;a href=&quot;https://www.apple.com/dk/shop/product/MLA22B/A/magic-keyboard-engelsk-storbritannien?fnode=56&quot; target=&quot;_blank&quot;&gt;Apple Keyboard&lt;/a&gt;). Nu mangler du en mus, og du vil automatisk ændre dine vaner. Derudover flytter Roost-stativet din computer op i en højde, så du sidder med ret ryg, når du arbejder.&lt;/p&gt;
+  &lt;p&gt;&lt;strong&gt;Fif 1:&lt;/strong&gt; Installer &lt;a href=&quot;https://chrome.google.com/webstore/detail/google-search-navigator/cohamjploocgoejdfanacfgkhjkhdkek&quot; target=&quot;_blank&quot;&gt;Google Search Navigator&lt;/a&gt; hvis du vil gå gennem Googles søgeresultater med piletasterne.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;Fif 2:&lt;/strong&gt; Hvis du vil ‘tvinge’ dig selv til at undgå musen, så kan jeg varmt anbefale at købe et &lt;a href=&quot;https://www.therooststand.com/&quot; target=&quot;_blank&quot;&gt;Roosts Stand&lt;/a&gt; og et tilhørende tastatur (min favorit er &lt;a href=&quot;https://www.apple.com/dk/shop/product/MLA22B/A/magic-keyboard-engelsk-storbritannien?fnode=56&quot; target=&quot;_blank&quot;&gt;Apple Keyboard&lt;/a&gt;). Nu mangler du en mus, og du vil automatisk ændre dine vaner. Derudover flytter Roost-stativet din computer op i en højde, så du sidder med ret ryg, når du arbejder.&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;p&gt;Alt i alt er DTTM med til at forbedre dit værktøj (computeren), så du bliver hurtigere, oplever færre afbrydelser og skåner dine håndled.&lt;/p&gt;
@@ -868,13 +918,17 @@ Det er et af de mest udbredte kodesprog i verden (mest aktive på &lt;a href=&qu
 
 &lt;p&gt;&lt;img src=&quot;/assets/vim-editor-logo.png&quot; alt=&quot;VIM Editor logo&quot; /&gt;&lt;/p&gt;
 
-&lt;h2 id=&quot;vim---en-gammel-teksteditor-med-superkræfter&quot;&gt;VIM - en gammel teksteditor med superkræfter!&lt;/h2&gt;
+&lt;h2 id=&quot;vim---en-gammel-teksteditor-med-superkræfter-den-svære&quot;&gt;VIM - en gammel teksteditor med superkræfter (den svære)!&lt;/h2&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;VIM er mest kendt som et værktøj for programmører/webdesignere, men kan også bruges til opgaveskrvning, korrekturlæsning og meget andet. Mest af alt vil det nok være interessant at se, hvis du ikke skriver kode, hvilke værktøjer, der findes, udover det velkendte (og langsomme) WORD.&lt;/p&gt;
+&lt;/blockquote&gt;
 
 &lt;p&gt;VIM er noget ret specielt inden for kodeverden… Det er gammelt.. 26 år og det lever i bedste velgående.&lt;/p&gt;
 
 &lt;p&gt;VIM er meget kort fortalt et tekstbehandlingsprogram med superkræfter!&lt;/p&gt;
 
-&lt;p&gt;Det er svært at forklare, hvad det helt nøjagtigt er, og ikke mindst hvor i enorm en grad det kan hjælpe dig, hvis du har meget med tekstredigering at gøre på en computer: programmering, korrekturlæsning, oversættelse eller opgaveskrivning .osv (næsten alle under 40 idag), men jeg har tænkt mig at gøre et forsøg!&lt;/p&gt;
+&lt;p&gt;Det er svært at forklare, hvad de superkræfter består af, og ikke mindst hvor i enorm en grad de kan hjælpe dig, hvis du har meget med tekstredigering at gøre på en computer: programmering, korrekturlæsning, oversættelse eller opgaveskrivning .osv (næsten alle under 40 idag), men jeg har tænkt mig at gøre et forsøg!&lt;/p&gt;
 
 &lt;h3 id=&quot;vim-modes---dit-tastatur-kan-mere-end-at-indtaste&quot;&gt;Vim modes - dit tastatur kan mere end at indtaste!&lt;/h3&gt;
 
@@ -890,7 +944,7 @@ Det er et af de mest udbredte kodesprog i verden (mest aktive på &lt;a href=&qu
 
 &lt;p&gt;Forvirret?&lt;/p&gt;
 
-&lt;p&gt;Sådan er det med VIM. Det tager tid at forstå og at implementere. Det er utrolig brugbart, men ENORMT svært at lære. Du kommer til at vågne 1-3 måneder (afhængigt af hvor mange kræfter du lægger i at lære det) med 10 tommelfingrer og vil med det samme være på en brøkdel af din oprindelige tastehastighed, men fortvivl ikke. Det skal nok give pote og du vil, efter min egen erfaring, efter de tre måneder er gået, aldrig bruge et andet program til at behandle tekst igen.&lt;/p&gt;
+&lt;p&gt;Sådan er det med VIM. Det tager tid at forstå og at implementere. Det er utrolig brugbart, men ENORMT svært at lære. Du kommer til at vågne 1-3 måneder - afhængigt af, hvor mange kræfter du lægger i at lære det - med 10 tommelfingrer og vil med det samme være på en brøkdel af din oprindelige tastehastighed, men fortvivl ikke. Det skal nok give pote og du vil, efter min egen erfaring, efter de tre måneder er gået, aldrig bruge et andet program til at behandle tekst igen.&lt;/p&gt;
 
 &lt;p&gt;Tilbage til normal-mode:&lt;/p&gt;
 
@@ -928,7 +982,7 @@ Det er et af de mest udbredte kodesprog i verden (mest aktive på &lt;a href=&qu
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td style=&quot;text-align: left&quot;&gt;D&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;Slet resten af linjen&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Slet resten af linjen (fra hvor cursoren er)&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td style=&quot;text-align: left&quot;&gt;c&lt;/td&gt;
@@ -940,7 +994,7 @@ Det er et af de mest udbredte kodesprog i verden (mest aktive på &lt;a href=&qu
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td style=&quot;text-align: left&quot;&gt;C&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;Slet resten af linjen(fra hvor cursoren er) og gå til insert mode&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Slet resten af linjen (fra hvor cursoren er) og gå til insert mode&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td style=&quot;text-align: left&quot;&gt;e&lt;/td&gt;
@@ -956,7 +1010,7 @@ Det er et af de mest udbredte kodesprog i verden (mest aktive på &lt;a href=&qu
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td style=&quot;text-align: left&quot;&gt;i&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;Inden i (in)&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Inden i (inside)&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td style=&quot;text-align: left&quot;&gt;w&lt;/td&gt;
@@ -984,7 +1038,7 @@ Det er et af de mest udbredte kodesprog i verden (mest aktive på &lt;a href=&qu
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td style=&quot;text-align: left&quot;&gt;Y&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;Kopier hele linjen, som din cursor er på&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Kopier hele linjen&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td style=&quot;text-align: left&quot;&gt;p&lt;/td&gt;
@@ -1004,11 +1058,11 @@ Det er et af de mest udbredte kodesprog i verden (mest aktive på &lt;a href=&qu
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td style=&quot;text-align: left&quot;&gt;t&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;Gå til næste men på pladsen før det valgte&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Gå til næste, men på pladsen før det valgte&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td style=&quot;text-align: left&quot;&gt;T&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;Gå til forrige men på pladsen før det valgte&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Gå til forrige, men på pladsen før det valgte&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td style=&quot;text-align: left&quot;&gt;h, j, k og l&lt;/td&gt;
@@ -1095,7 +1149,7 @@ SÅ tag at gå over og prøv spillet &lt;a href=&quot;https://vim-adventures.com
 
 &lt;h3 id=&quot;konklusion-2&quot;&gt;Konklusion&lt;/h3&gt;
 
-&lt;p&gt;VIM er for dig, som ved, at du kommer til at sidde 1000-vis af timer ved et tastatur og gerne vil investere i et værktøj, som på sigt giver en enorm gevinst.&lt;/p&gt;
+&lt;p&gt;VIM er for dig, som ved, at du kommer til at sidde 1000-vis af timer ved et tastatur og behandle tekst og gerne vil investere i et værktøj, som på sigt giver en enorm gevinst.&lt;/p&gt;
 
 &lt;p&gt;Tro mig..&lt;/p&gt;
 
@@ -1104,11 +1158,13 @@ SÅ tag at gå over og prøv spillet &lt;a href=&quot;https://vim-adventures.com
 &lt;p&gt;Hvis du har lyst til at læse mere:&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.vim.org/&quot;&gt;VIM Online&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://vim.wikia.com/wiki/Vim_Tips_Wiki&quot; target=&quot;_blank&quot;&gt;VIM Tips Wiki&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=Xp0cTB1llqU&quot; target=&quot;_blank&quot;&gt;Youtube video - Intro to VIM&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://da.wikipedia.org/wiki/Vim&quot;&gt;VIM Wikipedia&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://stevelosh.com/blog/2010/09/coming-home-to-vim/&quot; target=&quot;_blank&quot;&gt;En vandvittig god artikel om VIM&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://derekwyatt.org/vim/tutorials/novice/&quot; target=&quot;_blank&quot;&gt;VIM guide videoer&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://vimcasts.org/episodes/archive/&quot; target=&quot;_blank&quot;&gt;VIM CASTS&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://da.wikipedia.org/wiki/Vim&quot; target=&quot;_blank&quot;&gt;VIM Wikipedia&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
+
+&lt;p&gt;&lt;em&gt;Hvis du ejer en Mac og har lyst til at prøve det direkte i din Terminal, så åben terminalen og tast &lt;code class=&quot;highlighter-rouge&quot;&gt;vimtutor&lt;/code&gt; og tryk derefter Enter. &lt;strong&gt;Ja, VIM findes på din computer&lt;/strong&gt; uden at du skal til at installere det!&lt;/em&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;br /&gt;
 &lt;br /&gt;&lt;/p&gt;

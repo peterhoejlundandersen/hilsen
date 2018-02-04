@@ -125,9 +125,10 @@ Efter en måned eller to - du vil være langsommere i starten - vil du skåne di
 
 ### Genveje til Mac (Windows kommer snart)
 
+
 {% include shortcuts.html %}
 
-> **Fif:** Hvis du vil 'tvinge' dig selv til at undgå musen, så kan jeg varmt anbefale at købe et [Roosts Stand](https://www.therooststand.com/){:target="_blank"} og et tilhørende tastatur (min favorit er [Apple Keyboard](https://www.apple.com/dk/shop/product/MLA22B/A/magic-keyboard-engelsk-storbritannien?fnode=56){:target="_blank"}). Nu mangler du en mus, og du vil automatisk ændre dine vaner. Derudover flytter Roost-stativet din computer op i en højde, så du sidder med ret ryg, når du arbejder.
+> **Fif 2:** Hvis du vil 'tvinge' dig selv til at undgå musen, så kan jeg varmt anbefale at købe et [Roosts Stand](https://www.therooststand.com/){:target="_blank"} og et tilhørende tastatur (min favorit er [Apple Keyboard](https://www.apple.com/dk/shop/product/MLA22B/A/magic-keyboard-engelsk-storbritannien?fnode=56){:target="_blank"}). Nu mangler du en mus, og du vil automatisk ændre dine vaner. Derudover flytter Roost-stativet din computer op i en højde, så du sidder med ret ryg, når du arbejder.
 
 
 Alt i alt er DTTM med til at forbedre dit værktøj (computeren), så du bliver hurtigere, oplever færre afbrydelser og skåner dine håndled.
@@ -144,13 +145,15 @@ God fornøjelse!
 
 ![VIM Editor logo](/assets/vim-editor-logo.png)
 
-## VIM - en gammel teksteditor med superkræfter!
+## VIM - en gammel teksteditor med superkræfter (den svære)!
+
+> VIM er mest kendt som et værktøj for programmører/webdesignere, men kan også bruges til opgaveskrvning, korrekturlæsning og meget andet. Mest af alt vil det nok være interessant at se, hvis du ikke skriver kode, hvilke værktøjer, der findes, udover det velkendte (og langsomme) WORD.
 
 VIM er noget ret specielt inden for kodeverden... Det er gammelt.. 26 år og det lever i bedste velgående. 
 
 VIM er meget kort fortalt et tekstbehandlingsprogram med superkræfter!
 
-Det er svært at forklare, hvad det helt nøjagtigt er, og ikke mindst hvor i enorm en grad det kan hjælpe dig, hvis du har meget med tekstredigering at gøre på en computer: programmering, korrekturlæsning, oversættelse eller opgaveskrivning .osv (næsten alle under 40 idag), men jeg har tænkt mig at gøre et forsøg!
+Det er svært at forklare, hvad de superkræfter består af, og ikke mindst hvor i enorm en grad de kan hjælpe dig, hvis du har meget med tekstredigering at gøre på en computer: programmering, korrekturlæsning, oversættelse eller opgaveskrivning .osv (næsten alle under 40 idag), men jeg har tænkt mig at gøre et forsøg!
 
 
 ### Vim modes - dit tastatur kan mere end at indtaste!
@@ -165,7 +168,7 @@ I normal-mode, som man tilgår ved at trykke ESC-knappen, betyder knappen c **ch
 
 Forvirret? 
 
-Sådan er det med VIM. Det tager tid at forstå og at implementere. Det er utrolig brugbart, men ENORMT svært at lære. Du kommer til at vågne 1-3 måneder (afhængigt af hvor mange kræfter du lægger i at lære det) med 10 tommelfingrer og vil med det samme være på en brøkdel af din oprindelige tastehastighed, men fortvivl ikke. Det skal nok give pote og du vil, efter min egen erfaring, efter de tre måneder er gået, aldrig bruge et andet program til at behandle tekst igen.
+Sådan er det med VIM. Det tager tid at forstå og at implementere. Det er utrolig brugbart, men ENORMT svært at lære. Du kommer til at vågne 1-3 måneder - afhængigt af, hvor mange kræfter du lægger i at lære det - med 10 tommelfingrer og vil med det samme være på en brøkdel af din oprindelige tastehastighed, men fortvivl ikke. Det skal nok give pote og du vil, efter min egen erfaring, efter de tre måneder er gået, aldrig bruge et andet program til at behandle tekst igen.
 
 Tilbage til normal-mode:
  
@@ -183,27 +186,27 @@ Ja, de har så alle deres egen funktion, som du kan bruge til at navigere, gemme
 | gg   | Gå til første linje |
 | d   | Slet |
 | dd   | Slet hele linjen |
-| D | Slet resten af linjen |
+| D | Slet resten af linjen (fra hvor cursoren er) |
 | c | slet og gå til insert-mode (change) | 
 | cc | slet hele linjen og gå til insert-mode |
-| C | Slet resten af linjen(fra hvor cursoren er) og gå til insert mode |
+| C | Slet resten af linjen (fra hvor cursoren er) og gå til insert mode |
 | e | Hop et ord frem |
 | b | Hop et ord tilbage |
 | a | Rundt om (around) |
-| i | Inden i (in) | 
+| i | Inden i (inside) | 
 | w | Ord (word) |
 | s | Sætning (sentence) |
 | t | Tag (HTML-tag) |
 | o | Lav ny linje under og gå til insert-mode |
 | O | Lav ny linje over og gå til insert-mode |
 | y | Kopier (yank) |
-| Y | Kopier hele linjen, som din cursor er på |
+| Y | Kopier hele linjen |
 | p | Indsæt (paste) |
 | P | Lav ny linje over og indsæt | 
 | f | Gå til næste på linjen |
 | F | Gå til forrige på linjen |
-| t | Gå til næste men på pladsen før det valgte |
-| T | Gå til forrige men på pladsen før det valgte |
+| t | Gå til næste, men på pladsen før det valgte |
+| T | Gå til forrige, men på pladsen før det valgte |
 | h, j, k og l | Fungerer som piletasterne: venstre, ned, op, højre, så du ikke skal flytte hånden for at navigere |  
 
 *Forskellen på delete og change er, at change går direkte til insert-mode (normal indtastning), mens man efter at have brugt delete bliver i normal-mode.*
@@ -244,7 +247,7 @@ SÅ tag at gå over og prøv spillet [VIM Adventures](https://vim-adventures.com
 
 ### Konklusion
 
-VIM er for dig, som ved, at du kommer til at sidde 1000-vis af timer ved et tastatur og gerne vil investere i et værktøj, som på sigt giver en enorm gevinst. 
+VIM er for dig, som ved, at du kommer til at sidde 1000-vis af timer ved et tastatur og behandle tekst og gerne vil investere i et værktøj, som på sigt giver en enorm gevinst. 
 
 Tro mig.. 
 
@@ -252,10 +255,15 @@ Den første gang jeg prøvede, var jeg nødt til at opgive, da jeg var igang med
 
 Hvis du har lyst til at læse mere:
 
-* [VIM Online](http://www.vim.org/)
-* [VIM Tips Wiki](http://vim.wikia.com/wiki/Vim_Tips_Wiki){:target="_blank"}
-* [Youtube video - Intro to VIM](https://www.youtube.com/watch?v=Xp0cTB1llqU){:target="_blank"}
-* [VIM Wikipedia](https://da.wikipedia.org/wiki/Vim)
+
+* [En vandvittig god artikel om VIM](http://stevelosh.com/blog/2010/09/coming-home-to-vim/){:target="_blank"}
+* [VIM guide videoer](http://derekwyatt.org/vim/tutorials/novice/){:target="_blank"}
+* [VIM CASTS](http://vimcasts.org/episodes/archive/){:target="_blank"}
+* [VIM Wikipedia](https://da.wikipedia.org/wiki/Vim){:target="_blank"}
+
+
+*Hvis du ejer en Mac og har lyst til at prøve det direkte i din Terminal, så åben terminalen og tast `vimtutor` og tryk derefter Enter. **Ja, VIM findes på din computer** uden at du skal til at installere det!*
+
 
 <br>
 <br>
