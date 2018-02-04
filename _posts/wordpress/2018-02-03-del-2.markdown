@@ -265,7 +265,7 @@ Hvis man vil have et indblik i, hvordan man lettere kan definere fontstørrelser
 
 
 
-### Signinger/lektier
+### Stigninger/lektier
 
 
 1. Lav dit eget child HTML-element til en af dine HTML-tags i dit eksempel. Afprøv din nye ven `%`. Fungerer det?
