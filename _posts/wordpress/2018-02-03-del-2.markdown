@@ -55,7 +55,7 @@ Fixed er, hvis man ikke scroller, det samme som absolute. Men så snart, at du b
 Fixed bruges sjældent, men kan give et fantastisk overblik som f.eks. [på denne side](http://book.scoutapp.com/memory-bloat.html){:target="_blank"} ved at lave en indholdsfortegnelse, der følger brugerens scroll (Man ser det også på Politiken.dk nogle gange, hvor en artikel følger dit scroll) 
 
 #### Position **static** (Jeg er default!)
-`position: static` er standard for et HTML-tag og betyder blot at den bliver vist i den struktur, som HTML'en er skrevet i og ikke reagerer på left, top, right og bottom*
+`position: static` er standard for et HTML-tag og betyder blot at den bliver vist i den struktur, som HTML'en er skrevet i og ikke reagerer på left, top, right og bottom.
 
 Det er det du overskriver, når du vælger en af de andre.
 
@@ -79,9 +79,11 @@ Z-index er den tredje akse ligesom i matematik. X-, y- og z-aksen. Det er den ak
 
 > Z-index virker kun, hvis dit HTML-tag har en `position` property, som ikke er static!
 
-*Men det har boksene jo i index.html!... Prøv at ændre på `.fixed` i CSS og giv den et `z-index: ..` for at se, om den nu er oven på de to gule.*
+*Men det har boksene jo i index.html!... 
 
-Alt i alt er position en utrolig vigtig property, som man bruger gang på gang, når man skal bygge en hjemmeside. 
+> **Udfordring:** Prøv at ændre på `.fixed` i CSS og giv den et `z-index: ..` for at se, om den nu er oven på de to gule.*
+
+Sidst men ikke mindst, når det kommer til `position`!
 
 > Forstå de 4 forskellige positioneringer og du vil slippe for et utal af begynderfejl og -spørgsmål. 
 
@@ -89,7 +91,7 @@ Alt i alt er position en utrolig vigtig property, som man bruger gang på gang, 
 
 ### Display - hvor meget skal dine bokse fylde af sig selv og skal de overhovedet vises?
 
-> Display er, som navnet også tilkendegiver, spørgsmålet om, hvordan dine HTML-tags skal vises. Vi vil kun komme ind på `display: block` og `display: inline`. Der findes et utal af values, som man kan læse mere om på [W3 School](https://www.w3schools.com/cssref/pr_class_display.asp){:target="_blank"}. Men det er ikke nødvendigt på dette kursus. 
+> Display er, som navnet også tilkendegiver, spørgsmålet om, hvordan dine HTML-tags skal vises. Vi vil kun komme ind på `display: block`, `display: none` og `display: inline`. Der findes et utal af values, som man kan læse mere om på [W3 School](https://www.w3schools.com/cssref/pr_class_display.asp){:target="_blank"}. Men det er ikke nødvendigt på dette kursus. 
 
 #### Display block - jeg vil fylde hele bredden af det rum, som jeg er i!
 
@@ -133,20 +135,142 @@ Dette illustrerer properties, som gælder for **alle dine HTML-tags**:
 **Content:** Er dit indhold. Din tekst/billeder eller andet, som er i din boks (div, span etc.)
 
 **Padding:** Er et område rundt om dit indhold, som du kan bestemme størrelsen på. F.eks.:
-`padding: 10px;`
+`padding: 10px;`. Padding tager samme baggrundsfarve som dit contents.
 
 **Border:** Er en grænse rundt om din indhold + evt. padding, som du kan bestemme størrelse, form og farve på. F.eks.:
-`border: 1px dotted red;`
+`border: 1px solid red;` 
+
+*Der findes mange forskellige slags border-styles, hvis du er interesseret i at kunne udsmykke din HTML. F.eks. `dashed` og `dotted`. Find flere via Google*
 
 **Margin:** Er din afstand rundt om dit indhold + evt. padding + evt. border, som du kan bestemme størrelsen på. F.eks.:
-`margin: 20px;`
+`margin: 20px;`. Dette er altså ikke et farvet område, som kan styles, men en afstand.
 
-> **FIF:** Når du skriver én afstand (f.eks. `margin: 20px`) gælder det for alle sider (top, right, bottom, left). Hvis du skriver to: `20px 10px` gælder den første for top og bottom(20px) mens den næste gælder for left og right(10px). Du kan også skrive fire: `padding: 10px 15px 20px 30px`, som så følger rækkefølgen top (10px), right (15px), bottom (20px) og left (30px).
 
-*Prøv det af i din CSS. Tilføj en padding til en boks. Hvad med en border. Reagerer de forskellige postitioner forskelligt på padding, border og margin?*
+> **FIF:** Når du skriver én afstand (f.eks. `margin: 20px`) gælder det for alle sider (top, right, bottom, left). Hvis du skriver: `20px 10px` gælder den første for top og bottom(20px) mens den næste gælder for left og right(10px). Du kan også skrive fire: `padding: 10px 15px 20px 30px`, som så følger rækkefølgen top (10px), right (15px), bottom (20px) og left (30px).
+
+Hvis du kun skal erklære én værdi kan du tilføje `-top`, `-right`, `-bottom` eller `-left` til `padding` eller `margin`. F.eks:
+
+`padding-left: 10px` og `margin-top: 15px`.
+
+> **Spørgsmål:** Hvad skal du bruge for at give dine `.relative` bokse en afstand mellem hinanden i dit eksempel?
+
+> **Udfordring:** Prøv at giv hver af dine bokse i din HTML forskellige værdier af border, padding og margin. Hvordan reagerer de forskellige positions på det? Er der en forskel og hvilken? 
 
 ## Afstande
 
-Kommer snart
+> Indtil videre har vi kun brugt `px` til at definere en afstand i CSS'en. Der findes dog en del andre måder at erklære en afstand på. Hver især med deres fordele/ulemper. I denne guide kommer vi 'kun' ind på procent.
+
+Men før vi går til procent er vi nødt til at forstå udtrykket **parent** og **child.**
+
+
+### Parent og child? - ja, det bliver brugt til at forklare koder
+
+Parent og child er udtryk, som bliver brugt i HTML til at forklare HTML-tags forhold til hinanden.
+
+Et eksempel:
+
+{% highlight html %}
+<div class="section">
+	<div class="article">Der var engang en person, som gjorde noget godt</div>
+</div><!-- læg mærke til, at .section først lukkes her -->
+{% endhighlight %}
+
+`.section` er i dette tilfælde parent til `.article`.
+
+Og `.article` er child til `.section`. 
+
+`.child` bliver også omtalt som et **nested HTML-element** (et HTML-element, som er inden i et andet).
+
+Nu kan vi gå videre til **procent**.
+
+### %/procent - jeg fylder min forældre (parent)!
+
+Procentafstand bliver erklæret ved at erstatte - hvis vi skulle bruge det i tidligere eksempler - `px` med `%`. 
+
+Altså kan du f.eks. skrive:
+
+`padding: 10%;` i CSS.
+
+Procent betyder blot - **jeg vil fylde denne procent af min parent**.
+
+Altså vil tidligere eksempel, med denne CSS:
+
+{% highlight css %}
+.section {
+	height: 50px;
+	background-color: red;
+}
+.article {
+	background-color: yellow;
+	width: 60%;
+}
+{% endhighlight %}
+
+Vises som:
+
+<div class="section" style="background-color: red; height: 50px;">
+	<div class="article" style="background-color: yellow; width: 60%;">Der var engang en person, som gjorde noget godt</div>
+</div>
+
+<br>
+
+Procent kan også bruges med height, så hvis du tilføjer `height: 100%` til `.article`:
+
+
+{% highlight css %}
+.section {
+	height: 50px;
+	background-color: red;
+}
+.article {
+	background-color: yellow;
+	width: 60%;
+	height: 100%;
+}
+{% endhighlight %}
+
+Vil det se således ud:
+
+
+<div class="section" style="background-color: red; height: 50px;">
+	<div class="article" style="background-color: yellow; width: 60%; height: 100%;">Der var engang en person, som gjorde noget godt</div>
+</div>
+
+*Læg mærke til at den røde afstand under `.article` nu er væk*
+
+> **Forklaring:** Koden `height: 100%;` betyder altså: lad `.article` fylde 100% af dens parents height - i dette tilfælde 50px.  
+
+Lige meget hvad du så ændrer `.section`'s height til, så vil `.section`'s child `.article` følge med.
+
+*I dette eksempel har `.section` en `height` på  `150px`.*
+
+
+
+<div class="section" style="background-color: red; height: 150px;">
+	<div class="article" style="background-color: yellow; width: 60%; height: 100%;">Der var engang en person, som gjorde noget godt</div>
+</div>
+
+<br>
+
+
+### Andre størrelser - svære at forstå, men nyttige
+
+Der findes også andre enheder, når det kommer til at erklære afstande i CSS. 
+
+De to nyeste hedder `vh` og `vw` og dem kan man læse mere om [her](https://css-tricks.com/viewport-sized-typography/){:target="_blank"} - især interessante, når man snakker mobilversion og responsive.
+
+Hvis man vil have et indblik i, hvordan man lettere kan definere fontstørrelser, så kan man læse mere om `em` og `rem` [her](https://j.eremy.net/confused-about-rem-and-em/){:target="_blank"} 
+
+*Disse enheder er dog en smule kompliceret, og jeg vil anbefale at man giver sig i kast med dem, når man har færdiggjort kurset helt.*
+
+
+
+### Signinger/lektier
+
+
+1. Lav dit eget child HTML-element til en af dine HTML-tags i dit eksempel. Afprøv din nye ven `%`. Fungerer det?
+
+2. Se Hobbitten triologien og nedskriv, hvor der er blevet brugt padding i filmen.
+
 
 

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-02-04T13:26:27+01:00</updated><id>http://localhost:4000/</id><title type="html">Hilsen IT</title><subtitle>Designer hjemmesider med et sikkert fundament i Ruby on Rails, Jekyll og Angular</subtitle><entry><title type="html">Del 2 - HTML og CSS Advanced</title><link href="http://localhost:4000/wordpress/2018/02/03/del-2.html" rel="alternate" type="text/html" title="Del 2 - HTML og CSS Advanced" /><published>2018-02-03T00:00:00+01:00</published><updated>2018-02-03T00:00:00+01:00</updated><id>http://localhost:4000/wordpress/2018/02/03/del-2</id><content type="html" xml:base="http://localhost:4000/wordpress/2018/02/03/del-2.html">&lt;p&gt;#Del 2 - WordPress kursus&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-02-04T16:51:43+01:00</updated><id>http://localhost:4000/</id><title type="html">Hilsen IT</title><subtitle>Designer hjemmesider med et sikkert fundament i Ruby on Rails, Jekyll og Angular</subtitle><entry><title type="html">Del 2 - HTML og CSS Advanced</title><link href="http://localhost:4000/wordpress/2018/02/03/del-2.html" rel="alternate" type="text/html" title="Del 2 - HTML og CSS Advanced" /><published>2018-02-03T00:00:00+01:00</published><updated>2018-02-03T00:00:00+01:00</updated><id>http://localhost:4000/wordpress/2018/02/03/del-2</id><content type="html" xml:base="http://localhost:4000/wordpress/2018/02/03/del-2.html">&lt;p&gt;#Del 2 - WordPress kursus&lt;/p&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;&lt;strong&gt;Forberedelse:&lt;/strong&gt; Download &lt;a href=&quot;/assets/wordpress/del-2.zip&quot; download=&quot;&quot;&gt;eksemplet&lt;/a&gt;, pak ZIP-filen ud og åben hele mappen i Sublime Text 3. Åben derefter &lt;code class=&quot;highlighter-rouge&quot;&gt;index.html&lt;/code&gt; i en browser.&lt;/p&gt;
@@ -52,7 +52,7 @@
 &lt;p&gt;Fixed bruges sjældent, men kan give et fantastisk overblik som f.eks. &lt;a href=&quot;http://book.scoutapp.com/memory-bloat.html&quot; target=&quot;_blank&quot;&gt;på denne side&lt;/a&gt; ved at lave en indholdsfortegnelse, der følger brugerens scroll (Man ser det også på Politiken.dk nogle gange, hvor en artikel følger dit scroll)&lt;/p&gt;
 
 &lt;h4 id=&quot;position-static-jeg-er-default&quot;&gt;Position &lt;strong&gt;static&lt;/strong&gt; (Jeg er default!)&lt;/h4&gt;
-&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;position: static&lt;/code&gt; er standard for et HTML-tag og betyder blot at den bliver vist i den struktur, som HTML’en er skrevet i og ikke reagerer på left, top, right og bottom*&lt;/p&gt;
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;position: static&lt;/code&gt; er standard for et HTML-tag og betyder blot at den bliver vist i den struktur, som HTML’en er skrevet i og ikke reagerer på left, top, right og bottom.&lt;/p&gt;
 
 &lt;p&gt;Det er det du overskriver, når du vælger en af de andre.&lt;/p&gt;
 
@@ -78,9 +78,13 @@
   &lt;p&gt;Z-index virker kun, hvis dit HTML-tag har en &lt;code class=&quot;highlighter-rouge&quot;&gt;position&lt;/code&gt; property, som ikke er static!&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;&lt;em&gt;Men det har boksene jo i index.html!… Prøv at ændre på &lt;code class=&quot;highlighter-rouge&quot;&gt;.fixed&lt;/code&gt; i CSS og giv den et &lt;code class=&quot;highlighter-rouge&quot;&gt;z-index: ..&lt;/code&gt; for at se, om den nu er oven på de to gule.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;*Men det har boksene jo i index.html!…&lt;/p&gt;
 
-&lt;p&gt;Alt i alt er position en utrolig vigtig property, som man bruger gang på gang, når man skal bygge en hjemmeside.&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;Udfordring:&lt;/strong&gt; Prøv at ændre på &lt;code class=&quot;highlighter-rouge&quot;&gt;.fixed&lt;/code&gt; i CSS og giv den et &lt;code class=&quot;highlighter-rouge&quot;&gt;z-index: ..&lt;/code&gt; for at se, om den nu er oven på de to gule.*&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Sidst men ikke mindst, når det kommer til &lt;code class=&quot;highlighter-rouge&quot;&gt;position&lt;/code&gt;!&lt;/p&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;Forstå de 4 forskellige positioneringer og du vil slippe for et utal af begynderfejl og -spørgsmål.&lt;/p&gt;
@@ -91,7 +95,7 @@
 &lt;h3 id=&quot;display---hvor-meget-skal-dine-bokse-fylde-af-sig-selv-og-skal-de-overhovedet-vises&quot;&gt;Display - hvor meget skal dine bokse fylde af sig selv og skal de overhovedet vises?&lt;/h3&gt;
 
 &lt;blockquote&gt;
-  &lt;p&gt;Display er, som navnet også tilkendegiver, spørgsmålet om, hvordan dine HTML-tags skal vises. Vi vil kun komme ind på &lt;code class=&quot;highlighter-rouge&quot;&gt;display: block&lt;/code&gt; og &lt;code class=&quot;highlighter-rouge&quot;&gt;display: inline&lt;/code&gt;. Der findes et utal af values, som man kan læse mere om på &lt;a href=&quot;https://www.w3schools.com/cssref/pr_class_display.asp&quot; target=&quot;_blank&quot;&gt;W3 School&lt;/a&gt;. Men det er ikke nødvendigt på dette kursus.&lt;/p&gt;
+  &lt;p&gt;Display er, som navnet også tilkendegiver, spørgsmålet om, hvordan dine HTML-tags skal vises. Vi vil kun komme ind på &lt;code class=&quot;highlighter-rouge&quot;&gt;display: block&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;display: none&lt;/code&gt; og &lt;code class=&quot;highlighter-rouge&quot;&gt;display: inline&lt;/code&gt;. Der findes et utal af values, som man kan læse mere om på &lt;a href=&quot;https://www.w3schools.com/cssref/pr_class_display.asp&quot; target=&quot;_blank&quot;&gt;W3 School&lt;/a&gt;. Men det er ikke nødvendigt på dette kursus.&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;h4 id=&quot;display-block---jeg-vil-fylde-hele-bredden-af-det-rum-som-jeg-er-i&quot;&gt;Display block - jeg vil fylde hele bredden af det rum, som jeg er i!&lt;/h4&gt;
@@ -138,23 +142,141 @@
 &lt;p&gt;&lt;strong&gt;Content:&lt;/strong&gt; Er dit indhold. Din tekst/billeder eller andet, som er i din boks (div, span etc.)&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Padding:&lt;/strong&gt; Er et område rundt om dit indhold, som du kan bestemme størrelsen på. F.eks.:
-&lt;code class=&quot;highlighter-rouge&quot;&gt;padding: 10px;&lt;/code&gt;&lt;/p&gt;
+&lt;code class=&quot;highlighter-rouge&quot;&gt;padding: 10px;&lt;/code&gt;. Padding tager samme baggrundsfarve som dit contents.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Border:&lt;/strong&gt; Er en grænse rundt om din indhold + evt. padding, som du kan bestemme størrelse, form og farve på. F.eks.:
-&lt;code class=&quot;highlighter-rouge&quot;&gt;border: 1px dotted red;&lt;/code&gt;&lt;/p&gt;
+&lt;code class=&quot;highlighter-rouge&quot;&gt;border: 1px solid red;&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Der findes mange forskellige slags border-styles, hvis du er interesseret i at kunne udsmykke din HTML. F.eks. &lt;code class=&quot;highlighter-rouge&quot;&gt;dashed&lt;/code&gt; og &lt;code class=&quot;highlighter-rouge&quot;&gt;dotted&lt;/code&gt;. Find flere via Google&lt;/em&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Margin:&lt;/strong&gt; Er din afstand rundt om dit indhold + evt. padding + evt. border, som du kan bestemme størrelsen på. F.eks.:
-&lt;code class=&quot;highlighter-rouge&quot;&gt;margin: 20px;&lt;/code&gt;&lt;/p&gt;
+&lt;code class=&quot;highlighter-rouge&quot;&gt;margin: 20px;&lt;/code&gt;. Dette er altså ikke et farvet område, som kan styles, men en afstand.&lt;/p&gt;
 
 &lt;blockquote&gt;
-  &lt;p&gt;&lt;strong&gt;FIF:&lt;/strong&gt; Når du skriver én afstand (f.eks. &lt;code class=&quot;highlighter-rouge&quot;&gt;margin: 20px&lt;/code&gt;) gælder det for alle sider (top, right, bottom, left). Hvis du skriver to: &lt;code class=&quot;highlighter-rouge&quot;&gt;20px 10px&lt;/code&gt; gælder den første for top og bottom(20px) mens den næste gælder for left og right(10px). Du kan også skrive fire: &lt;code class=&quot;highlighter-rouge&quot;&gt;padding: 10px 15px 20px 30px&lt;/code&gt;, som så følger rækkefølgen top (10px), right (15px), bottom (20px) og left (30px).&lt;/p&gt;
+  &lt;p&gt;&lt;strong&gt;FIF:&lt;/strong&gt; Når du skriver én afstand (f.eks. &lt;code class=&quot;highlighter-rouge&quot;&gt;margin: 20px&lt;/code&gt;) gælder det for alle sider (top, right, bottom, left). Hvis du skriver: &lt;code class=&quot;highlighter-rouge&quot;&gt;20px 10px&lt;/code&gt; gælder den første for top og bottom(20px) mens den næste gælder for left og right(10px). Du kan også skrive fire: &lt;code class=&quot;highlighter-rouge&quot;&gt;padding: 10px 15px 20px 30px&lt;/code&gt;, som så følger rækkefølgen top (10px), right (15px), bottom (20px) og left (30px).&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;&lt;em&gt;Prøv det af i din CSS. Tilføj en padding til en boks. Hvad med en border. Reagerer de forskellige postitioner forskelligt på padding, border og margin?&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Hvis du kun skal erklære én værdi kan du tilføje &lt;code class=&quot;highlighter-rouge&quot;&gt;-top&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;-right&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;-bottom&lt;/code&gt; eller &lt;code class=&quot;highlighter-rouge&quot;&gt;-left&lt;/code&gt; til &lt;code class=&quot;highlighter-rouge&quot;&gt;padding&lt;/code&gt; eller &lt;code class=&quot;highlighter-rouge&quot;&gt;margin&lt;/code&gt;. F.eks:&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;padding-left: 10px&lt;/code&gt; og &lt;code class=&quot;highlighter-rouge&quot;&gt;margin-top: 15px&lt;/code&gt;.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;Spørgsmål:&lt;/strong&gt; Hvad skal du bruge for at give dine &lt;code class=&quot;highlighter-rouge&quot;&gt;.relative&lt;/code&gt; bokse en afstand mellem hinanden i dit eksempel?&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;Udfordring:&lt;/strong&gt; Prøv at giv hver af dine bokse i din HTML forskellige værdier af border, padding og margin. Hvordan reagerer de forskellige positions på det? Er der en forskel og hvilken?&lt;/p&gt;
+&lt;/blockquote&gt;
 
 &lt;h2 id=&quot;afstande&quot;&gt;Afstande&lt;/h2&gt;
 
-&lt;p&gt;Kommer snart&lt;/p&gt;</content><author><name></name></author><category term="wordpress" /><summary type="html">#Del 2 - WordPress kursus</summary></entry><entry><title type="html">Del 1 - HTML, CSS og JavaScript</title><link href="http://localhost:4000/wordpress/2018/01/27/wordpress-kursus.html" rel="alternate" type="text/html" title="Del 1 - HTML, CSS og JavaScript" /><published>2018-01-27T00:00:00+01:00</published><updated>2018-01-27T00:00:00+01:00</updated><id>http://localhost:4000/wordpress/2018/01/27/wordpress-kursus</id><content type="html" xml:base="http://localhost:4000/wordpress/2018/01/27/wordpress-kursus.html">&lt;blockquote&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;Indtil videre har vi kun brugt &lt;code class=&quot;highlighter-rouge&quot;&gt;px&lt;/code&gt; til at definere en afstand i CSS’en. Der findes dog en del andre måder at erklære en afstand på. Hver især med deres fordele/ulemper. I denne guide kommer vi ‘kun’ ind på procent.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Men før vi går til procent er vi nødt til at forstå udtrykket &lt;strong&gt;parent&lt;/strong&gt; og &lt;strong&gt;child.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;parent-og-child---ja-det-bliver-brugt-til-at-forklare-koder&quot;&gt;Parent og child? - ja, det bliver brugt til at forklare koder&lt;/h3&gt;
+
+&lt;p&gt;Parent og child er udtryk, som bliver brugt i HTML til at forklare HTML-tags forhold til hinanden.&lt;/p&gt;
+
+&lt;p&gt;Et eksempel:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;section&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+	&lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;article&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;Der var engang en person, som gjorde noget godt&lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;&lt;span class=&quot;c&quot;&gt;&amp;lt;!-- læg mærke til, at .section først lukkes her --&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;.section&lt;/code&gt; er i dette tilfælde parent til &lt;code class=&quot;highlighter-rouge&quot;&gt;.article&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;Og &lt;code class=&quot;highlighter-rouge&quot;&gt;.article&lt;/code&gt; er child til &lt;code class=&quot;highlighter-rouge&quot;&gt;.section&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;.child&lt;/code&gt; bliver også omtalt som et &lt;strong&gt;nested HTML-element&lt;/strong&gt; (et HTML-element, som er inden i et andet).&lt;/p&gt;
+
+&lt;p&gt;Nu kan vi gå videre til &lt;strong&gt;procent&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;procent---jeg-fylder-min-forældre-parent&quot;&gt;%/procent - jeg fylder min forældre (parent)!&lt;/h3&gt;
+
+&lt;p&gt;Procentafstand bliver erklæret ved at erstatte - hvis vi skulle bruge det i tidligere eksempler - &lt;code class=&quot;highlighter-rouge&quot;&gt;px&lt;/code&gt; med &lt;code class=&quot;highlighter-rouge&quot;&gt;%&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;Altså kan du f.eks. skrive:&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;padding: 10%;&lt;/code&gt; i CSS.&lt;/p&gt;
+
+&lt;p&gt;Procent betyder blot - &lt;strong&gt;jeg vil fylde denne procent af min parent&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;Altså vil tidligere eksempel, med denne CSS:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-css&quot; data-lang=&quot;css&quot;&gt;&lt;span class=&quot;nc&quot;&gt;.section&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+	&lt;span class=&quot;nl&quot;&gt;height&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;50px&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+	&lt;span class=&quot;nl&quot;&gt;background-color&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;red&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;nc&quot;&gt;.article&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+	&lt;span class=&quot;nl&quot;&gt;background-color&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;yellow&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+	&lt;span class=&quot;nl&quot;&gt;width&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;60%&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Vises som:&lt;/p&gt;
+
+&lt;div class=&quot;section&quot; style=&quot;background-color: red; height: 50px;&quot;&gt;
+	&lt;div class=&quot;article&quot; style=&quot;background-color: yellow; width: 60%;&quot;&gt;Der var engang en person, som gjorde noget godt&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Procent kan også bruges med height, så hvis du tilføjer &lt;code class=&quot;highlighter-rouge&quot;&gt;height: 100%&lt;/code&gt; til &lt;code class=&quot;highlighter-rouge&quot;&gt;.article&lt;/code&gt;:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-css&quot; data-lang=&quot;css&quot;&gt;&lt;span class=&quot;nc&quot;&gt;.section&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+	&lt;span class=&quot;nl&quot;&gt;height&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;50px&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+	&lt;span class=&quot;nl&quot;&gt;background-color&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;red&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;nc&quot;&gt;.article&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+	&lt;span class=&quot;nl&quot;&gt;background-color&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;yellow&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+	&lt;span class=&quot;nl&quot;&gt;width&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;60%&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+	&lt;span class=&quot;nl&quot;&gt;height&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;100%&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Vil det se således ud:&lt;/p&gt;
+
+&lt;div class=&quot;section&quot; style=&quot;background-color: red; height: 50px;&quot;&gt;
+	&lt;div class=&quot;article&quot; style=&quot;background-color: yellow; width: 60%; height: 100%;&quot;&gt;Der var engang en person, som gjorde noget godt&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;em&gt;Læg mærke til at den røde afstand under &lt;code class=&quot;highlighter-rouge&quot;&gt;.article&lt;/code&gt; nu er væk&lt;/em&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;Forklaring:&lt;/strong&gt; Koden &lt;code class=&quot;highlighter-rouge&quot;&gt;height: 100%;&lt;/code&gt; betyder altså: lad &lt;code class=&quot;highlighter-rouge&quot;&gt;.article&lt;/code&gt; fylde 100% af dens parents height - i dette tilfælde 50px.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Lige meget hvad du så ændrer &lt;code class=&quot;highlighter-rouge&quot;&gt;.section&lt;/code&gt;’s height til, så vil &lt;code class=&quot;highlighter-rouge&quot;&gt;.section&lt;/code&gt;’s child &lt;code class=&quot;highlighter-rouge&quot;&gt;.article&lt;/code&gt; følge med.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;I dette eksempel har &lt;code class=&quot;highlighter-rouge&quot;&gt;.section&lt;/code&gt; en &lt;code class=&quot;highlighter-rouge&quot;&gt;height&lt;/code&gt; på  &lt;code class=&quot;highlighter-rouge&quot;&gt;150px&lt;/code&gt;.&lt;/em&gt;&lt;/p&gt;
+
+&lt;div class=&quot;section&quot; style=&quot;background-color: red; height: 150px;&quot;&gt;
+	&lt;div class=&quot;article&quot; style=&quot;background-color: yellow; width: 60%; height: 100%;&quot;&gt;Der var engang en person, som gjorde noget godt&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;andre-størrelser---svære-at-forstå-men-nyttige&quot;&gt;Andre størrelser - svære at forstå, men nyttige&lt;/h3&gt;
+
+&lt;p&gt;Der findes også andre enheder, når det kommer til at erklære afstande i CSS.&lt;/p&gt;
+
+&lt;p&gt;De to nyeste hedder &lt;code class=&quot;highlighter-rouge&quot;&gt;vh&lt;/code&gt; og &lt;code class=&quot;highlighter-rouge&quot;&gt;vw&lt;/code&gt; og dem kan man læse mere om &lt;a href=&quot;https://css-tricks.com/viewport-sized-typography/&quot; target=&quot;_blank&quot;&gt;her&lt;/a&gt; - især interessante, når man snakker mobilversion og responsive.&lt;/p&gt;
+
+&lt;p&gt;Hvis man vil have et indblik i, hvordan man lettere kan definere fontstørrelser, så kan man læse mere om &lt;code class=&quot;highlighter-rouge&quot;&gt;em&lt;/code&gt; og &lt;code class=&quot;highlighter-rouge&quot;&gt;rem&lt;/code&gt; &lt;a href=&quot;https://j.eremy.net/confused-about-rem-and-em/&quot; target=&quot;_blank&quot;&gt;her&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Disse enheder er dog en smule kompliceret, og jeg vil anbefale at man giver sig i kast med dem, når man har færdiggjort kurset helt.&lt;/em&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;signingerlektier&quot;&gt;Signinger/lektier&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;Lav dit eget child HTML-element til en af dine HTML-tags i dit eksempel. Afprøv din nye ven &lt;code class=&quot;highlighter-rouge&quot;&gt;%&lt;/code&gt;. Fungerer det?&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Se Hobbitten triologien og nedskriv, hvor der er blevet brugt padding i filmen.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;</content><author><name></name></author><category term="wordpress" /><summary type="html">#Del 2 - WordPress kursus</summary></entry><entry><title type="html">Del 1 - HTML, CSS og JavaScript</title><link href="http://localhost:4000/wordpress/2018/01/27/wordpress-kursus.html" rel="alternate" type="text/html" title="Del 1 - HTML, CSS og JavaScript" /><published>2018-01-27T00:00:00+01:00</published><updated>2018-01-27T00:00:00+01:00</updated><id>http://localhost:4000/wordpress/2018/01/27/wordpress-kursus</id><content type="html" xml:base="http://localhost:4000/wordpress/2018/01/27/wordpress-kursus.html">&lt;blockquote&gt;
   &lt;p&gt;&lt;strong&gt;Forberedelse&lt;/strong&gt;: Start med at &lt;a href=&quot;/assets/wordpress/del-1.zip&quot; download=&quot;&quot;&gt;downloade eksemplet&lt;/a&gt; og åben den downloadede mappe i f.eks. &lt;a href=&quot;https://www.sublimetext.com/3&quot;&gt;Sublime Text 3&lt;/a&gt;. Åben derefter &lt;code class=&quot;highlighter-rouge&quot;&gt;index.html&lt;/code&gt; i en browser for at se indholdet. Dette vil være mappen, hvor du selv kan lave ændringer og afprøve den viden, som du møder hen af vejen.&lt;/p&gt;
 &lt;/blockquote&gt;
 
