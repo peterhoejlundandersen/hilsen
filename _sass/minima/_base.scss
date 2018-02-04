@@ -229,14 +229,14 @@ table {
   border: 2px solid blue;
   tr {
     &:nth-child(even) {
-      background-color: lighten(blue, 46%);
     }
   }
   th, td {
     padding: ($spacing-unit / 3) ($spacing-unit / 2);
   }
   th {
-    background-color: lighten($grey-color-light, 3%);
+    background-color: blue;
+		color: white;
     border: 1px dashed blue;
     border-bottom-color: darken($grey-color-light, 12%);
   }

@@ -164,7 +164,7 @@ For at forklare VIM ordentligt, bliver man nødt til at forstå **VIM modes**.
 
 *Der findes også visual- og command-line-mode, men det bliver for kompliceret at forklare her. Du kan læse mere via de links, som er listet under **Konklusion** senere.*
 
-I normal-mode, som man tilgår ved at trykke ESC-knappen, betyder knappen c **change**. Knappen w betyder **word** og knappen i betyder **inside**, så hvis du sætter din cursor over et ord i normal-mode og trykker c, så i og så w lige efter, vil du **change inside word**, som betyder, at det ord du står på forsvinder og bliver erstattet af din cursor(går til insert-mode). Nu kan du taste et ord, som du kender det fra dit normale tekstbehandlingsprogram, og derefter trykke ESC-knappen for at gå til normal-mode igen.
+I normal-mode, som man tilgår ved at trykke ESC-knappen, betyder knappen c **change**. Knappen w betyder **word** og knappen i betyder **inside**, så hvis du sætter din cursor over et ord i normal-mode og trykker c, så i og så w lige efter, vil du **change inside word**, som betyder, at det ord du står på forsvinder og bliver erstattet af din cursor (går til insert-mode). Nu kan du taste et ord, som du kender det fra dit normale tekstbehandlingsprogram, og derefter trykke ESC-knappen for at gå til normal-mode igen.
 
 Forvirret? 
 
@@ -172,9 +172,9 @@ Sådan er det med VIM. Det tager tid at forstå og at implementere. Det er utrol
 
 Tilbage til normal-mode:
  
-**Hvad med andre knapper end w, i og c... Hvis man ikke kan bruge dem til at taste, hvad kan de så i normal-mode?** 
+**Hvad med andre knapper end w, i og c?.. Hvis man ikke kan bruge dem til at taste, hvad kan de så i normal-mode?** 
 
-Ja, de har så alle deres egen funktion, som du kan bruge til at navigere, gemme, kopiere, erstatte etc. Her kommer et lille udsnit, for at give dig en idé om, hvad du snart kommer til at mestre:
+Ja, de har så alle deres egen funktion, som du kan bruge til at navigere, gemme, kopiere, erstatte tekst mm. Her kommer et lille udsnit, for at give dig en idé om, hvad du kan komme til at mestre!
 
 ### Powers of VIM i normal-mode!
 
@@ -262,7 +262,7 @@ Hvis du har lyst til at læse mere:
 * [VIM Wikipedia](https://da.wikipedia.org/wiki/Vim){:target="_blank"}
 
 
-*Hvis du ejer en Mac og har lyst til at prøve det direkte i din Terminal, så åben terminalen og tast `vimtutor` og tryk derefter Enter. **Ja, VIM findes på din computer** uden at du skal til at installere det!*
+*Hvis du ejer en Mac og har lyst til at prøve det direkte i din Terminal, så åben terminalen og tast `vimtutor` og tryk derefter Enter. **Ja, VIM findes på din computer** uden, at du skal til at installere det!*
 
 
 <br>
