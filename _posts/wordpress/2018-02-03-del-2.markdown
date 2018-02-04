@@ -6,7 +6,7 @@ category: wordpress
 
 #Del 2 - WordPress kursus
 
-> **Forberedelse:** Download <a href="/assets/wordpress-del-2.zip" download>eksemplet</a>, pak ZIP-filen ud og åben hele mappen i Sublime Text 3. Åben derefter `index.html` i en browser.
+> **Forberedelse:** Download <a href="/assets/wordpress/del-2.zip" download>eksemplet</a>, pak ZIP-filen ud og åben hele mappen i Sublime Text 3. Åben derefter `index.html` i en browser.
 
 > I denne del går vi lidt mere i dybden med HTML og CSS. Vi besøger nogle **properties** i CSS, som er nogle af de mest brugte og brugbare. Lad os komme igang :)
 

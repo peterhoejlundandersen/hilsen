@@ -4,7 +4,7 @@ title:  "Del 1 - HTML, CSS og JavaScript"
 category: wordpress
 ---
 
-> **Forberedelse**: Start med at <a href="/assets/wordpress-master.zip" download>downloade eksemplet</a> og åben den downloadede mappe i f.eks. [Sublime Text 3](https://www.sublimetext.com/3). Åben derefter `index.html` i en browser for at se indholdet. Dette vil være mappen, hvor du selv kan lave ændringer og afprøve den viden, som du møder hen af vejen.
+> **Forberedelse**: Start med at <a href="/assets/wordpress/del-1.zip" download>downloade eksemplet</a> og åben den downloadede mappe i f.eks. [Sublime Text 3](https://www.sublimetext.com/3). Åben derefter `index.html` i en browser for at se indholdet. Dette vil være mappen, hvor du selv kan lave ændringer og afprøve den viden, som du møder hen af vejen.
 
 
 For at forstå WordPress ordentligt og senere hen at kunne lave de små ændringer, som temaet og de indbyggede page-builders ikke kan, bliver man nødt til at forstå hvad HTML, CSS og JavaScript er, og hvad man kan bruge dem til.
