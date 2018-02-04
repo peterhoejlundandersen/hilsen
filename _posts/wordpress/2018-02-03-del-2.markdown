@@ -20,8 +20,8 @@ Den første property er `position: ...` - og som den giver udtryk for - omhandle
 Position kunne f.eks. blive brugt i disse scenarier:
 
 * Jeg vil gerne have, at min tekst står under mit billede og ikke ved siden af.
-* Det kunne være fedt at have en telefonikon-knap til mine mobilbrugere, som blev på skærmen ligemeget hvor man var på hjemmesiden.
-* De her 3 bokse må gerne stå ved siden af hinanden i stedet for oven på.
+* Det kunne være fedt at have en telefonikon-knap til mine mobilbrugere, som blev på skærmen, ligemeget hvor man var på hjemmesiden.
+* De her 3 bokse må gerne stå ved siden af hinanden i stedet for oven på hinanden.
 * Jeg vil gerne have det her symbol øverst i højre hjørne af min browser på min hjemmeside.
 
 Values for position er: `static`, `absolute`, `fixed` og `relative`. 
