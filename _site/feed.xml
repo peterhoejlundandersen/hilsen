@@ -1,4 +1,30 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-02-04T23:06:28+01:00</updated><id>http://localhost:4000/</id><title type="html">Hilsen IT</title><subtitle>Designer hjemmesider med et sikkert fundament i Ruby on Rails, Jekyll og Angular</subtitle><entry><title type="html">Del 2 - HTML og CSS Advanced</title><link href="http://localhost:4000/wordpress/2018/02/03/del-2.html" rel="alternate" type="text/html" title="Del 2 - HTML og CSS Advanced" /><published>2018-02-03T00:00:00+01:00</published><updated>2018-02-03T00:00:00+01:00</updated><id>http://localhost:4000/wordpress/2018/02/03/del-2</id><content type="html" xml:base="http://localhost:4000/wordpress/2018/02/03/del-2.html">&lt;p&gt;#Del 2 - WordPress kursus&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-02-09T16:15:42+01:00</updated><id>http://localhost:4000/</id><title type="html">Hilsen IT</title><subtitle>Designer hjemmesider med et sikkert fundament i Ruby on Rails, Jekyll og Angular</subtitle><entry><title type="html">Del 3 - WordPress… The basics</title><link href="http://localhost:4000/wordpress/2018/02/09/del-3-Wordpress-basics.html" rel="alternate" type="text/html" title="Del 3 - WordPress... The basics" /><published>2018-02-09T00:00:00+01:00</published><updated>2018-02-09T00:00:00+01:00</updated><id>http://localhost:4000/wordpress/2018/02/09/del-3-Wordpress-basics</id><content type="html" xml:base="http://localhost:4000/wordpress/2018/02/09/del-3-Wordpress-basics.html">&lt;blockquote&gt;
+  &lt;p&gt;Så kom vi endelig til det… WordPress. Det største CMS-system i verden. &lt;a href=&quot;https://w3techs.com/blog/entry/wordpress-powers-25-percent-of-all-websites&quot; target=&quot;_blank&quot;&gt;25% af alle hjemmesider&lt;/a&gt; (på the whiteweb) er &lt;em&gt;powered by&lt;/em&gt; WordPress. Men hvad er et CMS-system, og hvorfor er der så mange millioner af hjemmesider, som bruger det? Det kommer vi til nu!&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&quot;hvad-er-et-cms-system&quot;&gt;Hvad er et CMS-system?&lt;/h3&gt;
+
+&lt;p&gt;CMS står for Content Management System og er i grove træk et system til at bygge hjemmesider. Altså bruger du en platform - noget kode, som allerede eksisterer - til at bygge din hjemmeside i. Dette gør det muligt for ikke-kodere - eller folk, der kun har et meget lille kendskab - at bygge komplicerede funktioner/designs på internettet på relativt kort tid.&lt;/p&gt;
+
+&lt;p&gt;CMS-systemet WordPress er ikke fastlagt i sine funktioner - det er tilpasningsdygtigt. Du får blot tildelt fundamentet og kan derfra næsten udbygge det, som du vil. Altså findes der et utal af tilbygninger (temaer og plugins), der gør det muligt at tilpasse sit system til lige netop den funktion/design, som man ønsker.&lt;/p&gt;
+
+&lt;p&gt;Det er basalt, men vigtigt at forstå, at det &lt;strong&gt;ikke koster noget at kopiere kode&lt;/strong&gt;. Det gør det muligt, hvis du laver ét velfungerende og gennemtestet plugin (overbygning af funktion på din hjemmeside) at kopiere det til alle, der ønsker det, og genbruge det på kryds og tværs af the World-Wide-Web. Derfor fungerer WordPress så godt! Hvert modul, hvis du bygger ordentligt, er oftest gennemtestet af 1000-vis af brugere.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Der kan være 1000-vis af brugere (nogle gange hundredetusinde), der bruger det samme plugin, fordi der er nogle funktioner, som går igen på næsten alle hjemmesider.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;grundlæggende-funktioner&quot;&gt;Grundlæggende funktioner&lt;/h4&gt;
+
+&lt;p&gt;Hvis du skulle bygge en hjemmeside i morgen for en kunde, ville du højest sansynligt komme ud for at bygge noget af dette:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;Log-ind system:&lt;/strong&gt; så man kan tilgå en side med en adgangskode, der er låst for alle andre.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;En knap, der giver mulighed for at dele indholedet:&lt;/strong&gt; de fleste hjemmesider er interesseret i at en besøgende kan dele artikler, blogindlæg osv. på Facebook, Instagram, Twitter etc.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Kontaktside:&lt;/strong&gt; Mulighed for at skrive til hjemmesidens ejer og måske endda se hvor noget ligger (integration af Google Maps).&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Visning af billeder:&lt;/strong&gt; Næsten alle hjemmesider har billeder - disse skal fylde så lidt som overhovedet muligt (lette) og være til at uploade.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Et cache-system:&lt;/strong&gt; Et cache-system kan være lidt svært at forstå. Det er grundlæggende en funktion hvor din hjemmeside kan blive hurtigere, fordi du gemmer en del af din hjemmeside på din besøgenes browser. Den besøgende vil så &lt;strong&gt;ved næste besøg&lt;/strong&gt; opleve en hurtige load-tid, da personen har en del af din hjemmeside i browseren fra sidst og derfor ikke skal til at loade den på ny.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;F.eks.&lt;/p&gt;</content><author><name></name></author><category term="wordpress" /><summary type="html">Så kom vi endelig til det… WordPress. Det største CMS-system i verden. 25% af alle hjemmesider (på the whiteweb) er powered by WordPress. Men hvad er et CMS-system, og hvorfor er der så mange millioner af hjemmesider, som bruger det? Det kommer vi til nu!</summary></entry><entry><title type="html">Del 2 - HTML og CSS Advanced</title><link href="http://localhost:4000/wordpress/2018/02/03/del-2.html" rel="alternate" type="text/html" title="Del 2 - HTML og CSS Advanced" /><published>2018-02-03T00:00:00+01:00</published><updated>2018-02-03T00:00:00+01:00</updated><id>http://localhost:4000/wordpress/2018/02/03/del-2</id><content type="html" xml:base="http://localhost:4000/wordpress/2018/02/03/del-2.html">&lt;p&gt;#Del 2 - WordPress kursus&lt;/p&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;&lt;strong&gt;Forberedelse:&lt;/strong&gt; Download &lt;a href=&quot;/assets/wordpress/del-2.zip&quot; download=&quot;&quot;&gt;eksemplet&lt;/a&gt;, pak ZIP-filen ud og åben hele mappen i Sublime Text 3. Åben derefter &lt;code class=&quot;highlighter-rouge&quot;&gt;index.html&lt;/code&gt; i en browser.&lt;/p&gt;
@@ -276,7 +302,7 @@
   &lt;li&gt;
     &lt;p&gt;Se Hobbitten triologien og nedskriv, hvor der er blevet brugt padding i filmen.&lt;/p&gt;
   &lt;/li&gt;
-&lt;/ol&gt;</content><author><name></name></author><category term="wordpress" /><summary type="html">#Del 2 - WordPress kursus</summary></entry><entry><title type="html">Del 1 - HTML, CSS og JavaScript</title><link href="http://localhost:4000/wordpress/2018/01/27/wordpress-kursus.html" rel="alternate" type="text/html" title="Del 1 - HTML, CSS og JavaScript" /><published>2018-01-27T00:00:00+01:00</published><updated>2018-01-27T00:00:00+01:00</updated><id>http://localhost:4000/wordpress/2018/01/27/wordpress-kursus</id><content type="html" xml:base="http://localhost:4000/wordpress/2018/01/27/wordpress-kursus.html">&lt;blockquote&gt;
+&lt;/ol&gt;</content><author><name></name></author><category term="wordpress" /><summary type="html">#Del 2 - WordPress kursus</summary></entry><entry><title type="html">Del 1 - HTML, CSS og JavaScript</title><link href="http://localhost:4000/wordpress/2018/01/27/del-1-wordpress-kursus.html" rel="alternate" type="text/html" title="Del 1 - HTML, CSS og JavaScript" /><published>2018-01-27T00:00:00+01:00</published><updated>2018-01-27T00:00:00+01:00</updated><id>http://localhost:4000/wordpress/2018/01/27/del-1-wordpress-kursus</id><content type="html" xml:base="http://localhost:4000/wordpress/2018/01/27/del-1-wordpress-kursus.html">&lt;blockquote&gt;
   &lt;p&gt;&lt;strong&gt;Forberedelse&lt;/strong&gt;: Start med at &lt;a href=&quot;/assets/wordpress/del-1.zip&quot; download=&quot;&quot;&gt;downloade eksemplet&lt;/a&gt; og åben den downloadede mappe i f.eks. &lt;a href=&quot;https://www.sublimetext.com/3&quot;&gt;Sublime Text 3&lt;/a&gt;. Åben derefter &lt;code class=&quot;highlighter-rouge&quot;&gt;index.html&lt;/code&gt; i en browser for at se indholdet. Dette vil være mappen, hvor du selv kan lave ændringer og afprøve den viden, som du møder hen af vejen.&lt;/p&gt;
 &lt;/blockquote&gt;
 
@@ -704,6 +730,8 @@ Det er et af de mest udbredte kodesprog i verden (mest aktive på &lt;a href=&qu
 &lt;h3 id=&quot;konklusion-1&quot;&gt;Konklusion&lt;/h3&gt;
 
 &lt;p&gt;Hvis du ønsker at give dig i kast med en udfordring, så prøv Tomighty. Det vil være svært, hvis du lider af overspringshandlingssyge, men programmet kan være med til at give dig et helt nyt værktøj til kampen for koncentrationen!&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://tomighty.org/&quot; target=&quot;_blank&quot;&gt;Gå til Tomighty’s hjemmeside&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;Held og lykke!&lt;/p&gt;
 
