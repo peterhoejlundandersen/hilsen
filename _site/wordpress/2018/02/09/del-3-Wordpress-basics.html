@@ -104,7 +104,7 @@
 <p>Med hvad for nogle funktioner kan jeg få ved at installere et plugin? Her er nogle af de mest kendte:</p>
 
 <ol>
-  <li><strong>En knap, der giver mulighed for at dele indholedet:</strong> de fleste hjemmesider er interesseret i at en besøgende kan dele artikler, blogindlæg osv. på Facebook, Instagram, Twitter etc.</li>
+  <li><strong>En knap, der giver mulighed for at dele indholdet:</strong> de fleste hjemmesider er interesseret i at en besøgende kan dele artikler, blogindlæg osv. på Facebook, Instagram, Twitter etc.</li>
   <li><strong>Kontaktside:</strong> Mulighed for at skrive til hjemmesidens ejer og måske endda se hvor noget ligger (integration af Google Maps).</li>
   <li><strong>Optimere billeder:</strong> Næsten alle hjemmesider har billeder - men nogle er rigtig tunge. Her kan et plugin hjælpe til at gøre dem lettere (optimere dem).</li>
   <li><strong>Et cache-system:</strong> Et cache-system kan være lidt svært at forstå. Det er grundlæggende en funktion hvor din hjemmeside kan blive hurtigere, fordi du gemmer en del af din hjemmeside på din besøgenes browser. Den besøgende vil så <strong>ved næste besøg</strong> opleve en hurtige load-tid, da personen har en del af din hjemmeside i browseren fra sidst og derfor ikke skal til at loade den på ny.</li>
@@ -136,10 +136,10 @@
 
 <h2 id="lets-get-startet-mamp---din-nye-elefant">Let’s get startet! MAMP - din nye elefant!</h2>
 
-<p>For at kunne WordPress uden et domæne bliver vi nødt til installere MAMP.</p>
+<p>For at kunne bruge WordPress uden et domæne, bliver vi nødt til installere programmet MAMP.</p>
 
 <blockquote>
-  <p>MAMP gør det muligt at have sin egen WordPress-server på sin computer. Det kaldes også <strong>lokal udvikling</strong>, som gør det muligt at arbejde på en hjemmeside, uden at have den oppe på internettet. Utrolig praktisk, når du skal lave ændringer, som du ikke vil have, at dine besøgende skal se. Det kan jo være, at du skal eksperimentere lidt eller din udvikling tager 3-4 dage.</p>
+  <p>MAMP gør det muligt at have sin egen WordPress-server på sin computer. Det kaldes også <strong>lokal udvikling</strong>, som gør det muligt at arbejde på en hjemmeside, uden at have den oppe på internettet. Utrolig praktisk, når du skal lave ændringer, som du ikke vil have, at dine besøgende skal se. Det kan jo være, at du skal eksperimentere lidt, eller, at din udvikling tager 3-4 dage.</p>
 </blockquote>
 
 <h3 id="installation-og-opsætning-af-lokalt-miljø">Installation og opsætning af lokalt miljø</h3>
@@ -212,20 +212,22 @@
 <h2 id="the-basics-of-wordpress---backend-og-frontend">The basics of WordPress - backend og frontend</h2>
 
 <blockquote>
-  <p>WordPress består af en frontend og en backend, som gør det muligt at kunne lave ændringer på en side(backend) hvorfor en evt. bruger kan se dem på hjemmesiden (frontend)</p>
+  <p>WordPress består af en frontend og en backend.</p>
 </blockquote>
 
-<p>Som du lige har oplevet, så er det ikke alle, der kan få adgang til din side. Du har nu et brugernavn og et kodeord, som du skal bruge for at få adgang til din backend. Den ser nogenlunde sådan her ud:</p>
+<p>Frontend er det, som alle kan se, mens backend er det, som kun du kan se, og som du skal opgive adgangskode og brugernavn for at få adgang til.</p>
+
+<p>Det har du lige gjort (du loggede ind på din WordPress i punkt 19) og er nu på backend - dit dashboard. Her ville en fremmede besøgende ikke kunne få adgang til!</p>
 
 <p><img src="http://localhost:4000/assets/wordpress/backend.png" alt="Backend WordPress" /></p>
 
 <blockquote>
-  <p>Backend kan du se som dit kontrolpanel. Det er stedet, hvor du laver ændringer og tilpasser din hjemmeside. Stedet hvor ingen andre har adgang - end dem med adgangskode og brugernavn selvfølgelig (der kan være flere).</p>
+  <p>Backend kan du se som dit kontrolpanel. Det er stedet, hvor du laver ændringer og tilpasser din hjemmeside. Stedet hvor ingen andre har adgang som sagt - end dem med adgangskode og brugernavn selvfølgelig (der kan være flere).</p>
 </blockquote>
 
 <p>Backend gemmer så dine ændringer i databasen, som så bliver kaldt i din HTML. Din HTML ser lidt anderledes ud end fra før. F.eks. kan din HTML (som nu hedder php) se således ud i dine WordPress filer:</p>
 
-<p><em>Koden er taget fra index.php</em></p>
+<p><em>Koden er taget fra index.php i din WordPress installation</em></p>
 
 <figure class="highlight"><pre><code class="language-php" data-lang="php"><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"wrap"</span><span class="nt">&gt;</span>
 	<span class="cp">&lt;?php</span> <span class="k">if</span> <span class="p">(</span> <span class="nx">is_home</span><span class="p">()</span> <span class="o">&amp;&amp;</span> <span class="o">!</span> <span class="nx">is_front_page</span><span class="p">()</span> <span class="p">)</span> <span class="o">:</span> <span class="cp">?&gt;</span>
@@ -239,6 +241,38 @@
 <p>Vi kender HTML’en. Men hvad der er nyt er <code class="highlighter-rouge"><span class="cp">&lt;?php</span> <span class="o">...</span> <span class="cp">?&gt;</span></code>. De minder meget om HTML’ens <code class="highlighter-rouge">&lt;</code> og <code class="highlighter-rouge">&gt;</code>, men istedet for, at de viser, at nu er det HTML, der starter, så siger de: Nu er det PHP der starter.</p>
 
 <p>Jeg vil ikke gå i dybden med PHP, men blot vise det her for at forklare at <code class="highlighter-rouge">single_post_title()</code> er dynamisk - altså kan den ændres af dig i BACKEND.</p>
+
+<p>Det er nok lidt svært at forstå, men lad os tage et eksempel i WordPress istedet.</p>
+
+<p>Hvis du trykker på ‘Sider’ i din menu i venstre side og derefter ind på Eksempelside, som er en automatisk genereret side, som er en del af installationen.</p>
+
+<p>Her kun du se din Backend for at redigere en side - det er simpelthen så let i forhold til at skulle rette i ren HTML.</p>
+
+<blockquote>
+  <p><strong>Udfordring:</strong> Indtast din egen tekst (eller brug Lorem tricket i Sublime Text 3 for at generere noget). Prøv at lav forskel på størrelserne med ‘Afsnit’ knappen. Prøv derefter at trykke ‘Preview ændringer’ - for at gå til hvordan denne side ser ud på frontend.</p>
+</blockquote>
+
+<p>Nu har du to faner åbne. Den nyeste er din frontend, den ældste din backend. <strong>Sid lige et øjeblik og forstå dette.</strong> En af dem har kun du adgang til og kan ændre i - den anden er statisk og åben for hele verden.</p>
+
+<blockquote>
+  <p>WordPress sider er dog stadig HTML og CSS! Prøv at højreklikke på din frontend og derefter trykke ‘Inspicér element’ (I Firefox eller Chrome).</p>
+</blockquote>
+
+<p><em>Nogle gange skal du skifte til ‘Elements’ for at få HTML frem oppe i den øverste menu.</em></p>
+
+<p>Det, som du har åbnet, er et webudviklingsværktøj, som viser dig hvilke koder (oftest HTML, CSS og JavaScript), som en side består af. Her kan du se en noget kompliceret udgave af hvad vi arbejde med i de første to dele af kurset. Der er forskellige HTML-tags, klasser og kommentarer. WordPress sidste funktion er altså at producere HTML, der så bliver vist som en hjemmeside.</p>
+
+<blockquote>
+  <p><strong>Udfordring:</strong> Prøv at ændre på noget CSS og se hvad der sker</p>
+</blockquote>
+
+<blockquote>
+  <p><strong>Fif:</strong> Tryk på musen over firkanten og tryk derefter på et element på hjemmesiden. Nu vil du se elementets CSS og kan derefter ændre på det.</p>
+</blockquote>
+
+<p><em>Disse ændringer eksistere kun til næste reload. Værktøjet gør det muligt at se ændringer, før man integrerer dem. MEGET SMART - jeg bruger det næsten hver dag!</em></p>
+
+<p><em>Mere indhold kommer - ikke færdig</em></p>
 
 
   </div>

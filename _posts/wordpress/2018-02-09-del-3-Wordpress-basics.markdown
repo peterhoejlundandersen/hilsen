@@ -60,9 +60,9 @@ Du vil altså komme til at bruge plugins, når du kommer til at følge dig begr�
 
 ## Let's get startet! MAMP - din nye elefant!
 
-For at kunne WordPress uden et domæne bliver vi nødt til installere MAMP. 
+For at kunne bruge WordPress uden et domæne, bliver vi nødt til installere programmet MAMP. 
 
-> MAMP gør det muligt at have sin egen WordPress-server på sin computer. Det kaldes også **lokal udvikling**, som gør det muligt at arbejde på en hjemmeside, uden at have den oppe på internettet. Utrolig praktisk, når du skal lave ændringer, som du ikke vil have, at dine besøgende skal se. Det kan jo være, at du skal eksperimentere lidt eller din udvikling tager 3-4 dage.
+> MAMP gør det muligt at have sin egen WordPress-server på sin computer. Det kaldes også **lokal udvikling**, som gør det muligt at arbejde på en hjemmeside, uden at have den oppe på internettet. Utrolig praktisk, når du skal lave ændringer, som du ikke vil have, at dine besøgende skal se. Det kan jo være, at du skal eksperimentere lidt, eller, at din udvikling tager 3-4 dage.
 
 
 ### Installation og opsætning af lokalt miljø
@@ -112,11 +112,11 @@ For at kunne WordPress uden et domæne bliver vi nødt til installere MAMP.
 
 ## The basics of WordPress - backend og frontend
 
-> WordPress består af frontend og backend. Backend gør det muligt at kunne lave ændringer på en side(backend) hvorefter en evt. bruger kan se dem på hjemmesiden (frontend)
+> WordPress består af en frontend og en backend. 
 
-Frontend er altså det, som alle kan se, mens backend er det, som kun du kan se og som du skal opgive adgangskode og brugernavn for at få adgang til.
+Frontend er det, som alle kan se, mens backend er det, som kun du kan se, og som du skal opgive adgangskode og brugernavn for at få adgang til.
 
-Det har du lige gjort (du loggede ind på din WordPress i punkt 19) og er nu på backend - dit dashboard. Her ville en fremmede besøgende ikke kunne få adgang til. 
+Det har du lige gjort (du loggede ind på din WordPress i punkt 19) og er nu på backend - dit dashboard. Her ville en fremmede besøgende ikke kunne få adgang til!
 
 ![Backend WordPress]({{ "assets/wordpress/backend.png" || absolute_url }})
 
@@ -163,7 +163,7 @@ Det, som du har åbnet, er et webudviklingsværktøj, som viser dig hvilke koder
 
 > **Fif:** Tryk på musen over firkanten og tryk derefter på et element på hjemmesiden. Nu vil du se elementets CSS og kan derefter ændre på det.
 
-*Disse ændringer eksistere kun til næste reload. Værktøjet gør det muligt at se ændringer, før man integrerer dem. MEGET SMART - jeg bruger det næsten hver dag!
+*Disse ændringer eksistere kun til næste reload. Værktøjet gør det muligt at se ændringer, før man integrerer dem. MEGET SMART - jeg bruger det næsten hver dag!*
 
 
 *Mere indhold kommer - ikke færdig*

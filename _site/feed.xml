@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-02-10T10:40:20+01:00</updated><id>http://localhost:4000/</id><title type="html">Hilsen IT</title><subtitle>Designer hjemmesider med et sikkert fundament i Ruby on Rails, Jekyll og Angular</subtitle><entry><title type="html">Del 3 - WordPress… The basics</title><link href="http://localhost:4000/wordpress/2018/02/09/del-3-Wordpress-basics.html" rel="alternate" type="text/html" title="Del 3 - WordPress... The basics" /><published>2018-02-09T00:00:00+01:00</published><updated>2018-02-09T00:00:00+01:00</updated><id>http://localhost:4000/wordpress/2018/02/09/del-3-Wordpress-basics</id><content type="html" xml:base="http://localhost:4000/wordpress/2018/02/09/del-3-Wordpress-basics.html">&lt;blockquote&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-02-10T12:54:22+01:00</updated><id>http://localhost:4000/</id><title type="html">Hilsen IT</title><subtitle>Designer hjemmesider med et sikkert fundament i Ruby on Rails, Jekyll og Angular</subtitle><entry><title type="html">Del 3 - WordPress… The basics</title><link href="http://localhost:4000/wordpress/2018/02/09/del-3-Wordpress-basics.html" rel="alternate" type="text/html" title="Del 3 - WordPress... The basics" /><published>2018-02-09T00:00:00+01:00</published><updated>2018-02-09T00:00:00+01:00</updated><id>http://localhost:4000/wordpress/2018/02/09/del-3-Wordpress-basics</id><content type="html" xml:base="http://localhost:4000/wordpress/2018/02/09/del-3-Wordpress-basics.html">&lt;blockquote&gt;
   &lt;p&gt;Så kom vi endelig til det… WordPress. Det største CMS-system i verden. &lt;a href=&quot;https://w3techs.com/blog/entry/wordpress-powers-25-percent-of-all-websites&quot; target=&quot;_blank&quot;&gt;25% af alle hjemmesider&lt;/a&gt; (på the whiteweb) er &lt;em&gt;powered by&lt;/em&gt; WordPress. Men hvad er et CMS-system, og hvorfor er der så mange millioner af hjemmesider, som bruger det? Det kommer vi til nu!&lt;/p&gt;
 &lt;/blockquote&gt;
 
@@ -27,7 +27,7 @@
 &lt;p&gt;Med hvad for nogle funktioner kan jeg få ved at installere et plugin? Her er nogle af de mest kendte:&lt;/p&gt;
 
 &lt;ol&gt;
-  &lt;li&gt;&lt;strong&gt;En knap, der giver mulighed for at dele indholedet:&lt;/strong&gt; de fleste hjemmesider er interesseret i at en besøgende kan dele artikler, blogindlæg osv. på Facebook, Instagram, Twitter etc.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;En knap, der giver mulighed for at dele indholdet:&lt;/strong&gt; de fleste hjemmesider er interesseret i at en besøgende kan dele artikler, blogindlæg osv. på Facebook, Instagram, Twitter etc.&lt;/li&gt;
   &lt;li&gt;&lt;strong&gt;Kontaktside:&lt;/strong&gt; Mulighed for at skrive til hjemmesidens ejer og måske endda se hvor noget ligger (integration af Google Maps).&lt;/li&gt;
   &lt;li&gt;&lt;strong&gt;Optimere billeder:&lt;/strong&gt; Næsten alle hjemmesider har billeder - men nogle er rigtig tunge. Her kan et plugin hjælpe til at gøre dem lettere (optimere dem).&lt;/li&gt;
   &lt;li&gt;&lt;strong&gt;Et cache-system:&lt;/strong&gt; Et cache-system kan være lidt svært at forstå. Det er grundlæggende en funktion hvor din hjemmeside kan blive hurtigere, fordi du gemmer en del af din hjemmeside på din besøgenes browser. Den besøgende vil så &lt;strong&gt;ved næste besøg&lt;/strong&gt; opleve en hurtige load-tid, da personen har en del af din hjemmeside i browseren fra sidst og derfor ikke skal til at loade den på ny.&lt;/li&gt;
@@ -59,10 +59,10 @@
 
 &lt;h2 id=&quot;lets-get-startet-mamp---din-nye-elefant&quot;&gt;Let’s get startet! MAMP - din nye elefant!&lt;/h2&gt;
 
-&lt;p&gt;For at kunne WordPress uden et domæne bliver vi nødt til installere MAMP.&lt;/p&gt;
+&lt;p&gt;For at kunne bruge WordPress uden et domæne, bliver vi nødt til installere programmet MAMP.&lt;/p&gt;
 
 &lt;blockquote&gt;
-  &lt;p&gt;MAMP gør det muligt at have sin egen WordPress-server på sin computer. Det kaldes også &lt;strong&gt;lokal udvikling&lt;/strong&gt;, som gør det muligt at arbejde på en hjemmeside, uden at have den oppe på internettet. Utrolig praktisk, når du skal lave ændringer, som du ikke vil have, at dine besøgende skal se. Det kan jo være, at du skal eksperimentere lidt eller din udvikling tager 3-4 dage.&lt;/p&gt;
+  &lt;p&gt;MAMP gør det muligt at have sin egen WordPress-server på sin computer. Det kaldes også &lt;strong&gt;lokal udvikling&lt;/strong&gt;, som gør det muligt at arbejde på en hjemmeside, uden at have den oppe på internettet. Utrolig praktisk, når du skal lave ændringer, som du ikke vil have, at dine besøgende skal se. Det kan jo være, at du skal eksperimentere lidt, eller, at din udvikling tager 3-4 dage.&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;h3 id=&quot;installation-og-opsætning-af-lokalt-miljø&quot;&gt;Installation og opsætning af lokalt miljø&lt;/h3&gt;
@@ -135,20 +135,22 @@
 &lt;h2 id=&quot;the-basics-of-wordpress---backend-og-frontend&quot;&gt;The basics of WordPress - backend og frontend&lt;/h2&gt;
 
 &lt;blockquote&gt;
-  &lt;p&gt;WordPress består af en frontend og en backend, som gør det muligt at kunne lave ændringer på en side(backend) hvorfor en evt. bruger kan se dem på hjemmesiden (frontend)&lt;/p&gt;
+  &lt;p&gt;WordPress består af en frontend og en backend.&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;Som du lige har oplevet, så er det ikke alle, der kan få adgang til din side. Du har nu et brugernavn og et kodeord, som du skal bruge for at få adgang til din backend. Den ser nogenlunde sådan her ud:&lt;/p&gt;
+&lt;p&gt;Frontend er det, som alle kan se, mens backend er det, som kun du kan se, og som du skal opgive adgangskode og brugernavn for at få adgang til.&lt;/p&gt;
+
+&lt;p&gt;Det har du lige gjort (du loggede ind på din WordPress i punkt 19) og er nu på backend - dit dashboard. Her ville en fremmede besøgende ikke kunne få adgang til!&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/wordpress/backend.png&quot; alt=&quot;Backend WordPress&quot; /&gt;&lt;/p&gt;
 
 &lt;blockquote&gt;
-  &lt;p&gt;Backend kan du se som dit kontrolpanel. Det er stedet, hvor du laver ændringer og tilpasser din hjemmeside. Stedet hvor ingen andre har adgang - end dem med adgangskode og brugernavn selvfølgelig (der kan være flere).&lt;/p&gt;
+  &lt;p&gt;Backend kan du se som dit kontrolpanel. Det er stedet, hvor du laver ændringer og tilpasser din hjemmeside. Stedet hvor ingen andre har adgang som sagt - end dem med adgangskode og brugernavn selvfølgelig (der kan være flere).&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;p&gt;Backend gemmer så dine ændringer i databasen, som så bliver kaldt i din HTML. Din HTML ser lidt anderledes ud end fra før. F.eks. kan din HTML (som nu hedder php) se således ud i dine WordPress filer:&lt;/p&gt;
 
-&lt;p&gt;&lt;em&gt;Koden er taget fra index.php&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Koden er taget fra index.php i din WordPress installation&lt;/em&gt;&lt;/p&gt;
 
 &lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-php&quot; data-lang=&quot;php&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;wrap&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
 	&lt;span class=&quot;cp&quot;&gt;&amp;lt;?php&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;is_home&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;amp;&amp;amp;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;!&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;is_front_page&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;cp&quot;&gt;?&amp;gt;&lt;/span&gt;
@@ -161,7 +163,39 @@
 
 &lt;p&gt;Vi kender HTML’en. Men hvad der er nyt er &lt;code class=&quot;highlighter-rouge&quot;&gt;&lt;span class=&quot;cp&quot;&gt;&amp;lt;?php&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;...&lt;/span&gt; &lt;span class=&quot;cp&quot;&gt;?&amp;gt;&lt;/span&gt;&lt;/code&gt;. De minder meget om HTML’ens &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;&lt;/code&gt; og &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;gt;&lt;/code&gt;, men istedet for, at de viser, at nu er det HTML, der starter, så siger de: Nu er det PHP der starter.&lt;/p&gt;
 
-&lt;p&gt;Jeg vil ikke gå i dybden med PHP, men blot vise det her for at forklare at &lt;code class=&quot;highlighter-rouge&quot;&gt;single_post_title()&lt;/code&gt; er dynamisk - altså kan den ændres af dig i BACKEND.&lt;/p&gt;</content><author><name></name></author><category term="wordpress" /><summary type="html">Så kom vi endelig til det… WordPress. Det største CMS-system i verden. 25% af alle hjemmesider (på the whiteweb) er powered by WordPress. Men hvad er et CMS-system, og hvorfor er der så mange millioner af hjemmesider, som bruger det? Det kommer vi til nu!</summary></entry><entry><title type="html">Del 2 - HTML og CSS Advanced</title><link href="http://localhost:4000/wordpress/2018/02/03/del-2.html" rel="alternate" type="text/html" title="Del 2 - HTML og CSS Advanced" /><published>2018-02-03T00:00:00+01:00</published><updated>2018-02-03T00:00:00+01:00</updated><id>http://localhost:4000/wordpress/2018/02/03/del-2</id><content type="html" xml:base="http://localhost:4000/wordpress/2018/02/03/del-2.html">&lt;p&gt;#Del 2 - WordPress kursus&lt;/p&gt;
+&lt;p&gt;Jeg vil ikke gå i dybden med PHP, men blot vise det her for at forklare at &lt;code class=&quot;highlighter-rouge&quot;&gt;single_post_title()&lt;/code&gt; er dynamisk - altså kan den ændres af dig i BACKEND.&lt;/p&gt;
+
+&lt;p&gt;Det er nok lidt svært at forstå, men lad os tage et eksempel i WordPress istedet.&lt;/p&gt;
+
+&lt;p&gt;Hvis du trykker på ‘Sider’ i din menu i venstre side og derefter ind på Eksempelside, som er en automatisk genereret side, som er en del af installationen.&lt;/p&gt;
+
+&lt;p&gt;Her kun du se din Backend for at redigere en side - det er simpelthen så let i forhold til at skulle rette i ren HTML.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;Udfordring:&lt;/strong&gt; Indtast din egen tekst (eller brug Lorem tricket i Sublime Text 3 for at generere noget). Prøv at lav forskel på størrelserne med ‘Afsnit’ knappen. Prøv derefter at trykke ‘Preview ændringer’ - for at gå til hvordan denne side ser ud på frontend.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Nu har du to faner åbne. Den nyeste er din frontend, den ældste din backend. &lt;strong&gt;Sid lige et øjeblik og forstå dette.&lt;/strong&gt; En af dem har kun du adgang til og kan ændre i - den anden er statisk og åben for hele verden.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;WordPress sider er dog stadig HTML og CSS! Prøv at højreklikke på din frontend og derefter trykke ‘Inspicér element’ (I Firefox eller Chrome).&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;em&gt;Nogle gange skal du skifte til ‘Elements’ for at få HTML frem oppe i den øverste menu.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Det, som du har åbnet, er et webudviklingsværktøj, som viser dig hvilke koder (oftest HTML, CSS og JavaScript), som en side består af. Her kan du se en noget kompliceret udgave af hvad vi arbejde med i de første to dele af kurset. Der er forskellige HTML-tags, klasser og kommentarer. WordPress sidste funktion er altså at producere HTML, der så bliver vist som en hjemmeside.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;Udfordring:&lt;/strong&gt; Prøv at ændre på noget CSS og se hvad der sker&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;Fif:&lt;/strong&gt; Tryk på musen over firkanten og tryk derefter på et element på hjemmesiden. Nu vil du se elementets CSS og kan derefter ændre på det.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;em&gt;Disse ændringer eksistere kun til næste reload. Værktøjet gør det muligt at se ændringer, før man integrerer dem. MEGET SMART - jeg bruger det næsten hver dag!&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Mere indhold kommer - ikke færdig&lt;/em&gt;&lt;/p&gt;</content><author><name></name></author><category term="wordpress" /><summary type="html">Så kom vi endelig til det… WordPress. Det største CMS-system i verden. 25% af alle hjemmesider (på the whiteweb) er powered by WordPress. Men hvad er et CMS-system, og hvorfor er der så mange millioner af hjemmesider, som bruger det? Det kommer vi til nu!</summary></entry><entry><title type="html">Del 2 - HTML og CSS Advanced</title><link href="http://localhost:4000/wordpress/2018/02/03/del-2.html" rel="alternate" type="text/html" title="Del 2 - HTML og CSS Advanced" /><published>2018-02-03T00:00:00+01:00</published><updated>2018-02-03T00:00:00+01:00</updated><id>http://localhost:4000/wordpress/2018/02/03/del-2</id><content type="html" xml:base="http://localhost:4000/wordpress/2018/02/03/del-2.html">&lt;p&gt;#Del 2 - WordPress kursus&lt;/p&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;&lt;strong&gt;Forberedelse:&lt;/strong&gt; Download &lt;a href=&quot;/assets/wordpress/del-2.zip&quot; download=&quot;&quot;&gt;eksemplet&lt;/a&gt;, pak ZIP-filen ud og åben hele mappen i Sublime Text 3. Åben derefter &lt;code class=&quot;highlighter-rouge&quot;&gt;index.html&lt;/code&gt; i en browser.&lt;/p&gt;
