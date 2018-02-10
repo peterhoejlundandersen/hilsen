@@ -8,22 +8,164 @@ category: wordpress
 
 ### Hvad er et CMS-system?
 
-CMS står for Content Management System og er i grove træk et system til at bygge hjemmesider. Altså bruger du en platform - noget kode, som allerede eksisterer - til at bygge din hjemmeside i. Dette gør det muligt for ikke-kodere - eller folk, der kun har et meget lille kendskab - at bygge komplicerede funktioner/designs på internettet på relativt kort tid. 
+CMS står for Content Management System og er i grove træk et system til at bygge hjemmesider. Altså bruger du en platform - noget kode, som allerede er skrevet - til at bygge din hjemmeside i. Dette gør det muligt for ikke-kodere - eller folk, der kun har et meget lille kendskab - at bygge komplicerede funktioner/designs på internettet på relativt kort tid. 
 
-CMS-systemet WordPress er ikke fastlagt i sine funktioner - det er tilpasningsdygtigt. Du får blot tildelt fundamentet og kan derfra næsten udbygge det, som du vil. Altså findes der et utal af tilbygninger (temaer og plugins), der gør det muligt at tilpasse sit system til lige netop den funktion/design, som man ønsker. 
+CMS-systemet WordPress er ikke fastlagt i sine funktioner - det er tilpasningsdygtigt. Du får blot tildelt fundamentet og kan derfra næsten udbygge det, som du vil. Altså findes der et utal af tilbygninger (temaer og plugins), der gør det muligt at tilpasse sit system til lige netop den funktion/design, som man ønsker. Men hvad et tema og et plugin?
 
-Det er basalt, men vigtigt at forstå, at det **ikke koster noget at kopiere kode**. Det gør det muligt, hvis du laver ét velfungerende og gennemtestet plugin (overbygning af funktion på din hjemmeside) at kopiere det til alle, der ønsker det, og genbruge det på kryds og tværs af the World-Wide-Web. Derfor fungerer WordPress så godt! Hvert modul, hvis du bygger ordentligt, er oftest gennemtestet af 1000-vis af brugere.
+### Hvad er et WordPress tema?
 
-**Der kan være 1000-vis af brugere (nogle gange hundredetusinde), der bruger det samme plugin, fordi der er nogle funktioner, som går igen på næsten alle hjemmesider.**
+*Den letteste måde at forklare et tema på er at sige, at det er din hjemmesides udseende. Det er et lag meget advanceret make-up, som oftest (afhænger af kompleksiteten af dit tema) giver dig mulighed for at rykke rundt på indhold, ændre farver, skifte billeder, font-størrelser, position mm. - altså en erstatning i store træk for at lære CSS. Og det er meget populært at kunne undgå!* 
 
-#### Grundlæggende funktioner
+Temaer er vidt forskellige og de fleste større koster penge - forståeligt nok! Vi arbejder kun med temaet Twenty Seventeen, som er det tema, som man starter med, når man installerer WordPress. 
 
-Hvis du skulle bygge en hjemmeside i morgen for en kunde, ville du højest sansynligt komme ud for at bygge noget af dette:
+### Hvad er et WordPress plugin?
 
-1. **Log-ind system:** så man kan tilgå en side med en adgangskode, der er låst for alle andre.
-2. **En knap, der giver mulighed for at dele indholedet:** de fleste hjemmesider er interesseret i at en besøgende kan dele artikler, blogindlæg osv. på Facebook, Instagram, Twitter etc.
-3. **Kontaktside:** Mulighed for at skrive til hjemmesidens ejer og måske endda se hvor noget ligger (integration af Google Maps).
-4. **Visning af billeder:** Næsten alle hjemmesider har billeder - disse skal fylde så lidt som overhovedet muligt (lette) og være til at uploade.
-5. **Et cache-system:** Et cache-system kan være lidt svært at forstå. Det er grundlæggende en funktion hvor din hjemmeside kan blive hurtigere, fordi du gemmer en del af din hjemmeside på din besøgenes browser. Den besøgende vil så **ved næste besøg** opleve en hurtige load-tid, da personen har en del af din hjemmeside i browseren fra sidst og derfor ikke skal til at loade den på ny.
+*En simpel måde at forklare et plugin på er at sige, at det er en funktion, som du tilføjer til WordPress (din hjemmeside) - et modul du lægger oven på fundamentet WordPress.*
 
-F.eks. 
+> Det er basalt, men vigtigt for at forstå plugins, at det **ikke koster noget at kopiere kode**. Det gør det muligt, hvis du laver ét velfungerende og gennemtestet plugin at kopiere det til alle, der ønsker det, og genbruge det på kryds og tværs af WordPress på the World Wide Web.
+
+**Der kan være 1000-vis af brugere (nogle gange hundredetusinde), der bruger det samme plugin (udvidet funktion), fordi der er nogle funktioner, som går igen på næsten alle hjemmesider.**
+
+
+Med hvad for nogle funktioner kan jeg få ved at installere et plugin? Her er nogle af de mest kendte:
+
+1. **En knap, der giver mulighed for at dele indholdet:** de fleste hjemmesider er interesseret i at en besøgende kan dele artikler, blogindlæg osv. på Facebook, Instagram, Twitter etc.
+2. **Kontaktside:** Mulighed for at skrive til hjemmesidens ejer og måske endda se hvor noget ligger (integration af Google Maps).
+3. **Optimere billeder:** Næsten alle hjemmesider har billeder - men nogle er rigtig tunge. Her kan et plugin hjælpe til at gøre dem lettere (optimere dem).
+4. **Et cache-system:** Et cache-system kan være lidt svært at forstå. Det er grundlæggende en funktion hvor din hjemmeside kan blive hurtigere, fordi du gemmer en del af din hjemmeside på din besøgenes browser. Den besøgende vil så **ved næste besøg** opleve en hurtige load-tid, da personen har en del af din hjemmeside i browseren fra sidst og derfor ikke skal til at loade den på ny.
+5. **Komprimering:** Et plugin - tit er cache og komprimering i det samme - som komprimerer dine filer og samler dem, så din hjemmeside **loader hurtigere**, når du får besøg.
+
+*Et eksempel på komprimering af en CSS-fil ser således ud:*
+
+**Normal CSS-fil:**
+{% highlight css %}
+.article {
+	width: 80%;
+	color: brown;
+}
+{% endhighlight %}
+**Komprimeret CSS-fil:**
+{% highlight css %}
+.article{width:80%;color:brown;}
+{% endhighlight %}
+
+*Altså fjerner komprimering af HTML og CSS filer alle afstande (whitespaces), så filen bliver hurtigere at læse. Dette går ikke ud over dine filer - de beholder den form, som du ser i det normale eksempel ovenover, når du skal skrive i dem.*
+
+> **Foklaring:** Load-tid er et udtryk, som man bruger om den tid det tager for din hjemmeside at loade (blive vist) fra en evt. besøgende trykker dit domæne ind - f.eks. hundejegelsker.dk - og tykker enter indtil at din hjemmeside bliver vist.
+
+Du vil altså komme til at bruge plugins, når du kommer til at følge dig begrænset af WordPress, og skal bruge en ny funktion - vær dog opmærksom på at bruge et, som er opdateret og sikkert (helst et med mange andre brugere, hvis det er muligt).
+
+
+<hr>
+
+## Let's get startet! MAMP - din nye elefant!
+
+For at kunne WordPress uden et domæne bliver vi nødt til installere MAMP. 
+
+> MAMP gør det muligt at have sin egen WordPress-server på sin computer. Det kaldes også **lokal udvikling**, som gør det muligt at arbejde på en hjemmeside, uden at have den oppe på internettet. Utrolig praktisk, når du skal lave ændringer, som du ikke vil have, at dine besøgende skal se. Det kan jo være, at du skal eksperimentere lidt eller din udvikling tager 3-4 dage.
+
+
+### Installation og opsætning af lokalt miljø
+
+1. Gå til [MAMP download](https://www.mamp.info/en/downloads/){:target="_blank"}
+
+2. Download til din computer (MacOS eller Windows) 
+
+3. Installer programmet
+
+4. Gå til [Wordpress.org](https://wordpress.org/download/){:target="_blank"}
+
+5. Tryk på den blå knap "Download WordPress .."
+
+6. Pak filen ud og læg den ind i `MAMP/htdocs` - findes i din application (program) folder.
+
+7. Åben MAMP (ikke MAMP PRO)
+
+8. Tryk "Start Servers"
+
+9. Skriv http://localhost:8888/wordpress oppe i søgefeltet - i det vindue, som bliver åbnet i jeres browser
+
+10. Vælg sprog og forsæt
+ 
+11. "Lad os komme igang!" - hold den her fane åben - vi vender tilbage! 
+
+12. Gå til MAMP igen (programmet) og tryk "Open WebStart page"
+
+13. Tryk på 'Tools' i den øverste menu i det vindue, som bliver åbnet og tryk på 'phpMyAdmin'. **Nu er vi i databasen - pas på - tryk ikke på noget**
+
+14. Tryk på 'New' i venstre side (gul stjerne ved siden af)
+
+15. Indtast et databasenavn (f.eks. wordpress) og tryk "Create" - husk det!
+
+16. Gå tilbage til det tidligere vindue, indtast databasenavnet, som du har valgt. Indtast 'root' som brugernavn og som adgangskode og tryk derefter "Send"
+
+17. KØR INSTALLATIONEN!!!
+
+18. Udfyld de forskellige informationer
+
+19. Log ind med dit tidligere valgte kodeord og brugernavn
+
+20. Sådan - tillykke - nu har du en lokal WordPress installation. Se oppe i søgefeltet. Det er ikke et domæne. Det er din server!
+
+*Når du skal bruge MAMP igen (lokal udvikling) skal du åbne programmet - trykke Start Server og gå til browseren og indtaste: http://localhost:8888/wordpress*
+
+
+## The basics of WordPress - backend og frontend
+
+> WordPress består af frontend og backend. Backend gør det muligt at kunne lave ændringer på en side(backend) hvorefter en evt. bruger kan se dem på hjemmesiden (frontend)
+
+Frontend er altså det, som alle kan se, mens backend er det, som kun du kan se og som du skal opgive adgangskode og brugernavn for at få adgang til.
+
+Det har du lige gjort (du loggede ind på din WordPress i punkt 19) og er nu på backend - dit dashboard. Her ville en fremmede besøgende ikke kunne få adgang til. 
+
+![Backend WordPress]({{ "assets/wordpress/backend.png" || absolute_url }})
+
+> Backend kan du se som dit kontrolpanel. Det er stedet, hvor du laver ændringer og tilpasser din hjemmeside. Stedet hvor ingen andre har adgang som sagt - end dem med adgangskode og brugernavn selvfølgelig (der kan være flere).
+
+Backend gemmer så dine ændringer i databasen, som så bliver kaldt i din HTML. Din HTML ser lidt anderledes ud end fra før. F.eks. kan din HTML (som nu hedder php) se således ud i dine WordPress filer:
+
+*Koden er taget fra index.php i din WordPress installation*
+
+{% highlight php %}
+
+<div class="wrap">
+	<?php if ( is_home() && ! is_front_page() ) : ?>
+		<header class="page-header">
+			<h1 class="page-title"><?php single_post_title(); ?></h1>
+		</header>
+	<?php endif; ?>
+...
+</div>
+
+{% endhighlight %}
+
+Vi kender HTML'en. Men hvad der er nyt er `<?php ... ?>`. De minder meget om HTML'ens `<` og `>`, men istedet for, at de viser, at nu er det HTML, der starter, så siger de: Nu er det PHP der starter. 
+
+Jeg vil ikke gå i dybden med PHP, men blot vise det her for at forklare at `single_post_title()` er dynamisk - altså kan den ændres af dig i BACKEND.
+
+Det er nok lidt svært at forstå, men lad os tage et eksempel i WordPress istedet.
+
+Hvis du trykker på 'Sider' i din menu i venstre side og derefter ind på Eksempelside, som er en automatisk genereret side, som er en del af installationen. 
+
+Her kun du se din Backend for at redigere en side - det er simpelthen så let i forhold til at skulle rette i ren HTML. 
+
+> **Udfordring:** Indtast din egen tekst (eller brug Lorem tricket i Sublime Text 3 for at generere noget). Prøv at lav forskel på størrelserne med 'Afsnit' knappen. Prøv derefter at trykke 'Preview ændringer' - for at gå til hvordan denne side ser ud på frontend.
+
+Nu har du to faner åbne. Den nyeste er din frontend, den ældste din backend. **Sid lige et øjeblik og forstå dette.** En af dem har kun du adgang til og kan ændre i - den anden er statisk og åben for hele verden.
+
+> WordPress sider er dog stadig HTML og CSS! Prøv at højreklikke på din frontend og derefter trykke 'Inspicér element' (I Firefox eller Chrome). 
+
+*Nogle gange skal du skifte til 'Elements' for at få HTML frem oppe i den øverste menu.*
+
+Det, som du har åbnet, er et webudviklingsværktøj, som viser dig hvilke koder (oftest HTML, CSS og JavaScript), som en side består af. Her kan du se en noget kompliceret udgave af hvad vi arbejde med i de første to dele af kurset. Der er forskellige HTML-tags, klasser og kommentarer. WordPress sidste funktion er altså at producere HTML, der så bliver vist som en hjemmeside.
+
+> **Udfordring:** Prøv at ændre på noget CSS og se hvad der sker
+
+> **Fif:** Tryk på musen over firkanten og tryk derefter på et element på hjemmesiden. Nu vil du se elementets CSS og kan derefter ændre på det.
+
+*Disse ændringer eksistere kun til næste reload. Værktøjet gør det muligt at se ændringer, før man integrerer dem. MEGET SMART - jeg bruger det næsten hver dag!
+
+
+*Mere indhold kommer - ikke færdig*
+
+
