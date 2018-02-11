@@ -212,7 +212,7 @@
 <h2 id="the-basics-of-wordpress---backend-og-frontend">The basics of WordPress - backend og frontend</h2>
 
 <blockquote>
-  <p>WordPress består af en frontend og en backend.</p>
+  <p>WordPress består af en frontend og en backend. For at tilgå backend senere hen tilføj da <code class="highlighter-rouge">/wp-admin</code> til din url.</p>
 </blockquote>
 
 <p>Frontend er det, som alle kan se, mens backend er det, som kun du kan se, og som du skal opgive adgangskode og brugernavn for at få adgang til.</p>
@@ -254,7 +254,7 @@
 
 <p><em>Prøv at ændre din forside til en statisk side, da det er det, som vi kommer til at arbejde med i næste afsnit</em></p>
 
-<h3 id="sider---værd-at-vide">Sider - værd at vide</h3>
+<h3 id="sider">Sider</h3>
 
 <blockquote>
   <p>Sider er det sted, hvor jeg har arbejdet mest. Det er der du redigerer dine sider. En side kan være: Om, Kontakt, Forside etc.</p>
@@ -287,7 +287,7 @@
 <p>Du vil altså komme ud for, at du i nogle tilfælde skal lave flere menuer, der skal være forskellige steder på en side. Heldigvis for dig gør WordPress det enormt simpelt at mestre dette.</p>
 
 <blockquote>
-  <p><strong>Udfordring 1:</strong> Fra dit dashboard (backend) gå da til <em>Udseende &gt; Menu</em> og opret en menu.</p>
+  <p><strong>Udfordring 1:</strong> Fra dit dashboard (backend) gå da til <em>Udseende &gt; Menuer</em> og opret en menu.</p>
 </blockquote>
 
 <p>Her kan du i venstre side se, at du har mulighed for at tilføje forskellige menupunkter: Sider, Indlæg, Links og Kategorier.</p>
@@ -296,9 +296,11 @@
   <p><strong>Udfordring 2:</strong> Tilføj nogle menupunkter. En side, et indlæg og måske et link til en anden side (din Facebook eksempelvis).</p>
 </blockquote>
 
-<p><strong>HUSK AT TRYKKE CHECK TIL, AT MENUEN SKAL BRUGES SOM DIN MENU</strong></p>
+<p><strong>HUSK AT TRYKKE CHECK TIL, AT MENUEN SKAL BRUGES SOM <em>Topmenu</em> UNDER MENUINDSTILLINGER, ELLERS BLIVER DEN IKKE VIST</strong></p>
 
 <p>Efter alt dette er gjort tryk da ‘Gem’ og opdater din frontend, hvor du nu skulle se en velfungerende menu med de punkter, som du tilføjede.</p>
+
+<p>Du kan ændre på rækkefølgen ved drag-and-drop.</p>
 
 <h3 id="det-er-stadig-html-og-css---inspect-det-for-at-se">Det er stadig HTML og CSS - <em>Inspect</em> det for at se!</h3>
 
@@ -321,6 +323,24 @@
 <p><em>Disse ændringer eksistere kun til næste reload. Værktøjet gør det muligt at se ændringer, før man integrerer dem. MEGET SMART - jeg bruger det næsten hver dag!</em></p>
 
 <p><strong>Vi kommer til at arbejde mere med dette værktøj. Det har var blot for at vise, at siden består af HTML og CSS (og noget andet) ligesom det simple eksempel, som vi startede ud med i del 1 og 2.</strong></p>
+
+<hr />
+
+<h2 id="lektier">Lektier</h2>
+
+<p><strong>1.</strong> Første lektie er simpel. Prøv WordPress af! Leg rundt, opret en side, opret et indlæg, lav om i menuen, indsæt et billede - hvad ved jeg. Få en fornemmelse af Dashboard og hvordan man bevæger sig rundt. Skriv ned, hvis du oplever nogle begrænsninger. Er der en funktion, som du gerne vil tilføje/fjerne?</p>
+
+<blockquote>
+  <p><strong>Fif:</strong> Når du vil starte din lokale WordPress igen skal du starte programmet MAMP (ikke MAMP PRO) og trykke på Start Servers. Derefter åbnes der et vindue, hvor du kan tilgå din installation ved at trykke: <code class="highlighter-rouge">http://localhost:8888/wordpress</code> i søgefeltet i din browser.  Hvis du ønsker at logge ind, tilføj da <code class="highlighter-rouge">/wp-admin</code> til så du får <code class="highlighter-rouge">http://localhost:8888/wordpress/wp-admin</code></p>
+</blockquote>
+
+<p><strong>2.</strong> Er lidt sværere. Prøv at ændre i CSS’en. Kan du lave baggrundsfarven om på et element på din side ved først at finde HTML klassen med <em>Inspect</em> og derefter at overskrive den i din CSS med <code class="highlighter-rouge">.den-klasse-du-har-fundet {...}</code>. Gå tilbage til del 1 og del 2, hvis du er i tvivl om, hvordan man skriver CSS.</p>
+
+<blockquote>
+  <p><strong>FIF:</strong> CSS’en er placeret under <em>Udseende &gt; Tilpas &gt; Ekstra CSS</em></p>
+</blockquote>
+
+<hr />
 
 
   </div>

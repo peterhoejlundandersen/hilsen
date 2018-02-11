@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-02-11T12:42:03+01:00</updated><id>http://localhost:4000/</id><title type="html">Hilsen IT</title><subtitle>Designer hjemmesider med et sikkert fundament i Ruby on Rails, Jekyll og Angular</subtitle><entry><title type="html">Del 3 - WordPress… The basics</title><link href="http://localhost:4000/wordpress/2018/02/09/del-3-Wordpress-basics.html" rel="alternate" type="text/html" title="Del 3 - WordPress... The basics" /><published>2018-02-09T00:00:00+01:00</published><updated>2018-02-09T00:00:00+01:00</updated><id>http://localhost:4000/wordpress/2018/02/09/del-3-Wordpress-basics</id><content type="html" xml:base="http://localhost:4000/wordpress/2018/02/09/del-3-Wordpress-basics.html">&lt;blockquote&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-02-11T12:59:01+01:00</updated><id>http://localhost:4000/</id><title type="html">Hilsen IT</title><subtitle>Designer hjemmesider med et sikkert fundament i Ruby on Rails, Jekyll og Angular</subtitle><entry><title type="html">Del 3 - WordPress… The basics</title><link href="http://localhost:4000/wordpress/2018/02/09/del-3-Wordpress-basics.html" rel="alternate" type="text/html" title="Del 3 - WordPress... The basics" /><published>2018-02-09T00:00:00+01:00</published><updated>2018-02-09T00:00:00+01:00</updated><id>http://localhost:4000/wordpress/2018/02/09/del-3-Wordpress-basics</id><content type="html" xml:base="http://localhost:4000/wordpress/2018/02/09/del-3-Wordpress-basics.html">&lt;blockquote&gt;
   &lt;p&gt;Så kom vi endelig til det… WordPress. Det største CMS-system i verden. &lt;a href=&quot;https://w3techs.com/blog/entry/wordpress-powers-25-percent-of-all-websites&quot; target=&quot;_blank&quot;&gt;25% af alle hjemmesider&lt;/a&gt; (på the whiteweb) er &lt;em&gt;powered by&lt;/em&gt; WordPress. Men hvad er et CMS-system, og hvorfor er der så mange millioner af hjemmesider, som bruger det? Det kommer vi til nu!&lt;/p&gt;
 &lt;/blockquote&gt;
 
@@ -135,7 +135,7 @@
 &lt;h2 id=&quot;the-basics-of-wordpress---backend-og-frontend&quot;&gt;The basics of WordPress - backend og frontend&lt;/h2&gt;
 
 &lt;blockquote&gt;
-  &lt;p&gt;WordPress består af en frontend og en backend.&lt;/p&gt;
+  &lt;p&gt;WordPress består af en frontend og en backend. For at tilgå backend senere hen tilføj da &lt;code class=&quot;highlighter-rouge&quot;&gt;/wp-admin&lt;/code&gt; til din url.&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;p&gt;Frontend er det, som alle kan se, mens backend er det, som kun du kan se, og som du skal opgive adgangskode og brugernavn for at få adgang til.&lt;/p&gt;
@@ -177,7 +177,7 @@
 
 &lt;p&gt;&lt;em&gt;Prøv at ændre din forside til en statisk side, da det er det, som vi kommer til at arbejde med i næste afsnit&lt;/em&gt;&lt;/p&gt;
 
-&lt;h3 id=&quot;sider---værd-at-vide&quot;&gt;Sider - værd at vide&lt;/h3&gt;
+&lt;h3 id=&quot;sider&quot;&gt;Sider&lt;/h3&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;Sider er det sted, hvor jeg har arbejdet mest. Det er der du redigerer dine sider. En side kan være: Om, Kontakt, Forside etc.&lt;/p&gt;
@@ -210,7 +210,7 @@
 &lt;p&gt;Du vil altså komme ud for, at du i nogle tilfælde skal lave flere menuer, der skal være forskellige steder på en side. Heldigvis for dig gør WordPress det enormt simpelt at mestre dette.&lt;/p&gt;
 
 &lt;blockquote&gt;
-  &lt;p&gt;&lt;strong&gt;Udfordring 1:&lt;/strong&gt; Fra dit dashboard (backend) gå da til &lt;em&gt;Udseende &amp;gt; Menu&lt;/em&gt; og opret en menu.&lt;/p&gt;
+  &lt;p&gt;&lt;strong&gt;Udfordring 1:&lt;/strong&gt; Fra dit dashboard (backend) gå da til &lt;em&gt;Udseende &amp;gt; Menuer&lt;/em&gt; og opret en menu.&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;p&gt;Her kan du i venstre side se, at du har mulighed for at tilføje forskellige menupunkter: Sider, Indlæg, Links og Kategorier.&lt;/p&gt;
@@ -219,9 +219,11 @@
   &lt;p&gt;&lt;strong&gt;Udfordring 2:&lt;/strong&gt; Tilføj nogle menupunkter. En side, et indlæg og måske et link til en anden side (din Facebook eksempelvis).&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;&lt;strong&gt;HUSK AT TRYKKE CHECK TIL, AT MENUEN SKAL BRUGES SOM DIN MENU&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;HUSK AT TRYKKE CHECK TIL, AT MENUEN SKAL BRUGES SOM &lt;em&gt;Topmenu&lt;/em&gt; UNDER MENUINDSTILLINGER, ELLERS BLIVER DEN IKKE VIST&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;Efter alt dette er gjort tryk da ‘Gem’ og opdater din frontend, hvor du nu skulle se en velfungerende menu med de punkter, som du tilføjede.&lt;/p&gt;
+
+&lt;p&gt;Du kan ændre på rækkefølgen ved drag-and-drop.&lt;/p&gt;
 
 &lt;h3 id=&quot;det-er-stadig-html-og-css---inspect-det-for-at-se&quot;&gt;Det er stadig HTML og CSS - &lt;em&gt;Inspect&lt;/em&gt; det for at se!&lt;/h3&gt;
 
@@ -243,7 +245,25 @@
 
 &lt;p&gt;&lt;em&gt;Disse ændringer eksistere kun til næste reload. Værktøjet gør det muligt at se ændringer, før man integrerer dem. MEGET SMART - jeg bruger det næsten hver dag!&lt;/em&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Vi kommer til at arbejde mere med dette værktøj. Det har var blot for at vise, at siden består af HTML og CSS (og noget andet) ligesom det simple eksempel, som vi startede ud med i del 1 og 2.&lt;/strong&gt;&lt;/p&gt;</content><author><name></name></author><category term="wordpress" /><summary type="html">Så kom vi endelig til det… WordPress. Det største CMS-system i verden. 25% af alle hjemmesider (på the whiteweb) er powered by WordPress. Men hvad er et CMS-system, og hvorfor er der så mange millioner af hjemmesider, som bruger det? Det kommer vi til nu!</summary></entry><entry><title type="html">Del 2 - HTML og CSS Advanced</title><link href="http://localhost:4000/wordpress/2018/02/03/del-2.html" rel="alternate" type="text/html" title="Del 2 - HTML og CSS Advanced" /><published>2018-02-03T00:00:00+01:00</published><updated>2018-02-03T00:00:00+01:00</updated><id>http://localhost:4000/wordpress/2018/02/03/del-2</id><content type="html" xml:base="http://localhost:4000/wordpress/2018/02/03/del-2.html">&lt;p&gt;#Del 2 - WordPress kursus&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Vi kommer til at arbejde mere med dette værktøj. Det har var blot for at vise, at siden består af HTML og CSS (og noget andet) ligesom det simple eksempel, som vi startede ud med i del 1 og 2.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;lektier&quot;&gt;Lektier&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;1.&lt;/strong&gt; Første lektie er simpel. Prøv WordPress af! Leg rundt, opret en side, opret et indlæg, lav om i menuen, indsæt et billede - hvad ved jeg. Få en fornemmelse af Dashboard og hvordan man bevæger sig rundt. Skriv ned, hvis du oplever nogle begrænsninger. Er der en funktion, som du gerne vil tilføje/fjerne?&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;Fif:&lt;/strong&gt; Når du vil starte din lokale WordPress igen skal du starte programmet MAMP (ikke MAMP PRO) og trykke på Start Servers. Derefter åbnes der et vindue, hvor du kan tilgå din installation ved at trykke: &lt;code class=&quot;highlighter-rouge&quot;&gt;http://localhost:8888/wordpress&lt;/code&gt; i søgefeltet i din browser.  Hvis du ønsker at logge ind, tilføj da &lt;code class=&quot;highlighter-rouge&quot;&gt;/wp-admin&lt;/code&gt; til så du får &lt;code class=&quot;highlighter-rouge&quot;&gt;http://localhost:8888/wordpress/wp-admin&lt;/code&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;strong&gt;2.&lt;/strong&gt; Er lidt sværere. Prøv at ændre i CSS’en. Kan du lave baggrundsfarven om på et element på din side ved først at finde HTML klassen med &lt;em&gt;Inspect&lt;/em&gt; og derefter at overskrive den i din CSS med &lt;code class=&quot;highlighter-rouge&quot;&gt;.den-klasse-du-har-fundet {...}&lt;/code&gt;. Gå tilbage til del 1 og del 2, hvis du er i tvivl om, hvordan man skriver CSS.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;FIF:&lt;/strong&gt; CSS’en er placeret under &lt;em&gt;Udseende &amp;gt; Tilpas &amp;gt; Ekstra CSS&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;hr /&gt;</content><author><name></name></author><category term="wordpress" /><summary type="html">Så kom vi endelig til det… WordPress. Det største CMS-system i verden. 25% af alle hjemmesider (på the whiteweb) er powered by WordPress. Men hvad er et CMS-system, og hvorfor er der så mange millioner af hjemmesider, som bruger det? Det kommer vi til nu!</summary></entry><entry><title type="html">Del 2 - HTML og CSS Advanced</title><link href="http://localhost:4000/wordpress/2018/02/03/del-2.html" rel="alternate" type="text/html" title="Del 2 - HTML og CSS Advanced" /><published>2018-02-03T00:00:00+01:00</published><updated>2018-02-03T00:00:00+01:00</updated><id>http://localhost:4000/wordpress/2018/02/03/del-2</id><content type="html" xml:base="http://localhost:4000/wordpress/2018/02/03/del-2.html">&lt;p&gt;#Del 2 - WordPress kursus&lt;/p&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;&lt;strong&gt;Forberedelse:&lt;/strong&gt; Download &lt;a href=&quot;/assets/wordpress/del-2.zip&quot; download=&quot;&quot;&gt;eksemplet&lt;/a&gt;, pak ZIP-filen ud og åben hele mappen i Sublime Text 3. Åben derefter &lt;code class=&quot;highlighter-rouge&quot;&gt;index.html&lt;/code&gt; i en browser.&lt;/p&gt;

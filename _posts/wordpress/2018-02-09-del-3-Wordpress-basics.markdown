@@ -4,19 +4,19 @@ title:  "Del 3 - WordPress... The basics"
 category: wordpress
 ---
 
-> Så kom vi endelig til det... WordPress. Det største CMS-system i verden. [25% af alle hjemmesider](https://w3techs.com/blog/entry/wordpress-powers-25-percent-of-all-websites){:target="_blank"} (på the whiteweb) er *powered by* WordPress. Men hvad er et CMS-system, og hvorfor er der så mange millioner af hjemmesider, som bruger det? Det kommer vi til nu! 
+> Så kom vi endelig til det... WordPress. Det største CMS-system i verden. [25% af alle hjemmesider](https://w3techs.com/blog/entry/wordpress-powers-25-percent-of-all-websites){:target="_blank"} (på the whiteweb) er *powered by* WordPress. Men hvad er et CMS-system, og hvorfor er der så mange millioner af hjemmesider, som bruger det? Det kommer vi til nu!
 
 ### Hvad er et CMS-system?
 
-CMS står for Content Management System og er i grove træk et system til at bygge hjemmesider. Altså bruger du en platform - noget kode, som allerede er skrevet - til at bygge din hjemmeside i. Dette gør det muligt for ikke-kodere - eller folk, der kun har et meget lille kendskab - at bygge komplicerede funktioner/designs på internettet på relativt kort tid. 
+CMS står for Content Management System og er i grove træk et system til at bygge hjemmesider. Altså bruger du en platform - noget kode, som allerede er skrevet - til at bygge din hjemmeside i. Dette gør det muligt for ikke-kodere - eller folk, der kun har et meget lille kendskab - at bygge komplicerede funktioner/designs på internettet på relativt kort tid.
 
 CMS-systemet WordPress er ikke fastlagt i sine funktioner - det er tilpasningsdygtigt. Du får blot tildelt fundamentet og kan derfra næsten udbygge det, som du vil. Altså findes der et utal af tilbygninger (temaer og plugins), der gør det muligt at tilpasse sit system til lige netop den funktion/design, som man ønsker. Men hvad et tema og et plugin?
 
 ### Hvad er et WordPress tema?
 
-*Den letteste måde at forklare et tema på er at sige, at det er din hjemmesides udseende. Det er et lag meget advanceret make-up, som oftest (afhænger af kompleksiteten af dit tema) giver dig mulighed for at rykke rundt på indhold, ændre farver, skifte billeder, font-størrelser, position mm. - altså en erstatning i store træk for at lære CSS. Og det er meget populært at kunne undgå!* 
+*Den letteste måde at forklare et tema på er at sige, at det er din hjemmesides udseende. Det er et lag meget advanceret make-up, som oftest (afhænger af kompleksiteten af dit tema) giver dig mulighed for at rykke rundt på indhold, ændre farver, skifte billeder, font-størrelser, position mm. - altså en erstatning i store træk for at lære CSS. Og det er meget populært at kunne undgå!*
 
-Temaer er vidt forskellige og de fleste større koster penge - forståeligt nok! Vi arbejder kun med temaet Twenty Seventeen, som er det tema, som man starter med, når man installerer WordPress. 
+Temaer er vidt forskellige og de fleste større koster penge - forståeligt nok! Vi arbejder kun med temaet Twenty Seventeen, som er det tema, som man starter med, når man installerer WordPress.
 
 ### Hvad er et WordPress plugin?
 
@@ -53,14 +53,14 @@ Med hvad for nogle funktioner kan jeg få ved at installere et plugin? Her er no
 
 > **Foklaring:** Load-tid er et udtryk, som man bruger om den tid det tager for din hjemmeside at loade (blive vist) fra en evt. besøgende trykker dit domæne ind - f.eks. hundejegelsker.dk - og tykker enter indtil at din hjemmeside bliver vist.
 
-Du vil altså komme til at bruge plugins, når du kommer til at følge dig begrænset af WordPress, og skal bruge en ny funktion - vær dog opmærksom på at bruge et, som er opdateret og sikkert og helst et med mange brugere, hvis det er muligt. 
+Du vil altså komme til at bruge plugins, når du kommer til at følge dig begrænset af WordPress, og skal bruge en ny funktion - vær dog opmærksom på at bruge et, som er opdateret og sikkert og helst et med mange brugere, hvis det er muligt.
 
 
 <hr>
 
 ## Let's get startet! MAMP - din nye elefant!
 
-For at kunne bruge WordPress uden et domæne, bliver vi nødt til installere programmet MAMP. 
+For at kunne bruge WordPress uden et domæne, bliver vi nødt til installere programmet MAMP.
 
 > MAMP gør det muligt at have sin egen WordPress-server på sin computer. Det kaldes også **lokal udvikling**, som gør det muligt at arbejde på en hjemmeside, uden at have den oppe på internettet. Utrolig praktisk, når du skal lave ændringer, som du ikke vil have, at dine besøgende skal se. Det kan jo være, at du skal eksperimentere lidt, eller, at dine ændringer tager 4-5 dage at lave.
 
@@ -69,7 +69,7 @@ For at kunne bruge WordPress uden et domæne, bliver vi nødt til installere pro
 
 1. Gå til [MAMP download](https://www.mamp.info/en/downloads/){:target="_blank"}
 
-2. Download til din computer (MacOS eller Windows) 
+2. Download til din computer (MacOS eller Windows)
 
 3. Installer programmet
 
@@ -86,8 +86,8 @@ For at kunne bruge WordPress uden et domæne, bliver vi nødt til installere pro
 9. Skriv http://localhost:8888/wordpress oppe i søgefeltet - i det vindue, som bliver åbnet i jeres browser
 
 10. Vælg sprog og forsæt
- 
-11. "Lad os komme igang!" - hold den her fane åben - vi vender tilbage! 
+
+11. "Lad os komme igang!" - hold den her fane åben - vi vender tilbage!
 
 12. Gå til MAMP igen (programmet) og tryk "Open WebStart page"
 
@@ -112,11 +112,11 @@ For at kunne bruge WordPress uden et domæne, bliver vi nødt til installere pro
 
 ## The basics of WordPress - backend og frontend
 
-> WordPress består af en frontend og en backend. 
+> WordPress består af en frontend og en backend. For at tilgå backend senere hen tilføj da `/wp-admin` til din url.
 
 Frontend er det, som alle kan se, mens backend er det, som kun du kan se, og som du skal opgive adgangskode og brugernavn for at få adgang til.
 
-Det har du lige gjort (du loggede ind på din WordPress i punkt 19) og er nu på backend - dit dashboard. Her ville en fremmede besøgende ikke kunne få adgang til! 
+Det har du lige gjort (du loggede ind på din WordPress i punkt 19) og er nu på backend - dit dashboard. Her ville en fremmede besøgende ikke kunne få adgang til!
 
 ![Backend WordPress]({{ "assets/wordpress/backend.png" || absolute_url }})
 
@@ -137,7 +137,7 @@ Backend gemmer så dine ændringer i databasen, som så bliver kaldt i din HTML.
 
 {% endhighlight %}
 
-Vi kender HTML'en. Men hvad der er nyt er `<?php ... ?>`. De minder meget om HTML'ens `<` og `>`, men istedet for, at de viser, at nu er det HTML, der starter, så siger de: Nu er det PHP der starter. 
+Vi kender HTML'en. Men hvad der er nyt er `<?php ... ?>`. De minder meget om HTML'ens `<` og `>`, men istedet for, at de viser, at nu er det HTML, der starter, så siger de: Nu er det PHP der starter.
 
 Jeg vil ikke gå i dybden med PHP, men blot vise det her for at forklare at `single_post_title()` er dynamisk - altså kan den ændres af dig i BACKEND. Det vil være den, der kalder et indlægs overskrift (single_post_title).
 
@@ -154,11 +154,11 @@ Kan du se dit nye indlæg i oversigten? Det blev automatisk tilføjet til din fo
 
 *Prøv at ændre din forside til en statisk side, da det er det, som vi kommer til at arbejde med i næste afsnit*
 
-### Sider - værd at vide
+### Sider
 
-> Sider er det sted, hvor jeg har arbejdet mest. Det er der du redigerer dine sider. En side kan være: Om, Kontakt, Forside etc. 
+> Sider er det sted, hvor jeg har arbejdet mest. Det er der du redigerer dine sider. En side kan være: Om, Kontakt, Forside etc.
 
-Hvis du trykker på 'Sider' i din menu i venstre side og derefter ind på Eksempelside, som er en automatisk genereret side, som er en del af installationen, så kan du se din Backend for at redigere en side - det er simpelthen så let i forhold til at skulle rette i ren HTML. 
+Hvis du trykker på 'Sider' i din menu i venstre side og derefter ind på Eksempelside, som er en automatisk genereret side, som er en del af installationen, så kan du se din Backend for at redigere en side - det er simpelthen så let i forhold til at skulle rette i ren HTML.
 
 > **Udfordring:** Indtast din egen tekst (eller brug Lorem tricket i Sublime Text 3 for at generere noget). Prøv at lav forskel på størrelserne med 'Afsnit' knappen. Prøv derefter at trykke 'Preview ændringer' - for at gå til hvordan denne side ser ud på frontend.
 
@@ -172,7 +172,7 @@ En menu på eksempelvis [Nykredit](https://www.nykredit.dk/){:target="_blank"} s
 
 ![Nykredit menu eksempel]({{ "assets/wordpress/nykredit.png" || absolute_url }})
 
-Altså et overblik over de forskellige ting, som Nykredit tilbyder og hvert punkt linker til en ny side med information om det. 
+Altså et overblik over de forskellige ting, som Nykredit tilbyder og hvert punkt linker til en ny side med information om det.
 
 Der kan dog sagtens findes **flere menuer på én hjemmeside**. F.eks. har Nykredit også en menu i sin footer (den del af en hjemmeside, der er nederst, som går igen):
 
@@ -180,21 +180,21 @@ Der kan dog sagtens findes **flere menuer på én hjemmeside**. F.eks. har Nykre
 
 Du vil altså komme ud for, at du i nogle tilfælde skal lave flere menuer, der skal være forskellige steder på en side. Heldigvis for dig gør WordPress det enormt simpelt at mestre dette.
 
-> **Udfordring 1:** Fra dit dashboard (backend) gå da til *Udseende > Menu* og opret en menu.
+> **Udfordring 1:** Fra dit dashboard (backend) gå da til *Udseende > Menuer* og opret en menu.
 
-Her kan du i venstre side se, at du har mulighed for at tilføje forskellige menupunkter: Sider, Indlæg, Links og Kategorier.  
+Her kan du i venstre side se, at du har mulighed for at tilføje forskellige menupunkter: Sider, Indlæg, Links og Kategorier.
 
 > **Udfordring 2:** Tilføj nogle menupunkter. En side, et indlæg og måske et link til en anden side (din Facebook eksempelvis).
 
-**HUSK AT TRYKKE CHECK TIL, AT MENUEN SKAL BRUGES SOM DIN MENU** 
+**HUSK AT TRYKKE CHECK TIL, AT MENUEN SKAL BRUGES SOM *Topmenu* UNDER MENUINDSTILLINGER, ELLERS BLIVER DEN IKKE VIST**
 
-Efter alt dette er gjort tryk da 'Gem' og opdater din frontend, hvor du nu skulle se en velfungerende menu med de punkter, som du tilføjede. 
+Efter alt dette er gjort tryk da 'Gem' og opdater din frontend, hvor du nu skulle se en velfungerende menu med de punkter, som du tilføjede.
 
-
+Du kan ændre på rækkefølgen ved drag-and-drop.
 
 ### Det er stadig HTML og CSS - *Inspect* det for at se!
 
-> WordPress sider er dog stadig HTML og CSS! Prøv at højreklikke på din frontend og tryk derefter 'Inspicér' (I Firefox eller Chrome). 
+> WordPress sider er dog stadig HTML og CSS! Prøv at højreklikke på din frontend og tryk derefter 'Inspicér' (I Firefox eller Chrome).
 
 *Nogle gange skal du skifte til 'Elements' for at få HTML frem oppe i den øverste menu.*
 
@@ -208,5 +208,20 @@ Det som du har åbnet er et webudviklingsværktøj - det skal nok gå! - som vis
 
 **Vi kommer til at arbejde mere med dette værktøj. Det har var blot for at vise, at siden består af HTML og CSS (og noget andet) ligesom det simple eksempel, som vi startede ud med i del 1 og 2.**
 
+---------------
 
+
+## Lektier
+
+
+**1.** Første lektie er simpel. Prøv WordPress af! Leg rundt, opret en side, opret et indlæg, lav om i menuen, indsæt et billede - hvad ved jeg. Få en fornemmelse af Dashboard og hvordan man bevæger sig rundt. Skriv ned, hvis du oplever nogle begrænsninger. Er der en funktion, som du gerne vil tilføje/fjerne?
+
+> **Fif:** Når du vil starte din lokale WordPress igen skal du starte programmet MAMP (ikke MAMP PRO) og trykke på Start Servers. Derefter åbnes der et vindue, hvor du kan tilgå din installation ved at trykke: `http://localhost:8888/wordpress` i søgefeltet i din browser.  Hvis du ønsker at logge ind, tilføj da `/wp-admin` til så du får `http://localhost:8888/wordpress/wp-admin`
+
+
+**2.** Er lidt sværere. Prøv at ændre i CSS'en. Kan du lave baggrundsfarven om på et element på din side ved først at finde HTML klassen med *Inspect* og derefter at overskrive den i din CSS med `.den-klasse-du-har-fundet {...}`. Gå tilbage til del 1 og del 2, hvis du er i tvivl om, hvordan man skriver CSS.
+
+> **FIF:** CSS'en er placeret under *Udseende > Tilpas > Ekstra CSS*
+
+----------------------
 
