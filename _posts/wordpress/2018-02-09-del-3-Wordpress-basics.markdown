@@ -166,7 +166,7 @@ Nu har du to faner åbne. Den nyeste er din frontend (den side, der blev åbnet,
 
 ### Menu
 
-> En menu er noget, du har brugt 1000-vis af gange. Det er den navigationsbar, som går igen på alle dine sider. Den sikrer at en besøgende aldrig rammer en blindgyde på din hjemmeside - at man altid har mulighed for at gå videre. Og samtidig giver den et godt overblik over, hvad din hjemmeside handler om og har at tilbyde.
+> En menu er noget, du har brugt 1000-vis af gange. Det er den navigationsbar, som går igen på næsten alle hjemmesider. Den sikrer, at en besøgende aldrig rammer en blindgyde på din hjemmeside - at man altid har mulighed for at gå videre. Og samtidig giver den et godt overblik over, hvad din hjemmeside handler om og har at tilbyde.
 
 En menu på eksempelvis [Nykredit](https://www.nykredit.dk/){:target="_blank"} ser således ud:
 
