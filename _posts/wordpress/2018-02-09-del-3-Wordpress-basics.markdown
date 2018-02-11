@@ -156,7 +156,7 @@ Kan du se dit nye indlæg i oversigten? Det blev automatisk tilføjet til din fo
 
 ### Sider
 
-> Sider er det sted, hvor jeg har arbejdet mest. Det er der du redigerer dine sider. En side kan være: Om, Kontakt, Forside etc.
+> Sider er det sted, hvor jeg har arbejdet mest. Det er der du redigerer dine sider. En side kan f.eks. være: Om, Kontakt, Forside etc.
 
 Hvis du trykker på 'Sider' i din menu i venstre side og derefter ind på Eksempelside, som er en automatisk genereret side, som er en del af installationen, så kan du se din Backend for at redigere en side - det er simpelthen så let i forhold til at skulle rette i ren HTML.
 
