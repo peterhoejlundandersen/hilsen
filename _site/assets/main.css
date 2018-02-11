@@ -1,3 +1,6 @@
+.inline {
+  display: inline; }
+
 .hide-it {
   display: none;
   cursor: pointer; }

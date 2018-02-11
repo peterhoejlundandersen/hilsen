@@ -49,11 +49,11 @@ Med hvad for nogle funktioner kan jeg få ved at installere et plugin? Her er no
 .article{width:80%;color:brown;}
 {% endhighlight %}
 
-*Altså fjerner komprimering af HTML og CSS filer alle afstande (whitespaces), så filen bliver hurtigere at læse. Dette går ikke ud over dine filer - de beholder den form, som du ser i det normale eksempel ovenover, når du skal skrive i dem.*
+*Altså fjerner komprimering af HTML og CSS filer alle afstande (whitespaces), så filen bliver hurtigere at læse for en besøgende. Dette går ikke ud over dine filer, når du skal skrive i dem - de beholder den form, som du ser i det normale eksempel ovenover.*
 
 > **Foklaring:** Load-tid er et udtryk, som man bruger om den tid det tager for din hjemmeside at loade (blive vist) fra en evt. besøgende trykker dit domæne ind - f.eks. hundejegelsker.dk - og tykker enter indtil at din hjemmeside bliver vist.
 
-Du vil altså komme til at bruge plugins, når du kommer til at følge dig begrænset af WordPress, og skal bruge en ny funktion - vær dog opmærksom på at bruge et, som er opdateret og sikkert (helst et med mange andre brugere, hvis det er muligt).
+Du vil altså komme til at bruge plugins, når du kommer til at følge dig begrænset af WordPress, og skal bruge en ny funktion - vær dog opmærksom på at bruge et, som er opdateret og sikkert og helst et med mange brugere, hvis det er muligt. 
 
 
 <hr>
@@ -62,7 +62,7 @@ Du vil altså komme til at bruge plugins, når du kommer til at følge dig begr�
 
 For at kunne bruge WordPress uden et domæne, bliver vi nødt til installere programmet MAMP. 
 
-> MAMP gør det muligt at have sin egen WordPress-server på sin computer. Det kaldes også **lokal udvikling**, som gør det muligt at arbejde på en hjemmeside, uden at have den oppe på internettet. Utrolig praktisk, når du skal lave ændringer, som du ikke vil have, at dine besøgende skal se. Det kan jo være, at du skal eksperimentere lidt, eller, at din udvikling tager 3-4 dage.
+> MAMP gør det muligt at have sin egen WordPress-server på sin computer. Det kaldes også **lokal udvikling**, som gør det muligt at arbejde på en hjemmeside, uden at have den oppe på internettet. Utrolig praktisk, når du skal lave ændringer, som du ikke vil have, at dine besøgende skal se. Det kan jo være, at du skal eksperimentere lidt, eller, at dine ændringer tager 4-5 dage at lave.
 
 
 ### Installation og opsætning af lokalt miljø
@@ -116,11 +116,9 @@ For at kunne bruge WordPress uden et domæne, bliver vi nødt til installere pro
 
 Frontend er det, som alle kan se, mens backend er det, som kun du kan se, og som du skal opgive adgangskode og brugernavn for at få adgang til.
 
-Det har du lige gjort (du loggede ind på din WordPress i punkt 19) og er nu på backend - dit dashboard. Her ville en fremmede besøgende ikke kunne få adgang til!
+Det har du lige gjort (du loggede ind på din WordPress i punkt 19) og er nu på backend - dit dashboard. Her ville en fremmede besøgende ikke kunne få adgang til! 
 
 ![Backend WordPress]({{ "assets/wordpress/backend.png" || absolute_url }})
-
-> Backend kan du se som dit kontrolpanel. Det er stedet, hvor du laver ændringer og tilpasser din hjemmeside. Stedet hvor ingen andre har adgang som sagt - end dem med adgangskode og brugernavn selvfølgelig (der kan være flere).
 
 Backend gemmer så dine ændringer i databasen, som så bliver kaldt i din HTML. Din HTML ser lidt anderledes ud end fra før. F.eks. kan din HTML (som nu hedder php) se således ud i dine WordPress filer:
 
@@ -141,31 +139,74 @@ Backend gemmer så dine ændringer i databasen, som så bliver kaldt i din HTML.
 
 Vi kender HTML'en. Men hvad der er nyt er `<?php ... ?>`. De minder meget om HTML'ens `<` og `>`, men istedet for, at de viser, at nu er det HTML, der starter, så siger de: Nu er det PHP der starter. 
 
-Jeg vil ikke gå i dybden med PHP, men blot vise det her for at forklare at `single_post_title()` er dynamisk - altså kan den ændres af dig i BACKEND.
+Jeg vil ikke gå i dybden med PHP, men blot vise det her for at forklare at `single_post_title()` er dynamisk - altså kan den ændres af dig i BACKEND. Det vil være den, der kalder et indlægs overskrift (single_post_title).
 
-Det er nok lidt svært at forstå, men lad os tage et eksempel i WordPress istedet.
 
-Hvis du trykker på 'Sider' i din menu i venstre side og derefter ind på Eksempelside, som er en automatisk genereret side, som er en del af installationen. 
+### Blog eller side som forside? Hvad skal jeg bruge min WordPress til?
 
-Her kun du se din Backend for at redigere en side - det er simpelthen så let i forhold til at skulle rette i ren HTML. 
+> Det første du skal beslutte dig for i en nyinstalleret WordPress er, om du vil have en indlægsside (oversigt over blogindlæg) som forside eller en helt normal side. Men hvad er forskellen på de to?
+
+For at forstå hvad en indlægsside er, tager vi et kig på din nuværende forside, hvor du kan se overskriften, dato og en kort beskrivelse af det eksempelindlæg, som WordPress har genereret til os. Her tilføjes dine indlæg automatisk, når du opretter et.
+
+> **Udfordring:** Opret et nyt blogindlæg under din backend (dashboard), hvor der ude i venstre menu står *Indlæg*. Husk at udgive det. Efter du har oprettet det, gå da tilbage til din forside (frontend) og reload siden(chrome-genvej på Mac: CMD + R).
+
+Kan du se dit nye indlæg i oversigten? Det blev automatisk tilføjet til din forside. Det er en indlægsside og utrolig praktisk, hvis det er hovedformålet for din hjemmeside at være hjemsted for blogindlæg. Hvis du ønsker at din forside skal være en mere statisk side, kan du gå ind under *Udseende > Tilpas*. Derinde finder du *Forside indstillinger*. Der kan du vælge om du vil have, at din forside skal være en *statisk side* eller til blogindlæg.
+
+*Prøv at ændre din forside til en statisk side, da det er det, som vi kommer til at arbejde med i næste afsnit*
+
+### Sider - værd at vide
+
+> Sider er det sted, hvor jeg har arbejdet mest. Det er der du redigerer dine sider. En side kan være: Om, Kontakt, Forside etc. 
+
+Hvis du trykker på 'Sider' i din menu i venstre side og derefter ind på Eksempelside, som er en automatisk genereret side, som er en del af installationen, så kan du se din Backend for at redigere en side - det er simpelthen så let i forhold til at skulle rette i ren HTML. 
 
 > **Udfordring:** Indtast din egen tekst (eller brug Lorem tricket i Sublime Text 3 for at generere noget). Prøv at lav forskel på størrelserne med 'Afsnit' knappen. Prøv derefter at trykke 'Preview ændringer' - for at gå til hvordan denne side ser ud på frontend.
 
-Nu har du to faner åbne. Den nyeste er din frontend, den ældste din backend. **Sid lige et øjeblik og forstå dette.** En af dem har kun du adgang til og kan ændre i - den anden er statisk og åben for hele verden.
+Nu har du to faner åbne. Den nyeste er din frontend (den side, der blev åbnet, da du trykkede 'Preview ændringer'), den ældste din backend. **Sid lige et øjeblik og forstå dette.** En af dem har kun du adgang til og kan ændre i - den anden er statisk og åben for hele verden.
 
-> WordPress sider er dog stadig HTML og CSS! Prøv at højreklikke på din frontend og derefter trykke 'Inspicér element' (I Firefox eller Chrome). 
+### Menu
+
+> En menu er noget, du har brugt 1000-vis af gange. Det er den navigationsbar, som går igen på alle dine sider. Den sikrer at en besøgende aldrig rammer en blindgyde på din hjemmeside - at man altid har mulighed for at gå videre. Og samtidig giver den et godt overblik over, hvad din hjemmeside handler om og har at tilbyde.
+
+En menu på eksempelvis [Nykredit](https://www.nykredit.dk/){:target="_blank"} ser således ud:
+
+![Nykredit menu eksempel]({{ "assets/wordpress/nykredit.png" || absolute_url }})
+
+Altså et overblik over de forskellige ting, som Nykredit tilbyder og hvert punkt linker til en ny side med information om det. 
+
+Der kan dog sagtens findes **flere menuer på én hjemmeside**. F.eks. har Nykredit også en menu i sin footer (den del af en hjemmeside, der er nederst, som går igen):
+
+![Nykredit menu eksempel]({{ "assets/wordpress/nykredit-footer.png" || absolute_url }})
+
+Du vil altså komme ud for, at du i nogle tilfælde skal lave flere menuer, der skal være forskellige steder på en side. Heldigvis for dig gør WordPress det enormt simpelt at mestre dette.
+
+> **Udfordring 1:** Fra dit dashboard (backend) gå da til *Udseende > Menu* og opret en menu.
+
+Her kan du i venstre side se, at du har mulighed for at tilføje forskellige menupunkter: Sider, Indlæg, Links og Kategorier.  
+
+> **Udfordring 2:** Tilføj nogle menupunkter. En side, et indlæg og måske et link til en anden side (din Facebook eksempelvis).
+
+**HUSK AT TRYKKE CHECK TIL, AT MENUEN SKAL BRUGES SOM DIN MENU** 
+
+Efter alt dette er gjort tryk da 'Gem' og opdater din frontend, hvor du nu skulle se en velfungerende menu med de punkter, som du tilføjede. 
+
+
+
+### Det er stadig HTML og CSS - *Inspect* det for at se!
+
+> WordPress sider er dog stadig HTML og CSS! Prøv at højreklikke på din frontend og tryk derefter 'Inspicér' (I Firefox eller Chrome). 
 
 *Nogle gange skal du skifte til 'Elements' for at få HTML frem oppe i den øverste menu.*
 
-Det, som du har åbnet, er et webudviklingsværktøj, som viser dig hvilke koder (oftest HTML, CSS og JavaScript), som en side består af. Her kan du se en noget kompliceret udgave af hvad vi arbejde med i de første to dele af kurset. Der er forskellige HTML-tags, klasser og kommentarer. WordPress sidste funktion er altså at producere HTML, der så bliver vist som en hjemmeside.
+Det som du har åbnet er et webudviklingsværktøj - det skal nok gå! - som viser dig hvilke koder (oftest HTML, CSS og JavaScript), som en hjemmeside består af. Her kan du se en noget kompliceret udgave af, hvad vi arbejdede med i de første to dele af kurset. Der er forskellige HTML-tags, klasser og kommentarer. WordPress sidste funktion er altså at producere HTML, der så bliver vist som en hjemmeside. Det er WordPress output, kan man vel godt sige.
 
-> **Udfordring:** Prøv at ændre på noget CSS og se hvad der sker
+> **Udfordring:** Prøv at ændre på noget af hjemmesidens CSS og se hvad der sker
 
-> **Fif:** Tryk på musen over firkanten og tryk derefter på et element på hjemmesiden. Nu vil du se elementets CSS og kan derefter ændre på det.
+> **Fif:** Tryk på musen over firkanten ![Webdeveloper tool]({{ "assets/wordpress/inspicer.png" || absolute_url }}) og tryk derefter på et element på hjemmesiden. Nu vil du se elementets CSS og kan derefter ændre på det.
 
 *Disse ændringer eksistere kun til næste reload. Værktøjet gør det muligt at se ændringer, før man integrerer dem. MEGET SMART - jeg bruger det næsten hver dag!*
 
+**Vi kommer til at arbejde mere med dette værktøj. Det har var blot for at vise, at siden består af HTML og CSS (og noget andet) ligesom det simple eksempel, som vi startede ud med i del 1 og 2.**
 
-*Mere indhold kommer - ikke færdig*
 
 
