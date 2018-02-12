@@ -275,10 +275,10 @@ Hvis vi får tid kommer vi til at lege lidt med jQuery med nogle dropdown-menuer
 
 > Lektierne er inddelt i stigninger, så man selv kan bestemme, hvor svær en udfordring, som man vil tage op. Jeg vil selvfølgelig anbefale, at man laver alle tre, men se, hvad i kan få tid til. Hvis man ønsker at gå videre, så er det altid muligt at fortsætte læringen via et af de kurser, som er nævnt underneden.
 
-#### 1. grads stigning
-Kan du forklare hvad forskellen på et span-tag og et div-tag er?
+#### 3. grads stigning:
+Lav 4 bokse med `<div></div>` og giv dem hver især forskellige baggrundsfarver, højder og bredder via forskellige klasser.
 
-> **Hint:** Div og span er begge HTML-tags (`<div>` og `<span>`), som bliver brugt på kryds og tværs af internettet. De har dog to vidt forskellige funktioner, som har noget med deres standard CSS property `display:.. ` at gøre.
+> **Hint:** En div uden indhold har ingen højde og bredde, så den vil ikke kunne ses, før du giver den en højde `height: ...` og en bredde `width: ...`.
 
 #### 2. grads stigning:
 Indsæt et billede øverst på din hjemmeside med et `<img>` HTML-tag i din `index.html` og få det til at fylde hele din hjemmesides bredde. 
@@ -286,12 +286,10 @@ Indsæt et billede øverst på din hjemmeside med et `<img>` HTML-tag i din `ind
 
 > **Hint til bredde:** Man kan bruge `%`(procenttegnet) i CSS. Derudover kan du også bruge `width:`. Så hvor mange procent skal `width:` sættes til for at fylde hele bredden?
 
+#### 1. grads stigning
+Kan du forklare hvad forskellen på et span-tag og et div-tag er?
 
-#### 3. grads stigning:
-Lav 4 bokse med `<div></div>` og giv dem hver især forskellige baggrundsfarver, højder og bredder via forskellige klasser.
-
-> **Hint:** En div uden indhold har ingen højde og bredde, så den vil ikke kunne ses, før du giver den en højde `height: ...` og en bredde `width: ...`.
-
+> **Hint:** Div og span er begge HTML-tags (`<div>` og `<span>`), som bliver brugt på kryds og tværs af internettet. De har dog to vidt forskellige funktioner, som har noget med deres standard CSS property `display:.. ` at gøre.
 ### Kurser:
 
 1. [HTML kursus - CodeCademy](https://www.codecademy.com/learn/learn-html)
