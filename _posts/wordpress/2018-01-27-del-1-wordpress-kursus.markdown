@@ -270,7 +270,6 @@ Hvis vi får tid kommer vi til at lege lidt med jQuery med nogle dropdown-menuer
 
 <br>
 
-
 ### Lektier/stigninger
 
 > Lektierne er inddelt i stigninger, så man selv kan bestemme, hvor svær en udfordring, som man vil tage op. Jeg vil selvfølgelig anbefale, at man laver alle tre, men se, hvad i kan få tid til. Hvis man ønsker at gå videre, så er det altid muligt at fortsætte læringen via et af de kurser, som er nævnt underneden.
