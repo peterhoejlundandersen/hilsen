@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-02-11T12:59:01+01:00</updated><id>http://localhost:4000/</id><title type="html">Hilsen IT</title><subtitle>Designer hjemmesider med et sikkert fundament i Ruby on Rails, Jekyll og Angular</subtitle><entry><title type="html">Del 3 - WordPress… The basics</title><link href="http://localhost:4000/wordpress/2018/02/09/del-3-Wordpress-basics.html" rel="alternate" type="text/html" title="Del 3 - WordPress... The basics" /><published>2018-02-09T00:00:00+01:00</published><updated>2018-02-09T00:00:00+01:00</updated><id>http://localhost:4000/wordpress/2018/02/09/del-3-Wordpress-basics</id><content type="html" xml:base="http://localhost:4000/wordpress/2018/02/09/del-3-Wordpress-basics.html">&lt;blockquote&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-02-12T19:22:46+01:00</updated><id>http://localhost:4000/</id><title type="html">Hilsen IT</title><subtitle>Designer hjemmesider med et sikkert fundament i Ruby on Rails, Jekyll og Angular</subtitle><entry><title type="html">Del 3 - WordPress… The basics</title><link href="http://localhost:4000/wordpress/2018/02/09/del-3-Wordpress-basics.html" rel="alternate" type="text/html" title="Del 3 - WordPress... The basics" /><published>2018-02-09T00:00:00+01:00</published><updated>2018-02-09T00:00:00+01:00</updated><id>http://localhost:4000/wordpress/2018/02/09/del-3-Wordpress-basics</id><content type="html" xml:base="http://localhost:4000/wordpress/2018/02/09/del-3-Wordpress-basics.html">&lt;blockquote&gt;
   &lt;p&gt;Så kom vi endelig til det… WordPress. Det største CMS-system i verden. &lt;a href=&quot;https://w3techs.com/blog/entry/wordpress-powers-25-percent-of-all-websites&quot; target=&quot;_blank&quot;&gt;25% af alle hjemmesider&lt;/a&gt; (på the whiteweb) er &lt;em&gt;powered by&lt;/em&gt; WordPress. Men hvad er et CMS-system, og hvorfor er der så mange millioner af hjemmesider, som bruger det? Det kommer vi til nu!&lt;/p&gt;
 &lt;/blockquote&gt;
 
@@ -28,13 +28,13 @@
 
 &lt;ol&gt;
   &lt;li&gt;&lt;strong&gt;En knap, der giver mulighed for at dele indholdet:&lt;/strong&gt; de fleste hjemmesider er interesseret i at en besøgende kan dele artikler, blogindlæg osv. på Facebook, Instagram, Twitter etc.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Kontaktside:&lt;/strong&gt; Mulighed for at skrive til hjemmesidens ejer og måske endda se hvor noget ligger (integration af Google Maps).&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Kontaktside:&lt;/strong&gt; Mulighed for at skrive til hjemmesidens ejer og måske endda integrere et kort (Google Maps).&lt;/li&gt;
   &lt;li&gt;&lt;strong&gt;Optimere billeder:&lt;/strong&gt; Næsten alle hjemmesider har billeder - men nogle er rigtig tunge. Her kan et plugin hjælpe til at gøre dem lettere (optimere dem).&lt;/li&gt;
   &lt;li&gt;&lt;strong&gt;Et cache-system:&lt;/strong&gt; Et cache-system kan være lidt svært at forstå. Det er grundlæggende en funktion hvor din hjemmeside kan blive hurtigere, fordi du gemmer en del af din hjemmeside på din besøgenes browser. Den besøgende vil så &lt;strong&gt;ved næste besøg&lt;/strong&gt; opleve en hurtige load-tid, da personen har en del af din hjemmeside i browseren fra sidst og derfor ikke skal til at loade den på ny.&lt;/li&gt;
   &lt;li&gt;&lt;strong&gt;Komprimering:&lt;/strong&gt; Et plugin - tit er cache og komprimering i det samme - som komprimerer dine filer og samler dem, så din hjemmeside &lt;strong&gt;loader hurtigere&lt;/strong&gt;, når du får besøg.&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;p&gt;&lt;em&gt;Et eksempel på komprimering af en CSS-fil ser således ud:&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Et eksempel på komprimering af en CSS-fil ser således ud - et kort sidespring:&lt;/em&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Normal CSS-fil:&lt;/strong&gt;&lt;/p&gt;
 
@@ -65,7 +65,7 @@
   &lt;p&gt;MAMP gør det muligt at have sin egen WordPress-server på sin computer. Det kaldes også &lt;strong&gt;lokal udvikling&lt;/strong&gt;, som gør det muligt at arbejde på en hjemmeside, uden at have den oppe på internettet. Utrolig praktisk, når du skal lave ændringer, som du ikke vil have, at dine besøgende skal se. Det kan jo være, at du skal eksperimentere lidt, eller, at dine ændringer tager 4-5 dage at lave.&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;h3 id=&quot;installation-og-opsætning-af-lokalt-miljø&quot;&gt;Installation og opsætning af lokalt miljø&lt;/h3&gt;
+&lt;h3 id=&quot;installation-og-opsætning-af-lokalt-miljø-til-mac&quot;&gt;Installation og opsætning af lokalt miljø (til Mac)&lt;/h3&gt;
 
 &lt;ol&gt;
   &lt;li&gt;
@@ -126,7 +126,7 @@
     &lt;p&gt;Log ind med dit tidligere valgte kodeord og brugernavn&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;p&gt;Sådan - tillykke - nu har du en lokal WordPress installation. Se oppe i søgefeltet. Det er ikke et domæne. Det er din server!&lt;/p&gt;
+    &lt;p&gt;Sådan - tillykke - nu har du en lokal WordPress installation. Se oppe i søgefeltet. Det er ikke et domæne. Det er din server! (du kan prøve at slukke for dit internet og reloade siden, hvis du ikke tror på mig)&lt;/p&gt;
   &lt;/li&gt;
 &lt;/ol&gt;
 
@@ -135,7 +135,7 @@
 &lt;h2 id=&quot;the-basics-of-wordpress---backend-og-frontend&quot;&gt;The basics of WordPress - backend og frontend&lt;/h2&gt;
 
 &lt;blockquote&gt;
-  &lt;p&gt;WordPress består af en frontend og en backend. For at tilgå backend senere hen tilføj da &lt;code class=&quot;highlighter-rouge&quot;&gt;/wp-admin&lt;/code&gt; til din url.&lt;/p&gt;
+  &lt;p&gt;WordPress består grundlæggende af en frontend og en backend. Det er vigtigt at forstå forskellen på disse to, for at du kan navigere i din nye installation.&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;p&gt;Frontend er det, som alle kan se, mens backend er det, som kun du kan se, og som du skal opgive adgangskode og brugernavn for at få adgang til.&lt;/p&gt;
@@ -144,9 +144,13 @@
 
 &lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/wordpress/backend.png&quot; alt=&quot;Backend WordPress&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;Backend gemmer så dine ændringer i databasen, som så bliver kaldt i din HTML. Din HTML ser lidt anderledes ud end fra før. F.eks. kan din HTML (som nu hedder php) se således ud i dine WordPress filer:&lt;/p&gt;
+&lt;p&gt;Backend gør det så muligt at lave rettelser på din hjemmeside.&lt;/p&gt;
 
-&lt;p&gt;&lt;em&gt;Koden er taget fra index.php i din WordPress installation&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Du har nu, til forskel fra del 1 og del 2 eksemplet, en database koblet op på din side (du opretted den i punks 15). Dette betyder at din HTML ser anderledes ud. Den er blevet dynamisk. Altså viser den det indhold, som du opretter i din backend.&lt;/p&gt;
+
+&lt;p&gt;Det kan være lidt svært at forstå, men lad os se på noget eksempelkode.&lt;/p&gt;
+
+&lt;p&gt;Din HTML ser lidt anderledes ud end fra før. Se f.eks. din index.php fra det tema Twenty Seventeen, som du bruger nu.&lt;/p&gt;
 
 &lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-php&quot; data-lang=&quot;php&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;wrap&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
 	&lt;span class=&quot;cp&quot;&gt;&amp;lt;?php&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;is_home&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;amp;&amp;amp;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;!&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;is_front_page&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;cp&quot;&gt;?&amp;gt;&lt;/span&gt;
@@ -157,9 +161,13 @@
 ...
 &lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
+&lt;blockquote&gt;
+  &lt;p&gt;index.php betyder, at det stadig er HTML-kode, men med PHP kode i sig - det er PHP’en, som kalder information op fra din database. I dette eksempel via &lt;code class=&quot;highlighter-rouge&quot;&gt;single_post_title()&lt;/code&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;
+
 &lt;p&gt;Vi kender HTML’en. Men hvad der er nyt er &lt;code class=&quot;highlighter-rouge&quot;&gt;&lt;span class=&quot;cp&quot;&gt;&amp;lt;?php&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;...&lt;/span&gt; &lt;span class=&quot;cp&quot;&gt;?&amp;gt;&lt;/span&gt;&lt;/code&gt;. De minder meget om HTML’ens &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;&lt;/code&gt; og &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;gt;&lt;/code&gt;, men istedet for, at de viser, at nu er det HTML, der starter, så siger de: Nu er det PHP der starter.&lt;/p&gt;
 
-&lt;p&gt;Jeg vil ikke gå i dybden med PHP, men blot vise det her for at forklare at &lt;code class=&quot;highlighter-rouge&quot;&gt;single_post_title()&lt;/code&gt; er dynamisk - altså kan den ændres af dig i BACKEND. Det vil være den, der kalder et indlægs overskrift (single_post_title).&lt;/p&gt;
+&lt;p&gt;Jeg vil ikke gå i dybden med PHP, men blot vise det her for at forklare at &lt;code class=&quot;highlighter-rouge&quot;&gt;single_post_title()&lt;/code&gt; er dynamisk - altså kan den ændres af dig i BACKEND. Det vil være den kode, der kalder et indlægs overskrift (single_post_title).&lt;/p&gt;
 
 &lt;h3 id=&quot;blog-eller-side-som-forside-hvad-skal-jeg-bruge-min-wordpress-til&quot;&gt;Blog eller side som forside? Hvad skal jeg bruge min WordPress til?&lt;/h3&gt;
 
@@ -170,17 +178,17 @@
 &lt;p&gt;For at forstå hvad en indlægsside er, tager vi et kig på din nuværende forside, hvor du kan se overskriften, dato og en kort beskrivelse af det eksempelindlæg, som WordPress har genereret til os. Her tilføjes dine indlæg automatisk, når du opretter et.&lt;/p&gt;
 
 &lt;blockquote&gt;
-  &lt;p&gt;&lt;strong&gt;Udfordring:&lt;/strong&gt; Opret et nyt blogindlæg under din backend (dashboard), hvor der ude i venstre menu står &lt;em&gt;Indlæg&lt;/em&gt;. Husk at udgive det. Efter du har oprettet det, gå da tilbage til din forside (frontend) og reload siden(chrome-genvej på Mac: CMD + R).&lt;/p&gt;
+  &lt;p&gt;&lt;strong&gt;Udfordring:&lt;/strong&gt; Opret et nyt blogindlæg under din backend (dashboard), hvor der ude i venstre menu står &lt;em&gt;Indlæg&lt;/em&gt;. Husk at udgive det. Efter du har oprettet det, gå da tilbage til din forside (frontend) og reload siden(chrome-genvej på Mac/Windows: CMD + R/CTRL + R eller F5).&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;Kan du se dit nye indlæg i oversigten? Det blev automatisk tilføjet til din forside. Det er en indlægsside og utrolig praktisk, hvis det er hovedformålet for din hjemmeside at være hjemsted for blogindlæg. Hvis du ønsker at din forside skal være en mere statisk side, kan du gå ind under &lt;em&gt;Udseende &amp;gt; Tilpas&lt;/em&gt;. Derinde finder du &lt;em&gt;Forside indstillinger&lt;/em&gt;. Der kan du vælge om du vil have, at din forside skal være en &lt;em&gt;statisk side&lt;/em&gt; eller til blogindlæg.&lt;/p&gt;
+&lt;p&gt;Kan du se dit nye indlæg i oversigten? Det blev automatisk tilføjet til din forside. Det er en indlægsside og utrolig praktisk, hvis det er hovedformålet for din hjemmeside at være hjemsted for blogindlæg. Hvis du ønsker at din forside skal være en mere statisk side hvor du har mere kontrol over indholdet, kan du gå ind under &lt;em&gt;Udseende &amp;gt; Tilpas&lt;/em&gt;. Derinde finder du &lt;em&gt;Forside indstillinger&lt;/em&gt;. Der kan du vælge om du vil have, at din forside skal være en &lt;em&gt;statisk side&lt;/em&gt; eller til blogindlæg.&lt;/p&gt;
 
 &lt;p&gt;&lt;em&gt;Prøv at ændre din forside til en statisk side, da det er det, som vi kommer til at arbejde med i næste afsnit&lt;/em&gt;&lt;/p&gt;
 
 &lt;h3 id=&quot;sider&quot;&gt;Sider&lt;/h3&gt;
 
 &lt;blockquote&gt;
-  &lt;p&gt;Sider er det sted, hvor jeg har arbejdet mest. Det er der du redigerer dine sider. En side kan være: Om, Kontakt, Forside etc.&lt;/p&gt;
+  &lt;p&gt;Sider er det sted, hvor jeg har arbejdet mest. Det er der du (selvfølgelig) redigerer dine sider. En side kan f.eks. være: Om, Kontakt, Forside etc.&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;p&gt;Hvis du trykker på ‘Sider’ i din menu i venstre side og derefter ind på Eksempelside, som er en automatisk genereret side, som er en del af installationen, så kan du se din Backend for at redigere en side - det er simpelthen så let i forhold til at skulle rette i ren HTML.&lt;/p&gt;
@@ -191,23 +199,23 @@
 
 &lt;p&gt;Nu har du to faner åbne. Den nyeste er din frontend (den side, der blev åbnet, da du trykkede ‘Preview ændringer’), den ældste din backend. &lt;strong&gt;Sid lige et øjeblik og forstå dette.&lt;/strong&gt; En af dem har kun du adgang til og kan ændre i - den anden er statisk og åben for hele verden.&lt;/p&gt;
 
-&lt;h3 id=&quot;menu&quot;&gt;Menu&lt;/h3&gt;
+&lt;h3 id=&quot;menu---noget-svært-noget-hvis-du-ikke-bruger-et-cms-system&quot;&gt;Menu - noget svært noget, hvis du ikke bruger et CMS-system&lt;/h3&gt;
 
 &lt;blockquote&gt;
-  &lt;p&gt;En menu er noget, du har brugt 1000-vis af gange. Det er den navigationsbar, som går igen på alle dine sider. Den sikrer at en besøgende aldrig rammer en blindgyde på din hjemmeside - at man altid har mulighed for at gå videre. Og samtidig giver den et godt overblik over, hvad din hjemmeside handler om og har at tilbyde.&lt;/p&gt;
+  &lt;p&gt;En menu er noget, du har brugt 1000-vis af gange. Det er den navigationsbar, som går igen på næsten alle hjemmesider. Den sikrer, at en besøgende aldrig rammer en blindgyde på din hjemmeside - at man altid har mulighed for at gå videre. Og samtidig giver den et godt overblik over, hvad din hjemmeside handler om og har at tilbyde.&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;p&gt;En menu på eksempelvis &lt;a href=&quot;https://www.nykredit.dk/&quot; target=&quot;_blank&quot;&gt;Nykredit&lt;/a&gt; ser således ud:&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/wordpress/nykredit.png&quot; alt=&quot;Nykredit menu eksempel&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;Altså et overblik over de forskellige ting, som Nykredit tilbyder og hvert punkt linker til en ny side med information om det.&lt;/p&gt;
+&lt;p&gt;Altså et overblik over de forskellige ting, som Nykredit tilbyder og hvert punkt linker så til en ny side med information om det (det ved du jo godt).&lt;/p&gt;
 
 &lt;p&gt;Der kan dog sagtens findes &lt;strong&gt;flere menuer på én hjemmeside&lt;/strong&gt;. F.eks. har Nykredit også en menu i sin footer (den del af en hjemmeside, der er nederst, som går igen):&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/wordpress/nykredit-footer.png&quot; alt=&quot;Nykredit menu eksempel&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;Du vil altså komme ud for, at du i nogle tilfælde skal lave flere menuer, der skal være forskellige steder på en side. Heldigvis for dig gør WordPress det enormt simpelt at mestre dette.&lt;/p&gt;
+&lt;p&gt;Du vil altså komme ud for, at du i nogle tilfælde skal lave flere menuer med forskellige menu-punkter i, der skal være forskellige steder på en side. Heldigvis for dig gør WordPress det enormt simpelt at mestre dette (noget af det jeg savner mest ved WordPress efter at have skiftet til Ruby on Rails)&lt;/p&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;&lt;strong&gt;Udfordring 1:&lt;/strong&gt; Fra dit dashboard (backend) gå da til &lt;em&gt;Udseende &amp;gt; Menuer&lt;/em&gt; og opret en menu.&lt;/p&gt;
@@ -233,7 +241,7 @@
 
 &lt;p&gt;&lt;em&gt;Nogle gange skal du skifte til ‘Elements’ for at få HTML frem oppe i den øverste menu.&lt;/em&gt;&lt;/p&gt;
 
-&lt;p&gt;Det som du har åbnet er et webudviklingsværktøj - det skal nok gå! - som viser dig hvilke koder (oftest HTML, CSS og JavaScript), som en hjemmeside består af. Her kan du se en noget kompliceret udgave af, hvad vi arbejdede med i de første to dele af kurset. Der er forskellige HTML-tags, klasser og kommentarer. WordPress sidste funktion er altså at producere HTML, der så bliver vist som en hjemmeside. Det er WordPress output, kan man vel godt sige.&lt;/p&gt;
+&lt;p&gt;Det som du har åbnet er et webudviklingsværktøj - det skal nok gå! - som viser dig hvilke koder (oftest HTML, CSS og JavaScript), som en hjemmeside består af. Her kan du se en noget kompliceret udgave af, hvad vi arbejdede med i de første to dele af kurset. Der er forskellige HTML-tags, klasser og kommentarer. &lt;strong&gt;WordPress sidste funktion er altså at omforme det flotte tekst og style, som du har lavet i Backend, til HTML, CSS og JavaScript, der så bliver vist på din frontend&lt;/strong&gt; (håber det giver mening). Det du ser nu er WordPress output, kan man vel godt sige.&lt;/p&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;&lt;strong&gt;Udfordring:&lt;/strong&gt; Prøv at ændre på noget af hjemmesidens CSS og se hvad der sker&lt;/p&gt;
@@ -817,11 +825,11 @@ Det er et af de mest udbredte kodesprog i verden (mest aktive på &lt;a href=&qu
   &lt;p&gt;Lektierne er inddelt i stigninger, så man selv kan bestemme, hvor svær en udfordring, som man vil tage op. Jeg vil selvfølgelig anbefale, at man laver alle tre, men se, hvad i kan få tid til. Hvis man ønsker at gå videre, så er det altid muligt at fortsætte læringen via et af de kurser, som er nævnt underneden.&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;h4 id=&quot;1-grads-stigning&quot;&gt;1. grads stigning&lt;/h4&gt;
-&lt;p&gt;Kan du forklare hvad forskellen på et span-tag og et div-tag er?&lt;/p&gt;
+&lt;h4 id=&quot;3-grads-stigning&quot;&gt;3. grads stigning:&lt;/h4&gt;
+&lt;p&gt;Lav 4 bokse med &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;div&amp;gt;&amp;lt;/div&amp;gt;&lt;/code&gt; og giv dem hver især forskellige baggrundsfarver, højder og bredder via forskellige klasser.&lt;/p&gt;
 
 &lt;blockquote&gt;
-  &lt;p&gt;&lt;strong&gt;Hint:&lt;/strong&gt; Div og span er begge HTML-tags (&lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;div&amp;gt;&lt;/code&gt; og &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;span&amp;gt;&lt;/code&gt;), som bliver brugt på kryds og tværs af internettet. De har dog to vidt forskellige funktioner, som har noget med deres standard CSS property &lt;code class=&quot;highlighter-rouge&quot;&gt;display:.. &lt;/code&gt; at gøre.&lt;/p&gt;
+  &lt;p&gt;&lt;strong&gt;Hint:&lt;/strong&gt; En div uden indhold har ingen højde og bredde, så den vil ikke kunne ses, før du giver den en højde &lt;code class=&quot;highlighter-rouge&quot;&gt;height: ...&lt;/code&gt; og en bredde &lt;code class=&quot;highlighter-rouge&quot;&gt;width: ...&lt;/code&gt;.&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;h4 id=&quot;2-grads-stigning&quot;&gt;2. grads stigning:&lt;/h4&gt;
@@ -832,14 +840,13 @@ Det er et af de mest udbredte kodesprog i verden (mest aktive på &lt;a href=&qu
   &lt;p&gt;&lt;strong&gt;Hint til bredde:&lt;/strong&gt; Man kan bruge &lt;code class=&quot;highlighter-rouge&quot;&gt;%&lt;/code&gt;(procenttegnet) i CSS. Derudover kan du også bruge &lt;code class=&quot;highlighter-rouge&quot;&gt;width:&lt;/code&gt;. Så hvor mange procent skal &lt;code class=&quot;highlighter-rouge&quot;&gt;width:&lt;/code&gt; sættes til for at fylde hele bredden?&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;h4 id=&quot;3-grads-stigning&quot;&gt;3. grads stigning:&lt;/h4&gt;
-&lt;p&gt;Lav 4 bokse med &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;div&amp;gt;&amp;lt;/div&amp;gt;&lt;/code&gt; og giv dem hver især forskellige baggrundsfarver, højder og bredder via forskellige klasser.&lt;/p&gt;
+&lt;h4 id=&quot;1-grads-stigning&quot;&gt;1. grads stigning&lt;/h4&gt;
+&lt;p&gt;Kan du forklare hvad forskellen på et span-tag og et div-tag er?&lt;/p&gt;
 
 &lt;blockquote&gt;
-  &lt;p&gt;&lt;strong&gt;Hint:&lt;/strong&gt; En div uden indhold har ingen højde og bredde, så den vil ikke kunne ses, før du giver den en højde &lt;code class=&quot;highlighter-rouge&quot;&gt;height: ...&lt;/code&gt; og en bredde &lt;code class=&quot;highlighter-rouge&quot;&gt;width: ...&lt;/code&gt;.&lt;/p&gt;
+  &lt;p&gt;&lt;strong&gt;Hint:&lt;/strong&gt; Div og span er begge HTML-tags (&lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;div&amp;gt;&lt;/code&gt; og &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;span&amp;gt;&lt;/code&gt;), som bliver brugt på kryds og tværs af internettet. De har dog to vidt forskellige funktioner, som har noget med deres standard CSS property &lt;code class=&quot;highlighter-rouge&quot;&gt;display:.. &lt;/code&gt; at gøre.&lt;/p&gt;
+  &lt;h3 id=&quot;kurser&quot;&gt;Kurser:&lt;/h3&gt;
 &lt;/blockquote&gt;
-
-&lt;h3 id=&quot;kurser&quot;&gt;Kurser:&lt;/h3&gt;
 
 &lt;ol&gt;
   &lt;li&gt;&lt;a href=&quot;https://www.codecademy.com/learn/learn-html&quot;&gt;HTML kursus - CodeCademy&lt;/a&gt;&lt;/li&gt;
@@ -1192,10 +1199,13 @@ Det er et af de mest udbredte kodesprog i verden (mest aktive på &lt;a href=&qu
 &lt;/blockquote&gt;
 
 &lt;blockquote&gt;
-  &lt;p&gt;&lt;strong&gt;Fif 2:&lt;/strong&gt; Hvis du vil ‘tvinge’ dig selv til at undgå musen, så kan jeg varmt anbefale at købe et &lt;a href=&quot;https://www.therooststand.com/&quot; target=&quot;_blank&quot;&gt;Roosts Stand&lt;/a&gt; og et tilhørende tastatur (min favorit er &lt;a href=&quot;https://www.apple.com/dk/shop/product/MLA22B/A/magic-keyboard-engelsk-storbritannien?fnode=56&quot; target=&quot;_blank&quot;&gt;Apple Keyboard&lt;/a&gt;). Nu mangler du en mus, og du vil automatisk ændre dine vaner. Derudover flytter Roost-stativet din computer op i en højde, så du sidder med ret ryg, når du arbejder.&lt;/p&gt;
+  &lt;p&gt;&lt;strong&gt;Fif 2:&lt;/strong&gt; Hvis du vil ‘tvinge’ dig selv til at undgå musen, så kan jeg varmt anbefale at købe et &lt;a href=&quot;https://www.therooststand.com/&quot; target=&quot;_blank&quot;&gt;Roosts Stand&lt;/a&gt; og et tilhørende tastatur (min favorit er &lt;a href=&quot;https://www.apple.com/dk/shop/product/MLA22B/A/magic-keyboard-engelsk-storbritannien?fnode=56&quot; target=&quot;_blank&quot;&gt;Apple Keyboard&lt;/a&gt;). Nu mangler du en mus, og du vil automatisk ændre dine vaner. Derudover flytter Roost-stativet din computer op i en højde, så du sidder med ret ryg, når du arbejder (se GIF underneden).&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;Alt i alt er DTTM med til at forbedre dit værktøj (computeren), så du bliver hurtigere, oplever færre afbrydelser og skåner dine håndled.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/blogs/roost-stand.gif&quot; alt=&quot;Roost stand example&quot; /&gt;
+&lt;em&gt;GIF’en er lånt af &lt;a href=&quot;https://www.therooststand.com/&quot; target=&quot;_blank&quot;&gt;Roost Stand&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Alt i alt er DTTM med til at forbedre dit værktøj (computeren), så du bliver hurtigere, oplever færre afbrydelser og skåner dine håndled/din ryg.&lt;/p&gt;
 
 &lt;p&gt;God fornøjelse!&lt;/p&gt;
 

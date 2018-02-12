@@ -134,10 +134,13 @@ Efter en måned eller to - du vil være langsommere i starten - vil du skåne di
 
 {% include shortcuts.html %}
 
-> **Fif 2:** Hvis du vil 'tvinge' dig selv til at undgå musen, så kan jeg varmt anbefale at købe et [Roosts Stand](https://www.therooststand.com/){:target="_blank"} og et tilhørende tastatur (min favorit er [Apple Keyboard](https://www.apple.com/dk/shop/product/MLA22B/A/magic-keyboard-engelsk-storbritannien?fnode=56){:target="_blank"}). Nu mangler du en mus, og du vil automatisk ændre dine vaner. Derudover flytter Roost-stativet din computer op i en højde, så du sidder med ret ryg, når du arbejder.
+> **Fif 2:** Hvis du vil 'tvinge' dig selv til at undgå musen, så kan jeg varmt anbefale at købe et [Roosts Stand](https://www.therooststand.com/){:target="_blank"} og et tilhørende tastatur (min favorit er [Apple Keyboard](https://www.apple.com/dk/shop/product/MLA22B/A/magic-keyboard-engelsk-storbritannien?fnode=56){:target="_blank"}). Nu mangler du en mus, og du vil automatisk ændre dine vaner. Derudover flytter Roost-stativet din computer op i en højde, så du sidder med ret ryg, når du arbejder (se GIF underneden).
+
+![Roost stand example]({{ "assets/blogs/roost-stand.gif" || absolute_url }})
+*GIF'en er lånt af [Roost Stand](https://www.therooststand.com/){:target="_blank"}* 
 
 
-Alt i alt er DTTM med til at forbedre dit værktøj (computeren), så du bliver hurtigere, oplever færre afbrydelser og skåner dine håndled.
+Alt i alt er DTTM med til at forbedre dit værktøj (computeren), så du bliver hurtigere, oplever færre afbrydelser og skåner dine håndled/din ryg.
 
 God fornøjelse!
 
