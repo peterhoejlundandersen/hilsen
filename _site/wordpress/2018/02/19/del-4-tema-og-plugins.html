@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+	<link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/assets/favicon-96x96.png">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="/assets/main.css">
+  <link rel="alternate" type="application/rss+xml" title="Hilsen IT" href="/feed.xml">
+	
+  
+	<script src="/assets/js/heading_list.js"></script>
+	
+		<title>Hilsen IT | Del 4 - Get ready for a plugin-party!</title>
+	
+</head>
+
+  <body>
+    <header class="site-header" role="banner">
+
+  <div class="wrapper">
+    
+    
+    <a class="site-title" rel="author" href="/">Hilsen IT</a>
+
+    
+      <nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+              <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+              <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger">
+          
+            
+            
+          
+            
+            
+          
+            
+            
+          
+            
+            
+          
+        </div>
+      </nav>
+    
+  </div>
+</header>
+
+    <main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">Del 4 - Get ready for a plugin-party!</h1>
+    <p class="post-meta">
+      <time class="dt-published" datetime="2018-02-19T00:00:00+01:00" itemprop="datePublished">
+        
+        Feb 19, 2018
+      </time>
+      </p>
+  </header>
+
+	<hr>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <blockquote>
+  <p><strong>Forberedelse:</strong> Åbn din MAMP-server og hjemmeside og log ind. Du kan finde hjælp til dette under <a href="https://hilsen.it/wordpress/2018/02/09/del-3-Wordpress-basics.html#lektier" target="_blank">Lektier i del 3</a>, hvis det er.</p>
+</blockquote>
+
+<blockquote>
+  <p>WordPress fleksibilitet kommer af et kæmpe stort community, som hver dag arbejder hårdt for at vedligeholde de 1000-vis af plugins og temaer, der er mulige at tilføje til din nye hjemmeside. I denne del vil vi komme ind på det meget populære plugin Yoast SEO for at vise et eksempel på, hvordan du kan udvide WordPress’ funktioner og hvor let det er. Derudover vil vi redigere lidt i vores tema og oprette et child-theme, så tema-opdateringer ikke overskriver vores ændringer. Til sidst prøver vi at lave noget udvidet CSS.</p>
+</blockquote>
+
+<h3 id="først-og-fremmest---hvad-er-seo">Først og fremmest - hvad er SEO?</h3>
+
+<p><em>SEO står for Search Engine Optimization og går ud på at optimere din hjemmeside, så det bliver lettere for evt. interesseret at finde dit indhold/hjemmeside på Google, Bing etc.</em></p>
+
+<p>WordPress hjælper med det grundlæggende SEO, men for at få fuld kontrol over, hvad du gerne vil have, at Google viser (vi bruger Google i det her eksempel, da det står for ca. <a href="https://netmarketshare.com/search-engine-market-share.aspx?options=%7B%22filter%22%3A%7B%22%24and%22%3A%5B%7B%22deviceType%22%3A%7B%22%24in%22%3A%5B%22Desktop%2Flaptop%22%2C%22Mobile%22%5D%7D%7D%5D%7D%2C%22dateLabel%22%3A%22Trend%22%2C%22attributes%22%3A%22share%22%2C%22group%22%3A%22searchEngine%22%2C%22sort%22%3A%7B%22share%22%3A-1%7D%2C%22id%22%3A%22searchEnginesDesktop%22%2C%22dateInterval%22%3A%22Monthly%22%2C%22dateStart%22%3A%222017-02%22%2C%22dateEnd%22%3A%222018-01%22%2C%22segments%22%3A%22-1000%22%7D" target="_blank">80% af de søgninger, som bliver foretaget på internettet</a>) bliver du nødt til at udvide dine funktioner. Altså er det tid til at installere vores første plugin!!!</p>
+
+<p><br /></p>
+
+<h3 id="find-dit-plugin-helst-via-google---og-installér-det">Find dit plugin (helst via Google) - og installér det!</h3>
+
+<blockquote>
+  <p>For at installere et plugin, som kan hjælpe os med vores SEO, gå da til <a href="https://www.google.dk/" target="_blank">google.com</a> og tast “WordPress SEO”.</p>
+</blockquote>
+
+<p><em>Man kunne sagtens være gået ind via Backend under punktet i menuen “Plugins”, men det er vigtigt at vide, hvordan man finder plugins via Google og installerer dem den vej, fordi man der kan læse mere om pluginnet og se andres kommentarer. Altså gøre en smule forarbejde i stedet for bare at installere det første og det bedste under Plugins.</em></p>
+
+<blockquote>
+  <p>Gå ind på Yoast’s pluginside (læg mærke til at vi er inde på wordpress.org - dette er et godt tegn på, at det er et <em>trusted</em> plugin) og tryk derefter på den blå knap “Download”.</p>
+</blockquote>
+
+<p>Nu downloader du en zip-fil, der indeholder pluginnets filer, men <strong>pak den ikke ud</strong>. WordPress’ plugin installationen foregår med zip-filer.</p>
+
+<blockquote>
+  <p>Gå ind på din Backend og tryk da på “Plugins” i venstre menu. Tryk derefter på “Tilføj nyt” øverst og upload da din downloaded zip-fil. Nu giver resten sig selv. <strong>Husk at aktiver dit plugin!</strong></p>
+</blockquote>
+
+<p>Nu skulle du gerne se din plugin-liste, hvor Yoast SEO er fremhævet med en lyserblå farve, da det er aktiveret og klar til brug!</p>
+
+<h3 id="yoast-er-installeret---men-hvad-er-så-fedt-ved-det">Yoast er installeret - men hvad er så fedt ved det?</h3>
+
+<blockquote>
+  <p>For at se hvor vildt et plugin kan være, gå da til en af dine sider.</p>
+</blockquote>
+
+<p>Nu skulle du gerne have et ekstra felt under din normale tekstfelt, som ser nogenlunde sådan her ud:</p>
+
+<p><img src="http://localhost:4000/assets/wordpress/yoast-seo.png" alt="SEO Yoast WordPress" /></p>
+
+<blockquote>
+  <p><strong>Spørgsmål:</strong> Hvad tror du det er? Ligner det noget, som du har set før?</p>
+</blockquote>
+
+<p>..</p>
+
+<p>..</p>
+
+<p>..</p>
+
+<p><strong>Ja! Det er Google!</strong></p>
+
+<p>Det er et eksempel på, hvordan denne sides fremvisning ville se ud som et søgeresultat på f.eks. google.com. Den øverste blå overskrift er sidens SEO-titel (overskriften for et søgeresultat) og det nederste er SEO-description (beskrivelsen af linket - hvad indeholder siden?)</p>
+
+<p>I mit tilfælde, hvis jeg havde gjort mig umage og arbejdet hårdt på min hjemmeside i flere år, havde jeg måske ligget højt på søgeord som: “køb hestevogn”, “hestevogn jylland” og “restaurering af hestevogn”. Så kunne jeg altså gå mine sider igennem og skrive en indbydende og beskrivende tekst, så jeg måske fik endnu flere besøgende.</p>
+
+<blockquote>
+  <p><strong>Udfordring</strong> Prøv at rediger i din forhåndsvisning ved at trykke “Redigér snippet”.</p>
+</blockquote>
+
+<p>Yoast SEO giver dig ikke kun mulighed for at redigere i hver af dine siders/indlægs/kategories forhåndsvisning til søgemaskiner, det giver dig også et par fifs med på vejen til, hvordan du gør det bedst og en farvekode for, hvor godt de mener, at du har gjort det, så du let kan få et overblik over hvilke sider/indlæg/kategorier, som mangler en kærlig hånd.</p>
+
+<blockquote>
+  <p><strong>Andre indstillinger:</strong> Indstillinger for Yoast SEO er ude i menuen under “SEO”. Dette er dog ikke altid at indstillinger for et plugin er placeret der. Det afhænger meget af størrelse og funktion. Men oftest vil det være at finde under “Indstillinger” eller have sit eget menupunkt.</p>
+</blockquote>
+
+<p>Vi har desværre ikke tid til at gå mere i dybden med Yoast. Det var et ultrakort indblik i SEO og funktioner, som et plugin kan tilføje din din hjemmeside. Funktioner, som rigtig mange hjemmesider gør brug af. Yoast er eksempelvis <strong>downloadet 40 millioner gange</strong>.</p>
+
+<p><a href="https://yoast.com/wordpress/plugins/seo/" target="_blank">Læs mere om Yoast her, hvis du har lyst</a>.</p>
+
+<h3 id="er-der-en-bagside-af-plugin-medaljen">Er der en bagside af plugin-medaljen?</h3>
+
+<p>Før vi går videre, er det vigtigt at besvare spørgsmålet:</p>
+
+<blockquote>
+  <p><strong>Spørgsmål:</strong> Skal jeg bare installere plugins, så snart jeg mangler en funktion, eller er der en bagside ved det? Gør det noget at have mange plugins installeret?</p>
+</blockquote>
+
+<blockquote>
+  <p><strong>Svar:</strong> Ja, der er en bagside: hastighed og sikkerhed. Mange af de WordPress-hjemmesider, som jeg har taget over efter en anden har haft 5-10 plugins installeret som ikke blev brugt - eller var lette at udskifte med få linjer kode. Efter at de var fjernet/tilpasset blev hjemmesiden hurtigere og lettere at navigere i.</p>
+</blockquote>
+
+<p>Derudover er nogle plugins så dårligt kodet, at de kan være en trussel mod din sikkerhed, men det er sjældent - så længe, at du sørger for at opdatere dine plugins regelmæssigt.</p>
+
+<p><strong>Installér kun et plugin, hvis det er højest nødvendigt og husk at afinstallere det igen</strong>, hvis du ikke bruger det længere.</p>
+
+<h2 id="tema---hvad-nu">Tema - hvad nu?</h2>
+
+<blockquote>
+  <p>Dit tema Twenty Seventeen, som er installeret på din side, er et meget simpelt tema med få funktioner og muligheder. Det er et godt startsted, så du ikke bliver overvældet første gang, at du åbner et tema op som f.eks. <a href="https://themeforest.net/item/avada-responsive-multipurpose-theme/2833226" target="_blank">Avada</a>, <a href="https://themeforest.net/item/enfold-responsive-multipurpose-theme/4519990" target="_blank">Enfold</a> eller <a href="https://themeforest.net/item/x-the-theme/5871901" target="_blank">X theme</a> (tre meget populære og funktionelle temaer med page-builders fra <a href="https://themeforest.net" target="_blank">Themeforest</a>)</p>
+</blockquote>
+
+<p>Ved de større temaer er der oftest også et menupunkt kun til det (ligesom med pluginnet Yoast SEO). I Twenty Seventeen’s tilfælde forholder det sig ikke ådan, og vi skal her gå til Udseende &gt; Tilpas &gt; Temaindstillinger for at få mulighed for at ændre på indstillingerne.</p>
+
+<p>Her har du mulighed for at vælge en side til hver af felterne på forsiden.</p>
+
+<blockquote>
+  <p><strong>Udfordring 1:</strong> Gå til sider og opret en ny side, som skal være en del af din forside. Find et billede på over 1000 px i bredden, som du tænker vil passe godt til din side og upload det under “Udvalgt billede” (oftest nederst i højre hjørne af din sides redigeringsvindue).</p>
+</blockquote>
+
+<blockquote>
+  <p><strong>Udfordring 2:</strong> Gå nu tilbage til Tilpas &gt; Temaindstillinger og vælg din nyoprettet side som øverste del af din forside. Tryk “Udgiv” og besøg derefter forsiden. Hvad ser du?</p>
+</blockquote>
+
+<p>Temaet giver dig altså mulighed for at bruge sider og siders udvalgte billede som moduler til din forside. Det kan i sidste ende skabe en flot og lang forside, hvor du kan scrolle igennem forskellige emner og billeder. Et eksempel på en funktion, som er indbygget i temaet.</p>
+
+<h2 id="childtheme---hvorfor-er-det-vigtigt">Childtheme - hvorfor er det vigtigt?</h2>
+
+<blockquote>
+  <p>Måske husker du afsnittet <a href="https://hilsen.it/wordpress/2018/02/03/del-2.html#parent-og-child---ja-det-bliver-brugt-til-at-forklare-koder" target="_blank">Parent og child? - ja, det bliver brugt til at forklare koder</a> fra del 2. Dette brug af ordet <em>child</em> er ikke helt det samme, men et child-theme har på samme måde en parent, som i dette tilfælde er vores allerede eksisterende tema Twenty Seventeen.</p>
+</blockquote>
+
+<p>Vi vil altså gerne give vores parent-theme Twenty Seventeen en overbygning (vores child), hvor vi kan være sikre på, at evt. ændringer i parent temaet ikke overskriver vores ændringer i child-temaet.</p>
+
+<p><em>Ændringer i parent theme består oftest af en opdatering. Det er helt afhængigt af hvilket tema og hvilke udvikler, der står bag, hvor ofte dette vil ske. Hvis du har lavet ændringer direkte i dit parent temas filer, så vil en opdatering overskrive de ændringer. <strong>Det går ikke!</strong></em></p>
+
+<p>Måske et billede vil hjælpe lidt med forklaringen:</p>
+
+<p><img src="http://localhost:4000/assets/wordpress/child-theme.png" alt="Child theme Wordpress" target="_blank" /></p>
+
+<p>WordPress leder altså først efter filer i dit child tema og du kan derfor overskrive filer i dit parent-tema. F.eks. filen <code class="highlighter-rouge">style.css</code>. Hvis du lægger den i dit child-theme vil den overskrive dit parent-themes <code class="highlighter-rouge">style.css</code>.</p>
+
+<p><strong>Note:</strong> Det er svært at forstå child-theme som nybegynder i WordPress. Det vigtigste lige nu er at forstå, at det overskriver parent-theme og derfor ikke bliver påvirket på opdateringer. <strong>Det er derfor en god vane at sætte et child-theme op, hver gang at man starter en ny WordPress side.</strong></p>
+
+<blockquote>
+  <p><strong>Bonusspørgsmål:</strong> Hvad er ulempen ved child-theme? Hvad er det, som det ikke bliver?</p>
+</blockquote>
+
+<h3 id="oprettelse-af-child-theme">Oprettelse af child-theme</h3>
+
+<blockquote>
+  <p>Istedet for at gøre det direkte i koden, så kan man installere et plugin, som gør det for en.</p>
+</blockquote>
+
+<blockquote>
+  <p><strong>Udfordring 1:</strong> Installer pluginnet <a href="https://da.wordpress.org/plugins/one-click-child-theme/" target="_blank">One-Click Child Theme</a> helt selv! <strong>Husk at aktivere det!</strong></p>
+</blockquote>
+
+<blockquote>
+  <p><strong>Udfordring 2:</strong> Find indstillingerne til pluginnet (det ligger ikke der, hvor jeg tidligere fortalte at plugin-indstillinger oftest gør) og skriv “Twenty Seventeen Child” i navn. Generer derefter et child-theme.</p>
+</blockquote>
+
+<p>Efter at dit child-theme er aktiveret kan du tilgå dine filer ved at gå til Udseende &gt; Editor. Her har du et bedre vindue til at redigere i CSS og har også en ekstra fil <code class="highlighter-rouge">functions.php</code>, som vi kommer til at arbejde i næste gang.</p>
+
+<p>Lad os afprøve vores nye CSS-vindue. Tid til en udfordring mere:</p>
+
+<blockquote>
+  <p><strong>CSS udfordring:</strong> Kunne det ikke være fedt, hvis din menu havde en anden baggrundsfarve og tekstfarve? Ændre deres CSS i din nye editor.</p>
+</blockquote>
+
+<blockquote>
+  <p><strong>FIF:</strong> Brug værktøjet fra del 3 <a href="https://hilsen.it/wordpress/2018/02/09/del-3-Wordpress-basics.html#det-er-stadig-html-og-css---inspect-det-for-at-se" target="_blank">Det er stadig HTML og CSS - Inspect det for at se</a> for at finde CSS klassen.</p>
+</blockquote>
+
+<p>Disse ændringer vil ikke blive overskrevet af en opdatering. Det var de blevet, hvis du havde lagt dem i dit parents-themes <code class="highlighter-rouge">style.css</code>. <strong>Sådan! Godt gået!</strong> Nu kan du opdatere så tosset som du vil!</p>
+
+<h2 id="hvad-med-effekten-når-jeg-holder-musen-over-et-menupunkt-advanceret-css">Hvad med effekten, når jeg holder musen over et menupunkt? (Advanceret CSS)</h2>
+
+<p>Kommer snart</p>
+
+
+  </div>
+
+		
+			<div class="hilsen-pagination">
+	
+	<a class="blue-highlight hilsen-prev" href="/wordpress/2018/02/09/del-3-Wordpress-basics.html">&#8592; Del 3 - WordPress... The basics</a>
+	
+	
+</div>
+
+
+		
+
+  <a class="u-url" href="/wordpress/2018/02/19/del-4-tema-og-plugins.html" hidden></a>
+</article>
+
+      <div>
+    </main>
+  </body>
+  <a class="site-title" rel="author" href="/">Hilsen IT</a>
+	<div class="site-title-footer"></div>
+</html>
