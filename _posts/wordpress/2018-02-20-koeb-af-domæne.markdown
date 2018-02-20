@@ -14,7 +14,7 @@ F.eks. er prisen på et .dk domæne på [One.com](https://www.one.com/da/){:targ
 
 Nej. 5 GB i hjemmesideverden for nye sider er rigtig meget. Husk på at man ikke uploader tunge billeder eller har en masse bras liggende på en server, som man aldrig får brugt. Man optimerer og har kun det mest nødvendige liggende. Hvis du har planer om at starte det nye Facebook, så er det selvfølgelig **nothing**, men normale behov: portfolier, kontaktsider og mindre webshops har sjældent brug for mere.
 
-### Lad os komme igang - ? step til køb af domæne
+### Lad os komme igang - 10 step til køb af domæne
 
 <br>
 *Gå først til [WebHosting's hjemmeside](https://www.webhosting.dk/){:target="_blank"}*
