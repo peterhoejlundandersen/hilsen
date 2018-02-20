@@ -61,7 +61,7 @@ Tryk derefter "Tryk her for at acceptere ordre", hvis du ikke har flere indvendi
 > Husk at vælg et kodeord, som du ikke har andre stedet og som er sikkert. Man kan gøre uoprettelig skade på din hjemmeside/hjemmesider ved at få adgang til din server.
 
 <br>
-**7.** Når du har gjort det, log da ind. Nu vil du se, at din odre stadig er gemt og at du kan tryk "Gå til betaling/overfør til ordresystem"
+**7.** Når du har gjort det, log da ind. Nu vil du se, at din ordre stadig er gemt og at du kan tryk "Gå til betaling/overfør til ordresystem"
 
 ![Sidste step]({{ "assets/wordpress/gaatil.png" || absolute_url }})
 
@@ -95,7 +95,10 @@ Her kan du aktivere dit domæne.
 <br>
 **10.** Nyd din nye plads på internettet!
 
-Inden for 24 timer vil du nu have dit helt eget domæne på THE BIG WORLD WIDE WEB! **Tillykke med det!**
+
+Inden for 24 timer vil du nu have dit helt eget domæne på THE BIG WORLD WIDE WEB!
+
+**Tillykke med det!**
 
 
 
