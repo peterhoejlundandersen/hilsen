@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-02-24T11:03:48+01:00</updated><id>http://localhost:4000/</id><title type="html">Hilsen IT</title><subtitle>Designer hjemmesider med et sikkert fundament i Ruby on Rails, Jekyll og Angular</subtitle><entry><title type="html">Del 5 - Skub op! - Afslutning</title><link href="http://localhost:4000/wordpress/2018/02/23/del-5-skub-op.html" rel="alternate" type="text/html" title="Del 5 - Skub op! - Afslutning" /><published>2018-02-23T00:00:00+01:00</published><updated>2018-02-23T00:00:00+01:00</updated><id>http://localhost:4000/wordpress/2018/02/23/del-5-skub-op</id><content type="html" xml:base="http://localhost:4000/wordpress/2018/02/23/del-5-skub-op.html">&lt;blockquote&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-02-24T12:35:48+01:00</updated><id>http://localhost:4000/</id><title type="html">Hilsen IT</title><subtitle>Designer hjemmesider med et sikkert fundament i Ruby on Rails, Jekyll og Angular</subtitle><entry><title type="html">Del 5 - Skub op! - Afslutning</title><link href="http://localhost:4000/wordpress/2018/02/23/del-5-skub-op.html" rel="alternate" type="text/html" title="Del 5 - Skub op! - Afslutning" /><published>2018-02-23T00:00:00+01:00</published><updated>2018-02-23T00:00:00+01:00</updated><id>http://localhost:4000/wordpress/2018/02/23/del-5-skub-op</id><content type="html" xml:base="http://localhost:4000/wordpress/2018/02/23/del-5-skub-op.html">&lt;blockquote&gt;
   &lt;p&gt;I den sidste del, da skal vi se på, hvordan vi skubber vores lokale miljø op på et domæne. Hvis du har fulgt &lt;a href=&quot;https://hilsen.it/wordpress/2018/02/20/koeb-af-dom%C3%A6ne.html&quot; target=&quot;_blank&quot;&gt;Køb af domæne …&lt;/a&gt;, har du mulighed for at skubbe det op på det købte. Hvis ikke, så kan du nu følge mit eksempel.&lt;/p&gt;
 &lt;/blockquote&gt;
 
@@ -28,7 +28,9 @@
   &lt;p&gt;FTP er din adgang til dit domæne. Altså der, hvor du kan ændre, overskriver, fjerne filer/mapper - der hvor du kan se, hvad der ligger på din hjemmeside. Du vil snart se, at mappestrukturen og oversigten minder meget om den som i f.eks. Finder på Mac.&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;&lt;strong&gt;1.&lt;/strong&gt; Du starter med at logge ind på din bruger på &lt;a href=&quot;https://www.webhosting.dk/&quot; target=&quot;_blank&quot;&gt;Webhosting.dk&lt;/a&gt;. Her får du en oversigt over dine/dit domæner/domæne. Tryk derefter på det, som du vil sætte din FTP op med.&lt;/p&gt;</content><author><name></name></author><category term="wordpress" /><summary type="html">I den sidste del, da skal vi se på, hvordan vi skubber vores lokale miljø op på et domæne. Hvis du har fulgt Køb af domæne …, har du mulighed for at skubbe det op på det købte. Hvis ikke, så kan du nu følge mit eksempel.</summary></entry><entry><title type="html">Køb af domæne - webhosting.dk 4 life &amp;lt;3</title><link href="http://localhost:4000/wordpress/2018/02/20/koeb-af-dom%C3%A6ne.html" rel="alternate" type="text/html" title="Køb af domæne - webhosting.dk 4 life &lt;3" /><published>2018-02-20T00:00:00+01:00</published><updated>2018-02-20T00:00:00+01:00</updated><id>http://localhost:4000/wordpress/2018/02/20/koeb-af-dom%C3%A6ne</id><content type="html" xml:base="http://localhost:4000/wordpress/2018/02/20/koeb-af-dom%C3%A6ne.html">&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;1.&lt;/strong&gt; Du starter med at logge ind på din bruger på &lt;a href=&quot;https://www.webhosting.dk/&quot; target=&quot;_blank&quot;&gt;Webhosting.dk&lt;/a&gt;. Her får du en oversigt over dine/dit domæner/domæne. Tryk derefter på det, som du vil sætte din FTP op med.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Resten kommer snart&lt;/strong&gt;&lt;/p&gt;</content><author><name></name></author><category term="wordpress" /><summary type="html">I den sidste del, da skal vi se på, hvordan vi skubber vores lokale miljø op på et domæne. Hvis du har fulgt Køb af domæne …, har du mulighed for at skubbe det op på det købte. Hvis ikke, så kan du nu følge mit eksempel.</summary></entry><entry><title type="html">Køb af domæne - webhosting.dk 4 life &amp;lt;3</title><link href="http://localhost:4000/wordpress/2018/02/20/koeb-af-dom%C3%A6ne.html" rel="alternate" type="text/html" title="Køb af domæne - webhosting.dk 4 life &lt;3" /><published>2018-02-20T00:00:00+01:00</published><updated>2018-02-20T00:00:00+01:00</updated><id>http://localhost:4000/wordpress/2018/02/20/koeb-af-dom%C3%A6ne</id><content type="html" xml:base="http://localhost:4000/wordpress/2018/02/20/koeb-af-dom%C3%A6ne.html">&lt;blockquote&gt;
   &lt;p&gt;Dette er et lille sidespring fra WordPress guiden, hvor du får hjælp til at købe et domæne og sætte det op. Der er mange penge og især timer at spare!&lt;/p&gt;
 &lt;/blockquote&gt;
 
@@ -289,7 +291,84 @@ Tryk derefter “Tryk her for at acceptere ordre”, hvis du ikke har flere indv
 
 &lt;h2 id=&quot;hvad-med-effekten-når-jeg-holder-musen-over-et-menupunkt-advanceret-css&quot;&gt;Hvad med effekten, når jeg holder musen over et menupunkt? (Advanceret CSS)&lt;/h2&gt;
 
-&lt;p&gt;Kommer snart&lt;/p&gt;</content><author><name></name></author><category term="wordpress" /><summary type="html">Forberedelse: Åbn din MAMP-server og hjemmeside og log ind. Du kan finde hjælp til dette under Lektier i del 3, hvis det er.</summary></entry><entry><title type="html">Del 3 - WordPress… The basics</title><link href="http://localhost:4000/wordpress/2018/02/09/del-3-Wordpress-basics.html" rel="alternate" type="text/html" title="Del 3 - WordPress... The basics" /><published>2018-02-09T00:00:00+01:00</published><updated>2018-02-09T00:00:00+01:00</updated><id>http://localhost:4000/wordpress/2018/02/09/del-3-Wordpress-basics</id><content type="html" xml:base="http://localhost:4000/wordpress/2018/02/09/del-3-Wordpress-basics.html">&lt;blockquote&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;En CSS-del, som vi ikke har dækket endnu, hedder: pseudo-styling. Tænk på det, som en overbygning af en CSS-klasse. Altså kan man udover at have en klasse såsom &lt;code class=&quot;highlighter-rouge&quot;&gt;.container {...}&lt;/code&gt; sætte en pseudo-klasse efter, f.eks.: &lt;code class=&quot;highlighter-rouge&quot;&gt;.container:hover {...}&lt;/code&gt;. &lt;code class=&quot;highlighter-rouge&quot;&gt;:hover&lt;/code&gt; er en pseudo-klasse, som bestemmer hvilken CSS en CSS-klasse skal have, når man holder musen over den (hover).&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;strong&gt;Eksempel:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;style type=&quot;text/css&quot;&gt;
+
+.knappen {
+  width: 100px;
+  height: 20px;
+  background-color: green; 
+}
+.knappen:hover {
+  background-color: red;
+}
+
+&lt;/style&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-css&quot; data-lang=&quot;css&quot;&gt;&lt;span class=&quot;nc&quot;&gt;.knappen&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;nl&quot;&gt;width&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;100px&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;nl&quot;&gt;height&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;20px&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;nl&quot;&gt;background-color&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;green&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; 
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;nc&quot;&gt;.knappen&lt;/span&gt;&lt;span class=&quot;nd&quot;&gt;:hover&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;nl&quot;&gt;background-color&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;red&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Og knappen vil så opføre sig såden her (prøv at hold musen over)&lt;/p&gt;
+
+&lt;div class=&quot;knappen&quot;&gt;Knappen&lt;/div&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;style type=&quot;text/css&quot;&gt;
+
+.example-link:link {
+    color: green;
+}
+.example-link:visited {
+    color: red!important;
+}
+.example-link:active {
+    color: yellow;
+}
+
+&lt;/style&gt;
+
+&lt;p&gt;Der findes også andre pseudo-klasser, selvom  &lt;code class=&quot;highlighter-rouge&quot;&gt;:hover&lt;/code&gt; nok er den, som i vil arbejde mest med.&lt;/p&gt;
+
+&lt;p&gt;F.eks.:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-css&quot; data-lang=&quot;css&quot;&gt;&lt;span class=&quot;c&quot;&gt;/* et link, som er ikke er blevet besøgt endnu (klikket på) */&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;nd&quot;&gt;:link&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;nl&quot;&gt;color&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;green&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;c&quot;&gt;/* et link, som er blevet besøgt (trykket på) */&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;nd&quot;&gt;:visited&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;nl&quot;&gt;color&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;red&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;c&quot;&gt;/* et link, der er i fokus (f.eks. ved at bruge TAB som navigation ) */&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;nd&quot;&gt;:active&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;nl&quot;&gt;color&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;yellow&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Underneden er et link. Prøv at tryk på det (det åbner google), og gå tilbage til siden igen. Se nu hvordan det har ændret farve. Du kan se &lt;code class=&quot;highlighter-rouge&quot;&gt;:active&lt;/code&gt; ved at holde musen nede på linket.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.google.dk/&quot; class=&quot;example-link&quot; target=&quot;_blank&quot;&gt;TRYK PÅ MIG&lt;/a&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Prøv at ændre din menu, så den viser en anden baggrund, når man holder musen over. Eller måske skal en besøgende kunne se, når de har besøgt et link?&lt;/p&gt;
+&lt;/blockquote&gt;</content><author><name></name></author><category term="wordpress" /><summary type="html">Forberedelse: Åbn din MAMP-server og hjemmeside og log ind. Du kan finde hjælp til dette under Lektier i del 3, hvis det er.</summary></entry><entry><title type="html">Del 3 - WordPress… The basics</title><link href="http://localhost:4000/wordpress/2018/02/09/del-3-Wordpress-basics.html" rel="alternate" type="text/html" title="Del 3 - WordPress... The basics" /><published>2018-02-09T00:00:00+01:00</published><updated>2018-02-09T00:00:00+01:00</updated><id>http://localhost:4000/wordpress/2018/02/09/del-3-Wordpress-basics</id><content type="html" xml:base="http://localhost:4000/wordpress/2018/02/09/del-3-Wordpress-basics.html">&lt;blockquote&gt;
   &lt;p&gt;Så kom vi endelig til det… WordPress. Det største CMS-system i verden. &lt;a href=&quot;https://w3techs.com/blog/entry/wordpress-powers-25-percent-of-all-websites&quot; target=&quot;_blank&quot;&gt;25% af alle hjemmesider&lt;/a&gt; (på the whiteweb) er &lt;em&gt;powered by&lt;/em&gt; WordPress. Men hvad er et CMS-system, og hvorfor er der så mange millioner af hjemmesider, som bruger det? Det kommer vi til nu!&lt;/p&gt;
 &lt;/blockquote&gt;
 

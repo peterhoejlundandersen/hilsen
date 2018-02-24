@@ -132,8 +132,87 @@ Disse ændringer vil ikke blive overskrevet af en opdatering. Det var de blevet,
 
 ## Hvad med effekten, når jeg holder musen over et menupunkt? (Advanceret CSS)
 
-Kommer snart
+> En CSS-del, som vi ikke har dækket endnu, hedder: pseudo-styling. Tænk på det, som en overbygning af en CSS-klasse. Altså kan man udover at have en klasse såsom `.container {...}` sætte en pseudo-klasse efter, f.eks.: `.container:hover {...}`. `:hover` er en pseudo-klasse, som bestemmer hvilken CSS en CSS-klasse skal have, når man holder musen over den (hover).
 
+**Eksempel:**
+
+<style type="text/css">
+
+.knappen {
+  width: 100px;
+  height: 20px;
+  background-color: green; 
+}
+.knappen:hover {
+  background-color: red;
+}
+
+</style>
+
+{% highlight css %}
+.knappen {
+  width: 100px;
+  height: 20px;
+  background-color: green; 
+}
+.knappen:hover {
+  background-color: red;
+}
+{% endhighlight %}
+
+Og knappen vil så opføre sig såden her (prøv at hold musen over)
+
+<div class="knappen">Knappen</div>
+
+
+<br>
+
+-----------------
+
+
+<br>
+
+<style type="text/css">
+
+.example-link:link {
+    color: green;
+}
+.example-link:visited {
+    color: red!important;
+}
+.example-link:active {
+    color: yellow;
+}
+
+</style>
+
+Der findes også andre pseudo-klasser, selvom  `:hover` nok er den, som i vil arbejde mest med.
+
+F.eks.:
+{% highlight css %}
+
+/* et link, som er ikke er blevet besøgt endnu (klikket på) */
+a:link {
+    color: green;
+}
+
+/* et link, som er blevet besøgt (trykket på) */
+a:visited {
+    color: red;
+}
+
+/* et link, der er i fokus (f.eks. ved at bruge TAB som navigation ) */
+a:active {
+    color: yellow;
+}
+
+{% endhighlight %}
+
+Underneden er et link. Prøv at tryk på det (det åbner google), og gå tilbage til siden igen. Se nu hvordan det har ændret farve. Du kan se `:active` ved at holde musen nede på linket.
+
+<a href="https://www.google.dk/" class="example-link" target="_blank">TRYK PÅ MIG</a>
+
+> Prøv at ændre din menu, så den viser en anden baggrund, når man holder musen over. Eller måske skal en besøgende kunne se, når de har besøgt et link?
 
 
 

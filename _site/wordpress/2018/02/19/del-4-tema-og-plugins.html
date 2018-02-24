@@ -239,7 +239,84 @@
 
 <h2 id="hvad-med-effekten-når-jeg-holder-musen-over-et-menupunkt-advanceret-css">Hvad med effekten, når jeg holder musen over et menupunkt? (Advanceret CSS)</h2>
 
-<p>Kommer snart</p>
+<blockquote>
+  <p>En CSS-del, som vi ikke har dækket endnu, hedder: pseudo-styling. Tænk på det, som en overbygning af en CSS-klasse. Altså kan man udover at have en klasse såsom <code class="highlighter-rouge">.container {...}</code> sætte en pseudo-klasse efter, f.eks.: <code class="highlighter-rouge">.container:hover {...}</code>. <code class="highlighter-rouge">:hover</code> er en pseudo-klasse, som bestemmer hvilken CSS en CSS-klasse skal have, når man holder musen over den (hover).</p>
+</blockquote>
+
+<p><strong>Eksempel:</strong></p>
+
+<style type="text/css">
+
+.knappen {
+  width: 100px;
+  height: 20px;
+  background-color: green; 
+}
+.knappen:hover {
+  background-color: red;
+}
+
+</style>
+
+<figure class="highlight"><pre><code class="language-css" data-lang="css"><span class="nc">.knappen</span> <span class="p">{</span>
+  <span class="nl">width</span><span class="p">:</span> <span class="m">100px</span><span class="p">;</span>
+  <span class="nl">height</span><span class="p">:</span> <span class="m">20px</span><span class="p">;</span>
+  <span class="nl">background-color</span><span class="p">:</span> <span class="no">green</span><span class="p">;</span> 
+<span class="p">}</span>
+<span class="nc">.knappen</span><span class="nd">:hover</span> <span class="p">{</span>
+  <span class="nl">background-color</span><span class="p">:</span> <span class="no">red</span><span class="p">;</span>
+<span class="p">}</span></code></pre></figure>
+
+<p>Og knappen vil så opføre sig såden her (prøv at hold musen over)</p>
+
+<div class="knappen">Knappen</div>
+
+<p><br /></p>
+
+<hr />
+
+<p><br /></p>
+
+<style type="text/css">
+
+.example-link:link {
+    color: green;
+}
+.example-link:visited {
+    color: red!important;
+}
+.example-link:active {
+    color: yellow;
+}
+
+</style>
+
+<p>Der findes også andre pseudo-klasser, selvom  <code class="highlighter-rouge">:hover</code> nok er den, som i vil arbejde mest med.</p>
+
+<p>F.eks.:</p>
+
+<figure class="highlight"><pre><code class="language-css" data-lang="css"><span class="c">/* et link, som er ikke er blevet besøgt endnu (klikket på) */</span>
+<span class="nt">a</span><span class="nd">:link</span> <span class="p">{</span>
+    <span class="nl">color</span><span class="p">:</span> <span class="no">green</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="c">/* et link, som er blevet besøgt (trykket på) */</span>
+<span class="nt">a</span><span class="nd">:visited</span> <span class="p">{</span>
+    <span class="nl">color</span><span class="p">:</span> <span class="no">red</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="c">/* et link, der er i fokus (f.eks. ved at bruge TAB som navigation ) */</span>
+<span class="nt">a</span><span class="nd">:active</span> <span class="p">{</span>
+    <span class="nl">color</span><span class="p">:</span> <span class="no">yellow</span><span class="p">;</span>
+<span class="p">}</span></code></pre></figure>
+
+<p>Underneden er et link. Prøv at tryk på det (det åbner google), og gå tilbage til siden igen. Se nu hvordan det har ændret farve. Du kan se <code class="highlighter-rouge">:active</code> ved at holde musen nede på linket.</p>
+
+<p><a href="https://www.google.dk/" class="example-link" target="_blank">TRYK PÅ MIG</a></p>
+
+<blockquote>
+  <p>Prøv at ændre din menu, så den viser en anden baggrund, når man holder musen over. Eller måske skal en besøgende kunne se, når de har besøgt et link?</p>
+</blockquote>
 
 
   </div>
