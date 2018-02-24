@@ -6,7 +6,7 @@ category: wordpress
 
 > Dette er et lille sidespring fra WordPress guiden, hvor du får hjælp til at købe et domæne og sætte det op. Der er mange penge og især timer at spare!
 
-Mit bedste råd er at gøre brug af [webhosting.dk](https://www.webhosting.dk/){:target="_blank"}. Selvom deres hjemmeside ligner noget fra 90'erne, så er de billige og deres service er i top. Du kan tjekke [TrustPilot](https://dk.trustpilot.com/review/www.webhosting.dk){:target="_blank"}, hvis du ikke tror på mig. 
+Mit bedste råd er at gøre brug af [webhosting.dk](https://www.webhosting.dk/){:target="_blank"}. Selvom deres hjemmeside ligner noget fra 90'erne, så er de billige og deres service er i top. Du kan tjekke [TrustPilot](https://dk.trustpilot.com/review/www.webhosting.dk){:target="_blank"}, hvis du vil læse mere.
 
 F.eks. er prisen på et .dk domæne på [One.com](https://www.one.com/da/){:target="_blank"} (f.eks. hestevogneerfede.dk) med 25 GB plads **420 kr.** mens tidligere nævnte giver dig en pakke med 5 GB plads til **256 kr.**. 
 
@@ -99,18 +99,4 @@ Her kan du aktivere dit domæne.
 Inden for 24 timer vil du nu have dit helt eget domæne på THE BIG WORLD WIDE WEB!
 
 **Tillykke med det!**
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 

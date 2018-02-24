@@ -1,0 +1,37 @@
+---
+layout: blog
+title:  "Del 5 - Skub op! - Afslutning"
+category: wordpress
+---
+
+> I den sidste del, da skal vi se på, hvordan vi skubber vores lokale miljø op på et domæne. Hvis du har fulgt [Køb af domæne ...](https://hilsen.it/wordpress/2018/02/20/koeb-af-dom%C3%A6ne.html){:target="_blank"}, har du mulighed for at skubbe det op på det købte. Hvis ikke, så kan du nu følge mit eksempel.
+
+Et domæne er din plads på internettet. F.eks. dette domæne: www.hilsen.it. Det kan forklares som en mappe, der ligger online. Altså er der filer og en mappestruktur, ligesom på din computer.
+
+## WordPress er 'bare' en mappe, som vi skal have op på en server
+
+WordPress er en mappe med forskellige filer. Hvis du f.eks. åbner en WordPress installation [(Den vi downloadede i Installation af mamp 5.)](https://hilsen.it/wordpress/2018/02/09/del-3-Wordpress-basics.html#installation-og-opsætning-af-lokalt-miljø-til-mac){:target="_blank"} ser det nogenlunde sådan her ud: 
+
+![Wordpress Folder Structure]({{ "assets/wordpress/wordpress-folder.png" || absolute_url }})
+
+> En masse filer og 3 mapper. Det vigtigste lige nu er at forstå, at det er en struktur ligesom på en computer og der derved også kan overskrives, flyttes og fjernes filer/mapper. **wp-content mappen indeholder dit temaer og dine plugins**. 
+
+Når vi arbejder lokalt, **så ændrer vi og tilføjer oftest kun i wp-content mappen**. Men andre ændringer bliver også lavet i foreksempel `wp-includes/images/`, hvor vores billeder ligger. Dem skal vi også have med.
+
+
+## Installation af WordPress på server
+
+> Installationen på dit domænes server minder meget om, hvad vi gik igennem i [Del 3, installation af lokalt miljø](https://hilsen.it/wordpress/2018/02/09/del-3-Wordpress-basics.html#installation-og-opsætning-af-lokalt-miljø-til-mac){:target="_blank"}. Her er det bare **ekstra vigtigt, at vi er meget opmærksomme på vores sikkerhed (kodeord og databaseopsætning), da de nu er åbne for hele verden!** Vi vil først sætte WordPress op på din server via FTP. Men hvad er det?
+
+### FTP - Din adgang til din server
+
+> FTP er din adgang til dit domæne. Altså der, hvor du kan ændre, overskriver, fjerne filer/mapper - der hvor du kan se, hvad der ligger på din hjemmeside. Du vil snart se, at mappestrukturen og oversigten minder meget om den som i f.eks. Finder på Mac.
+
+**1.** Du starter med at logge ind på din bruger på [Webhosting.dk](https://www.webhosting.dk/){:target="_blank"}. Her får du en oversigt over dine/dit domæner/domæne. Tryk derefter på det, som du vil sætte din FTP op med.
+
+
+
+
+
+
+
