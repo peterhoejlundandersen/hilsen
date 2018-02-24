@@ -178,7 +178,7 @@ Og knappen vil så opføre sig såden her (prøv at hold musen over)
     color: green;
 }
 .example-link:visited {
-    color: red!important;
+    color: red;
 }
 .example-link:active {
     color: yellow;
