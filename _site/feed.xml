@@ -1,36 +1,250 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-02-24T12:35:48+01:00</updated><id>http://localhost:4000/</id><title type="html">Hilsen IT</title><subtitle>Designer hjemmesider med et sikkert fundament i Ruby on Rails, Jekyll og Angular</subtitle><entry><title type="html">Del 5 - Skub op! - Afslutning</title><link href="http://localhost:4000/wordpress/2018/02/23/del-5-skub-op.html" rel="alternate" type="text/html" title="Del 5 - Skub op! - Afslutning" /><published>2018-02-23T00:00:00+01:00</published><updated>2018-02-23T00:00:00+01:00</updated><id>http://localhost:4000/wordpress/2018/02/23/del-5-skub-op</id><content type="html" xml:base="http://localhost:4000/wordpress/2018/02/23/del-5-skub-op.html">&lt;blockquote&gt;
-  &lt;p&gt;I den sidste del, da skal vi se på, hvordan vi skubber vores lokale miljø op på et domæne. Hvis du har fulgt &lt;a href=&quot;https://hilsen.it/wordpress/2018/02/20/koeb-af-dom%C3%A6ne.html&quot; target=&quot;_blank&quot;&gt;Køb af domæne …&lt;/a&gt;, har du mulighed for at skubbe det op på det købte. Hvis ikke, så kan du nu følge mit eksempel.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-02-28T11:21:49+01:00</updated><id>http://localhost:4000/</id><title type="html">Hilsen IT</title><subtitle>Designer hjemmesider med et sikkert fundament i Ruby on Rails, Jekyll og Angular</subtitle><entry><title type="html">Del 5 - Skub op! - Afslutning</title><link href="http://localhost:4000/wordpress/2018/02/23/del-5-skub-op.html" rel="alternate" type="text/html" title="Del 5 - Skub op! - Afslutning" /><published>2018-02-23T00:00:00+01:00</published><updated>2018-02-23T00:00:00+01:00</updated><id>http://localhost:4000/wordpress/2018/02/23/del-5-skub-op</id><content type="html" xml:base="http://localhost:4000/wordpress/2018/02/23/del-5-skub-op.html">&lt;blockquote&gt;
+  &lt;p&gt;I den sidste del, da skal vi se på, hvordan vi skubber vores lokale miljø op på et domæne. Hvis du har fulgt &lt;a href=&quot;https://hilsen.it/wordpress/2018/02/20/koeb-af-dom%C3%A6ne.html&quot; target=&quot;_blank&quot;&gt;Køb af domæne …&lt;/a&gt;, har du mulighed for at skubbe det op på det købte. Hvis ikke, så kan du se, hvordan jeg skubber det op på mit.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;Skubbe op&lt;/strong&gt; er et udtryk jeg bruger om at flytte noget lokalt(fra din computer) ‘op’ på internettet.&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;p&gt;Et domæne er din plads på internettet. F.eks. dette domæne: www.hilsen.it. Det kan forklares som en mappe, der ligger online. Altså er der filer og en mappestruktur, ligesom på din computer.&lt;/p&gt;
 
-&lt;h2 id=&quot;wordpress-er-bare-en-mappe-som-vi-skal-have-op-på-en-server&quot;&gt;WordPress er ‘bare’ en mappe, som vi skal have op på en server&lt;/h2&gt;
+&lt;h2 id=&quot;wordpress-er-bare-en-mappe-som-vi-skal-have-op-på-et-webhotel&quot;&gt;WordPress er ‘bare’ en mappe, som vi skal have op på et webhotel&lt;/h2&gt;
 
 &lt;p&gt;WordPress er en mappe med forskellige filer. Hvis du f.eks. åbner en WordPress installation &lt;a href=&quot;https://hilsen.it/wordpress/2018/02/09/del-3-Wordpress-basics.html#installation-og-opsætning-af-lokalt-miljø-til-mac&quot; target=&quot;_blank&quot;&gt;(Den vi downloadede i Installation af mamp 5.)&lt;/a&gt; ser det nogenlunde sådan her ud:&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/wordpress/wordpress-folder.png&quot; alt=&quot;Wordpress Folder Structure&quot; /&gt;&lt;/p&gt;
 
 &lt;blockquote&gt;
-  &lt;p&gt;En masse filer og 3 mapper. Det vigtigste lige nu er at forstå, at det er en struktur ligesom på en computer og der derved også kan overskrives, flyttes og fjernes filer/mapper. &lt;strong&gt;wp-content mappen indeholder dit temaer og dine plugins&lt;/strong&gt;.&lt;/p&gt;
+  &lt;p&gt;En masse filer og 3 mapper. Det vigtigste lige nu er at forstå, at det er en struktur ligesom på en computer, og der derved også kan overskrives, flyttes og fjernes filer/mapper. &lt;strong&gt;wp-content mappen indeholder dit temaer og dine plugins&lt;/strong&gt;.&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;Når vi arbejder lokalt, &lt;strong&gt;så ændrer vi og tilføjer oftest kun i wp-content mappen&lt;/strong&gt;. Men andre ændringer bliver også lavet i foreksempel &lt;code class=&quot;highlighter-rouge&quot;&gt;wp-includes/images/&lt;/code&gt;, hvor vores billeder ligger. Dem skal vi også have med.&lt;/p&gt;
+&lt;p&gt;Når vi arbejder lokalt, &lt;strong&gt;så ændrer vi og tilføjer oftest kun i wp-content mappen&lt;/strong&gt;. Men andre ændringer bliver også lavet i foreksempel &lt;code class=&quot;highlighter-rouge&quot;&gt;wp-includes/images/&lt;/code&gt;, hvor vores billeder ligger. Så vi bliver nødt til at få det hele med.&lt;/p&gt;
 
-&lt;h2 id=&quot;installation-af-wordpress-på-server&quot;&gt;Installation af WordPress på server&lt;/h2&gt;
+&lt;p&gt;I ‘gamle’ dage havde vi gjort, som da vi installerede MAMP med en lokal installation af WordPress: oprettet database, kodeord osv, men idag findes der nogle smarte alternativer, som vil spare os en masse tid.&lt;/p&gt;
+
+&lt;p&gt;Ja… Vi skal bruge et plugin!&lt;/p&gt;
+
+&lt;p&gt;Jeg har valgt at lave denne guide med &lt;a href=&quot;https://da.wordpress.org/plugins/duplicator/&quot; target=&quot;_blank&quot;&gt;Duplicator&lt;/a&gt;, der er et gratis plugin, som gør en masse af det tunge arbejde for os.&lt;/p&gt;
+
+&lt;p&gt;Og husk…&lt;/p&gt;
 
 &lt;blockquote&gt;
-  &lt;p&gt;Installationen på dit domænes server minder meget om, hvad vi gik igennem i &lt;a href=&quot;https://hilsen.it/wordpress/2018/02/09/del-3-Wordpress-basics.html#installation-og-opsætning-af-lokalt-miljø-til-mac&quot; target=&quot;_blank&quot;&gt;Del 3, installation af lokalt miljø&lt;/a&gt;. Her er det bare &lt;strong&gt;ekstra vigtigt, at vi er meget opmærksomme på vores sikkerhed (kodeord og databaseopsætning), da de nu er åbne for hele verden!&lt;/strong&gt; Vi vil først sætte WordPress op på din server via FTP. Men hvad er det?&lt;/p&gt;
+  &lt;p&gt;Dette er svært! Det er en kompliceret guide for en WordPress nybegynder, så hold tungen lige i munde og hold et par pauser (jeg har indlagt nogle, hvis det er ) :=)&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;h3 id=&quot;ftp---din-adgang-til-din-server&quot;&gt;FTP - Din adgang til din server&lt;/h3&gt;
+&lt;h4 id=&quot;1-installér-duplicator-på-din-lokale-side&quot;&gt;1. Installér &lt;a href=&quot;https://da.wordpress.org/plugins/duplicator/&quot; target=&quot;_blank&quot;&gt;duplicator&lt;/a&gt; på din lokale side&lt;/h4&gt;
+
+&lt;p&gt;Først skal du tænde dit MAMP webhotel (Hjælp kan findes under &lt;a href=&quot;https://hilsen.it/wordpress/2018/02/09/del-3-Wordpress-basics.html#lektier&quot; target=&quot;_blank&quot;&gt;Del 3 … Lektier Fif&lt;/a&gt;) og logge ind på din lokale WordPress installation.&lt;/p&gt;
+
+&lt;p&gt;Gå da til “Plugins” i menuen til venstre og tryk på “Tilføj plugin” øverst og søg derefter efter “Duplicator”.&lt;/p&gt;
+
+&lt;p&gt;Logoet ser således ud:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/wordpress/duplicator.png&quot; alt=&quot;Wordpress Duplicator logo&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Installer det.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Husk at aktivere det!&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;2-byg-din-første-package&quot;&gt;2. Byg din første &lt;strong&gt;Package&lt;/strong&gt;&lt;/h4&gt;
+
+&lt;p&gt;Duplicator har fået sit helt eget menupunkt nederst i WordPress menuen på din backend.&lt;/p&gt;
+
+&lt;p&gt;Tryk på det.&lt;/p&gt;
+
+&lt;p&gt;Nu vil du se en side, hvor du har mulighed for at “Create New” package i øverste højre hjørne.&lt;/p&gt;
 
 &lt;blockquote&gt;
-  &lt;p&gt;FTP er din adgang til dit domæne. Altså der, hvor du kan ændre, overskriver, fjerne filer/mapper - der hvor du kan se, hvad der ligger på din hjemmeside. Du vil snart se, at mappestrukturen og oversigten minder meget om den som i f.eks. Finder på Mac.&lt;/p&gt;
+  &lt;p&gt;En Package er en kopi af din side og database, som vi senere skal &lt;strong&gt;skubbe&lt;/strong&gt; op på dit domæne.&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;&lt;strong&gt;1.&lt;/strong&gt; Du starter med at logge ind på din bruger på &lt;a href=&quot;https://www.webhosting.dk/&quot; target=&quot;_blank&quot;&gt;Webhosting.dk&lt;/a&gt;. Her får du en oversigt over dine/dit domæner/domæne. Tryk derefter på det, som du vil sætte din FTP op med.&lt;/p&gt;
+&lt;p&gt;Husk:&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Resten kommer snart&lt;/strong&gt;&lt;/p&gt;</content><author><name></name></author><category term="wordpress" /><summary type="html">I den sidste del, da skal vi se på, hvordan vi skubber vores lokale miljø op på et domæne. Hvis du har fulgt Køb af domæne …, har du mulighed for at skubbe det op på det købte. Hvis ikke, så kan du nu følge mit eksempel.</summary></entry><entry><title type="html">Køb af domæne - webhosting.dk 4 life &amp;lt;3</title><link href="http://localhost:4000/wordpress/2018/02/20/koeb-af-dom%C3%A6ne.html" rel="alternate" type="text/html" title="Køb af domæne - webhosting.dk 4 life &lt;3" /><published>2018-02-20T00:00:00+01:00</published><updated>2018-02-20T00:00:00+01:00</updated><id>http://localhost:4000/wordpress/2018/02/20/koeb-af-dom%C3%A6ne</id><content type="html" xml:base="http://localhost:4000/wordpress/2018/02/20/koeb-af-dom%C3%A6ne.html">&lt;blockquote&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;Vi er ved at tage en kopi af din lokale side, og det er derfor den version, som du gerne vil have op på dit domæne. Prøv at gå din hjemmeside igennem og se, om alt er som det skal være.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Nu vil du få vist en side, hvor der er tre drop-down felter: &lt;strong&gt;storage&lt;/strong&gt;, &lt;strong&gt;archive&lt;/strong&gt; og &lt;strong&gt;installer&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;Her har du mulighed for at indstille din package (din kopi). Er der nogle felter i databasen eller filer, som du ikke vil have med?&lt;/p&gt;
+
+&lt;p&gt;Nok ikke, men det er godt at vide, at du kan tilpasse din kopi til en anden gang, hvis det kun er en del af din lokale side, som du vil skubbe op på dit domæne.&lt;/p&gt;
+
+&lt;p&gt;Tryk på “Next” nederst i højre side.&lt;/p&gt;
+
+&lt;p&gt;Nu scanner Duplicator din side og ser om alt er som det skal være (en form for test).&lt;/p&gt;
+
+&lt;p&gt;Det skulle se nogenlunde sådan her ud:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/wordpress/green_scan.png&quot; alt=&quot;Wordpress Duplicator scanning green&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Jeg håber, at alt er grønt ved dig. Der kan være store filer eller andre ting, som sætter sig på ‘tværs’. Hvis der er noget rødt, så kan du oftest stadigvæk gå videre til næste punkt uden at være bekymret.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Nu skal vi endelig til det.&lt;/p&gt;
+
+&lt;p&gt;Tryk “Build” nederst. Nu bliver din kopi af database og filer lavet.&lt;/p&gt;
+
+&lt;p&gt;.. ventetid ..&lt;/p&gt;
+
+&lt;p&gt;Sådan! Nu skulle Duplicator gerne melde tilbage: &lt;strong&gt;Package Completed&lt;/strong&gt;:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/wordpress/package_complete.png&quot; alt=&quot;Wordpress Duplicator package complete&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Download de to pakker. Tryk på ‘Installer’ og derefter ‘Archive’. Læg dem et sted, hvor du let kan finde dem senere.&lt;/p&gt;
+
+&lt;p&gt;Nu skal vi uploade installer.php og din downloadede zip-fil (det du lige har downloadet) til din hjemmesides webhotel, men hvordan gør vi lige det?&lt;/p&gt;
+
+&lt;p&gt;Jo.. Vi bruger &lt;strong&gt;FTP&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;h4 id=&quot;3-ftp-adgang-til-din-hjemmeside&quot;&gt;3. FTP-adgang til din hjemmeside&lt;/h4&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;FTP står for File Transfer Protocol og er måden hvorpå, at du kan få adgang til dit nyindkøbte webhotel (hjemmeside). Når den adgang er etableret (gennem et langt kodeord, brugernavn og host) kan du frit navigere, slette og ændre i din hjemmesides filer. Man kan også sige, at det er opkoblingen mellem din computer og din hjemmeside.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;VIGTIGT:&lt;/strong&gt; Denne adgang er en potientiel bombe under din hjemmeside, da en fremmed med dårlige hensigter og adgang til din FTP vil kunne smadre din hjemmeside på 10 sek. Keep your passwords close! Tjek evt. &lt;a href=&quot;https://hilsen.it/blogs/2018/01/27/techlove.html#lastpass---din-skattekiste-til-kodeord&quot; target=&quot;_blank&quot;&gt;LastPass&lt;/a&gt; for at få et godt sted at gemme dem.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;h5 id=&quot;filezilla---din-nye-ftp-ven&quot;&gt;FileZilla - din nye FTP-ven&lt;/h5&gt;
+
+&lt;p&gt;FileZilla er et program, som er bygget til at håndtere dine FTP-adgange.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://filezilla-project.org/&quot; target=&quot;_blank&quot;&gt;Download det her og installér det på din computer&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Når du har downloadet det og installeret det skal et åbent vindue i FileZilla se nogenlunde sådan her ud:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/wordpress/filezilla.png&quot; alt=&quot;FileZilla program window&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Din computers filer på venstre side og din hjemmesides filer på højre.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Men hov.. Vi mangler jo filerne på højre side - nu er det tid til at få kontakt!&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;h4 id=&quot;ftp-adgang---din-hosting-løsning-har-adgangsoplysningerne-find-dem-der&quot;&gt;FTP-adgang - din hosting-løsning har adgangsoplysningerne. Find dem der!&lt;/h4&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Når du køber et domæne på internettet, køber du oftest også et webhotel. I &lt;a href=&quot;https://hilsen.it/wordpress/2018/02/20/koeb-af-dom%C3%A6ne.html&quot; target=&quot;_blank&quot;&gt;Køb af domæne..&lt;/a&gt; købte vi domæne og webhotel hos &lt;a href=&quot;https://www.webhosting.dk/&quot; target=&quot;_blank&quot;&gt;WebHosting&lt;/a&gt;. Derfor vil resten af guiden være lavet til deres hjemmeside.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Dit webhotel ligger altid inde med oplysningerne om hvordan du får FTP-adgang til dit webhotel.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Gå til &lt;a href=&quot;https://www.webhosting.dk/&quot; target=&quot;_blank&quot;&gt;WebHosting&lt;/a&gt; og log ind på din profil.&lt;/p&gt;
+
+&lt;p&gt;Tryk på dit nyindkøbte domæne nederst på siden. (er understreget)&lt;/p&gt;
+
+&lt;p&gt;Nu får du vist dit kontrolpanel for dette domæne.&lt;/p&gt;
+
+&lt;p&gt;I det kontrolpanel finder du &lt;strong&gt;FTP / PHP information&lt;/strong&gt; (er markeret på billedet).&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/wordpress/ftp.png&quot; alt=&quot;WebHosting kontrolpanel&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Tryk på den&lt;/p&gt;
+
+&lt;p&gt;Nu har du oplysningerne til FileZilla.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Hold det her vindue åbent. Vi skal bruge det senere!&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;h4 id=&quot;indtast-ftp-oplysningerne-i-filezilla&quot;&gt;Indtast FTP-oplysningerne i FileZilla&lt;/h4&gt;
+
+&lt;p&gt;Åben da FileZilla igen og tryk på &lt;img src=&quot;http://localhost:4000/assets/wordpress/filezilla_btn.png&quot; alt=&quot;FileZilla button&quot; /&gt; øverst i venstre hjørne. Det åbner et nyt vindue, hvor du snart skal indtaste dine oplysninger. Dette gemmer dine ftp-adgangsoplysninger, så du ikke skal forbi WebHosting næste gang, at du skal have kontakt til din hjemmeside.&lt;/p&gt;
+
+&lt;p&gt;Tryk på “New Site” og giv den et navn (f.eks. dit domænenavn).&lt;/p&gt;
+
+&lt;p&gt;Vinduets højre side ser nogenlunde sådan her ud:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/wordpress/filezilla_window.png&quot; alt=&quot;FileZilla window&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Det er her, at du skal indtaste oplysningerne fra WebHosting’s kontrolpanels FTP / PHP Information.&lt;/p&gt;
+
+&lt;p&gt;Skift først &lt;strong&gt;Logon Type:&lt;/strong&gt; til &lt;strong&gt;Normal&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;For at gøre det lettere for dig, da navnene faktisk er forskellige og derfor kan være ret forvirrende, har jeg lavet det her billede, for at forklare hvilke oplysninger fra WebHosting du skal bruge, og hvor de skal kopieres ind i FileZilla:&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;De rigtige oplysninger står ud for punkterne på WebHosting - jeg er ikke interesseret i at vise mine til internettet.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/wordpress/filezilla-webhosting.jpg&quot; alt=&quot;FileZilla window&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Når du har kopieret oplysningerne ind i FileZilla vinduet trykket du på ‘Connect’.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Der vil højest sandsynligt komme et vindue, hvor der står ‘Unknown Certificate’. Tryk ‘Ok’ på den og fortsæt.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Nu skulle FileZilla gerne se således ud:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/wordpress/filezilla-kontakt.jpg&quot; alt=&quot;FileZilla window&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Hvis du får en fejl (rød tekst), og der ikke viser sig nogen mappe i højre side som på forrige billede, gå da til &lt;a href=&quot;https:hilsen.it/wordpress/2018/02/23/del-5-skub-op.html#fejl-ved-ftp&quot;&gt;Fejl ved FTP&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;h4 id=&quot;upload-af-duplicator-filer&quot;&gt;Upload af Duplicator filer&lt;/h4&gt;
+
+&lt;p&gt;Det næste du skal gøre er at uploade dine 2 downloade filer fra Duplicator.&lt;/p&gt;
+
+&lt;p&gt;Det gør du i FileZilla efter at du har oprettet en forbindelse til dit webhotel (der vises mapper/filer i højre side).&lt;/p&gt;
+
+&lt;p&gt;Nu finder du dine to filer i venstre side (din computer), markerer dem og højre-klikker på dem.&lt;/p&gt;
+
+&lt;p&gt;Derefter trykker du på &lt;strong&gt;Upload&lt;/strong&gt; (Rød pil op).&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;FileZilla skubber dine valgte filer op i den mappe, som du er i på højre side (dit webhotel). Altså vil den skubbe det valgte op på ‘/’, da det er den eneste nuværende mappe, som der er på dit domæne (hvis det er nyindkøbt) - også kaldet &lt;strong&gt;root&lt;/strong&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;1-pause&quot;&gt;1. pause!&lt;/h2&gt;
+
+&lt;p&gt;Du har gjort det godt og har nu adgang til dit webhotel via FTP. Din nye installation er på vej op på internettet. Det vil tage et stykke tid alt efter hvor god en internetforbindelse du har og hvor meget arbejde, som du har lagt på din side.&lt;/p&gt;
+
+&lt;p&gt;Snup en kop kaffe eller et nikotintyggegummi. Godt gået!&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+&lt;h4 id=&quot;besøg-din-installerphp-fil-på-dit-nye-domæne-vi-skal-installere&quot;&gt;Besøg din installer.php fil på dit nye domæne (vi skal installere).&lt;/h4&gt;
+
+&lt;p&gt;Når du uploader noget til din &lt;strong&gt;root&lt;/strong&gt;, så vil du (oftest) kunne besøge filen ved at trykke &lt;code class=&quot;highlighter-rouge&quot;&gt;www.dit-domæne.dk/filnavn&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Altså ligger det sig godt op af forklaringen: &lt;em&gt;Dit domæne kan forklares som en mappe, der ligger online&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;Du kan altså indtaste stien til din fil, som så vil vise næste skridt.&lt;/p&gt;
+
+&lt;p&gt;Jeg har været så heldig at få lov til at låne: &lt;code class=&quot;highlighter-rouge&quot;&gt;http://friisstorb.org&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;Jeg kan derfor skrive &lt;code class=&quot;highlighter-rouge&quot;&gt;http://friisstorb.org/installer.php&lt;/code&gt; (husk fileendelsen!) i mit søgefelt i min browser (Chrome).&lt;/p&gt;
+
+&lt;p&gt;Du vil da, hvis du staver og skriver det rigtigt, få et vindue, som har overskrifterne:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/wordpress/duplicator-heading.png&quot; alt=&quot;Duplicator heading&quot; /&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Du har lige besøgt den fil &lt;code class=&quot;highlighter-rouge&quot;&gt;installer.php&lt;/code&gt;, som du uploadede i FileZilla i sidste punkt. &lt;strong&gt;Sådan!&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;strong&gt;Acceptér&lt;/strong&gt; og gå videre til Step 2.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;fejl-ved-ftp&quot;&gt;Fejl ved FTP&lt;/h4&gt;
+
+&lt;p&gt;&lt;strong&gt;1.&lt;/strong&gt; Gå dine oplysninger igennem. Er alt som det skal være? Har du fået det hele med - eller måske for meget?&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;2.&lt;/strong&gt; Tjek for whitespaces(mellemrum). Selv et lille mellemrum i starten eller slutningen af dine FTP-oplysninger kan give en fejl.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;3.&lt;/strong&gt; Sidder du på dit studie eller på et offentligt internet? De har til tider en sikker forbindelse, som gør, at du ikke kan oprette en FTP-adgang. Prøv da at del dit net fra din mobil - det virker hver gang!&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Hvis ingen af delene hjælper kan jeg desværre ikke hjælpe. Du kan prøve at skrive til &lt;a href=&quot;https://www.webhosting.dk/DKK/sendemail.php&quot; target=&quot;_blank&quot;&gt;WebHosting support&lt;/a&gt;. De plejer at være rigtig søde, men det kan også blive lidt teknisk.&lt;/em&gt;&lt;/p&gt;</content><author><name></name></author><category term="wordpress" /><summary type="html">I den sidste del, da skal vi se på, hvordan vi skubber vores lokale miljø op på et domæne. Hvis du har fulgt Køb af domæne …, har du mulighed for at skubbe det op på det købte. Hvis ikke, så kan du se, hvordan jeg skubber det op på mit.</summary></entry><entry><title type="html">Køb af domæne - webhosting.dk 4 life &amp;lt;3</title><link href="http://localhost:4000/wordpress/2018/02/20/koeb-af-dom%C3%A6ne.html" rel="alternate" type="text/html" title="Køb af domæne - webhosting.dk 4 life &lt;3" /><published>2018-02-20T00:00:00+01:00</published><updated>2018-02-20T00:00:00+01:00</updated><id>http://localhost:4000/wordpress/2018/02/20/koeb-af-dom%C3%A6ne</id><content type="html" xml:base="http://localhost:4000/wordpress/2018/02/20/koeb-af-dom%C3%A6ne.html">&lt;blockquote&gt;
   &lt;p&gt;Dette er et lille sidespring fra WordPress guiden, hvor du får hjælp til at købe et domæne og sætte det op. Der er mange penge og især timer at spare!&lt;/p&gt;
 &lt;/blockquote&gt;
 
@@ -335,7 +549,7 @@ Tryk derefter “Tryk her for at acceptere ordre”, hvis du ikke har flere indv
     color: green;
 }
 .example-link:visited {
-    color: red!important;
+    color: red;
 }
 .example-link:active {
     color: yellow;
