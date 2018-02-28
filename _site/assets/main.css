@@ -198,16 +198,17 @@ table {
   height: 100px; }
 
 .hilsen-pagination a {
-  width: 50%;
+  width: auto;
   display: inline-block;
   padding: 0;
-  float: left;
-  border: 2px solid white;
-  box-sizing: border-box;
-  padding: 0px 4px; }
+  float: left; }
+
+.v-hidden {
+  visibility: hidden; }
 
 .hilsen-pagination a:last-child {
-  text-align: right; }
+  text-align: right;
+  float: right; }
 
 .site-title {
   font-size: 26px;

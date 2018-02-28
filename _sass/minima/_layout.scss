@@ -13,17 +13,18 @@
 }
 
 .hilsen-pagination a {
-    width: 50%;
+    width: auto;
     display: inline-block;
     padding: 0;
     float: left;
-    border: 2px solid white;
-    box-sizing: border-box;
-    padding: 0px 4px;
+}
+.v-hidden {
+  visibility: hidden;
 }
 
 .hilsen-pagination a:last-child {
   text-align: right;
+  float: right;
 }
 .site-title {
   @include relative-font-size(1.625);
