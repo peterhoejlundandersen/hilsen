@@ -167,7 +167,7 @@ Nu skulle FileZilla gerne se således ud:
 
 *Gå først videre, når du forstår konceptet beskrevet på billedet ovenover.*
 
-**Hvis du får en fejl (rød tekst), og der ikke viser sig nogen mappe i højre side som på forrige billede, gå da til [Fejl ved FTP](https://hilsen.it/wordpress/2018/02/23/del-5-skub-op.html#fejl-ved-ftp)**
+**Hvis du får en fejl (rød tekst), og der ikke viser sig nogen mappe i højre side som på forrige billede, gå da til [Fejl ved FTP](https://hilsen.it/wordpress/2018/02/23/del-6-skub-op.html#fejl-ved-ftp)**
 
 
 <br>
@@ -243,7 +243,7 @@ De adgangsoplysninger til vores database(brugernavn, kodeord), som vi have lokal
 
 Nu er det noget andet. Alle kan potientielt prøve at få adgang til din database. Derfor gemmer vores webhotel (WebHosting) nogle længere oplysninger på, hvordan vi kan få adgang til databasen. Dem skal vi finde nu.
 
-Gå til kontrolpanelet for dit domæne (samme som i [FTP-adgang - din hosting-løsning har adgangsoplysningerne. Find dem der!](https://hilsen.it/wordpress/2018/02/23/del-5-skub-op.html#ftp-adgang---din-hosting-løsning-har-adgangsoplysningerne-find-dem-der){:target="_blank"}) og tryk denne gang på MySQL database information (er markeret på billedet underneden).
+Gå til kontrolpanelet for dit domæne (samme som i [FTP-adgang - din hosting-løsning har adgangsoplysningerne. Find dem der!](https://hilsen.it/wordpress/2018/02/23/del-6-skub-op.html#ftp-adgang---din-hosting-løsning-har-adgangsoplysningerne-find-dem-der){:target="_blank"}) og tryk denne gang på MySQL database information (er markeret på billedet underneden).
 
 ![Mysql information]({{ "assets/wordpress/mysql_new.png" || absolute_url }})
 
