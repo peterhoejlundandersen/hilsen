@@ -1,6 +1,6 @@
 ---
 layout: blog
-title:  "Del 6 - Skub op! - Afslutning"
+title:  "Del 6 - Skub op! - Duplicator afslutning"
 category: wordpress
 ---
 
@@ -167,7 +167,7 @@ Nu skulle FileZilla gerne se således ud:
 
 *Gå først videre, når du forstår konceptet beskrevet på billedet ovenover.*
 
-**Hvis du får en fejl (rød tekst), og der ikke viser sig nogen mappe i højre side som på forrige billede, gå da til [Fejl ved FTP](https:hilsen.it/wordpress/2018/02/23/del-5-skub-op.html#fejl-ved-ftp)**
+**Hvis du får en fejl (rød tekst), og der ikke viser sig nogen mappe i højre side som på forrige billede, gå da til [Fejl ved FTP](https://hilsen.it/wordpress/2018/02/23/del-5-skub-op.html#fejl-ved-ftp)**
 
 
 <br>
