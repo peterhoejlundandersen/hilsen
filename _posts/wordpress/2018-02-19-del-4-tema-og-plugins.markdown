@@ -71,11 +71,12 @@ Før vi går videre, er det vigtigt at besvare spørgsmålet:
 
 > **Spørgsmål:** Skal jeg bare installere plugins, så snart jeg mangler en funktion, eller er der en bagside ved det? Gør det noget at have mange plugins installeret?
 
-> **Svar:** Ja, der er en bagside: hastighed og sikkerhed. Mange af de WordPress-hjemmesider, som jeg har taget over efter en anden har haft 5-10 plugins installeret som ikke blev brugt - eller var lette at udskifte med få linjer kode. Efter at de var fjernet/tilpasset blev hjemmesiden hurtigere og lettere at navigere i. 
+> **Svar:** Ja, der er en bagside: hastighed og sikkerhed. Mange af de WordPress-hjemmesider, som jeg har overtaget efter en anden, har haft 5-10 plugins installeret, som ikke blev brugt - eller var lette at udskifte med få linjer kode. Efter at de var fjernet/tilpasset blev hjemmesiden hurtigere og ikke mindst lettere at navigere i. 
  
 Derudover er nogle plugins så dårligt kodet, at de kan være en trussel mod din sikkerhed, men det er sjældent - så længe, at du sørger for at opdatere dine plugins regelmæssigt.
 
-**Installér kun et plugin, hvis det er højest nødvendigt og husk at afinstallere det igen**, hvis du ikke bruger det længere.
+
+> **Husk dog:** Installér kun et plugin, hvis det er højest nødvendigt og husk at afinstallere det igen, hvis du ikke bruger det længere.
 
 
 
@@ -107,7 +108,7 @@ Måske et billede vil hjælpe lidt med forklaringen:
 
 WordPress leder altså først efter filer i dit child tema og du kan derfor overskrive filer i dit parent-tema. F.eks. filen `style.css`. Hvis du lægger den i dit child-theme vil den overskrive dit parent-themes `style.css`. 
 
-**Note:** Det er svært at forstå child-theme som nybegynder i WordPress. Det vigtigste lige nu er at forstå, at det overskriver parent-theme og derfor ikke bliver påvirket på opdateringer. **Det er derfor en god vane at sætte et child-theme op, hver gang at man starter en ny WordPress side.**
+**Note:** Det er svært at forstå child-theme som nybegynder i WordPress. Det vigtigste lige nu er at forstå, at det overskriver parent-theme og derfor ikke bliver overskrevet af opdateringer. **Det er derfor en rigtig god vane at sætte et child-theme op hver gang, at man starter en ny WordPress side.**
 
 > **Bonusspørgsmål:** Hvad er ulempen ved child-theme? Hvad er det, som det ikke bliver?
 
@@ -124,7 +125,7 @@ Efter at dit child-theme er aktiveret kan du tilgå dine filer ved at gå til Ud
 
 Lad os afprøve vores nye CSS-vindue. Tid til en udfordring mere:
 
-> **CSS udfordring:** Kunne det ikke være fedt, hvis din menu havde en anden baggrundsfarve og tekstfarve? Ændre deres CSS i din nye editor.
+> **CSS udfordring:** Prøv at hold musen over din menu(hover). Kunne det ikke være fedt, hvis baggrundsfarven ændrede sig, når du gjorde dette? Prøv at se, om du kan tilføje dette med hvad du lige har lært.
 
 > **FIF:** Brug værktøjet fra del 3 [Det er stadig HTML og CSS - Inspect det for at se](https://hilsen.it/wordpress/2018/02/09/del-3-Wordpress-basics.html#det-er-stadig-html-og-css---inspect-det-for-at-se){:target="_blank"} for at finde CSS klassen. 
 
