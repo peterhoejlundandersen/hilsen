@@ -13,7 +13,7 @@
   
 	<script src="/assets/js/heading_list.js"></script>
 	
-		<title>Hilsen IT | Del 5 - Skub op! - Afslutning</title>
+		<title>Hilsen IT | Del 6 - Skub op! - Afslutning</title>
 	
 </head>
 
@@ -63,7 +63,7 @@
         <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
-    <h1 class="post-title p-name" itemprop="name headline">Del 5 - Skub op! - Afslutning</h1>
+    <h1 class="post-title p-name" itemprop="name headline">Del 6 - Skub op! - Afslutning</h1>
     <p class="post-meta">
       <time class="dt-published" datetime="2018-02-23T00:00:00+01:00" itemprop="datePublished">
         
@@ -106,12 +106,12 @@
 <p>Og husk…</p>
 
 <blockquote>
-  <p>Dette er svært! Det er en kompliceret guide for en WordPress nybegynder, så hold tungen lige i munde og hold et par pauser (jeg har indlagt nogle, hvis det er ) :=)</p>
+  <p>Dette er svært! Det er en kompliceret guide for en WordPress nybegynder, så hold tungen lige i munde og hold et par pauser (jeg har indlagt en, hvis det er ) :=)</p>
 </blockquote>
 
-<h4 id="1-installér-duplicator-på-din-lokale-side">1. Installér <a href="https://da.wordpress.org/plugins/duplicator/" target="_blank">duplicator</a> på din lokale side</h4>
+<h3 id="1-installér-duplicator-på-din-lokale-side">1. Installér <a href="https://da.wordpress.org/plugins/duplicator/" target="_blank">Duplicator</a> på din lokale side</h3>
 
-<p>Først skal du tænde dit MAMP webhotel (Hjælp kan findes under <a href="https://hilsen.it/wordpress/2018/02/09/del-3-Wordpress-basics.html#lektier" target="_blank">Del 3 … Lektier Fif</a>) og logge ind på din lokale WordPress installation.</p>
+<p>Først skal du tænde din MAMP server (Hjælp kan findes under <a href="https://hilsen.it/wordpress/2018/02/09/del-3-Wordpress-basics.html#lektier" target="_blank">Del 3 … Lektier Fif</a>) og logge ind på din lokale WordPress installation.</p>
 
 <p>Gå da til “Plugins” i menuen til venstre og tryk på “Tilføj plugin” øverst og søg derefter efter “Duplicator”.</p>
 
@@ -119,15 +119,15 @@
 
 <p><img src="http://localhost:4000/assets/wordpress/duplicator.png" alt="Wordpress Duplicator logo" /></p>
 
-<p>Installer det.</p>
+<p><strong>Installer det.</strong></p>
 
 <p><strong>Husk at aktivere det!</strong></p>
 
-<h4 id="2-byg-din-første-package">2. Byg din første <strong>Package</strong></h4>
+<h3 id="2-byg-din-første-package">2. Byg din første <strong>Package</strong></h3>
 
 <p>Duplicator har fået sit helt eget menupunkt nederst i WordPress menuen på din backend.</p>
 
-<p>Tryk på det.</p>
+<p><strong>Tryk på det.</strong></p>
 
 <p>Nu vil du se en side, hvor du har mulighed for at “Create New” package i øverste højre hjørne.</p>
 
@@ -135,13 +135,11 @@
   <p>En Package er en kopi af din side og database, som vi senere skal <strong>skubbe</strong> op på dit domæne.</p>
 </blockquote>
 
-<p>Husk:</p>
-
 <blockquote>
-  <p>Vi er ved at tage en kopi af din lokale side, og det er derfor den version, som du gerne vil have op på dit domæne. Prøv at gå din hjemmeside igennem og se, om alt er som det skal være.</p>
+  <p><strong>Husk:</strong> Vi er ved at tage en kopi af din lokale side, og det er derfor denne lokale version, som du får op på dit domæne. Er alt som det skal være?</p>
 </blockquote>
 
-<hr />
+<p><br /></p>
 
 <p>Nu vil du få vist en side, hvor der er tre drop-down felter: <strong>storage</strong>, <strong>archive</strong> og <strong>installer</strong>.</p>
 
@@ -149,7 +147,7 @@
 
 <p>Nok ikke, men det er godt at vide, at du kan tilpasse din kopi til en anden gang, hvis det kun er en del af din lokale side, som du vil skubbe op på dit domæne.</p>
 
-<p>Tryk på “Next” nederst i højre side.</p>
+<p><strong>Tryk på “Next” nederst i højre side.</strong></p>
 
 <p>Nu scanner Duplicator din side og ser om alt er som det skal være (en form for test).</p>
 
@@ -161,7 +159,7 @@
 
 <p>Nu skal vi endelig til det.</p>
 
-<p>Tryk “Build” nederst. Nu bliver din kopi af database og filer lavet.</p>
+<p><strong>Tryk “Build” nederst.</strong> Nu bliver din kopi af database og filer lavet.</p>
 
 <p>.. ventetid ..</p>
 
@@ -169,14 +167,14 @@
 
 <p><img src="http://localhost:4000/assets/wordpress/package_complete.png" alt="Wordpress Duplicator package complete" /></p>
 
-<p>Download de to pakker. Tryk på ‘Installer’ og derefter ‘Archive’. Læg dem et sted, hvor du let kan finde dem senere.</p>
+<p>Download de to pakker. Tryk på <strong>Installer</strong> og derefter <strong>Archive</strong>. Læg dem et sted, hvor du let kan finde dem senere.</p>
 
 <p>Nu skal vi uploade installer.php og din downloadede zip-fil (det du lige har downloadet) til din hjemmesides webhotel, men hvordan gør vi lige det?</p>
 
 <p>Jo.. Vi bruger <strong>FTP</strong>.</p>
 
 <p><br /></p>
-<h4 id="3-ftp-adgang-til-din-hjemmeside">3. FTP-adgang til din hjemmeside</h4>
+<h3 id="3-ftp-adgang-til-din-hjemmeside">3. FTP-adgang til din hjemmeside</h3>
 
 <blockquote>
   <p>FTP står for File Transfer Protocol og er måden hvorpå, at du kan få adgang til dit nyindkøbte webhotel (hjemmeside). Når den adgang er etableret (gennem et langt kodeord, brugernavn og host) kan du frit navigere, slette og ændre i din hjemmesides filer. Man kan også sige, at det er opkoblingen mellem din computer og din hjemmeside.</p>
@@ -187,7 +185,7 @@
 </blockquote>
 
 <p><br /></p>
-<h5 id="filezilla---din-nye-ftp-ven">FileZilla - din nye FTP-ven</h5>
+<h4 id="filezilla---din-nye-ftp-ven">FileZilla - din nye FTP-ven</h4>
 
 <p>FileZilla er et program, som er bygget til at håndtere dine FTP-adgange.</p>
 
@@ -202,14 +200,14 @@
 <p>Men hov.. Vi mangler jo filerne på højre side - nu er det tid til at få kontakt!</p>
 
 <p><br /></p>
-<h4 id="ftp-adgang---din-hosting-løsning-har-adgangsoplysningerne-find-dem-der">FTP-adgang - din hosting-løsning har adgangsoplysningerne. Find dem der!</h4>
+<h3 id="ftp-adgang---din-hosting-løsning-har-adgangsoplysningerne-find-dem-der">FTP-adgang - din hosting-løsning har adgangsoplysningerne. Find dem der!</h3>
 
 <blockquote>
-  <p>Når du køber et domæne på internettet, køber du oftest også et webhotel. I <a href="https://hilsen.it/wordpress/2018/02/20/koeb-af-dom%C3%A6ne.html" target="_blank">Køb af domæne..</a> købte vi domæne og webhotel hos <a href="https://www.webhosting.dk/" target="_blank">WebHosting</a>. Derfor vil resten af guiden være lavet til deres hjemmeside.</p>
+  <p>Når du køber et domæne på internettet, køber du oftest også et webhotel. I <a href="https://hilsen.it/wordpress/2018/02/20/koeb-af-dom%C3%A6ne.html" target="_blank">Køb af domæne..</a> købte vi domæne og webhotel hos <a href="https://www.webhosting.dk/" target="_blank">WebHosting</a>. Derfor vil resten af guiden være lavet i deres kontrolpanel.</p>
 </blockquote>
 
 <blockquote>
-  <p>Dit webhotel ligger altid inde med oplysningerne om hvordan du får FTP-adgang til dit webhotel.</p>
+  <p>Dit webhotel ligger altid inde med oplysningerne om hvordan du får FTP-adgang.</p>
 </blockquote>
 
 <p>Gå til <a href="https://www.webhosting.dk/" target="_blank">WebHosting</a> og log ind på din profil.</p>
@@ -229,7 +227,7 @@
 <p><strong>Hold det her vindue åbent. Vi skal bruge det senere!</strong></p>
 
 <p><br /></p>
-<h4 id="indtast-ftp-oplysningerne-i-filezilla">Indtast FTP-oplysningerne i FileZilla</h4>
+<h3 id="indtast-ftp-oplysningerne-i-filezilla">Indtast FTP-oplysningerne i FileZilla</h3>
 
 <p>Åben da FileZilla igen og tryk på <img src="http://localhost:4000/assets/wordpress/filezilla_btn.png" alt="FileZilla button" /> øverst i venstre hjørne. Det åbner et nyt vindue, hvor du snart skal indtaste dine oplysninger. Dette gemmer dine ftp-adgangsoplysninger, så du ikke skal forbi WebHosting næste gang, at du skal have kontakt til din hjemmeside.</p>
 
@@ -245,9 +243,9 @@
 
 <p>For at gøre det lettere for dig, da navnene faktisk er forskellige og derfor kan være ret forvirrende, har jeg lavet det her billede, for at forklare hvilke oplysninger fra WebHosting du skal bruge, og hvor de skal kopieres ind i FileZilla:</p>
 
-<p><em>De rigtige oplysninger står ud for punkterne på WebHosting - jeg er ikke interesseret i at vise mine til internettet.</em></p>
-
-<p><img src="http://localhost:4000/assets/wordpress/filezilla-webhosting.jpg" alt="FileZilla window" /></p>
+<p><em>De rigtige oplysninger står ud for punkterne på WebHosting - jeg er ikke interesseret i at vise mine til internettet.</em>
+)
+<img src="http://localhost:4000/assets/wordpress/filezilla-webhosting.jpg" alt="FileZilla window" /></p>
 
 <p>Når du har kopieret oplysningerne ind i FileZilla vinduet trykket du på ‘Connect’.</p>
 
@@ -256,6 +254,8 @@
 <p>Nu skulle FileZilla gerne se således ud:</p>
 
 <p><img src="http://localhost:4000/assets/wordpress/filezilla-kontakt.jpg" alt="FileZilla window" /></p>
+
+<p><em>Gå først videre, når du forstår konceptet beskrevet på billedet ovenover.</em></p>
 
 <p><strong>Hvis du får en fejl (rød tekst), og der ikke viser sig nogen mappe i højre side som på forrige billede, gå da til <a href="https:hilsen.it/wordpress/2018/02/23/del-5-skub-op.html#fejl-ved-ftp">Fejl ved FTP</a></strong></p>
 
@@ -268,7 +268,9 @@
 
 <p>Nu finder du dine to filer i venstre side (din computer), markerer dem og højre-klikker på dem.</p>
 
-<p>Derefter trykker du på <strong>Upload</strong> (Rød pil op).</p>
+<p><strong>Derefter trykker du på Upload</strong> (se billede nedenunder):</p>
+
+<p><img src="http://localhost:4000/assets/wordpress/file-to-upload.png" alt="FileZilla upload files" /></p>
 
 <blockquote>
   <p>FileZilla skubber dine valgte filer op i den mappe, som du er i på højre side (dit webhotel). Altså vil den skubbe det valgte op på ‘/’, da det er den eneste nuværende mappe, som der er på dit domæne (hvis det er nyindkøbt) - også kaldet <strong>root</strong>.</p>
@@ -276,7 +278,7 @@
 
 <hr />
 
-<h2 id="1-pause">1. pause!</h2>
+<h2 id="pause">Pause!</h2>
 
 <p>Du har gjort det godt og har nu adgang til dit webhotel via FTP. Din nye installation er på vej op på internettet. Det vil tage et stykke tid alt efter hvor god en internetforbindelse du har og hvor meget arbejde, som du har lagt på din side.</p>
 
@@ -288,13 +290,17 @@
 
 <p><br />
 <br /></p>
-<h4 id="besøg-din-installerphp-fil-på-dit-nye-domæne-vi-skal-installere">Besøg din installer.php fil på dit nye domæne (vi skal installere).</h4>
+<h3 id="besøg-din-installerphp-fil-på-dit-nye-domæne-vi-skal-installere-vores-lokale-version">Besøg din installer.php fil på dit nye domæne (vi skal installere vores lokale version).</h3>
 
 <p>Når du uploader noget til din <strong>root</strong>, så vil du (oftest) kunne besøge filen ved at trykke <code class="highlighter-rouge">www.dit-domæne.dk/filnavn</code></p>
 
 <p>Altså ligger det sig godt op af forklaringen: <em>Dit domæne kan forklares som en mappe, der ligger online</em>.</p>
 
 <p>Du kan altså indtaste stien til din fil, som så vil vise næste skridt.</p>
+
+<p><br /></p>
+
+<h4 id="step-1">Step 1</h4>
 
 <p>Jeg har været så heldig at få lov til at låne: <code class="highlighter-rouge">http://friisstorb.org</code>.</p>
 
@@ -308,12 +314,126 @@
   <p>Du har lige besøgt den fil <code class="highlighter-rouge">installer.php</code>, som du uploadede i FileZilla i sidste punkt. <strong>Sådan!</strong></p>
 </blockquote>
 
-<p><strong>Acceptér</strong> og gå videre til Step 2.</p>
+<p><em>Der kan være røde fejl, men oftest vil det være fint at gå videre - især hvis det er et nyt domæne.</em></p>
+
+<p><strong>Acceptér Duplicators betingelser og tryk ‘Next’</strong></p>
+
+<p><br /></p>
+
+<h4 id="step-2---forbindelse-til-databasen">Step 2 - forbindelse til databasen</h4>
+
+<p><em>Du kan måske huske fra del 3 <a href="https://hilsen.it/wordpress/2018/02/09/del-3-Wordpress-basics.html#installation-og-opsætning-af-lokalt-miljø-til-mac" target="_blank">Installation op opsætning af lokalt miljø</a> at vi oprettede en forbindelse til en database i punkt 15. Det er næsten det samme, som vi skal nu. Det var bare lokalt. Nu skal vi gøre det online.</em></p>
+
+<p>De adgangsoplysninger til vores database(brugernavn, kodeord), som vi have lokalt, var korte og ens (root). Det var de fordi der ikke er nogen potientiel trussel ved at arbejde lokalt, da andre ikke har adgang til ens lokale miljø.</p>
+
+<p>Nu er det noget andet. Alle kan potientielt prøve at få adgang til din database. Derfor gemmer vores webhotel (WebHosting) nogle længere oplysninger på, hvordan vi kan få adgang til databasen. Dem skal vi finde nu.</p>
+
+<p>Gå til kontrolpanelet for dit domæne (samme som i <a href="https://hilsen.it/wordpress/2018/02/23/del-5-skub-op.html#ftp-adgang---din-hosting-løsning-har-adgangsoplysningerne-find-dem-der" target="_blank">FTP-adgang - din hosting-løsning har adgangsoplysningerne. Find dem der!</a>) og tryk denne gang på MySQL database information (er markeret på billedet underneden).</p>
+
+<p><img src="http://localhost:4000/assets/wordpress/mysql_new.png" alt="Mysql information" /></p>
+
+<p><br /></p>
+
+<p>Nu kommer du til en side, hvor dine databases adgangsoplysninger står nederst.</p>
+
+<p>Igen har jeg lavet et billede til hvilke værdier, der skal være hvor, for at undgå forvirring:</p>
+
+<p><img src="http://localhost:4000/assets/wordpress/webhosting-duplicator.jpg" alt="Mysql duplicator" /></p>
+
+<p>Efter at du har sat alle oplysningerne ind (kopier oplysningerne, så du undgår tastefejl), <strong>kan du trykke ‘Next’</strong>.</p>
+
+<p>Nu overskriver Duplicator din database med alt den data, som du har fra dit lokale miljø.</p>
+
+<blockquote>
+  <p><strong>Vigtigt for etablerede sider!</strong> Vær opmærksom på, som fejlbeskederne også viser, at du <strong>overskriver</strong> alt din data. Altså vil din gamle data forsvinde fra jordens overflade, hvis du ikke har en backup. For et nyt domæne er det ligemeget, der er jo ingenting, som går tabt.</p>
+</blockquote>
+
+<p><br /></p>
+
+<h4 id="step-3---din-nye-hjemmeside-er-klar">Step 3 - Din nye hjemmeside er klar!</h4>
+
+<p>Nu kan du (hvis alt er gået efter planen) se dine grundlæggende oplysninger.</p>
+
+<p>Mine ser således ud:</p>
+
+<p><img src="http://localhost:4000/assets/wordpress/step-3.png" alt="Duplicator step 3" /></p>
+
+<p>Her kan du se, at <strong>Title</strong> faktisk er taget fra vores lokale miljø. Altså det første tegn på, <strong>at din lokale data nu ligger på internettet</strong>.</p>
+
+<p>Der er mulighed for at indstille forskellige ting i <strong>Options</strong>, men jeg vil anbefale, at man gemmer det til en anden gang.</p>
+
+<p><strong>Nu mangler du bare at trykke ‘Next’.</strong></p>
+
+<p><br /></p>
+
+<h4 id="step-4">Step 4</h4>
+
+<p><strong>Tillykke!</strong> Du har skubbet din lokale side op på dit domæne.</p>
+
+<blockquote>
+  <p>Prøv at besøg dit domæne, så vil du se, at din hjemmeside (håber jeg) er identisk med din lokale side.</p>
+</blockquote>
+
+<p>Men stop ikke endnu! Det er vigtigt, at du går igennem den afsluttende tjekliste, før du popper en champagne!</p>
+
+<h3 id="afsluttende-tjekliste">Afsluttende tjekliste</h3>
+
+<h4 id="1-fjern-gamle-filer">1. Fjern gamle filer</h4>
+
+<p>Alle kan tilgå <code class="highlighter-rouge">installer.php</code>, selvom du har gennemført en installation. Du kan slette dine oprindelige filer i FTP (god udfordring), eller du kan logge ind på din backend (på din online side), hvor Duplicator automatisk genere en fejlbesked:</p>
+
+<p><img src="http://localhost:4000/assets/wordpress/duplicator-message.png" alt="Duplicator error message" /></p>
+
+<p><strong>Tryk på ‘Take me there now!’</strong></p>
+
+<p>Nu vil du se Duplicator &gt; Tools siden med forskellige indstillinger: Stored Data, Server Settings, Scan Validator og PHP Information.</p>
+
+<p><strong>Tryk på Stored Data</strong></p>
+
+<p>Nu vil du have mulighed for at fjerne filerne ved at trykke ‘Remove Installation Files’.</p>
+
+<p><strong>Tryk på Remove Installation Files</strong></p>
+
+<p>Nu har Duplicator fjernet alle de filer, som ikke skal ligge på dit webhotel.</p>
+
+<p><br /></p>
+
+<h4 id="2-er-dit-brugernavn-og-din-adgangskode-sikkert-nok-til-internettet">2. Er dit brugernavn og din adgangskode sikkert nok til internettet?</h4>
+
+<p>Din database har fået nye oplysninger, som passer bedre til The World Wide Web.</p>
+
+<p>Men hvad med dit brugernavn og kodeord? Hvis det er for kort, fordi du (forståeligt nok) følte dig tryg lokalt, så tag og brug et par minutter på at ændre det i din backend.</p>
+
+<p>Du finder din profil under Brugere &gt; Alle brugere</p>
+
+<p><br /></p>
+
+<h4 id="3-tjek-din-ftp-igen-mest-for-sjov">3. Tjek din FTP igen (mest for sjov)</h4>
+
+<p>For at se WordPress-filstrukturen, som er nævnt i starten af denne del, kan du prøve at tilgå dit webhotel igen via FTP.</p>
+
+<p>Nu vil du se hvilket tungt arbejde, som Duplicator har taget sig af.</p>
+
+<p><img src="http://localhost:4000/assets/wordpress/last-ftp-shot.png" alt="FTP Wordpress Structure" /></p>
+
+<p>Tidligere var der blot en root-folder med få filer i. Men nu er hele WordPress kodebasen blevet uploadet via den tidligere zip-fil genereret af Duplicator.</p>
+
+<h3 id="godt-gået-du-har-lige-uploadet-din-lokale-side-til-internettet">Godt gået! Du har lige uploadet din lokale side til internettet!</h3>
+
+<blockquote>
+  <p>Tak for et godt kursus. Hvis du har kommentarer, ris/ros eller har lyst til at fortælle mig, hvad mine typiske grammatiske fejl er, så er du meget velkommen til at skrive til min mail <code class="highlighter-rouge">kontakt@hilsen.it</code></p>
+</blockquote>
+
+<p>Jeg håber, at du har fået et godt afsæt til at lave din egen hjemmeside.</p>
+
+<p>…</p>
+
+<h1 id="hilsen-it-">Hilsen IT :)</h1>
 
 <p><br />
 <br /></p>
 
-<h4 id="fejl-ved-ftp">Fejl ved FTP</h4>
+<h3 id="fejl-ved-ftp">Fejl ved FTP</h3>
 
 <p><strong>1.</strong> Gå dine oplysninger igennem. Er alt som det skal være? Har du fået det hele med - eller måske for meget?</p>
 
@@ -329,7 +449,7 @@
 		
 			<div class="hilsen-pagination">
 	
-	<a class="blue-highlight hilsen-prev" href="/wordpress/2018/02/20/koeb-af-dom%C3%A6ne.html">&#8592; Køb af domæne - webhosting.dk 4 life <3</a>
+	<a class="blue-highlight hilsen-prev" href="/wordpress/2018/02/20/del-5-koeb-af-dom%C3%A6ne.html">&#8592; Del 5 - Køb af domæne - webhosting.dk 4 life <3</a>
 	
 	
 </div>
@@ -337,7 +457,7 @@
 
 		
 
-  <a class="u-url" href="/wordpress/2018/02/23/del-5-skub-op.html" hidden></a>
+  <a class="u-url" href="/wordpress/2018/02/23/del-6-skub-op.html" hidden></a>
 </article>
 
       <div>

@@ -1,10 +1,10 @@
 ---
 layout: blog
-title:  "Køb af domæne - webhosting.dk 4 life <3"
+title:  "Del 5 - Køb af domæne - webhosting.dk 4 life <3"
 category: wordpress
 ---
 
-> Dette er et lille sidespring fra WordPress guiden, hvor du får hjælp til at købe et domæne og sætte det op. Der er mange penge og især timer at spare!
+> I denne del får du hjælp til at købe et domæne og sætte det op. Der er mange penge og især timer at spare ved at vælge rigtigt første gang!
 
 Mit bedste råd er at gøre brug af [webhosting.dk](https://www.webhosting.dk/){:target="_blank"}. Selvom deres hjemmeside ligner noget fra 90'erne, så er de billige og deres service er i top. Du kan tjekke [TrustPilot](https://dk.trustpilot.com/review/www.webhosting.dk){:target="_blank"}, hvis du vil læse mere.
 
