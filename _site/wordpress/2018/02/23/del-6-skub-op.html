@@ -83,7 +83,7 @@
   <p><strong>Skubbe op</strong> er et udtryk jeg bruger om at flytte noget lokalt(fra din computer) ‘op’ på internettet.</p>
 </blockquote>
 
-<p>Et domæne er din plads på internettet. F.eks. dette domæne: www.hilsen.it. Det kan forklares som en mappe, der ligger online. Altså er der filer og en mappestruktur, ligesom på din computer.</p>
+<p>Et domæne er din plads på internettet. F.eks. dette domæne: www.hilsen.it. Det kan forklares som alles adgang til din mappe (hvis du har købt et webhotel til), der ligger online. Altså er der filer og en mappestruktur, ligesom på din computer.</p>
 
 <h2 id="wordpress-er-bare-en-mappe-som-vi-skal-have-op-på-et-webhotel">WordPress er ‘bare’ en mappe, som vi skal have op på et webhotel</h2>
 
@@ -203,7 +203,7 @@
 <h3 id="ftp-adgang---din-hosting-løsning-har-adgangsoplysningerne-find-dem-der">FTP-adgang - din hosting-løsning har adgangsoplysningerne. Find dem der!</h3>
 
 <blockquote>
-  <p>Når du køber et domæne på internettet, køber du oftest også et webhotel. I <a href="https://hilsen.it/wordpress/2018/02/20/koeb-af-dom%C3%A6ne.html" target="_blank">Køb af domæne..</a> købte vi domæne og webhotel hos <a href="https://www.webhosting.dk/" target="_blank">WebHosting</a>. Derfor vil resten af guiden være lavet i deres kontrolpanel.</p>
+  <p>Når du køber et domæne på internettet, køber du oftest også et webhotel. I <a href="https://hilsen.it/wordpress/2018/02/20/koeb-af-dom%C3%A6ne.html" target="_blank">Køb af domæne..</a> købte vi domæne og webhotel hos <a href="https://www.webhosting.dk/" target="_blank">WebHosting</a>. Derfor vil i resten af guiden bruge dem.</p>
 </blockquote>
 
 <blockquote>
@@ -220,16 +220,16 @@
 
 <p><img src="http://localhost:4000/assets/wordpress/ftp.png" alt="WebHosting kontrolpanel" /></p>
 
-<p>Tryk på den</p>
+<p><strong>Tryk på den</strong></p>
 
-<p>Nu har du oplysningerne til FileZilla.</p>
+<p>Nu har du FTP-oplysningerne til FileZilla.</p>
 
 <p><strong>Hold det her vindue åbent. Vi skal bruge det senere!</strong></p>
 
 <p><br /></p>
 <h3 id="indtast-ftp-oplysningerne-i-filezilla">Indtast FTP-oplysningerne i FileZilla</h3>
 
-<p>Åben da FileZilla igen og tryk på <img src="http://localhost:4000/assets/wordpress/filezilla_btn.png" alt="FileZilla button" /> øverst i venstre hjørne. Det åbner et nyt vindue, hvor du snart skal indtaste dine oplysninger. Dette gemmer dine ftp-adgangsoplysninger, så du ikke skal forbi WebHosting næste gang, at du skal have kontakt til din hjemmeside.</p>
+<p>Åben da FileZilla igen og tryk på <img src="http://localhost:4000/assets/wordpress/filezilla_btn.png" alt="FileZilla button" /> øverst i venstre hjørne. Det åbner et nyt vindue, hvor du snart skal indtaste dine oplysninger. Dette gemmer dine ftp-adgangsoplysninger, så du ikke skal forbi WebHosting næste gang, at du skal have FTP-kontakt til din hjemmeside.</p>
 
 <p>Tryk på “New Site” og giv den et navn (f.eks. dit domænenavn).</p>
 
@@ -247,7 +247,7 @@
 )
 <img src="http://localhost:4000/assets/wordpress/filezilla-webhosting.jpg" alt="FileZilla window" /></p>
 
-<p>Når du har kopieret oplysningerne ind i FileZilla vinduet trykket du på ‘Connect’.</p>
+<p>Når du har kopieret oplysningerne ind i FileZilla vinduet <strong>tryk da på ‘Connect’</strong>.</p>
 
 <p><em>Der vil højest sandsynligt komme et vindue, hvor der står ‘Unknown Certificate’. Tryk ‘Ok’ på den og fortsæt.</em></p>
 
@@ -270,11 +270,11 @@
 
 <p><strong>Derefter trykker du på Upload</strong> (se billede nedenunder):</p>
 
-<p><img src="http://localhost:4000/assets/wordpress/file-to-upload.png" alt="FileZilla upload files" /></p>
-
 <blockquote>
-  <p>FileZilla skubber dine valgte filer op i den mappe, som du er i på højre side (dit webhotel). Altså vil den skubbe det valgte op på ‘/’, da det er den eneste nuværende mappe, som der er på dit domæne (hvis det er nyindkøbt) - også kaldet <strong>root</strong>.</p>
+  <p><strong>Vigtigt:</strong> FileZilla skubber dine valgte filer op i den mappe, som du er i på højre side (dit webhotel). Det er vigtigt, at du er i root-mappen på dit webhotel (højre side), når du uploader Duplicator-filerne. Root mappen er også altid vist med et ‘/’ uden noget efter, og det er den du starter i, når du får FTP-adgang.</p>
 </blockquote>
+
+<p><img src="http://localhost:4000/assets/wordpress/file-to-upload.png" alt="FileZilla upload files" /></p>
 
 <hr />
 
@@ -294,7 +294,7 @@
 
 <p>Når du uploader noget til din <strong>root</strong>, så vil du (oftest) kunne besøge filen ved at trykke <code class="highlighter-rouge">www.dit-domæne.dk/filnavn</code></p>
 
-<p>Altså ligger det sig godt op af forklaringen: <em>Dit domæne kan forklares som en mappe, der ligger online</em>.</p>
+<p>Altså lægger det sig godt op af forklaringen: <em>Dit domæne kan forklares som adgangen til en mappe, der ligger online</em>.</p>
 
 <p>Du kan altså indtaste stien til din fil, som så vil vise næste skridt.</p>
 

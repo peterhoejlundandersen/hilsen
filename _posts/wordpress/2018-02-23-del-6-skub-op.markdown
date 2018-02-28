@@ -8,7 +8,7 @@ category: wordpress
 
 > **Skubbe op** er et udtryk jeg bruger om at flytte noget lokalt(fra din computer) 'op' på internettet.
 
-Et domæne er din plads på internettet. F.eks. dette domæne: www.hilsen.it. Det kan forklares som en mappe, der ligger online. Altså er der filer og en mappestruktur, ligesom på din computer.
+Et domæne er din plads på internettet. F.eks. dette domæne: www.hilsen.it. Det kan forklares som alles adgang til din mappe (hvis du har købt et webhotel til), der ligger online. Altså er der filer og en mappestruktur, ligesom på din computer.
 
 ## WordPress er 'bare' en mappe, som vi skal have op på et webhotel
 
@@ -116,7 +116,7 @@ Men hov.. Vi mangler jo filerne på højre side - nu er det tid til at få konta
 <br>
 ### FTP-adgang - din hosting-løsning har adgangsoplysningerne. Find dem der!
 
-> Når du køber et domæne på internettet, køber du oftest også et webhotel. I [Køb af domæne..](https://hilsen.it/wordpress/2018/02/20/koeb-af-dom%C3%A6ne.html){:target="_blank"} købte vi domæne og webhotel hos [WebHosting](https://www.webhosting.dk/){:target="_blank"}. Derfor vil resten af guiden være lavet i deres kontrolpanel.
+> Når du køber et domæne på internettet, køber du oftest også et webhotel. I [Køb af domæne..](https://hilsen.it/wordpress/2018/02/20/koeb-af-dom%C3%A6ne.html){:target="_blank"} købte vi domæne og webhotel hos [WebHosting](https://www.webhosting.dk/){:target="_blank"}. Derfor vil i resten af guiden bruge dem.
 
 > Dit webhotel ligger altid inde med oplysningerne om hvordan du får FTP-adgang.
 
@@ -130,16 +130,16 @@ I det kontrolpanel finder du **FTP / PHP information** (er markeret på billedet
 
 ![WebHosting kontrolpanel]({{ "assets/wordpress/ftp.png" || absolute_url }})
 
-Tryk på den
+**Tryk på den**
 
-Nu har du oplysningerne til FileZilla.
+Nu har du FTP-oplysningerne til FileZilla.
 
 **Hold det her vindue åbent. Vi skal bruge det senere!**
 
 <br>
 ### Indtast FTP-oplysningerne i FileZilla
 
-Åben da FileZilla igen og tryk på ![FileZilla button]({{ "assets/wordpress/filezilla_btn.png" || absolute_url }}) øverst i venstre hjørne. Det åbner et nyt vindue, hvor du snart skal indtaste dine oplysninger. Dette gemmer dine ftp-adgangsoplysninger, så du ikke skal forbi WebHosting næste gang, at du skal have kontakt til din hjemmeside.
+Åben da FileZilla igen og tryk på ![FileZilla button]({{ "assets/wordpress/filezilla_btn.png" || absolute_url }}) øverst i venstre hjørne. Det åbner et nyt vindue, hvor du snart skal indtaste dine oplysninger. Dette gemmer dine ftp-adgangsoplysninger, så du ikke skal forbi WebHosting næste gang, at du skal have FTP-kontakt til din hjemmeside.
 
 Tryk på "New Site" og giv den et navn (f.eks. dit domænenavn).
 
@@ -157,7 +157,7 @@ For at gøre det lettere for dig, da navnene faktisk er forskellige og derfor ka
 )
 ![FileZilla window]({{ "assets/wordpress/filezilla-webhosting.jpg" || absolute_url }})
 
-Når du har kopieret oplysningerne ind i FileZilla vinduet trykket du på 'Connect'.
+Når du har kopieret oplysningerne ind i FileZilla vinduet **tryk da på 'Connect'**.
 
 *Der vil højest sandsynligt komme et vindue, hvor der står 'Unknown Certificate'. Tryk 'Ok' på den og fortsæt.*
 
@@ -179,11 +179,13 @@ Det gør du i FileZilla efter at du har oprettet en forbindelse til dit webhotel
 
 Nu finder du dine to filer i venstre side (din computer), markerer dem og højre-klikker på dem. 
 
+
 **Derefter trykker du på Upload** (se billede nedenunder):
+
+> **Vigtigt:** FileZilla skubber dine valgte filer op i den mappe, som du er i på højre side (dit webhotel). Det er vigtigt, at du er i root-mappen på dit webhotel (højre side), når du uploader Duplicator-filerne. Root mappen er også altid vist med et '/' uden noget efter, og det er den du starter i, når du får FTP-adgang.
 
 ![FileZilla upload files]({{ "assets/wordpress/file-to-upload.png" || absolute_url }})
 
-> FileZilla skubber dine valgte filer op i den mappe, som du er i på højre side (dit webhotel). Altså vil den skubbe det valgte op på '/', da det er den eneste nuværende mappe, som der er på dit domæne (hvis det er nyindkøbt) - også kaldet **root**.
 
 
 ------------------------------
@@ -206,7 +208,7 @@ Snup en kop kaffe eller et nikotintyggegummi. Godt gået!
 
 Når du uploader noget til din **root**, så vil du (oftest) kunne besøge filen ved at trykke `www.dit-domæne.dk/filnavn`
 
-Altså ligger det sig godt op af forklaringen: *Dit domæne kan forklares som en mappe, der ligger online*. 
+Altså lægger det sig godt op af forklaringen: *Dit domæne kan forklares som adgangen til en mappe, der ligger online*. 
 
 Du kan altså indtaste stien til din fil, som så vil vise næste skridt.
 

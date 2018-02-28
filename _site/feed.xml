@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-02-28T13:08:05+01:00</updated><id>http://localhost:4000/</id><title type="html">Hilsen IT</title><subtitle>Designer hjemmesider med et sikkert fundament i Ruby on Rails, Jekyll og Angular</subtitle><entry><title type="html">Del 6 - Skub op! - Afslutning</title><link href="http://localhost:4000/wordpress/2018/02/23/del-6-skub-op.html" rel="alternate" type="text/html" title="Del 6 - Skub op! - Afslutning" /><published>2018-02-23T00:00:00+01:00</published><updated>2018-02-23T00:00:00+01:00</updated><id>http://localhost:4000/wordpress/2018/02/23/del-6-skub-op</id><content type="html" xml:base="http://localhost:4000/wordpress/2018/02/23/del-6-skub-op.html">&lt;blockquote&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-02-28T13:29:38+01:00</updated><id>http://localhost:4000/</id><title type="html">Hilsen IT</title><subtitle>Designer hjemmesider med et sikkert fundament i Ruby on Rails, Jekyll og Angular</subtitle><entry><title type="html">Del 6 - Skub op! - Afslutning</title><link href="http://localhost:4000/wordpress/2018/02/23/del-6-skub-op.html" rel="alternate" type="text/html" title="Del 6 - Skub op! - Afslutning" /><published>2018-02-23T00:00:00+01:00</published><updated>2018-02-23T00:00:00+01:00</updated><id>http://localhost:4000/wordpress/2018/02/23/del-6-skub-op</id><content type="html" xml:base="http://localhost:4000/wordpress/2018/02/23/del-6-skub-op.html">&lt;blockquote&gt;
   &lt;p&gt;I den sidste del, da skal vi se på, hvordan vi skubber vores lokale miljø op på et domæne. Hvis du har fulgt &lt;a href=&quot;https://hilsen.it/wordpress/2018/02/20/koeb-af-dom%C3%A6ne.html&quot; target=&quot;_blank&quot;&gt;Køb af domæne …&lt;/a&gt;, har du mulighed for at skubbe det op på det købte. Hvis ikke, så kan du se, hvordan jeg skubber det op på mit.&lt;/p&gt;
 &lt;/blockquote&gt;
 
@@ -6,7 +6,7 @@
   &lt;p&gt;&lt;strong&gt;Skubbe op&lt;/strong&gt; er et udtryk jeg bruger om at flytte noget lokalt(fra din computer) ‘op’ på internettet.&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;Et domæne er din plads på internettet. F.eks. dette domæne: www.hilsen.it. Det kan forklares som en mappe, der ligger online. Altså er der filer og en mappestruktur, ligesom på din computer.&lt;/p&gt;
+&lt;p&gt;Et domæne er din plads på internettet. F.eks. dette domæne: www.hilsen.it. Det kan forklares som alles adgang til din mappe (hvis du har købt et webhotel til), der ligger online. Altså er der filer og en mappestruktur, ligesom på din computer.&lt;/p&gt;
 
 &lt;h2 id=&quot;wordpress-er-bare-en-mappe-som-vi-skal-have-op-på-et-webhotel&quot;&gt;WordPress er ‘bare’ en mappe, som vi skal have op på et webhotel&lt;/h2&gt;
 
@@ -126,7 +126,7 @@
 &lt;h3 id=&quot;ftp-adgang---din-hosting-løsning-har-adgangsoplysningerne-find-dem-der&quot;&gt;FTP-adgang - din hosting-løsning har adgangsoplysningerne. Find dem der!&lt;/h3&gt;
 
 &lt;blockquote&gt;
-  &lt;p&gt;Når du køber et domæne på internettet, køber du oftest også et webhotel. I &lt;a href=&quot;https://hilsen.it/wordpress/2018/02/20/koeb-af-dom%C3%A6ne.html&quot; target=&quot;_blank&quot;&gt;Køb af domæne..&lt;/a&gt; købte vi domæne og webhotel hos &lt;a href=&quot;https://www.webhosting.dk/&quot; target=&quot;_blank&quot;&gt;WebHosting&lt;/a&gt;. Derfor vil resten af guiden være lavet i deres kontrolpanel.&lt;/p&gt;
+  &lt;p&gt;Når du køber et domæne på internettet, køber du oftest også et webhotel. I &lt;a href=&quot;https://hilsen.it/wordpress/2018/02/20/koeb-af-dom%C3%A6ne.html&quot; target=&quot;_blank&quot;&gt;Køb af domæne..&lt;/a&gt; købte vi domæne og webhotel hos &lt;a href=&quot;https://www.webhosting.dk/&quot; target=&quot;_blank&quot;&gt;WebHosting&lt;/a&gt;. Derfor vil i resten af guiden bruge dem.&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;blockquote&gt;
@@ -143,16 +143,16 @@
 
 &lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/wordpress/ftp.png&quot; alt=&quot;WebHosting kontrolpanel&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;Tryk på den&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Tryk på den&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;Nu har du oplysningerne til FileZilla.&lt;/p&gt;
+&lt;p&gt;Nu har du FTP-oplysningerne til FileZilla.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Hold det her vindue åbent. Vi skal bruge det senere!&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;h3 id=&quot;indtast-ftp-oplysningerne-i-filezilla&quot;&gt;Indtast FTP-oplysningerne i FileZilla&lt;/h3&gt;
 
-&lt;p&gt;Åben da FileZilla igen og tryk på &lt;img src=&quot;http://localhost:4000/assets/wordpress/filezilla_btn.png&quot; alt=&quot;FileZilla button&quot; /&gt; øverst i venstre hjørne. Det åbner et nyt vindue, hvor du snart skal indtaste dine oplysninger. Dette gemmer dine ftp-adgangsoplysninger, så du ikke skal forbi WebHosting næste gang, at du skal have kontakt til din hjemmeside.&lt;/p&gt;
+&lt;p&gt;Åben da FileZilla igen og tryk på &lt;img src=&quot;http://localhost:4000/assets/wordpress/filezilla_btn.png&quot; alt=&quot;FileZilla button&quot; /&gt; øverst i venstre hjørne. Det åbner et nyt vindue, hvor du snart skal indtaste dine oplysninger. Dette gemmer dine ftp-adgangsoplysninger, så du ikke skal forbi WebHosting næste gang, at du skal have FTP-kontakt til din hjemmeside.&lt;/p&gt;
 
 &lt;p&gt;Tryk på “New Site” og giv den et navn (f.eks. dit domænenavn).&lt;/p&gt;
 
@@ -170,7 +170,7 @@
 )
 &lt;img src=&quot;http://localhost:4000/assets/wordpress/filezilla-webhosting.jpg&quot; alt=&quot;FileZilla window&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;Når du har kopieret oplysningerne ind i FileZilla vinduet trykket du på ‘Connect’.&lt;/p&gt;
+&lt;p&gt;Når du har kopieret oplysningerne ind i FileZilla vinduet &lt;strong&gt;tryk da på ‘Connect’&lt;/strong&gt;.&lt;/p&gt;
 
 &lt;p&gt;&lt;em&gt;Der vil højest sandsynligt komme et vindue, hvor der står ‘Unknown Certificate’. Tryk ‘Ok’ på den og fortsæt.&lt;/em&gt;&lt;/p&gt;
 
@@ -193,11 +193,11 @@
 
 &lt;p&gt;&lt;strong&gt;Derefter trykker du på Upload&lt;/strong&gt; (se billede nedenunder):&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/wordpress/file-to-upload.png&quot; alt=&quot;FileZilla upload files&quot; /&gt;&lt;/p&gt;
-
 &lt;blockquote&gt;
-  &lt;p&gt;FileZilla skubber dine valgte filer op i den mappe, som du er i på højre side (dit webhotel). Altså vil den skubbe det valgte op på ‘/’, da det er den eneste nuværende mappe, som der er på dit domæne (hvis det er nyindkøbt) - også kaldet &lt;strong&gt;root&lt;/strong&gt;.&lt;/p&gt;
+  &lt;p&gt;&lt;strong&gt;Vigtigt:&lt;/strong&gt; FileZilla skubber dine valgte filer op i den mappe, som du er i på højre side (dit webhotel). Det er vigtigt, at du er i root-mappen på dit webhotel (højre side), når du uploader Duplicator-filerne. Root mappen er også altid vist med et ‘/’ uden noget efter, og det er den du starter i, når du får FTP-adgang.&lt;/p&gt;
 &lt;/blockquote&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/wordpress/file-to-upload.png&quot; alt=&quot;FileZilla upload files&quot; /&gt;&lt;/p&gt;
 
 &lt;hr /&gt;
 
@@ -217,7 +217,7 @@
 
 &lt;p&gt;Når du uploader noget til din &lt;strong&gt;root&lt;/strong&gt;, så vil du (oftest) kunne besøge filen ved at trykke &lt;code class=&quot;highlighter-rouge&quot;&gt;www.dit-domæne.dk/filnavn&lt;/code&gt;&lt;/p&gt;
 
-&lt;p&gt;Altså ligger det sig godt op af forklaringen: &lt;em&gt;Dit domæne kan forklares som en mappe, der ligger online&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;Altså lægger det sig godt op af forklaringen: &lt;em&gt;Dit domæne kan forklares som adgangen til en mappe, der ligger online&lt;/em&gt;.&lt;/p&gt;
 
 &lt;p&gt;Du kan altså indtaste stien til din fil, som så vil vise næste skridt.&lt;/p&gt;
 
@@ -373,12 +373,12 @@
 &lt;p&gt;F.eks. er prisen på et .dk domæne på &lt;a href=&quot;https://www.one.com/da/&quot; target=&quot;_blank&quot;&gt;One.com&lt;/a&gt; (f.eks. hestevogneerfede.dk) med 25 GB plads &lt;strong&gt;420 kr.&lt;/strong&gt; mens tidligere nævnte giver dig en pakke med 5 GB plads til &lt;strong&gt;256 kr.&lt;/strong&gt;.&lt;/p&gt;
 
 &lt;blockquote&gt;
-  &lt;p&gt;Men hvad? 25 GB er da meget bedre end 5 GB! SKal jeg ikke købe den store pakke?&lt;/p&gt;
+  &lt;p&gt;Men hvad? 25 GB er da meget bedre end 5 GB! Skal jeg ikke købe den store pakke?&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;p&gt;Nej. 5 GB i hjemmesideverden for nye sider er rigtig meget. Husk på at man ikke uploader tunge billeder eller har en masse bras liggende på en server, som man aldrig får brugt. Man optimerer og har kun det mest nødvendige liggende. Hvis du har planer om at starte det nye Facebook, så er det selvfølgelig &lt;strong&gt;nothing&lt;/strong&gt;, men normale behov: portfolier, kontaktsider og mindre webshops har sjældent brug for mere.&lt;/p&gt;
 
-&lt;h3 id=&quot;lad-os-komme-igang---10-step-til-køb-af-domæne&quot;&gt;Lad os komme igang - 10 step til køb af domæne&lt;/h3&gt;
+&lt;h3 id=&quot;lad-os-komme-igang---10-steps-til-køb-af-domæne&quot;&gt;Lad os komme igang - 10 steps til køb af domæne&lt;/h3&gt;
 
 &lt;p&gt;&lt;br /&gt;
 &lt;em&gt;Gå først til &lt;a href=&quot;https://www.webhosting.dk/&quot; target=&quot;_blank&quot;&gt;WebHosting’s hjemmeside&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
@@ -410,7 +410,7 @@
 
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;5.&lt;/strong&gt; Nu kan du se et overblik over, hvad du er ved at bestille. Læg mærke til, at du betaler &lt;strong&gt;for et år&lt;/strong&gt;. Altså vil der komme en opkrævning om et år på ca. det samme. Og sådan fortsætter det år efter år.
+&lt;p&gt;&lt;strong&gt;5.&lt;/strong&gt; Nu kan du se et overblik over, hvad du er ved at bestille. Læg mærke til, at du &lt;strong&gt;betaler for et år&lt;/strong&gt;. Altså vil der komme en opkrævning om et år på ca. det samme. Sådan fortsætter det år efter år.
 Tryk derefter “Tryk her for at acceptere ordre”, hvis du ikke har flere indvendinger.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/wordpress/trykher.png&quot; alt=&quot;Tryk her&quot; /&gt;&lt;/p&gt;
@@ -419,7 +419,7 @@ Tryk derefter “Tryk her for at acceptere ordre”, hvis du ikke har flere indv
 &lt;strong&gt;6.&lt;/strong&gt; Nu skal du oprette en bruger på Webhosting.dk. Det fungerer ligesom på alle andre sider.&lt;/p&gt;
 
 &lt;blockquote&gt;
-  &lt;p&gt;Husk at vælg et kodeord, som du ikke har andre stedet og som er sikkert. Man kan gøre uoprettelig skade på din hjemmeside/hjemmesider ved at få adgang til din server.&lt;/p&gt;
+  &lt;p&gt;Husk at vælg et kodeord, som du ikke har andre stedet og som er sikkert. Man kan gøre uoprettelig skade på din hjemmeside/hjemmesider ved at få adgang til din WebHosting bruger.&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;p&gt;&lt;br /&gt;
@@ -444,7 +444,7 @@ Tryk derefter “Tryk her for at acceptere ordre”, hvis du ikke har flere indv
 
 &lt;p&gt;&lt;br /&gt;
 &lt;br /&gt;
-&lt;strong&gt;9.&lt;/strong&gt; Det sidste vi mangler er, efter at du har betalt for domænet, er at aktivere det via DK-Hostmasters hjemmeside.&lt;/p&gt;
+&lt;strong&gt;9.&lt;/strong&gt; Det sidste vi mangler er, efter at du har betalt for domænet, at aktivere det via DK-Hostmasters hjemmeside.&lt;/p&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;Du vil modtage en email fra DK-Hostmaster, som hedder noget i nærheden af: &lt;code class=&quot;highlighter-rouge&quot;&gt;dit-domæne.dk er klar til brug&lt;/code&gt;. Det er Danmarks register over domænenavne.&lt;/p&gt;
