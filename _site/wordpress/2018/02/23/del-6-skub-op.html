@@ -13,7 +13,7 @@
   
 	<script src="/assets/js/heading_list.js"></script>
 	
-		<title>Hilsen IT | Del 6 - Skub op! - Afslutning</title>
+		<title>Hilsen IT | Del 6 - Skub op! - Duplicator afslutning</title>
 	
 </head>
 
@@ -63,7 +63,7 @@
         <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
-    <h1 class="post-title p-name" itemprop="name headline">Del 6 - Skub op! - Afslutning</h1>
+    <h1 class="post-title p-name" itemprop="name headline">Del 6 - Skub op! - Duplicator afslutning</h1>
     <p class="post-meta">
       <time class="dt-published" datetime="2018-02-23T00:00:00+01:00" itemprop="datePublished">
         
@@ -243,9 +243,9 @@
 
 <p>For at gøre det lettere for dig, da navnene faktisk er forskellige og derfor kan være ret forvirrende, har jeg lavet det her billede, for at forklare hvilke oplysninger fra WebHosting du skal bruge, og hvor de skal kopieres ind i FileZilla:</p>
 
-<p><em>De rigtige oplysninger står ud for punkterne på WebHosting - jeg er ikke interesseret i at vise mine til internettet.</em>
-)
-<img src="http://localhost:4000/assets/wordpress/filezilla-webhosting.jpg" alt="FileZilla window" /></p>
+<p><em>De rigtige oplysninger står ud for punkterne på WebHosting - jeg er ikke interesseret i at vise mine til internettet.</em></p>
+
+<p><img src="http://localhost:4000/assets/wordpress/filezilla-webhosting.jpg" alt="FileZilla window" /></p>
 
 <p>Når du har kopieret oplysningerne ind i FileZilla vinduet <strong>tryk da på ‘Connect’</strong>.</p>
 
@@ -257,7 +257,7 @@
 
 <p><em>Gå først videre, når du forstår konceptet beskrevet på billedet ovenover.</em></p>
 
-<p><strong>Hvis du får en fejl (rød tekst), og der ikke viser sig nogen mappe i højre side som på forrige billede, gå da til <a href="https:hilsen.it/wordpress/2018/02/23/del-5-skub-op.html#fejl-ved-ftp">Fejl ved FTP</a></strong></p>
+<p><strong>Hvis du får en fejl (rød tekst), og der ikke viser sig nogen mappe i højre side som på forrige billede, gå da til <a href="https://hilsen.it/wordpress/2018/02/23/del-6-skub-op.html#fejl-ved-ftp">Fejl ved FTP</a></strong></p>
 
 <p><br /></p>
 <h4 id="upload-af-duplicator-filer">Upload af Duplicator filer</h4>
@@ -322,13 +322,13 @@
 
 <h4 id="step-2---forbindelse-til-databasen">Step 2 - forbindelse til databasen</h4>
 
-<p><em>Du kan måske huske fra del 3 <a href="https://hilsen.it/wordpress/2018/02/09/del-3-Wordpress-basics.html#installation-og-opsætning-af-lokalt-miljø-til-mac" target="_blank">Installation op opsætning af lokalt miljø</a> at vi oprettede en forbindelse til en database i punkt 15. Det er næsten det samme, som vi skal nu. Det var bare lokalt. Nu skal vi gøre det online.</em></p>
+<p><em>Du kan måske huske fra del 3 <a href="https://hilsen.it/wordpress/2018/02/09/del-3-Wordpress-basics.html#installation-og-opsætning-af-lokalt-miljø-til-mac" target="_blank">Installation og opsætning af lokalt miljø</a> at vi oprettede en forbindelse til en database i punkt 15. Det er næsten det samme, som vi skal nu. Det var bare lokalt. Nu skal vi gøre det online.</em></p>
 
-<p>De adgangsoplysninger til vores database(brugernavn, kodeord), som vi have lokalt, var korte og ens (root). Det var de fordi der ikke er nogen potientiel trussel ved at arbejde lokalt, da andre ikke har adgang til ens lokale miljø.</p>
+<p>De adgangsoplysninger til vores database(brugernavn, kodeord), som vi brugte lokalt, var korte og ens (root). Det var de fordi der ikke var nogen potientiel trussel ved at arbejde lokalt, da andre ikke har adgang til ens lokale miljø.</p>
 
-<p>Nu er det noget andet. Alle kan potientielt prøve at få adgang til din database. Derfor gemmer vores webhotel (WebHosting) nogle længere oplysninger på, hvordan vi kan få adgang til databasen. Dem skal vi finde nu.</p>
+<p>Nu er det noget andet. Alle kan potientielt prøve at få adgang til din database. Derfor gemmer vores webhotel (WebHosting) nogle længere og sikre oplysninger på, hvordan vi kan få adgang til databasen. Dem skal vi finde nu.</p>
 
-<p>Gå til kontrolpanelet for dit domæne (samme som i <a href="https://hilsen.it/wordpress/2018/02/23/del-5-skub-op.html#ftp-adgang---din-hosting-løsning-har-adgangsoplysningerne-find-dem-der" target="_blank">FTP-adgang - din hosting-løsning har adgangsoplysningerne. Find dem der!</a>) og tryk denne gang på MySQL database information (er markeret på billedet underneden).</p>
+<p>Gå til kontrolpanelet for dit domæne (samme som i <a href="https://hilsen.it/wordpress/2018/02/23/del-6-skub-op.html#ftp-adgang---din-hosting-løsning-har-adgangsoplysningerne-find-dem-der" target="_blank">FTP-adgang - din hosting-løsning har adgangsoplysningerne. Find dem der!</a>) og tryk denne gang på MySQL database information (er markeret på billedet underneden).</p>
 
 <p><img src="http://localhost:4000/assets/wordpress/mysql_new.png" alt="Mysql information" /></p>
 
@@ -380,7 +380,7 @@
 
 <h4 id="1-fjern-gamle-filer">1. Fjern gamle filer</h4>
 
-<p>Alle kan tilgå <code class="highlighter-rouge">installer.php</code>, selvom du har gennemført en installation. Du kan slette dine oprindelige filer i FTP (god udfordring), eller du kan logge ind på din backend (på din online side), hvor Duplicator automatisk genere en fejlbesked:</p>
+<p>Alle kan tilgå <code class="highlighter-rouge">installer.php</code>, selvom du har gennemført en installation. Du kan slette dine oprindelige filer i FTP (god udfordring), eller du kan logge ind på din backend (på din online side), hvor Duplicator automatisk generere en fejlbesked:</p>
 
 <p><img src="http://localhost:4000/assets/wordpress/duplicator-message.png" alt="Duplicator error message" /></p>
 
@@ -404,7 +404,11 @@
 
 <p>Men hvad med dit brugernavn og kodeord? Hvis det er for kort, fordi du (forståeligt nok) følte dig tryg lokalt, så tag og brug et par minutter på at ændre det i din backend.</p>
 
-<p>Du finder din profil under Brugere &gt; Alle brugere</p>
+<p>Du finder din profil under Brugere &gt; Alle brugere efter, at du har logget ind på din WordPress side.</p>
+
+<blockquote>
+  <p><strong>HUSK:</strong> Du logger stadig ind ved at tilføje <code class="highlighter-rouge">/wp-admin</code> til din URL, ligesom du også gjorde lokalt. Altså: <code class="highlighter-rouge">dit-domæne.dk/wp-admin</code>.</p>
+</blockquote>
 
 <p><br /></p>
 
@@ -425,10 +429,6 @@
 </blockquote>
 
 <p>Jeg håber, at du har fået et godt afsæt til at lave din egen hjemmeside.</p>
-
-<p>…</p>
-
-<h1 id="hilsen-it-">Hilsen IT :)</h1>
 
 <p><br />
 <br /></p>

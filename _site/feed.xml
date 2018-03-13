@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-02-28T13:33:22+01:00</updated><id>http://localhost:4000/</id><title type="html">Hilsen IT</title><subtitle>Designer hjemmesider med et sikkert fundament i Ruby on Rails, Jekyll og Angular</subtitle><entry><title type="html">Del 6 - Skub op! - Afslutning</title><link href="http://localhost:4000/wordpress/2018/02/23/del-6-skub-op.html" rel="alternate" type="text/html" title="Del 6 - Skub op! - Afslutning" /><published>2018-02-23T00:00:00+01:00</published><updated>2018-02-23T00:00:00+01:00</updated><id>http://localhost:4000/wordpress/2018/02/23/del-6-skub-op</id><content type="html" xml:base="http://localhost:4000/wordpress/2018/02/23/del-6-skub-op.html">&lt;blockquote&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-03-13T18:23:51+01:00</updated><id>http://localhost:4000/</id><title type="html">Hilsen IT</title><subtitle>Designer hjemmesider med et sikkert fundament i Ruby on Rails, Jekyll og Angular</subtitle><entry><title type="html">Del 6 - Skub op! - Duplicator afslutning</title><link href="http://localhost:4000/wordpress/2018/02/23/del-6-skub-op.html" rel="alternate" type="text/html" title="Del 6 - Skub op! - Duplicator afslutning" /><published>2018-02-23T00:00:00+01:00</published><updated>2018-02-23T00:00:00+01:00</updated><id>http://localhost:4000/wordpress/2018/02/23/del-6-skub-op</id><content type="html" xml:base="http://localhost:4000/wordpress/2018/02/23/del-6-skub-op.html">&lt;blockquote&gt;
   &lt;p&gt;I den sidste del, da skal vi se på, hvordan vi skubber vores lokale miljø op på et domæne. Hvis du har fulgt &lt;a href=&quot;https://hilsen.it/wordpress/2018/02/20/koeb-af-dom%C3%A6ne.html&quot; target=&quot;_blank&quot;&gt;Køb af domæne …&lt;/a&gt;, har du mulighed for at skubbe det op på det købte. Hvis ikke, så kan du se, hvordan jeg skubber det op på mit.&lt;/p&gt;
 &lt;/blockquote&gt;
 
@@ -166,9 +166,9 @@
 
 &lt;p&gt;For at gøre det lettere for dig, da navnene faktisk er forskellige og derfor kan være ret forvirrende, har jeg lavet det her billede, for at forklare hvilke oplysninger fra WebHosting du skal bruge, og hvor de skal kopieres ind i FileZilla:&lt;/p&gt;
 
-&lt;p&gt;&lt;em&gt;De rigtige oplysninger står ud for punkterne på WebHosting - jeg er ikke interesseret i at vise mine til internettet.&lt;/em&gt;
-)
-&lt;img src=&quot;http://localhost:4000/assets/wordpress/filezilla-webhosting.jpg&quot; alt=&quot;FileZilla window&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;De rigtige oplysninger står ud for punkterne på WebHosting - jeg er ikke interesseret i at vise mine til internettet.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/wordpress/filezilla-webhosting.jpg&quot; alt=&quot;FileZilla window&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Når du har kopieret oplysningerne ind i FileZilla vinduet &lt;strong&gt;tryk da på ‘Connect’&lt;/strong&gt;.&lt;/p&gt;
 
@@ -180,7 +180,7 @@
 
 &lt;p&gt;&lt;em&gt;Gå først videre, når du forstår konceptet beskrevet på billedet ovenover.&lt;/em&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Hvis du får en fejl (rød tekst), og der ikke viser sig nogen mappe i højre side som på forrige billede, gå da til &lt;a href=&quot;https:hilsen.it/wordpress/2018/02/23/del-5-skub-op.html#fejl-ved-ftp&quot;&gt;Fejl ved FTP&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Hvis du får en fejl (rød tekst), og der ikke viser sig nogen mappe i højre side som på forrige billede, gå da til &lt;a href=&quot;https://hilsen.it/wordpress/2018/02/23/del-6-skub-op.html#fejl-ved-ftp&quot;&gt;Fejl ved FTP&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;h4 id=&quot;upload-af-duplicator-filer&quot;&gt;Upload af Duplicator filer&lt;/h4&gt;
@@ -245,13 +245,13 @@
 
 &lt;h4 id=&quot;step-2---forbindelse-til-databasen&quot;&gt;Step 2 - forbindelse til databasen&lt;/h4&gt;
 
-&lt;p&gt;&lt;em&gt;Du kan måske huske fra del 3 &lt;a href=&quot;https://hilsen.it/wordpress/2018/02/09/del-3-Wordpress-basics.html#installation-og-opsætning-af-lokalt-miljø-til-mac&quot; target=&quot;_blank&quot;&gt;Installation op opsætning af lokalt miljø&lt;/a&gt; at vi oprettede en forbindelse til en database i punkt 15. Det er næsten det samme, som vi skal nu. Det var bare lokalt. Nu skal vi gøre det online.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Du kan måske huske fra del 3 &lt;a href=&quot;https://hilsen.it/wordpress/2018/02/09/del-3-Wordpress-basics.html#installation-og-opsætning-af-lokalt-miljø-til-mac&quot; target=&quot;_blank&quot;&gt;Installation og opsætning af lokalt miljø&lt;/a&gt; at vi oprettede en forbindelse til en database i punkt 15. Det er næsten det samme, som vi skal nu. Det var bare lokalt. Nu skal vi gøre det online.&lt;/em&gt;&lt;/p&gt;
 
-&lt;p&gt;De adgangsoplysninger til vores database(brugernavn, kodeord), som vi have lokalt, var korte og ens (root). Det var de fordi der ikke er nogen potientiel trussel ved at arbejde lokalt, da andre ikke har adgang til ens lokale miljø.&lt;/p&gt;
+&lt;p&gt;De adgangsoplysninger til vores database(brugernavn, kodeord), som vi brugte lokalt, var korte og ens (root). Det var de fordi der ikke var nogen potientiel trussel ved at arbejde lokalt, da andre ikke har adgang til ens lokale miljø.&lt;/p&gt;
 
-&lt;p&gt;Nu er det noget andet. Alle kan potientielt prøve at få adgang til din database. Derfor gemmer vores webhotel (WebHosting) nogle længere oplysninger på, hvordan vi kan få adgang til databasen. Dem skal vi finde nu.&lt;/p&gt;
+&lt;p&gt;Nu er det noget andet. Alle kan potientielt prøve at få adgang til din database. Derfor gemmer vores webhotel (WebHosting) nogle længere og sikre oplysninger på, hvordan vi kan få adgang til databasen. Dem skal vi finde nu.&lt;/p&gt;
 
-&lt;p&gt;Gå til kontrolpanelet for dit domæne (samme som i &lt;a href=&quot;https://hilsen.it/wordpress/2018/02/23/del-5-skub-op.html#ftp-adgang---din-hosting-løsning-har-adgangsoplysningerne-find-dem-der&quot; target=&quot;_blank&quot;&gt;FTP-adgang - din hosting-løsning har adgangsoplysningerne. Find dem der!&lt;/a&gt;) og tryk denne gang på MySQL database information (er markeret på billedet underneden).&lt;/p&gt;
+&lt;p&gt;Gå til kontrolpanelet for dit domæne (samme som i &lt;a href=&quot;https://hilsen.it/wordpress/2018/02/23/del-6-skub-op.html#ftp-adgang---din-hosting-løsning-har-adgangsoplysningerne-find-dem-der&quot; target=&quot;_blank&quot;&gt;FTP-adgang - din hosting-løsning har adgangsoplysningerne. Find dem der!&lt;/a&gt;) og tryk denne gang på MySQL database information (er markeret på billedet underneden).&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/wordpress/mysql_new.png&quot; alt=&quot;Mysql information&quot; /&gt;&lt;/p&gt;
 
@@ -303,7 +303,7 @@
 
 &lt;h4 id=&quot;1-fjern-gamle-filer&quot;&gt;1. Fjern gamle filer&lt;/h4&gt;
 
-&lt;p&gt;Alle kan tilgå &lt;code class=&quot;highlighter-rouge&quot;&gt;installer.php&lt;/code&gt;, selvom du har gennemført en installation. Du kan slette dine oprindelige filer i FTP (god udfordring), eller du kan logge ind på din backend (på din online side), hvor Duplicator automatisk genere en fejlbesked:&lt;/p&gt;
+&lt;p&gt;Alle kan tilgå &lt;code class=&quot;highlighter-rouge&quot;&gt;installer.php&lt;/code&gt;, selvom du har gennemført en installation. Du kan slette dine oprindelige filer i FTP (god udfordring), eller du kan logge ind på din backend (på din online side), hvor Duplicator automatisk generere en fejlbesked:&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/wordpress/duplicator-message.png&quot; alt=&quot;Duplicator error message&quot; /&gt;&lt;/p&gt;
 
@@ -327,7 +327,11 @@
 
 &lt;p&gt;Men hvad med dit brugernavn og kodeord? Hvis det er for kort, fordi du (forståeligt nok) følte dig tryg lokalt, så tag og brug et par minutter på at ændre det i din backend.&lt;/p&gt;
 
-&lt;p&gt;Du finder din profil under Brugere &amp;gt; Alle brugere&lt;/p&gt;
+&lt;p&gt;Du finder din profil under Brugere &amp;gt; Alle brugere efter, at du har logget ind på din WordPress side.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;HUSK:&lt;/strong&gt; Du logger stadig ind ved at tilføje &lt;code class=&quot;highlighter-rouge&quot;&gt;/wp-admin&lt;/code&gt; til din URL, ligesom du også gjorde lokalt. Altså: &lt;code class=&quot;highlighter-rouge&quot;&gt;dit-domæne.dk/wp-admin&lt;/code&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;
 
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
@@ -348,10 +352,6 @@
 &lt;/blockquote&gt;
 
 &lt;p&gt;Jeg håber, at du har fået et godt afsæt til at lave din egen hjemmeside.&lt;/p&gt;
-
-&lt;p&gt;…&lt;/p&gt;
-
-&lt;h1 id=&quot;hilsen-it-&quot;&gt;Hilsen IT :)&lt;/h1&gt;
 
 &lt;p&gt;&lt;br /&gt;
 &lt;br /&gt;&lt;/p&gt;
@@ -546,12 +546,14 @@ Tryk derefter “Tryk her for at acceptere ordre”, hvis du ikke har flere indv
 &lt;/blockquote&gt;
 
 &lt;blockquote&gt;
-  &lt;p&gt;&lt;strong&gt;Svar:&lt;/strong&gt; Ja, der er en bagside: hastighed og sikkerhed. Mange af de WordPress-hjemmesider, som jeg har taget over efter en anden har haft 5-10 plugins installeret som ikke blev brugt - eller var lette at udskifte med få linjer kode. Efter at de var fjernet/tilpasset blev hjemmesiden hurtigere og lettere at navigere i.&lt;/p&gt;
+  &lt;p&gt;&lt;strong&gt;Svar:&lt;/strong&gt; Ja, der er en bagside: hastighed og sikkerhed. Mange af de WordPress-hjemmesider, som jeg har overtaget efter en anden, har haft 5-10 plugins installeret, som ikke blev brugt - eller var lette at udskifte med få linjer kode. Efter at de var fjernet/tilpasset blev hjemmesiden hurtigere og ikke mindst lettere at navigere i.&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;p&gt;Derudover er nogle plugins så dårligt kodet, at de kan være en trussel mod din sikkerhed, men det er sjældent - så længe, at du sørger for at opdatere dine plugins regelmæssigt.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Installér kun et plugin, hvis det er højest nødvendigt og husk at afinstallere det igen&lt;/strong&gt;, hvis du ikke bruger det længere.&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;Husk dog:&lt;/strong&gt; Installér kun et plugin, hvis det er højest nødvendigt og husk at afinstallere det igen, hvis du ikke bruger det længere.&lt;/p&gt;
+&lt;/blockquote&gt;
 
 &lt;h2 id=&quot;tema---hvad-nu&quot;&gt;Tema - hvad nu?&lt;/h2&gt;
 
@@ -589,7 +591,7 @@ Tryk derefter “Tryk her for at acceptere ordre”, hvis du ikke har flere indv
 
 &lt;p&gt;WordPress leder altså først efter filer i dit child tema og du kan derfor overskrive filer i dit parent-tema. F.eks. filen &lt;code class=&quot;highlighter-rouge&quot;&gt;style.css&lt;/code&gt;. Hvis du lægger den i dit child-theme vil den overskrive dit parent-themes &lt;code class=&quot;highlighter-rouge&quot;&gt;style.css&lt;/code&gt;.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; Det er svært at forstå child-theme som nybegynder i WordPress. Det vigtigste lige nu er at forstå, at det overskriver parent-theme og derfor ikke bliver påvirket på opdateringer. &lt;strong&gt;Det er derfor en god vane at sætte et child-theme op, hver gang at man starter en ny WordPress side.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; Det er svært at forstå child-theme som nybegynder i WordPress. Det vigtigste lige nu er at forstå, at det overskriver parent-theme og derfor ikke bliver overskrevet af opdateringer. &lt;strong&gt;Det er derfor en rigtig god vane at sætte et child-theme op hver gang, at man starter en ny WordPress side.&lt;/strong&gt;&lt;/p&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;&lt;strong&gt;Bonusspørgsmål:&lt;/strong&gt; Hvad er ulempen ved child-theme? Hvad er det, som det ikke bliver?&lt;/p&gt;
@@ -614,7 +616,7 @@ Tryk derefter “Tryk her for at acceptere ordre”, hvis du ikke har flere indv
 &lt;p&gt;Lad os afprøve vores nye CSS-vindue. Tid til en udfordring mere:&lt;/p&gt;
 
 &lt;blockquote&gt;
-  &lt;p&gt;&lt;strong&gt;CSS udfordring:&lt;/strong&gt; Kunne det ikke være fedt, hvis din menu havde en anden baggrundsfarve og tekstfarve? Ændre deres CSS i din nye editor.&lt;/p&gt;
+  &lt;p&gt;&lt;strong&gt;CSS udfordring:&lt;/strong&gt; Prøv at hold musen over din menu(hover). Kunne det ikke være fedt, hvis baggrundsfarven ændrede sig, når du gjorde dette? Prøv at se, om du kan tilføje dette med hvad du lige har lært.&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;blockquote&gt;
