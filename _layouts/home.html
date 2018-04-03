@@ -3,11 +3,6 @@ layout: default
 ---
 
 <div class="home">
-	{% include introduction.html %}
-
-  {{ content }}
-
-	<br>
 	<h3>Blog:</h3>
 	{% if site.categories.blogs.size > 0 %}
 		<ul>
@@ -19,6 +14,12 @@ layout: default
 			{% endfor %}
 		</ul>
 	{% endif %}
+  <hr><br><br>
+	{% include introduction.html %}
+
+  {{ content }}
+
+	<br>
 	<h3>WordPress kursus:</h3>
   {% if site.categories.wordpress.size > 0 %}
     <ul>
