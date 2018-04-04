@@ -534,6 +534,13 @@ table {
   color: #099; }
 
 /* ALL STYLE FOR POSTS/POST*/
+.small-source {
+  font-size: 0.7em;
+  vertical-align: top; }
+
+.small {
+  font-size: 0.7em; }
+
 .blue-border {
   border: 1px solid blue;
   padding: 20px; }
