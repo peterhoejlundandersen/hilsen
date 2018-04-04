@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-04-04T16:20:13+02:00</updated><id>http://localhost:4000/</id><title type="html">Hilsen IT</title><subtitle>Designer hjemmesider med et sikkert fundament i Ruby on Rails, Jekyll og Angular</subtitle><entry><title type="html">Dråben, der fik bægeret til at flyde over - #deletefacebook</title><link href="http://localhost:4000/blogs/2018/04/03/hvorfor-jeg-slettede-min-facebook.html" rel="alternate" type="text/html" title="Dråben, der fik bægeret til at flyde over - #deletefacebook" /><published>2018-04-03T00:00:00+02:00</published><updated>2018-04-03T00:00:00+02:00</updated><id>http://localhost:4000/blogs/2018/04/03/hvorfor-jeg-slettede-min-facebook</id><content type="html" xml:base="http://localhost:4000/blogs/2018/04/03/hvorfor-jeg-slettede-min-facebook.html">&lt;blockquote&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-04-04T16:31:34+02:00</updated><id>http://localhost:4000/</id><title type="html">Hilsen IT</title><subtitle>Designer hjemmesider med et sikkert fundament i Ruby on Rails, Jekyll og Angular</subtitle><entry><title type="html">Dråben, der fik bægeret til at flyde over - #deletefacebook</title><link href="http://localhost:4000/blogs/2018/04/03/hvorfor-jeg-slettede-min-facebook.html" rel="alternate" type="text/html" title="Dråben, der fik bægeret til at flyde over - #deletefacebook" /><published>2018-04-03T00:00:00+02:00</published><updated>2018-04-03T00:00:00+02:00</updated><id>http://localhost:4000/blogs/2018/04/03/hvorfor-jeg-slettede-min-facebook</id><content type="html" xml:base="http://localhost:4000/blogs/2018/04/03/hvorfor-jeg-slettede-min-facebook.html">&lt;blockquote&gt;
   &lt;p&gt;Facebook er gigantisk. Med i nærheden af 2 milliarder brugere er det uden sammenligning den største brugerplatform, der eksisterer. Og med god grund… Vi får “gratis” adgang til potientielt millioner af menneskers liv, begivenheder inden for en hver genre, tusindvis af billeder, holdninger og nyheder. Dette indlæg er et forsøg på at forklare, hvorfor gratis står i gåseøjne. For hvad er det egentlig vi betaler - og hvilke konsekvenser har det?&lt;/p&gt;
 &lt;/blockquote&gt;
 
@@ -21,6 +21,15 @@
   &lt;/li&gt;
   &lt;li&gt;
     &lt;p&gt;Cambridge Analytica bliver hyret til at hjælpe præsidentkandidaterne Ted Cruz og Ben Carson.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;ul class=&quot;blue-border&quot;&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;2015&lt;/strong&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://www.theguardian.com/us-news/2015/dec/11/senator-ted-cruz-president-campaign-facebook-user-data&quot; target=&quot;_blank&quot;&gt;The Guardian skriver en artikel om emnet&lt;/a&gt;, i forhold til Ted Cruz’s brug af dataen fra 30 millioner personer (fra førnævnte indsamling) uden samtykke. Overraskende nok, med nutidens briller på, oplever artiklen ikke nogen synderlig opmærksomhed.&lt;/p&gt;
   &lt;/li&gt;
 &lt;/ul&gt;
 

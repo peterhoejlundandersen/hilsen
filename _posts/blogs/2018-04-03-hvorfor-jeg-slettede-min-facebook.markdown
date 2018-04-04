@@ -24,6 +24,11 @@ Mange har hørt om Facebook Cambridge Analytica skandalen og set overskrifer som
 
 * Cambridge Analytica bliver hyret til at hjælpe præsidentkandidaterne Ted Cruz og Ben Carson. 
 
+{: .blue-border }
+* **2015**
+
+* [The Guardian skriver en artikel om emnet](https://www.theguardian.com/us-news/2015/dec/11/senator-ted-cruz-president-campaign-facebook-user-data){:target="_blank"}, i forhold til Ted Cruz's brug af dataen fra 30 millioner personer (fra førnævnte indsamling) uden samtykke. Overraskende nok, med nutidens briller på, oplever artiklen ikke nogen synderlig opmærksomhed. 
+
 
 
 **Men hvorfor er dette et problem?**
