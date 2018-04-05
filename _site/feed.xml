@@ -1,12 +1,12 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-04-04T20:48:42+02:00</updated><id>http://localhost:4000/</id><title type="html">Hilsen IT</title><subtitle>Designer hjemmesider med et sikkert fundament i Ruby on Rails, Jekyll og Angular</subtitle><entry><title type="html">Dråben, der fik bægeret til at flyde over #deletefacebook</title><link href="http://localhost:4000/blogs/2018/04/03/hvorfor-jeg-slettede-min-facebook.html" rel="alternate" type="text/html" title="Dråben, der fik bægeret til at flyde over #deletefacebook" /><published>2018-04-03T00:00:00+02:00</published><updated>2018-04-03T00:00:00+02:00</updated><id>http://localhost:4000/blogs/2018/04/03/hvorfor-jeg-slettede-min-facebook</id><content type="html" xml:base="http://localhost:4000/blogs/2018/04/03/hvorfor-jeg-slettede-min-facebook.html">&lt;blockquote&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-04-05T14:25:24+02:00</updated><id>http://localhost:4000/</id><title type="html">Hilsen IT</title><subtitle>Designer hjemmesider med et sikkert fundament i Ruby on Rails, Jekyll og Angular</subtitle><entry><title type="html">Dråben, der fik bægeret til at flyde over - #deletefacebook</title><link href="http://localhost:4000/blogs/2018/04/03/hvorfor-jeg-slettede-min-facebook.html" rel="alternate" type="text/html" title="Dråben, der fik bægeret til at flyde over - #deletefacebook" /><published>2018-04-03T00:00:00+02:00</published><updated>2018-04-03T00:00:00+02:00</updated><id>http://localhost:4000/blogs/2018/04/03/hvorfor-jeg-slettede-min-facebook</id><content type="html" xml:base="http://localhost:4000/blogs/2018/04/03/hvorfor-jeg-slettede-min-facebook.html">&lt;blockquote&gt;
   &lt;p&gt;Facebook er gigantisk. Med i nærheden af 2 milliarder brugere er det uden sammenligning den største brugerplatform, der eksisterer. Og med god grund… Vi får “gratis” adgang til potientielt millioner af menneskers liv, begivenheder inden for en hver genre, tusindvis af billeder, holdninger og nyheder. Dette indlæg er et forsøg på at forklare, hvorfor gratis står i gåseøjne. For hvad er det egentlig vi betaler, og hvilke konsekvenser har det?&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;h2 id=&quot;vi-starter-med-dråben&quot;&gt;Vi starter med dråben&lt;/h2&gt;
 
-&lt;p&gt;Mange har hørt om Facebook Cambridge Analytica skandalen og set overskrifter som “50 millioners personlige data lækket …”. Men færre ved, at historien går helt tilbage til 2014.&lt;/p&gt;
+&lt;p&gt;Mange har hørt om Facebook Cambridge Analytica skandalen og set overskrifter som “50 millioners personlige data lækket …”. Men de færreste ved, at historien går helt tilbage til 2014.&lt;/p&gt;
 
-&lt;p&gt;For at forstå grundlaget for den større skandale, starter vi her fra begyndelsen:&lt;/p&gt;
+&lt;p&gt;For at forstå skandalen, starter vi her fra begyndelsen:&lt;/p&gt;
 
 &lt;ul class=&quot;blue-border&quot;&gt;
   &lt;li&gt;
@@ -45,13 +45,13 @@
   &lt;p&gt;3 kollegaer til Kogan viste, at man alene via Facebook-likes kan forudsige en persons race med 95% nøjagtighed, en persons seksualitet med 88% nøjagtighed og en persons støtte til et politisk parti med 85%&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;Personlighedsanalysen, brugt af Cambridge Analytica, skulle vise sig at være meget mere omfattende.&lt;/p&gt;
+&lt;p&gt;Resultatet af Cambridge Analytica’s analyse, skulle vise sig at være langt mere omfattende.&lt;/p&gt;
 
 &lt;hr /&gt;
 
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
-&lt;p&gt;Så bliver det 2017…&lt;/p&gt;
+&lt;p&gt;Så blev det 2017…&lt;/p&gt;
 
 &lt;ul class=&quot;blue-border&quot;&gt;
   &lt;li&gt;
@@ -64,25 +64,153 @@
     &lt;p&gt;Facebook prøvede, efter udgivelsen af Guardians artiklen, at tage kontakt til Global Science Research (den virksomhed som Kogan stiftede) og forlange, at de slettede den data, som de havde taget fra Facebook brugere. Men dette lykkedes altså ikke.&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;p&gt;Det mest interessante er dog, at der i denne artikel er beskrevet nærmere, hvad Facebook data bliver brugt til af Cambridge Analytica, og hvorfor dette er så brugbart for en præsidentkandidat. Cambridge Analytica bruger en model til at lave personlighedsanalyser, som de kalder OCEAN.&lt;/p&gt;
+    &lt;p&gt;Som førnævnt indsamlede Facebook-appen udviklet af Kogan også Facebook-vennerne til den deltagenes data. I artiklen er der beskrevet (på baggrund af to kilder, der havde kontakt til Global Research Research (Kogans virksomhed)) at de 30 millioner personers data stammer fra 100.000 eller 185.000 personers deltagelse.*&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Det mest interessante er dog, at der i denne artikel er beskrevet nærmere, hvad Facebook data blev brugt til af Cambridge Analytica, og hvorfor dette er så brugbart for en præsidentkandidat. Cambridge Analytica bruger en model til at lave personlighedsanalyser, som de kalder OCEAN.&lt;/p&gt;
   &lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
-&lt;h3 id=&quot;data-bliver-til-en-personlighedstype-og-hvad-så&quot;&gt;Data bliver til en personlighedstype… og hvad så?&lt;/h3&gt;
+&lt;p class=&quot;small&quot;&gt;*Hypotetisk: Hvor mange deltagere skulle der til for at indsamle personlig data på alle danske Facebook-brugere, hvis man brugte samme app og stadig kunne indsamle data på hver af de deltagenes Facebook-venner? &lt;br /&gt; Danmarks Statistik indsamlede fra marts til maj 2017 5699 besvarelser for at finde ud af cirka hvor mange mennesker, der bruger Facebook i Danmark. &lt;a href=&quot;https://slks.dk/fileadmin/user_upload/dokumenter/medier/Mediernes_udvikling/2017/Kort_Nyt/Sociale_medier/Kort_Nyt_-_Mediernes_udvikling_i_Danmark_-_Sociale_medier_2017.pdf&quot; target=&quot;_blank&quot; class=&quot;small-source&quot;&gt;5&lt;/a&gt; Deres opregnede stikprøve viser 3.144.494 antal brugere. Vi har gennemsnitligt 338 venner (globalt set) &lt;a href=&quot;http://www.pewresearch.org/fact-tank/2014/02/03/6-new-facts-about-facebook/&quot; target=&quot;_blank&quot; class=&quot;small-source&quot;&gt;6&lt;/a&gt;. Et simpelt regnestykke giver, at der skal 9214 deltagere til - uden at tage højde for evt. gengangere i Facebook-vennekredse. Det giver et upræcist indblik i hvilken form for data, man kan indsamle med Kogan’s metode og under en så åben datapolitik, hvis man kan få 10.000 til at bruge en app.&lt;/p&gt;
 
-&lt;p&gt;OCEAN står for: Openness, Conscientiousness, Extroversion, Agreeableness, and Neuroticism.*&lt;/p&gt;
+&lt;h3 id=&quot;ocean-hvad-er-det&quot;&gt;OCEAN… hvad er det?&lt;/h3&gt;
 
-&lt;p class=&quot;small&quot;&gt;*Oversat: Åbenhed, Samvittighedsfuldhed, Udadvendthed, Grad af enighed og Neurotiskhed (er ikke et ord, men håber du forstår)&lt;/p&gt;
+&lt;p&gt;OCEAN er initialer på engelsk for: &lt;strong&gt;O&lt;/strong&gt;penness, &lt;strong&gt;C&lt;/strong&gt;onscientiousness, &lt;strong&gt;E&lt;/strong&gt;xtroversion, &lt;strong&gt;A&lt;/strong&gt;greeableness, and &lt;strong&gt;N&lt;/strong&gt;euroticism. Altså 5 forskellige personlighedstræk.&lt;/p&gt;
 
-&lt;p&gt;Hvis du søger på &lt;a href=&quot;https://www.youtube.com/results?search_query=Cambride+Analytice+OCEAN&amp;amp;page=&amp;amp;utm_source=opensearch&quot; target=&quot;_blank&quot;&gt;“Cambridge Analytica OCEAN” på Youtube&lt;/a&gt; og vælger den øverste video, kan du uden videre se direktøren for CA Alexander Nix fortælle stolt om Ted Cruz rejse fra at være en kandidat, hvis navn havde en lav gendkendelsesprocent (low name recognition), til at være Donald Trumps eneste rigtige udfordrer.&lt;/p&gt;
+&lt;p&gt;Nogenlunde oversat bliver det til ÅOUGN-modellen. Den kan uddybes således: &lt;a href=&quot;https://www.youtube.com/watch?v=n8Dd5aVXLCc&amp;amp;t=198s&quot; target=&quot;_blank&quot; class=&quot;small-source&quot;&gt;4&lt;/a&gt; *&lt;/p&gt;
 
-&lt;p&gt;Det er uvist&lt;/p&gt;
+&lt;p class=&quot;small&quot;&gt;*Sæt “I hvor høj grad” foran hver uddybning, for at få oplevelsen af at måle det på en skala, som jo er ideen med OCEAN-modellen.&lt;/p&gt;
 
-&lt;p&gt;&lt;del&gt;FORESTIL DIG SÅ, HVAD MAN KAN GØRE MED 40 MILLIONER SÆT PERSONLIG DATA!&lt;/del&gt;&lt;/p&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Åbenhed&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Ordentlighed&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Udadvendthed&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Grad af enighed&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Neurotiskhed&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Kan du lide nye oplevelser?&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Foretrækker du orden, vaner og planlægning?&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Kan du lide at bruge tid sammen med andre? Hvor social er du?&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Sætter du andre menneskers behov foran dine egne?&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Bekymrer du dig?&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
 
-&lt;h2 id=&quot;bægeret&quot;&gt;Bægeret&lt;/h2&gt;</content><author><name></name></author><category term="blogs" /><summary type="html">Facebook er gigantisk. Med i nærheden af 2 milliarder brugere er det uden sammenligning den største brugerplatform, der eksisterer. Og med god grund… Vi får “gratis” adgang til potientielt millioner af menneskers liv, begivenheder inden for en hver genre, tusindvis af billeder, holdninger og nyheder. Dette indlæg er et forsøg på at forklare, hvorfor gratis står i gåseøjne. For hvad er det egentlig vi betaler, og hvilke konsekvenser har det?</summary></entry><entry><title type="html">Del 6 - Skub op! - Duplicator afslutning</title><link href="http://localhost:4000/wordpress/2018/02/23/del-6-skub-op.html" rel="alternate" type="text/html" title="Del 6 - Skub op! - Duplicator afslutning" /><published>2018-02-23T00:00:00+01:00</published><updated>2018-02-23T00:00:00+01:00</updated><id>http://localhost:4000/wordpress/2018/02/23/del-6-skub-op</id><content type="html" xml:base="http://localhost:4000/wordpress/2018/02/23/del-6-skub-op.html">&lt;blockquote&gt;
+&lt;p&gt;Cambridge Analytica brugte OCEAN på den personlige Facebook data, som Kogan indsamlede, til at plotte millioner af menneskers åbenhed, ordentlighed, udadvendthed, grad af enighed, og neurotiskhed ind i et datasæt.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;men-hvorfor-hvad-kan-det-bruges-til&quot;&gt;Men hvorfor? Hvad kan det bruges til?&lt;/h4&gt;
+
+&lt;p&gt;Hvis du søger på &lt;a href=&quot;https://www.youtube.com/results?search_query=Cambride+Analytice+OCEAN&amp;amp;page=&amp;amp;utm_source=opensearch&quot; target=&quot;_blank&quot;&gt;“Cambridge Analytica OCEAN” på Youtube&lt;/a&gt; og vælger den øverste video, kan du uden videre se direktøren for CA, Alexander Nix, stolt fortælle om Ted Cruz rejse fra at være en præsidentkandidat, hvis navn havde en lav gendkendelsesprocent (low name recognition), til at være Donald Trumps eneste rigtige udfordrer.&lt;/p&gt;
+
+&lt;p&gt;Alexander Nix forklarer, hvordan de hjalp vælgerne i den ‘rigtige’ retning (oversat):&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/blogs/alex.jpg&quot; alt=&quot;&quot; class=&quot;f-image-left&quot; /&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=n8Dd5aVXLCc&amp;amp;t=161s&quot; target=&quot;_blank&quot;&gt;[2.41]&lt;/a&gt; &lt;em&gt;Det er klart at [din] demografi, geografiske placering og økonomi vil påvirke dit verdensbillede, men ligeså vigtigt eller sandsynligvis vigtigere er psykografier, som er en forståelse af din personlighed. Fordi det er personlighed, der driver adfærd. Og din adfærd påvirker naturligvis, hvordan du stemmer.&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=n8Dd5aVXLCc&amp;amp;t=244s&quot; target=&quot;_blank&quot;&gt;[4.04]&lt;/a&gt; &lt;em&gt;Hvis du kender personlighederne på de mennesker, som du målretter din kampagne mod, kan du nuancere dit budskab, så det gør et større indtryk (to resonate more effectively) …&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=n8Dd5aVXLCc&amp;amp;t=254s&quot; target=&quot;_blank&quot;&gt;[4.16]&lt;/a&gt; &lt;em&gt;Så for en meget neurotisk og ordentlig/samvittighedsfuld målgruppe, skal du bruge et budskab, der er rationelt og frygtbaseret eller følelsesbaseret.&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=n8Dd5aVXLCc&amp;amp;t=317s&quot; target=&quot;_blank&quot;&gt;[5.17]&lt;/a&gt; &lt;em&gt;I dag behøver vi ikke at gætte på hvilke kreative løsninger der virker eller ikke virker. Vi kan bruge hundrede eller tusinde af individuelle datapunkter fra vores målgruppe for at forstå præcist hvilke budskaber, der vil appellere til hvilke målgrupper, lang tid før den kreative process [udarbejdelsen af en reklamekampagne] starter.&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=n8Dd5aVXLCc&amp;amp;t=430s&quot; target=&quot;_blank&quot;&gt;[7.10]&lt;/a&gt; &lt;em&gt;… i en gruppe vi kalder mulige-at-overtale (persuasions). Dette er mennesker, som helt sikkert vil stemme til valget (caucus), men de har brug for at flytte sig fra centrum lidt mere ud til højre, for at de kommer til at støtte [Ted] Cruz. De har brug for et overtalende budskab (persuasion message) … vi kan se, at den gennemsnitlige personlighed i denne gruppe er meget lav i neurotiskhed, rimelig lav i åbenhed og rimelig ordentlig/samvittighedsfuld. Vi kan inddele dem yderligere. Vi kan kigge på hvilket emne de er interesseret i …&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Som afslutning refererer han til det igangværende præsidentvalg (videoen er uploadet d. 27 september 2016) mellem Donald Trump og Hillary Clinton - resten er historie:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=n8Dd5aVXLCc&amp;amp;t=641s&quot; target=&quot;_blank&quot;&gt;[10.41]&lt;/a&gt; &lt;em&gt;Men hvad jeg kan fortælle dig er, at af de to kandidater, der er tilbage i den her valgkamp, så er der én af dem, som bruger den her teknologi. Og det bliver meget interessant at se, hvad påvirkningen bliver de næste 7 uger.&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Det er uvist hvor stor effekten har været på Trump’s kampagne, men i artiklen fra The Intercept, står der beskrevet hvordan Alexander Nix’s virksomhed prøvede at tage æren for Trump’s sejr, da det lykkedes. De hjalp til at forme hans rejseplaner og lavede reklamer, &lt;em&gt;der blev set over 1,5 milliarder gange&lt;/em&gt;. Sidenhen blev det til en skandal, &lt;a href=&quot;https://cambridgeanalytica.org/news/blog/1403&quot; target=&quot;_blank&quot;&gt;og det link, der henviser til deres pral,&lt;/a&gt; er nu tomt. Der er dog ingen tvivl om, at vi vil komme til at se teknikken forfinet og forbedret i fremtiden.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;ul class=&quot;blue-border&quot;&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;marts 2018&lt;/strong&gt; - skandale&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://www.nytimes.com/2018/03/17/us/politics/cambridge-analytica-trump-campaign.html?hp&amp;amp;action=click&amp;amp;pgtype=Homepage&amp;amp;clickSource=story-heading&amp;amp;module=first-column-region&amp;amp;region=top-news&amp;amp;WT.nav=top-news&quot; target=&quot;_blank&quot;&gt;New York Times offentliggøre en artikel om den tidligere medarbejder i Cambridge Analytica Christopher Wylie, som lækker oplysninger og fortæller om virksomhedens metoder.&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://www.theguardian.com/news/2018/mar/17/cambridge-analytica-facebook-influence-us-election&quot; target=&quot;_blank&quot;&gt;The Guardian offentliggøre en artikel om samme emne&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Alexander Nix (gode gamle) havde tidligere benægtet brugen af ulovlig indsamlet Facebook data, men Christopher Wylie afslørede e-mails, fakturaer, kontrakter, og bankoverførsler der indeholder mere end 50 millioner profilers data.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Han siger blandt andet (oversat):&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;em&gt;Vi udnyttede Facebook til at høste millioner af menneskers profiler og byggede modeller til at udnytte hvad vi vidste om dem for at ramme deres indre dæmoner. Det var det grundlag, som hele virksomheden var bygget på.&lt;/em&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Der står også i forhold til Facebook’s datapolitik (oversat):&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;[Facebook] &lt;em&gt;tillod kun indsamlingen af venners data til at forbedre brugeroplevelsen i den app og spærrede salget eller brugen af det i reklamemæssige sammenhænge&lt;/em&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Og mange andre spændende ting.*&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;ul class=&quot;small&quot;&gt;
+  &lt;li&gt;Jeg vil varmt anbefale at læse artiklerne, som jeg har linket til! Det er en yderst kompliceret affære, og jeg modtager rettelser og kommentarer med kyshånd. Jeg håber du har fået et overblik over sagen og nu ved hvorfor, at den er så vigtig.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Det er altså tydeligt at se, at Facebook’s forsøg på at beskytte brugerne af platformen, var forgæves. Et hul i sikkerheden blev udnyttet - ifølge Christopher Wylie.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;afslutning-på-dråben-hvor-går-grænsen-en-række-spørgsmål&quot;&gt;Afslutning på dråben… Hvor går grænsen? En række spørgsmål&lt;/h4&gt;
+
+&lt;p&gt;Reklamebranchen har da altid haft adgang til informationer om evt. målgrupper? Hvorfor er det her anderledes?&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;em&gt;Er det et demokrati, hvis en befolkningsgruppe, på baggrund af personlig data, der er blevet stjålet uden deres samtykke, bliver overbevist om at stemme på en bestemt kandidat gennem individspecifikke specialdesignede kampagner?&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;em&gt;Er det et demokrati, hvis der sker det samme, men det er med befolkningens samtykke?&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;em&gt;Det spørgsmål ligger op til et nyt spørgsmål: Har en befolkning noget at skjule?&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;em&gt;Og endnu et: Er der noget af din data, der er så personlighedsfølsom, så det, i en evt. målgruppeanalyse og efterløbende kampagne, vil have for stor en udslagskraft? Vil det svække din egen dømmekraft i for høj grad til at dit valg kan betegnes som dit eget?&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;nu-til-bægeret---hvad-fyldte-det-op&quot;&gt;Nu til bægeret - hvad fyldte det op?&lt;/h2&gt;</content><author><name></name></author><category term="blogs" /><summary type="html">Facebook er gigantisk. Med i nærheden af 2 milliarder brugere er det uden sammenligning den største brugerplatform, der eksisterer. Og med god grund… Vi får “gratis” adgang til potientielt millioner af menneskers liv, begivenheder inden for en hver genre, tusindvis af billeder, holdninger og nyheder. Dette indlæg er et forsøg på at forklare, hvorfor gratis står i gåseøjne. For hvad er det egentlig vi betaler, og hvilke konsekvenser har det?</summary></entry><entry><title type="html">Del 6 - Skub op! - Duplicator afslutning</title><link href="http://localhost:4000/wordpress/2018/02/23/del-6-skub-op.html" rel="alternate" type="text/html" title="Del 6 - Skub op! - Duplicator afslutning" /><published>2018-02-23T00:00:00+01:00</published><updated>2018-02-23T00:00:00+01:00</updated><id>http://localhost:4000/wordpress/2018/02/23/del-6-skub-op</id><content type="html" xml:base="http://localhost:4000/wordpress/2018/02/23/del-6-skub-op.html">&lt;blockquote&gt;
   &lt;p&gt;I den sidste del, da skal vi se på, hvordan vi skubber vores lokale miljø op på et domæne. Hvis du har fulgt &lt;a href=&quot;https://hilsen.it/wordpress/2018/02/20/koeb-af-dom%C3%A6ne.html&quot; target=&quot;_blank&quot;&gt;Køb af domæne …&lt;/a&gt;, har du mulighed for at skubbe det op på det købte. Hvis ikke, så kan du se, hvordan jeg skubber det op på mit.&lt;/p&gt;
 &lt;/blockquote&gt;
 
