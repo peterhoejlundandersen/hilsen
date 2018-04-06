@@ -278,9 +278,7 @@ News Feed hovedreglen - **underhold beskueren så længe som muligt!** - har den
 {: .small }
 *[En undersøgelse fra DECIDIS på IT-Universitet i København fra 2017 baseret på 1223 svar](https://www.itu.dk/om-itu/presse/nyheder/2017/forestillingen-om-facebooks-ekkokamre-er-overdrevet){:target="_blank"} skriver at ideen om ekkokamrer er overdrevet i Danmark. De skriver "Næsten en fjerdedel af de adspurgte danskere oplyser, at de ofte støder på indhold, de er uenige i, når de diskuterer politik eller nyheder på Facebook." Døm selv om du mener udtrykket passer.
 
-Med millioner og atter millioner af andre mennesker opkoblet på det samme netværk som dig, kan Facebook let 'se' hvilke nyheder, der bliver klikket på hvor mange gange af personligheder, som minder om din. De vil jo gerne have, at du bliver hængende, så de reproducere den holdning, som du finder mest interressant... altså din egen. 
-
-Forestil dig så at skulle finde frem til hvad den er, uden at spørge dig, men baseret på dine aktiviteter sammenlignet med andres. Det understreger, for mig at se, den kompleksitet, et sådan system må indeholde. 
+Med millioner og atter millioner af andre mennesker opkoblet på det samme netværk som dig, kan Facebook let 'se' hvilke nyheder, der bliver klikket på hvor mange gange af personligheder, som minder om din. Denne data bliver sammenlignet på baggrund af din helt unikke aktivitet og udmunder sig derefter i dit specialdesignet News Feed. Det er hvad jeg mener med advanceret. 
 
 <br> 
 
