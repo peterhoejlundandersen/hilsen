@@ -28,7 +28,7 @@ For at forstå skandalen, starter vi her fra begyndelsen:
 * Cambridge Analytica bliver hyret til at hjælpe præsidentkandidaterne Ted Cruz og Ben Carson med deres kampagne. CA modtager 750.000$ fra Ted Cruz's kampagne og 220.000$ fra Ben Carson's for denne service. [1](https://www.forbes.com/sites/jodywestby/2018/03/27/what-is-amazing-about-the-facebook-cambridge-analytica-story/#6bbdff7c7d34){:target="_blank" .small-source data-title="What is amazing about the Facebook Cambridge Analytica Story"}
 
 {: .small }
-* 4/4/2018 - [Nye tal offentliggjort af Facebook snakker om 89 millioner menneskers data. Det er et forsøg fra Facebooks side på at opgive det maksimalt mulige antal.](https://www.nytimes.com/2018/04/04/technology/mark-zuckerberg-testify-congress.html){:target="_blank"}
+* 4/4/2018 - [Nye tal offentliggjort af Facebook snakker om 87 millioner menneskers data. Det er et forsøg fra Facebooks side på at opgive det maksimalt mulige antal.](https://www.nytimes.com/2018/04/04/technology/mark-zuckerberg-testify-congress.html){:target="_blank"}
 
 {: .blue-border }
 * **2015**
