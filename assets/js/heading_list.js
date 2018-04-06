@@ -11,8 +11,20 @@ function setHeadingsList() {
 }
 
 
+function showAnswer(target, answer) {
+  var field = document.querySelector(target);
+  field.addEventListener('click', function() {
+    field.innerHTML = answer;
+    field.style.cursor = "default";
+  });
+}
+
+answer = "Tid. De ønsker, at den forbruger din tid. <br> Dit News Feed er designet til at holde på dig så længe som muligt. <a href='https://newsroom.fb.com/news/2015/06/news-feed-fyi-taking-into-account-time-spent-on-stories/' target='blank' class='small-source'>8</a>"
+
 window.addEventListener('load', function() {
 	setHeadingsList();
+  showAnswer(".green-table tbody tr td", answer);
 });
+
 
 

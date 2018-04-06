@@ -538,11 +538,45 @@ table {
   font-size: 0.7em;
   vertical-align: top; }
 
+a:visited {
+  color: black; }
+
+a {
+  color: black;
+  text-decoration: none !important;
+  border-bottom: 1px solid blue !important; }
+
+a:hover {
+  border-bottom: 0px solid blue !important;
+  color: blue !important; }
+
+.green-table th {
+  background-color: green; }
+.green-table tbody tr td {
+  cursor: pointer; }
+
+.dystopia {
+  background-color: black;
+  color: red;
+  padding: 20px;
+  border: 15px dotted red; }
+
 .f-image-left {
   margin-left: -150px;
-  margin-bottom: -300px; }
+  margin-bottom: -300px;
+  float: left; }
   @media screen and (max-width: 1000px) {
     .f-image-left {
+      display: block;
+      margin: 50px auto 0px auto; } }
+
+.f-image-right {
+  margin-right: -150px;
+  margin-bottom: -300px;
+  float: right; }
+  @media screen and (max-width: 1000px) {
+    .f-image-right {
+      clear: both;
       display: block;
       margin: 50px auto 0px auto; } }
 
