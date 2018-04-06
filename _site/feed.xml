@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-04-06T12:48:38+02:00</updated><id>http://localhost:4000/</id><title type="html">Hilsen IT</title><subtitle>Designer hjemmesider med et sikkert fundament i Ruby on Rails, Jekyll og Angular</subtitle><entry><title type="html">Dråben, der fik bægeret til at flyde over - #deletefacebook</title><link href="http://localhost:4000/blogs/2018/04/03/hvorfor-jeg-slettede-min-facebook.html" rel="alternate" type="text/html" title="Dråben, der fik bægeret til at flyde over - #deletefacebook" /><published>2018-04-03T00:00:00+02:00</published><updated>2018-04-03T00:00:00+02:00</updated><id>http://localhost:4000/blogs/2018/04/03/hvorfor-jeg-slettede-min-facebook</id><content type="html" xml:base="http://localhost:4000/blogs/2018/04/03/hvorfor-jeg-slettede-min-facebook.html">&lt;blockquote&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-04-06T21:12:41+02:00</updated><id>http://localhost:4000/</id><title type="html">Hilsen IT</title><subtitle>Designer hjemmesider med et sikkert fundament i Ruby on Rails, Jekyll og Angular</subtitle><entry><title type="html">Dråben, der fik bægeret til at flyde over - #deletefacebook</title><link href="http://localhost:4000/blogs/2018/04/03/hvorfor-jeg-slettede-min-facebook.html" rel="alternate" type="text/html" title="Dråben, der fik bægeret til at flyde over - #deletefacebook" /><published>2018-04-03T00:00:00+02:00</published><updated>2018-04-03T00:00:00+02:00</updated><id>http://localhost:4000/blogs/2018/04/03/hvorfor-jeg-slettede-min-facebook</id><content type="html" xml:base="http://localhost:4000/blogs/2018/04/03/hvorfor-jeg-slettede-min-facebook.html">&lt;blockquote&gt;
   &lt;p&gt;Facebook er gigantisk. Med 2 milliarder brugere er det uden sammenligning den største online brugerplatform, der eksisterer. Og med god grund… Vi får “gratis” adgang til potientielt millioner af menneskers liv, begivenheder inden for en hver genre, tusindvis af billeder, holdninger og nyheder. Dette indlæg er et forsøg på at forklare, hvorfor gratis står i gåseøjne. For hvad er det egentlig vi betaler, og hvilke konsekvenser har det?&lt;/p&gt;
 &lt;/blockquote&gt;
 
@@ -16,14 +16,18 @@
     &lt;p&gt;Aleksandr Kogan stifter Global Science Research (GSR) - det der senere arbejder sammen med Cambridge Analytice (CA). Han udvikler derefter en Facebook-app kaldet thisisyourdigitallife, som betaler folk for at få dem til at svare på personlige spørgsmål. Kogan understreger over for Facebook, at det kun er til akademiske formål. Udover at indsamle svarene indsamler appen også den deltagenes personlige Facebook-data og Facebook-vennernes - mere om det senere.&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;p&gt;Efter der er gået et par måneder, påstår Kogan, at han har indsamlet data på 40 millioner mennesker.&lt;/p&gt;
+    &lt;p&gt;Efter der er gået et par måneder, påstår Kogan, at han har indsamlet data på 40 millioner mennesker. *&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
     &lt;p&gt;Han begynder at samarbejde med Strategic Communications Laboratories (SCL) for at analysere Facebook-data. Uden tilladelse deler han den indsamlede data med førnævnte selskab og datterselskabet Cambridge Analytica.&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;p&gt;Cambridge Analytica bliver hyret til at hjælpe præsidentkandidaterne Ted Cruz og Ben Carson med deres kampagne. CA modtager 750.000$ fra Ted Cruz’s kampagne og 220.000$ fra Ben Carson’s for denne service. &lt;a href=&quot;https://www.forbes.com/sites/jodywestby/2018/03/27/what-is-amazing-about-the-facebook-cambridge-analytica-story/#6bbdff7c7d34&quot; target=&quot;_blank&quot; class=&quot;small-source&quot;&gt;1&lt;/a&gt;&lt;/p&gt;
+    &lt;p&gt;Cambridge Analytica bliver hyret til at hjælpe præsidentkandidaterne Ted Cruz og Ben Carson med deres kampagne. CA modtager 750.000$ fra Ted Cruz’s kampagne og 220.000$ fra Ben Carson’s for denne service. &lt;a href=&quot;https://www.forbes.com/sites/jodywestby/2018/03/27/what-is-amazing-about-the-facebook-cambridge-analytica-story/#6bbdff7c7d34&quot; target=&quot;_blank&quot; class=&quot;small-source&quot; data-title=&quot;What is amazing about the Facebook Cambridge Analytica Story&quot;&gt;1&lt;/a&gt;&lt;/p&gt;
   &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;ul class=&quot;small&quot;&gt;
+  &lt;li&gt;4/4/2018 - &lt;a href=&quot;https://www.nytimes.com/2018/04/04/technology/mark-zuckerberg-testify-congress.html&quot; target=&quot;_blank&quot;&gt;Nye tal offentliggjort af Facebook snakker om 89 millioner menneskers data. Det er et forsøg fra Facebooks side på at opgive det maksimalt mulige antal.&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;ul class=&quot;blue-border&quot;&gt;
@@ -39,7 +43,7 @@
 
 &lt;h4 id=&quot;men-hvorfor-betale-så-mange-penge-for-data-en-lille-smagsprøve&quot;&gt;Men hvorfor betale så mange penge for data? En lille smagsprøve&lt;/h4&gt;
 
-&lt;p&gt;Det er ikke uden grund, at præsidentkandidater betaler hundredevis af tusinde af dollars for data og personlighedsanalyser baseret på data. F.eks. var der i 2013 en noget afslørende undersøgelse af 58.000 frivillige Facebook brugeres likes &lt;a href=&quot;http://www.pnas.org/content/early/2013/03/06/1218772110&quot; target=&quot;_blank&quot; class=&quot;small-source&quot;&gt;2&lt;/a&gt;:&lt;/p&gt;
+&lt;p&gt;Det er ikke uden grund, at præsidentkandidater betaler hundredevis af tusinde af dollars for data og personlighedsanalyser baseret på data. F.eks. var der i 2013 en noget afslørende undersøgelse af 58.000 frivillige Facebook brugeres likes &lt;a href=&quot;http://www.pnas.org/content/early/2013/03/06/1218772110&quot; target=&quot;_blank&quot; class=&quot;small-source&quot; data-title=&quot;Private traits and attributes are predictable from digital records of human behavior&quot;&gt;2&lt;/a&gt;:&lt;/p&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;3 kollegaer til Kogan viste, at man alene via Facebook-likes kan forudsige en persons race med 95% nøjagtighed, en persons seksualitet med 88% nøjagtighed og en persons støtte til et politisk parti med 85%&lt;/p&gt;
@@ -73,13 +77,13 @@
 
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
-&lt;p class=&quot;small&quot;&gt;*Hypotetisk: Hvor mange deltagere skal der til for at indsamle personlig data på alle danske Facebook-brugere, hvis man brugte samme app og stadig kunne indsamle data på hver af de deltagenes Facebook-venner? &lt;br /&gt; Danmarks Statistik indsamlede fra marts til maj 2017 5699 besvarelser for at finde ud af cirka hvor mange mennesker, der bruger Facebook i Danmark. &lt;a href=&quot;https://slks.dk/fileadmin/user_upload/dokumenter/medier/Mediernes_udvikling/2017/Kort_Nyt/Sociale_medier/Kort_Nyt_-_Mediernes_udvikling_i_Danmark_-_Sociale_medier_2017.pdf&quot; target=&quot;_blank&quot; class=&quot;small-source&quot;&gt;5&lt;/a&gt; Deres opregnede stikprøve viser 3.144.494 antal brugere. Vi har gennemsnitligt 338 venner (globalt set) &lt;a href=&quot;http://www.pewresearch.org/fact-tank/2014/02/03/6-new-facts-about-facebook/&quot; target=&quot;_blank&quot; class=&quot;small-source&quot;&gt;6&lt;/a&gt;. Et simpelt regnestykke giver, at der skal 9214 deltagere til - uden at tage højde for gengangere i Facebook-vennekredse. Det giver et upræcist indblik i hvilken form for data, man kan indsamle med Kogan’s metode og under en så åben datapolitik, hvis man kan få 10.000 til at bruge en app.&lt;/p&gt;
+&lt;p class=&quot;small&quot;&gt;*Hypotetisk: Hvor mange deltagere skal der til for at indsamle personlig data på alle danske Facebook-brugere, hvis man brugte samme app og stadig kunne indsamle data på hver af de deltagenes Facebook-venner? &lt;br /&gt; Danmarks Statistik indsamlede fra marts til maj 2017 5699 besvarelser for at finde ud af cirka hvor mange mennesker, der bruger Facebook i Danmark. &lt;a href=&quot;https://slks.dk/fileadmin/user_upload/dokumenter/medier/Mediernes_udvikling/2017/Kort_Nyt/Sociale_medier/Kort_Nyt_-_Mediernes_udvikling_i_Danmark_-_Sociale_medier_2017.pdf&quot; target=&quot;_blank&quot; class=&quot;small-source&quot; data-title=&quot;Kort nyt om mediernes udvikling i Danmark&quot;&gt;3&lt;/a&gt; Deres opregnede stikprøve viser 3.144.494 antal brugere. Vi har gennemsnitligt 338 venner (globalt set) &lt;a href=&quot;http://www.pewresearch.org/fact-tank/2014/02/03/6-new-facts-about-facebook/&quot; target=&quot;_blank&quot; class=&quot;small-source&quot; data-title=&quot;New facts about Facebook&quot;&gt;4&lt;/a&gt;. Et simpelt regnestykke giver, at der skal 9214 deltagere til - uden at tage højde for gengangere i Facebook-vennekredse. Det giver et upræcist indblik i hvilken form for data, man kan indsamle med Kogan’s metode og under en så åben datapolitik, hvis man kan få 10.000 til at bruge en app.&lt;/p&gt;
 
 &lt;h3 id=&quot;ocean-hvad-er-det&quot;&gt;OCEAN… hvad er det?&lt;/h3&gt;
 
 &lt;p&gt;OCEAN er initialer på engelsk for: &lt;strong&gt;O&lt;/strong&gt;penness, &lt;strong&gt;C&lt;/strong&gt;onscientiousness, &lt;strong&gt;E&lt;/strong&gt;xtroversion, &lt;strong&gt;A&lt;/strong&gt;greeableness, and &lt;strong&gt;N&lt;/strong&gt;euroticism. Altså 5 forskellige personlighedstræk.&lt;/p&gt;
 
-&lt;p&gt;Nogenlunde oversat bliver det til ÅOUGN-modellen. Den kan uddybes således: &lt;a href=&quot;https://www.youtube.com/watch?v=n8Dd5aVXLCc&amp;amp;t=198s&quot; target=&quot;_blank&quot; class=&quot;small-source&quot;&gt;4&lt;/a&gt; *&lt;/p&gt;
+&lt;p&gt;Nogenlunde oversat bliver det til ÅOUGN-modellen. Den kan uddybes således: &lt;a href=&quot;https://www.youtube.com/watch?v=n8Dd5aVXLCc&amp;amp;t=198s&quot; target=&quot;_blank&quot; class=&quot;small-source&quot; data-title=&quot;Youtube video: The Power of Big Data and Psychographics&quot;&gt;5&lt;/a&gt; *&lt;/p&gt;
 
 &lt;p class=&quot;small&quot;&gt;*Sæt “I hvor høj grad” foran hver uddybning, for at få oplevelsen af at måle det på en skala, som jo er ideen med OCEAN-modellen.&lt;/p&gt;
 
@@ -148,7 +152,7 @@
 
 &lt;ul class=&quot;blue-border&quot;&gt;
   &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;marts 2018&lt;/strong&gt; - skandale&lt;/p&gt;
+    &lt;p&gt;&lt;strong&gt;marts 2018&lt;/strong&gt; - skandalen ruller&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
     &lt;p&gt;New York Times og The Observer of Londen har igennem et år arbejdet med to whistleblowers (begge tidligere ansatte i Cambridge Analytica) og offentliggører nu hver deres artikel om emnet.&lt;/p&gt;
@@ -163,7 +167,7 @@
     &lt;p&gt;Der står flere ting:&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;p&gt;Alexander Nix (gode gamle) havde tidligere benægtet brugen af ulovlig indsamlet Facebook data, men Christopher Wylie afslørede e-mails, fakturaer, kontrakter, og bankoverførsler der indeholder mere end 50 millioner profilers data.&lt;/p&gt;
+    &lt;p&gt;Alexander Nix (gode gamle) havde tidligere benægtet brugen af ulovlig indsamlet Facebook data, men Christopher Wylie afslører e-mails, fakturaer, kontrakter, og bankoverførsler der indeholder mere end 50 millioner profilers data.&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
     &lt;p&gt;New York Times påstår, at de har haft adgang til at se data, som indeholdte brugeridentiteter, vennenetværk og likes.&lt;/p&gt;
@@ -172,17 +176,19 @@
     &lt;p&gt;Christopher Wylie, som var ansat i CA tilbage i 2014, siger blandt andet (oversat):&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;p&gt;&lt;em&gt;Vi udnyttede Facebook til at høste millioner af menneskers profiler og byggede modeller til at udnytte hvad vi vidste om dem for at ramme deres indre dæmoner. Det var det grundlag, som hele virksomheden var bygget på.&lt;/em&gt;&lt;/p&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;&lt;em&gt;Vi udnyttede Facebook til at høste millioner af menneskers profiler og byggede modeller til at udnytte hvad vi vidste om dem for at ramme deres indre dæmoner. Det var det grundlag, som hele virksomheden var bygget på.&lt;/em&gt;&lt;/p&gt;
+    &lt;/blockquote&gt;
   &lt;/li&gt;
   &lt;li&gt;
     &lt;p&gt;Der står også i forhold til Facebook’s datapolitik (oversat):&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;p&gt;[Facebook] &lt;em&gt;tillod kun indsamlingen af venners data til at forbedre brugeroplevelsen i den app og spærrede salget eller brugen af det i reklamemæssige sammenhænge&lt;/em&gt;&lt;/p&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;[Facebook] tillod kun indsamlingen af venners data til at forbedre brugeroplevelsen i den app og spærrede salget eller brugen af det i reklamemæssige sammenhænge&lt;/p&gt;
+    &lt;/blockquote&gt;
   &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Og mange andre spændende ting.*&lt;/p&gt;
-  &lt;/li&gt;
+  &lt;li&gt;Og mange andre spændende ting.*&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;ul class=&quot;small&quot;&gt;
@@ -195,29 +201,7 @@
 
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
-&lt;h4 id=&quot;afslutning-på-dråben-hvor-går-grænsen-en-række-spørgsmål&quot;&gt;Afslutning på dråben… Hvor går grænsen? En række spørgsmål&lt;/h4&gt;
-
-&lt;p&gt;Man kunne let argumentere for, at reklamebranchen da altid har haft adgang til informationer om evt. målgrupper? Men er grænsen ikke nået?&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;&lt;em&gt;Er det et demokrati, hvis en befolkningsgruppe, på baggrund af personlig data, der er blevet stjålet uden deres samtykke, bliver overbevist om at stemme på en bestemt kandidat gennem individspecifikke specialdesignede kampagner?&lt;/em&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;&lt;em&gt;Er det et demokrati, hvis der sker det samme, men det er med befolkningens samtykke?&lt;/em&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;&lt;em&gt;Det spørgsmål ligger op til et nyt spørgsmål: Har en befolkning noget at skjule?&lt;/em&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;&lt;em&gt;Og endnu et: Er der noget af din data, der er så personlighedsfølsom, så det, i en evt. målgruppeanalyse og efterløbende kampagne, vil have for stor en udslagskraft? Vil det svække din egen dømmekraft i for høj grad til, at dit valg kan betegnes som dit eget?&lt;/em&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Og sidst men ikke mindst: Er det utopi at snakke om &lt;em&gt;dit eget valg&lt;/em&gt; i den moderne verden?&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;h4 id=&quot;spørgsmål-til-dråbe-afsnittet&quot;&gt;&lt;a href=&quot;https://hilsen.it/blogs/2018/04/03/hvorfor-jeg-slettede-min-facebook.html#dråben-en-række-spørgsmål&quot;&gt;Spørgsmål til dråbe-afsnittet&lt;/a&gt;&lt;/h4&gt;
 
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
@@ -243,7 +227,7 @@
 
 &lt;p&gt;Vigtigt!&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Størstedelen af indholdet i det kommende afsnit er stærkt inspireret af Vicki Boykis artikel &lt;a href=&quot;http://veekaybee.github.io/2017/02/01/facebook-is-collecting-this/&quot; target=&quot;_blank&quot;&gt;What should you think about when using Facebook?&lt;/a&gt;. Jeg kunne have oversat den og gengivet den her på siden, men jeg blev hurtig opmærksom på, at der manglede nogle vigtige pointer og iagttagelser - og derudover vil jeg gerne have mulighed for selv at inddrage egne holdninger og viden. Det skal dog understreges, at jeg skylder hende en stor del af æren for kildehenvisninger og opdagelsen af relevante og saglige artikler.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Størstedelen af indholdet i det kommende afsnit er stærkt inspireret af Vicki Boykis artikel &lt;a href=&quot;http://veekaybee.github.io/2017/02/01/facebook-is-collecting-this/&quot; target=&quot;_blank&quot;&gt;What should you think about when using Facebook?&lt;/a&gt;. Jeg kunne have oversat den og gengivet den her på siden, men jeg blev hurtig opmærksom på, at der manglede nogle vigtige pointer og iagttagelser. Derudover vil jeg gerne have mulighed for selv at inddrage egne holdninger og viden. Det skal dog understreges, at jeg skylder hende en stor del af æren for kildehenvisninger og opdagelsen af relevante og saglige artikler.&lt;/strong&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;facebook-data&quot;&gt;Facebook data?&lt;/h2&gt;
 
@@ -263,9 +247,9 @@
 
 &lt;p class=&quot;blue-border&quot;&gt;Rockmusik er ikke hvad det har været..&lt;/p&gt;
 
-&lt;p&gt;Så vil Facebook altså have begge versioner i deres database. &lt;a href=&quot;http://www.slate.com/articles/technology/future_tense/2013/12/facebook_self_censorship_what_happens_to_the_posts_you_don_t_publish.html&quot; target=&quot;_blank&quot; class=&quot;small-source&quot;&gt;6&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Så vil Facebook altså have begge versioner i deres database. &lt;a href=&quot;http://www.slate.com/articles/technology/future_tense/2013/12/facebook_self_censorship_what_happens_to_the_posts_you_don_t_publish.html&quot; target=&quot;_blank&quot; class=&quot;small-source&quot; data-title=&quot;Slate - On Second Thought …&quot;&gt;6&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;De har tidligere lavet undersøgelser om selvcensur ved at bruge denne data. &lt;a href=&quot;https://www.aaai.org/ocs/index.php/ICWSM/ICWSM13/paper/viewFile/6093/6350&quot; target=&quot;_blank&quot; class=&quot;small-source&quot;&gt;6 PDF&lt;/a&gt; De kalder det &lt;em&gt;last-minute selfcensorship, or content that is filtered after being written&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;De har tidligere lavet undersøgelser om selvcensur ved at bruge denne data. &lt;a href=&quot;https://www.aaai.org/ocs/index.php/ICWSM/ICWSM13/paper/viewFile/6093/6350&quot; target=&quot;_blank&quot; class=&quot;small-source&quot; data-title=&quot;Self-Censorship on Facebook &quot;&gt;6 PDF&lt;/a&gt; De kalder det &lt;em&gt;last-minute selfcensorship, or content that is filtered after being written&lt;/em&gt;.&lt;/p&gt;
 
 &lt;p&gt;I Undersøgelsen afsløres det også, at de har brugt data såsom &lt;em&gt;Deleted posts&lt;/em&gt; og &lt;em&gt;Deleted comments&lt;/em&gt; *. Der er altså ikke nogen garanti for, at de ting, som du sletter forsvinder fra Facebook’s databaser.&lt;/p&gt;
 
@@ -281,7 +265,7 @@
 
 &lt;p&gt;Hvem var du sammen med?&lt;/p&gt;
 
-&lt;p&gt;Hvad mange ikke ved er, at Facebook har aktiveret heatmap-tracking &lt;a href=&quot;https://techcrunch.com/2016/08/10/360-storytelling/&quot; target=&quot;_blank&quot; class=&quot;small-source&quot;&gt;7&lt;/a&gt; siden midt 2016, på videoer med over 50.000 unikke visninger. Det betyder i sin simpelste form, at de gemmer data om, hvor du har haft din musemarkør under visningen af populære video, hvis udgiveren af videoen har aktiveret det.*&lt;/p&gt;
+&lt;p&gt;Hvad mange ikke ved er, at Facebook har aktiveret heatmap-tracking &lt;a href=&quot;https://techcrunch.com/2016/08/10/360-storytelling/&quot; target=&quot;_blank&quot; class=&quot;small-source&quot; data-title=&quot;TECHCRUNCH - Facebook’s 360 video Guide and Heatmap can steer or track where you look&quot;&gt;7&lt;/a&gt; siden midt 2016, på videoer med over 50.000 unikke visninger. Det betyder i sin simpleste form, at de gemmer data om, hvor du har haft din musemarkør under visningen af populære video, hvis udgiveren af videoen har aktiveret det.*&lt;/p&gt;
 
 &lt;p class=&quot;small&quot;&gt;*Det skal siges, at der er mange andre virksomheder, der også bruger heatmaps til at forbedre deres brugerflade og konverteringsrate**&lt;/p&gt;
 
@@ -331,13 +315,13 @@
 
 &lt;p&gt;&lt;strong&gt;Sukker for hjernen&lt;/strong&gt;: Det mest underholdende, som News Feed algoritmen kan finde frem til, baseret på tusindvis af datasæt fra dine tidligere aktiviteter.&lt;/p&gt;
 
-&lt;p&gt;En tidligere Facebook-medarbejder skrev tilbage i 2014 sådan her (oversat): &lt;a href=&quot;http://andrewledvina.com/code/2014/07/04/10-ways-facebook-is-the-devil.html&quot; target=&quot;_blank&quot; class=&quot;small-source&quot;&gt;9&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;En tidligere Facebook-medarbejder skrev tilbage i 2014 sådan her (oversat): &lt;a href=&quot;http://andrewledvina.com/code/2014/07/04/10-ways-facebook-is-the-devil.html&quot; target=&quot;_blank&quot; class=&quot;small-source&quot; data-title=&quot;10 ways Facebook is the devil&quot;&gt;8&lt;/a&gt;&lt;/p&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;&lt;em&gt;Det grundlæggende formål for de fleste mennesker, der arbejder med data i Facebook, er at ændre og påvirke folks humør og opførsel. De gør det hele tiden for at få dig til at like flere opslag, klikke på flere reklamer og bruge mere tid på siden.&lt;/em&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;Facebook ligger ikke skjul på, at de analyserer deres brugeres data.&lt;a href=&quot;https://research.fb.com/support-when-you-re-feeling-blue/&quot; target=&quot;_blank&quot; class=&quot;small-source&quot;&gt;10&lt;/a&gt; Men her slutter det ikke…&lt;/p&gt;
+&lt;p&gt;Facebook ligger ikke skjul på, at de analyserer deres brugeres data.&lt;a href=&quot;https://research.fb.com/support-when-you-re-feeling-blue/&quot; target=&quot;_blank&quot; class=&quot;small-source&quot; data-title=&quot;Facebookanalyse - Support when you're feeling blue&quot;&gt;10&lt;/a&gt; Men her slutter det ikke…&lt;/p&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;&lt;a href=&quot;https://www.theguardian.com/technology/2014/jun/29/facebook-users-emotions-news-feeds&quot; target=&quot;_blank&quot;&gt;I 2014 skrev The Guardian&lt;/a&gt; at Facebook havde lavet et eksperiment på 689.000 brugeres News Feed, hvor Facebook konkluderede, at de kunne gøre brugere gladere eller mere ked af det. De filtrerede &lt;em&gt;flowet&lt;/em&gt; af indhold: Kommentar, videoer, billeder og links udgivet af andre brugere for at opnå dette.&lt;/p&gt;
@@ -369,13 +353,13 @@
 
 &lt;p&gt;Med millioner og atter millioner af andre mennesker opkoblet på det samme netværk som dig, kan Facebook let ‘se’ hvilke nyheder, der bliver klikket på hvor mange gange af personligheder, som minder om din. De vil jo gerne have, at du bliver hængende, så de reproducere den holdning, som du finder mest interressant… altså din egen.&lt;/p&gt;
 
-&lt;p&gt;Grunden til, at jeg skrev det var logisk at denne algoritme er advanceret er, at man kan forestille sig, hvor kompliceret denne opgave er, når strømmen af information er så stor som den er på Facebook.&lt;/p&gt;
+&lt;p&gt;Forestil dig så at skulle finde frem til hvad den er, uden at spørge dig, men baseret på dine aktiviteter sammenlignet med andres. Det understreger, for mig at se, den kompleksitet, et sådan system må indeholde.&lt;/p&gt;
 
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
 &lt;h4 id=&quot;news-feed-good-news--eller-hvad&quot;&gt;News Feed Good News — eller hvad?&lt;/h4&gt;
 
-&lt;p&gt;Mark Zuckerberg skrev en statusopdatering tilbage i januar 2018 &lt;a href=&quot;https://www.facebook.com/zuck/posts/10104413015393571&quot; target=&quot;_blank&quot; class=&quot;small-source&quot;&gt;11&lt;/a&gt;, hvor man tydeligt kan læse, at der er fokus på News Feed bagsider. F.eks. skriver han (oversat):&lt;/p&gt;
+&lt;p&gt;Mark Zuckerberg skrev en statusopdatering tilbage i januar 2018 &lt;a href=&quot;https://www.facebook.com/zuck/posts/10104413015393571&quot; target=&quot;_blank&quot; class=&quot;small-source&quot; data-title=&quot;Mark Zuckerberg's eget Facebook opslag&quot;&gt;9&lt;/a&gt;, hvor man tydeligt kan læse, at der er fokus på News Feed bagsider. F.eks. skriver han (oversat):&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/blogs/mark.jpg&quot; alt=&quot;&quot; class=&quot;f-image-right&quot; /&gt;&lt;/p&gt;
 
@@ -399,42 +383,42 @@
 
 &lt;p&gt;Men samtidig… at &lt;em&gt;hjælpe dig til at have mere meningsfulde og sociale relationer&lt;/em&gt; gennem tilpasning af dit News Feed på et globalt plan? Hvad betyder det og hvad indebærer det?&lt;/p&gt;
 
-&lt;p&gt;Den opgave vil jeg gerne varetage selv.&lt;/p&gt;
+&lt;p&gt;Jeg ved det ikke, men udmeldingen giver mig lyst til at varetage den opgave selv.&lt;/p&gt;
 
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
 &lt;h3 id=&quot;dit-ansigt-bliver-til-data---og-du-hjælper-til&quot;&gt;Dit ansigt bliver til data - og du hjælper til&lt;/h3&gt;
 
-&lt;p&gt;Facebook købte i 2012 det israeliske firma Face.com &lt;a href=&quot;http://www.slate.com/blogs/future_tense/2014/03/18/deepface_facebook_face_recognition_software_is_97_percent_accurate.html&quot; target=&quot;_blank&quot; class=&quot;small-source&quot;&gt;13&lt;/a&gt;, som havde udviklet teknologi specialiseret til at genkende ansigter (face-recognition).&lt;/p&gt;
+&lt;p&gt;Udover at Facebook faktisk har ret til at bruge dine billeder til annoncer &lt;a href=&quot;https://www.facebook.com/help/116356655118482?helpref=related&quot; target=&quot;_blank&quot; class=&quot;small-source&quot; data-title=&quot;Facebook help - Jeg ønsker ikke, at mit barns navn eller profilbillede skal knyttes sammen med annoncer.&quot;&gt;11&lt;/a&gt;  sker der også andet, når du uploader.&lt;/p&gt;
 
-&lt;p&gt;Det blev senere til det program, der hedder DeepFace &lt;a href=&quot;https://en.wikipedia.org/wiki/DeepFace&quot; target=&quot;_blank&quot; class=&quot;small-source&quot;&gt;14&lt;/a&gt;. Det hjælper dig med at foreslå tags af venner på billeder, som du har uploadet. Det skulle have en nøjagtighed på 97%. *&lt;/p&gt;
+&lt;p&gt;Facebook købte i 2012 det israeliske firma Face.com &lt;a href=&quot;http://www.slate.com/blogs/future_tense/2014/03/18/deepface_facebook_face_recognition_software_is_97_percent_accurate.html&quot; target=&quot;_blank&quot; class=&quot;small-source&quot; data-title=&quot;Slate - Facebook’s New Face-Recognition Software Is Scary Good&quot;&gt;12&lt;/a&gt;, som havde udviklet teknologi specialiseret til at genkende ansigter (face-recognition).&lt;/p&gt;
 
-&lt;p class=&quot;small&quot;&gt;*Til sammenligning skulle FBI’s Next Generation Identification have en nøjagtighedsprocent på 85%. &lt;a href=&quot;https://en.wikipedia.org/wiki/Next_Generation_Identification&quot; target=&quot;_blank&quot; class=&quot;small-source&quot;&gt;15&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Det blev senere til det program, der hedder DeepFace &lt;a href=&quot;https://en.wikipedia.org/wiki/DeepFace&quot; target=&quot;_blank&quot; class=&quot;small-source&quot; data-title=&quot;Wikipedia - DeepFace&quot;&gt;13&lt;/a&gt;. Det hjælper dig med at foreslå tags af venner på billeder, som du har uploadet. Det skulle have en nøjagtighed på 97%.* Det blev trænet på 4 millioner Facebook-brugeres billeder.&lt;/p&gt;
+
+&lt;p class=&quot;small&quot;&gt;*Til sammenligning skulle FBI’s Next Generation Identification have en nøjagtighedsprocent på 85%. &lt;a href=&quot;https://en.wikipedia.org/wiki/Next_Generation_Identification&quot; target=&quot;_blank&quot; class=&quot;small-source&quot; data-title=&quot;Wikipedia - Next Generation Identification&quot;&gt;14&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;Men så præcist har det ikke altid været, og derved følger en vigtig pointe:&lt;/p&gt;
 
 &lt;blockquote&gt;
-  &lt;p&gt;Facebook udvikler teknologier med din hjælp. Hvis du f.eks. har uploadet et billede og DeepFace foreslår, at det er Birthes ansigt, som du skal tagge, men du tagger Lenes istedet…&lt;/p&gt;
+  &lt;p&gt;Facebook udvikler teknologier med din hjælp.&lt;br /&gt; Hvis du f.eks. har uploadet et billede og DeepFace foreslår, at det er Birthes ansigt, som du skal tagge, men du tagger Lenes istedet…&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;Så har du hjulpet et program - i dette tilfælde et neuralt netværk &lt;a href=&quot;https://en.wikipedia.org/wiki/Artificial_neural_network&quot; target=&quot;_blank&quot; class=&quot;small-source&quot;&gt;16&lt;/a&gt; - til næste gang at tage højde for den rettelse, som du har gjort opmærksom på.&lt;/p&gt;
+&lt;p&gt;Så har du hjulpet et program - i dette tilfælde et neuralt netværk &lt;a href=&quot;https://en.wikipedia.org/wiki/Artificial_neural_network&quot; target=&quot;_blank&quot; class=&quot;small-source&quot; data-title=&quot;Wikipedia - Artificial Neural Network&quot;&gt;15&lt;/a&gt; - til næste gang at tage højde for den rettelse, som du har gjort opmærksom på.&lt;/p&gt;
 
-&lt;p&gt;Forestil dig så, at millioner af andre brugere hjalp dagligt med at fodre programmet med data om, hvornår det rammer rigtigt og forkert og at det program så kunne ‘lære’ af det.&lt;/p&gt;
+&lt;p&gt;Forestil dig så, at millioner af andre brugere også ‘fodrer’ programmet dagligt med data om, hvornår det rammer rigtigt og forkert og at det program så kunne ‘lære’ af det.&lt;/p&gt;
 
-&lt;p&gt;Til sidst har du, et meget behjælpeligt værktøj, når det kommer til at tagge billeder, men til hvilken pris?*&lt;/p&gt;
+&lt;p&gt;Til sidst har du DeepFace, et meget behjælpeligt værktøj, når det kommer til at tagge billeder, men til hvilken pris?&lt;/p&gt;
 
-&lt;p class=&quot;small&quot;&gt;*Et tema, der går igen: Til hvilken pris? Du har højest sandsynligt hjulpet til med at udvikle denne teknologi, men er du blevet gjort opmærksom på hvilke konsekvenser, det kan have? Det er for mig at se for stupid at tænke: I det her tilfælde prøver de jo bare, at gøre det lettere for folk at tagge billeder…&lt;/p&gt;
+&lt;p&gt;Facebook gør opmærksom på, at DeepFace er &lt;em&gt;et akademisk projekt, ikke et Facebook produkt&lt;/em&gt;. &lt;a href=&quot;http://www.slate.com/blogs/future_tense/2014/03/18/deepface_facebook_face_recognition_software_is_97_percent_accurate.html&quot; target=&quot;_blank&quot; class=&quot;small-source&quot; data-title=&quot;SLATE - Facebook’s New Face-Recognition Software Is Scary Good&quot;&gt;16&lt;/a&gt; * Men lad os forestille os - for at understrege en dystopisk pointe - at det blev gjort tilgængeligt for det frie marked i 2019.&lt;/p&gt;
 
-&lt;p&gt;Facebook gør opmærksom på, at DeepFace er &lt;em&gt;et akademisk projekt, ikke et Facebook produkt&lt;/em&gt;. &lt;a href=&quot;http://www.slate.com/blogs/future_tense/2014/03/18/deepface_facebook_face_recognition_software_is_97_percent_accurate.html&quot; target=&quot;_blank&quot; class=&quot;small-source&quot;&gt;17&lt;/a&gt; * Men lad os forestille os - for at understrege en dystopisk pointe - at det blev gjort tilgængeligt for det frie marked i 2019.&lt;/p&gt;
+&lt;p class=&quot;small&quot;&gt;*hvis det ringer en klokke, så var det nogenlunde den samme pointe, &lt;a href=&quot;https://hilsen.it/blogs/2018/04/03/hvorfor-jeg-slettede-min-facebook.html#vi-starter-med-dråben&quot;&gt;som Kogan - ham der indsamlede data på 50 millioner mennesker - forsvarede sig med&lt;/a&gt;, da han blev spurgt ind til formålet med hans undersøgelse tilbage i 2014.&lt;/p&gt;
 
-&lt;p class=&quot;small&quot;&gt;*hvis det ringer en klokke, så var det nogenlunde den samme pointe, &lt;a href=&quot;https://hilsen.it/blogs/2018/04/03/hvorfor-jeg-slettede-min-facebook.html#vi-starter-med-dråben&quot;&gt;som Kogan - ham der indsamlede data på 50 millioner mennesker - forsvarede sig med&lt;/a&gt;, da han blev spurgt ind til formålet med hans undersøgelse.&lt;/p&gt;
+&lt;p&gt;Hvad vil det medføre, hvis man forestillede sig, at den data på ansigter fra Facebook blev købt sammen med DeepFace-teknologien og indført som overvågning på et nationalt plan?&lt;/p&gt;
 
-&lt;p&gt;Hvad vil det medføre, hvis man forestillede sig, at den data af ansigter på Facebook blev købt med og indført på et nationalt plan?*&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
-&lt;p class=&quot;small&quot;&gt;*Jeg lader blot fantasien rulle.&lt;/p&gt;
-
-&lt;ul class=&quot;dystopia&quot;&gt;
-  &lt;li&gt;&lt;strong&gt;DYSTOPIA&lt;/strong&gt;&lt;/li&gt;
+&lt;ul class=&quot;dystopia first&quot;&gt;
+  &lt;li&gt;&lt;strong&gt;DEEPFACE DYSTOPIA 2019&lt;/strong&gt;&lt;/li&gt;
   &lt;li&gt;
     &lt;p&gt;Overvågningskameraer vil uden videre kunne genkende fodgængere på gaden.&lt;/p&gt;
   &lt;/li&gt;
@@ -442,27 +426,246 @@
     &lt;p&gt;Den gave, som du vil give til din kæreste, bliver afsløret, da han/hun har indstillet en app (TrakYourLover) til at sende beskeder, hvis du nærmer dig en bestemt butik. I griner lidt af det.&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;p&gt;Du deltager i en demonstration og bliver et par dage efter hentet ind på politigården, da flere overvågningskameraers data er blevet sammenlignet - på baggrund af algoritmiske modeller (hvor langt kan man nå at gå, hvor er din arbejdsplads placeret, hvilken farve var din påklædning) - hvorefter du får en bøde for at skrive “#deletefacebook” på et gadehjørne.&lt;/p&gt;
+    &lt;p&gt;Du bliver afsløret i at være utro med din kæreste, da et overvågningskamera et par dage efter afslører dig tæt på en butik, hvor han/hun havde en fornemmelse af, at du kom lidt for ofte.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Du deltager i en demonstration og bliver et par dage efter hentet ind på politigården, da flere overvågningskameraers data er blevet sammenlignet - på baggrund af algoritmiske modeller, som hver især har fundet dit ansigt.&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;Du kan - hvis du har adgang til dataen - på landsplan finde ud af, hvem der ligner dig mest (wow)!&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&quot;arbejdsforhold&quot;&gt;Arbejdsforhold&lt;/h2&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
-&lt;p&gt;Facebook er mere end bare data og algoritmer. Det er en arbejdsplads for 20.658 mennesker &lt;a href=&quot;https://en.wikipedia.org/wiki/Facebook#Corporate_affairs&quot; target=&quot;_blank&quot; class=&quot;small-source&quot;&gt;12&lt;/a&gt; - ifølge Wikipedia. Derudover er der stadig områder og opgaver som algoritmer ikke kan tage sig af. F.eks. kan man undre sig over, hvad der sker med billeder eller kontis, som andre brugere anmelder. Hvem bestemmer, om disse skal lukkes eller beholdes åbne?&lt;/p&gt;
+&lt;ul class=&quot;dystopia-red&quot;&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;HVAD ER PROBLEMET? FUCK EN DÅRLIG SCI-FI!&lt;/strong&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Hvorfor ikke have et overvågningssamfund, hvor alle ulovligheder bliver dømt?&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Du har endda måske hørt argumentet, hvis man diskuterer datapolitik og online privatliv:&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;&lt;em&gt;Jeg har sgu da ikke noget at skjule - lad dem da bare få min data&lt;/em&gt;&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Nej, du har ikke noget at skjule &lt;strong&gt;indtil du har noget at skjule!&lt;/strong&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Hvis du f.eks. etablerer modstand mod selvsamme system, som du bliver overvåget af.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Henry David Thoreau indrammer det ret godt (forkortet):&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;&lt;em&gt;If the machine of government is of such a nature that it requires you to be the agent of injustice to another, then, I say, break the law.&lt;/em&gt;&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Nogle gange tager loven fejl, nogle gange er det enkeltindivider, der har adgang til viden, som vælter et større system. I disse tilfælde er det vigtigt, at der er et privatliv og en grænse for statens indtrængen. Hvis du mangler bevis for dette, kan jeg anbefale at &lt;a href=&quot;https://www.theguardian.com/world/2013/jun/09/edward-snowden-nsa-whistleblower-surveillance&quot; target=&quot;_blank&quot;&gt;læse denne artikel om Edward Snowden af The Guardian&lt;/a&gt;.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Et andet spørgsmål:&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Har du ret til at være utro?&lt;/li&gt;
+&lt;/ul&gt;
 
-&lt;h2 id=&quot;afsluttende&quot;&gt;Afsluttende&lt;/h2&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
-&lt;h3 id=&quot;men-jeg-har-jo-addblock-installeret&quot;&gt;Men jeg har jo Addblock installeret?&lt;/h3&gt;
+&lt;h2 id=&quot;uden-for-facebook-og-tilbage-igen&quot;&gt;Uden for Facebook og tilbage igen&lt;/h2&gt;
+
+&lt;p&gt;Facebook følger dig også, når du besøger andre hjemmeside. Det er ikke nogen hemmelighed. Måske har du oplevet, at det kan have en ret stor effekt på de reklamer, som du får vist, hvis du f.eks. søger efter noget bestemt på Google. Der er de sidste år kommet en stor opmærksomhed omkring &lt;strong&gt;cookies&lt;/strong&gt;. Men det som Facebook bruger idag hedder Single-Sign On.&lt;/p&gt;
+
+&lt;p&gt;Der var en stor sag i 2014, hvor der var et andet leak af information fra siden. &lt;a href=&quot;https://www.dailydot.com/news/facebook-shadow-profiles-privacy-faq/&quot; target=&quot;_blank&quot; class=&quot;small-source&quot; data-title=&quot;The Dayli Dot - What’s a Facebook shadow profile, and should you be worried about it?&quot;&gt;17&lt;/a&gt; Til at starte med så det ud som om, at der var blevet stjålet 6 millioner e-mails og telefonnumrer. Senere hen viste det sig dog, at mange af disse e-mails og telefonnumrer var oplysninger, som brugerne ikke havde opgivet til Facebook. Altså havde de, via et sindrigt og kompliceret system, kunne opfange hvilke mails personer brugte, ud over den, som var tilkoblet Facebook. Denne form for data kaldes en &lt;strong&gt;skyggeprofil&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;En skyggeprofil er al den data, som Facebook har gemt på dig, men som ikke stammer fra Facebook.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;De bruger skyggeprofiler og din anden data til at præcisere din profil, så de kan hjælpe virksomheder med at ramme så specifikke målgrupper som muligt.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.washingtonpost.com/news/the-intersect/wp/2016/08/19/98-personal-data-points-that-facebook-uses-to-target-ads-to-you/?utm_term=.caf483912c1b&quot; target=&quot;_blank&quot;&gt;The Washington Post skrev i 2016&lt;/a&gt; om, at Facebook brugte 98 personlige data-punkter til at inddele målgrupper. Nogle af de åbenlyse hedder: Geografisk placering, alder, sprog, interesser osv.&lt;/p&gt;
+
+&lt;p&gt;Men, når vi kommer længere ned af listen, begynder det at blive creepy (oversat).&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;14.&lt;/strong&gt; Størrelse af hjem&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;30.&lt;/strong&gt; Brugere, som har stor sandsynlighed for at interessere sig for politik&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;39.&lt;/strong&gt; Brugere, som har planer om at købe en bil (og hvilket mærke/og hvornår)&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;91.&lt;/strong&gt; Brugere, som med stor sandsynlighed flytter snart&lt;/p&gt;
+
+&lt;p&gt;Jo mere data, jo mere præcist kan du inddeles. Alexander Nix understregede tydeligt fordelen ved dette tidligere.&lt;/p&gt;
+
+&lt;h2 id=&quot;arbejdsforhold-og-den-lille-havfrue&quot;&gt;Arbejdsforhold og Den Lille Havfrue&lt;/h2&gt;
+
+&lt;p&gt;Facebook er mere end bare data, ansigtsgenkendelse og algoritmer. Det er en arbejdsplads for 20.658 mennesker &lt;a href=&quot;https://en.wikipedia.org/wiki/Facebook#Corporate_affairs&quot; target=&quot;_blank&quot; class=&quot;small-source&quot; data-title=&quot;Wikipedia - Corporate Affairs&quot;&gt;18&lt;/a&gt; - ifølge Wikipedia. Derudover er der stadig områder og opgaver som algoritmer ikke kan tage sig af. F.eks. kan man undre sig over, hvad der sker med billeder eller kontis, som andre brugere anmelder. Hvem bestemmer, om disse skal lukkes eller beholdes åbne?&lt;/p&gt;
+
+&lt;p&gt;Den automatisering, som vi tit forbinder med større virksomheder som Google, Amazon og Facebook, kan altså ikke endnu indtage rollen som ansvarlig for at filtrere uploadet billeder.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Der skal stadig manuelt arbejde til i enormt omfang, for at kunne holde Facebook’s hjul kørende.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;De arbejdere, som udfører dette manuelle arbejde, kaldes &lt;strong&gt;content moderators&lt;/strong&gt; og et estimeret antal - inkluderer alle sociale medier - er i omegnen af 150.000 arbejdere (ifølge filmen The Moderators). &lt;a href=&quot;https://www.wired.com/2017/04/watch-people-learn-filter-awfulness-dating-sites/&quot; target=&quot;_blank&quot; class=&quot;small-source&quot; data-title=&quot;WIRED - WATCH WORKERS LEARN HOW TO FILTER OBSCENE AND VIOLENT PHOTOS FROM DATING SITES&quot;&gt;19&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Det er især mennesker fra Indien og Filippinerne, som udfører dette arbejde. De går igennem alt det, som vi ikke ser: Ponografisk og voldeligt materiale. De går igennem 2.000 billeder i timen fem dage om ugen.&lt;/p&gt;
+
+&lt;p&gt;Men der er langt fra Indien til Danmark.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;F.eks. blev vores kære nationalklenodie Den Lille Havfrue fjernet fra Facebook, da hun var for nøgen.*&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p class=&quot;small&quot;&gt;*Da Facebook blev gjort opmærksom på fejlen tillod de hende dog hurtigt igen.&lt;/p&gt;
+
+&lt;p&gt;Pointen er, at der foregår en filtrering af Facebook’s indhold hvert eneste sekund. En filtrering, som vi på ingen måde er herre over, og som går ud over ukendte mennesker et andet sted i verden.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;farvel&quot;&gt;Farvel&lt;/h2&gt;
+
+&lt;p&gt;Med en af de hurtigstvoksende virksomheder i nyere tid, vil der selvfølgelig ske fejl. Spørgsmålet er, hvor store de kan være, før vi begynder at handle? Og når vi så handler…&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Hvordan kan en milliardenedel blive hørt?&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Det korte svar er: &lt;strong&gt;Det kan den ikke.&lt;/strong&gt; Men hvis vi er nok, der i det mindste giver Facebook en lærestreg ved at slette vores profil, kan det være at de resterende undgår større leaks og skandaler i fremtiden.&lt;/p&gt;
+
+&lt;p&gt;Derudover…&lt;/p&gt;
+
+&lt;p&gt;Jeg har svært ved at forklare det, men der er en eller anden skræmmende bedøvende effekt gemt i Mark Zuckerberg’s egne opslag og Facebook’s privatlivspolitik samt deres utallige farverige illustrationer (&lt;a href=&quot;https://www.facebook.com/ads/about/?entry_product=ad_preferences&quot; target=&quot;_blank&quot;&gt;et eksempel&lt;/a&gt;). Det er søvndyssende, uoverskueligt og pacificerende. Prøv at &lt;a href=&quot;https://da-dk.facebook.com/zuck&quot; target=&quot;_blank&quot;&gt;læs hans opslag&lt;/a&gt; og spørg dig selv, om det Facebook han beskriver med alle dets udfordringer og ambitioner, er et, som du gerne vil være en del af?&lt;/p&gt;
+
+&lt;p&gt;Der er ikke noget galt i at forlade et topmoderne skib med alle dine venner på + 2 milliarder andre… Måske har du fået øje på en ø, hvor i kan sidde lidt i solen og kigge hinanden i øjnene for en gangs skyld!&lt;/p&gt;
+
+&lt;p&gt;Det kan være, at det bliver ensomt de første par uger, men mon ikke de kommer og sætter sig med tiden.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;som-afslutning-vil-jeg-understrege-at-facebook-også-har-været-enormt-nyttigt-jeg-har-fundet-gamle-venner-fantastiske-begivenheder-inviteret-personer-til-egne-arrangementer-osv-men-jeg-håber-at-du-kan-se-hvorfor-jeg-synes-at-prisen-er-for-høj&quot;&gt;&lt;em&gt;Som afslutning vil jeg understrege, at Facebook også har været enormt nyttigt.&lt;br /&gt; Jeg har fundet gamle venner, fantastiske begivenheder, inviteret personer til egne arrangementer osv. Men jeg håber, at du kan se, hvorfor jeg synes, at prisen er for høj.&lt;/em&gt;&lt;/h4&gt;
+
+&lt;h4 id=&quot;udbyttet-af-hvad-man-får-af-facebook-varierer-fra-person-til-person-jeg-har-hvis-jeg-selv-skulle-sige-det-aldrig-brugt-det-særlig-meget-det-har-ikke-været-min-henseende-at-få-det-til-at-fremstå-let-at-slette-sin-profil-jeg-forstår-udemærket-godt-hvis-det-kan-virke-fuldstændig-uoverskueligt-bare-at-tænke-tanken-til-ende-derfor-følger-der-også-råd-til-hvordan-du-kan-sikre-din-data-bedre-som-eksisterende-bruger&quot;&gt;&lt;em&gt;Udbyttet af, hvad man får af Facebook, varierer fra person til person. Jeg har, hvis jeg selv skulle sige det, aldrig brugt det særlig meget. Det har ikke været min henseende at få det til at fremstå let at slette sin profil. Jeg forstår udemærket godt, hvis det kan virke fuldstændig uoverskueligt bare at tænke tanken til ende. Derfor følger der også råd til, hvordan du kan sikre din data bedre, som eksisterende bruger.&lt;/em&gt;&lt;/h4&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;beskyt-dig-selv&quot;&gt;Beskyt dig selv&lt;/h3&gt;
+
+&lt;p&gt;Vicki Boykis kommer med 7 gode råd til, hvad du skal gøre, hvis du gerne vil passe på din data på Facebook:&lt;/p&gt;
+
+&lt;ul class=&quot;blue-border&quot;&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;1.&lt;/strong&gt; Udgiv ikke personlig informationer om dig selv&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;2.&lt;/strong&gt; Lad være med at udgive billeder af dine børn. Især ikke, hvis de har en alder, hvor de ikke kan godkende det.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;3.&lt;/strong&gt; Log ud af Facebook, når du er færdig med at bruge det. Brug en seperat browser til Facebook og en anden til alt andet.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;4.&lt;/strong&gt; Brug &lt;a href=&quot;https://chrome.google.com/webstore/detail/adblock/gighmmpiobklfepjocnamgkkbiglidom&quot; target=&quot;_blank&quot;&gt;AdBlock&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;5.&lt;/strong&gt; Brug ikke Facebook, især ikke Messenger, til at organisere eller at deltage i politiske arrangementer… Brug &lt;a href=&quot;https://signal.org/&quot; target=&quot;_blank&quot;&gt;Signal&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;6.&lt;/strong&gt; Lad være med at installere Facebook-appen på din telefon. Den spørg om en masse (crazy) tilladelser.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;7.&lt;/strong&gt; Lad være med at installere Messenger på din telefon…&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Og mit eget, hvis du helt vil undgå din News Feed:&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;8.&lt;/strong&gt; Brug &lt;a href=&quot;https://chrome.google.com/webstore/detail/news-feed-eradicator-for/fjcldmjmjhkklehbacihaiopjklihlgg&quot; target=&quot;_blank&quot;&gt;News Feed Eradicator for Facebook&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;h3 id=&quot;slette-eller-deaktivere&quot;&gt;Slette eller deaktivere?&lt;/h3&gt;
 
+&lt;p&gt;Jeg havde en meget speciel oplevelse, da jeg prøvede at slette min profil. Jeg troede først, at det var det samme som at deaktivere den. Det viste sig senere, at det var to HELT forskellige ting.&lt;/p&gt;
+
+&lt;p&gt;At deaktivere den er ikke så svært. Du går ind i Indstillinger, Generelt og vælger den nederste, hvis jeg husker rigtigt.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Men at slette den… Omg!&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Jeg var nødt til at bruge Google.&lt;/p&gt;
+
+&lt;p&gt;Derigennem fandt jeg &lt;a href=&quot;https://pageflows.com/blog/delete-facebook/&quot; target=&quot;_blank&quot;&gt;denne artikel, som hjalp mig&lt;/a&gt;, hvis du er interesseret i at se, hvordan man gør (&lt;a href=&quot;https://www.facebook.com/help/131112897028467&quot; target=&quot;_blank&quot;&gt;husk at download din data først! hvis du er ved at gå hele vejen&lt;/a&gt;).&lt;/p&gt;
+
+&lt;p&gt;Jeg tror ikke, at det er helt tilfældigt, at det er så svært.&lt;/p&gt;
+
+&lt;p&gt;Nu vil jeg ikke definere mig selv som über nerd (endnu), men forestil dig et menneske, som ikke er vokset op med computere og ikke bruger dem hver dag, Jeg kunne forestille mig, at det næsten var umuligt. Det er simpelthen ikke godt nok!&lt;/p&gt;
+
 &lt;h3 id=&quot;findes-der-alternativer&quot;&gt;Findes der alternativer?&lt;/h3&gt;
+
+&lt;p&gt;Ja, der findes alternativer til Facebook, som hver især har forsøgt at bygge et socialt netværk op på et andet værdigrundlag.&lt;/p&gt;
+
+&lt;p&gt;Nogle nævneværdige eksempler:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.vero.co/&quot; target=&quot;_blank&quot;&gt;Vero - true social&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://go.nextdoor.com/dk&quot; target=&quot;_blank&quot;&gt;Nextdoor - mere lokalt&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Et interessant forsøg (Wikipedia artikel):&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/App.net&quot; target=&quot;_blank&quot;&gt;App.net&lt;/a&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;kilder&quot;&gt;Kilder&lt;/h2&gt;
 
-&lt;h2 id=&quot;andre-links&quot;&gt;Andre links&lt;/h2&gt;
-&lt;p&gt;&lt;a href=&quot;https://www.facebook.com/policy.php&quot; target=&quot;_blank&quot;&gt;Facebook datapolitik&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><category term="blogs" /><summary type="html">Facebook er gigantisk. Med 2 milliarder brugere er det uden sammenligning den største online brugerplatform, der eksisterer. Og med god grund… Vi får “gratis” adgang til potientielt millioner af menneskers liv, begivenheder inden for en hver genre, tusindvis af billeder, holdninger og nyheder. Dette indlæg er et forsøg på at forklare, hvorfor gratis står i gåseøjne. For hvad er det egentlig vi betaler, og hvilke konsekvenser har det?</summary></entry><entry><title type="html">Del 6 - Skub op! - Duplicator afslutning</title><link href="http://localhost:4000/wordpress/2018/02/23/del-6-skub-op.html" rel="alternate" type="text/html" title="Del 6 - Skub op! - Duplicator afslutning" /><published>2018-02-23T00:00:00+01:00</published><updated>2018-02-23T00:00:00+01:00</updated><id>http://localhost:4000/wordpress/2018/02/23/del-6-skub-op</id><content type="html" xml:base="http://localhost:4000/wordpress/2018/02/23/del-6-skub-op.html">&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;Jeg er ikke journalist eller noget i nærheden. Jeg har gjort mit bedste for at være kritisk i forhold til hvilke kilder, som jeg har brugt i dette indlæg. Hvis du finder noget, eller blot har mistanke om, at der er noget, der ikke passer, så er du MEGET velkommen til at skrive på kontakt@hilsen.it&lt;/em&gt;&lt;/p&gt;
+
+&lt;p id=&quot;sources&quot;&gt;Kildehenvisninger:&lt;/p&gt;
+
+&lt;h2 id=&quot;andre-interessante&quot;&gt;Andre interessante&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.facebook.com/policy.php&quot; target=&quot;_blank&quot;&gt;Facebook’s datapolitik&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://transparency.facebook.com/country/Denmark/2017-H1/&quot; target=&quot;_blank&quot;&gt;Anmodninger om Facebook-data fra myndigheder i Danmark&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.nytimes.com/2016/11/20/opinion/cambridge-analytica-facebook-quiz.html&quot; target=&quot;_blank&quot;&gt;Uddybning af hvordan Kogan’s app var designet&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://newsroom.fb.com/news/2018/04/restricting-data-access/&quot; target=&quot;_blank&quot;&gt;Facebook’s dokument om, hvordan de vil beskytte folks data i fremtiden&lt;/a&gt; - &lt;em&gt;4/4/2018&lt;/em&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;dråben-en-række-spørgsmål&quot;&gt;Dråben. En række spørgsmål:&lt;/h2&gt;
+
+&lt;p&gt;Man kunne let argumentere for, at reklamebranchen da altid har haft adgang til informationer om evt. målgrupper? Men er grænsen ikke nået?&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;em&gt;Er det et demokrati, hvis en befolkningsgruppe, på baggrund af personlig data, der er blevet stjålet uden deres samtykke, bliver overbevist om at stemme på en bestemt kandidat gennem individspecifikke specialdesignede kampagner?&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;em&gt;Er det et demokrati, hvis der sker det samme, men det er med befolkningens samtykke?&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;em&gt;Det spørgsmål ligger op til et nyt spørgsmål: Har en befolkning noget at skjule?&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;em&gt;Og endnu et: Er der noget af din data, der er så personlighedsfølsom, så det, i en evt. målgruppeanalyse og efterløbende kampagne, vil have for stor en udslagskraft? Vil det svække din egen dømmekraft i for høj grad til, at dit valg kan betegnes som dit eget?&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Og sidst men ikke mindst: Er det utopi at snakke om &lt;em&gt;dit eget valg&lt;/em&gt; i den moderne verden?&lt;/p&gt;
+&lt;/blockquote&gt;</content><author><name></name></author><category term="blogs" /><summary type="html">Facebook er gigantisk. Med 2 milliarder brugere er det uden sammenligning den største online brugerplatform, der eksisterer. Og med god grund… Vi får “gratis” adgang til potientielt millioner af menneskers liv, begivenheder inden for en hver genre, tusindvis af billeder, holdninger og nyheder. Dette indlæg er et forsøg på at forklare, hvorfor gratis står i gåseøjne. For hvad er det egentlig vi betaler, og hvilke konsekvenser har det?</summary></entry><entry><title type="html">Del 6 - Skub op! - Duplicator afslutning</title><link href="http://localhost:4000/wordpress/2018/02/23/del-6-skub-op.html" rel="alternate" type="text/html" title="Del 6 - Skub op! - Duplicator afslutning" /><published>2018-02-23T00:00:00+01:00</published><updated>2018-02-23T00:00:00+01:00</updated><id>http://localhost:4000/wordpress/2018/02/23/del-6-skub-op</id><content type="html" xml:base="http://localhost:4000/wordpress/2018/02/23/del-6-skub-op.html">&lt;blockquote&gt;
   &lt;p&gt;I den sidste del, da skal vi se på, hvordan vi skubber vores lokale miljø op på et domæne. Hvis du har fulgt &lt;a href=&quot;https://hilsen.it/wordpress/2018/02/20/koeb-af-dom%C3%A6ne.html&quot; target=&quot;_blank&quot;&gt;Køb af domæne …&lt;/a&gt;, har du mulighed for at skubbe det op på det købte. Hvis ikke, så kan du se, hvordan jeg skubber det op på mit.&lt;/p&gt;
 &lt;/blockquote&gt;
 

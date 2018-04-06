@@ -24,11 +24,51 @@ a:hover {
     cursor: pointer;
   }
 }
+@keyframes animateBorderOne {
+  to {
+    outline-color: white;
+    box-shadow: 0 0 0 10px red;
+  }
+}
+
+.dystopia-red {
+  padding: 20px;
+  background-color: red;
+  color: white;
+  border: 1px solid red;
+  margin-right: 20px;
+  a:visited {
+      color: white;
+  }
+  a {
+      color: white;
+      text-decoration: none!important;
+      border-bottom: 1px solid white!important;
+  }
+  a:hover {
+      border-bottom: 0px solid white!important;
+      color: red!important;
+  }
+  blockquote {
+      margin-top: 32px;
+      margin-bottom: 32px;
+      color: white;
+      border-left: 4px solid white;
+      padding-left: 15px;
+  }
+}
+.first {
+  animation: 1s animateBorderOne ease infinite;
+  &:hover {
+    animation: 0s animateBorderOne ease infinite;
+  }
+}
 .dystopia {
-    background-color: black;
+    margin-left: 0;
     color: red;
     padding: 20px;
-    border: 15px dotted red;
+    outline: 10px dashed red;
+    box-shadow: 0 0 0 10px white;
 }
 .f-image-left {
   margin-left: -150px;
@@ -55,6 +95,13 @@ a:hover {
 .blue-border {
   border: 1px solid blue;
   padding: 20px;
+  blockquote {
+      margin-top: 32px;
+      margin-bottom: 32px;
+      color: black;
+      border-left: 4px solid blue;
+      padding-left: 15px;
+  }
 }
 .post-link {
 	color: black!important;
