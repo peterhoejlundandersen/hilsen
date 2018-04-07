@@ -96,7 +96,7 @@ Alexander Nix forklarer, hvordan de hjalp vælgerne i den 'rigtige' retning (ove
 
 > [[4.16]](https://www.youtube.com/watch?v=n8Dd5aVXLCc&t=254s){:target="_blank"} *Så for en meget neurotisk og ordentlig/samvittighedsfuld målgruppe, skal du bruge et budskab, der er rationelt og frygtbaseret eller følelsesbaseret.*
 
-> [[5.17]](https://www.youtube.com/watch?v=n8Dd5aVXLCc&t=317s){:target="_blank"} *I dag behøver vi ikke at gætte på hvilke kreative løsninger der virker eller ikke virker. Vi kan bruge hundrede eller tusinde af individuelle datapunkter fra vores målgruppe for at forstå præcist hvilke budskaber, der vil appellere til hvilke målgrupper, lang tid før den kreative process [udarbejdelsen af en reklamekampagne] starter.*
+> [[5.17]](https://www.youtube.com/watch?v=n8Dd5aVXLCc&t=317s){:target="_blank"} *I dag behøver vi ikke at gætte på hvilke kreative løsninger, der virker eller ikke virker. Vi kan bruge hundrede eller tusinde af individuelle datapunkter fra vores målgruppe for at forstå præcist hvilke budskaber, der vil appellere til hvilke målgrupper, lang tid før den kreative process [udarbejdelsen af en reklamekampagne] starter.*
 
 > [[7.10]](https://www.youtube.com/watch?v=n8Dd5aVXLCc&t=430s){:target="_blank"} *... i en gruppe vi kalder mulige-at-overtale (persuasions). Dette er mennesker, som helt sikkert vil stemme til valget (caucus), men de har brug for at flytte sig fra centrum lidt mere ud til højre, for at de kommer til at støtte [Ted] Cruz. De har brug for et overtalende budskab (persuasion message) ... vi kan se, at den gennemsnitlige personlighed i denne gruppe er meget lav i neurotiskhed, rimelig lav i åbenhed og rimelig ordentlig/samvittighedsfuld. Vi kan inddele dem yderligere. Vi kan kigge på hvilket emne de er interesseret i ...*
 
@@ -173,7 +173,7 @@ Vigtigt!
 
 ## Facebook data?
 
-Facebook gemmer selvfølgelig dine billeder, statusbeskeder, beskeder og meget andet aktivitet i deres databaser, for at de kan vise det igen, når du besøger din profil et par timer senere. Det vil være umuligt at lave Facebook statisk (som er en hjemmeside uden database - ligesom hilsen.it f.eks.), men spørgsmålet er... 
+Facebook gemmer selvfølgelig dine billeder, statusbeskeder, beskeder og mange andre aktiviteter i deres databaser, for at de kan vise dem igen, når du besøger din profil et par timer senere. Det vil være umuligt at lave Facebook statisk (som er en hjemmeside uden database - ligesom hilsen.it f.eks.), men spørgsmålet er... 
 
 **Hvad gemmer de udover det åbenlyse?**
 
@@ -195,7 +195,7 @@ Så vil Facebook altså have begge versioner i deres database. [6](http://www.sl
 
 De har tidligere lavet undersøgelser om selvcensur ved at bruge denne data. [6 PDF](https://www.aaai.org/ocs/index.php/ICWSM/ICWSM13/paper/viewFile/6093/6350){:target="_blank" .small-source data-title="Self-Censorship on Facebook "} De kalder det *last-minute selfcensorship, or content that is filtered after being written*.
 
-I Undersøgelsen afsløres det også, at de har brugt data såsom *Deleted posts* og *Deleted comments* *. Der er altså ikke nogen garanti for, at de ting, som du sletter forsvinder fra Facebook's databaser.
+I undersøgelsen afsløres det også, at de har brugt data såsom *Deleted posts* og *Deleted comments* *. Der er altså ikke nogen garanti for, at de ting, som du sletter, forsvinder fra Facebook's databaser.
 
 {: .small}
 En anden interessant betegnelse i rapporten: *Average number of friends of friends* - gennemsnitlige antal af venner dine venner har.
@@ -274,7 +274,7 @@ News Feed hovedreglen - **underhold beskueren så længe som muligt!** - har den
 > Et ekkokammer er et udtryk for et News Feed, der kun reproducerer opslag fra Facebook-venner og nyhedsartikler, der ytrer samme holdning som dig selv*
 
 {: .small }
-*[En undersøgelse fra DECIDIS på IT-Universitet i København fra 2017 baseret på 1223 svar](https://www.itu.dk/om-itu/presse/nyheder/2017/forestillingen-om-facebooks-ekkokamre-er-overdrevet){:target="_blank"} skriver at ideen om ekkokamrer er overdrevet i Danmark. De skriver "Næsten en fjerdedel af de adspurgte danskere oplyser, at de ofte støder på indhold, de er uenige i, når de diskuterer politik eller nyheder på Facebook." Døm selv om du mener udtrykket passer.
+*[En undersøgelse fra DECIDIS på IT-Universitet i København fra 2017 baseret på 1223 svar](https://www.itu.dk/om-itu/presse/nyheder/2017/forestillingen-om-facebooks-ekkokamre-er-overdrevet){:target="_blank"} påstår, at ideen om ekkokamrer er overdrevet i Danmark. De skriver "Næsten en fjerdedel af de adspurgte danskere oplyser, at de ofte støder på indhold, de er uenige i, når de diskuterer politik eller nyheder på Facebook." Døm selv, om du mener, udtrykket passer.
 
 Med millioner og atter millioner af andre mennesker opkoblet på det samme netværk som dig, kan Facebook let 'se' hvilke nyheder, der bliver klikket på hvor mange gange af personligheder, som minder om din. Denne data bliver sammenlignet på baggrund af din helt unikke aktivitet og udmunder sig derefter i dit specialdesignet News Feed. Det er hvad jeg mener med advanceret. 
 
@@ -316,7 +316,9 @@ Udover at Facebook faktisk har ret til at bruge dine billeder til annoncer [11](
 
 Facebook købte i 2012 det israeliske firma Face.com [12](http://www.slate.com/blogs/future_tense/2014/03/18/deepface_facebook_face_recognition_software_is_97_percent_accurate.html){:target="_blank" .small-source data-title="Slate - Facebook’s New Face-Recognition Software Is Scary Good"}, som havde udviklet teknologi specialiseret til at genkende ansigter (face-recognition). Du kan se, på GIF'en over, hvordan det grundlæggende fungerer: Et billede bliver analyseret og sammenlignet med et andet billede fra en anden vinkel. Til sidst kan programmet skabe en tro kopi af dit ansigt i 3D.
 
-Du kan selv [afprøve teknologien med dit eget billede, hvis du har lyst.](http://cvl-demos.cs.nott.ac.uk/vrn/){:target="_blank"}
+> **Påstand:** Facebook har en tro kopi af dit ansigt i 3D, hvis du, ligesom jeg, har uploadet billeder af dig selv inden for de sidste par år.
+
+Du kan selv [afprøve en teknologi, der ligner, med dit eget billede, hvis du har lyst.](http://cvl-demos.cs.nott.ac.uk/vrn/){:target="_blank"}
 
 Det blev senere til det program, der hedder DeepFace [13](https://en.wikipedia.org/wiki/DeepFace){:target="_blank" .small-source data-title="Wikipedia - DeepFace" }. Det hjælper dig med at foreslå tags af venner på billeder, som du har uploadet. Det skulle have en nøjagtighed på 97%.* Det blev trænet på 4 millioner Facebook-brugeres billeder.
 
@@ -352,8 +354,8 @@ Hvad vil det medføre, hvis man forestillede sig, at den data på ansigter fra F
 
 * Du bliver afsløret i at være utro med din kæreste, da et overvågningskamera et par dage efter afslører dig tæt på en butik, hvor han/hun havde en fornemmelse af, at du kom lidt for ofte. 
 
-* Du deltager i en demonstration og bliver et par dage efter hentet ind på politigården, da flere overvågningskameraers data er blevet sammenlignet - på baggrund af algoritmiske modeller, som hver især har fundet dit ansigt. 
-
+* Du deltager i en demonstration, som udvikler sig til håndgemæng med politiet - du er dog ikke en del af de voldelige udskejelser - og bliver et par dage efter hentet ind på politigården, da flere overvågningskameraers data er blevet sammenlignet - på baggrund af algoritmiske modeller, som hver især har fundet dit ansigt.  
+ 
 * Du kan - hvis du har adgang til dataen - på landsplan finde ud af, hvem der ligner dig mest (wow)!
 
 <br>
@@ -367,7 +369,7 @@ Hvad vil det medføre, hvis man forestillede sig, at den data på ansigter fra F
 
 * > *Jeg har sgu da ikke noget at skjule - lad dem da bare få min data* 
 
-* Nej, du har ikke noget at skjule **indtil du har noget at skjule!**
+* Nej, du har ikke noget at skjule, **indtil du har noget at skjule!**
 
 * Hvis du f.eks. etablerer modstand mod selvsamme system, som du bliver overvåget af. 
 
@@ -426,9 +428,7 @@ Men der er langt fra Indien til Danmark.
 {: .small }
 *Da Facebook blev gjort opmærksom på fejlen tillod de hende dog hurtigt igen.
 
-Pointen er, at der foregår en filtrering af Facebook's indhold hvert eneste sekund. En filtrering, som vi på ingen måde er herre over, og som går ud over ukendte mennesker et andet sted i verden. 
-
-En filtrering, der måske ikke stemmer overens med de værdier, som du har. 
+Pointen er, at der foregår en filtrering af Facebook's indhold hvert eneste sekund. En filtrering, som vi på ingen måde er herre over. En filtrering, der måske ikke stemmer overens med de værdier, som du har. 
 
 <br>
 

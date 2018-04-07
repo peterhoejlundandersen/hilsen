@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-04-07T12:55:57+02:00</updated><id>http://localhost:4000/</id><title type="html">Hilsen IT</title><subtitle>Designer hjemmesider med et sikkert fundament i Ruby on Rails, Jekyll og Angular</subtitle><entry><title type="html">Dråben, der fik bægeret til at flyde over - #deletefacebook</title><link href="http://localhost:4000/blogs/2018/04/03/hvorfor-jeg-slettede-min-facebook.html" rel="alternate" type="text/html" title="Dråben, der fik bægeret til at flyde over - #deletefacebook" /><published>2018-04-03T00:00:00+02:00</published><updated>2018-04-03T00:00:00+02:00</updated><id>http://localhost:4000/blogs/2018/04/03/hvorfor-jeg-slettede-min-facebook</id><content type="html" xml:base="http://localhost:4000/blogs/2018/04/03/hvorfor-jeg-slettede-min-facebook.html">&lt;blockquote&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-04-07T13:12:49+02:00</updated><id>http://localhost:4000/</id><title type="html">Hilsen IT</title><subtitle>Designer hjemmesider med et sikkert fundament i Ruby on Rails, Jekyll og Angular</subtitle><entry><title type="html">Dråben, der fik bægeret til at flyde over - #deletefacebook</title><link href="http://localhost:4000/blogs/2018/04/03/hvorfor-jeg-slettede-min-facebook.html" rel="alternate" type="text/html" title="Dråben, der fik bægeret til at flyde over - #deletefacebook" /><published>2018-04-03T00:00:00+02:00</published><updated>2018-04-03T00:00:00+02:00</updated><id>http://localhost:4000/blogs/2018/04/03/hvorfor-jeg-slettede-min-facebook</id><content type="html" xml:base="http://localhost:4000/blogs/2018/04/03/hvorfor-jeg-slettede-min-facebook.html">&lt;blockquote&gt;
   &lt;p&gt;Facebook er gigantisk. Med 2 milliarder brugere er det uden sammenligning den største online brugerplatform, der eksisterer. Og med god grund… Vi får “gratis” adgang til potientielt millioner af menneskers liv, begivenheder inden for en hver genre, tusindvis af billeder, holdninger og nyheder. Dette indlæg er et forsøg på at forklare, hvorfor gratis står i gåseøjne. For hvad er det egentlig vi betaler, og hvilke konsekvenser har det?&lt;/p&gt;
 &lt;/blockquote&gt;
 
@@ -135,7 +135,7 @@
 &lt;/blockquote&gt;
 
 &lt;blockquote&gt;
-  &lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=n8Dd5aVXLCc&amp;amp;t=317s&quot; target=&quot;_blank&quot;&gt;[5.17]&lt;/a&gt; &lt;em&gt;I dag behøver vi ikke at gætte på hvilke kreative løsninger der virker eller ikke virker. Vi kan bruge hundrede eller tusinde af individuelle datapunkter fra vores målgruppe for at forstå præcist hvilke budskaber, der vil appellere til hvilke målgrupper, lang tid før den kreative process [udarbejdelsen af en reklamekampagne] starter.&lt;/em&gt;&lt;/p&gt;
+  &lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=n8Dd5aVXLCc&amp;amp;t=317s&quot; target=&quot;_blank&quot;&gt;[5.17]&lt;/a&gt; &lt;em&gt;I dag behøver vi ikke at gætte på hvilke kreative løsninger, der virker eller ikke virker. Vi kan bruge hundrede eller tusinde af individuelle datapunkter fra vores målgruppe for at forstå præcist hvilke budskaber, der vil appellere til hvilke målgrupper, lang tid før den kreative process [udarbejdelsen af en reklamekampagne] starter.&lt;/em&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;blockquote&gt;
@@ -233,7 +233,7 @@
 
 &lt;h2 id=&quot;facebook-data&quot;&gt;Facebook data?&lt;/h2&gt;
 
-&lt;p&gt;Facebook gemmer selvfølgelig dine billeder, statusbeskeder, beskeder og meget andet aktivitet i deres databaser, for at de kan vise det igen, når du besøger din profil et par timer senere. Det vil være umuligt at lave Facebook statisk (som er en hjemmeside uden database - ligesom hilsen.it f.eks.), men spørgsmålet er…&lt;/p&gt;
+&lt;p&gt;Facebook gemmer selvfølgelig dine billeder, statusbeskeder, beskeder og mange andre aktiviteter i deres databaser, for at de kan vise dem igen, når du besøger din profil et par timer senere. Det vil være umuligt at lave Facebook statisk (som er en hjemmeside uden database - ligesom hilsen.it f.eks.), men spørgsmålet er…&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Hvad gemmer de udover det åbenlyse?&lt;/strong&gt;&lt;/p&gt;
 
@@ -253,7 +253,7 @@
 
 &lt;p&gt;De har tidligere lavet undersøgelser om selvcensur ved at bruge denne data. &lt;a href=&quot;https://www.aaai.org/ocs/index.php/ICWSM/ICWSM13/paper/viewFile/6093/6350&quot; target=&quot;_blank&quot; class=&quot;small-source&quot; data-title=&quot;Self-Censorship on Facebook &quot;&gt;6 PDF&lt;/a&gt; De kalder det &lt;em&gt;last-minute selfcensorship, or content that is filtered after being written&lt;/em&gt;.&lt;/p&gt;
 
-&lt;p&gt;I Undersøgelsen afsløres det også, at de har brugt data såsom &lt;em&gt;Deleted posts&lt;/em&gt; og &lt;em&gt;Deleted comments&lt;/em&gt; *. Der er altså ikke nogen garanti for, at de ting, som du sletter forsvinder fra Facebook’s databaser.&lt;/p&gt;
+&lt;p&gt;I undersøgelsen afsløres det også, at de har brugt data såsom &lt;em&gt;Deleted posts&lt;/em&gt; og &lt;em&gt;Deleted comments&lt;/em&gt; *. Der er altså ikke nogen garanti for, at de ting, som du sletter, forsvinder fra Facebook’s databaser.&lt;/p&gt;
 
 &lt;p class=&quot;small&quot;&gt;En anden interessant betegnelse i rapporten: &lt;em&gt;Average number of friends of friends&lt;/em&gt; - gennemsnitlige antal af venner dine venner har.&lt;/p&gt;
 
@@ -351,7 +351,7 @@
   &lt;p&gt;Et ekkokammer er et udtryk for et News Feed, der kun reproducerer opslag fra Facebook-venner og nyhedsartikler, der ytrer samme holdning som dig selv*&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p class=&quot;small&quot;&gt;*&lt;a href=&quot;https://www.itu.dk/om-itu/presse/nyheder/2017/forestillingen-om-facebooks-ekkokamre-er-overdrevet&quot; target=&quot;_blank&quot;&gt;En undersøgelse fra DECIDIS på IT-Universitet i København fra 2017 baseret på 1223 svar&lt;/a&gt; skriver at ideen om ekkokamrer er overdrevet i Danmark. De skriver “Næsten en fjerdedel af de adspurgte danskere oplyser, at de ofte støder på indhold, de er uenige i, når de diskuterer politik eller nyheder på Facebook.” Døm selv om du mener udtrykket passer.&lt;/p&gt;
+&lt;p class=&quot;small&quot;&gt;*&lt;a href=&quot;https://www.itu.dk/om-itu/presse/nyheder/2017/forestillingen-om-facebooks-ekkokamre-er-overdrevet&quot; target=&quot;_blank&quot;&gt;En undersøgelse fra DECIDIS på IT-Universitet i København fra 2017 baseret på 1223 svar&lt;/a&gt; påstår, at ideen om ekkokamrer er overdrevet i Danmark. De skriver “Næsten en fjerdedel af de adspurgte danskere oplyser, at de ofte støder på indhold, de er uenige i, når de diskuterer politik eller nyheder på Facebook.” Døm selv, om du mener, udtrykket passer.&lt;/p&gt;
 
 &lt;p&gt;Med millioner og atter millioner af andre mennesker opkoblet på det samme netværk som dig, kan Facebook let ‘se’ hvilke nyheder, der bliver klikket på hvor mange gange af personligheder, som minder om din. Denne data bliver sammenlignet på baggrund af din helt unikke aktivitet og udmunder sig derefter i dit specialdesignet News Feed. Det er hvad jeg mener med advanceret.&lt;/p&gt;
 
@@ -397,7 +397,11 @@
 
 &lt;p&gt;Facebook købte i 2012 det israeliske firma Face.com &lt;a href=&quot;http://www.slate.com/blogs/future_tense/2014/03/18/deepface_facebook_face_recognition_software_is_97_percent_accurate.html&quot; target=&quot;_blank&quot; class=&quot;small-source&quot; data-title=&quot;Slate - Facebook’s New Face-Recognition Software Is Scary Good&quot;&gt;12&lt;/a&gt;, som havde udviklet teknologi specialiseret til at genkende ansigter (face-recognition). Du kan se, på GIF’en over, hvordan det grundlæggende fungerer: Et billede bliver analyseret og sammenlignet med et andet billede fra en anden vinkel. Til sidst kan programmet skabe en tro kopi af dit ansigt i 3D.&lt;/p&gt;
 
-&lt;p&gt;Du kan selv &lt;a href=&quot;http://cvl-demos.cs.nott.ac.uk/vrn/&quot; target=&quot;_blank&quot;&gt;afprøve teknologien med dit eget billede, hvis du har lyst.&lt;/a&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;Påstand:&lt;/strong&gt; Facebook har en tro kopi af dit ansigt i 3D, hvis du, ligesom jeg, har uploadet billeder af dig selv inden for de sidste par år.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Du kan selv &lt;a href=&quot;http://cvl-demos.cs.nott.ac.uk/vrn/&quot; target=&quot;_blank&quot;&gt;afprøve en teknologi, der ligner, med dit eget billede, hvis du har lyst.&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;Det blev senere til det program, der hedder DeepFace &lt;a href=&quot;https://en.wikipedia.org/wiki/DeepFace&quot; target=&quot;_blank&quot; class=&quot;small-source&quot; data-title=&quot;Wikipedia - DeepFace&quot;&gt;13&lt;/a&gt;. Det hjælper dig med at foreslå tags af venner på billeder, som du har uploadet. Det skulle have en nøjagtighed på 97%.* Det blev trænet på 4 millioner Facebook-brugeres billeder.&lt;/p&gt;
 
@@ -435,7 +439,7 @@
     &lt;p&gt;Du bliver afsløret i at være utro med din kæreste, da et overvågningskamera et par dage efter afslører dig tæt på en butik, hvor han/hun havde en fornemmelse af, at du kom lidt for ofte.&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;p&gt;Du deltager i en demonstration og bliver et par dage efter hentet ind på politigården, da flere overvågningskameraers data er blevet sammenlignet - på baggrund af algoritmiske modeller, som hver især har fundet dit ansigt.&lt;/p&gt;
+    &lt;p&gt;Du deltager i en demonstration, som udvikler sig til håndgemæng med politiet - du er dog ikke en del af de voldelige udskejelser - og bliver et par dage efter hentet ind på politigården, da flere overvågningskameraers data er blevet sammenlignet - på baggrund af algoritmiske modeller, som hver især har fundet dit ansigt.&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;Du kan - hvis du har adgang til dataen - på landsplan finde ud af, hvem der ligner dig mest (wow)!&lt;/li&gt;
 &lt;/ul&gt;
@@ -458,7 +462,7 @@
     &lt;/blockquote&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;p&gt;Nej, du har ikke noget at skjule &lt;strong&gt;indtil du har noget at skjule!&lt;/strong&gt;&lt;/p&gt;
+    &lt;p&gt;Nej, du har ikke noget at skjule, &lt;strong&gt;indtil du har noget at skjule!&lt;/strong&gt;&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
     &lt;p&gt;Hvis du f.eks. etablerer modstand mod selvsamme system, som du bliver overvåget af.&lt;/p&gt;
@@ -530,9 +534,7 @@
 
 &lt;p class=&quot;small&quot;&gt;*Da Facebook blev gjort opmærksom på fejlen tillod de hende dog hurtigt igen.&lt;/p&gt;
 
-&lt;p&gt;Pointen er, at der foregår en filtrering af Facebook’s indhold hvert eneste sekund. En filtrering, som vi på ingen måde er herre over, og som går ud over ukendte mennesker et andet sted i verden.&lt;/p&gt;
-
-&lt;p&gt;En filtrering, der måske ikke stemmer overens med de værdier, som du har.&lt;/p&gt;
+&lt;p&gt;Pointen er, at der foregår en filtrering af Facebook’s indhold hvert eneste sekund. En filtrering, som vi på ingen måde er herre over. En filtrering, der måske ikke stemmer overens med de værdier, som du har.&lt;/p&gt;
 
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
