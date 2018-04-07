@@ -3,7 +3,7 @@ layout: blog
 title: "Dråben, der fik bægeret til at flyde over - #deletefacebook"
 desc: "Min rejse fra naiv Facebookbruger til en sur, gammel og skræmt data-gnavpotte"
 category: blogs
-seocontent: ""
+seocontent: "Min rejse fra naiv Facebookbruger til en sur, gammel og skræmt data-gnavpotte"
 seoimage: "Lav et nyt billede"
 ---
 
@@ -54,7 +54,7 @@ Så blev det 2017...
 {: .blue-border }
 * **2017**
 
-* [The Intercept skriver en artikel om indsamlingen af data i forhold til Trump Kampagnen](https://theintercept.com/2017/03/30/facebook-failed-to-protect-30-million-users-from-having-their-data-harvested-by-trump-campaign-affiliate/){:target="_blank"} (efter at Cambridge Analytica har samarbejdet med Ted Cruz, går de over til at samarbejde med Trump) hvori man kan læse flere interessante ting:
+* [The Intercept skriver en artikel om indsamlingen af data i forhold til Trump Kampagnen](https://theintercept.com/2017/03/30/facebook-failed-to-protect-30-million-users-from-having-their-data-harvested-by-trump-campaign-affiliate/){:target="_blank"} (efter at Cambridge Analytica har samarbejdet med Ted Cruz, går de over til at samarbejde med Trump), hvori man kan læse flere interessante ting:
 
 * Facebook prøvede, efter udgivelsen af Guardians artiklen, at tage kontakt til Global Science Research (den virksomhed som Kogan stiftede) og forlange, at de slettede den data, som de havde taget fra Facebook brugere.
 
@@ -261,13 +261,13 @@ Det er let at forestille sig hvilke fordele, som det kan have i reklamemæssige 
 
 En person med kærestesorger har nok større sandsynlighed for at trykke på en kampagne fra en datingside. Især hvis datingsiden kan opkøbe information om x-kæresten. 
 
-> Bruger du flere penge på sukkerindholdige madvare, når du er ked af det? Så er vi to.. Det jeg prøver at sige er, at dit humør selvfølgelig har en effekt på, hvad du køber, og hvornår du køber det.
+> Bruger du flere penge på sukkerindholdige madvarer, når du er ked af det? Så er vi to.. Det jeg prøver at sige er, at dit humør selvfølgelig har en effekt på, hvad du køber, og hvornår du køber det.
 
 #### Din nyhedsstrøm bliver et koncentrat af dig selv
 
 Nyheder er ikke bare nyheder - det er din indsigt i den verden, som du lever i. Du er din viden og baserer dine valg, holdninger og levevis på hvilken information, som du har adgang til i dagligdagen.
 
-Hvilke nyheder du ser, er derfor magt.
+Hvilke nyheder du ser, er derfor magt (du kender måske begrebet propaganda?).
 
 News Feed hovedreglen - **underhold beskueren så længe som muligt!** - har den bagside, at det har en enorm effekt på, hvordan denne nyhedsstrøm agerer. Et fantastisk godt eksempel er hjemmesiden [Blue feed, Red feed](http://graphics.wsj.com/blue-feed-red-feed/#/guns){:target="_blank"}, som tydeligt viser forskellen på en liberal og konservativ vælgers News Feed på forskellige emner. Det er tydeligt at se, hvad der menes, når man bruger ydtrykket **et ekkokammer**.
 
@@ -298,7 +298,7 @@ Og han indrømmer også, hvad han mener, at det vil have af følger:
 
 Det bliver spændende at følge ændringerne af dette paradigmeskift.
 
-Men samtidig... at *hjælpe dig til at have mere meningsfulde og sociale relationer* gennem tilpasning af dit News Feed på et globalt plan? Hvad betyder det og hvad indebærer det?
+Men samtidig... at *hjælpe dig til at have mere meningsfulde og sociale relationer* gennem tilpasning af dit News Feed? Hvad betyder det og hvad indebærer det?
 
 Jeg ved det ikke, men udmeldingen giver mig lyst til at varetage den opgave selv. 
 
@@ -331,7 +331,7 @@ Men så præcist har det ikke altid været, og derved følger en vigtig pointe:
 
 Så har du hjulpet et program - i dette tilfælde et neuralt netværk [15](https://en.wikipedia.org/wiki/Artificial_neural_network){:target="_blank" .small-source data-title="Wikipedia - Artificial Neural Network"} - til næste gang at tage højde for den rettelse, som du har gjort opmærksom på. 
 
-Forestil dig så, at millioner af andre brugere også 'fodrer' programmet dagligt med data om, hvornår det rammer rigtigt og forkert og at det program så kunne 'lære' af det. 
+Forestil dig så, at millioner af andre brugere også 'fodrer' programmet dagligt med data om, hvornår det rammer rigtigt og forkert, og at det program så kunne 'lære' af det. 
 
 Til sidst har du DeepFace, et meget behjælpeligt værktøj, når det kommer til at tagge billeder, men til hvilken pris?
 
@@ -409,11 +409,11 @@ Men, når vi kommer længere ned af listen, begynder det at blive creepy (oversa
 
 Jo mere data, jo mere præcist kan du inddeles. Alexander Nix understregede tydeligt fordelen ved dette tidligere.
 
-## Arbejdsforhold og Den Lille Havfrue
+## Arbejdsforhold og Den Frække Havfrue
 
 Facebook er mere end bare data, ansigtsgenkendelse og algoritmer. Det er en arbejdsplads for 20.658 mennesker [18](https://en.wikipedia.org/wiki/Facebook#Corporate_affairs){:target="_blank" .small-source data-title="Wikipedia - Corporate Affairs"} - ifølge Wikipedia. Derudover er der stadig områder og opgaver som algoritmer ikke kan tage sig af. F.eks. kan man undre sig over, hvad der sker med billeder eller kontis, som andre brugere anmelder. Hvem bestemmer, om disse skal lukkes eller beholdes åbne?
 
-Den automatisering, som vi tit forbinder med større virksomheder som Google, Amazon og Facebook, kan altså ikke endnu indtage rollen som ansvarlig for at filtrere uploadet billeder.
+Den automatisering, som vi tit forbinder med større virksomheder som Google, Amazon og Facebook, kan ikke endnu indtage rollen som ansvarlig for at filtrere uploadet billeder.
 
 > Der skal stadig manuelt arbejde til i enormt omfang, for at kunne holde Facebook's hjul kørende. 
 
@@ -440,18 +440,18 @@ Vi er en del af et system, der betyder SÅ meget for vores sociale omgang med an
 
 Jeg er blevet pessimist af at læse om Facebook's maskinrum. Vi er heldige, at der findes whistleblowers som Christopher Wylie og Edward Snowden der, især i sidstnævnte tilfælde, sætter deres liv på spil, for at afsløre sanheden. Men dette betyder **IKKE**, at vi kender hele sandheden.
 
-Lad os udskifte vores naivitet med kritisk tænkning. Lad os blive data-gnavpotter, som ved den mindste ændring i datapolitiken råber op, fordi vi kender de potiontielle destruktive konsekvenser: manipulation.
+Lad os udskifte vores naivitet med kritisk tænkning. Lad os blive data-gnavpotter, som ved den mindste ændring i datapolitiken råber op, fordi vi kender de potientielle, destruktive konsekvenser: manipulation.
 
 
 Til sidst...
 
 > Hvordan kan en milliardenedel blive hørt?
 
-Det korte svar er: **Det kan den ikke.** Men hvis vi er nok, der i det mindste giver Facebook en lærestreg ved at slette vores profil, kan det være at de resterende undgår større leaks og skandaler i fremtiden.
+Det korte svar er: **Det kan den ikke.** Men hvis vi er nok, der i det mindste giver Facebook en lærestreg ved at slette vores profiler, kan det være, at de resterende undgår større leaks og skandaler i fremtiden.
 
 Derudover...
 
-Jeg har svært ved at forklare det, men der er en eller anden skræmmende bedøvende effekt gemt i Mark Zuckerberg's egne opslag og Facebook's privatlivspolitik samt deres utallige farverige illustrationer ([et eksempel](https://www.facebook.com/ads/about/?entry_product=ad_preferences){:target="_blank"}). Det er søvndyssende, uoverskueligt og pacificerende. Prøv at [læs hans opslag](https://da-dk.facebook.com/zuck){:target="_blank"} og spørg dig selv, om det Facebook han beskriver med alle dets udfordringer og ambitioner, er et, som du gerne vil være en del af?
+Jeg har svært ved at forklare det, men der er en eller anden skræmmende, bedøvende effekt gemt i Mark Zuckerberg's egne opslag og Facebook's privatlivspolitik samt deres utallige farverige illustrationer ([et eksempel](https://www.facebook.com/ads/about/?entry_product=ad_preferences){:target="_blank"}). Det er søvndyssende, uoverskueligt og pacificerende. Prøv at [læs hans opslag](https://da-dk.facebook.com/zuck){:target="_blank"} og spørg dig selv, om det Facebook han beskriver med alle dets udfordringer og ambitioner, er et, som du gerne vil være en del af?
 
 Det at slette sin Facebook er ikke ens betydende med, at man ikke har brug for den. Ligesom det at blive vegetar ikke er ens betydende med, at du IKKE kan lide kød. Det betyder blot, for mig at se, at du som menneske har et ideal, der forbyder dig at indgå i et fælleskab, hvor du ikke bliver mødt med den respekt, som du forlanger.
 
@@ -569,8 +569,6 @@ Man kunne let argumentere for, at reklamebranchen da altid har haft adgang til i
 > *Er det et demokrati, hvis en befolkningsgruppe, på baggrund af personlig data, der er blevet stjålet uden deres samtykke, bliver overbevist om at stemme på en bestemt kandidat gennem individspecifikke specialdesignede kampagner?*
 
 > *Er det et demokrati, hvis der sker det samme, men det er med befolkningens samtykke?*
-
-> *Det spørgsmål ligger op til et nyt spørgsmål: Har en befolkning noget at skjule?*
 
 > *Og endnu et: Er der noget af din data, der er så personlighedsfølsom, så det, i en evt. målgruppeanalyse og efterløbende kampagne, vil have for stor en udslagskraft? Vil det svække din egen dømmekraft i for høj grad til, at dit valg kan betegnes som dit eget?*
 
