@@ -3,7 +3,7 @@ layout: blog
 title: "Dråben, der fik bægeret til at flyde over - #deletefacebook"
 desc: "Min rejse fra naiv Facebookbruger til en sur, gammel og skræmt data-gnavpotte"
 category: blogs
-seocontent: "Facebook er gigantisk. Med 2 milliarder brugere er det uden sammenligning den største online brugerplatform, der eksisterer. Og med god grund... Vi får "gratis" adgang til potientielt millioner af menneskers liv, begivenheder inden for en hver genre, tusindvis af billeder, holdninger og nyheder. Dette indlæg er et forsøg på at forklare, hvorfor gratis står i gåseøjne. For hvad er det egentlig vi betaler, og hvilke konsekvenser har det?"
+seocontent: "Facebook er gigantisk. Med 2 milliarder brugere er det uden sammenligning den største online brugerplatform, der eksisterer. Og med god grund... Vi får 'gratis' adgang til potientielt millioner af menneskers liv, begivenheder inden for en hver genre, tusindvis af billeder, holdninger og nyheder. Dette indlæg er et forsøg på at forklare, hvorfor gratis står i gåseøjne. For hvad er det egentlig vi betaler, og hvilke konsekvenser har det?"
 seoimage: "https://hilsen.it/assets/blogs/facebook-share.jpg"
 ---
 
@@ -103,6 +103,16 @@ Alexander Nix forklarer, hvordan de hjalp vælgerne i den 'rigtige' retning (ove
 Som afslutning refererer han til det igangværende præsidentvalg (videoen er uploadet d. 27 september 2016) mellem Donald Trump og Hillary Clinton - resten er historie: 
 
 > [[10.41]](https://www.youtube.com/watch?v=n8Dd5aVXLCc&t=641s){:target="_blank"} *Men hvad jeg kan fortælle dig er, at af de to kandidater, der er tilbage i den her valgkamp, så er der én af dem, som bruger den her teknologi. Og det bliver meget interessant at se, hvad påvirkningen bliver de næste 7 uger.*
+
+Alexander Nix kommer også ind på, hvilken mængde data, som de efter sigende har til rådighed: 
+
+> [[8.01]](https://www.youtube.com/watch?v=n8Dd5aVXLCc&t=481s){:target="_blank"} *... vi har et antal i nærheden af 4000-5000 datapunkter på hver voksen i USA.*
+
+Et eksempel på, hvordan man kan bruge en sådan slags data, er også beskrevet nærmere i artiklen fra The Intercept: Roger Stone, der længe var en af Trump's rådgivere, skrev i sin kampagne memoir om:
+
+> ... en *geografisk målrettet kampagner* (GEO-targeting) målrettet byer, som omhandlede det aflivede rygte (debunked claim), at Bill Clinton var far til et barn udenfor ægteskab og derudover at indsnævre målgruppen *baseret på musikpræferencer, aldersgruppe, sort kultur og andre urbane interesser.*
+
+
 
 Det er uvist hvor stor effekten har været på Trump's kampagne, men i artiklen fra The Intercept, står der beskrevet hvordan Alexander Nix's virksomhed prøvede at tage æren for Trump's sejr, da det lykkedes. De hjalp til at forme hans rejseplaner og lavede reklamer, *der blev set over 1,5 milliarder gange*. Sidenhen blev det til en skandale, [og det link, der henviser til deres pral,](https://cambridgeanalytica.org/news/blog/1403){:target="_blank"} er nu tomt. Der er dog ingen tvivl om, at vi vil komme til at se teknikken forfinet og forbedret i fremtiden. 
 
@@ -464,6 +474,8 @@ Det at slette sin Facebook er ikke ens betydende med, at man ikke har brug for d
 Der er ikke noget galt i at forlade et topmoderne skib med alle dine venner på + 2 milliarder andre... Måske har du fået øje på en ø, hvor i kan sidde lidt i solen og kigge hinanden i øjnene for en gangs skyld!
 
 Det kan være, at det bliver ensomt de første par uger, men mon ikke de kommer og sætter sig med tiden.
+
+![Facebook share image - alene på en ø]({{ "assets/blogs/facebook-share.jpg" || absolute_url }})
 
 <br>
 <hr> 
