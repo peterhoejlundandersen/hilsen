@@ -312,7 +312,7 @@ Jeg ved det ikke, men udmeldingen giver mig lyst til at varetage den opgave selv
 {: .small .center-image }
 Images via Facebook
 
-Udover at Facebook faktisk har ret til at bruge dine billeder til annoncer [11](https://www.facebook.com/help/116356655118482?helpref=related){:target="_blank" .small-source data-title="Facebook help - Jeg ønsker ikke, at mit barns navn eller profilbillede skal knyttes sammen med annoncer." }  sker der også andet, når du uploader.
+Udover at Facebook faktisk har ret til at bruge dine billeder til annoncer [11](https://www.facebook.com/help/116356655118482?helpref=related){:target="_blank" .small-source data-title="Facebook help - Jeg ønsker ikke, at mit barns navn eller profilbillede skal knyttes sammen med annoncer." }, sker der også andet, når du uploader.
 
 Facebook købte i 2012 det israeliske firma Face.com [12](http://www.slate.com/blogs/future_tense/2014/03/18/deepface_facebook_face_recognition_software_is_97_percent_accurate.html){:target="_blank" .small-source data-title="Slate - Facebook’s New Face-Recognition Software Is Scary Good"}, som havde udviklet teknologi specialiseret til at genkende ansigter (face-recognition). Du kan se, på GIF'en over, hvordan det grundlæggende fungerer: Et billede bliver analyseret og sammenlignet med et andet billede fra en anden vinkel. Til sidst kan programmet skabe en tro kopi af dit ansigt i 3D.
 
@@ -411,7 +411,7 @@ Jo mere data, jo mere præcist kan du inddeles. Alexander Nix understregede tyde
 
 ## Arbejdsforhold og Den Frække Havfrue
 
-Facebook er mere end bare data, ansigtsgenkendelse og algoritmer. Det er en arbejdsplads for 20.658 mennesker [18](https://en.wikipedia.org/wiki/Facebook#Corporate_affairs){:target="_blank" .small-source data-title="Wikipedia - Corporate Affairs"} - ifølge Wikipedia. Derudover er der stadig områder og opgaver som algoritmer ikke kan tage sig af. F.eks. kan man undre sig over, hvad der sker med billeder eller kontis, som andre brugere anmelder. Hvem bestemmer, om disse skal lukkes eller beholdes åbne?
+Facebook er mere end bare data, ansigtsgenkendelse og algoritmer. Det er en arbejdsplads for 20.658 mennesker [18](https://en.wikipedia.org/wiki/Facebook#Corporate_affairs){:target="_blank" .small-source data-title="Wikipedia - Corporate Affairs"} - ifølge Wikipedia. Derudover er der stadig områder og opgaver, som algoritmer ikke kan tage sig af. F.eks. kan man undre sig over, hvad der sker med billeder eller kontis, som andre brugere anmelder. Hvem bestemmer, om disse skal lukkes eller fjernes?
 
 Den automatisering, som vi tit forbinder med større virksomheder som Google, Amazon og Facebook, kan ikke endnu indtage rollen som ansvarlig for at filtrere uploadet billeder.
 
@@ -419,16 +419,22 @@ Den automatisering, som vi tit forbinder med større virksomheder som Google, Am
 
 De arbejdere, som udfører dette manuelle arbejde, kaldes **content moderators** og et estimeret antal - inkluderer alle sociale medier - er i omegnen af 150.000 arbejdere (ifølge filmen The Moderators). [19](https://www.wired.com/2017/04/watch-people-learn-filter-awfulness-dating-sites/){:target="_blank" .small-source data-title="WIRED - WATCH WORKERS LEARN HOW TO FILTER OBSCENE AND VIOLENT PHOTOS FROM DATING SITES"}
 
-Det er især mennesker fra Indien og Filippinerne, som udfører dette arbejde. De går igennem alt det, som vi ikke ser: Ponografisk og voldeligt materiale. De går igennem 2.000 billeder i timen fem dage om ugen.
+Det er især mennesker fra Indien og Filippinerne, som udfører dette arbejde. De går igennem alt det, som vi ikke ser: Ponografisk (i nogle tilfælde med mindreårige) og voldeligt materiale. De går igennem 2.000 billeder i timen fem dage om ugen.
 
-Men der er langt fra Indien til Danmark.
+Men samtidig er der langt fra Indien til Danmark...
 
 > F.eks. blev vores kære nationalklenodie Den Lille Havfrue fjernet fra Facebook, da hun var for nøgen.*
 
 {: .small }
-*Da Facebook blev gjort opmærksom på fejlen tillod de hende dog hurtigt igen.
+*Da Facebook blev gjort opmærksom på fejlen tillod de hende dog hurtigt igen. 
 
-Pointen er, at der foregår en filtrering af Facebook's indhold hvert eneste sekund. En filtrering, som vi på ingen måde er herre over. En filtrering, der måske ikke stemmer overens med de værdier, som du har. 
+Du kan besøge en side som [denne](https://www.thedailybeast.com/facebooks-most-famous-banned-images){:target="_blank"} for at se flere eksempler på, hvad Facebook har fjernet i tidens løb.
+
+Men:
+
+**1.** Der foregår en filtrering af Facebook's indhold hvert eneste sekund. En filtrering, som vi på ingen måde er herre over. En filtrering, der måske ikke stemmer overens med de værdier, som du har. 
+
+**2.** Det er andre mennesker uden for vores synsfelt, der står for denne ensformige, gigantiske og (for mig at se) usømmelige opgave. 
 
 <br>
 
@@ -438,9 +444,9 @@ Min konklusion på dråben og bægeret er, at der mangler gennemsigtighed og at 
 
 Vi er en del af et system, der betyder SÅ meget for vores sociale omgang med andre mennesker, og samtidig er vi så langt fra indflydelse. Det lugter af oligarki!
 
-Jeg er blevet pessimist af at læse om Facebook's maskinrum. Vi er heldige, at der findes whistleblowers som Christopher Wylie og Edward Snowden der, især i sidstnævnte tilfælde, sætter deres liv på spil, for at afsløre sanheden. Men dette betyder **IKKE**, at vi kender hele sandheden.
+Jeg er blevet data-pessimist af at læse om Facebook's maskinrum. Vi er heldige, at der findes whistleblowers som Christopher Wylie og Edward Snowden der, især i sidstnævnte tilfælde, sætter deres liv på spil, for at afsløre sandheden. Men dette betyder **IKKE**, at vi kender hele sandheden.
 
-Lad os udskifte vores naivitet med kritisk tænkning. Lad os blive data-gnavpotter, som ved den mindste ændring i datapolitiken råber op, fordi vi kender de potientielle, destruktive konsekvenser: manipulation.
+Lad os udskifte vores naivitet med kritisk tænkning. Lad os blive data-gnavpotter, som ved den mindste betydningsfulde ændring i datapolitiken råber op, fordi vi kender de potientielle, destruktive konsekvenser af for 'behjælpelige' love: Manipulation.
 
 
 Til sidst...
@@ -573,4 +579,10 @@ Man kunne let argumentere for, at reklamebranchen da altid har haft adgang til i
 > *Og endnu et: Er der noget af din data, der er så personlighedsfølsom, så det, i en evt. målgruppeanalyse og efterløbende kampagne, vil have for stor en udslagskraft? Vil det svække din egen dømmekraft i for høj grad til, at dit valg kan betegnes som dit eget?*
 
 > Og sidst men ikke mindst: Er det utopi at snakke om *dit eget valg* i den moderne verden?
+
+----------------
+
+{: .small #facebookCount .cursor-pointer }
+Tryk, hvis du har lyst:
+
 

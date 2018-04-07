@@ -10,6 +10,17 @@ function setHeadingsList() {
 	if (list) { list.innerHTML = html_list; }
 }
 
+function countFacecook() {
+  document.getElementById('facebookCount').addEventListener('click', function() {
+    var str = document.body.innerText;
+    var count = str.match(/Facebook/ig) ;
+    count_str = count.join(", ");
+    document.getElementById('facebookCount').innerHTML = "'Facebook' blev brugt så mange gange i denne tekst: <br>" + count_str;
+
+  });
+  
+}
+
 
 function showAnswer(target, answer) {
   var field = document.querySelector(target);
@@ -33,6 +44,7 @@ answer = "Tid. De ønsker, at den forbruger din tid. <br> Dit News Feed er desig
 
 window.addEventListener('load', function() {
   setSources();
+  countFacecook();
 	setHeadingsList();
   showAnswer(".green-table tbody tr td", answer);
 });
