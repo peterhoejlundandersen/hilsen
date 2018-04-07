@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-04-06T21:29:38+02:00</updated><id>http://localhost:4000/</id><title type="html">Hilsen IT</title><subtitle>Designer hjemmesider med et sikkert fundament i Ruby on Rails, Jekyll og Angular</subtitle><entry><title type="html">Dråben, der fik bægeret til at flyde over - #deletefacebook</title><link href="http://localhost:4000/blogs/2018/04/03/hvorfor-jeg-slettede-min-facebook.html" rel="alternate" type="text/html" title="Dråben, der fik bægeret til at flyde over - #deletefacebook" /><published>2018-04-03T00:00:00+02:00</published><updated>2018-04-03T00:00:00+02:00</updated><id>http://localhost:4000/blogs/2018/04/03/hvorfor-jeg-slettede-min-facebook</id><content type="html" xml:base="http://localhost:4000/blogs/2018/04/03/hvorfor-jeg-slettede-min-facebook.html">&lt;blockquote&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-04-07T12:55:57+02:00</updated><id>http://localhost:4000/</id><title type="html">Hilsen IT</title><subtitle>Designer hjemmesider med et sikkert fundament i Ruby on Rails, Jekyll og Angular</subtitle><entry><title type="html">Dråben, der fik bægeret til at flyde over - #deletefacebook</title><link href="http://localhost:4000/blogs/2018/04/03/hvorfor-jeg-slettede-min-facebook.html" rel="alternate" type="text/html" title="Dråben, der fik bægeret til at flyde over - #deletefacebook" /><published>2018-04-03T00:00:00+02:00</published><updated>2018-04-03T00:00:00+02:00</updated><id>http://localhost:4000/blogs/2018/04/03/hvorfor-jeg-slettede-min-facebook</id><content type="html" xml:base="http://localhost:4000/blogs/2018/04/03/hvorfor-jeg-slettede-min-facebook.html">&lt;blockquote&gt;
   &lt;p&gt;Facebook er gigantisk. Med 2 milliarder brugere er det uden sammenligning den største online brugerplatform, der eksisterer. Og med god grund… Vi får “gratis” adgang til potientielt millioner af menneskers liv, begivenheder inden for en hver genre, tusindvis af billeder, holdninger og nyheder. Dette indlæg er et forsøg på at forklare, hvorfor gratis står i gåseøjne. For hvad er det egentlig vi betaler, og hvilke konsekvenser har det?&lt;/p&gt;
 &lt;/blockquote&gt;
 
@@ -27,7 +27,7 @@
 &lt;/ul&gt;
 
 &lt;ul class=&quot;small&quot;&gt;
-  &lt;li&gt;4/4/2018 - &lt;a href=&quot;https://www.nytimes.com/2018/04/04/technology/mark-zuckerberg-testify-congress.html&quot; target=&quot;_blank&quot;&gt;Nye tal offentliggjort af Facebook snakker om 87 millioner menneskers data. Det er et forsøg fra Facebooks side på at opgive det maksimalt mulige antal.&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;*4/4/2018 - &lt;a href=&quot;https://www.nytimes.com/2018/04/04/technology/mark-zuckerberg-testify-congress.html&quot; target=&quot;_blank&quot;&gt;Nye tal offentliggjort af Facebook snakker om 87 millioner menneskers data. Det er et forsøg fra Facebooks side på at opgive det maksimalt mulige antal.&lt;/a&gt;.&lt;br /&gt; &lt;a href=&quot;https://www.dr.dk/nyheder/viden/teknologi/cambridge-analytica-kan-have-hoestet-41820-danskeres-facebook-profil&quot; target=&quot;_blank&quot;&gt;Derudover melder Ritzau, at der er 41.820 danskere blandt de indsamlede data.&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;ul class=&quot;blue-border&quot;&gt;
@@ -87,26 +87,28 @@
 
 &lt;p class=&quot;small&quot;&gt;*Sæt “I hvor høj grad” foran hver uddybning, for at få oplevelsen af at måle det på en skala, som jo er ideen med OCEAN-modellen.&lt;/p&gt;
 
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th style=&quot;text-align: center&quot;&gt;Åbenhed&lt;/th&gt;
-      &lt;th style=&quot;text-align: center&quot;&gt;Ordentlighed&lt;/th&gt;
-      &lt;th style=&quot;text-align: center&quot;&gt;Udadvendthed&lt;/th&gt;
-      &lt;th style=&quot;text-align: center&quot;&gt;Grad af enighed&lt;/th&gt;
-      &lt;th style=&quot;text-align: center&quot;&gt;Neurotiskhed&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;Kan du lide nye oplevelser?&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;Foretrækker du orden, vaner og planlægning?&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;Kan du lide at bruge tid sammen med andre? Hvor social er du?&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;Sætter du andre menneskers behov foran dine egne?&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;Bekymrer du dig?&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
+&lt;div class=&quot;table&quot;&gt;
+  &lt;div class=&quot;table-cell&quot;&gt;
+    &lt;div class=&quot;table-head&quot;&gt;Åbenhed&lt;/div&gt;
+    &lt;div class=&quot;table-row&quot;&gt;Kan du lide nye oplevelser?&lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;table-cell&quot;&gt;
+    &lt;div class=&quot;table-head&quot;&gt;Ordentlighed&lt;/div&gt;
+    &lt;div class=&quot;table-row&quot;&gt;Foretrækker du orden, vaner og planlægning? &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;table-cell&quot;&gt;
+    &lt;div class=&quot;table-head&quot;&gt;Udadvendthed&lt;/div&gt;
+    &lt;div class=&quot;table-row&quot;&gt; Kan du lide at bruge tid sammen med andre? Hvor social er du? &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;table-cell&quot;&gt;
+    &lt;div class=&quot;table-head&quot;&gt;Grad af enighed&lt;/div&gt;
+    &lt;div class=&quot;table-row&quot;&gt; Sætter du andre menneskers behov foran dine egne?&lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;table-cell&quot;&gt;
+    &lt;div class=&quot;table-head&quot;&gt;Neurotiskhed&lt;/div&gt;
+    &lt;div class=&quot;table-row&quot;&gt;Bekymrer du dig?&lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
 
 &lt;p&gt;Cambridge Analytica brugte OCEAN på den personlige Facebook data, som Kogan indsamlede, til at plotte millioner af menneskers åbenhed, ordentlighed, udadvendthed, grad af enighed, og neurotiskhed ind i et datasæt. I hvert fald i følge det leak, som kom frem i 2018. Det kommer vi til senere.&lt;/p&gt;
 
@@ -201,7 +203,7 @@
 
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
-&lt;h4 id=&quot;spørgsmål-til-dråbe-afsnittet&quot;&gt;&lt;a href=&quot;https://hilsen.it/blogs/2018/04/03/hvorfor-jeg-slettede-min-facebook.html#dråben-en-række-spørgsmål&quot;&gt;Spørgsmål til dråbe-afsnittet&lt;/a&gt;&lt;/h4&gt;
+&lt;h4 id=&quot;gå-til-afsluttende-spørgsmål&quot;&gt;&lt;a href=&quot;https://hilsen.it/blogs/2018/04/03/hvorfor-jeg-slettede-min-facebook.html#dråben-en-række-afsluttende-spørsgmål&quot;&gt;Gå til afsluttende spørgsmål&lt;/a&gt;&lt;/h4&gt;
 
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
@@ -217,7 +219,7 @@
   &lt;p&gt;Det var en underlig ambivalent følelse af: Hvis jeg gør mig umage og læser om, hvad der virkelig foregår bag forhænget, så ender jeg nok med at slette min profil… Men jeg gjorde det aldrig, for jeg gad sgu da ikke at stå uden for fælleskabet!&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;I årenes løb mistede jeg flere og flere (ægte) relationer til mine Facebook-venner. Til sidst havde jeg kun min lille sammentømret vennegruppe, som fungerer rigtig godt uden - dog med få undtagelser - et digitalt samlingssted. Det gjorde, sammen med dråben, at jeg som forventet endte med at slette min profil*. Her var hvad jeg fandt ud af, før jeg besluttede mig for at trykke på den store blå slet-knap.&lt;/p&gt;
+&lt;p&gt;Det sidste stykke tid, har jeg næsten kun brugt det til min sammentømrede vennegruppe, som fungerer rigtig godt uden - dog med få undtagelser - et digitalt samlingssted. Det gjorde, sammen med dråben, at jeg som forventet endte med at slette min profil*. Her var hvad jeg fandt ud af, før jeg besluttede mig for at trykke på den store blå slet-knap.&lt;/p&gt;
 
 &lt;p class=&quot;small&quot;&gt;*Der er stor forskel på at slette sin profil og at deaktivere den samt forskelle i sværhedsgraden for at få lov til at udføre den ene frem for den anden. Det kommer vi til senere. :) 
 &lt;br /&gt;&lt;/p&gt;
@@ -351,9 +353,7 @@
 
 &lt;p class=&quot;small&quot;&gt;*&lt;a href=&quot;https://www.itu.dk/om-itu/presse/nyheder/2017/forestillingen-om-facebooks-ekkokamre-er-overdrevet&quot; target=&quot;_blank&quot;&gt;En undersøgelse fra DECIDIS på IT-Universitet i København fra 2017 baseret på 1223 svar&lt;/a&gt; skriver at ideen om ekkokamrer er overdrevet i Danmark. De skriver “Næsten en fjerdedel af de adspurgte danskere oplyser, at de ofte støder på indhold, de er uenige i, når de diskuterer politik eller nyheder på Facebook.” Døm selv om du mener udtrykket passer.&lt;/p&gt;
 
-&lt;p&gt;Med millioner og atter millioner af andre mennesker opkoblet på det samme netværk som dig, kan Facebook let ‘se’ hvilke nyheder, der bliver klikket på hvor mange gange af personligheder, som minder om din. De vil jo gerne have, at du bliver hængende, så de reproducere den holdning, som du finder mest interressant… altså din egen.&lt;/p&gt;
-
-&lt;p&gt;Forestil dig så at skulle finde frem til hvad den er, uden at spørge dig, men baseret på dine aktiviteter sammenlignet med andres. Det understreger, for mig at se, den kompleksitet, et sådan system må indeholde.&lt;/p&gt;
+&lt;p&gt;Med millioner og atter millioner af andre mennesker opkoblet på det samme netværk som dig, kan Facebook let ‘se’ hvilke nyheder, der bliver klikket på hvor mange gange af personligheder, som minder om din. Denne data bliver sammenlignet på baggrund af din helt unikke aktivitet og udmunder sig derefter i dit specialdesignet News Feed. Det er hvad jeg mener med advanceret.&lt;/p&gt;
 
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
@@ -389,9 +389,15 @@
 
 &lt;h3 id=&quot;dit-ansigt-bliver-til-data---og-du-hjælper-til&quot;&gt;Dit ansigt bliver til data - og du hjælper til&lt;/h3&gt;
 
+&lt;p class=&quot;center-image&quot;&gt;&lt;img src=&quot;http://localhost:4000/assets/blogs/deepface.gif&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p class=&quot;small center-image&quot;&gt;Images via Facebook&lt;/p&gt;
+
 &lt;p&gt;Udover at Facebook faktisk har ret til at bruge dine billeder til annoncer &lt;a href=&quot;https://www.facebook.com/help/116356655118482?helpref=related&quot; target=&quot;_blank&quot; class=&quot;small-source&quot; data-title=&quot;Facebook help - Jeg ønsker ikke, at mit barns navn eller profilbillede skal knyttes sammen med annoncer.&quot;&gt;11&lt;/a&gt;  sker der også andet, når du uploader.&lt;/p&gt;
 
-&lt;p&gt;Facebook købte i 2012 det israeliske firma Face.com &lt;a href=&quot;http://www.slate.com/blogs/future_tense/2014/03/18/deepface_facebook_face_recognition_software_is_97_percent_accurate.html&quot; target=&quot;_blank&quot; class=&quot;small-source&quot; data-title=&quot;Slate - Facebook’s New Face-Recognition Software Is Scary Good&quot;&gt;12&lt;/a&gt;, som havde udviklet teknologi specialiseret til at genkende ansigter (face-recognition).&lt;/p&gt;
+&lt;p&gt;Facebook købte i 2012 det israeliske firma Face.com &lt;a href=&quot;http://www.slate.com/blogs/future_tense/2014/03/18/deepface_facebook_face_recognition_software_is_97_percent_accurate.html&quot; target=&quot;_blank&quot; class=&quot;small-source&quot; data-title=&quot;Slate - Facebook’s New Face-Recognition Software Is Scary Good&quot;&gt;12&lt;/a&gt;, som havde udviklet teknologi specialiseret til at genkende ansigter (face-recognition). Du kan se, på GIF’en over, hvordan det grundlæggende fungerer: Et billede bliver analyseret og sammenlignet med et andet billede fra en anden vinkel. Til sidst kan programmet skabe en tro kopi af dit ansigt i 3D.&lt;/p&gt;
+
+&lt;p&gt;Du kan selv &lt;a href=&quot;http://cvl-demos.cs.nott.ac.uk/vrn/&quot; target=&quot;_blank&quot;&gt;afprøve teknologien med dit eget billede, hvis du har lyst.&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;Det blev senere til det program, der hedder DeepFace &lt;a href=&quot;https://en.wikipedia.org/wiki/DeepFace&quot; target=&quot;_blank&quot; class=&quot;small-source&quot; data-title=&quot;Wikipedia - DeepFace&quot;&gt;13&lt;/a&gt;. Det hjælper dig med at foreslå tags af venner på billeder, som du har uploadet. Det skulle have en nøjagtighed på 97%.* Det blev trænet på 4 millioner Facebook-brugeres billeder.&lt;/p&gt;
 
@@ -526,12 +532,21 @@
 
 &lt;p&gt;Pointen er, at der foregår en filtrering af Facebook’s indhold hvert eneste sekund. En filtrering, som vi på ingen måde er herre over, og som går ud over ukendte mennesker et andet sted i verden.&lt;/p&gt;
 
-&lt;p&gt;&lt;br /&gt;
-&lt;br /&gt;&lt;/p&gt;
+&lt;p&gt;En filtrering, der måske ikke stemmer overens med de værdier, som du har.&lt;/p&gt;
 
-&lt;h2 id=&quot;farvel&quot;&gt;Farvel&lt;/h2&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
-&lt;p&gt;Med en af de hurtigstvoksende virksomheder i nyere tid, vil der selvfølgelig ske fejl. Spørgsmålet er, hvor store de kan være, før vi begynder at handle? Og når vi så handler…&lt;/p&gt;
+&lt;h2 id=&quot;konklusion&quot;&gt;Konklusion&lt;/h2&gt;
+
+&lt;p&gt;Min konklusion på dråben og bægeret er, at der mangler gennemsigtighed og at persondatafølsomheden og magten er for stor hos Facebook.&lt;/p&gt;
+
+&lt;p&gt;Vi er en del af et system, der betyder SÅ meget for vores sociale omgang med andre mennesker, og samtidig er vi så langt fra indflydelse. Det lugter af oligarki!&lt;/p&gt;
+
+&lt;p&gt;Jeg er blevet pessimist af at læse om Facebook’s maskinrum. Vi er heldige, at der findes whistleblowers som Christopher Wylie og Edward Snowden der, især i sidstnævnte tilfælde, sætter deres liv på spil, for at afsløre sanheden. Men dette betyder &lt;strong&gt;IKKE&lt;/strong&gt;, at vi kender hele sandheden.&lt;/p&gt;
+
+&lt;p&gt;Lad os udskifte vores naivitet med kritisk tænkning. Lad os blive data-gnavpotter, som ved den mindste ændring i datapolitiken råber op, fordi vi kender de potiontielle destruktive konsekvenser: manipulation.&lt;/p&gt;
+
+&lt;p&gt;Til sidst…&lt;/p&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;Hvordan kan en milliardenedel blive hørt?&lt;/p&gt;
@@ -543,6 +558,8 @@
 
 &lt;p&gt;Jeg har svært ved at forklare det, men der er en eller anden skræmmende bedøvende effekt gemt i Mark Zuckerberg’s egne opslag og Facebook’s privatlivspolitik samt deres utallige farverige illustrationer (&lt;a href=&quot;https://www.facebook.com/ads/about/?entry_product=ad_preferences&quot; target=&quot;_blank&quot;&gt;et eksempel&lt;/a&gt;). Det er søvndyssende, uoverskueligt og pacificerende. Prøv at &lt;a href=&quot;https://da-dk.facebook.com/zuck&quot; target=&quot;_blank&quot;&gt;læs hans opslag&lt;/a&gt; og spørg dig selv, om det Facebook han beskriver med alle dets udfordringer og ambitioner, er et, som du gerne vil være en del af?&lt;/p&gt;
 
+&lt;p&gt;Det at slette sin Facebook er ikke ens betydende med, at man ikke har brug for den. Ligesom det at blive vegetar ikke er ens betydende med, at du IKKE kan lide kød. Det betyder blot, for mig at se, at du som menneske har et ideal, der forbyder dig at indgå i et fælleskab, hvor du ikke bliver mødt med den respekt, som du forlanger.&lt;/p&gt;
+
 &lt;p&gt;Der er ikke noget galt i at forlade et topmoderne skib med alle dine venner på + 2 milliarder andre… Måske har du fået øje på en ø, hvor i kan sidde lidt i solen og kigge hinanden i øjnene for en gangs skyld!&lt;/p&gt;
 
 &lt;p&gt;Det kan være, at det bliver ensomt de første par uger, men mon ikke de kommer og sætter sig med tiden.&lt;/p&gt;
@@ -552,9 +569,9 @@
 
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
-&lt;h4 id=&quot;som-afslutning-vil-jeg-understrege-at-facebook-også-har-været-enormt-nyttigt-jeg-har-fundet-gamle-venner-fantastiske-begivenheder-inviteret-personer-til-egne-arrangementer-osv-men-jeg-håber-at-du-kan-se-hvorfor-jeg-synes-at-prisen-er-for-høj&quot;&gt;&lt;em&gt;Som afslutning vil jeg understrege, at Facebook også har været enormt nyttigt.&lt;br /&gt; Jeg har fundet gamle venner, fantastiske begivenheder, inviteret personer til egne arrangementer osv. Men jeg håber, at du kan se, hvorfor jeg synes, at prisen er for høj.&lt;/em&gt;&lt;/h4&gt;
+&lt;h4 id=&quot;som-afslutning-vil-jeg-understrege-at-facebook-også-har-været-nyttigt-jeg-har-fundet-gamle-venner-fantastiske-begivenheder-inviteret-personer-til-egne-arrangementer-osv-men-jeg-håber-at-du-kan-se-hvorfor-jeg-synes-at-prisen-er-for-høj&quot;&gt;&lt;em&gt;Som afslutning vil jeg understrege, at Facebook også har været nyttigt.&lt;br /&gt; Jeg har fundet gamle venner, fantastiske begivenheder, inviteret personer til egne arrangementer osv. Men jeg håber, at du kan se, hvorfor jeg synes, at prisen er for høj.&lt;/em&gt;&lt;/h4&gt;
 
-&lt;h4 id=&quot;udbyttet-af-hvad-man-får-af-facebook-varierer-fra-person-til-person-jeg-har-hvis-jeg-selv-skulle-sige-det-aldrig-brugt-det-særlig-meget-det-har-ikke-været-min-henseende-at-få-det-til-at-fremstå-let-at-slette-sin-profil-jeg-forstår-udemærket-godt-hvis-det-kan-virke-fuldstændig-uoverskueligt-bare-at-tænke-tanken-til-ende-derfor-følger-der-også-råd-til-hvordan-du-kan-sikre-din-data-bedre-som-eksisterende-bruger&quot;&gt;&lt;em&gt;Udbyttet af, hvad man får af Facebook, varierer fra person til person. Jeg har, hvis jeg selv skulle sige det, aldrig brugt det særlig meget. Det har ikke været min henseende at få det til at fremstå let at slette sin profil. Jeg forstår udemærket godt, hvis det kan virke fuldstændig uoverskueligt bare at tænke tanken til ende. Derfor følger der også råd til, hvordan du kan sikre din data bedre, som eksisterende bruger.&lt;/em&gt;&lt;/h4&gt;
+&lt;h4 id=&quot;udbyttet-af-hvad-man-får-af-facebook-varierer-fra-person-til-person-jeg-har-hvis-jeg-selv-skulle-sige-det-aldrig-brugt-det-særlig-meget-det-har-ikke-været-min-henseende-at-få-det-til-at-fremstå-let-at-slette-sin-profil-jeg-forstår-udemærket-godt-hvis-det-kan-virke-fuldstændig-uoverskueligt-bare-at-tænke-tanken-til-ende-derfor-følger-der-også-råd-til-hvordan-du-kan-sikre-din-data-bedre-som-eksisterende-bruger&quot;&gt;&lt;em&gt;Udbyttet af, hvad man får af Facebook, varierer fra person til person. Jeg har, hvis jeg selv skulle sige det, aldrig brugt det særlig meget. Det har ikke været min henseende at få det til at fremstå let at slette sin profil. Jeg forstår udemærket godt, hvis det kan virke fuldstændig uoverskueligt bare at tænke tanken til ende. Derfor følger der også råd til, hvordan du kan sikre din data bedre som eksisterende bruger.&lt;/em&gt;&lt;/h4&gt;
 
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;hr /&gt;
@@ -599,13 +616,22 @@
 
 &lt;p&gt;Jeg havde en meget speciel oplevelse, da jeg prøvede at slette min profil. Jeg troede først, at det var det samme som at deaktivere den. Det viste sig senere, at det var to HELT forskellige ting.&lt;/p&gt;
 
-&lt;p&gt;At deaktivere den er ikke så svært. Du går ind i Indstillinger, Generelt og vælger den nederste, hvis jeg husker rigtigt.&lt;/p&gt;
+&lt;p&gt;At deaktivere den er ikke så svært. Du går ind i Indstillinger, Generelt og vælger den nederste, hvis jeg husker rigtigt. Du kan derefter altid logge ind igen og gendanne din profil. Din beskeder forbliver åbne, så dine venner stadig kan skrive til dig. Mit oprindelig mål var at slette den fuldstændig. Men hvordan gør man lige det?&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Men at slette den… Omg!&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Omg!&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;Jeg var nødt til at bruge Google.&lt;/p&gt;
+&lt;p&gt;Jeg var nødt til at bruge Google. *&lt;/p&gt;
 
-&lt;p&gt;Derigennem fandt jeg &lt;a href=&quot;https://pageflows.com/blog/delete-facebook/&quot; target=&quot;_blank&quot;&gt;denne artikel, som hjalp mig&lt;/a&gt;, hvis du er interesseret i at se, hvordan man gør (&lt;a href=&quot;https://www.facebook.com/help/131112897028467&quot; target=&quot;_blank&quot;&gt;husk at download din data først! hvis du er ved at gå hele vejen&lt;/a&gt;).&lt;/p&gt;
+&lt;p class=&quot;small&quot;&gt;*Jeg gav senere min ven udfordringen: Hvor hurtigt kan du finde den side, hvor du sletter din Facebook UDEN brug af Google? 
+Efter 5 minutter måtte han give op. Prøv selv!&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;Udfordring!&lt;/strong&gt; Kan du, uden hjælp fra Google, finde den side på Facebook, hvor du kan slette din profil (ikke deaktivere den). *&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p class=&quot;small&quot;&gt;*Vær ikke bange. Du skal indtaste din kode og bekræfte sletningen, når du finder siden. Derudover, hvis du også kommer til at gennemføre DET, kan du annullere sletningen i en uge.&lt;/p&gt;
+
+&lt;p&gt;På Google fandt jeg &lt;a href=&quot;https://pageflows.com/blog/delete-facebook/&quot; target=&quot;_blank&quot;&gt;denne artikel, som hjalp mig&lt;/a&gt;, hvis du er interesseret i at se, hvordan man gør (&lt;a href=&quot;https://www.facebook.com/help/131112897028467&quot; target=&quot;_blank&quot;&gt;husk at download din data først! hvis du er ved at gå hele vejen&lt;/a&gt;).&lt;/p&gt;
 
 &lt;p&gt;Jeg tror ikke, at det er helt tilfældigt, at det er så svært.&lt;/p&gt;
 
@@ -616,6 +642,8 @@
 &lt;p&gt;Ja, der findes alternativer til Facebook, som hver især har forsøgt at bygge et socialt netværk op på et andet værdigrundlag.&lt;/p&gt;
 
 &lt;p&gt;Nogle nævneværdige eksempler:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://joinmastodon.org/&quot; target=&quot;_blank&quot;&gt;Mastodon - Verdens største gratis, open-source og decentraliseret microbloging netværk&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;https://www.vero.co/&quot; target=&quot;_blank&quot;&gt;Vero - true social&lt;/a&gt;&lt;/p&gt;
 
@@ -643,7 +671,7 @@
 
 &lt;p&gt;&lt;a href=&quot;https://newsroom.fb.com/news/2018/04/restricting-data-access/&quot; target=&quot;_blank&quot;&gt;Facebook’s dokument om, hvordan de vil beskytte folks data i fremtiden&lt;/a&gt; - &lt;em&gt;4/4/2018&lt;/em&gt;&lt;/p&gt;
 
-&lt;h2 id=&quot;dråben-en-række-spørgsmål&quot;&gt;Dråben. En række spørgsmål:&lt;/h2&gt;
+&lt;h2 id=&quot;dråben-en-række-afsluttende-spørsgmål&quot;&gt;Dråben. En række afsluttende spørsgmål:&lt;/h2&gt;
 
 &lt;p&gt;Man kunne let argumentere for, at reklamebranchen da altid har haft adgang til informationer om evt. målgrupper? Men er grænsen ikke nået?&lt;/p&gt;
 

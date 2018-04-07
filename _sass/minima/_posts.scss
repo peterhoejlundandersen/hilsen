@@ -1,7 +1,39 @@
 /* ALL STYLE FOR POSTS/POST*/
+.table {
+  min-height: 200px;
+  margin-bottom: 30px;
+  width: 100%;
+  text-align: left;
+  color: #3f3f3f;
+  border-collapse: collapse;
+  overflow: hidden;
+  .table-cell {
+    @media screen and (min-width: $on-palm) {
+      float: left;
+      width: 20%;
+    }
+  }
+  .table-head {
+    background-color: blue;
+    color: white;
+    border: 1px dashed blue;
+    border-bottom-color: #c9c9c9;
+    padding: 10px 15px;
+  }
+  .table-row {
+    border: 1px dashed blue;
+    padding: 10px 15px;
+  }
+
+}
+
 .small-source {
     font-size: 0.7em;
     vertical-align: top;
+}
+.center-image {
+  margin: 10px auto;
+  text-align: center;
 }
 a:visited {
     color: black;

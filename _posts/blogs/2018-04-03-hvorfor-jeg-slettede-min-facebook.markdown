@@ -28,7 +28,7 @@ For at forstå skandalen, starter vi her fra begyndelsen:
 * Cambridge Analytica bliver hyret til at hjælpe præsidentkandidaterne Ted Cruz og Ben Carson med deres kampagne. CA modtager 750.000$ fra Ted Cruz's kampagne og 220.000$ fra Ben Carson's for denne service. [1](https://www.forbes.com/sites/jodywestby/2018/03/27/what-is-amazing-about-the-facebook-cambridge-analytica-story/#6bbdff7c7d34){:target="_blank" .small-source data-title="What is amazing about the Facebook Cambridge Analytica Story"}
 
 {: .small }
-* 4/4/2018 - [Nye tal offentliggjort af Facebook snakker om 87 millioner menneskers data. Det er et forsøg fra Facebooks side på at opgive det maksimalt mulige antal.](https://www.nytimes.com/2018/04/04/technology/mark-zuckerberg-testify-congress.html){:target="_blank"}
+* *4/4/2018 - [Nye tal offentliggjort af Facebook snakker om 87 millioner menneskers data. Det er et forsøg fra Facebooks side på at opgive det maksimalt mulige antal.](https://www.nytimes.com/2018/04/04/technology/mark-zuckerberg-testify-congress.html){:target="_blank"}.<br> [Derudover melder Ritzau, at der er 41.820 danskere blandt de indsamlede data.](https://www.dr.dk/nyheder/viden/teknologi/cambridge-analytica-kan-have-hoestet-41820-danskeres-facebook-profil){:target="_blank"}
 
 {: .blue-border }
 * **2015**
@@ -76,9 +76,7 @@ Nogenlunde oversat bliver det til ÅOUGN-modellen. Den kan uddybes således: [5]
 {: .small}
 *Sæt "I hvor høj grad" foran hver uddybning, for at få oplevelsen af at måle det på en skala, som jo er ideen med OCEAN-modellen.
 
-| Åbenhed | Ordentlighed | Udadvendthed | Grad af enighed | Neurotiskhed |
-|:------:|:------:|:------:|:------:|:------:|
-| Kan du lide nye oplevelser? | Foretrækker du orden, vaner og planlægning? | Kan du lide at bruge tid sammen med andre? Hvor social er du? | Sætter du andre menneskers behov foran dine egne? | Bekymrer du dig? |
+{% include OCEAN_table.html %}
 
 Cambridge Analytica brugte OCEAN på den personlige Facebook data, som Kogan indsamlede, til at plotte millioner af menneskers åbenhed, ordentlighed, udadvendthed, grad af enighed, og neurotiskhed ind i et datasæt. I hvert fald i følge det leak, som kom frem i 2018. Det kommer vi til senere. 
 
@@ -144,7 +142,7 @@ Det er altså tydeligt at se, at Facebook's forsøg på at beskytte brugerne af 
 
 <br>
 
-#### [Spørgsmål til dråbe-afsnittet](https://hilsen.it/blogs/2018/04/03/hvorfor-jeg-slettede-min-facebook.html#dråben-en-række-spørgsmål)
+#### [Gå til afsluttende spørgsmål](https://hilsen.it/blogs/2018/04/03/hvorfor-jeg-slettede-min-facebook.html#dråben-en-række-afsluttende-spørsgmål)
 
 
 <br>
@@ -159,7 +157,7 @@ Men jeg har altid - måske kender du til den - haft en underlig mavefornemmelse,
 
 > Det var en underlig ambivalent følelse af: Hvis jeg gør mig umage og læser om, hvad der virkelig foregår bag forhænget, så ender jeg nok med at slette min profil... Men jeg gjorde det aldrig, for jeg gad sgu da ikke at stå uden for fælleskabet!
 
-I årenes løb mistede jeg flere og flere (ægte) relationer til mine Facebook-venner. Til sidst havde jeg kun min lille sammentømret vennegruppe, som fungerer rigtig godt uden - dog med få undtagelser - et digitalt samlingssted. Det gjorde, sammen med dråben, at jeg som forventet endte med at slette min profil*. Her var hvad jeg fandt ud af, før jeg besluttede mig for at trykke på den store blå slet-knap.
+Det sidste stykke tid, har jeg næsten kun brugt det til min sammentømrede vennegruppe, som fungerer rigtig godt uden - dog med få undtagelser - et digitalt samlingssted. Det gjorde, sammen med dråben, at jeg som forventet endte med at slette min profil*. Her var hvad jeg fandt ud af, før jeg besluttede mig for at trykke på den store blå slet-knap.
 
 {: .small }
 *Der er stor forskel på at slette sin profil og at deaktivere den samt forskelle i sværhedsgraden for at få lov til at udføre den ene frem for den anden. Det kommer vi til senere. :) 
@@ -308,9 +306,17 @@ Jeg ved det ikke, men udmeldingen giver mig lyst til at varetage den opgave selv
 
 ### Dit ansigt bliver til data - og du hjælper til
 
+{: .center-image }
+![]({{ "assets/blogs/deepface.gif" || absolute_url }})
+
+{: .small .center-image }
+Images via Facebook
+
 Udover at Facebook faktisk har ret til at bruge dine billeder til annoncer [11](https://www.facebook.com/help/116356655118482?helpref=related){:target="_blank" .small-source data-title="Facebook help - Jeg ønsker ikke, at mit barns navn eller profilbillede skal knyttes sammen med annoncer." }  sker der også andet, når du uploader.
 
-Facebook købte i 2012 det israeliske firma Face.com [12](http://www.slate.com/blogs/future_tense/2014/03/18/deepface_facebook_face_recognition_software_is_97_percent_accurate.html){:target="_blank" .small-source data-title="Slate - Facebook’s New Face-Recognition Software Is Scary Good"}, som havde udviklet teknologi specialiseret til at genkende ansigter (face-recognition). 
+Facebook købte i 2012 det israeliske firma Face.com [12](http://www.slate.com/blogs/future_tense/2014/03/18/deepface_facebook_face_recognition_software_is_97_percent_accurate.html){:target="_blank" .small-source data-title="Slate - Facebook’s New Face-Recognition Software Is Scary Good"}, som havde udviklet teknologi specialiseret til at genkende ansigter (face-recognition). Du kan se, på GIF'en over, hvordan det grundlæggende fungerer: Et billede bliver analyseret og sammenlignet med et andet billede fra en anden vinkel. Til sidst kan programmet skabe en tro kopi af dit ansigt i 3D.
+
+Du kan selv [afprøve teknologien med dit eget billede, hvis du har lyst.](http://cvl-demos.cs.nott.ac.uk/vrn/){:target="_blank"}
 
 Det blev senere til det program, der hedder DeepFace [13](https://en.wikipedia.org/wiki/DeepFace){:target="_blank" .small-source data-title="Wikipedia - DeepFace" }. Det hjælper dig med at foreslå tags af venner på billeder, som du har uploadet. Det skulle have en nøjagtighed på 97%.* Det blev trænet på 4 millioner Facebook-brugeres billeder.
 
@@ -422,13 +428,22 @@ Men der er langt fra Indien til Danmark.
 
 Pointen er, at der foregår en filtrering af Facebook's indhold hvert eneste sekund. En filtrering, som vi på ingen måde er herre over, og som går ud over ukendte mennesker et andet sted i verden. 
 
+En filtrering, der måske ikke stemmer overens med de værdier, som du har. 
 
 <br>
-<br>
 
-## Farvel
+## Konklusion 
 
-Med en af de hurtigstvoksende virksomheder i nyere tid, vil der selvfølgelig ske fejl. Spørgsmålet er, hvor store de kan være, før vi begynder at handle? Og når vi så handler...
+Min konklusion på dråben og bægeret er, at der mangler gennemsigtighed og at persondatafølsomheden og magten er for stor hos Facebook. 
+
+Vi er en del af et system, der betyder SÅ meget for vores sociale omgang med andre mennesker, og samtidig er vi så langt fra indflydelse. Det lugter af oligarki!
+
+Jeg er blevet pessimist af at læse om Facebook's maskinrum. Vi er heldige, at der findes whistleblowers som Christopher Wylie og Edward Snowden der, især i sidstnævnte tilfælde, sætter deres liv på spil, for at afsløre sanheden. Men dette betyder **IKKE**, at vi kender hele sandheden.
+
+Lad os udskifte vores naivitet med kritisk tænkning. Lad os blive data-gnavpotter, som ved den mindste ændring i datapolitiken råber op, fordi vi kender de potiontielle destruktive konsekvenser: manipulation.
+
+
+Til sidst...
 
 > Hvordan kan en milliardenedel blive hørt?
 
@@ -438,6 +453,8 @@ Derudover...
 
 Jeg har svært ved at forklare det, men der er en eller anden skræmmende bedøvende effekt gemt i Mark Zuckerberg's egne opslag og Facebook's privatlivspolitik samt deres utallige farverige illustrationer ([et eksempel](https://www.facebook.com/ads/about/?entry_product=ad_preferences){:target="_blank"}). Det er søvndyssende, uoverskueligt og pacificerende. Prøv at [læs hans opslag](https://da-dk.facebook.com/zuck){:target="_blank"} og spørg dig selv, om det Facebook han beskriver med alle dets udfordringer og ambitioner, er et, som du gerne vil være en del af?
 
+Det at slette sin Facebook er ikke ens betydende med, at man ikke har brug for den. Ligesom det at blive vegetar ikke er ens betydende med, at du IKKE kan lide kød. Det betyder blot, for mig at se, at du som menneske har et ideal, der forbyder dig at indgå i et fælleskab, hvor du ikke bliver mødt med den respekt, som du forlanger.
+
 Der er ikke noget galt i at forlade et topmoderne skib med alle dine venner på + 2 milliarder andre... Måske har du fået øje på en ø, hvor i kan sidde lidt i solen og kigge hinanden i øjnene for en gangs skyld!
 
 Det kan være, at det bliver ensomt de første par uger, men mon ikke de kommer og sætter sig med tiden.
@@ -446,9 +463,9 @@ Det kan være, at det bliver ensomt de første par uger, men mon ikke de kommer 
 <hr> 
 <br> 
 
-#### *Som afslutning vil jeg understrege, at Facebook også har været enormt nyttigt.<br> Jeg har fundet gamle venner, fantastiske begivenheder, inviteret personer til egne arrangementer osv. Men jeg håber, at du kan se, hvorfor jeg synes, at prisen er for høj.*
+#### *Som afslutning vil jeg understrege, at Facebook også har været nyttigt.<br> Jeg har fundet gamle venner, fantastiske begivenheder, inviteret personer til egne arrangementer osv. Men jeg håber, at du kan se, hvorfor jeg synes, at prisen er for høj.*
 
-#### *Udbyttet af, hvad man får af Facebook, varierer fra person til person. Jeg har, hvis jeg selv skulle sige det, aldrig brugt det særlig meget. Det har ikke været min henseende at få det til at fremstå let at slette sin profil. Jeg forstår udemærket godt, hvis det kan virke fuldstændig uoverskueligt bare at tænke tanken til ende. Derfor følger der også råd til, hvordan du kan sikre din data bedre, som eksisterende bruger.*
+#### *Udbyttet af, hvad man får af Facebook, varierer fra person til person. Jeg har, hvis jeg selv skulle sige det, aldrig brugt det særlig meget. Det har ikke været min henseende at få det til at fremstå let at slette sin profil. Jeg forstår udemærket godt, hvis det kan virke fuldstændig uoverskueligt bare at tænke tanken til ende. Derfor følger der også råd til, hvordan du kan sikre din data bedre som eksisterende bruger.*
 
 <br> 
 <hr> 
@@ -483,13 +500,23 @@ Vicki Boykis kommer med 7 gode råd til, hvad du skal gøre, hvis du gerne vil p
 
 Jeg havde en meget speciel oplevelse, da jeg prøvede at slette min profil. Jeg troede først, at det var det samme som at deaktivere den. Det viste sig senere, at det var to HELT forskellige ting. 
 
-At deaktivere den er ikke så svært. Du går ind i Indstillinger, Generelt og vælger den nederste, hvis jeg husker rigtigt. 
+At deaktivere den er ikke så svært. Du går ind i Indstillinger, Generelt og vælger den nederste, hvis jeg husker rigtigt. Du kan derefter altid logge ind igen og gendanne din profil. Din beskeder forbliver åbne, så dine venner stadig kan skrive til dig. Mit oprindelig mål var at slette den fuldstændig. Men hvordan gør man lige det?
 
-**Men at slette den... Omg!**
+**Omg!** 
 
-Jeg var nødt til at bruge Google. 
 
-Derigennem fandt jeg [denne artikel, som hjalp mig](https://pageflows.com/blog/delete-facebook/){:target="_blank"}, hvis du er interesseret i at se, hvordan man gør ([husk at download din data først! hvis du er ved at gå hele vejen](https://www.facebook.com/help/131112897028467){:target="_blank"}).
+Jeg var nødt til at bruge Google. *
+
+{: .small }
+*Jeg gav senere min ven udfordringen: Hvor hurtigt kan du finde den side, hvor du sletter din Facebook UDEN brug af Google? 
+Efter 5 minutter måtte han give op. Prøv selv!
+
+> **Udfordring!** Kan du, uden hjælp fra Google, finde den side på Facebook, hvor du kan slette din profil (ikke deaktivere den). *
+
+{: .small}
+*Vær ikke bange. Du skal indtaste din kode og bekræfte sletningen, når du finder siden. Derudover, hvis du også kommer til at gennemføre DET, kan du annullere sletningen i en uge.
+
+På Google fandt jeg [denne artikel, som hjalp mig](https://pageflows.com/blog/delete-facebook/){:target="_blank"}, hvis du er interesseret i at se, hvordan man gør ([husk at download din data først! hvis du er ved at gå hele vejen](https://www.facebook.com/help/131112897028467){:target="_blank"}).
 
 Jeg tror ikke, at det er helt tilfældigt, at det er så svært. 
 
@@ -501,6 +528,8 @@ Nu vil jeg ikke definere mig selv som über nerd (endnu), men forestil dig et me
 Ja, der findes alternativer til Facebook, som hver især har forsøgt at bygge et socialt netværk op på et andet værdigrundlag. 
 
 Nogle nævneværdige eksempler: 
+
+[Mastodon - Verdens største gratis, open-source og decentraliseret microbloging netværk](https://joinmastodon.org/){:target="_blank"}
 
 [Vero - true social](https://www.vero.co/){:target="_blank"}
 
@@ -531,7 +560,7 @@ Kildehenvisninger:
 [Facebook's dokument om, hvordan de vil beskytte folks data i fremtiden](https://newsroom.fb.com/news/2018/04/restricting-data-access/){:target="_blank"} - *4/4/2018*
 
 
-## Dråben. En række spørgsmål:
+## Dråben. En række afsluttende spørsgmål:
 
 Man kunne let argumentere for, at reklamebranchen da altid har haft adgang til informationer om evt. målgrupper? Men er grænsen ikke nået?
 
