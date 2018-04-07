@@ -446,7 +446,7 @@ Vi er en del af et system, der betyder SÅ meget for vores sociale omgang med an
 
 Jeg er blevet data-pessimist af at læse om Facebook's maskinrum. Vi er heldige, at der findes whistleblowers som Christopher Wylie og Edward Snowden der, især i sidstnævnte tilfælde, sætter deres liv på spil, for at afsløre sandheden. Men dette betyder **IKKE**, at vi kender hele sandheden.
 
-Lad os udskifte vores naivitet med kritisk tænkning. Lad os blive data-gnavpotter, som ved den mindste betydningsfulde ændring i datapolitiken råber op, fordi vi kender de potientielle, destruktive konsekvenser af for 'behjælpelige' love: Manipulation.
+Lad os udskifte vores naivitet med kritisk tænkning. Lad os blive data-gnavpotter, som ved den mindste betydningsfulde ændring i datapolitiken råber op, fordi vi kender de potientielle, destruktive konsekvenser af for 'behjælpelige' love: Global manipulation.
 
 
 Til sidst...
