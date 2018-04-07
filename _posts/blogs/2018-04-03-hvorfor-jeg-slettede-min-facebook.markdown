@@ -354,7 +354,7 @@ Hvad vil det medføre, hvis man forestillede sig, at den data på ansigter fra F
 
 * Du bliver afsløret i at være utro med din kæreste, da et overvågningskamera et par dage efter afslører dig tæt på en butik, hvor han/hun havde en fornemmelse af, at du kom lidt for ofte. 
 
-* Du deltager i en demonstration, som udvikler sig til håndgemæng med politiet - du er dog ikke en del af de voldelige udskejelser - og bliver et par dage efter hentet ind på politigården, da flere overvågningskameraers data er blevet sammenlignet - på baggrund af algoritmiske modeller, som hver især har fundet dit ansigt.  
+* Du deltager i en demonstration, som udvikler sig til håndgemæng med politiet - du er dog ikke en del af de voldelige udskejelser. Du bliver et par dage efter hentet ind på politigården, da flere overvågningskameraers data er blevet sammenlignet - på baggrund af algoritmiske modeller - som hver især har fundet dit ansigt.  
  
 * Du kan - hvis du har adgang til dataen - på landsplan finde ud af, hvem der ligner dig mest (wow)!
 
@@ -465,7 +465,7 @@ Det kan være, at det bliver ensomt de første par uger, men mon ikke de kommer 
 
 #### *Som afslutning vil jeg understrege, at Facebook også har været nyttigt.<br> Jeg har fundet gamle venner, fantastiske begivenheder, inviteret personer til egne arrangementer osv. Men jeg håber, at du kan se, hvorfor jeg synes, at prisen er for høj.*
 
-#### *Udbyttet af, hvad man får af Facebook, varierer fra person til person. Jeg har, hvis jeg selv skulle sige det, aldrig brugt det særlig meget. Det har ikke været min henseende at få det til at fremstå let at slette sin profil. Jeg forstår udemærket godt, hvis det kan virke fuldstændig uoverskueligt bare at tænke tanken til ende. Derfor følger der også råd til, hvordan du kan sikre din data bedre som eksisterende bruger.*
+#### *Udbyttet af hvad man får af Facebook, varierer fra person til person. Jeg har, hvis jeg selv skulle sige det, aldrig brugt det særlig meget. Det har ikke været min henseende at få det til at fremstå let at slette sin profil. Jeg forstår udemærket godt, hvis det kan virke fuldstændig uoverskueligt bare at tænke tanken til ende. Derfor følger der også råd til, hvordan du kan sikre din data bedre som eksisterende bruger.*
 
 <br> 
 <hr> 
@@ -500,7 +500,7 @@ Vicki Boykis kommer med 7 gode råd til, hvad du skal gøre, hvis du gerne vil p
 
 Jeg havde en meget speciel oplevelse, da jeg prøvede at slette min profil. Jeg troede først, at det var det samme som at deaktivere den. Det viste sig senere, at det var to HELT forskellige ting. 
 
-At deaktivere den er ikke så svært. Du går ind i Indstillinger, Generelt og vælger den nederste, hvis jeg husker rigtigt. Du kan derefter altid logge ind igen og gendanne din profil. Din beskeder forbliver åbne, så dine venner stadig kan skrive til dig. Mit oprindelig mål var at slette den fuldstændig. Men hvordan gør man lige det?
+At deaktivere den er ikke så svært. Du går ind i Indstillinger, Generelt og vælger den nederste, hvis jeg husker rigtigt. Du kan derefter altid logge ind igen og gendanne din profil. Din beskeder forbliver åbne, så dine venner stadig kan skrive til dig - altså en blindgyde. Mit oprindelig mål var at slette den fuldstændig. Men hvordan gør man lige det?
 
 **Omg!** 
 
@@ -558,6 +558,8 @@ Kildehenvisninger:
 [Uddybning af hvordan Kogan's app var designet](https://www.nytimes.com/2016/11/20/opinion/cambridge-analytica-facebook-quiz.html){:target="_blank"}
 
 [Facebook's dokument om, hvordan de vil beskytte folks data i fremtiden](https://newsroom.fb.com/news/2018/04/restricting-data-access/){:target="_blank"} - *4/4/2018*
+
+[Edward Snowden - CIA whistleblower Edward Snowden blasts Facebook as ‘surveillance’ branded as social media](https://www.thesun.co.uk/news/5844286/edward-snowden-facebook-cambridge-analytica-rebranded-social-media/){:target="_blank"}
 
 
 ## Dråben. En række afsluttende spørsgmål:
