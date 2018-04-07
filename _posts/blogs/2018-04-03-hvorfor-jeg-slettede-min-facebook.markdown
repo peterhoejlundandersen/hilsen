@@ -465,7 +465,7 @@ Det kan være, at det bliver ensomt de første par uger, men mon ikke de kommer 
 
 #### *Som afslutning vil jeg understrege, at Facebook også har været nyttigt.<br> Jeg har fundet gamle venner, fantastiske begivenheder, inviteret personer til egne arrangementer osv. Men jeg håber, at du kan se, hvorfor jeg synes, at prisen er for høj.*
 
-#### *Udbyttet af hvad man får af Facebook, varierer fra person til person. Jeg har, hvis jeg selv skulle sige det, aldrig brugt det særlig meget. Det har ikke været min henseende at få det til at fremstå let at slette sin profil. Jeg forstår udemærket godt, hvis det kan virke fuldstændig uoverskueligt bare at tænke tanken til ende. Derfor følger der også råd til, hvordan du kan sikre din data bedre som eksisterende bruger.*
+#### *Udbyttet, af hvad man får af Facebook, varierer fra person til person. Jeg har, hvis jeg selv skulle sige det, aldrig brugt det særlig meget. Det har ikke været min henseende at få det til at fremstå let at slette sin profil. Jeg forstår udemærket godt, hvis det kan virke fuldstændig uoverskueligt bare at tænke tanken til ende. Derfor følger der også råd til, hvordan du kan sikre din data bedre som eksisterende bruger.*
 
 <br> 
 <hr> 
