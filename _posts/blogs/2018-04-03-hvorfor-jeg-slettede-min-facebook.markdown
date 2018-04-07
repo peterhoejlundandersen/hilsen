@@ -3,8 +3,8 @@ layout: blog
 title: "Dråben, der fik bægeret til at flyde over - #deletefacebook"
 desc: "Min rejse fra naiv Facebookbruger til en sur, gammel og skræmt data-gnavpotte"
 category: blogs
-seocontent: "Min rejse fra naiv Facebookbruger til en sur, gammel og skræmt data-gnavpotte"
-seoimage: "Lav et nyt billede"
+seocontent: "Facebook er gigantisk. Med 2 milliarder brugere er det uden sammenligning den største online brugerplatform, der eksisterer. Og med god grund... Vi får "gratis" adgang til potientielt millioner af menneskers liv, begivenheder inden for en hver genre, tusindvis af billeder, holdninger og nyheder. Dette indlæg er et forsøg på at forklare, hvorfor gratis står i gåseøjne. For hvad er det egentlig vi betaler, og hvilke konsekvenser har det?"
+seoimage: "https://hilsen.it/assets/blogs/facebook-share.jpg"
 ---
 
 > Facebook er gigantisk. Med 2 milliarder brugere er det uden sammenligning den største online brugerplatform, der eksisterer. Og med god grund... Vi får "gratis" adgang til potientielt millioner af menneskers liv, begivenheder inden for en hver genre, tusindvis af billeder, holdninger og nyheder. Dette indlæg er et forsøg på at forklare, hvorfor gratis står i gåseøjne. For hvad er det egentlig vi betaler, og hvilke konsekvenser har det?
@@ -506,10 +506,9 @@ Vicki Boykis kommer med 7 gode råd til, hvad du skal gøre, hvis du gerne vil p
 
 Jeg havde en meget speciel oplevelse, da jeg prøvede at slette min profil. Jeg troede først, at det var det samme som at deaktivere den. Det viste sig senere, at det var to HELT forskellige ting. 
 
-At deaktivere den er ikke så svært. Du går ind i Indstillinger, Generelt og vælger den nederste, hvis jeg husker rigtigt. Du kan derefter altid logge ind igen og gendanne din profil. Din beskeder forbliver åbne, så dine venner stadig kan skrive til dig - altså en blindgyde. Mit oprindelig mål var at slette den fuldstændig. Men hvordan gør man lige det?
+At deaktivere den er ikke så svært. Du går ind i Indstillinger, Generelt og vælger den nederste, hvis jeg husker rigtigt. Du kan derefter altid logge ind igen og gendanne din profil. Din beskeder forbliver åbne, så dine venner stadig kan skrive til dig - altså blev det hurtigt en blindgyde fyldt med ulæste beskeder. Mit oprindelig mål var at slette den fuldstændig. Men hvordan gør man lige det?
 
 **Omg!** 
-
 
 Jeg var nødt til at bruge Google. *
 
