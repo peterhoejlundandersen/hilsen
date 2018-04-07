@@ -100,17 +100,18 @@ Alexander Nix forklarer, hvordan de hjalp vælgerne i den 'rigtige' retning (ove
 
 > [[7.10]](https://www.youtube.com/watch?v=n8Dd5aVXLCc&t=430s){:target="_blank"} *... i en gruppe vi kalder mulige-at-overtale (persuasions). Dette er mennesker, som helt sikkert vil stemme til valget (caucus), men de har brug for at flytte sig fra centrum lidt mere ud til højre, for at de kommer til at støtte [Ted] Cruz. De har brug for et overtalende budskab (persuasion message) ... vi kan se, at den gennemsnitlige personlighed i denne gruppe er meget lav i neurotiskhed, rimelig lav i åbenhed og rimelig ordentlig/samvittighedsfuld. Vi kan inddele dem yderligere. Vi kan kigge på hvilket emne de er interesseret i ...*
 
-Som afslutning refererer han til det igangværende præsidentvalg (videoen er uploadet d. 27 september 2016) mellem Donald Trump og Hillary Clinton - resten er historie: 
-
-> [[10.41]](https://www.youtube.com/watch?v=n8Dd5aVXLCc&t=641s){:target="_blank"} *Men hvad jeg kan fortælle dig er, at af de to kandidater, der er tilbage i den her valgkamp, så er der én af dem, som bruger den her teknologi. Og det bliver meget interessant at se, hvad påvirkningen bliver de næste 7 uger.*
-
 Alexander Nix kommer også ind på, hvilken mængde data, som de efter sigende har til rådighed: 
 
 > [[8.01]](https://www.youtube.com/watch?v=n8Dd5aVXLCc&t=481s){:target="_blank"} *... vi har et antal i nærheden af 4000-5000 datapunkter på hver voksen i USA.*
 
+Som afslutning refererer han til det igangværende præsidentvalg (videoen er uploadet d. 27 september 2016) mellem Donald Trump og Hillary Clinton - resten er historie: 
+
+> [[10.41]](https://www.youtube.com/watch?v=n8Dd5aVXLCc&t=641s){:target="_blank"} *Men hvad jeg kan fortælle dig er, at af de to kandidater, der er tilbage i den her valgkamp, så er der én af dem, som bruger den her teknologi. Og det bliver meget interessant at se, hvad påvirkningen bliver de næste 7 uger.*
+
+
 Et eksempel på, hvordan man kan bruge en sådan slags data, er også beskrevet nærmere i artiklen fra The Intercept: Roger Stone, der længe var en af Trump's rådgivere, skrev i sin kampagne memoir om:
 
-> ... en *geografisk målrettet kampagner* (GEO-targeting) målrettet byer, som omhandlede det aflivede rygte (debunked claim), at Bill Clinton var far til et barn udenfor ægteskab og derudover at indsnævre målgruppen *baseret på musikpræferencer, aldersgruppe, sort kultur og andre urbane interesser.*
+> ... en *geografisk målrettet kampagne* (GEO-targeting) målrettet byer, som omhandlede det aflivede rygte (debunked claim), at Bill Clinton var far til et barn udenfor ægteskab og derudover at indsnævre målgruppen *baseret på musikpræferencer, aldersgruppe, sort kultur og andre urbane interesser.*
 
 
 

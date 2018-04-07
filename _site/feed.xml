@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-04-07T18:14:00+02:00</updated><id>http://localhost:4000/</id><title type="html">Hilsen IT</title><subtitle>Designer hjemmesider med et sikkert fundament i Ruby on Rails, Jekyll og Angular</subtitle><entry><title type="html">Dråben, der fik bægeret til at flyde over - #deletefacebook</title><link href="http://localhost:4000/blogs/2018/04/03/hvorfor-jeg-slettede-min-facebook.html" rel="alternate" type="text/html" title="Dråben, der fik bægeret til at flyde over - #deletefacebook" /><published>2018-04-03T00:00:00+02:00</published><updated>2018-04-03T00:00:00+02:00</updated><id>http://localhost:4000/blogs/2018/04/03/hvorfor-jeg-slettede-min-facebook</id><content type="html" xml:base="http://localhost:4000/blogs/2018/04/03/hvorfor-jeg-slettede-min-facebook.html">&lt;blockquote&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-04-07T18:21:55+02:00</updated><id>http://localhost:4000/</id><title type="html">Hilsen IT</title><subtitle>Designer hjemmesider med et sikkert fundament i Ruby on Rails, Jekyll og Angular</subtitle><entry><title type="html">Dråben, der fik bægeret til at flyde over - #deletefacebook</title><link href="http://localhost:4000/blogs/2018/04/03/hvorfor-jeg-slettede-min-facebook.html" rel="alternate" type="text/html" title="Dråben, der fik bægeret til at flyde over - #deletefacebook" /><published>2018-04-03T00:00:00+02:00</published><updated>2018-04-03T00:00:00+02:00</updated><id>http://localhost:4000/blogs/2018/04/03/hvorfor-jeg-slettede-min-facebook</id><content type="html" xml:base="http://localhost:4000/blogs/2018/04/03/hvorfor-jeg-slettede-min-facebook.html">&lt;blockquote&gt;
   &lt;p&gt;Facebook er gigantisk. Med 2 milliarder brugere er det uden sammenligning den største online brugerplatform, der eksisterer. Og med god grund… Vi får “gratis” adgang til potientielt millioner af menneskers liv, begivenheder inden for en hver genre, tusindvis af billeder, holdninger og nyheder. Dette indlæg er et forsøg på at forklare, hvorfor gratis står i gåseøjne. For hvad er det egentlig vi betaler, og hvilke konsekvenser har det?&lt;/p&gt;
 &lt;/blockquote&gt;
 
@@ -142,22 +142,22 @@
   &lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=n8Dd5aVXLCc&amp;amp;t=430s&quot; target=&quot;_blank&quot;&gt;[7.10]&lt;/a&gt; &lt;em&gt;… i en gruppe vi kalder mulige-at-overtale (persuasions). Dette er mennesker, som helt sikkert vil stemme til valget (caucus), men de har brug for at flytte sig fra centrum lidt mere ud til højre, for at de kommer til at støtte [Ted] Cruz. De har brug for et overtalende budskab (persuasion message) … vi kan se, at den gennemsnitlige personlighed i denne gruppe er meget lav i neurotiskhed, rimelig lav i åbenhed og rimelig ordentlig/samvittighedsfuld. Vi kan inddele dem yderligere. Vi kan kigge på hvilket emne de er interesseret i …&lt;/em&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;Som afslutning refererer han til det igangværende præsidentvalg (videoen er uploadet d. 27 september 2016) mellem Donald Trump og Hillary Clinton - resten er historie:&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=n8Dd5aVXLCc&amp;amp;t=641s&quot; target=&quot;_blank&quot;&gt;[10.41]&lt;/a&gt; &lt;em&gt;Men hvad jeg kan fortælle dig er, at af de to kandidater, der er tilbage i den her valgkamp, så er der én af dem, som bruger den her teknologi. Og det bliver meget interessant at se, hvad påvirkningen bliver de næste 7 uger.&lt;/em&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
 &lt;p&gt;Alexander Nix kommer også ind på, hvilken mængde data, som de efter sigende har til rådighed:&lt;/p&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=n8Dd5aVXLCc&amp;amp;t=481s&quot; target=&quot;_blank&quot;&gt;[8.01]&lt;/a&gt; &lt;em&gt;… vi har et antal i nærheden af 4000-5000 datapunkter på hver voksen i USA.&lt;/em&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 
+&lt;p&gt;Som afslutning refererer han til det igangværende præsidentvalg (videoen er uploadet d. 27 september 2016) mellem Donald Trump og Hillary Clinton - resten er historie:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=n8Dd5aVXLCc&amp;amp;t=641s&quot; target=&quot;_blank&quot;&gt;[10.41]&lt;/a&gt; &lt;em&gt;Men hvad jeg kan fortælle dig er, at af de to kandidater, der er tilbage i den her valgkamp, så er der én af dem, som bruger den her teknologi. Og det bliver meget interessant at se, hvad påvirkningen bliver de næste 7 uger.&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
 &lt;p&gt;Et eksempel på, hvordan man kan bruge en sådan slags data, er også beskrevet nærmere i artiklen fra The Intercept: Roger Stone, der længe var en af Trump’s rådgivere, skrev i sin kampagne memoir om:&lt;/p&gt;
 
 &lt;blockquote&gt;
-  &lt;p&gt;… en &lt;em&gt;geografisk målrettet kampagner&lt;/em&gt; (GEO-targeting) målrettet byer, som omhandlede det aflivede rygte (debunked claim), at Bill Clinton var far til et barn udenfor ægteskab og derudover at indsnævre målgruppen &lt;em&gt;baseret på musikpræferencer, aldersgruppe, sort kultur og andre urbane interesser.&lt;/em&gt;&lt;/p&gt;
+  &lt;p&gt;… en &lt;em&gt;geografisk målrettet kampagne&lt;/em&gt; (GEO-targeting) målrettet byer, som omhandlede det aflivede rygte (debunked claim), at Bill Clinton var far til et barn udenfor ægteskab og derudover at indsnævre målgruppen &lt;em&gt;baseret på musikpræferencer, aldersgruppe, sort kultur og andre urbane interesser.&lt;/em&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;p&gt;Det er uvist hvor stor effekten har været på Trump’s kampagne, men i artiklen fra The Intercept, står der beskrevet hvordan Alexander Nix’s virksomhed prøvede at tage æren for Trump’s sejr, da det lykkedes. De hjalp til at forme hans rejseplaner og lavede reklamer, &lt;em&gt;der blev set over 1,5 milliarder gange&lt;/em&gt;. Sidenhen blev det til en skandale, &lt;a href=&quot;https://cambridgeanalytica.org/news/blog/1403&quot; target=&quot;_blank&quot;&gt;og det link, der henviser til deres pral,&lt;/a&gt; er nu tomt. Der er dog ingen tvivl om, at vi vil komme til at se teknikken forfinet og forbedret i fremtiden.&lt;/p&gt;
