@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-04-08T14:03:56+02:00</updated><id>http://localhost:4000/</id><title type="html">Hilsen IT</title><subtitle>Designer hjemmesider med et sikkert fundament i Ruby on Rails, Jekyll og Angular</subtitle><entry><title type="html">Dråben, der fik bægeret til at flyde over - #deletefacebook</title><link href="http://localhost:4000/blogs/2018/04/03/hvorfor-jeg-slettede-min-facebook.html" rel="alternate" type="text/html" title="Dråben, der fik bægeret til at flyde over - #deletefacebook" /><published>2018-04-03T00:00:00+02:00</published><updated>2018-04-03T00:00:00+02:00</updated><id>http://localhost:4000/blogs/2018/04/03/hvorfor-jeg-slettede-min-facebook</id><content type="html" xml:base="http://localhost:4000/blogs/2018/04/03/hvorfor-jeg-slettede-min-facebook.html">&lt;div class=&quot;js-hilsen-list facebook-blog&quot;&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-04-08T14:44:54+02:00</updated><id>http://localhost:4000/</id><title type="html">Hilsen IT</title><subtitle>Designer hjemmesider med et sikkert fundament i Ruby on Rails, Jekyll og Angular</subtitle><entry><title type="html">Dråben, der fik bægeret til at flyde over - #deletefacebook</title><link href="http://localhost:4000/blogs/2018/04/03/hvorfor-jeg-slettede-min-facebook.html" rel="alternate" type="text/html" title="Dråben, der fik bægeret til at flyde over - #deletefacebook" /><published>2018-04-03T00:00:00+02:00</published><updated>2018-04-03T00:00:00+02:00</updated><id>http://localhost:4000/blogs/2018/04/03/hvorfor-jeg-slettede-min-facebook</id><content type="html" xml:base="http://localhost:4000/blogs/2018/04/03/hvorfor-jeg-slettede-min-facebook.html">&lt;div class=&quot;js-hilsen-list facebook-blog&quot;&gt;
 	&lt;!-- bliver udfyldt med en indholdsbetegnelse af js --&gt;
 &lt;/div&gt;
 
@@ -339,7 +339,7 @@
   &lt;p&gt;&lt;em&gt;Det grundlæggende formål for de fleste mennesker, der arbejder med data i Facebook, er at ændre og påvirke folks humør og opførsel. De gør det hele tiden for at få dig til at like flere opslag, klikke på flere reklamer og bruge mere tid på siden.&lt;/em&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;Facebook ligger ikke skjul på, at de analyserer deres brugeres data.&lt;a href=&quot;https://research.fb.com/support-when-you-re-feeling-blue/&quot; target=&quot;_blank&quot; class=&quot;small-source&quot; data-title=&quot;Facebookanalyse - Support when you're feeling blue&quot;&gt;10&lt;/a&gt; Men her slutter det ikke…&lt;/p&gt;
+&lt;p&gt;Facebook ligger ikke skjul på, at de analyserer deres brugeres data.&lt;a href=&quot;https://research.fb.com/support-when-you-re-feeling-blue/&quot; target=&quot;_blank&quot; class=&quot;small-source&quot; data-title=&quot;Facebook-analyse - Support when you're feeling blue&quot;&gt;10&lt;/a&gt; Men her slutter det ikke…&lt;/p&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;&lt;a href=&quot;https://www.theguardian.com/technology/2014/jun/29/facebook-users-emotions-news-feeds&quot; target=&quot;_blank&quot;&gt;I 2014 skrev The Guardian&lt;/a&gt; at Facebook havde lavet et eksperiment på 689.000 brugeres News Feed, hvor Facebook konkluderede, at de kunne gøre brugere gladere eller mere ked af det. De filtrerede &lt;em&gt;flowet&lt;/em&gt; af indhold: Kommentar, videoer, billeder og links udgivet af andre brugere for at opnå dette.&lt;/p&gt;
@@ -718,6 +718,16 @@ Efter 5 minutter måtte han give op. Prøv selv!&lt;/p&gt;
 &lt;blockquote&gt;
   &lt;p&gt;Og sidst men ikke mindst: Er det utopi at snakke om &lt;em&gt;dit eget valg&lt;/em&gt; i den moderne verden?&lt;/p&gt;
 &lt;/blockquote&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;kontakt&quot;&gt;Kontakt&lt;/h2&gt;
+
+&lt;p&gt;Du er meget velkommen til at skrive til mig på hoejlund@protonmail.com eller ringe på (+45) 42645898 (helst ikke for sent eller for tidligt, vel?), hvis du har spørgsmål eller har ris og ros.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
 
 &lt;hr /&gt;
 

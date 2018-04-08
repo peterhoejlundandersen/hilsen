@@ -267,7 +267,7 @@ En tidligere Facebook-medarbejder skrev tilbage i 2014 sådan her (oversat): [8]
 
 > *Det grundlæggende formål for de fleste mennesker, der arbejder med data i Facebook, er at ændre og påvirke folks humør og opførsel. De gør det hele tiden for at få dig til at like flere opslag, klikke på flere reklamer og bruge mere tid på siden.* 
 
-Facebook ligger ikke skjul på, at de analyserer deres brugeres data.[10](https://research.fb.com/support-when-you-re-feeling-blue/){:target="_blank" .small-source data-title="Facebookanalyse - Support when you're feeling blue"} Men her slutter det ikke...
+Facebook ligger ikke skjul på, at de analyserer deres brugeres data.[10](https://research.fb.com/support-when-you-re-feeling-blue/){:target="_blank" .small-source data-title="Facebook-analyse - Support when you're feeling blue"} Men her slutter det ikke...
 
 > [I 2014 skrev The Guardian](https://www.theguardian.com/technology/2014/jun/29/facebook-users-emotions-news-feeds){:target="_blank"} at Facebook havde lavet et eksperiment på 689.000 brugeres News Feed, hvor Facebook konkluderede, at de kunne gøre brugere gladere eller mere ked af det. De filtrerede *flowet* af indhold: Kommentar, videoer, billeder og links udgivet af andre brugere for at opnå dette.
 
@@ -596,6 +596,16 @@ Man kunne let argumentere for, at reklamebranchen da altid har haft adgang til i
 > *Og endnu et: Er der noget af din data, der er så personlighedsfølsom, så det, i en evt. målgruppeanalyse og efterløbende kampagne, vil have for stor en udslagskraft? Vil det svække din egen dømmekraft i for høj grad til, at dit valg kan betegnes som dit eget?*
 
 > Og sidst men ikke mindst: Er det utopi at snakke om *dit eget valg* i den moderne verden?
+
+---------------------
+
+## Kontakt
+
+Du er meget velkommen til at skrive til mig på hoejlund@protonmail.com eller ringe på (+45) 42645898 (helst ikke for sent eller for tidligt, vel?), hvis du har spørgsmål eller har ris og ros.
+
+<br>
+<br>
+<br>
 
 ----------------
 
