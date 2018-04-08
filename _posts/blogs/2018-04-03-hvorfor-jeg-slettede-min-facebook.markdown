@@ -3,7 +3,7 @@ layout: blog
 title: "Dråben, der fik bægeret til at flyde over - #deletefacebook"
 desc: "Min rejse fra naiv Facebookbruger til en sur, gammel og skræmt data-gnavpotte"
 category: blogs
-seocontent: "Facebook er gigantisk. Med 2 milliarder brugere er det uden sammenligning den største online brugerplatform, der eksisterer. Og med god grund... Vi får 'gratis' adgang til potientielt millioner af menneskers liv, begivenheder inden for en hver genre, tusindvis af billeder, holdninger og nyheder. Dette indlæg er et forsøg på at forklare, hvorfor gratis står i gåseøjne. For hvad er det egentlig vi betaler, og hvilke konsekvenser har det?"
+seocontent: "Min rejse fra naiv Facebookbruger til en sur, gammel og skræmt data-gnavpotte."
 seoimage: "https://hilsen.it/assets/blogs/facebook-share.jpg"
 ---
 
