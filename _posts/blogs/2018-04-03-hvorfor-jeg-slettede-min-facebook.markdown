@@ -7,9 +7,14 @@ seocontent: "Min rejse fra naiv Facebookbruger til en sur, gammel og skræmt dat
 seoimage: "https://hilsen.it/assets/blogs/facebook-share.jpg"
 ---
 
+
+<div class="js-hilsen-list facebook-blog">
+	<!-- bliver udfyldt med en indholdsbetegnelse af js -->
+</div>
+
 > Facebook er gigantisk. Med 2 milliarder brugere er det uden sammenligning den største online brugerplatform, der eksisterer. Og med god grund... Vi får "gratis" adgang til potientielt millioner af menneskers liv, begivenheder inden for en hver genre, tusindvis af billeder, holdninger og nyheder. Dette indlæg er et forsøg på at forklare, hvorfor gratis står i gåseøjne. For hvad er det egentlig vi betaler, og hvilke konsekvenser har det?
 
-## Vi starter med dråben
+## Vi starter med dråben - Cambridge Analytica
 
 Mange har hørt om Facebook Cambridge Analytica skandalen og set overskrifter som "50 millioners personlige data lækket ...". Men de færreste ved, at historien går helt tilbage til 2014. 
 
@@ -60,14 +65,14 @@ Så blev det 2017...
 
 * Som førnævnt indsamlede Facebook-appen udviklet af Kogan også Facebook-vennerne til den deltagenes data. I artiklen er der beskrevet (på baggrund af to kilder, der havde kontakt til Global Research Research (Kogans virksomhed)) at de 30 millioner personers data stammer fra 100.000 eller 185.000 personers deltagelse.*
 
-* Det mest interessante er dog, at der i denne artikel er beskrevet nærmere, hvad Facebook data blev brugt til af Cambridge Analytica, og hvorfor dette er så brugbart for en præsidentkandidat. Cambridge Analytica bruger en model til at lave personlighedsanalyser, som de kalder OCEAN. 
+* Det mest interessante er dog, at der i denne artikel er beskrevet nærmere, hvad Facebook data blev brugt til af Cambridge Analytica, og hvorfor dette er så brugbart for en præsidentkandidat. Cambridge Analytica bruger en model til at lave personlighedsanalyser, som de kalder OCEAN-modellen. 
 
 <br>
 
 {: .small}
 *Hypotetisk: Hvor mange deltagere skal der til for at indsamle personlig data på alle danske Facebook-brugere, hvis man brugte samme app og stadig kunne indsamle data på hver af de deltagenes Facebook-venner? <br> Danmarks Statistik indsamlede fra marts til maj 2017 5699 besvarelser for at finde ud af cirka hvor mange mennesker, der bruger Facebook i Danmark. [3](https://slks.dk/fileadmin/user_upload/dokumenter/medier/Mediernes_udvikling/2017/Kort_Nyt/Sociale_medier/Kort_Nyt_-_Mediernes_udvikling_i_Danmark_-_Sociale_medier_2017.pdf){:target="_blank" .small-source data-title="Kort nyt om mediernes udvikling i Danmark"} Deres opregnede stikprøve viser 3.144.494 antal brugere. Vi har gennemsnitligt 338 venner (globalt set) [4](http://www.pewresearch.org/fact-tank/2014/02/03/6-new-facts-about-facebook/){:target="_blank" .small-source data-title="New facts about Facebook"}. Et simpelt regnestykke giver, at der skal 9214 deltagere til - uden at tage højde for gengangere i Facebook-vennekredse. Det giver et upræcist indblik i hvilken form for data, man kan indsamle med Kogan's metode og under en så åben datapolitik, hvis man kan få 10.000 til at bruge en app.
 
-### OCEAN... hvad er det?
+### OCEAN-modellen... hvad er det?
 
 OCEAN er initialer på engelsk for: **O**penness, **C**onscientiousness, **E**xtroversion, **A**greeableness, and **N**euroticism. Altså 5 forskellige personlighedstræk.
 
@@ -82,7 +87,7 @@ Cambridge Analytica brugte OCEAN på den personlige Facebook data, som Kogan ind
 
 <br>
 
-#### Men hvorfor? Hvad kan det bruges til?
+### Hvad kan den data bruges til?
 
 Hvis du søger på ["Cambridge Analytica OCEAN" på Youtube](https://www.youtube.com/results?search_query=Cambride+Analytice+OCEAN&page=&utm_source=opensearch){:target="_blank"} og vælger den øverste video, kan du uden videre se direktøren for CA, Alexander Nix, stolt fortælle om Ted Cruz rejse fra at være en præsidentkandidat, hvis navn havde en lav gendkendelsesprocent (low name recognition), til at være Donald Trumps eneste rigtige udfordrer.  
 
@@ -182,7 +187,7 @@ Vigtigt!
 **Størstedelen af indholdet i det kommende afsnit er stærkt inspireret af Vicki Boykis artikel [What should you think about when using Facebook?](http://veekaybee.github.io/2017/02/01/facebook-is-collecting-this/){:target="_blank"}. Jeg kunne have oversat den og gengivet den her på siden, men jeg blev hurtig opmærksom på, at der manglede nogle vigtige pointer og iagttagelser. Derudover vil jeg gerne have mulighed for selv at inddrage egne holdninger og viden. Det skal dog understreges, at jeg skylder hende en stor del af æren for kildehenvisninger og opdagelsen af relevante og saglige artikler.**
 
 
-## Facebook data?
+### Facebook data?
 
 Facebook gemmer selvfølgelig dine billeder, statusbeskeder, beskeder og mange andre aktiviteter i deres databaser, for at de kan vise dem igen, når du besøger din profil et par timer senere. Det vil være umuligt at lave Facebook statisk (som er en hjemmeside uden database - ligesom hilsen.it f.eks.), men spørgsmålet er... 
 
@@ -449,9 +454,9 @@ Men:
 
 <br>
 
-## Konklusion 
+## Konklusion og stof til eftertanke 
 
-Min konklusion på dråben og bægeret er, at der mangler gennemsigtighed og at persondatafølsomheden og magten er for stor hos Facebook. 
+Min konklusion på dråben og bægeret er, at der mangler gennemsigtighed og at persondatafølsomheden og at magten er for stor hos Facebook. 
 
 Vi er en del af et system, der betyder SÅ meget for vores sociale omgang med andre mennesker, og samtidig er vi så langt fra indflydelse. Det lugter af oligarki!
 
@@ -470,7 +475,7 @@ Derudover...
 
 Jeg har svært ved at forklare det, men der er en eller anden skræmmende, bedøvende effekt gemt i Mark Zuckerberg's egne opslag og Facebook's privatlivspolitik samt deres utallige farverige illustrationer ([et eksempel](https://www.facebook.com/ads/about/?entry_product=ad_preferences){:target="_blank"}). Det er søvndyssende, uoverskueligt og pacificerende. Prøv at [læs hans opslag](https://da-dk.facebook.com/zuck){:target="_blank"} og spørg dig selv, om det Facebook han beskriver med alle dets udfordringer og ambitioner, er et, som du gerne vil være en del af?
 
-Det at slette sin Facebook er ikke ens betydende med, at man ikke har brug for den. Ligesom det at blive vegetar ikke er ens betydende med, at du IKKE kan lide kød. Det betyder blot, for mig at se, at du som menneske har et ideal, der forbyder dig at indgå i et fælleskab, hvor du ikke bliver mødt med den respekt, som du forlanger.
+Det at slette sin Facebook er ikke ens betydende med, at man ikke har brug for den. Lidt ligesom det at blive vegetar ikke er ens betydende med, at du IKKE kan lide kød. Det betyder blot, for mig at se, at du som menneske har et ideal, der forbyder dig at indgå i et fælleskab, hvor du ikke bliver mødt med den respekt, som du forlanger.
 
 Der er ikke noget galt i at forlade et topmoderne skib med alle dine venner på + 2 milliarder andre... Måske har du fået øje på en ø, hvor i kan sidde lidt i solen og kigge hinanden i øjnene for en gangs skyld!
 
