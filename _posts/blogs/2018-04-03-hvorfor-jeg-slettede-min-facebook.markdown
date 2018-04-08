@@ -599,16 +599,6 @@ Man kunne let argumentere for, at reklamebranchen da altid har haft adgang til i
 
 ---------------------
 
-## Kontakt
-
-Du er meget velkommen til at skrive til mig på hoejlund@protonmail.com eller ringe på (+45) 42645898 (helst ikke for sent eller for tidligt, vel?), hvis du har spørgsmål eller har ris og ros.
-
-<br>
-<br>
-<br>
-
-----------------
-
 {: .small #facebookCount .cursor-pointer }
 Tryk, hvis du har lyst:
 

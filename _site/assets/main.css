@@ -684,6 +684,9 @@ h3 {
   .js-hilsen-list li {
     padding-left: 0; }
 
+.blog-footer {
+  text-align: center !important; }
+
 .shortcuts {
   margin: 20px 0px;
   margin-right: 10px; }
