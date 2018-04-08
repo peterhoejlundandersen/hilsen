@@ -3,6 +3,7 @@ layout: blog
 title: "Dråben, der fik bægeret til at flyde over - #deletefacebook"
 desc: "Min rejse fra naiv Facebook-bruger til en sur, gammel og skræmt data-gnavpotte"
 category: blogs
+jsfile: "facebook"
 seocontent: "Min rejse fra naiv Facebook-bruger til en sur, gammel og skræmt data-gnavpotte."
 seoimage: "https://hilsen.it/assets/blogs/facebook-share.jpg"
 ---
@@ -454,7 +455,7 @@ Men:
 
 <br>
 
-## Konklusion og stof til eftertanke 
+## Farvel... + stof til eftertanke 
 
 Min konklusion på dråben og bægeret er, at der mangler gennemsigtighed og at persondatafølsomheden og at magten er for stor hos Facebook. 
 

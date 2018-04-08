@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-04-08T14:47:57+02:00</updated><id>http://localhost:4000/</id><title type="html">Hilsen IT</title><subtitle>Designer hjemmesider med et sikkert fundament i Ruby on Rails, Jekyll og Angular</subtitle><entry><title type="html">Dråben, der fik bægeret til at flyde over - #deletefacebook</title><link href="http://localhost:4000/blogs/2018/04/03/hvorfor-jeg-slettede-min-facebook.html" rel="alternate" type="text/html" title="Dråben, der fik bægeret til at flyde over - #deletefacebook" /><published>2018-04-03T00:00:00+02:00</published><updated>2018-04-03T00:00:00+02:00</updated><id>http://localhost:4000/blogs/2018/04/03/hvorfor-jeg-slettede-min-facebook</id><content type="html" xml:base="http://localhost:4000/blogs/2018/04/03/hvorfor-jeg-slettede-min-facebook.html">&lt;div class=&quot;js-hilsen-list facebook-blog&quot;&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-04-08T15:17:36+02:00</updated><id>http://localhost:4000/</id><title type="html">Hilsen IT</title><subtitle>Designer hjemmesider med et sikkert fundament i Ruby on Rails, Jekyll og Angular</subtitle><entry><title type="html">Dråben, der fik bægeret til at flyde over - #deletefacebook</title><link href="http://localhost:4000/blogs/2018/04/03/hvorfor-jeg-slettede-min-facebook.html" rel="alternate" type="text/html" title="Dråben, der fik bægeret til at flyde over - #deletefacebook" /><published>2018-04-03T00:00:00+02:00</published><updated>2018-04-03T00:00:00+02:00</updated><id>http://localhost:4000/blogs/2018/04/03/hvorfor-jeg-slettede-min-facebook</id><content type="html" xml:base="http://localhost:4000/blogs/2018/04/03/hvorfor-jeg-slettede-min-facebook.html">&lt;div class=&quot;js-hilsen-list facebook-blog&quot;&gt;
 	&lt;!-- bliver udfyldt med en indholdsbetegnelse af js --&gt;
 &lt;/div&gt;
 
@@ -560,7 +560,7 @@
 
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
-&lt;h2 id=&quot;konklusion-og-stof-til-eftertanke&quot;&gt;Konklusion og stof til eftertanke&lt;/h2&gt;
+&lt;h2 id=&quot;farvel--stof-til-eftertanke&quot;&gt;Farvel… + stof til eftertanke&lt;/h2&gt;
 
 &lt;p&gt;Min konklusion på dråben og bægeret er, at der mangler gennemsigtighed og at persondatafølsomheden og at magten er for stor hos Facebook.&lt;/p&gt;
 
@@ -2286,13 +2286,13 @@ Det er et af de mest udbredte kodesprog i verden (mest aktive på &lt;a href=&qu
 
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
-&lt;p&gt;Tak for denne gang - glæder mig til næste del! :)&lt;/p&gt;</content><author><name></name></author><category term="wordpress" /><summary type="html">Forberedelse: Start med at downloade eksemplet og åben den downloadede mappe i f.eks. Sublime Text 3. Åben derefter index.html i en browser for at se indholdet. Dette vil være mappen, hvor du selv kan lave ændringer og afprøve den viden, som du møder hen af vejen.</summary></entry><entry><title type="html">Fire superkræfter til den studerende</title><link href="http://localhost:4000/blogs/2018/01/27/techlove.html" rel="alternate" type="text/html" title="Fire superkræfter til den studerende" /><published>2018-01-27T00:00:00+01:00</published><updated>2018-01-27T00:00:00+01:00</updated><id>http://localhost:4000/blogs/2018/01/27/techlove</id><content type="html" xml:base="http://localhost:4000/blogs/2018/01/27/techlove.html">&lt;h3&gt;Tre nemme værktøjer (plus et svært), der vil forbedre og sikre dit arbejde på computeren&lt;/h3&gt;
+&lt;p&gt;Tak for denne gang - glæder mig til næste del! :)&lt;/p&gt;</content><author><name></name></author><category term="wordpress" /><summary type="html">Forberedelse: Start med at downloade eksemplet og åben den downloadede mappe i f.eks. Sublime Text 3. Åben derefter index.html i en browser for at se indholdet. Dette vil være mappen, hvor du selv kan lave ændringer og afprøve den viden, som du møder hen af vejen.</summary></entry><entry><title type="html">Fire superkræfter til den studerende</title><link href="http://localhost:4000/blogs/2018/01/27/techlove.html" rel="alternate" type="text/html" title="Fire superkræfter til den studerende" /><published>2018-01-27T00:00:00+01:00</published><updated>2018-01-27T00:00:00+01:00</updated><id>http://localhost:4000/blogs/2018/01/27/techlove</id><content type="html" xml:base="http://localhost:4000/blogs/2018/01/27/techlove.html">&lt;h4&gt;Tre nemme værktøjer (plus et svært), der vil forbedre og sikre dit arbejde på computeren&lt;/h4&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;Dette blogindlæg er en samling af værktøjer, som jeg gør brug af hver dag. De hjælper mig dagligt med at gøre det til en mere flydende bevægelse at arbejde på en computer. Hvis du som jeg sidder størstedelen af din arbejdstid ved computeren og samtidig elsker dette værktøj, så har du nu mulighed for at slibe det en smule ‘skarpere’.&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;div class=&quot;js-hilsen-list&quot;&gt;
+&lt;div class=&quot;js-hilsen-list techlove-indhold&quot;&gt;
 	&lt;!-- bliver udfyldt med en indholdsbetegnelse af js --&gt;
 &lt;/div&gt;
 

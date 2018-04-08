@@ -1,3 +1,6 @@
+.site-title:hover {
+  border-bottom: 1px solid blue !important; }
+
 .menu-icon {
   display: none !important; }
 
@@ -679,10 +682,12 @@ h3 {
 .heading-brown {
   color: brown; }
 
-.js-hilsen-list {
-  height: 150px; }
-  .js-hilsen-list li {
-    padding-left: 0; }
+.js-hilsen-list li {
+  padding-left: 0; }
+
+.techlove-indhold {
+  min-height: 350px;
+  margin-bottom: 100px; }
 
 .blog-footer {
   text-align: center !important; }
