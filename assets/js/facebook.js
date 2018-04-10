@@ -37,7 +37,8 @@ function setSources() {
   var sources = document.querySelectorAll('.small-source');
   var html_part = "<ul class='sources'>";
   Array.from(sources).forEach(function(source) {
-		html_part += "<li class='heading-list-item'>" + source.innerText + " - <a href='" + source.getAttribute('href') + "'>" + source.dataset.title + "</a></li>";
+    year = (source.dataset.year) ? "(" + source.dataset.year + ")" : ""; 
+		html_part += " <li class='heading-list-item'>" + source.innerText + " - <a href='" + source.getAttribute('href') + "'>" + source.dataset.title + " <i>" + year + "</i></a></li>";
   });
   html_part += "</ul>";
   document.getElementById('sources').innerHTML = html_part;

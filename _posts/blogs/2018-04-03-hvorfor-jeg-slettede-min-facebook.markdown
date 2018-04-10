@@ -31,7 +31,7 @@ For at forstå skandalen, starter vi her fra begyndelsen:
 
 * Han begynder at samarbejde med Strategic Communications Laboratories (SCL) for at analysere Facebook-data. Uden tilladelse deler han den indsamlede data med førnævnte selskab og datterselskabet Cambridge Analytica.
 
-* Cambridge Analytica bliver hyret til at hjælpe præsidentkandidaterne Ted Cruz og Ben Carson med deres kampagne. CA modtager 750.000$ fra Ted Cruz's kampagne og 220.000$ fra Ben Carson's for denne service. [1](https://www.forbes.com/sites/jodywestby/2018/03/27/what-is-amazing-about-the-facebook-cambridge-analytica-story/#6bbdff7c7d34){:target="_blank" .small-source data-title="What is amazing about the Facebook Cambridge Analytica Story"}
+* Cambridge Analytica bliver hyret til at hjælpe præsidentkandidaterne Ted Cruz og Ben Carson med deres kampagne. CA modtager 750.000$ fra Ted Cruz's kampagne og 220.000$ fra Ben Carson's for denne service. [1](https://www.forbes.com/sites/jodywestby/2018/03/27/what-is-amazing-about-the-facebook-cambridge-analytica-story/#6bbdff7c7d34){:target="_blank" .small-source data-title="What is amazing about the Facebook Cambridge Analytica Story" data-year="2018"}
 
 {: .small }
 * *4/4/2018 - [Nye tal offentliggjort af Facebook snakker om 87 millioner menneskers data. Det er et forsøg fra Facebooks side på at opgive det maksimalt mulige antal.](https://www.nytimes.com/2018/04/04/technology/mark-zuckerberg-testify-congress.html){:target="_blank"}.<br> [Derudover melder Ritzau, at der er 41.820 danskere blandt de indsamlede data.](https://www.dr.dk/nyheder/viden/teknologi/cambridge-analytica-kan-have-hoestet-41820-danskeres-facebook-profil){:target="_blank"}
@@ -45,7 +45,7 @@ For at forstå skandalen, starter vi her fra begyndelsen:
 
 #### Men hvorfor betale så mange penge for data? En lille smagsprøve
 
-Det er ikke uden grund, at præsidentkandidater betaler hundredevis af tusinde af dollars for data og personlighedsanalyser baseret på data. F.eks. var der i 2013 en noget afslørende undersøgelse af 58.000 frivillige Facebook brugeres likes [2](http://www.pnas.org/content/early/2013/03/06/1218772110){:target="_blank" .small-source data-title="Private traits and attributes are predictable from digital records of human behavior"}:
+Det er ikke uden grund, at præsidentkandidater betaler hundredevis af tusinde af dollars for data og personlighedsanalyser baseret på data. F.eks. var der i 2013 en noget afslørende undersøgelse af 58.000 frivillige Facebook brugeres likes [2](http://www.pnas.org/content/early/2013/03/06/1218772110){:target="_blank" .small-source data-title="Private traits and attributes are predictable from digital records of human behavior" data-year="2013"}:
 
 > 3 kollegaer til Kogan viste, at man alene via Facebook-likes kan forudsige en persons race med 95% nøjagtighed, en persons seksualitet med 88% nøjagtighed og en persons støtte til et politisk parti med 85%
 
@@ -71,13 +71,13 @@ Så blev det 2017...
 <br>
 
 {: .small}
-*Hypotetisk: Hvor mange deltagere skal der til for at indsamle personlig data på alle danske Facebook-brugere, hvis man brugte samme app og stadig kunne indsamle data på hver af de deltagenes Facebook-venner? <br> Danmarks Statistik indsamlede fra marts til maj 2017 5699 besvarelser for at finde ud af cirka hvor mange mennesker, der bruger Facebook i Danmark. [3](https://slks.dk/fileadmin/user_upload/dokumenter/medier/Mediernes_udvikling/2017/Kort_Nyt/Sociale_medier/Kort_Nyt_-_Mediernes_udvikling_i_Danmark_-_Sociale_medier_2017.pdf){:target="_blank" .small-source data-title="Kort nyt om mediernes udvikling i Danmark"} Deres opregnede stikprøve viser 3.144.494 antal brugere. Vi har gennemsnitligt 338 venner (globalt set) [4](http://www.pewresearch.org/fact-tank/2014/02/03/6-new-facts-about-facebook/){:target="_blank" .small-source data-title="New facts about Facebook"}. Et simpelt regnestykke giver, at der skal 9214 deltagere til - uden at tage højde for gengangere i Facebook-vennekredse. Det giver et upræcist indblik i hvilken form for data, man kan indsamle med Kogan's metode og under en så åben datapolitik, hvis man kan få 10.000 til at bruge en app.
+*Hypotetisk: Hvor mange deltagere skal der til for at indsamle personlig data på alle danske Facebook-brugere, hvis man brugte samme app og stadig kunne indsamle data på hver af de deltagenes Facebook-venner? <br> Danmarks Statistik indsamlede fra marts til maj 2017 5699 besvarelser for at finde ud af cirka hvor mange mennesker, der bruger Facebook i Danmark. [3](https://slks.dk/fileadmin/user_upload/dokumenter/medier/Mediernes_udvikling/2017/Kort_Nyt/Sociale_medier/Kort_Nyt_-_Mediernes_udvikling_i_Danmark_-_Sociale_medier_2017.pdf){:target="_blank" .small-source data-title="Kort nyt om mediernes udvikling i Danmark" data-year="2017"} Deres opregnede stikprøve viser 3.144.494 antal brugere. Vi har gennemsnitligt 338 venner (globalt set) [4](http://www.pewresearch.org/fact-tank/2014/02/03/6-new-facts-about-facebook/){:target="_blank" .small-source data-title="New facts about Facebook" data-year="2014"}. Et simpelt regnestykke giver, at der skal 9214 deltagere til - uden at tage højde for gengangere i Facebook-vennekredse. Det giver et upræcist indblik i hvilken form for data, man kan indsamle med Kogan's metode og under en så åben datapolitik, hvis man kan få 10.000 til at bruge en app.
 
 ### OCEAN-modellen... hvad er det?
 
 OCEAN er initialer på engelsk for: **O**penness, **C**onscientiousness, **E**xtroversion, **A**greeableness, and **N**euroticism. Altså 5 forskellige personlighedstræk.
 
-Nogenlunde oversat bliver det til ÅOUGN-modellen. Den kan uddybes således: [5](https://www.youtube.com/watch?v=n8Dd5aVXLCc&t=198s){:target="_blank" .small-source data-title="Youtube video: The Power of Big Data and Psychographics"} * 
+Nogenlunde oversat bliver det til ÅOUGN-modellen. Den kan uddybes således: [5](https://www.youtube.com/watch?v=n8Dd5aVXLCc&t=198s){:target="_blank" .small-source data-title="Youtube video: The Power of Big Data and Psychographics" data-year="2016"} * 
 
 {: .small}
 *Sæt "I hvor høj grad" foran hver uddybning, for at få oplevelsen af at måle det på en skala, som jo er ideen med OCEAN-modellen.
@@ -208,7 +208,7 @@ Men derefter vælger at lave det om og udgive:
 {: .blue-border }
 Rockmusik er ikke hvad det har været.. 
 
-Så vil Facebook altså have begge versioner i deres database. [6](http://www.slate.com/articles/technology/future_tense/2013/12/facebook_self_censorship_what_happens_to_the_posts_you_don_t_publish.html){:target="_blank" .small-source data-title="Slate - On Second Thought …"}
+Så vil Facebook altså have begge versioner i deres database. [6](http://www.slate.com/articles/technology/future_tense/2013/12/facebook_self_censorship_what_happens_to_the_posts_you_don_t_publish.html){:target="_blank" .small-source data-title="Slate - On Second Thought …" data-year="2013"}
 
 De har tidligere lavet undersøgelser om selvcensur ved at bruge denne data. [6 PDF](https://www.aaai.org/ocs/index.php/ICWSM/ICWSM13/paper/viewFile/6093/6350){:target="_blank" .small-source data-title="Self-Censorship on Facebook "} De kalder det *last-minute selfcensorship, or content that is filtered after being written*.
 
@@ -227,7 +227,7 @@ Hvor var du, da du skrev denne besked?
 
 Hvem var du sammen med? 
 
-Hvad mange ikke ved er, at Facebook har aktiveret heatmap-tracking [7](https://techcrunch.com/2016/08/10/360-storytelling/){:target="_blank" .small-source data-title="TECHCRUNCH - Facebook’s 360 video Guide and Heatmap can steer or track where you look"} siden midt 2016, på videoer med over 50.000 unikke visninger. Det betyder i sin simpleste form, at de gemmer data om, hvor du har haft din musemarkør under visningen af populære video, hvis udgiveren af videoen har aktiveret det.*
+Hvad mange ikke ved er, at Facebook har aktiveret heatmap-tracking [7](https://techcrunch.com/2016/08/10/360-storytelling/){:target="_blank" .small-source data-title="TECHCRUNCH - Facebook’s 360 video Guide and Heatmap can steer or track where you look" data-year="2016"} siden midt 2016, på videoer med over 50.000 unikke visninger. Det betyder i sin simpleste form, at de gemmer data om, hvor du har haft din musemarkør under visningen af populære video, hvis udgiveren af videoen har aktiveret det.*
 
 {: .small }
 *Det skal siges, at der er mange andre virksomheder, der også bruger heatmaps til at forbedre deres brugerflade og konverteringsrate** 
@@ -264,11 +264,11 @@ Det forkerte udgangspunkt skaber det forkerte resultat:
 
 **Sukker for hjernen**: Det mest underholdende, som News Feed algoritmen kan finde frem til, baseret på tusindvis af datasæt fra dine tidligere aktiviteter.
 
-En tidligere Facebook-medarbejder skrev tilbage i 2014 sådan her (oversat): [8](http://andrewledvina.com/code/2014/07/04/10-ways-facebook-is-the-devil.html){:target="_blank" .small-source data-title="10 ways Facebook is the devil"}
+En tidligere Facebook-medarbejder skrev tilbage i 2014 sådan her (oversat): [8](http://andrewledvina.com/code/2014/07/04/10-ways-facebook-is-the-devil.html){:target="_blank" .small-source data-title="10 ways Facebook is the devil" data-year="2014"}
 
 > *Det grundlæggende formål for de fleste mennesker, der arbejder med data i Facebook, er at ændre og påvirke folks humør og opførsel. De gør det hele tiden for at få dig til at like flere opslag, klikke på flere reklamer og bruge mere tid på siden.* 
 
-Facebook ligger ikke skjul på, at de analyserer deres brugeres data.[10](https://research.fb.com/support-when-you-re-feeling-blue/){:target="_blank" .small-source data-title="Facebook-analyse - Support when you're feeling blue"} Men her slutter det ikke...
+Facebook ligger ikke skjul på, at de analyserer deres brugeres data.[10](https://research.fb.com/support-when-you-re-feeling-blue/){:target="_blank" .small-source data-title="Facebook-analyse - Support when you're feeling blue" data-year="2016"} Men her slutter det ikke...
 
 > [I 2014 skrev The Guardian](https://www.theguardian.com/technology/2014/jun/29/facebook-users-emotions-news-feeds){:target="_blank"} at Facebook havde lavet et eksperiment på 689.000 brugeres News Feed, hvor Facebook konkluderede, at de kunne gøre brugere gladere eller mere ked af det. De filtrerede *flowet* af indhold: Kommentar, videoer, billeder og links udgivet af andre brugere for at opnå dette.
 
@@ -299,7 +299,7 @@ Med millioner og atter millioner af andre mennesker opkoblet på det samme netv�
 
 #### News Feed Good News --- eller hvad? 
 
-Mark Zuckerberg skrev en statusopdatering tilbage i januar 2018 [9](https://www.facebook.com/zuck/posts/10104413015393571){:target="_blank" .small-source data-title="Mark Zuckerberg's eget Facebook opslag"}, hvor man tydeligt kan læse, at der er fokus på News Feed bagsider. F.eks. skriver han (oversat):
+Mark Zuckerberg skrev en statusopdatering tilbage i januar 2018 [9](https://www.facebook.com/zuck/posts/10104413015393571){:target="_blank" .small-source data-title="Mark Zuckerberg's eget Facebook opslag" data-year="2018"}, hvor man tydeligt kan læse, at der er fokus på News Feed bagsider. F.eks. skriver han (oversat):
 
 ![]({{ "assets/blogs/mark.jpg" || absolute_url }}){: .f-image-right }
 
@@ -331,13 +331,13 @@ Images via Facebook
 
 Udover at Facebook faktisk har ret til at bruge dine billeder til annoncer [11](https://www.facebook.com/help/116356655118482?helpref=related){:target="_blank" .small-source data-title="Facebook help - Jeg ønsker ikke, at mit barns navn eller profilbillede skal knyttes sammen med annoncer." }, sker der også andet, når du uploader.
 
-Facebook købte i 2012 det israeliske firma Face.com [12](http://www.slate.com/blogs/future_tense/2014/03/18/deepface_facebook_face_recognition_software_is_97_percent_accurate.html){:target="_blank" .small-source data-title="Slate - Facebook’s New Face-Recognition Software Is Scary Good"}, som havde udviklet teknologi specialiseret til at genkende ansigter (face-recognition). Du kan se, på GIF'en over, hvordan det grundlæggende fungerer: Et billede bliver analyseret og sammenlignet med et andet billede fra en anden vinkel. Til sidst kan programmet skabe en tro kopi af dit ansigt i 3D.
+Facebook købte i 2012 det israeliske firma Face.com [12](http://www.slate.com/blogs/future_tense/2014/03/18/deepface_facebook_face_recognition_software_is_97_percent_accurate.html){:target="_blank" .small-source data-title="Slate - Facebook’s New Face-Recognition Software Is Scary Good" data-year="2014"}, som havde udviklet teknologi specialiseret til at genkende ansigter (face-recognition). Du kan se, på GIF'en over, hvordan det grundlæggende fungerer: Et billede bliver analyseret og sammenlignet med et andet billede fra en anden vinkel. Til sidst kan programmet skabe en tro kopi af dit ansigt i 3D.
 
 > **Påstand:** Facebook har en tro kopi af dit ansigt i 3D, hvis du, ligesom jeg, har uploadet billeder af dig selv inden for de sidste par år.
 
 Du kan selv [afprøve en teknologi, der ligner, med dit eget billede, hvis du har lyst.](http://cvl-demos.cs.nott.ac.uk/vrn/){:target="_blank"}
 
-Det blev senere til det program, der hedder DeepFace [13](https://en.wikipedia.org/wiki/DeepFace){:target="_blank" .small-source data-title="Wikipedia - DeepFace" }. Det hjælper dig med at foreslå tags af venner på billeder, som du har uploadet. Det skulle have en nøjagtighed på 97%.* Det blev trænet på 4 millioner Facebook-brugeres billeder.
+Det blev senere til det program, der hedder DeepFace [13](https://en.wikipedia.org/wiki/DeepFace){:target="_blank" .small-source data-title="Wikipedia - DeepFace"} Det hjælper dig med at foreslå tags af venner på billeder, som du har uploadet. Det skulle have en nøjagtighed på 97%.* Det blev trænet på 4 millioner Facebook-brugeres billeder.
 
 {: .small }
 *Til sammenligning skulle FBI's Next Generation Identification have en nøjagtighedsprocent på 85%. [14](https://en.wikipedia.org/wiki/Next_Generation_Identification){:target="_blank" .small-source data-title="Wikipedia - Next Generation Identification"}
@@ -352,7 +352,7 @@ Forestil dig så, at millioner af andre brugere også 'fodrer' programmet daglig
 
 Til sidst har du DeepFace, et meget behjælpeligt værktøj, når det kommer til at tagge billeder, men til hvilken pris?
 
-Facebook gør opmærksom på, at DeepFace er *et akademisk projekt, ikke et Facebook produkt*. [16](http://www.slate.com/blogs/future_tense/2014/03/18/deepface_facebook_face_recognition_software_is_97_percent_accurate.html){:target="_blank" .small-source data-title="SLATE - Facebook’s New Face-Recognition Software Is Scary Good"} * Men lad os forestille os - for at understrege en dystopisk pointe - at det blev gjort tilgængeligt for det frie marked i 2019. 
+Facebook gør opmærksom på, at DeepFace er *et akademisk projekt, ikke et Facebook produkt*. [16](http://www.slate.com/blogs/future_tense/2014/03/18/deepface_facebook_face_recognition_software_is_97_percent_accurate.html){:target="_blank" .small-source data-title="SLATE - Facebook’s New Face-Recognition Software Is Scary Good" data-year="2014"} * Men lad os forestille os - for at understrege en dystopisk pointe - at det blev gjort tilgængeligt for det frie marked i 2019. 
 
 {: .small }
 *hvis det ringer en klokke, så var det nogenlunde den samme pointe, [som Kogan - ham der indsamlede data på 50 millioner mennesker - forsvarede sig med](https://hilsen.it/blogs/2018/04/03/hvorfor-jeg-slettede-min-facebook.html#vi-starter-med-dråben), da han blev spurgt ind til formålet med hans undersøgelse tilbage i 2014.
@@ -406,7 +406,7 @@ Hvad vil det medføre, hvis man forestillede sig, at den data på ansigter fra F
 
 Facebook følger dig også, når du besøger andre hjemmeside. Det er ikke nogen hemmelighed. Måske har du oplevet, at det kan have en ret stor effekt på de reklamer, som du får vist, hvis du f.eks. søger efter noget bestemt på Google. Der er de sidste år kommet en stor opmærksomhed omkring **cookies**. Men det som Facebook bruger idag hedder Single-Sign On.
 
-Der var en stor sag i 2014, hvor der var et andet leak af information fra siden. [17](https://www.dailydot.com/news/facebook-shadow-profiles-privacy-faq/){:target="_blank" .small-source data-title="The Dayli Dot - What’s a Facebook shadow profile, and should you be worried about it?" } Til at starte med så det ud som om, at der var blevet stjålet 6 millioner e-mails og telefonnumrer. Senere hen viste det sig dog, at mange af disse e-mails og telefonnumrer var oplysninger, som brugerne ikke havde opgivet til Facebook. Altså havde de, via et sindrigt og kompliceret system, kunne opfange hvilke mails personer brugte, ud over den, som var tilkoblet Facebook. Denne form for data kaldes en **skyggeprofil**.
+Der var en stor sag i 2014, hvor der var et andet leak af information fra siden. [17](https://www.dailydot.com/news/facebook-shadow-profiles-privacy-faq/){:target="_blank" .small-source data-title="The Dayli Dot - What’s a Facebook shadow profile, and should you be worried about it?" data-year="2013"} Til at starte med så det ud som om, at der var blevet stjålet 6 millioner e-mails og telefonnumrer. Senere hen viste det sig dog, at mange af disse e-mails og telefonnumrer var oplysninger, som brugerne ikke havde opgivet til Facebook. Altså havde de, via et sindrigt og kompliceret system, kunne opfange hvilke mails personer brugte, ud over den, som var tilkoblet Facebook. Denne form for data kaldes en **skyggeprofil**.
 
 > En skyggeprofil er al den data, som Facebook har gemt på dig, men som ikke stammer fra Facebook.
 
@@ -434,7 +434,7 @@ Den automatisering, som vi tit forbinder med større virksomheder som Google, Am
 
 > Der skal stadig manuelt arbejde til i enormt omfang, for at kunne holde Facebook's hjul kørende. 
 
-De arbejdere, som udfører dette manuelle arbejde, kaldes **content moderators** og et estimeret antal - inkluderer alle sociale medier - er i omegnen af 150.000 arbejdere (ifølge filmen The Moderators). [19](https://www.wired.com/2017/04/watch-people-learn-filter-awfulness-dating-sites/){:target="_blank" .small-source data-title="WIRED - WATCH WORKERS LEARN HOW TO FILTER OBSCENE AND VIOLENT PHOTOS FROM DATING SITES"}
+De arbejdere, som udfører dette manuelle arbejde, kaldes **content moderators** og et estimeret antal - inkluderer alle sociale medier - er i omegnen af 150.000 arbejdere (ifølge filmen The Moderators). [19](https://www.wired.com/2017/04/watch-people-learn-filter-awfulness-dating-sites/){:target="_blank" .small-source data-title="WIRED - WATCH WORKERS LEARN HOW TO FILTER OBSCENE AND VIOLENT PHOTOS FROM DATING SITES" data-year="2017"}
 
 Det er især mennesker fra Indien og Filippinerne, som udfører dette arbejde. De går igennem alt det, som vi ikke ser: Ponografisk (i nogle tilfælde med mindreårige) og voldeligt materiale. De går igennem 2.000 billeder i timen fem dage om ugen.
 
