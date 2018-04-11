@@ -8,7 +8,6 @@ seocontent: "Min rejse fra naiv Facebook-bruger til en sur, gammel og skræmt da
 seoimage: "https://hilsen.it/assets/blogs/facebook-share.jpg"
 ---
 
-
 <div class="js-hilsen-list facebook-blog">
 	<!-- bliver udfyldt med en indholdsbetegnelse af js -->
 </div>

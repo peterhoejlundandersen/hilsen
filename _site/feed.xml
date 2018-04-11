@@ -1,4 +1,99 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-04-10T16:48:07+02:00</updated><id>http://localhost:4000/</id><title type="html">Hilsen IT</title><subtitle>Designer hjemmesider med et sikkert fundament i Ruby on Rails, Jekyll og Angular</subtitle><entry><title type="html">Dråben, der fik bægeret til at flyde over - #deletefacebook</title><link href="http://localhost:4000/blogs/2018/04/03/hvorfor-jeg-slettede-min-facebook.html" rel="alternate" type="text/html" title="Dråben, der fik bægeret til at flyde over - #deletefacebook" /><published>2018-04-03T00:00:00+02:00</published><updated>2018-04-03T00:00:00+02:00</updated><id>http://localhost:4000/blogs/2018/04/03/hvorfor-jeg-slettede-min-facebook</id><content type="html" xml:base="http://localhost:4000/blogs/2018/04/03/hvorfor-jeg-slettede-min-facebook.html">&lt;div class=&quot;js-hilsen-list facebook-blog&quot;&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-04-11T13:57:47+02:00</updated><id>http://localhost:4000/</id><title type="html">Hilsen IT</title><subtitle>Designer hjemmesider med et sikkert fundament i Ruby on Rails, Jekyll og Angular</subtitle><entry><title type="html"></title><link href="http://localhost:4000/blogs/2018/04/11/deathshowering.html" rel="alternate" type="text/html" title="" /><published>2018-04-11T00:00:00+02:00</published><updated>2018-04-11T00:00:00+02:00</updated><id>http://localhost:4000/blogs/2018/04/11/deathshowering</id><content type="html" xml:base="http://localhost:4000/blogs/2018/04/11/deathshowering.html">&lt;div class=&quot;deathshowering-wrapper&quot;&gt;
+
+  &lt;div class=&quot;farmer-kon&quot;&gt;
+    &lt;input type=&quot;checkbox&quot; id=&quot;kon&quot; /&gt;
+    Konventionelt landbrug
+  &lt;/div&gt;
+  &lt;div class=&quot;farmer-oeko&quot;&gt;
+    &lt;input type=&quot;checkbox&quot; id=&quot;oeko&quot; /&gt;
+    Økologisk landbrug
+  &lt;/div&gt;
+  &lt;div class=&quot;pigs&quot;&gt;
+    &lt;input type=&quot;checkbox&quot; id=&quot;pigs&quot; /&gt;
+    Grise
+  &lt;/div&gt;
+  &lt;div class=&quot;cows&quot;&gt;
+    &lt;input type=&quot;checkbox&quot; id=&quot;cows&quot; /&gt;
+    Køer
+  &lt;/div&gt;
+  &lt;div class=&quot;chickens&quot;&gt;
+    &lt;input type=&quot;checkbox&quot; id=&quot;chickens&quot; /&gt;
+    Kyllinger
+  &lt;/div&gt;
+  &lt;div class=&quot;sound&quot;&gt;
+    &lt;input type=&quot;checkbox&quot; id=&quot;sound&quot; /&gt;
+    Lyd på
+  &lt;/div&gt;
+
+  &lt;div class=&quot;knap-wrap&quot;&gt;
+    &lt;input type=&quot;submit&quot; value=&quot;SHOWER!&quot; id=&quot;shower&quot; /&gt;
+  &lt;/div&gt;
+
+&lt;/div&gt;
+
+&lt;ul class=&quot;small&quot;&gt;
+  &lt;li&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;hvor-kommer-tallene-fra&quot;&gt;Hvor kommer tallene fra?&lt;/h3&gt;
+
+&lt;h4 id=&quot;dyr&quot;&gt;Dyr&lt;/h4&gt;
+
+&lt;p class=&quot;small&quot;&gt;*Tallene kommer fra en opgørelse af &lt;a href=&quot;https://www.dst.dk/da/Statistik/emner/erhvervslivets-sektorer/landbrug-gartneri-og-skovbrug/animalsk-produktion&quot; target=&quot;_blank&quot;&gt;Danmarks Statistik &lt;strong&gt;Slagtninger og eksport&lt;/strong&gt;&lt;/a&gt;. Jeg valgte året 2016, for at gøre det så nutydigt som muligt.&lt;/p&gt;
+&lt;p&gt;Enhed: 1.000 stk.&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt; &lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;2014&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;2015&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;2016&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Kvæg, i alt&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;485,2&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;460,5&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;495,8&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Køer&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;215,5&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;176,1&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;200,3&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Svin, i alt&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;18.857,5&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;18.716,7&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;18.356,5&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Får og lam, I alt&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;80,3&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;80,8&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;77,8&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Fjerkræ i alt&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;102.994,3&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;95.746,9&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;101.777,1&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Kyllinger&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;102.941,1&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;95.681,4&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;101.594,6&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h4 id=&quot;sekunder-på-et-år&quot;&gt;Sekunder på et år&lt;/h4&gt;
+
+&lt;p&gt;31.557.600 (60x60x24x365,25)&lt;/p&gt;</content><author><name></name></author><category term="blogs" /><summary type="html"></summary></entry><entry><title type="html">Dråben, der fik bægeret til at flyde over - #deletefacebook</title><link href="http://localhost:4000/blogs/2018/04/03/hvorfor-jeg-slettede-min-facebook.html" rel="alternate" type="text/html" title="Dråben, der fik bægeret til at flyde over - #deletefacebook" /><published>2018-04-03T00:00:00+02:00</published><updated>2018-04-03T00:00:00+02:00</updated><id>http://localhost:4000/blogs/2018/04/03/hvorfor-jeg-slettede-min-facebook</id><content type="html" xml:base="http://localhost:4000/blogs/2018/04/03/hvorfor-jeg-slettede-min-facebook.html">&lt;div class=&quot;js-hilsen-list facebook-blog&quot;&gt;
 	&lt;!-- bliver udfyldt med en indholdsbetegnelse af js --&gt;
 &lt;/div&gt;
 
