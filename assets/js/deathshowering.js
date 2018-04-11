@@ -2,57 +2,45 @@
 // set a random timeout period to start the
 // next bouncing ball.
 $(document).ready(function() {
-  function bounceNextBall() {
-    var $div = startBounceAnimation();
-    setTimeout(bounceNextBall, getRandomInt(1, 1000));
-  }
-
   openTarget();
-
-  bounceNextBall();
+  Showering("pigs", 18356500);
+  Showering("cows", 495800);
+  Showering("chickens", 101777100);
+  Showering("humans", 53261);
 });
 
 function openTarget() {
   btns = document.querySelectorAll('.js-open-target');
   Array.from(btns).forEach(function(btn) {
-    div = document.getElementById(btn.dataset.target);
-  debugger;
-    div.classList.remove('d-none');
+    btn.addEventListener('click', function(e) {
+      e.preventDefault();
+      div = document.getElementById(btn.dataset.target);
+      if (div.classList.contains('d-none')) {
+        div.classList.remove('d-none');
+      } else {
+        div.classList.add('d-none');
+      }
+    });
   });
 }
 
-function Showering(data) {
-  sec_year = 31557600;
-  pics_pr_sec = (18356500 / sec_year);
-  cows_pr_sec = (495800 / sec_year);
-  chicks_pr_sec = (101777100 / sec_year);
-  humans_pr_sec = (53261 / sec_year);
-  if (data.pigs) {
-    console.log("Grise: " + pics_pr_sec);
-  }
-  if (data.cows) {
-    console.log("Kvæg: " + cows_pr_sec);
-  }
-  if (data.chickens) {
-    console.log("Kyllinger: " + chicks_pr_sec);
-  }
+function bounceNextBall(type, sec) {
+  seconds = 31557600 / sec;
+  seconds = seconds * 1000;
+  var $div = startBounceAnimation(type);
+  setTimeout(bounceNextBall, seconds);
+}
+function Showering(type, sec) {
+  bounceNextBall(type, sec);
 }
 
-function getData() {
-  let kon = document.getElementById('kon');
-  let oeko = document.getElementById('oeko');
-  let pigs = document.getElementById('pigs');
-  let cows = document.getElementById('cows');
-  let chickens = document.getElementById('chickens');
-  let sound = document.getElementById('sound');
-  return {kon: kon.checked, oeko: oeko.checked, pigs: pigs.checked, cows: cows.checked, chickens: chickens.checked, sound: sound.checked };
-}
 
 // Create a <div> that will be the bouncing
 // ball.
-function createBall(left, top, size, color) {
-  return $('<div></div>')
-    .css("background-color", color)
+function createBall(left, top, size, color, animal_type) {
+  return $('<div>' + animal_type + '</div>')
+    .css("background-color", "black")
+    .css("color", "white")
     .css("left", left)
     .css("top", top)
     .css("width", size)
@@ -60,8 +48,14 @@ function createBall(left, top, size, color) {
     .css("border-radius", size / 2);
 }
 
-function getRandomColor() {
-  return "black";
+function getAnimal(type) {
+  if (type == "pig") {
+    "assets/blogs/animals/pig.jpg";
+  } else if (type == "cow") {
+    "assets/blogs/animals/cow.jpg";
+  } else {
+    "assets/blogs/animals/chicken.jpg";
+  }
 }
 
 function getRandomBool() {
@@ -84,23 +78,24 @@ function getRandomPath($container) {
   // We'll return an object with parameters that
   // describe the ball and its bounce.
   return {
-    color: getRandomColor(),
+    color: "black",
+    animal_type: 'pig',
     size: size,
     left1: ltr ? -size : $container.width(),
     left2: getRandomInt(0, $container.width() - size),
     top: getRandomInt(-$container.height() * 2,
       $container.height() / 2 - size),
     duration: getRandomInt(500, 2000)
-  }
+  };
 }
 
 // Bouncing a ball consists of horizontal and
 // vertical animations that run simultaneously.
 // (The second animation uses "queue: false".)
-function startBounceAnimation() {
+function startBounceAnimation(type) {
   var $container = $("#container");
   var path = getRandomPath($container);
-  var $div = createBall(path.left1, path.top, path.size, path.color);
+  var $div = createBall(path.left1, path.top, path.size, path.color, type); // Animal type in the end here
   $div.appendTo($container);
   $div.animate({
     "left": path.left2

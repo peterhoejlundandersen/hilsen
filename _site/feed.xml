@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-04-11T16:27:50+02:00</updated><id>http://localhost:4000/</id><title type="html">Hilsen IT</title><subtitle>Designer hjemmesider med et sikkert fundament i Ruby on Rails, Jekyll og Angular</subtitle><entry><title type="html">Døde dyr</title><link href="http://localhost:4000/blogs/2018/04/11/deathshowering.html" rel="alternate" type="text/html" title="Døde dyr" /><published>2018-04-11T00:00:00+02:00</published><updated>2018-04-11T00:00:00+02:00</updated><id>http://localhost:4000/blogs/2018/04/11/deathshowering</id><content type="html" xml:base="http://localhost:4000/blogs/2018/04/11/deathshowering.html">&lt;p&gt;&lt;a href=&quot;#&quot; class=&quot;js-open-target&quot; data-target=&quot;sourceFrom&quot;&gt;Hvor kommer tallene fra?&lt;/a&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-04-11T21:47:51+02:00</updated><id>http://localhost:4000/</id><title type="html">Hilsen IT</title><subtitle>Designer hjemmesider med et sikkert fundament i Ruby on Rails, Jekyll og Angular</subtitle><entry><title type="html">Døde dyr</title><link href="http://localhost:4000/blogs/2018/04/11/deathshowering.html" rel="alternate" type="text/html" title="Døde dyr" /><published>2018-04-11T00:00:00+02:00</published><updated>2018-04-11T00:00:00+02:00</updated><id>http://localhost:4000/blogs/2018/04/11/deathshowering</id><content type="html" xml:base="http://localhost:4000/blogs/2018/04/11/deathshowering.html">&lt;p&gt;&lt;a href=&quot;#&quot; class=&quot;js-open-target&quot; data-target=&quot;sourceFrom&quot;&gt;Hvor kommer tallene fra?&lt;/a&gt;&lt;/p&gt;
 
-&lt;div id=&quot;sourcefrom&quot; class=&quot;d-none&quot;&gt;
+&lt;div id=&quot;sourceFrom&quot; class=&quot;blue-border d-none mb-4&quot;&gt;
 
   &lt;h4 id=&quot;dyr&quot;&gt;Dyr&lt;/h4&gt;
 
@@ -64,6 +64,8 @@
   &lt;h4 id=&quot;sekunder-p-et-r&quot;&gt;Sekunder på et år&lt;/h4&gt;
 
   &lt;p&gt;31.557.600 (60x60x24x365,25)&lt;/p&gt;
+
+  &lt;p style=&quot;overflow:hidden&quot;&gt;&lt;a href=&quot;#&quot; class=&quot;js-open-target float-right&quot; data-target=&quot;sourceFrom&quot;&gt;Luk&lt;/a&gt;&lt;/p&gt;
 
 &lt;/div&gt;
 

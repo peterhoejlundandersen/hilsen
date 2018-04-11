@@ -9,7 +9,7 @@ jsfile: "deathshowering"
 
 [Hvor kommer tallene fra?](#){: .js-open-target data-target="sourceFrom"}
 
-<div id="sourcefrom" class="d-none" markdown="block">
+<div id="sourceFrom" class="blue-border d-none mb-4" markdown="block">
 
 #### Dyr
 
@@ -36,6 +36,9 @@ Antal mennesker kommer fra [Danmarks Statistik **Dødsfald 2016**](https://www.d
 #### Sekunder på et år
 
 31.557.600 (60x60x24x365,25)
+
+{: style="overflow:hidden"}
+[Luk](#){: .js-open-target .float-right data-target="sourceFrom"}
 
 </div>
 
