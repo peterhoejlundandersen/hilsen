@@ -1,54 +1,20 @@
 ---
 layout: blog
-title: ""
-desc: "Se hvor meget det regner med død i Danmark"
+title: "Døde dyr"
+desc: "Se hvor hurtigt det går i Danmark"
 category: blogs
+jquery: "true"
 jsfile: "deathshowering"
 ---
 
+[Hvor kommer tallene fra?](#){: .js-open-target data-target="sourceFrom"}
 
-<div class="deathshowering-wrapper">
-
-  <div class="farmer-kon">
-    <input type="checkbox" id="kon" />
-    Konventionelt landbrug
-  </div>
-  <div class="farmer-oeko">
-    <input type="checkbox" id="oeko" />
-    Økologisk landbrug
-  </div>
-  <div class="pigs">
-    <input type="checkbox" id="pigs" />
-    Grise
-  </div>
-  <div class="cows">
-    <input type="checkbox" id="cows" />
-    Køer
-  </div>
-  <div class="chickens">
-    <input type="checkbox" id="chickens" />
-    Kyllinger
-  </div>
-  <div class="sound">
-    <input type="checkbox" id="sound" />
-    Lyd på
-  </div>
-
-  <div class="knap-wrap">
-    <input type="submit" value="SHOWER!" id="shower" />
-  </div>
-
-</div>
-
-
-{: .small }
-* 
-
-### Hvor kommer tallene fra?
+<div id="sourcefrom" class="d-none" markdown="block">
 
 #### Dyr
 
-*Tallene kommer fra en opgørelse af [Danmarks Statistik **Slagtninger og eksport**](https://www.dst.dk/da/Statistik/emner/erhvervslivets-sektorer/landbrug-gartneri-og-skovbrug/animalsk-produktion){:target="_blank"}. Jeg valgte året 2016, for at gøre det så nutydigt som muligt.
+Antal slagtede dyr kommer fra en opgørelse af [Danmarks Statistik **Slagtninger og eksport**](https://www.dst.dk/da/Statistik/emner/erhvervslivets-sektorer/landbrug-gartneri-og-skovbrug/animalsk-produktion){:target="_blank"}. Jeg valgte året 2016, for at gøre det så nutidigt som muligt.*
+
 {: .small }
 Enhed: 1.000 stk.
 
@@ -62,9 +28,21 @@ Enhed: 1.000 stk.
 | Kyllinger	| 102.941,1 |	95.681,4 |	101.594,6 |
 
 
+#### Mennesker
+
+Antal mennesker kommer fra [Danmarks Statistik **Dødsfald 2016**](https://www.dst.dk/da/Statistik/emner/befolkning-og-valg/doedsfald-og-middellevetid/doedsfald){:target="_blank"}
+
+
 #### Sekunder på et år
 
 31.557.600 (60x60x24x365,25)
+
+</div>
+
+
+<div id="container">
+ 
+</div>
 
 
 

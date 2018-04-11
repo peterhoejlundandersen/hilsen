@@ -536,6 +536,13 @@ table {
 .highlight .il {
   color: #099; }
 
+/* DEATHSHOWER START */
+/* DEATHSHOWER START */
+.d-none {
+  display: none; }
+
+/* DEATHSHOWER END */
+/* DEATHSHOWER END */
 /* ALL STYLE FOR POSTS/POST*/
 .cursor-pointer {
   cursor: pointer; }
