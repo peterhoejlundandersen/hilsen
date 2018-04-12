@@ -366,11 +366,11 @@ Hvad vil det medføre, hvis man forestillede sig, at den data på ansigter fra F
 * **DEEPFACE DYSTOPIA 2019**
 * Overvågningskameraer vil uden videre kunne genkende fodgængere på gaden.
 
-* Den gave, som du vil give til din kæreste, bliver afsløret, da han/hun har indstillet en app (TrakYourLover) til at sende beskeder, hvis du nærmer dig en bestemt butik. I griner lidt af det.
+* Den overraskelse, som du vil give til din kæreste, bliver afsløret, da han/hun har indstillet en app (TrakYourLover) til at sende beskeder, hvis du nærmer dig en bestemt butik. I griner lidt af det.
 
-* Du bliver afsløret i at være utro med din kæreste, da et overvågningskamera et par dage efter afslører dig tæt på en butik, hvor han/hun havde en fornemmelse af, at du kom lidt for ofte. 
+* Du bliver afsløret i at være utro med din kæreste, på baggrund af overvågningsdata fra staten, der ikke blev sikret ordentligt. Det viser sig, at man på baggrund af din søgehistorik, Facebook-aktivitet (stalker du en bestemt person lidt for ofte) og placering, har fundet frem til, at dit UTRO-index er enormt højt. Din kæreste køber sig til det og konfronterer dig.
 
-* Du deltager i en demonstration, som udvikler sig til håndgemæng med politiet - du er dog ikke en del af de voldelige udskejelser. Du bliver et par dage efter hentet ind på politigården, da flere overvågningskameraers data er blevet sammenlignet - på baggrund af algoritmiske modeller - som hver især har fundet dit ansigt.  
+* Du er aktiv i demonstrationer mod den siddende regering. Nogle få af dem udvikler sig til håndgemæng med politiet - du er dog aldrig en del af de voldelige udskejelser, men bruger blot din forsamlingsfrihed. Politiet udvikler, på baggrund af videoer af demonstrationer og andet data fra online aktiviteter, en algoritme, som kan udpege individer, der har stor sandsynlighed for at etablere modstand mod systemet. Du er en af dem og bliver indkaldt til at gennemgå et dannelses-program, der kan vise dig den 'rigtige' vej i verden. 
  
 * Du kan - hvis du har adgang til dataen - på landsplan finde ud af, hvem der ligner dig mest (wow)!
 
@@ -379,7 +379,7 @@ Hvad vil det medføre, hvis man forestillede sig, at den data på ansigter fra F
 {: .dystopia-red }
 * **HVAD ER PROBLEMET? FUCK EN DÅRLIG SCI-FI!**
 
-* Hvorfor ikke have et overvågningssamfund, hvor alle ulovligheder bliver dømt?
+* Hvorfor ikke have et overvågningssamfund, hvor alle ulovligheder og fremtidige ulovligheder bliver dømt/undgået?
 
 * Du har endda måske hørt argumentet, hvis man diskuterer datapolitik og online privatliv: 
 
@@ -393,11 +393,11 @@ Hvad vil det medføre, hvis man forestillede sig, at den data på ansigter fra F
 
 * > *If the machine of government is of such a nature that it requires you to be the agent of injustice to another, then, I say, break the law.*
 
-* Nogle gange tager loven fejl, nogle gange er det enkeltindivider, der har adgang til viden, som vælter et større system. I disse tilfælde er det vigtigt, at der er et privatliv og en grænse for statens indtrængen. Hvis du mangler bevis for dette, kan jeg anbefale at [læse denne artikel om Edward Snowden af The Guardian](https://www.theguardian.com/world/2013/jun/09/edward-snowden-nsa-whistleblower-surveillance){:target="_blank"}.
+* Nogle gange tager loven fejl, nogle gange er det enkeltindivider, der har adgang til viden, som SKAL vælte et større system, for at sandheden og et mere retfærdigt system kan vinde frem. I disse tilfælde er det vigtigt, at der er et privatliv og en grænse for statens indtrængen. Det er en såkaldt balance mellem individets privatliv og overvågning, der gør, at staten ikke får for stor en magt. <br> Hvis du mangler bevis for dette, kan jeg anbefale at [læse denne artikel om Edward Snowden af The Guardian](https://www.theguardian.com/world/2013/jun/09/edward-snowden-nsa-whistleblower-surveillance){:target="_blank"}.
 
 * Et andet spørgsmål: 
 
-* Har du ret til at være utro?
+* Har du ret til at være utro, eller har din stat ret til at gøre din kæreste opmærksom på det, hvis de har data, der kan bevise det?
 
 <br> 
 

@@ -1,77 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-04-11T21:47:51+02:00</updated><id>http://localhost:4000/</id><title type="html">Hilsen IT</title><subtitle>Designer hjemmesider med et sikkert fundament i Ruby on Rails, Jekyll og Angular</subtitle><entry><title type="html">Døde dyr</title><link href="http://localhost:4000/blogs/2018/04/11/deathshowering.html" rel="alternate" type="text/html" title="Døde dyr" /><published>2018-04-11T00:00:00+02:00</published><updated>2018-04-11T00:00:00+02:00</updated><id>http://localhost:4000/blogs/2018/04/11/deathshowering</id><content type="html" xml:base="http://localhost:4000/blogs/2018/04/11/deathshowering.html">&lt;p&gt;&lt;a href=&quot;#&quot; class=&quot;js-open-target&quot; data-target=&quot;sourceFrom&quot;&gt;Hvor kommer tallene fra?&lt;/a&gt;&lt;/p&gt;
-
-&lt;div id=&quot;sourceFrom&quot; class=&quot;blue-border d-none mb-4&quot;&gt;
-
-  &lt;h4 id=&quot;dyr&quot;&gt;Dyr&lt;/h4&gt;
-
-  &lt;p&gt;Antal slagtede dyr kommer fra en opgørelse af &lt;a href=&quot;https://www.dst.dk/da/Statistik/emner/erhvervslivets-sektorer/landbrug-gartneri-og-skovbrug/animalsk-produktion&quot; target=&quot;_blank&quot;&gt;Danmarks Statistik &lt;strong&gt;Slagtninger og eksport&lt;/strong&gt;&lt;/a&gt;. Jeg valgte året 2016, for at gøre det så nutidigt som muligt.*&lt;/p&gt;
-
-  &lt;p class=&quot;small&quot;&gt;Enhed: 1.000 stk.&lt;/p&gt;
-
-  &lt;table&gt;
-    &lt;thead&gt;
-      &lt;tr&gt;
-        &lt;th style=&quot;text-align: left&quot;&gt; &lt;/th&gt;
-        &lt;th style=&quot;text-align: center&quot;&gt;2014&lt;/th&gt;
-        &lt;th style=&quot;text-align: center&quot;&gt;2015&lt;/th&gt;
-        &lt;th style=&quot;text-align: center&quot;&gt;2016&lt;/th&gt;
-      &lt;/tr&gt;
-    &lt;/thead&gt;
-    &lt;tbody&gt;
-      &lt;tr&gt;
-        &lt;td style=&quot;text-align: left&quot;&gt;Kvæg, i alt&lt;/td&gt;
-        &lt;td style=&quot;text-align: center&quot;&gt;485,2&lt;/td&gt;
-        &lt;td style=&quot;text-align: center&quot;&gt;460,5&lt;/td&gt;
-        &lt;td style=&quot;text-align: center&quot;&gt;495,8&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-        &lt;td style=&quot;text-align: left&quot;&gt;Køer&lt;/td&gt;
-        &lt;td style=&quot;text-align: center&quot;&gt;215,5&lt;/td&gt;
-        &lt;td style=&quot;text-align: center&quot;&gt;176,1&lt;/td&gt;
-        &lt;td style=&quot;text-align: center&quot;&gt;200,3&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-        &lt;td style=&quot;text-align: left&quot;&gt;Svin, i alt&lt;/td&gt;
-        &lt;td style=&quot;text-align: center&quot;&gt;18.857,5&lt;/td&gt;
-        &lt;td style=&quot;text-align: center&quot;&gt;18.716,7&lt;/td&gt;
-        &lt;td style=&quot;text-align: center&quot;&gt;18.356,5&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-        &lt;td style=&quot;text-align: left&quot;&gt;Får og lam, I alt&lt;/td&gt;
-        &lt;td style=&quot;text-align: center&quot;&gt;80,3&lt;/td&gt;
-        &lt;td style=&quot;text-align: center&quot;&gt;80,8&lt;/td&gt;
-        &lt;td style=&quot;text-align: center&quot;&gt;77,8&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-        &lt;td style=&quot;text-align: left&quot;&gt;Fjerkræ i alt&lt;/td&gt;
-        &lt;td style=&quot;text-align: center&quot;&gt;102.994,3&lt;/td&gt;
-        &lt;td style=&quot;text-align: center&quot;&gt;95.746,9&lt;/td&gt;
-        &lt;td style=&quot;text-align: center&quot;&gt;101.777,1&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-        &lt;td style=&quot;text-align: left&quot;&gt;Kyllinger&lt;/td&gt;
-        &lt;td style=&quot;text-align: center&quot;&gt;102.941,1&lt;/td&gt;
-        &lt;td style=&quot;text-align: center&quot;&gt;95.681,4&lt;/td&gt;
-        &lt;td style=&quot;text-align: center&quot;&gt;101.594,6&lt;/td&gt;
-      &lt;/tr&gt;
-    &lt;/tbody&gt;
-  &lt;/table&gt;
-
-  &lt;h4 id=&quot;mennesker&quot;&gt;Mennesker&lt;/h4&gt;
-
-  &lt;p&gt;Antal mennesker kommer fra &lt;a href=&quot;https://www.dst.dk/da/Statistik/emner/befolkning-og-valg/doedsfald-og-middellevetid/doedsfald&quot; target=&quot;_blank&quot;&gt;Danmarks Statistik &lt;strong&gt;Dødsfald 2016&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
-
-  &lt;h4 id=&quot;sekunder-p-et-r&quot;&gt;Sekunder på et år&lt;/h4&gt;
-
-  &lt;p&gt;31.557.600 (60x60x24x365,25)&lt;/p&gt;
-
-  &lt;p style=&quot;overflow:hidden&quot;&gt;&lt;a href=&quot;#&quot; class=&quot;js-open-target float-right&quot; data-target=&quot;sourceFrom&quot;&gt;Luk&lt;/a&gt;&lt;/p&gt;
-
-&lt;/div&gt;
-
-&lt;div id=&quot;container&quot;&gt;
- 
-&lt;/div&gt;</content><author><name></name></author><category term="blogs" /><summary type="html">Hvor kommer tallene fra?</summary></entry><entry><title type="html">Dråben, der fik bægeret til at flyde over - #deletefacebook</title><link href="http://localhost:4000/blogs/2018/04/03/hvorfor-jeg-slettede-min-facebook.html" rel="alternate" type="text/html" title="Dråben, der fik bægeret til at flyde over - #deletefacebook" /><published>2018-04-03T00:00:00+02:00</published><updated>2018-04-03T00:00:00+02:00</updated><id>http://localhost:4000/blogs/2018/04/03/hvorfor-jeg-slettede-min-facebook</id><content type="html" xml:base="http://localhost:4000/blogs/2018/04/03/hvorfor-jeg-slettede-min-facebook.html">&lt;div class=&quot;js-hilsen-list facebook-blog&quot;&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-04-12T11:49:26+02:00</updated><id>http://localhost:4000/</id><title type="html">Hilsen IT</title><subtitle>Designer hjemmesider med et sikkert fundament i Ruby on Rails, Jekyll og Angular</subtitle><entry><title type="html">Dråben, der fik bægeret til at flyde over - #deletefacebook</title><link href="http://localhost:4000/blogs/2018/04/03/hvorfor-jeg-slettede-min-facebook.html" rel="alternate" type="text/html" title="Dråben, der fik bægeret til at flyde over - #deletefacebook" /><published>2018-04-03T00:00:00+02:00</published><updated>2018-04-03T00:00:00+02:00</updated><id>http://localhost:4000/blogs/2018/04/03/hvorfor-jeg-slettede-min-facebook</id><content type="html" xml:base="http://localhost:4000/blogs/2018/04/03/hvorfor-jeg-slettede-min-facebook.html">&lt;div class=&quot;js-hilsen-list facebook-blog&quot;&gt;
 	&lt;!-- bliver udfyldt med en indholdsbetegnelse af js --&gt;
 &lt;/div&gt;
 
@@ -522,13 +449,13 @@
     &lt;p&gt;Overvågningskameraer vil uden videre kunne genkende fodgængere på gaden.&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;p&gt;Den gave, som du vil give til din kæreste, bliver afsløret, da han/hun har indstillet en app (TrakYourLover) til at sende beskeder, hvis du nærmer dig en bestemt butik. I griner lidt af det.&lt;/p&gt;
+    &lt;p&gt;Den overraskelse, som du vil give til din kæreste, bliver afsløret, da han/hun har indstillet en app (TrakYourLover) til at sende beskeder, hvis du nærmer dig en bestemt butik. I griner lidt af det.&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;p&gt;Du bliver afsløret i at være utro med din kæreste, da et overvågningskamera et par dage efter afslører dig tæt på en butik, hvor han/hun havde en fornemmelse af, at du kom lidt for ofte.&lt;/p&gt;
+    &lt;p&gt;Du bliver afsløret i at være utro med din kæreste, på baggrund af overvågningsdata fra staten, der ikke blev sikret ordentligt. Det viser sig, at man på baggrund af din søgehistorik, Facebook-aktivitet (stalker du en bestemt person lidt for ofte) og placering, har fundet frem til, at dit UTRO-index er enormt højt. Din kæreste køber sig til det og konfronterer dig.&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;p&gt;Du deltager i en demonstration, som udvikler sig til håndgemæng med politiet - du er dog ikke en del af de voldelige udskejelser. Du bliver et par dage efter hentet ind på politigården, da flere overvågningskameraers data er blevet sammenlignet - på baggrund af algoritmiske modeller - som hver især har fundet dit ansigt.&lt;/p&gt;
+    &lt;p&gt;Du er aktiv i demonstrationer mod den siddende regering. Nogle få af dem udvikler sig til håndgemæng med politiet - du er dog aldrig en del af de voldelige udskejelser, men bruger blot din forsamlingsfrihed. Politiet udvikler, på baggrund af videoer af demonstrationer og andet data fra online aktiviteter, en algoritme, som kan udpege individer, der har stor sandsynlighed for at etablere modstand mod systemet. Du er en af dem og bliver indkaldt til at gennemgå et dannelses-program, der kan vise dig den ‘rigtige’ vej i verden.&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;Du kan - hvis du har adgang til dataen - på landsplan finde ud af, hvem der ligner dig mest (wow)!&lt;/li&gt;
 &lt;/ul&gt;
@@ -540,7 +467,7 @@
     &lt;p&gt;&lt;strong&gt;HVAD ER PROBLEMET? FUCK EN DÅRLIG SCI-FI!&lt;/strong&gt;&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;p&gt;Hvorfor ikke have et overvågningssamfund, hvor alle ulovligheder bliver dømt?&lt;/p&gt;
+    &lt;p&gt;Hvorfor ikke have et overvågningssamfund, hvor alle ulovligheder og fremtidige ulovligheder bliver dømt/undgået?&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
     &lt;p&gt;Du har endda måske hørt argumentet, hvis man diskuterer datapolitik og online privatliv:&lt;/p&gt;
@@ -565,12 +492,12 @@
     &lt;/blockquote&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;p&gt;Nogle gange tager loven fejl, nogle gange er det enkeltindivider, der har adgang til viden, som vælter et større system. I disse tilfælde er det vigtigt, at der er et privatliv og en grænse for statens indtrængen. Hvis du mangler bevis for dette, kan jeg anbefale at &lt;a href=&quot;https://www.theguardian.com/world/2013/jun/09/edward-snowden-nsa-whistleblower-surveillance&quot; target=&quot;_blank&quot;&gt;læse denne artikel om Edward Snowden af The Guardian&lt;/a&gt;.&lt;/p&gt;
+    &lt;p&gt;Nogle gange tager loven fejl, nogle gange er det enkeltindivider, der har adgang til viden, som SKAL vælte et større system, for at sandheden og et mere retfærdigt system kan vinde frem. I disse tilfælde er det vigtigt, at der er et privatliv og en grænse for statens indtrængen. Det er en såkaldt balance mellem individets privatliv og overvågning, der gør, at staten ikke får for stor en magt. &lt;br /&gt; Hvis du mangler bevis for dette, kan jeg anbefale at &lt;a href=&quot;https://www.theguardian.com/world/2013/jun/09/edward-snowden-nsa-whistleblower-surveillance&quot; target=&quot;_blank&quot;&gt;læse denne artikel om Edward Snowden af The Guardian&lt;/a&gt;.&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
     &lt;p&gt;Et andet spørgsmål:&lt;/p&gt;
   &lt;/li&gt;
-  &lt;li&gt;Har du ret til at være utro?&lt;/li&gt;
+  &lt;li&gt;Har du ret til at være utro, eller har din stat ret til at gøre din kæreste opmærksom på det, hvis de har data, der kan bevise det?&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
