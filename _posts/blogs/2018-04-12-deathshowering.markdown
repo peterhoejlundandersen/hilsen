@@ -1,7 +1,7 @@
 ---
 layout: blog
-title: "Døde dyr"
-desc: "Se hvor hurtigt det går i Danmark"
+title: "Døde dyr i Danmark"
+desc: "Se hvor hurtigt det går"
 category: blogs
 jquery: "true"
 jsfile: "deathshowering"
@@ -35,18 +35,20 @@ Antal mennesker kommer fra [Danmarks Statistik **Dødsfald 2016**](https://www.d
 
 #### Hvor mange sekunder?
 
-31.557.600 (60x60x24x365,25)
+Antal sekunder på et år:  `60 * 60 * 24 * 365,25 = 31.557.600`
 
 Gennemsnitligt:
 
-> Hvert 0,310 sekund bliver en kylling slagtet (31.557.600/101.594.600)
+> Hvert 0,310 sekund bliver en kylling slagtet - `31.557.600 / 101.594.600`
 
-> Hvert 1,719 sekund bliver en gris slagtet (31.557.600/18.356.500)
+> Hvert 1,719 sekund bliver en gris slagtet - `31.557.600 / 18.356.500`
 
-> Hvert 63.649 sekund bliver et kvæg slagtet (31.557.600/495.800)
+> Hvert 63.649 sekund bliver et kvæg slagtet - `31.557.600 / 495.800`
 
-> Hvert 10 minut (597 sekunder) dør et menneske (31.557.600/52.824)
+> Hvert 10 minut (597 sekunder) dør et menneske - `31.557.600 / 52.824`
 
+{: .small }
+Vær venlig at tage kontakt, hvis det ikke passser, eller hvis, at der er noget, som jeg har overset.
 
 {: style="overflow:hidden"}
 [Luk](#){: .js-open-target .float-right data-target="sourceFrom"}

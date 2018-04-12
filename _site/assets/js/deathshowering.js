@@ -1,13 +1,28 @@
-// Once jQuery is ready, we bounce a ball and
-// set a random timeout period to start the
-// next bouncing ball.
+// CreatingAnimal("cows", 495800);
+// CreatingAnimal("chickens", 101777100);
+// CreatingAnimal("humans", 53261);
 $(document).ready(function() {
   openTarget();
-  Showering("pigs", 18356500);
-  Showering("cows", 495800);
-  Showering("chickens", 101777100);
-  Showering("humans", 53261);
+  // setInterval(function() {
+  //   CreatingAnimal("pigs");
+  //   console.log("PIG " + getInterval(+ 18356500));
+  // }, getInterval(18356500));
+  setInterval(function() {
+    CreatingAnimal("cows");
+    console.log("COW " + getInterval(+ 495800));
+  }, getInterval(495800));
+  // setInterval(function() {
+  //   CreatingAnimal("chickens");
+  //   console.log("CHICKEN" + getInterval(+ 101777100));
+  // }, getInterval(101777100));
 });
+
+function getInterval(nr_of_ani_year) {
+  SECONS_PER_YEAR = 31557600;
+  seconds_for_each_ani = SECONS_PER_YEAR / nr_of_ani_year;
+  seconds_thou = seconds_for_each_ani * 1000;
+  return seconds_thou;
+}
 
 function openTarget() {
   btns = document.querySelectorAll('.js-open-target');
@@ -24,25 +39,17 @@ function openTarget() {
   });
 }
 
-function bounceNextBall(type, sec) {
-  seconds = 31557600 / sec;
-  seconds = seconds * 1000;
-  var $div = startBounceAnimation(type);
-  setTimeout(bounceNextBall, seconds);
-}
-function Showering(type, sec) {
-  bounceNextBall(type, sec);
+function CreatingAnimal(type) {
+  var $container = $("#container");
+  var $div = createBall("100px", "black", type); // Animal type in the end here
+  $div.appendTo($container);
 }
 
-
-// Create a <div> that will be the bouncing
-// ball.
-function createBall(left, top, size, color, animal_type) {
+// Create a <div> 
+function createBall(size, color, animal_type) {
   return $('<div>' + animal_type + '</div>')
-    .css("background-color", "black")
+    .css("background-color", color)
     .css("color", "white")
-    .css("left", left)
-    .css("top", top)
     .css("width", size)
     .css("height", size)
     .css("border-radius", size / 2);
