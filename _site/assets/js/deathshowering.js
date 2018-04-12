@@ -3,18 +3,18 @@
 // CreatingAnimal("humans", 53261);
 $(document).ready(function() {
   openTarget();
-  // setInterval(function() {
-  //   CreatingAnimal("pigs");
-  //   console.log("PIG " + getInterval(+ 18356500));
-  // }, getInterval(18356500));
   setInterval(function() {
-    CreatingAnimal("cows");
-    console.log("COW " + getInterval(+ 495800));
-  }, getInterval(495800));
+    CreatingAnimal("gris");
+    console.log("Gris " + getInterval(+ 18356500));
+  }, getInterval(18356500));
   // setInterval(function() {
-  //   CreatingAnimal("chickens");
-  //   console.log("CHICKEN" + getInterval(+ 101777100));
-  // }, getInterval(101777100));
+  //   CreatingAnimal("Ko");
+  //   console.log("Ko " + getInterval(+ 495800));
+  // }, getInterval(495800));
+  setInterval(function() {
+    CreatingAnimal("Kylling");
+    console.log("Kylling" + getInterval(+ 101777100));
+  }, getInterval(101777100));
 });
 
 function getInterval(nr_of_ani_year) {

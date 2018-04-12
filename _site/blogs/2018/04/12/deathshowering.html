@@ -86,7 +86,59 @@
 	<hr>
 
   <div class="post-content e-content" itemprop="articleBody">
-    <p><a href="#" class="js-open-target" data-target="sourceFrom">Hvor kommer tallene fra?</a></p>
+    <style>
+body {
+  height: 10000px!important;
+}
+.site-title, header, footer, .hilsen-pagination, .blog-footer, .go-to-top {
+  display: none!important;
+}
+#container, #background {
+  position: absolute;
+  height: 10000px;
+  width: 100%;
+  left: 0; 
+  top: 0;
+  overflow: hidden;
+}
+#background {
+  z-index: 9;
+  background: rgb(139,0,255);
+  background: linear-gradient(180deg, rgba(139,0,255,1) 0%, rgba(9,9,121,1) 35%, rgba(216,242,255,1) 100%);
+}
+#container {
+  z-index: 9999;
+}
+
+#house, #hills {
+  position: absolute;
+}
+
+#hills {
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  z-index: 9;
+  min-height: 380px;
+}
+#house {
+  bottom: 50px;
+  left: 15%;
+  width: 30%;
+  min-width: 200px;
+  z-index: 99;
+}
+
+/* FORMEL */
+
+#back, #info {
+  position: fixed;
+
+}
+
+</style>
+
+<p><a href="#" class="js-open-target" data-target="sourceFrom">Hvor kommer tallene fra?</a></p>
 
 <div id="sourceFrom" class="blue-border d-none mb-4">
 
@@ -177,6 +229,14 @@
 
 </div>
 
+<div id="background">
+
+  <p><img src="/assets/blogs/animals/house.png" alt="house and flagstang" id="house" /></p>
+
+  <p><img src="/assets/blogs/animals/hills.png" alt="hills" id="hills" /></p>
+
+</div>
+
 <div id="container">
  
 </div>
@@ -232,7 +292,7 @@
 
 </footer>
 
-    <a style="display: block; text-align: center" href="#">Gå til top</a>
+    <a class="go-to-top" style="display: block; text-align: center" href="#">Gå til top</a>
   </div>
 </article>
 

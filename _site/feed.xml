@@ -1,4 +1,56 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-04-12T12:38:37+02:00</updated><id>http://localhost:4000/</id><title type="html">Hilsen IT</title><subtitle>Designer hjemmesider med et sikkert fundament i Ruby on Rails, Jekyll og Angular</subtitle><entry><title type="html">Døde dyr i Danmark</title><link href="http://localhost:4000/blogs/2018/04/12/deathshowering.html" rel="alternate" type="text/html" title="Døde dyr i Danmark" /><published>2018-04-12T00:00:00+02:00</published><updated>2018-04-12T00:00:00+02:00</updated><id>http://localhost:4000/blogs/2018/04/12/deathshowering</id><content type="html" xml:base="http://localhost:4000/blogs/2018/04/12/deathshowering.html">&lt;p&gt;&lt;a href=&quot;#&quot; class=&quot;js-open-target&quot; data-target=&quot;sourceFrom&quot;&gt;Hvor kommer tallene fra?&lt;/a&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-04-12T14:05:47+02:00</updated><id>http://localhost:4000/</id><title type="html">Hilsen IT</title><subtitle>Designer hjemmesider med et sikkert fundament i Ruby on Rails, Jekyll og Angular</subtitle><entry><title type="html">Døde dyr i Danmark</title><link href="http://localhost:4000/blogs/2018/04/12/deathshowering.html" rel="alternate" type="text/html" title="Døde dyr i Danmark" /><published>2018-04-12T00:00:00+02:00</published><updated>2018-04-12T00:00:00+02:00</updated><id>http://localhost:4000/blogs/2018/04/12/deathshowering</id><content type="html" xml:base="http://localhost:4000/blogs/2018/04/12/deathshowering.html">&lt;style&gt;
+body {
+  height: 10000px!important;
+}
+.site-title, header, footer, .hilsen-pagination, .blog-footer, .go-to-top {
+  display: none!important;
+}
+#container, #background {
+  position: absolute;
+  height: 10000px;
+  width: 100%;
+  left: 0; 
+  top: 0;
+  overflow: hidden;
+}
+#background {
+  z-index: 9;
+  background: rgb(139,0,255);
+  background: linear-gradient(180deg, rgba(139,0,255,1) 0%, rgba(9,9,121,1) 35%, rgba(216,242,255,1) 100%);
+}
+#container {
+  z-index: 9999;
+}
+
+#house, #hills {
+  position: absolute;
+}
+
+#hills {
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  z-index: 9;
+  min-height: 380px;
+}
+#house {
+  bottom: 50px;
+  left: 15%;
+  width: 30%;
+  min-width: 200px;
+  z-index: 99;
+}
+
+/* FORMEL */
+
+#back, #info {
+  position: fixed;
+
+}
+
+&lt;/style&gt;
+
+&lt;p&gt;&lt;a href=&quot;#&quot; class=&quot;js-open-target&quot; data-target=&quot;sourceFrom&quot;&gt;Hvor kommer tallene fra?&lt;/a&gt;&lt;/p&gt;
 
 &lt;div id=&quot;sourceFrom&quot; class=&quot;blue-border d-none mb-4&quot;&gt;
 
@@ -89,9 +141,17 @@
 
 &lt;/div&gt;
 
+&lt;div id=&quot;background&quot;&gt;
+
+  &lt;p&gt;&lt;img src=&quot;/assets/blogs/animals/house.png&quot; alt=&quot;house and flagstang&quot; id=&quot;house&quot; /&gt;&lt;/p&gt;
+
+  &lt;p&gt;&lt;img src=&quot;/assets/blogs/animals/hills.png&quot; alt=&quot;hills&quot; id=&quot;hills&quot; /&gt;&lt;/p&gt;
+
+&lt;/div&gt;
+
 &lt;div id=&quot;container&quot;&gt;
  
-&lt;/div&gt;</content><author><name></name></author><category term="blogs" /><summary type="html">Hvor kommer tallene fra?</summary></entry><entry><title type="html">Dråben, der fik bægeret til at flyde over - #deletefacebook</title><link href="http://localhost:4000/blogs/2018/04/03/hvorfor-jeg-slettede-min-facebook.html" rel="alternate" type="text/html" title="Dråben, der fik bægeret til at flyde over - #deletefacebook" /><published>2018-04-03T00:00:00+02:00</published><updated>2018-04-03T00:00:00+02:00</updated><id>http://localhost:4000/blogs/2018/04/03/hvorfor-jeg-slettede-min-facebook</id><content type="html" xml:base="http://localhost:4000/blogs/2018/04/03/hvorfor-jeg-slettede-min-facebook.html">&lt;div class=&quot;js-hilsen-list facebook-blog&quot;&gt;
+&lt;/div&gt;</content><author><name></name></author><category term="blogs" /><summary type="html"></summary></entry><entry><title type="html">Dråben, der fik bægeret til at flyde over - #deletefacebook</title><link href="http://localhost:4000/blogs/2018/04/03/hvorfor-jeg-slettede-min-facebook.html" rel="alternate" type="text/html" title="Dråben, der fik bægeret til at flyde over - #deletefacebook" /><published>2018-04-03T00:00:00+02:00</published><updated>2018-04-03T00:00:00+02:00</updated><id>http://localhost:4000/blogs/2018/04/03/hvorfor-jeg-slettede-min-facebook</id><content type="html" xml:base="http://localhost:4000/blogs/2018/04/03/hvorfor-jeg-slettede-min-facebook.html">&lt;div class=&quot;js-hilsen-list facebook-blog&quot;&gt;
 	&lt;!-- bliver udfyldt med en indholdsbetegnelse af js --&gt;
 &lt;/div&gt;
 

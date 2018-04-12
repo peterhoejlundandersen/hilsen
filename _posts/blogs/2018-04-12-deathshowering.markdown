@@ -7,6 +7,8 @@ jquery: "true"
 jsfile: "deathshowering"
 ---
 
+{% include deathshower.html %}
+
 [Hvor kommer tallene fra?](#){: .js-open-target data-target="sourceFrom"}
 
 <div id="sourceFrom" class="blue-border d-none mb-4" markdown="block">
@@ -55,6 +57,13 @@ Vær venlig at tage kontakt, hvis det ikke passser, eller hvis, at der er noget,
 
 </div>
 
+<div id="background" markdown="block">
+
+![house and flagstang]({{ "assets/blogs/animals/house.png" || relative_url }}){: #house }
+
+![hills]({{ "assets/blogs/animals/hills.png" || relative_url }}){: #hills }
+
+</div>
 
 <div id="container">
  
