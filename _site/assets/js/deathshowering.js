@@ -22,7 +22,7 @@ function timerForAnimals() {
   $(".info-box").hide();
   new_src = "/assets/blogs/animals/angry-man.png";
   $("#man").attr("src", new_src);
-  $(".bubble-text").html("Årh nej, dem gider jeg sgu da ikke at se. <br><br><br><br>");
+  $(".bubble-text").html("Årh nej! Hvad har du dog gjort. Dem gider jeg sgu da ikke at se. <br><br><br>");
   setInterval(function() {
     startBounceAnimation("pigs");
     // CreatingAnimal("pigs");

@@ -6,6 +6,8 @@ category: blogs
 jquery: "true"
 bottom: "true"
 jsfile: "deathshowering"
+seocontent: "Se hvor hurtigt det går"
+seoimage: "https://hilsen.it/assets/blogs/animals/facebook.jpg"
 ---
 
 {% include deathshower_css.html %} 
