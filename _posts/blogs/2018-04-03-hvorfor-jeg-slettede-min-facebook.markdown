@@ -396,7 +396,7 @@ Hvad vil det medføre, hvis man forestillede sig, at den data på ansigter fra F
 
 * > *If the machine of government is of such a nature that it requires you to be the agent of injustice to another, then, I say, break the law.*
 
-* Nogle gange tager loven fejl, nogle gange er det enkeltindivider, der har adgang til viden, som SKAL vælte et større system, for at sandheden og et mere retfærdigt system kan vinde frem. I disse tilfælde er det vigtigt, at der er et privatliv og en grænse for statens indtrængen. Det er en såkaldt balance mellem individets privatliv og overvågning, der gør, at staten ikke får for stor en magt. <br> Hvis du mangler bevis for dette, kan jeg anbefale at [læse denne artikel om Edward Snowden af The Guardian](https://www.theguardian.com/world/2013/jun/09/edward-snowden-nsa-whistleblower-surveillance){:target="_blank"}.
+* Nogle gange tager loven fejl, nogle gange er det enkeltindivider, der har adgang til viden, som SKAL vælte et større system, for at sandheden og et mere retfærdigt system kan vinde frem. I disse tilfælde er det vigtigt, at der er et privatliv og en grænse for statens indtrængen. Det er en balance mellem individets privatliv og overvågning, der gør, at staten ikke får for stor en magt. <br> Hvis du mangler bevis for dette, kan jeg anbefale at [læse denne artikel om Edward Snowden af The Guardian](https://www.theguardian.com/world/2013/jun/09/edward-snowden-nsa-whistleblower-surveillance){:target="_blank"}.
 
 * Et andet spørgsmål: 
 
