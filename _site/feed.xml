@@ -1,4 +1,226 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-04-13T16:10:51+02:00</updated><id>http://localhost:4000/</id><title type="html">Hilsen IT</title><subtitle>Designer hjemmesider med et sikkert fundament i Ruby on Rails, Jekyll og Angular</subtitle><entry><title type="html">Dråben, der fik bægeret til at flyde over - #deletefacebook</title><link href="http://localhost:4000/blogs/2018/04/03/hvorfor-jeg-slettede-min-facebook.html" rel="alternate" type="text/html" title="Dråben, der fik bægeret til at flyde over - #deletefacebook" /><published>2018-04-03T00:00:00+02:00</published><updated>2018-04-03T00:00:00+02:00</updated><id>http://localhost:4000/blogs/2018/04/03/hvorfor-jeg-slettede-min-facebook</id><content type="html" xml:base="http://localhost:4000/blogs/2018/04/03/hvorfor-jeg-slettede-min-facebook.html">&lt;div class=&quot;js-hilsen-list facebook-blog&quot;&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-04-13T16:11:24+02:00</updated><id>http://localhost:4000/</id><title type="html">Hilsen IT</title><subtitle>Designer hjemmesider med et sikkert fundament i Ruby on Rails, Jekyll og Angular</subtitle><entry><title type="html">Døde dyr i Danmark</title><link href="http://localhost:4000/blogs/2018/04/12/deathshowering.html" rel="alternate" type="text/html" title="Døde dyr i Danmark" /><published>2018-04-12T00:00:00+02:00</published><updated>2018-04-12T00:00:00+02:00</updated><id>http://localhost:4000/blogs/2018/04/12/deathshowering</id><content type="html" xml:base="http://localhost:4000/blogs/2018/04/12/deathshowering.html">&lt;style&gt;
+body {
+  height: 10000px!important;
+}
+.site-title, header, footer, .hilsen-pagination, .blog-footer, .go-to-top {
+  display: none!important;
+}
+#container, #background {
+  position: absolute;
+  width: 100%;
+  left: 0; 
+  overflow: hidden;
+}
+
+#background {
+  top: 0;
+  z-index: 9;
+  height: 10000px;
+  background: rgb(139,0,255);
+  background: linear-gradient(180deg, rgba(139,0,255,1) 0%, rgba(9,9,121,1) 35%, rgba(216,242,255,1) 100%);
+}
+#container {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -moz-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  z-index: 9999;
+  height: auto;
+  bottom: 0px!important;
+}
+
+.bottom-of-page {
+  position: absolute;
+  bottom: 0;
+}
+#submit {
+  cursor: pointer;
+  padding: 10px;
+  display: inline-block;
+  width: 100px;
+  background-color: red;
+  color: white;
+  text-transform: uppercase;
+  font-size: 20px;
+}
+.mols-bjerge {
+  position: absolute;
+  bottom: 60vh;
+  right: 10%;
+  z-index: 9999;
+}
+
+.info-box {
+  position: fixed;
+  width: 40%;
+  left: 50%;
+  top: 30%;
+  text-align: center;
+  margin-left: -250px;
+  z-index: 9999999999;
+  background-color: white;
+  border: 2px solid black;
+}
+.info-box h2 {
+  padding: 20px;
+}
+.info-box p {
+  padding: 0px 20px;
+  margin: 10px!important;
+}
+#house, #hills, #trees, #man {
+  position: absolute;
+}
+
+#man {
+  bottom: 140px;
+  width: 40px;
+  left: 20px;
+  z-index: 999;
+  
+}
+
+.speech-bubble {
+    background-color: rgba(250,250,250,0.7);
+    border: 1px solid white;
+    border-radius: 5px;
+    width: 200px;
+    text-align: center;
+    padding: 5px;
+    bottom: 3px;
+    left: 28px;
+    z-index: 9990;
+    position: absolute;
+}
+
+.speech-bubble .arrow {
+    border-style: solid;
+    position: absolute;
+}
+ 
+.bottom {
+    border-color: transparent transparent white transparent;
+    border-width: 0px 12px 12px 12px;
+    top: -12px;
+}
+
+#trees {
+  right: 10%;
+  bottom: 100px;
+  width: 30%!important;
+  z-index: 9999;
+}
+#hills {
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  z-index: 9;
+  min-height: 380px;
+}
+#house {
+  bottom: 50px;
+  left: 15%;
+  width: 30%;
+  min-width: 200px;
+  z-index: 99;
+}
+
+.death-info, .back-url {
+  position: fixed;
+  bottom: 100vh;
+  margin-bottom: -80px;
+  z-index: 99999999;
+  color: white!important;
+  font-size: 30px!important;
+  width: 45px;
+  text-align: center;
+}
+.back-url {
+  left: 0px;
+  height: 0;
+  border-top: 25px solid transparent!important;
+  border-bottom: 25px solid transparent!important;
+  border-right: 25px solid white!important;
+
+}
+.death-info {
+  left: 100px;
+  border: 2px solid white!important;
+  border-radius: 100%;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  -o-border-radius: 100%;
+}
+.death-info:hover {
+  border: 2px solid white!important;
+  color: white!important;
+}
+#container .back-url {
+  border-bottom: 25px solid transparent!important;
+}
+
+/* FORMEL */
+
+#back, #info {
+  position: fixed;
+
+}
+
+@media screen and (max-width: 700px) {
+  .info-box {
+    position: fixed;
+    width: 100%;
+    left: 0%;
+    top: 20%;
+    text-align: center;
+    margin-left: 0px!important;
+    z-index: 9999999999;
+    background-color: white;
+    border: 2px solid black;
+  }
+}
+
+&lt;/style&gt;
+
+&lt;div id=&quot;background&quot;&gt;
+
+  &lt;p&gt;&lt;img src=&quot;/assets/blogs/animals/house.png&quot; alt=&quot;house and flagstang&quot; id=&quot;house&quot; /&gt;&lt;/p&gt;
+
+  &lt;p&gt;&lt;img src=&quot;/assets/blogs/animals/hills.png&quot; alt=&quot;hills&quot; id=&quot;hills&quot; /&gt;&lt;/p&gt;
+
+  &lt;p&gt;&lt;img src=&quot;/assets/blogs/animals/trees.png&quot; alt=&quot;trees&quot; id=&quot;trees&quot; /&gt;&lt;/p&gt;
+
+  &lt;div class=&quot;speech-bubble&quot;&gt;
+  &lt;div class=&quot;arrow bottom right&quot;&gt;&lt;/div&gt;
+  &lt;p class=&quot;bubble-text&quot;&gt;Elsker du ikke bare kæledyr? &lt;br /&gt;Der er ikke noget som at kælde med en lille hundehvalp.&lt;/p&gt;
+&lt;/div&gt;
+
+  &lt;p&gt;&lt;img src=&quot;/assets/blogs/animals/man.png&quot; alt=&quot;man&quot; id=&quot;man&quot; /&gt;&lt;/p&gt;
+
+  &lt;div class=&quot;mols-bjerge&quot;&gt;Mols Bjerge &amp;#8595;&lt;/div&gt;
+
+  &lt;div id=&quot;container&quot;&gt;
+
+    &lt;p&gt;&lt;a href=&quot;https://hilsen.it&quot; class=&quot;back-url&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+
+    &lt;p&gt;&lt;a href=&quot;/deathinfo.html&quot; target=&quot;_blank&quot; class=&quot;death-info&quot; data-target=&quot;sourceFrom&quot;&gt;i&lt;/a&gt;&lt;/p&gt;
+
+    &lt;div class=&quot;info-box&quot;&gt;
+      &lt;h2 class=&quot;text-center&quot;&gt;Danmark er et yndigt land&lt;/h2&gt;
+      &lt;p&gt;Der bor mange gode mennesker, men nogle gange glemmer vi hvor mange dyr, der også betræder den danske jord.&lt;br /&gt;Dette er et forsøg på at vise mængden af dyr, der forlader livet i Danmark.&lt;/p&gt;
+      &lt;p&gt;&lt;input type=&quot;submit&quot; id=&quot;submit&quot; value=&quot;Start&quot; /&gt;&lt;/p&gt;
+    &lt;/div&gt;
+
+  &lt;/div&gt;
+
+  &lt;h2 style=&quot;visibility: hidden&quot; class=&quot;bottom-of-page&quot; id=&quot;bottom&quot;&gt;bottom&lt;/h2&gt;
+
+&lt;/div&gt;</content><author><name></name></author><category term="blogs" /><summary type="html"></summary></entry><entry><title type="html">Dråben, der fik bægeret til at flyde over - #deletefacebook</title><link href="http://localhost:4000/blogs/2018/04/03/hvorfor-jeg-slettede-min-facebook.html" rel="alternate" type="text/html" title="Dråben, der fik bægeret til at flyde over - #deletefacebook" /><published>2018-04-03T00:00:00+02:00</published><updated>2018-04-03T00:00:00+02:00</updated><id>http://localhost:4000/blogs/2018/04/03/hvorfor-jeg-slettede-min-facebook</id><content type="html" xml:base="http://localhost:4000/blogs/2018/04/03/hvorfor-jeg-slettede-min-facebook.html">&lt;div class=&quot;js-hilsen-list facebook-blog&quot;&gt;
 	&lt;!-- bliver udfyldt med en indholdsbetegnelse af js --&gt;
 &lt;/div&gt;
 

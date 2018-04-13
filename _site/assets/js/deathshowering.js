@@ -1,60 +1,109 @@
-// Once jQuery is ready, we bounce a ball and
-// set a random timeout period to start the
-// next bouncing ball.
+// CreatingAnimal("cows", 495800);
+// CreatingAnimal("chickens", 101777100);
+// CreatingAnimal("humans", 53261);
 $(document).ready(function() {
-  openTarget();
-  Showering("pigs", 18356500);
-  Showering("cows", 495800);
-  Showering("chickens", 101777100);
-  Showering("humans", 53261);
+  only_once = true;
+  $(document).keydown(function(ev) {
+    if (ev.keyCode === 13 && only_once) { 
+      timerForAnimals();
+      only_once = false;
+    }
+  });
+  $("#submit").on("click", function(e) {
+    if (only_once) {
+      e.preventDefault();
+      timerForAnimals();
+      only_once = false;
+    }
+  });
 });
 
-function openTarget() {
-  btns = document.querySelectorAll('.js-open-target');
-  Array.from(btns).forEach(function(btn) {
-    btn.addEventListener('click', function(e) {
-      e.preventDefault();
-      div = document.getElementById(btn.dataset.target);
-      if (div.classList.contains('d-none')) {
-        div.classList.remove('d-none');
-      } else {
-        div.classList.add('d-none');
-      }
-    });
-  });
+function timerForAnimals() {
+  $(".info-box").hide();
+  new_src = "/assets/blogs/animals/angry-man.png";
+  $("#man").attr("src", new_src);
+  $(".bubble-text").html("Årh nej, dem gider jeg sgu da ikke at se. <br><br><br><br>");
+  setInterval(function() {
+    startBounceAnimation("pigs");
+    // CreatingAnimal("pigs");
+    console.log("PIG " + getInterval(+ 18356500));
+  }, getInterval(18356500));
+  setInterval(function() {
+    startBounceAnimation("cows");
+    console.log("COW " + getInterval(+ 495800));
+  }, getInterval(495800));
+  setInterval(function() {
+    startBounceAnimation("chickens");
+    // CreatingAnimal("chickens");
+    console.log("CHICKEN" + getInterval(+ 101777100));
+  }, getInterval(101777100));
+  setInterval(function() {
+    startBounceAnimation("coffin");
+  }, getInterval(52824));
+  setTimeout(function() {
+    $(".speech-bubble").hide();
+  }, 3000);
 }
 
-function bounceNextBall(type, sec) {
-  seconds = 31557600 / sec;
-  seconds = seconds * 1000;
-  var $div = startBounceAnimation(type);
-  setTimeout(bounceNextBall, seconds);
-}
-function Showering(type, sec) {
-  bounceNextBall(type, sec);
+function getInterval(nr_of_ani_year) {
+  SECONS_PER_YEAR = 31557600;
+  seconds_for_each_ani = SECONS_PER_YEAR / nr_of_ani_year;
+  seconds_thou = seconds_for_each_ani * 1000;
+  return seconds_thou;
 }
 
+function CreatingAnimal(type) {
+  var $container = $("#container");
+  var $div = createBall("100px", "black", type); // Animal type in the end here
+  $div.appendTo($container);
+}
 
-// Create a <div> that will be the bouncing
-// ball.
+// Create a <div> 
 function createBall(left, top, size, color, animal_type) {
-  return $('<div>' + animal_type + '</div>')
-    .css("background-color", "black")
+  animal_image_url = getAnimalImage(animal_type);
+  animal = $('<div><img src="' + animal_image_url + '"/></div>');
+  animal_size = getAnimalSize(animal_type);
+  return animal.css("background-color", "transparent")
+    .css("position", "relative")
     .css("color", "white")
-    .css("left", left)
-    .css("top", top)
-    .css("width", size)
-    .css("height", size)
+    .css("width", animal_size)
     .css("border-radius", size / 2);
 }
 
-function getAnimal(type) {
-  if (type == "pig") {
-    "assets/blogs/animals/pig.jpg";
-  } else if (type == "cow") {
-    "assets/blogs/animals/cow.jpg";
+function leftOrRight() {
+  if (getRandomBool) {
+    return "left";
   } else {
-    "assets/blogs/animals/chicken.jpg";
+    return "right";
+  }
+}
+
+function getAnimalSize(type) {
+  switch (type) {
+    case "pigs": 
+      size = getRandomInt(150, 200);
+      break;
+    case "cows":
+      size = getRandomInt(220, 270);
+      break;
+    case "coffin":
+      size = getRandomInt(200, 220);
+      break;
+    default:
+      size = getRandomInt(20, 50);
+  }
+  return size;
+}
+
+function getAnimalImage(type) {
+  if (type == "pigs") {
+    return '/assets/blogs/animals/pig.png';
+  } else if (type == "cows") {
+    return '/assets/blogs/animals/cow.png';
+  } else if (type == "coffin") {
+    return '/assets/blogs/animals/coffin.png';
+  } else {
+    return '/assets/blogs/animals/chicken.png';
   }
 }
 
@@ -73,7 +122,7 @@ function getRandomPath($container) {
   var ltr = getRandomBool();
   
   // The diameter will range from 10 to 50 pixels.
-  var size = getRandomInt(10, 50);
+  var size = getRandomInt(40, 50);
   
   // We'll return an object with parameters that
   // describe the ball and its bounce.
@@ -85,7 +134,7 @@ function getRandomPath($container) {
     left2: getRandomInt(0, $container.width() - size),
     top: getRandomInt(-$container.height() * 2,
       $container.height() / 2 - size),
-    duration: getRandomInt(500, 2000)
+    duration: getRandomInt(4555, 6000)
   };
 }
 
@@ -95,21 +144,37 @@ function getRandomPath($container) {
 function startBounceAnimation(type) {
   var $container = $("#container");
   var path = getRandomPath($container);
+
   var $div = createBall(path.left1, path.top, path.size, path.color, type); // Animal type in the end here
   $div.appendTo($container);
-  $div.animate({
-    "left": path.left2
-  }, {
-    duration: path.duration,
-    easing: 'swing'
-  });
-  $div.animate({
-    "top": $container.height() - $div.height()
-  }, {
-    duration: path.duration,
-    easing: 'easeOutBounce',
-    queue: false
-  });
+  // $div.animate({
+  //   "left": path.left2
+  // }, {
+  //   duration: path.duration,
+  //   easing: 'swing'
+  // });
+  // $div.animate({
+  //   "bottom": $container.height() - $div.height()
+  // }, {
+  //   duration: path.duration,
+  //   easing: 'easeOutBounce',
+  //   queue: false
+  // });
   return $div;
 }
 
+// Maybe for something else
+function openTarget() {
+  btns = document.querySelectorAll('.js-open-target');
+  Array.from(btns).forEach(function(btn) {
+    btn.addEventListener('click', function(e) {
+      e.preventDefault();
+      div = document.getElementById(btn.dataset.target);
+      if (div.classList.contains('d-none')) {
+        div.classList.remove('d-none');
+      } else {
+        div.classList.add('d-none');
+      }
+    });
+  });
+}

@@ -74,7 +74,7 @@ a {
     border-bottom: 1px solid blue!important;
 }
 a:hover {
-    border-bottom: 0px solid blue!important;
+    border-bottom: 1px solid transparent!important;
     color: blue!important;
 }
 
