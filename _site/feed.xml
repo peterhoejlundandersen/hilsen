@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-04-12T14:05:47+02:00</updated><id>http://localhost:4000/</id><title type="html">Hilsen IT</title><subtitle>Designer hjemmesider med et sikkert fundament i Ruby on Rails, Jekyll og Angular</subtitle><entry><title type="html">Døde dyr i Danmark</title><link href="http://localhost:4000/blogs/2018/04/12/deathshowering.html" rel="alternate" type="text/html" title="Døde dyr i Danmark" /><published>2018-04-12T00:00:00+02:00</published><updated>2018-04-12T00:00:00+02:00</updated><id>http://localhost:4000/blogs/2018/04/12/deathshowering</id><content type="html" xml:base="http://localhost:4000/blogs/2018/04/12/deathshowering.html">&lt;style&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-04-13T12:37:11+02:00</updated><id>http://localhost:4000/</id><title type="html">Hilsen IT</title><subtitle>Designer hjemmesider med et sikkert fundament i Ruby on Rails, Jekyll og Angular</subtitle><entry><title type="html">Døde dyr i Danmark</title><link href="http://localhost:4000/blogs/2018/04/12/deathshowering.html" rel="alternate" type="text/html" title="Døde dyr i Danmark" /><published>2018-04-12T00:00:00+02:00</published><updated>2018-04-12T00:00:00+02:00</updated><id>http://localhost:4000/blogs/2018/04/12/deathshowering</id><content type="html" xml:base="http://localhost:4000/blogs/2018/04/12/deathshowering.html">&lt;style&gt;
 body {
   height: 10000px!important;
 }
@@ -7,25 +7,68 @@ body {
 }
 #container, #background {
   position: absolute;
-  height: 10000px;
   width: 100%;
   left: 0; 
-  top: 0;
   overflow: hidden;
 }
+
 #background {
   z-index: 9;
+  height: 10000px;
   background: rgb(139,0,255);
   background: linear-gradient(180deg, rgba(139,0,255,1) 0%, rgba(9,9,121,1) 35%, rgba(216,242,255,1) 100%);
 }
 #container {
   z-index: 9999;
+  height: auto;
+  bottom: 0px;
+}
+#submit {
+  cursor: pointer;
+  padding: 10px;
+  display: inline-block;
+  width: 100px;
+  background-color: red;
+  color: white;
+  text-transform: uppercase;
+  font-size: 20px;
+}
+.mols-bjerge {
+  position: absolute;
+  bottom: 60vh;
+  right: 10%;
+  z-index: 9999;
 }
 
-#house, #hills {
+.info-box {
+  position: fixed;
+  width: 500px;
+  left: 50%;
+  top: 30%;
+  text-align: center;
+  margin-left: -250px;
+  z-index: 9999999999;
+  background-color: white;
+  border: 2px solid black;
+}
+.info-box h2 {
+  padding: 20px;
+}
+.info-box p {
+  padding: 0px 20px;
+  margin: 10px!important;
+}
+#house, #hills, #trees {
   position: absolute;
 }
 
+
+#trees {
+  right: 10%;
+  bottom: 100px;
+  width: 30%!important;
+  z-index: 9999;
+}
 #hills {
   width: 100%;
   left: 0;
@@ -41,6 +84,40 @@ body {
   z-index: 99;
 }
 
+.death-info, .back-url {
+  position: fixed;
+  bottom: 100vh;
+  margin-bottom: -80px;
+  z-index: 99999999;
+  color: white!important;
+  font-size: 30px!important;
+  width: 45px;
+  text-align: center;
+}
+.back-url {
+  left: 0px;
+  height: 0;
+  border-top: 25px solid transparent!important;
+  border-bottom: 25px solid transparent!important;
+  border-right: 25px solid white!important;
+
+}
+.death-info {
+  left: 100px;
+  border: 2px solid white!important;
+  border-radius: 100%;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  -o-border-radius: 100%;
+}
+.death-info:hover {
+  border: 2px solid white!important;
+  color: white!important;
+}
+#container .back-url {
+  border-bottom: 25px solid transparent!important;
+}
+
 /* FORMEL */
 
 #back, #info {
@@ -50,107 +127,30 @@ body {
 
 &lt;/style&gt;
 
-&lt;p&gt;&lt;a href=&quot;#&quot; class=&quot;js-open-target&quot; data-target=&quot;sourceFrom&quot;&gt;Hvor kommer tallene fra?&lt;/a&gt;&lt;/p&gt;
-
-&lt;div id=&quot;sourceFrom&quot; class=&quot;blue-border d-none mb-4&quot;&gt;
-
-  &lt;h4 id=&quot;dyr&quot;&gt;Dyr&lt;/h4&gt;
-
-  &lt;p&gt;Antal slagtede dyr kommer fra en opgørelse af &lt;a href=&quot;https://www.dst.dk/da/Statistik/emner/erhvervslivets-sektorer/landbrug-gartneri-og-skovbrug/animalsk-produktion&quot; target=&quot;_blank&quot;&gt;Danmarks Statistik &lt;strong&gt;Slagtninger og eksport&lt;/strong&gt;&lt;/a&gt;. Jeg valgte året 2016, for at gøre det så nutidigt som muligt.*&lt;/p&gt;
-
-  &lt;p class=&quot;small&quot;&gt;Enhed: 1.000 stk.&lt;/p&gt;
-
-  &lt;table&gt;
-    &lt;thead&gt;
-      &lt;tr&gt;
-        &lt;th style=&quot;text-align: left&quot;&gt; &lt;/th&gt;
-        &lt;th style=&quot;text-align: center&quot;&gt;2014&lt;/th&gt;
-        &lt;th style=&quot;text-align: center&quot;&gt;2015&lt;/th&gt;
-        &lt;th style=&quot;text-align: center&quot;&gt;2016&lt;/th&gt;
-      &lt;/tr&gt;
-    &lt;/thead&gt;
-    &lt;tbody&gt;
-      &lt;tr&gt;
-        &lt;td style=&quot;text-align: left&quot;&gt;Kvæg, i alt&lt;/td&gt;
-        &lt;td style=&quot;text-align: center&quot;&gt;485,2&lt;/td&gt;
-        &lt;td style=&quot;text-align: center&quot;&gt;460,5&lt;/td&gt;
-        &lt;td style=&quot;text-align: center&quot;&gt;495,8&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-        &lt;td style=&quot;text-align: left&quot;&gt;Køer&lt;/td&gt;
-        &lt;td style=&quot;text-align: center&quot;&gt;215,5&lt;/td&gt;
-        &lt;td style=&quot;text-align: center&quot;&gt;176,1&lt;/td&gt;
-        &lt;td style=&quot;text-align: center&quot;&gt;200,3&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-        &lt;td style=&quot;text-align: left&quot;&gt;Svin, i alt&lt;/td&gt;
-        &lt;td style=&quot;text-align: center&quot;&gt;18.857,5&lt;/td&gt;
-        &lt;td style=&quot;text-align: center&quot;&gt;18.716,7&lt;/td&gt;
-        &lt;td style=&quot;text-align: center&quot;&gt;18.356,5&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-        &lt;td style=&quot;text-align: left&quot;&gt;Får og lam, I alt&lt;/td&gt;
-        &lt;td style=&quot;text-align: center&quot;&gt;80,3&lt;/td&gt;
-        &lt;td style=&quot;text-align: center&quot;&gt;80,8&lt;/td&gt;
-        &lt;td style=&quot;text-align: center&quot;&gt;77,8&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-        &lt;td style=&quot;text-align: left&quot;&gt;Fjerkræ i alt&lt;/td&gt;
-        &lt;td style=&quot;text-align: center&quot;&gt;102.994,3&lt;/td&gt;
-        &lt;td style=&quot;text-align: center&quot;&gt;95.746,9&lt;/td&gt;
-        &lt;td style=&quot;text-align: center&quot;&gt;101.777,1&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-        &lt;td style=&quot;text-align: left&quot;&gt;Kyllinger&lt;/td&gt;
-        &lt;td style=&quot;text-align: center&quot;&gt;102.941,1&lt;/td&gt;
-        &lt;td style=&quot;text-align: center&quot;&gt;95.681,4&lt;/td&gt;
-        &lt;td style=&quot;text-align: center&quot;&gt;101.594,6&lt;/td&gt;
-      &lt;/tr&gt;
-    &lt;/tbody&gt;
-  &lt;/table&gt;
-
-  &lt;h4 id=&quot;mennesker&quot;&gt;Mennesker&lt;/h4&gt;
-
-  &lt;p&gt;Antal mennesker kommer fra &lt;a href=&quot;https://www.dst.dk/da/Statistik/emner/befolkning-og-valg/doedsfald-og-middellevetid/doedsfald&quot; target=&quot;_blank&quot;&gt;Danmarks Statistik &lt;strong&gt;Dødsfald 2016&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
-
-  &lt;h4 id=&quot;hvor-mange-sekunder&quot;&gt;Hvor mange sekunder?&lt;/h4&gt;
-
-  &lt;p&gt;Antal sekunder på et år:  &lt;code class=&quot;highlighter-rouge&quot;&gt;60 * 60 * 24 * 365,25 = 31.557.600&lt;/code&gt;&lt;/p&gt;
-
-  &lt;p&gt;Gennemsnitligt:&lt;/p&gt;
-
-  &lt;blockquote&gt;
-    &lt;p&gt;Hvert 0,310 sekund bliver en kylling slagtet - &lt;code class=&quot;highlighter-rouge&quot;&gt;31.557.600 / 101.594.600&lt;/code&gt;&lt;/p&gt;
-  &lt;/blockquote&gt;
-
-  &lt;blockquote&gt;
-    &lt;p&gt;Hvert 1,719 sekund bliver en gris slagtet - &lt;code class=&quot;highlighter-rouge&quot;&gt;31.557.600 / 18.356.500&lt;/code&gt;&lt;/p&gt;
-  &lt;/blockquote&gt;
-
-  &lt;blockquote&gt;
-    &lt;p&gt;Hvert 63.649 sekund bliver et kvæg slagtet - &lt;code class=&quot;highlighter-rouge&quot;&gt;31.557.600 / 495.800&lt;/code&gt;&lt;/p&gt;
-  &lt;/blockquote&gt;
-
-  &lt;blockquote&gt;
-    &lt;p&gt;Hvert 10 minut (597 sekunder) dør et menneske - &lt;code class=&quot;highlighter-rouge&quot;&gt;31.557.600 / 52.824&lt;/code&gt;&lt;/p&gt;
-  &lt;/blockquote&gt;
-
-  &lt;p class=&quot;small&quot;&gt;Vær venlig at tage kontakt, hvis det ikke passser, eller hvis, at der er noget, som jeg har overset.&lt;/p&gt;
-
-  &lt;p style=&quot;overflow:hidden&quot;&gt;&lt;a href=&quot;#&quot; class=&quot;js-open-target float-right&quot; data-target=&quot;sourceFrom&quot;&gt;Luk&lt;/a&gt;&lt;/p&gt;
-
-&lt;/div&gt;
-
 &lt;div id=&quot;background&quot;&gt;
 
   &lt;p&gt;&lt;img src=&quot;/assets/blogs/animals/house.png&quot; alt=&quot;house and flagstang&quot; id=&quot;house&quot; /&gt;&lt;/p&gt;
 
   &lt;p&gt;&lt;img src=&quot;/assets/blogs/animals/hills.png&quot; alt=&quot;hills&quot; id=&quot;hills&quot; /&gt;&lt;/p&gt;
 
+  &lt;p&gt;&lt;img src=&quot;/assets/blogs/animals/trees.png&quot; alt=&quot;trees&quot; id=&quot;trees&quot; /&gt;&lt;/p&gt;
+
+  &lt;div class=&quot;mols-bjerge&quot;&gt;Mols Bjerge &amp;#8595;&lt;/div&gt;
+
 &lt;/div&gt;
 
 &lt;div id=&quot;container&quot;&gt;
- 
+
+  &lt;p&gt;&lt;a href=&quot;https://hilsen.it&quot; class=&quot;back-url&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+
+  &lt;p&gt;&lt;a href=&quot;/deathinfo.html&quot; target=&quot;_blank&quot; class=&quot;death-info&quot; data-target=&quot;sourceFrom&quot;&gt;i&lt;/a&gt;&lt;/p&gt;
+
+  &lt;div class=&quot;info-box&quot;&gt;
+    &lt;h2 class=&quot;text-center&quot;&gt;Danmark er et dejligt land&lt;/h2&gt;
+    &lt;p&gt;Der bor mange gode mennesker, men nogle gange glemmer vi hvor mange dyr, der også betræder den danske jord.&lt;br /&gt;Dette er et forsøg på at vise mængden af dyr, der forlader livet i Danmark.&lt;/p&gt;
+    &lt;p&gt;&lt;input type=&quot;submit&quot; id=&quot;submit&quot; value=&quot;Start&quot; /&gt;&lt;/p&gt;
+  &lt;/div&gt;
+
 &lt;/div&gt;</content><author><name></name></author><category term="blogs" /><summary type="html"></summary></entry><entry><title type="html">Dråben, der fik bægeret til at flyde over - #deletefacebook</title><link href="http://localhost:4000/blogs/2018/04/03/hvorfor-jeg-slettede-min-facebook.html" rel="alternate" type="text/html" title="Dråben, der fik bægeret til at flyde over - #deletefacebook" /><published>2018-04-03T00:00:00+02:00</published><updated>2018-04-03T00:00:00+02:00</updated><id>http://localhost:4000/blogs/2018/04/03/hvorfor-jeg-slettede-min-facebook</id><content type="html" xml:base="http://localhost:4000/blogs/2018/04/03/hvorfor-jeg-slettede-min-facebook.html">&lt;div class=&quot;js-hilsen-list facebook-blog&quot;&gt;
 	&lt;!-- bliver udfyldt med en indholdsbetegnelse af js --&gt;
 &lt;/div&gt;

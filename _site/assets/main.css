@@ -192,6 +192,9 @@ table {
 /**
  * Site header
  */
+.text-center {
+  text-align: center; }
+
 .site-header {
   min-height: 55.95px;
   position: relative; }
@@ -599,7 +602,7 @@ a {
   border-bottom: 1px solid blue !important; }
 
 a:hover {
-  border-bottom: 0px solid blue !important;
+  border-bottom: 1px solid transparent !important;
   color: blue !important; }
 
 .green-table th {

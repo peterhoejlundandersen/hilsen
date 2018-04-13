@@ -3,18 +3,24 @@
 // CreatingAnimal("humans", 53261);
 $(document).ready(function() {
   openTarget();
-  setInterval(function() {
-    CreatingAnimal("gris");
-    console.log("Gris " + getInterval(+ 18356500));
-  }, getInterval(18356500));
-  // setInterval(function() {
-  //   CreatingAnimal("Ko");
-  //   console.log("Ko " + getInterval(+ 495800));
-  // }, getInterval(495800));
-  setInterval(function() {
-    CreatingAnimal("Kylling");
-    console.log("Kylling" + getInterval(+ 101777100));
-  }, getInterval(101777100));
+  $("#submit").on("click", function(e) {
+    $(".info-box").hide();
+    e.preventDefault();
+    setInterval(function() {
+      startBounceAnimation("pigs");
+      // CreatingAnimal("pigs");
+      console.log("PIG " + getInterval(+ 18356500));
+    }, getInterval(18356500));
+    // setInterval(function() {
+    //   CreatingAnimal("cows");
+    //   console.log("COW " + getInterval(+ 495800));
+    // }, getInterval(495800));
+    setInterval(function() {
+      startBounceAnimation("chickens");
+      // CreatingAnimal("chickens");
+      console.log("CHICKEN" + getInterval(+ 101777100));
+    }, getInterval(101777100));
+  });
 });
 
 function getInterval(nr_of_ani_year) {
@@ -24,21 +30,6 @@ function getInterval(nr_of_ani_year) {
   return seconds_thou;
 }
 
-function openTarget() {
-  btns = document.querySelectorAll('.js-open-target');
-  Array.from(btns).forEach(function(btn) {
-    btn.addEventListener('click', function(e) {
-      e.preventDefault();
-      div = document.getElementById(btn.dataset.target);
-      if (div.classList.contains('d-none')) {
-        div.classList.remove('d-none');
-      } else {
-        div.classList.add('d-none');
-      }
-    });
-  });
-}
-
 function CreatingAnimal(type) {
   var $container = $("#container");
   var $div = createBall("100px", "black", type); // Animal type in the end here
@@ -46,11 +37,14 @@ function CreatingAnimal(type) {
 }
 
 // Create a <div> 
-function createBall(size, color, animal_type) {
+function createBall(left, top, size, color, animal_type) {
   return $('<div>' + animal_type + '</div>')
     .css("background-color", color)
+    .css("position", "relative")
+    .css("display", "inline-block")
     .css("color", "white")
     .css("width", size)
+    .css("float", "left")
     .css("height", size)
     .css("border-radius", size / 2);
 }
@@ -80,7 +74,7 @@ function getRandomPath($container) {
   var ltr = getRandomBool();
   
   // The diameter will range from 10 to 50 pixels.
-  var size = getRandomInt(10, 50);
+  var size = getRandomInt(40, 50);
   
   // We'll return an object with parameters that
   // describe the ball and its bounce.
@@ -92,7 +86,7 @@ function getRandomPath($container) {
     left2: getRandomInt(0, $container.width() - size),
     top: getRandomInt(-$container.height() * 2,
       $container.height() / 2 - size),
-    duration: getRandomInt(500, 2000)
+    duration: getRandomInt(4555, 6000)
   };
 }
 
@@ -102,21 +96,36 @@ function getRandomPath($container) {
 function startBounceAnimation(type) {
   var $container = $("#container");
   var path = getRandomPath($container);
+
   var $div = createBall(path.left1, path.top, path.size, path.color, type); // Animal type in the end here
   $div.appendTo($container);
-  $div.animate({
-    "left": path.left2
-  }, {
-    duration: path.duration,
-    easing: 'swing'
-  });
-  $div.animate({
-    "top": $container.height() - $div.height()
-  }, {
-    duration: path.duration,
-    easing: 'easeOutBounce',
-    queue: false
-  });
+  // $div.animate({
+  //   "left": path.left2
+  // }, {
+  //   duration: path.duration,
+  //   easing: 'swing'
+  // });
+  // $div.animate({
+  //   "bottom": $container.height() - $div.height()
+  // }, {
+  //   duration: path.duration,
+  //   easing: 'easeOutBounce',
+  //   queue: false
+  // });
   return $div;
 }
 
+function openTarget() {
+  btns = document.querySelectorAll('.js-open-target');
+  Array.from(btns).forEach(function(btn) {
+    btn.addEventListener('click', function(e) {
+      e.preventDefault();
+      div = document.getElementById(btn.dataset.target);
+      if (div.classList.contains('d-none')) {
+        div.classList.remove('d-none');
+      } else {
+        div.classList.add('d-none');
+      }
+    });
+  });
+}
