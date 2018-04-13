@@ -12,6 +12,9 @@ seoimage: "https://hilsen.it/assets/blogs/facebook-share.jpg"
 	<!-- bliver udfyldt med en indholdsbetegnelse af js -->
 </div>
 
+
+**Opdatering 13/4!** Du kan nu tjekke om dine oplysninger er blevet delt med Cambridge Analytica. Det kan gøres [på det her link.](https://www.facebook.com/help/1873665312923476?helpref=search&sr=1&query=cambridge){:target="_blank"}
+
 > Facebook er gigantisk. Med 2 milliarder brugere er det uden sammenligning den største online brugerplatform, der eksisterer. Og med god grund... Vi får "gratis" adgang til potientielt millioner af menneskers liv, begivenheder inden for en hver genre, tusindvis af billeder, holdninger og nyheder. Dette indlæg er et forsøg på at forklare, hvorfor gratis står i gåseøjne. For hvad er det egentlig vi betaler, og hvilke konsekvenser har det?
 
 ## Vi starter med dråben - Cambridge Analytica
