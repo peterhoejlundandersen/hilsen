@@ -70,15 +70,30 @@ body {
 }
 
 #background {
+  top: 0;
   z-index: 9;
   height: 10000px;
   background: rgb(139,0,255);
   background: linear-gradient(180deg, rgba(139,0,255,1) 0%, rgba(9,9,121,1) 35%, rgba(216,242,255,1) 100%);
 }
 #container {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -moz-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
   z-index: 9999;
   height: auto;
-  bottom: 0px;
+  bottom: 0px!important;
+}
+
+.bottom-of-page {
+  position: absolute;
+  bottom: 0;
 }
 #submit {
   cursor: pointer;
@@ -115,10 +130,41 @@ body {
   padding: 0px 20px;
   margin: 10px!important;
 }
-#house, #hills, #trees {
+#house, #hills, #trees, #man {
   position: absolute;
 }
 
+#man {
+  bottom: 140px;
+  width: 40px;
+  left: 20px;
+  z-index: 999;
+  
+}
+
+.speech-bubble {
+    background-color: rgba(250,250,250,0.7);
+    border: 1px solid white;
+    border-radius: 5px;
+    width: 200px;
+    text-align: center;
+    padding: 5px;
+    bottom: 3px;
+    left: 28px;
+    z-index: 9990;
+    position: absolute;
+}
+
+.speech-bubble .arrow {
+    border-style: solid;
+    position: absolute;
+}
+ 
+.bottom {
+    border-color: transparent transparent white transparent;
+    border-width: 0px 12px 12px 12px;
+    top: -12px;
+}
 
 #trees {
   right: 10%;
@@ -192,21 +238,30 @@ body {
 
   <p><img src="/assets/blogs/animals/trees.png" alt="trees" id="trees" /></p>
 
-  <div class="mols-bjerge">Mols Bjerge &#8595;</div>
-
+  <div class="speech-bubble">
+  <div class="arrow bottom right"></div>
+  <p class="bubble-text">Elsker du ikke bare kæledyr? <br />Der er ikke noget som at kælde med en lille hundehvalp.</p>
 </div>
 
-<div id="container">
+  <p><img src="/assets/blogs/animals/man.png" alt="man" id="man" /></p>
 
-  <p><a href="https://hilsen.it" class="back-url"></a></p>
+  <div class="mols-bjerge">Mols Bjerge &#8595;</div>
 
-  <p><a href="/deathinfo.html" target="_blank" class="death-info" data-target="sourceFrom">i</a></p>
+  <div id="container">
 
-  <div class="info-box">
-    <h2 class="text-center">Danmark er et dejligt land</h2>
-    <p>Der bor mange gode mennesker, men nogle gange glemmer vi hvor mange dyr, der også betræder den danske jord.<br />Dette er et forsøg på at vise mængden af dyr, der forlader livet i Danmark.</p>
-    <p><input type="submit" id="submit" value="Start" /></p>
+    <p><a href="https://hilsen.it" class="back-url"></a></p>
+
+    <p><a href="/deathinfo.html" target="_blank" class="death-info" data-target="sourceFrom">i</a></p>
+
+    <div class="info-box">
+      <h2 class="text-center">Danmark er et yndigt land</h2>
+      <p>Der bor mange gode mennesker, men nogle gange glemmer vi hvor mange dyr, der også betræder den danske jord.<br />Dette er et forsøg på at vise mængden af dyr, der forlader livet i Danmark.</p>
+      <p><input type="submit" id="submit" value="Start" /></p>
+    </div>
+
   </div>
+
+  <h2 style="visibility: hidden" class="bottom-of-page" id="bottom">bottom</h2>
 
 </div>
 

@@ -2,26 +2,48 @@
 // CreatingAnimal("chickens", 101777100);
 // CreatingAnimal("humans", 53261);
 $(document).ready(function() {
-  openTarget();
+  only_once = true;
+  $(document).keydown(function(ev) {
+    if (ev.keyCode === 13 && only_once) { 
+      timerForAnimals();
+      only_once = false;
+    }
+  });
   $("#submit").on("click", function(e) {
-    $(".info-box").hide();
-    e.preventDefault();
-    setInterval(function() {
-      startBounceAnimation("pigs");
-      // CreatingAnimal("pigs");
-      console.log("PIG " + getInterval(+ 18356500));
-    }, getInterval(18356500));
-    // setInterval(function() {
-    //   CreatingAnimal("cows");
-    //   console.log("COW " + getInterval(+ 495800));
-    // }, getInterval(495800));
-    setInterval(function() {
-      startBounceAnimation("chickens");
-      // CreatingAnimal("chickens");
-      console.log("CHICKEN" + getInterval(+ 101777100));
-    }, getInterval(101777100));
+    if (only_once) {
+      e.preventDefault();
+      timerForAnimals();
+      only_once = false;
+    }
   });
 });
+
+function timerForAnimals() {
+  $(".info-box").hide();
+  new_src = "/assets/blogs/animals/angry-man.png";
+  $("#man").attr("src", new_src);
+  $(".bubble-text").html("Årh nej, dem gider jeg sgu da ikke at se. <br><br><br><br>");
+  setInterval(function() {
+    startBounceAnimation("pigs");
+    // CreatingAnimal("pigs");
+    console.log("PIG " + getInterval(+ 18356500));
+  }, getInterval(18356500));
+  setInterval(function() {
+    startBounceAnimation("cows");
+    console.log("COW " + getInterval(+ 495800));
+  }, getInterval(495800));
+  setInterval(function() {
+    startBounceAnimation("chickens");
+    // CreatingAnimal("chickens");
+    console.log("CHICKEN" + getInterval(+ 101777100));
+  }, getInterval(101777100));
+  setInterval(function() {
+    startBounceAnimation("coffin");
+  }, getInterval(52824));
+  setTimeout(function() {
+    $(".speech-bubble").hide();
+  }, 3000);
+}
 
 function getInterval(nr_of_ani_year) {
   SECONS_PER_YEAR = 31557600;
@@ -38,24 +60,50 @@ function CreatingAnimal(type) {
 
 // Create a <div> 
 function createBall(left, top, size, color, animal_type) {
-  return $('<div>' + animal_type + '</div>')
-    .css("background-color", color)
+  animal_image_url = getAnimalImage(animal_type);
+  animal = $('<div><img src="' + animal_image_url + '"/></div>');
+  animal_size = getAnimalSize(animal_type);
+  return animal.css("background-color", "transparent")
     .css("position", "relative")
-    .css("display", "inline-block")
     .css("color", "white")
-    .css("width", size)
-    .css("float", "left")
-    .css("height", size)
+    .css("width", animal_size)
     .css("border-radius", size / 2);
 }
 
-function getAnimal(type) {
-  if (type == "pig") {
-    "assets/blogs/animals/pig.jpg";
-  } else if (type == "cow") {
-    "assets/blogs/animals/cow.jpg";
+function leftOrRight() {
+  if (getRandomBool) {
+    return "left";
   } else {
-    "assets/blogs/animals/chicken.jpg";
+    return "right";
+  }
+}
+
+function getAnimalSize(type) {
+  switch (type) {
+    case "pigs": 
+      size = getRandomInt(150, 200);
+      break;
+    case "cows":
+      size = getRandomInt(220, 270);
+      break;
+    case "coffin":
+      size = getRandomInt(200, 220);
+      break;
+    default:
+      size = getRandomInt(20, 50);
+  }
+  return size;
+}
+
+function getAnimalImage(type) {
+  if (type == "pigs") {
+    return '/assets/blogs/animals/pig.png';
+  } else if (type == "cows") {
+    return '/assets/blogs/animals/cow.png';
+  } else if (type == "coffin") {
+    return '/assets/blogs/animals/coffin.png';
+  } else {
+    return '/assets/blogs/animals/chicken.png';
   }
 }
 
@@ -115,6 +163,7 @@ function startBounceAnimation(type) {
   return $div;
 }
 
+// Maybe for something else
 function openTarget() {
   btns = document.querySelectorAll('.js-open-target');
   Array.from(btns).forEach(function(btn) {

@@ -7,7 +7,7 @@ title: "Døde dyr info"
 
 #### Dyr
 
-Antal slagtede dyr kommer fra en opgørelse af [Danmarks Statistik **Slagtninger og eksport**](https://www.dst.dk/da/Statistik/emner/erhvervslivets-sektorer/landbrug-gartneri-og-skovbrug/animalsk-produktion){:target="_blank"}. Jeg valgte året 2016, for at gøre det så nutidigt som muligt.*
+Antal slagtede dyr kommer fra en opgørelse af [Danmarks Statistik **Slagtninger og eksport**](https://www.dst.dk/da/Statistik/emner/erhvervslivets-sektorer/landbrug-gartneri-og-skovbrug/animalsk-produktion){:target="_blank"}. <br>Jeg valgte året 2016.
 
 {: .small }
 Enhed: 1.000 stk.
@@ -33,15 +33,27 @@ Antal sekunder på et år:  `60 * 60 * 24 * 365,25 = 31.557.600`
 
 Gennemsnitligt:
 
+
 > Hvert 0,310 sekund bliver en kylling slagtet - `31.557.600 / 101.594.600`
+
+![Kylling]({{ "assets/blogs/animals/chicken.png" || relative_url }}){: width="70px"}
 
 > Hvert 1,719 sekund bliver en gris slagtet - `31.557.600 / 18.356.500`
 
-> Hvert 63.649 sekund bliver et kvæg slagtet - `31.557.600 / 495.800`
+![Gris]({{ "assets/blogs/animals/pig.png" || relative_url }}){: width="150px"}
 
-> Hvert 10 minut (597 sekunder) dør et menneske - `31.557.600 / 52.824`
+> Ca. hvert minut (63.6 sekund) bliver et kvæg slagtet - `31.557.600 / 495.800`
+
+![Ko]({{ "assets/blogs/animals/cow.png" || relative_url }}){: width="200px"}
+
+> Hvert 10. minut (597 sekunder) dør et menneske - `31.557.600 / 52.824`
+
+![Menneske]({{ "assets/blogs/animals/coffin.png" || relative_url }}){: width="210px" .man}
 
 {: .small }
 Vær venlig at tage kontakt, hvis det ikke passser, eller hvis, at der er noget, som jeg har overset.
+
+{: .small }
+Billederne er fundet på [openclipart](https://openclipart.org){:target="_blank"}
 
 </div>

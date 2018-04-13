@@ -13,15 +13,30 @@ body {
 }
 
 #background {
+  top: 0;
   z-index: 9;
   height: 10000px;
   background: rgb(139,0,255);
   background: linear-gradient(180deg, rgba(139,0,255,1) 0%, rgba(9,9,121,1) 35%, rgba(216,242,255,1) 100%);
 }
 #container {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -moz-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
   z-index: 9999;
   height: auto;
-  bottom: 0px;
+  bottom: 0px!important;
+}
+
+.bottom-of-page {
+  position: absolute;
+  bottom: 0;
 }
 #submit {
   cursor: pointer;
@@ -58,10 +73,41 @@ body {
   padding: 0px 20px;
   margin: 10px!important;
 }
-#house, #hills, #trees {
+#house, #hills, #trees, #man {
   position: absolute;
 }
 
+#man {
+  bottom: 140px;
+  width: 40px;
+  left: 20px;
+  z-index: 999;
+  
+}
+
+.speech-bubble {
+    background-color: rgba(250,250,250,0.7);
+    border: 1px solid white;
+    border-radius: 5px;
+    width: 200px;
+    text-align: center;
+    padding: 5px;
+    bottom: 3px;
+    left: 28px;
+    z-index: 9990;
+    position: absolute;
+}
+
+.speech-bubble .arrow {
+    border-style: solid;
+    position: absolute;
+}
+ 
+.bottom {
+    border-color: transparent transparent white transparent;
+    border-width: 0px 12px 12px 12px;
+    top: -12px;
+}
 
 #trees {
   right: 10%;
