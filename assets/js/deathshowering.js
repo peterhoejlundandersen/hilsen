@@ -1,6 +1,3 @@
-// CreatingAnimal("cows", 495800);
-// CreatingAnimal("chickens", 101777100);
-// CreatingAnimal("humans", 53261);
 $(document).ready(function() {
   only_once = true;
   $(document).keydown(function(ev) {
@@ -22,7 +19,7 @@ function timerForAnimals() {
   $(".info-box").hide();
   new_src = "/assets/blogs/animals/angry-man.png";
   $("#man").attr("src", new_src);
-  $(".bubble-text").html("Årh nej! Hvad har du dog gjort. Dem gider jeg sgu da ikke at se. <br><br><br>");
+  $(".bubble-text").html("Årh nej! Hvad har du dog gjort? Dem gider jeg sgu da ikke at se. <br><br><br>");
   setInterval(function() {
     startBounceAnimation("pigs");
     // CreatingAnimal("pigs");

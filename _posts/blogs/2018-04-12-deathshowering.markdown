@@ -23,7 +23,7 @@ seoimage: "https://hilsen.it/assets/blogs/animals/facebook.jpg"
 
 <div class="speech-bubble">
   <div class="arrow bottom right"></div>
-  <p class="bubble-text">Elsker du ikke bare kæledyr? <br>Der er ikke noget som at kælde med en lille hundehvalp.</p>
+  <p class="bubble-text">Elsker du ikke bare kæledyr? <br>Der er ikke noget som at kæle med en lille hundehvalp.</p>
 </div>
 
 ![man]({{ "assets/blogs/animals/man.png" || relative_url }}){: #man }
