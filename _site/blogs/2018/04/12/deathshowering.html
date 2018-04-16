@@ -6,7 +6,7 @@
 	<link rel="icon" type="image/png" sizes="96x96" href="/assets/favicon-96x96.png">
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
   <link rel="stylesheet" href="/assets/main.css">
   
     <script
@@ -117,6 +117,7 @@ body {
 
 .info-box {
   position: fixed;
+  transform: translate3d(0,0,0);
   width: 40%;
   left: 50%;
   top: 30%;
@@ -233,7 +234,7 @@ body {
 
 @media screen and (max-width: 700px) {
   .info-box {
-    position: fixed;
+    position: relative;
     width: 100%;
     left: 0%;
     top: 20%;
@@ -258,7 +259,7 @@ body {
 
   <div class="speech-bubble">
   <div class="arrow bottom right"></div>
-  <p class="bubble-text">Elsker du ikke bare kæledyr? <br />Der er ikke noget som at kælde med en lille hundehvalp.</p>
+  <p class="bubble-text">Elsker du ikke bare kæledyr? <br />Der er ikke noget som at kæle med en lille hundehvalp.</p>
 </div>
 
   <p><img src="/assets/blogs/animals/man.png" alt="man" id="man" /></p>

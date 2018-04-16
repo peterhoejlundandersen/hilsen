@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-04-13T17:13:10+02:00</updated><id>http://localhost:4000/</id><title type="html">Hilsen IT</title><subtitle>Designer hjemmesider med et sikkert fundament i Ruby on Rails, Jekyll og Angular</subtitle><entry><title type="html">Døde dyr i Danmark</title><link href="http://localhost:4000/blogs/2018/04/12/deathshowering.html" rel="alternate" type="text/html" title="Døde dyr i Danmark" /><published>2018-04-12T00:00:00+02:00</published><updated>2018-04-12T00:00:00+02:00</updated><id>http://localhost:4000/blogs/2018/04/12/deathshowering</id><content type="html" xml:base="http://localhost:4000/blogs/2018/04/12/deathshowering.html">&lt;style&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-04-16T20:48:18+02:00</updated><id>http://localhost:4000/</id><title type="html">Hilsen IT</title><subtitle>Designer hjemmesider med et sikkert fundament i Ruby on Rails, Jekyll og Angular</subtitle><entry><title type="html">Døde dyr i Danmark</title><link href="http://localhost:4000/blogs/2018/04/12/deathshowering.html" rel="alternate" type="text/html" title="Døde dyr i Danmark" /><published>2018-04-12T00:00:00+02:00</published><updated>2018-04-12T00:00:00+02:00</updated><id>http://localhost:4000/blogs/2018/04/12/deathshowering</id><content type="html" xml:base="http://localhost:4000/blogs/2018/04/12/deathshowering.html">&lt;style&gt;
 body {
   height: 10000px!important;
 }
@@ -57,6 +57,7 @@ body {
 
 .info-box {
   position: fixed;
+  transform: translate3d(0,0,0);
   width: 40%;
   left: 50%;
   top: 30%;
@@ -173,7 +174,7 @@ body {
 
 @media screen and (max-width: 700px) {
   .info-box {
-    position: fixed;
+    position: relative;
     width: 100%;
     left: 0%;
     top: 20%;
@@ -198,7 +199,7 @@ body {
 
   &lt;div class=&quot;speech-bubble&quot;&gt;
   &lt;div class=&quot;arrow bottom right&quot;&gt;&lt;/div&gt;
-  &lt;p class=&quot;bubble-text&quot;&gt;Elsker du ikke bare kæledyr? &lt;br /&gt;Der er ikke noget som at kælde med en lille hundehvalp.&lt;/p&gt;
+  &lt;p class=&quot;bubble-text&quot;&gt;Elsker du ikke bare kæledyr? &lt;br /&gt;Der er ikke noget som at kæle med en lille hundehvalp.&lt;/p&gt;
 &lt;/div&gt;
 
   &lt;p&gt;&lt;img src=&quot;/assets/blogs/animals/man.png&quot; alt=&quot;man&quot; id=&quot;man&quot; /&gt;&lt;/p&gt;
