@@ -37,9 +37,6 @@ function timerForAnimals() {
   setInterval(function() {
     startBounceAnimation("coffin");
   }, getInterval(52824));
-  setTimeout(function() {
-    $(".speech-bubble").hide();
-  }, 3000);
 }
 
 function getInterval(nr_of_ani_year) {
