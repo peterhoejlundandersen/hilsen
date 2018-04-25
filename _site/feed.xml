@@ -1,4 +1,29 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-04-25T12:12:05+02:00</updated><id>http://localhost:4000/</id><title type="html">Hilsen IT</title><subtitle>Designer hjemmesider med et sikkert fundament i Ruby on Rails, Jekyll og Angular</subtitle><entry><title type="html">Døde dyr i Danmark</title><link href="http://localhost:4000/blogs/2018/04/12/deathshowering.html" rel="alternate" type="text/html" title="Døde dyr i Danmark" /><published>2018-04-12T00:00:00+02:00</published><updated>2018-04-12T00:00:00+02:00</updated><id>http://localhost:4000/blogs/2018/04/12/deathshowering</id><content type="html" xml:base="http://localhost:4000/blogs/2018/04/12/deathshowering.html">&lt;style&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-04-25T14:31:01+02:00</updated><id>http://localhost:4000/</id><title type="html">Hilsen IT</title><subtitle>Designer hjemmesider med et sikkert fundament i Ruby on Rails, Jekyll og Angular</subtitle><entry><title type="html">Den farverige QR-kode - en digitalportal til digte</title><link href="http://localhost:4000/blogs/2018/04/12/den-farverige-qr-kode.html" rel="alternate" type="text/html" title="Den farverige QR-kode - en digitalportal til digte" /><published>2018-04-12T00:00:00+02:00</published><updated>2018-04-12T00:00:00+02:00</updated><id>http://localhost:4000/blogs/2018/04/12/den-farverige-qr-kode</id><content type="html" xml:base="http://localhost:4000/blogs/2018/04/12/den-farverige-qr-kode.html">&lt;p class=&quot;text-center&quot;&gt;&lt;img src=&quot;http://localhost:4000/assets/blogs/digtportal/sweig-logo.png&quot; alt=&quot;Sweig logo&quot; style=&quot;max-width: 200px!important; margin-top: 70px;&quot; /&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Sweig-logoet ovenover, hvis farvemønster jeg tilfældigt fandt i en genbrugs for snart 5 år siden, har sidenhen fascineret mig.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Det oprindelige bogomslag ser således ud:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/blogs/digtportal/baggrund-sweigs.jpg&quot; alt=&quot;Sweig baggrund&quot; class=&quot;sweig-baggrund&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Ved nærmere kig er det et virvar af farverne underneden. &lt;strong&gt;Prøv at hold musen over en farve, for at se området i det oprindelige bogomslag, som farven udgør.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;div class=&quot;color-boxes&quot;&gt;
+  &lt;span id=&quot;darkGreen&quot; class=&quot;color-box&quot;&gt;&lt;/span&gt; 
+  &lt;span id=&quot;orange&quot; class=&quot;color-box&quot;&gt;&lt;/span&gt; 
+  &lt;span id=&quot;white&quot; class=&quot;color-box&quot;&gt;&lt;/span&gt;
+  &lt;span id=&quot;blue&quot; class=&quot;color-box&quot;&gt;&lt;/span&gt; 
+  &lt;span id=&quot;yellow&quot; class=&quot;color-box&quot;&gt;&lt;/span&gt; 
+&lt;/div&gt;
+&lt;div class=&quot;back-to-org-image&quot;&gt;
+  &lt;span class=&quot;dark-green&quot;&gt;&lt;/span&gt;
+  &lt;span class=&quot;orange&quot;&gt;&lt;/span&gt; 
+  &lt;span class=&quot;white&quot;&gt;&lt;/span&gt;
+  &lt;span class=&quot;blue&quot;&gt;&lt;/span&gt; 
+  &lt;span class=&quot;yellow&quot;&gt;&lt;/span&gt; 
+&lt;/div&gt;</content><author><name></name></author><category term="blogs" /><summary type="html"></summary></entry><entry><title type="html">Døde dyr i Danmark</title><link href="http://localhost:4000/blogs/2018/04/12/deathshowering.html" rel="alternate" type="text/html" title="Døde dyr i Danmark" /><published>2018-04-12T00:00:00+02:00</published><updated>2018-04-12T00:00:00+02:00</updated><id>http://localhost:4000/blogs/2018/04/12/deathshowering</id><content type="html" xml:base="http://localhost:4000/blogs/2018/04/12/deathshowering.html">&lt;style&gt;
 body {
   height: 10000px!important;
 }
