@@ -1,29 +1,121 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-04-25T14:31:01+02:00</updated><id>http://localhost:4000/</id><title type="html">Hilsen IT</title><subtitle>Designer hjemmesider med et sikkert fundament i Ruby on Rails, Jekyll og Angular</subtitle><entry><title type="html">Den farverige QR-kode - en digitalportal til digte</title><link href="http://localhost:4000/blogs/2018/04/12/den-farverige-qr-kode.html" rel="alternate" type="text/html" title="Den farverige QR-kode - en digitalportal til digte" /><published>2018-04-12T00:00:00+02:00</published><updated>2018-04-12T00:00:00+02:00</updated><id>http://localhost:4000/blogs/2018/04/12/den-farverige-qr-kode</id><content type="html" xml:base="http://localhost:4000/blogs/2018/04/12/den-farverige-qr-kode.html">&lt;p class=&quot;text-center&quot;&gt;&lt;img src=&quot;http://localhost:4000/assets/blogs/digtportal/sweig-logo.png&quot; alt=&quot;Sweig logo&quot; style=&quot;max-width: 200px!important; margin-top: 70px;&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-04-25T17:38:51+02:00</updated><id>http://localhost:4000/</id><title type="html">Hilsen IT</title><subtitle>Designer hjemmesider med et sikkert fundament i Ruby on Rails, Jekyll og Angular</subtitle><entry><title type="html">Den farverige QR-kode - en digitalportal til digte</title><link href="http://localhost:4000/blogs/2018/04/12/den-farverige-qr-kode.html" rel="alternate" type="text/html" title="Den farverige QR-kode - en digitalportal til digte" /><published>2018-04-12T00:00:00+02:00</published><updated>2018-04-12T00:00:00+02:00</updated><id>http://localhost:4000/blogs/2018/04/12/den-farverige-qr-kode</id><content type="html" xml:base="http://localhost:4000/blogs/2018/04/12/den-farverige-qr-kode.html">&lt;h2 id=&quot;indledning&quot;&gt;Indledning&lt;/h2&gt;
 
-&lt;blockquote&gt;
-  &lt;p&gt;Sweig-logoet ovenover, hvis farvemønster jeg tilfældigt fandt i en genbrugs for snart 5 år siden, har sidenhen fascineret mig.&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p class=&quot;text-center&quot;&gt;&lt;img src=&quot;http://localhost:4000/assets/blogs/digtportal/sweig-logo.png&quot; alt=&quot;Sweig logo&quot; style=&quot;max-width: 200px!important; margin-top: 70px;&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;Det oprindelige bogomslag ser således ud:&lt;/p&gt;
+&lt;p&gt;Sweig-logoet ovenover, hvis farvemønster jeg tilfældigt fandt på en brugt bog for snart 5 år siden, har sidenhen fascineret mig.&lt;/p&gt;
+
+&lt;p&gt;Det er et kaotisk vildnis med malerisk karakter, der samtidig udstråler en form for anonymitet - for mig at se.&lt;/p&gt;
+
+&lt;p&gt;Oplevelsen af farvemønsteret og &lt;a href=&quot;https://sweig.dk&quot; target=&quot;_blank&quot;&gt;Sweig-platformen&lt;/a&gt; skabte pludselig en dag en idé, som jeg sidenhen ikke har kunnet slippe:&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 class=&quot;text-center&quot; id=&quot;en-ny-poetisk-qr-kode&quot;&gt;En ny poetisk QR-kode&lt;/h3&gt;
+
+&lt;div class=&quot;exp-wrapper&quot;&gt;
+  &lt;div class=&quot;exp-img&quot;&gt;
+    &lt;p&gt;&lt;img src=&quot;/assets/blogs/digtportal/1-part.jpg&quot; alt=&quot;Part 1 af forklaringen af Sweig idé&quot; /&gt;&lt;/p&gt;
+
+    &lt;p class=&quot;exp-text text-center small&quot;&gt;En skriver skriver den bedste tekst ned i mange år og får lyst til at dele den&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;exp-img&quot;&gt;
+    &lt;p&gt;&lt;img src=&quot;/assets/blogs/digtportal/2-part.jpg&quot; alt=&quot;Part 2 af forklaringen af Sweig idé&quot; /&gt;&lt;/p&gt;
+
+    &lt;p class=&quot;exp-text text-center small&quot;&gt;Personen logger på Sweig-appen og udgiver sin tekst&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;exp-img&quot;&gt;
+    &lt;p&gt;&lt;img src=&quot;/assets/blogs/digtportal/3-part.jpg&quot; alt=&quot;Part 3 af forklaringen af Sweig idé&quot; /&gt;&lt;/p&gt;
+
+    &lt;p class=&quot;exp-text text-center small&quot;&gt;Efter udgivelsen er der en funktion, som har generet en ny unik farvekode (som ligner Sweig-logoet, men ikke er det!)&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;exp-img&quot;&gt;
+    &lt;p&gt;&lt;img src=&quot;/assets/blogs/digtportal/4-part.jpg&quot; alt=&quot;Part 4 af forklaringen af Sweig idé&quot; /&gt;&lt;/p&gt;
+
+    &lt;p class=&quot;exp-text text-center small&quot;&gt;Sweig-appen viser vej til den nærmeste boghandler, som har installeret en specialdesignet printer til klistermærker. Her MobilePay’er man 5-10 kr. pr. stk. og får derefter farvekoden printet ud&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;exp-img&quot;&gt;
+    &lt;p&gt;&lt;img src=&quot;/assets/blogs/digtportal/5-part.jpg&quot; alt=&quot;Part 5 af forklaringen af Sweig idé&quot; /&gt;&lt;/p&gt;
+
+    &lt;p class=&quot;exp-text text-center small&quot;&gt;Skriveren finder et godt sted at sætte sin farvekode op i byen. Måske har stedet også noget at gøre med teksten?&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;exp-img&quot;&gt;
+    &lt;p&gt;&lt;img src=&quot;/assets/blogs/digtportal/6-part.jpg&quot; alt=&quot;Part 6 af forklaringen af Sweig idé&quot; /&gt;&lt;/p&gt;
+
+    &lt;p class=&quot;exp-text text-center small&quot;&gt;En person kommer gående forbi, som kender til Sweig-appen, og skanner glædeligt det farverige mærke&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;exp-img&quot;&gt;
+    &lt;p&gt;&lt;img src=&quot;/assets/blogs/digtportal/7-part.jpg&quot; alt=&quot;Part 7 af forklaringen af Sweig idé&quot; /&gt;&lt;/p&gt;
+
+    &lt;p class=&quot;exp-text text-center small&quot;&gt;App’en fører direkte til udgivelsen, og læses kan der!&lt;/p&gt;
+  &lt;/div&gt;
+
+&lt;/div&gt;
+
+&lt;hr /&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;hvad-skal-der-til-for-at-denne-idé-kan-udføres&quot;&gt;Hvad skal der til, for at denne idé kan udføres?&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;1.&lt;/strong&gt; En Sweig-app med alle de samme funktioner som sweig.dk + flere!&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;2.&lt;/strong&gt; I Sweig-appen skal der integreres en kodebase, som kan generere unikke farvekoder, til hvert et nyoprettet værk på Sweig. De skal lægge sig så tæt op ad Sweig-logoet som muligt.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;2.&lt;/strong&gt; Derudover skal der integreres en form for skanningsteknologi, der kan genkende de farvekoder, som førnævnte teknologi genererer, og derefter besøge værket farvekoden er forbundet til.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;3.&lt;/strong&gt; Det skal købes/laves en automatiseret printer, der via MobilePay og Sweig-appen, automatisk ved, hvad der er blevet bestilt, og hvad der skal printes efter betaling.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;4.&lt;/strong&gt; En aftale med en boghandler (behøver det at være det?), så printeren kan stå et sted, hvor der færdes litteraturinteresserede.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;omg-det-kalder-jeg-en-udfordring&quot;&gt;Omg! Det kalder jeg en udfordring&lt;/h3&gt;
+
+&lt;p&gt;Lad os starte med nogle flotte farver…&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;generér-en-farvekode-der-ligner-sweiglogoet&quot;&gt;Generér en farvekode, der ligner Sweiglogoet?&lt;/h2&gt;
+
+&lt;p&gt;&lt;em&gt;QR-koden, som mange af os kender, er virkelig simpel: Sorte eller hvide firkanter sat sammen. Men er det muligt at udvide denne funktionalitet til farver, og hvilken teknologi ligger bag?&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Det oprindelige bogomslag, Sweig-logoet er et udsnit af, ser således ud:&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/assets/blogs/digtportal/baggrund-sweigs.jpg&quot; alt=&quot;Sweig baggrund&quot; class=&quot;sweig-baggrund&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;Ved nærmere kig er det et virvar af farverne underneden. &lt;strong&gt;Prøv at hold musen over en farve, for at se området i det oprindelige bogomslag, som farven udgør.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Prøv at klikke på en farve, for at se farveområdet&lt;/strong&gt;&lt;/p&gt;
 
 &lt;div class=&quot;color-boxes&quot;&gt;
+  &lt;div class=&quot;back-to-org-image&quot;&gt;
+    &lt;span class=&quot;dark-green&quot;&gt;&lt;/span&gt;
+    &lt;span class=&quot;orange&quot;&gt;&lt;/span&gt; 
+    &lt;span class=&quot;white&quot;&gt;&lt;/span&gt;
+    &lt;span class=&quot;blue&quot;&gt;&lt;/span&gt; 
+    &lt;span class=&quot;yellow&quot;&gt;&lt;/span&gt; 
+  &lt;/div&gt;
   &lt;span id=&quot;darkGreen&quot; class=&quot;color-box&quot;&gt;&lt;/span&gt; 
   &lt;span id=&quot;orange&quot; class=&quot;color-box&quot;&gt;&lt;/span&gt; 
   &lt;span id=&quot;white&quot; class=&quot;color-box&quot;&gt;&lt;/span&gt;
   &lt;span id=&quot;blue&quot; class=&quot;color-box&quot;&gt;&lt;/span&gt; 
   &lt;span id=&quot;yellow&quot; class=&quot;color-box&quot;&gt;&lt;/span&gt; 
 &lt;/div&gt;
-&lt;div class=&quot;back-to-org-image&quot;&gt;
-  &lt;span class=&quot;dark-green&quot;&gt;&lt;/span&gt;
-  &lt;span class=&quot;orange&quot;&gt;&lt;/span&gt; 
-  &lt;span class=&quot;white&quot;&gt;&lt;/span&gt;
-  &lt;span class=&quot;blue&quot;&gt;&lt;/span&gt; 
-  &lt;span class=&quot;yellow&quot;&gt;&lt;/span&gt; 
-&lt;/div&gt;</content><author><name></name></author><category term="blogs" /><summary type="html"></summary></entry><entry><title type="html">Døde dyr i Danmark</title><link href="http://localhost:4000/blogs/2018/04/12/deathshowering.html" rel="alternate" type="text/html" title="Døde dyr i Danmark" /><published>2018-04-12T00:00:00+02:00</published><updated>2018-04-12T00:00:00+02:00</updated><id>http://localhost:4000/blogs/2018/04/12/deathshowering</id><content type="html" xml:base="http://localhost:4000/blogs/2018/04/12/deathshowering.html">&lt;style&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Jeg havde håbet at se en form for symmetri og gentagelse. Dog må jeg sige, at hvis jeg blev spurgt: Hvilken vej falder det? Så havde jeg nok svaret: Fra øverste højre hjørne til nederste venstre hjørne.&lt;/p&gt;</content><author><name></name></author><category term="blogs" /><summary type="html">Indledning</summary></entry><entry><title type="html">Døde dyr i Danmark</title><link href="http://localhost:4000/blogs/2018/04/12/deathshowering.html" rel="alternate" type="text/html" title="Døde dyr i Danmark" /><published>2018-04-12T00:00:00+02:00</published><updated>2018-04-12T00:00:00+02:00</updated><id>http://localhost:4000/blogs/2018/04/12/deathshowering</id><content type="html" xml:base="http://localhost:4000/blogs/2018/04/12/deathshowering.html">&lt;style&gt;
 body {
   height: 10000px!important;
 }

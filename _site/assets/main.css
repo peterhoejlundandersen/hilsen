@@ -544,7 +544,7 @@ table {
 /* https://github.com/mastastealth/sass-flex-mixin/blob/master/_flex.scss */
 /* COLUMN */
 /* COLUMN END */
-.color-boxes {
+.color-boxes, .exp-wrapper {
   display: -webkit-flex;
   display: flex;
   -webkit-box-pack: space-evenly;
@@ -559,6 +559,16 @@ table {
   overflow: hidden;
   text-align: center; }
 
+.exp-wrapper .exp-img {
+  max-width: 40%;
+  border: 1px dashed black;
+  margin: 20px; }
+  @media screen and (max-width: 600px) {
+    .exp-wrapper .exp-img {
+      max-width: 90%; } }
+  .exp-wrapper .exp-img .exp-text {
+    padding: 20px; }
+
 .back-to-org-image {
   display: -webkit-flex;
   display: flex;
@@ -566,20 +576,22 @@ table {
   -ms-flex-pack: center;
   -webkit-justify-content: center;
   -moz-justify-content: center;
-  justify-content: center;
-  margin-top: 40px; }
+  justify-content: center; }
   .back-to-org-image > span {
-    width: 20px;
-    height: 20px; }
+    width: 100%;
+    height: 14px;
+    display: block; }
 
-.color-box {
+.color-box, .back-to-org-image {
   display: inline-block;
   cursor: pointer;
-  padding-top: 70px;
   height: 70px;
   overflow: hidden;
   text-align: center;
   width: 70px; }
+  @media screen and (max-width: 600px) {
+    .color-box, .back-to-org-image {
+      width: 13%; } }
 
 #white, .white {
   background-color: #f9eff8; }
