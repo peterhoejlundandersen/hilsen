@@ -3,6 +3,8 @@ layout: blog
 title: "Fire superkræfter til den studerende"
 desc: "Tre nemme værktøjer (plus et svært), der vil forbedre og sikre dit arbejde på computeren"
 category: blogs
+enableMenu: true
+createFixedMenu: true
 jsfile: "4-tools"
 seocontent: "Dette blogindlæg er en samling af værktøjer, som jeg gør brug af hver dag. De hjælper mig dagligt med at gøre det til en mere flydende bevægelse at arbejde på en computer. Hvis du som jeg sidder størstedelen af din arbejdstid ved computeren og samtidig elsker dette værktøj, så har du nu mulighed for at slibe det en smule 'skarpere'."
 seoimage: "https://hilsen.it/assets/blogs/techlove-facebook.jpg"

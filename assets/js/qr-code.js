@@ -1,4 +1,3 @@
-
 function changeImg() {
   var file_path = "/assets/blogs/digtportal/";    
   $(".color-box").on("click", function() {

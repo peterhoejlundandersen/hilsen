@@ -20,6 +20,9 @@
 	<meta property="og:description" content="{{ page.seocontent }}"/>
 	<meta property="og:image" content="{{ page.seoimage }}"/>
 	{% endif %}
+  {% if page.enableMenu %}
+    <script src="/assets/js/set_menu.js"></script> 
+  {% endif %}
   {% if page.jsfile %}
     <script src="/assets/js/{{ page.jsfile }}.js"></script>
   {% endif %}
