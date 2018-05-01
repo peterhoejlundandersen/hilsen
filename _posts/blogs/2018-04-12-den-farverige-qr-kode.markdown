@@ -10,10 +10,8 @@ seocontent: ""
 seoimage: ""
 ---
 
-## Indledning 
-
 {: .text-center }
-![Sweig logo]({{ "assets/blogs/digtportal/sweig-logo.png" || absolute_url }}){: style="max-width: 200px!important; margin-top: 70px;" }
+![Sweig logo]({{ "assets/blogs/digtportal/sweig-logo.png" || absolute_url }}){: style="max-width: 200px!important; margin: 70px 0px;" }
 
 Sweig-logoet ovenover, hvis farvemønster jeg tilfældigt fandt på en brugt bog for snart 5 år siden, har sidenhen fascineret mig. 
 
@@ -21,6 +19,8 @@ Det er et kaotisk vildnis med malerisk karakter, der samtidig udstråler en form
 
 
 Oplevelsen af farvemønsteret og [Sweig-platformen](https://sweig.dk){:target="_blank"} skabte pludselig en dag en idé, som jeg sidenhen ikke har kunnet slippe: 
+
+Dette er historien om den.
 
 ----------------
 
@@ -109,7 +109,7 @@ Lad os starte med nogle flotte farver...
 
 ## Generér en farvekode, der ligner Sweiglogoet?
 
-*QR-koden, som mange af os kender, er virkelig simpel: Sorte eller hvide firkanter sat sammen. Men er det muligt at udvide denne funktionalitet til farver, og hvilken teknologi ligger bag?*
+*QR-koden, som mange af os kender, er virkelig simpel: Sorte eller hvide firkanter sat sammen. Men er det muligt at udvide denne funktionalitet til et kompliceret mønster af farver, og hvilken teknologi ligger bag?*
 
 
 
@@ -140,6 +140,7 @@ Det oprindelige bogomslag, Sweig-logoet er et udsnit af, ser således ud:
 
 Jeg havde håbet at se en form for symmetri og gentagelse. Dog må jeg sige, at hvis jeg blev spurgt: Hvilken vej falder det? Så havde jeg nok svaret: Fra øverste højre hjørne til nederste venstre hjørne.
 
+> Mønstrene i farverne vidner om, at jeg nok har at gøre med et design, som er lavet før den personlige computers udbredelse 
 
 
 

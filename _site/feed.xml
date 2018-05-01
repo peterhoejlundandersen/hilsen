@@ -1,12 +1,12 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-04-25T17:38:51+02:00</updated><id>http://localhost:4000/</id><title type="html">Hilsen IT</title><subtitle>Designer hjemmesider med et sikkert fundament i Ruby on Rails, Jekyll og Angular</subtitle><entry><title type="html">Den farverige QR-kode - en digitalportal til digte</title><link href="http://localhost:4000/blogs/2018/04/12/den-farverige-qr-kode.html" rel="alternate" type="text/html" title="Den farverige QR-kode - en digitalportal til digte" /><published>2018-04-12T00:00:00+02:00</published><updated>2018-04-12T00:00:00+02:00</updated><id>http://localhost:4000/blogs/2018/04/12/den-farverige-qr-kode</id><content type="html" xml:base="http://localhost:4000/blogs/2018/04/12/den-farverige-qr-kode.html">&lt;h2 id=&quot;indledning&quot;&gt;Indledning&lt;/h2&gt;
-
-&lt;p class=&quot;text-center&quot;&gt;&lt;img src=&quot;http://localhost:4000/assets/blogs/digtportal/sweig-logo.png&quot; alt=&quot;Sweig logo&quot; style=&quot;max-width: 200px!important; margin-top: 70px;&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-05-01T16:55:02+02:00</updated><id>http://localhost:4000/</id><title type="html">Hilsen IT</title><subtitle>Designer hjemmesider med et sikkert fundament i Ruby on Rails, Jekyll og Angular</subtitle><entry><title type="html">Den farverige QR-kode - en digitalportal til digte</title><link href="http://localhost:4000/blogs/2018/04/12/den-farverige-qr-kode.html" rel="alternate" type="text/html" title="Den farverige QR-kode - en digitalportal til digte" /><published>2018-04-12T00:00:00+02:00</published><updated>2018-04-12T00:00:00+02:00</updated><id>http://localhost:4000/blogs/2018/04/12/den-farverige-qr-kode</id><content type="html" xml:base="http://localhost:4000/blogs/2018/04/12/den-farverige-qr-kode.html">&lt;p class=&quot;text-center&quot;&gt;&lt;img src=&quot;http://localhost:4000/assets/blogs/digtportal/sweig-logo.png&quot; alt=&quot;Sweig logo&quot; style=&quot;max-width: 200px!important; margin: 70px 0px;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Sweig-logoet ovenover, hvis farvemønster jeg tilfældigt fandt på en brugt bog for snart 5 år siden, har sidenhen fascineret mig.&lt;/p&gt;
 
 &lt;p&gt;Det er et kaotisk vildnis med malerisk karakter, der samtidig udstråler en form for anonymitet - for mig at se.&lt;/p&gt;
 
 &lt;p&gt;Oplevelsen af farvemønsteret og &lt;a href=&quot;https://sweig.dk&quot; target=&quot;_blank&quot;&gt;Sweig-platformen&lt;/a&gt; skabte pludselig en dag en idé, som jeg sidenhen ikke har kunnet slippe:&lt;/p&gt;
+
+&lt;p&gt;Dette er historien om den.&lt;/p&gt;
 
 &lt;hr /&gt;
 
@@ -90,7 +90,7 @@
 
 &lt;h2 id=&quot;generér-en-farvekode-der-ligner-sweiglogoet&quot;&gt;Generér en farvekode, der ligner Sweiglogoet?&lt;/h2&gt;
 
-&lt;p&gt;&lt;em&gt;QR-koden, som mange af os kender, er virkelig simpel: Sorte eller hvide firkanter sat sammen. Men er det muligt at udvide denne funktionalitet til farver, og hvilken teknologi ligger bag?&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;QR-koden, som mange af os kender, er virkelig simpel: Sorte eller hvide firkanter sat sammen. Men er det muligt at udvide denne funktionalitet til et kompliceret mønster af farver, og hvilken teknologi ligger bag?&lt;/em&gt;&lt;/p&gt;
 
 &lt;p&gt;Det oprindelige bogomslag, Sweig-logoet er et udsnit af, ser således ud:&lt;/p&gt;
 
@@ -115,7 +115,11 @@
 
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
-&lt;p&gt;Jeg havde håbet at se en form for symmetri og gentagelse. Dog må jeg sige, at hvis jeg blev spurgt: Hvilken vej falder det? Så havde jeg nok svaret: Fra øverste højre hjørne til nederste venstre hjørne.&lt;/p&gt;</content><author><name></name></author><category term="blogs" /><summary type="html">Indledning</summary></entry><entry><title type="html">Døde dyr i Danmark</title><link href="http://localhost:4000/blogs/2018/04/12/deathshowering.html" rel="alternate" type="text/html" title="Døde dyr i Danmark" /><published>2018-04-12T00:00:00+02:00</published><updated>2018-04-12T00:00:00+02:00</updated><id>http://localhost:4000/blogs/2018/04/12/deathshowering</id><content type="html" xml:base="http://localhost:4000/blogs/2018/04/12/deathshowering.html">&lt;style&gt;
+&lt;p&gt;Jeg havde håbet at se en form for symmetri og gentagelse. Dog må jeg sige, at hvis jeg blev spurgt: Hvilken vej falder det? Så havde jeg nok svaret: Fra øverste højre hjørne til nederste venstre hjørne.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Mønstrene i farverne vidner om, at jeg nok har at gøre med et design, som er lavet før den personlige computers udbredelse&lt;/p&gt;
+&lt;/blockquote&gt;</content><author><name></name></author><category term="blogs" /><summary type="html"></summary></entry><entry><title type="html">Døde dyr i Danmark</title><link href="http://localhost:4000/blogs/2018/04/12/deathshowering.html" rel="alternate" type="text/html" title="Døde dyr i Danmark" /><published>2018-04-12T00:00:00+02:00</published><updated>2018-04-12T00:00:00+02:00</updated><id>http://localhost:4000/blogs/2018/04/12/deathshowering</id><content type="html" xml:base="http://localhost:4000/blogs/2018/04/12/deathshowering.html">&lt;style&gt;
 body {
   height: 10000px!important;
 }
