@@ -1,8 +1,8 @@
 ---
 layout: blog
-title: "Den farverige QR-kode - en digitalportal til digte"
+title: "Den farverige QR-kode - en digitalportal til digte (igangværende)"
 desc: "Udførelsen af en malerisk idé, der trækker dybe spor ind i kodeverden"
-category: blogs
+category: blogs 
 jquery: "true"
 jsfile: 'qr-code'
 bottom: "true"
@@ -14,10 +14,6 @@ seoimage: ""
 ![Sweig logo]({{ "assets/blogs/digtportal/sweig-logo.png" || absolute_url }}){: style="max-width: 200px!important; margin: 70px 0px;" }
 
 Sweig-logoet ovenover, hvis farvemønster jeg tilfældigt fandt på en brugt bog for snart 5 år siden, har sidenhen fascineret mig. 
-
-Det er et kaotisk vildnis med malerisk karakter, der samtidig udstråler en form for anonymitet - for mig at se.
-
-
 Oplevelsen af farvemønsteret og [Sweig-platformen](https://sweig.dk){:target="_blank"} skabte pludselig en dag en idé, som jeg sidenhen ikke har kunnet slippe: 
 
 Dette er historien om den.
@@ -142,5 +138,8 @@ Jeg havde håbet at se en form for symmetri og gentagelse. Dog må jeg sige, at 
 
 > Mønstrene i farverne vidner om, at jeg nok har at gøre med et design, som er lavet før den personlige computers udbredelse 
 
+## Fortsættes!
+
+> Skriv endelig, hvis du synes ideen lyder interessant og har lyst til at hjælpe med at føre den ud i livet.
 
 
