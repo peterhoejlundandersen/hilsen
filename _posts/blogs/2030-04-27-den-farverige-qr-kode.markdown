@@ -140,8 +140,6 @@ Jeg havde håbet at se en form for symmetri og gentagelse. Dog må jeg sige, at 
 
 ## Fortsættes!
 
-**Deadline er sat til den 20 juli.**
 
-**Skriv endelig, hvis du synes ideen lyder interessant, og kunne tænke dig at hjælpe til med udvikle den.**
 
 
