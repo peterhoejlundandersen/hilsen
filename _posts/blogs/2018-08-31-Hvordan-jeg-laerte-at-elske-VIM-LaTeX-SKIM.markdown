@@ -23,7 +23,7 @@ Her er den oversigt, som jeg lavede for at komme nærmere, hvad det var for et s
 **Hvad jeg ønsker**: 
 
   1. At gøre brug af VIM ([læs mere, hvis du ikke kender
-     den](https://hilsen.it/blogs/2018/01/27/techlove.html#vim---en-gammel-teksteditor-med-superkr%C3%A6fter-den-sv%C3%A6re)){:target="blank" }
+     den](https://hilsen.it/blogs/2018/01/27/techlove.html#vim---en-gammel-teksteditor-med-superkr%C3%A6fter-den-sv%C3%A6re){:target="blank" })
 ,
      som jeg elsker at arbejde i!
 
@@ -32,7 +32,7 @@ Her er den oversigt, som jeg lavede for at komme nærmere, hvad det var for et s
      vil have det hele i tastaturet, så jeg ALDRIG skal besøge musen,
      for at finde formler, tegn eller andet frem. ([Don't touch the
        mouse - læs
-       mere](https://hilsen.it/blogs/2018/01/27/techlove.html#dttm---dont-touch-the-mouse)){: target="blank" }
+       mere](https://hilsen.it/blogs/2018/01/27/techlove.html#dttm---dont-touch-the-mouse){:target="blank" })
 
   3. At have automatiseret min visning. Når jeg gerne vil skrive
      matematik i koder, så skal resultatet vises i pdf eller HTML. Dette
