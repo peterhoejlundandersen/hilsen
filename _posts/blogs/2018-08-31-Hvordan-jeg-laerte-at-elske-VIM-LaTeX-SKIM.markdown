@@ -1,6 +1,9 @@
 ---
 layout: blog
 title: "Tag math noter og nyd det! - (Til dem der elsker terminalen <3)"
+desc: "Jeg starter snart på DTU. I anledningen af det, og at der snart
+er noter i stakkevis, besluttede jeg mig for at sætte min computer op på en
+ordentlig måde!" 
 category: blogs
 enableMenu: true
 jsfile: "facebook"
@@ -341,7 +344,6 @@ nogle, der kan bruge det til noget <3
 
 
 
-{ #sources }
 
 
 
