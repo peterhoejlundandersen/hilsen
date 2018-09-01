@@ -5,7 +5,6 @@ desc: "Se hvor hurtigt det går"
 category: blogs
 jquery: "true"
 bottom: "true"
-jquery: "true"
 jsfile: "deathshowering"
 seocontent: "Se hvor hurtigt det går"
 seoimage: "https://hilsen.it/assets/blogs/animals/facebook.jpg"

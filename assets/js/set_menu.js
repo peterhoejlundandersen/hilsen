@@ -1,5 +1,6 @@
 function setHeadingsList() {
 	var headings = document.querySelectorAll('h2, h3');
+  console.log(headings)
 	var list = document.querySelector('.js-hilsen-list');
   var html_list = "<h4 style='padding-top: 5px;'>Indholdsfortegnelse:</h4>";
 	html_list += "<ul class='heading-list'>";

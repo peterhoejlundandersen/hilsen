@@ -1,4 +1,342 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-07-16T14:21:23+02:00</updated><id>http://localhost:4000/</id><title type="html">Hilsen IT</title><subtitle>Designer hjemmesider med et sikkert fundament i Ruby on Rails, Jekyll og Angular</subtitle><entry><title type="html">Døde dyr i Danmark</title><link href="http://localhost:4000/blogs/2018/04/12/deathshowering.html" rel="alternate" type="text/html" title="Døde dyr i Danmark" /><published>2018-04-12T00:00:00+02:00</published><updated>2018-04-12T00:00:00+02:00</updated><id>http://localhost:4000/blogs/2018/04/12/deathshowering</id><content type="html" xml:base="http://localhost:4000/blogs/2018/04/12/deathshowering.html">&lt;style&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-09-01T02:39:13+02:00</updated><id>http://localhost:4000/</id><title type="html">Hilsen IT</title><subtitle>Designer hjemmesider med et sikkert fundament i Ruby on Rails, Jekyll og Angular</subtitle><entry><title type="html">Tag math noter og nyd det! - (Til dem der elsker terminalen &amp;lt;3)</title><link href="http://localhost:4000/blogs/2018/08/31/Hvordan-jeg-laerte-at-elske-VIM-LaTeX-SKIM.html" rel="alternate" type="text/html" title="Tag math noter og nyd det! - (Til dem der elsker terminalen &lt;3)" /><published>2018-08-31T00:00:00+02:00</published><updated>2018-08-31T00:00:00+02:00</updated><id>http://localhost:4000/blogs/2018/08/31/Hvordan-jeg-laerte-at-elske-VIM-LaTeX-SKIM</id><content type="html" xml:base="http://localhost:4000/blogs/2018/08/31/Hvordan-jeg-laerte-at-elske-VIM-LaTeX-SKIM.html">&lt;div class=&quot;js-hilsen-list facebook-blog&quot;&gt;
+	&lt;!-- bliver udfyldt med en indholdsbetegnelse af js --&gt;
+&lt;/div&gt;
+
+&lt;h1 id=&quot;hvordan-vil-jeg-gerne-skrive-noter&quot;&gt;Hvordan vil jeg gerne skrive noter?&lt;/h1&gt;
+
+&lt;p&gt;Her er den oversigt, som jeg lavede for at komme nærmere, hvad det var for et system, som jeg gerne vil have:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Hvad jeg ønsker&lt;/strong&gt;:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;At gøre brug af VIM (&lt;a href=&quot;https://hilsen.it/blogs/2018/01/27/techlove.html#vim---en-gammel-teksteditor-med-superkr%C3%A6fter-den-sv%C3%A6re&quot;&gt;læs mere, hvis du ikke kender
+den&lt;/a&gt;),
+som jeg elsker at arbejde i!&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;At kunne skrive matematik, diagrammer og andre illustrationer med
+bogstaver(forkortelser). Altså forstået på den måde, at jeg gerne
+vil have det hele i tastaturet, så jeg ALDRIG skal besøge musen,
+for at finde formler, tegn eller andet frem. (&lt;a href=&quot;https://hilsen.it/blogs/2018/01/27/techlove.html#dttm---dont-touch-the-mouse&quot;&gt;Don’t touch the
+  mouse - læs
+  mere&lt;/a&gt;){
+  .small-source }&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;At have automatiseret min visning. Når jeg gerne vil skrive
+matematik i koder, så skal resultatet vises i pdf eller HTML. Dette
+må gerne gøres automatisk hver gang jeg gemmer, så det bliver en
+flydende overgang mellem skrivning og visning.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;At have en form for hierarki i mine noter. Jeg drømmer om noget,
+der minder om &lt;a href=&quot;https://github.com/vimwiki/vimwiki&quot;&gt;VimWiki&lt;/a&gt;, der er
+et program til VIM, hvor man har en index fil, der indeholder en
+oversigt over ens noter. Derfra kan man besøge hver note og også
+hoppe tilbage til oversigten via genveje. Dette beholder en
+struktur over emner, som jeg ønsker. &lt;a href=&quot;https://www.youtube.com/watch?v=ONh95PNBW-Q&amp;amp;t=396s&quot;&gt;Se den her video, hvis du vil
+vide mere&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;At kunne bruge Version Control (Github) til at gemme og arbejde
+sammen med andre. Dette betyder, at dokumentet skal være ren tekst
+uden formatting kode - modsat Microsoft Word.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;latex---meget-kraftfuld-dokumentbehandling&quot;&gt;LaTeX - meget kraftfuld dokumentbehandling&lt;/h2&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Det første jeg faldt over var &lt;a href=&quot;https://www.latex-project.org/&quot;&gt;LaTeX&lt;/a&gt;, som er en måde at skrive
+dokumenter på. Det er meget udbredt til specialer og større akademiske
+opgaver, da det er til at stole på. Forstået på den måde, at det du ser,
+er det du får(se billede underneden). Du kan ikke pludselig ødelægge din formatering ved at
+indsætte et billede et sted (Word). Derudover er det kompatibelt på
+kryds og tværs af alle computer, da det er ren tekst (punkt 5). Det
+støtter formler, diagrammer og matematik. Men det er ret svært at sætte
+op med automatiseret visning sammen med VIM.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;strong&gt;Et eksempel på et LaTeX dokument og visning af ‘koderne’ som pdf:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/blogs/dtu/latex.png&quot; alt=&quot;LaTeX eksempel&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;vimtex&quot;&gt;VIMTEX!&lt;/h3&gt;
+
+&lt;p&gt;Heldigvis for mig er der nogle andre mennesker, der har lavet pluginnet
+&lt;a href=&quot;https://github.com/lervag/vimtex&quot;&gt;VimTex&lt;/a&gt;, der understøtter LaTeX
+skrivning i VIM. Det giver endda mulighed for at tilføje PDF visning med
+nogle genveje, når du er i et LaTeX dokument (.tex).&lt;/p&gt;
+
+&lt;p&gt;Som jeg nævnte i punkt 3, kunne jeg også godt tænke mig at have
+visningen automatiseret. Det er heldigvis beskrevet i deres
+dokumentation (findes ved at skrive &lt;code class=&quot;highlighter-rouge&quot;&gt;:h vimtex&lt;/code&gt; i vim eller ved en
+normal søgning på internettet)&lt;/p&gt;
+
+&lt;p&gt;De har gjort det muligt at arbejde sammen med PDF-programmet
+&lt;a href=&quot;https://skim-app.sourceforge.io/&quot; target=&quot;blank&quot;&gt;Skim&lt;/a&gt; (husk at
+installere det!), der er
+meget lightweight og støtter &lt;strong&gt;forward og backward searching&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;Forklaring:&lt;/strong&gt; Forward og backward searhcing betyder simpelthen bare, at du kan
+markere et sted i dine koder (LaTex) og hoppe direkte til det sted i
+PDF-visningen. Altså så siden scroller til det sted, hvor du f.eks.
+skriver. Og omvendt - fra PDF til koder.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Det gør de workflow bedre. Jeg satte mig for at sætte det op.&lt;/p&gt;
+
+&lt;h4 id=&quot;opsætning-af-automatisk-pdf-visning&quot;&gt;Opsætning af automatisk PDF-visning&lt;/h4&gt;
+
+&lt;p&gt;Fra deres dokumentation skal man, efter at man har installeret VimTex
+(jeg bruger &lt;a href=&quot;https://github.com/VundleVim/Vundle.vim&quot;&gt;Vundle&lt;/a&gt;), sætte
+nogle forskellige indstillinger i sin &lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;.vimrc&lt;/code&gt; fil.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;Forklaring:&lt;/strong&gt; &lt;code class=&quot;highlighter-rouge&quot;&gt;.vimrc&lt;/code&gt; er det sted, hvor alle dine indstillinger for
+din brug af VIM ligger. F.eks. kan du indsætte &lt;code class=&quot;highlighter-rouge&quot;&gt;set tw=112&lt;/code&gt;, som så
+betyder: Min &lt;strong&gt;t&lt;/strong&gt;ext&lt;strong&gt;w&lt;/strong&gt;idth skal være 112. Det er også her, at du
+installerer forskellige plugins (udvidelse af funktionerne i VIM) og
+konfigurerer dem.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;strong&gt;Indstillinger for brug af Skim i VimTex:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;div class=&quot;language-vim highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c&quot;&gt;&quot;========== VIMTEX IN VIMWIKI&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;let&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;g:vimtex_compiler_latexmk&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+&lt;span class=&quot;se&quot;&gt;    \&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'background'&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+&lt;span class=&quot;se&quot;&gt;    \&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'build_dir'&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;''&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+&lt;span class=&quot;se&quot;&gt;    \&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'callback'&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+&lt;span class=&quot;se&quot;&gt;    \&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'continuous'&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+&lt;span class=&quot;se&quot;&gt;    \&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'executable'&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'latexmk'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+&lt;span class=&quot;se&quot;&gt;    \&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'options'&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;
+&lt;span class=&quot;se&quot;&gt;    \&lt;/span&gt;   &lt;span class=&quot;s1&quot;&gt;'-verbose'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+&lt;span class=&quot;se&quot;&gt;    \&lt;/span&gt;   &lt;span class=&quot;s1&quot;&gt;'-file-line-error'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+&lt;span class=&quot;se&quot;&gt;    \&lt;/span&gt;   &lt;span class=&quot;s1&quot;&gt;'-synctex=1'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+&lt;span class=&quot;se&quot;&gt;    \&lt;/span&gt;   &lt;span class=&quot;s1&quot;&gt;'-interaction=nonstopmode'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+&lt;span class=&quot;se&quot;&gt;    \&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;],&lt;/span&gt;
+&lt;span class=&quot;se&quot;&gt;    \&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;k&quot;&gt;let&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;g:vimtex_view_general_viewer&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'/Applications/Skim.app/Contents/SharedSupport/displayline'&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;let&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;g:vimtex_view_general_options&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'-r @line @pdf @tex'&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;let&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;g:vimtex_view_method&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'skim'&lt;/span&gt;
+&lt;span class=&quot;c&quot;&gt;&quot;Highlight PDF area&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;let&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;g:vimtex_view_skim_activate&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;1&lt;/span&gt;
+&lt;span class=&quot;c&quot;&gt;&quot;============ VIMTEX END&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Du fortæller altså programmet, at det skal køre i baggrunden og køre
+indtil det for besked på at stoppe. Det vil altså sige, at du ‘kun’ skal
+aktivere det én gang, og så vil det selv opdatere filen, hver gang, at
+du gemmer.&lt;/p&gt;
+
+&lt;p&gt;Derudover viser du VimTex, hvor den skal finde dit pdf program (Skim) i
+linjen: &lt;code class=&quot;highlighter-rouge&quot;&gt;let g:vimtex_view_general_viewer =
+'/Applications/Skim.app/Contents/SharedSupport/displayline'&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;Det er ikke nok at linke til programmet, som du kan se. Du skal linke direkte
+til terminal kommandoen.&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;let g:vimtex_view_general_options = '-r @line @pdf @tex'&lt;/code&gt; er også
+vigtigt, da du fortæller hvilke oplysninger programmet (Skim) skal have
+sendt. I dette tilfælde: &lt;code class=&quot;highlighter-rouge&quot;&gt;@line&lt;/code&gt;, linjenummer; @pdf, stien til pdf-filen;
+@tex stien til tex-filen.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;h4 id=&quot;lad-os-se-om-det-kører&quot;&gt;Lad os se, om det kører&lt;/h4&gt;
+
+&lt;p&gt;VimTex kommer også med nogle genveje til visningen af dokumentet.&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;leader&amp;gt;l&lt;/code&gt; for at generere pdf-filen&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;leader&amp;gt;v&lt;/code&gt; for at vise pdf-filen&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;Forklaring:&lt;/strong&gt; &amp;lt;leader&amp;gt; er en knap, som du vælger i VIM. Du kan se
+det som starten på dine personlige (hjemmelavet) genveje. Min selvvalgte
+knap er f.eks. , (komma), så jeg skal taste “,l”, for at genere filen.
+Men sætter sin &amp;lt;leader&amp;gt; i &lt;code class=&quot;highlighter-rouge&quot;&gt;.vimrc&lt;/code&gt; ved at skrive: &lt;code class=&quot;highlighter-rouge&quot;&gt;let mapleader=&quot;,&quot;&lt;/code&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;strong&gt;Mon det virker?:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/blogs/dtu/vimtex-skim.gif&quot; alt=&quot;LaTex Vimtex preview with Skim&quot; /&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;I GIF’en ovenover afprøver jeg de nye indstillinger ved at have et
+  LaTeX dokument åbent på venstre side og derefter trykker jeg første
+  genvejen for at generere, og derefter for at vise i PDF-dokumentet,
+  hvor jeg er.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;strong&gt;JA DET GØR DET!!&lt;/strong&gt; (det tog 2 dage)&lt;/p&gt;
+
+&lt;h2 id=&quot;vimwiki---omg-det-her-bliver-svært&quot;&gt;VimWiki - omg, det her bliver svært&lt;/h2&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Nu er punkt 1, 2, 3 og 5 sådan set opfyldt. Nu mangler jeg ‘bare’ den
+  struktur, som jeg ønsker mig. Jeg fandt en smutvej, men den var ikke
+  køn!&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Den simple funktion, som jeg leder efter, er, at man via tastaturet kan
+oprette LaTeX (.tex) filer fra en index fil (en oversigt), så man f.eks. får en
+punktopstilling med links til de forskellige noter man har.&lt;/p&gt;
+
+&lt;p&gt;Den kunne se sådan her ud:&lt;/p&gt;
+
+&lt;div class=&quot;language-markdown highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
+&lt;span class=&quot;gh&quot;&gt;# Matematik noter&lt;/span&gt;
+
+&lt;span class=&quot;gu&quot;&gt;## Det her emne&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;
+  *&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;Svær matematik&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; - en kort forklaring
+&lt;span class=&quot;p&quot;&gt;  *&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;Endnu sværere matematik&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; - en længere forklaring
+&lt;span class=&quot;p&quot;&gt;  *&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;Overdrevet svært&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; - en nogenlunde forklaring
+
+&lt;span class=&quot;gu&quot;&gt;## Et andet emne&lt;/span&gt;
+…
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Altså skal man ‘kun’ indtaste et navn i brackets (f.eks. [Svær
+  matematik]) og så trykke Enter, når ens markør er over det, for at
+  oprette en ny fil og gå til den i VimWiki. Når man så har skrevet det
+  man skal, kan man trykke backslash for at komme tilbage til
+  oversigten. Smart, ikke?&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;strong&gt;Problemet:&lt;/strong&gt; VimWiki genererer ikke &lt;code class=&quot;highlighter-rouge&quot;&gt;.tex&lt;/code&gt; (LaTex) filer. Den genererer
+&lt;code class=&quot;highlighter-rouge&quot;&gt;.wiki&lt;/code&gt; filer eller &lt;code class=&quot;highlighter-rouge&quot;&gt;.md&lt;/code&gt; (markdown) filer, hvis du beder den om det.
+Altså virker VimTex ikke i de filer, som den genererer.&lt;/p&gt;
+
+&lt;h3 id=&quot;min-løsning-næsten&quot;&gt;Min løsning (næsten)&lt;/h3&gt;
+
+&lt;p&gt;Jeg prøvede i lang tid at få VimTex til at køre i markdown filer, og det
+lykkedes faktisk, men der opstod mange uventede syntax og compile
+problemer.&lt;/p&gt;
+
+&lt;p&gt;VimWiki er et stort plugin med mange udviklere og ikke så let at ‘pille’
+ved, så jeg fandt et andet plugin, der hedder &lt;a href=&quot;https://github.com/mmai/vim-markdown-wiki&quot;&gt;Vim Markdown
+Wiki&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Det har en funktion, der minder meget om VimWikis, hvor man sætter sin
+markør over en tekst i [] (igen) og derefter trykker på en knap for at
+lave en markdown fil.&lt;/p&gt;
+
+&lt;p&gt;Jeg fandt dog hurtigt ud af, at man kunne lave det om i koderne!&lt;/p&gt;
+
+&lt;p&gt;———————– SÅ SKER DET ———————–&lt;/p&gt;
+
+&lt;p&gt;På linje 90 og 91 i pluginnets fil &lt;code class=&quot;highlighter-rouge&quot;&gt;vim-markdown-wiki/after/ftplugin/markdown.vim&lt;/code&gt; står der:&lt;/p&gt;
+
+&lt;div class=&quot;language-vim highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;    &lt;span class=&quot;k&quot;&gt;let&lt;/span&gt; extension &lt;span class=&quot;p&quot;&gt;=&lt;/span&gt; fnamemodify&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;cur_file_name&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;:e&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;let&lt;/span&gt; file_name &lt;span class=&quot;p&quot;&gt;=&lt;/span&gt; word&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;.&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;extension
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Her tager pluginnet filens endelse og videregiver den til den nye fil.&lt;/p&gt;
+
+&lt;p&gt;Hvis man ændrer det til:&lt;/p&gt;
+
+&lt;div class=&quot;language-vim highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;    &lt;span class=&quot;k&quot;&gt;let&lt;/span&gt; extension &lt;span class=&quot;p&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'tex'&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;let&lt;/span&gt; file_name &lt;span class=&quot;p&quot;&gt;=&lt;/span&gt; word&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;.&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;extension
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;så bliver de nye filer lavet automatisk til &lt;code class=&quot;highlighter-rouge&quot;&gt;.tex&lt;/code&gt; (LaTeX) filer.&lt;/p&gt;
+
+&lt;p&gt;For at ændre i de koder og derefter integrere det i Vim
+&lt;a href=&quot;https://help.github.com/articles/fork-a-repo/&quot; target=&quot;blank&quot;&gt;forker&lt;/a&gt; man mmai’s branch til sin egen profil og installerer derefter den her
+version istedet for via Vundle:&lt;/p&gt;
+
+&lt;div class=&quot;language-vim highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Plugin &lt;span class=&quot;s1&quot;&gt;'peterhoejlundandersen/vim-markdown-wiki'&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;h4 id=&quot;men-et-problem-opstod-jeg-kan-ikke-komme-tilbage-til-index&quot;&gt;MEN! Et problem opstod! Jeg kan ikke komme tilbage til index&lt;/h4&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;Forklaring:&lt;/strong&gt; Pluginnet er ‘kun’ lavet til at køre i markdown (.md)
+filer. Derfor virker min version fint så længe man er i oversigtsfilen
+(index). Den genererer linket og filen og flytter en videre til den nye
+&lt;code class=&quot;highlighter-rouge&quot;&gt;.tex&lt;/code&gt; fil, som den skal. Men i &lt;code class=&quot;highlighter-rouge&quot;&gt;.tex&lt;/code&gt; format &lt;strong&gt;virker pluginnet ikke,
+fordi det kun er lavet til markdown &lt;code class=&quot;highlighter-rouge&quot;&gt;.md&lt;/code&gt; filer&lt;/strong&gt;. Man kan altså ikke
+‘hoppe’ tilbage til sin oversigt fil, når man er færdig med at skrive
+noter.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Her følger en lang forklaring om, hvordan VIM aktiverer plugins alt
+efter hvilken fil man er i osv. Tryk &lt;code class=&quot;highlighter-rouge&quot;&gt;:h filetype&lt;/code&gt; i VIM, hvis du vil
+læse mere. Jeg kom op med en nogenlunde løsning efter at have læst en
+masse.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;h3 id=&quot;min-færdige-løsning&quot;&gt;Min færdige løsning&lt;/h3&gt;
+
+&lt;p&gt;En hvilken som helst fil i VIM får tilføjet en filetype, så VIM ved
+hvilken syntax filen skal have og hvilke plugins der skal gælde for den.&lt;/p&gt;
+
+&lt;p&gt;Efter lang tids tænkning kom jeg frem til, at jeg måtte lave min egen
+syntax og tilføje den til både &lt;code class=&quot;highlighter-rouge&quot;&gt;.md&lt;/code&gt; filer og &lt;code class=&quot;highlighter-rouge&quot;&gt;.tex&lt;/code&gt; filer. Den syntax
+skal være forbundet til mit tilpasset plugin, så funktionen kan bruges i
+begge filtyper.&lt;/p&gt;
+
+&lt;p&gt;VIM kalder plugins til filtyper på baggrund af hvilket filnavn som
+pluginnets filer har (hold da op en sætning).&lt;/p&gt;
+
+&lt;p&gt;Altså bliver &lt;code class=&quot;highlighter-rouge&quot;&gt;markdown.vim&lt;/code&gt; kaldt til markdown-filer, &lt;code class=&quot;highlighter-rouge&quot;&gt;tex.vim&lt;/code&gt; filer
+til LaTeX filer (.tex) osv. osv.&lt;/p&gt;
+
+&lt;p&gt;Jeg lavede min eget filnavn, der hedder &lt;code class=&quot;highlighter-rouge&quot;&gt;links.vim&lt;/code&gt;. Heri puttede jeg hele
+det tilpasset tidligere nævnte plugin.&lt;/p&gt;
+
+&lt;p&gt;Nu skulle jeg ‘bare’ søger for, at &lt;code class=&quot;highlighter-rouge&quot;&gt;.links&lt;/code&gt; filtypen bliver tilføjet til
+både markdown filer og tex filer.&lt;/p&gt;
+
+&lt;p&gt;Det gøres således i &lt;code class=&quot;highlighter-rouge&quot;&gt;.vimrc&lt;/code&gt;:&lt;/p&gt;
+
+&lt;div class=&quot;language-vim highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;autocmd &lt;span class=&quot;nb&quot;&gt;FileType&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;BufNewFile&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;BufFilePre&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;BufRead&lt;/span&gt; *&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;md &lt;span class=&quot;k&quot;&gt;set&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;filetype&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;+=.&lt;/span&gt;links
+autocmd &lt;span class=&quot;nb&quot;&gt;FileType&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;BufNewFile&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;BufFilePre&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;BufRead&lt;/span&gt; *&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;tex &lt;span class=&quot;k&quot;&gt;set&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;filetype&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;+=.&lt;/span&gt;links
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;Forklaring:&lt;/strong&gt; de to linjer betyder at vim automatisk skal køre en
+kommando, når en fil bliver åbnet. Øverste linje kører når alle filer
+med md endelsen bliver åbnet &lt;code class=&quot;highlighter-rouge&quot;&gt;*.md&lt;/code&gt;(regex) og derefter tilføjes &lt;code class=&quot;highlighter-rouge&quot;&gt;+=.&lt;/code&gt;
+links syntaxen til filetype. Det samme gælder for &lt;code class=&quot;highlighter-rouge&quot;&gt;*.tex&lt;/code&gt; filerne.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h4 id=&quot;det-bedste-fra-to-verdener---dreeeeeam-3&quot;&gt;Det bedste fra TO VERDENER - dreeeeeam &amp;lt;3&lt;/h4&gt;
+
+&lt;p&gt;Nu kan jeg i en normal markdown-fil bruge VimWiki’s fantastiske
+funtioner. Hvis jeg gør det, så genererer den markdown-filer, som den
+skal. Men via mit tilpasset plugin kan jeg &lt;strong&gt;OGSÅ&lt;/strong&gt; genererer tex-filer.&lt;/p&gt;
+
+&lt;p&gt;Det gøres via genveje, som jeg har sat i min &lt;code class=&quot;highlighter-rouge&quot;&gt;.vimrc&lt;/code&gt;:&lt;/p&gt;
+
+&lt;div class=&quot;language-vim highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;nmap z&lt;span class=&quot;p&quot;&gt;&amp;lt;&lt;/span&gt;CR&lt;span class=&quot;p&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;MdwiGotoLink&lt;span class=&quot;p&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;cr&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;gt;&lt;/span&gt;
+nmap &lt;span class=&quot;k&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;lt;&lt;/span&gt;CR&lt;span class=&quot;p&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;MdwiReturn&lt;span class=&quot;p&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;cr&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Hvis jeg trykket på Enter i en markdown-fil bliver den generet fil en
+markdown-fil. Men hvis jeg trykket på “z&amp;lt;Enter&amp;gt;” (z&amp;lt;CR&amp;gt;) bliver filen en
+tex-fil og alle de fantastiske funktioner fra VimTex følger med.&lt;/p&gt;
+
+&lt;p&gt;Derudover kan jeg også hoppe tilbage via “x&amp;lt;Enter&amp;gt;” (x&amp;lt;CR&amp;gt;).&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;br /&gt;
+&lt;br /&gt;
+Det gik lidt stærkt med at lave dette indlæg. Men håber, at der er
+nogle, der kan bruge det til noget &amp;lt;3 
+&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;{ #sources }&lt;/p&gt;</content><author><name></name></author><category term="blogs" /><summary type="html"></summary></entry><entry><title type="html">Døde dyr i Danmark</title><link href="http://localhost:4000/blogs/2018/04/12/deathshowering.html" rel="alternate" type="text/html" title="Døde dyr i Danmark" /><published>2018-04-12T00:00:00+02:00</published><updated>2018-04-12T00:00:00+02:00</updated><id>http://localhost:4000/blogs/2018/04/12/deathshowering</id><content type="html" xml:base="http://localhost:4000/blogs/2018/04/12/deathshowering.html">&lt;style&gt;
 body {
   height: 10000px!important;
 }
