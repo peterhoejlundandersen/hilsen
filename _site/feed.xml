@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-09-01T02:43:01+02:00</updated><id>http://localhost:4000/</id><title type="html">Hilsen IT</title><subtitle>Designer hjemmesider med et sikkert fundament i Ruby on Rails, Jekyll og Angular</subtitle><entry><title type="html">Tag math noter og nyd det! - (Til dem der elsker terminalen &amp;lt;3)</title><link href="http://localhost:4000/blogs/2018/08/31/Hvordan-jeg-laerte-at-elske-VIM-LaTeX-SKIM.html" rel="alternate" type="text/html" title="Tag math noter og nyd det! - (Til dem der elsker terminalen &lt;3)" /><published>2018-08-31T00:00:00+02:00</published><updated>2018-08-31T00:00:00+02:00</updated><id>http://localhost:4000/blogs/2018/08/31/Hvordan-jeg-laerte-at-elske-VIM-LaTeX-SKIM</id><content type="html" xml:base="http://localhost:4000/blogs/2018/08/31/Hvordan-jeg-laerte-at-elske-VIM-LaTeX-SKIM.html">&lt;div class=&quot;js-hilsen-list facebook-blog&quot;&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-09-01T02:47:28+02:00</updated><id>http://localhost:4000/</id><title type="html">Hilsen IT</title><subtitle>Designer hjemmesider med et sikkert fundament i Ruby on Rails, Jekyll og Angular</subtitle><entry><title type="html">Tag math noter og nyd det! - (Til dem der elsker terminalen &amp;lt;3)</title><link href="http://localhost:4000/blogs/2018/08/31/Hvordan-jeg-laerte-at-elske-VIM-LaTeX-SKIM.html" rel="alternate" type="text/html" title="Tag math noter og nyd det! - (Til dem der elsker terminalen &lt;3)" /><published>2018-08-31T00:00:00+02:00</published><updated>2018-08-31T00:00:00+02:00</updated><id>http://localhost:4000/blogs/2018/08/31/Hvordan-jeg-laerte-at-elske-VIM-LaTeX-SKIM</id><content type="html" xml:base="http://localhost:4000/blogs/2018/08/31/Hvordan-jeg-laerte-at-elske-VIM-LaTeX-SKIM.html">&lt;div class=&quot;js-hilsen-list facebook-blog&quot;&gt;
 	&lt;!-- bliver udfyldt med en indholdsbetegnelse af js --&gt;
 &lt;/div&gt;
 
@@ -11,7 +11,8 @@
 &lt;ol&gt;
   &lt;li&gt;
     &lt;p&gt;At gøre brug af VIM (&lt;a href=&quot;https://hilsen.it/blogs/2018/01/27/techlove.html#vim---en-gammel-teksteditor-med-superkr%C3%A6fter-den-sv%C3%A6re&quot;&gt;læs mere, hvis du ikke kender
-den&lt;/a&gt;),
+den&lt;/a&gt;){: target=”blank” }
+,
 som jeg elsker at arbejde i!&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
@@ -20,8 +21,7 @@ bogstaver(forkortelser). Altså forstået på den måde, at jeg gerne
 vil have det hele i tastaturet, så jeg ALDRIG skal besøge musen,
 for at finde formler, tegn eller andet frem. (&lt;a href=&quot;https://hilsen.it/blogs/2018/01/27/techlove.html#dttm---dont-touch-the-mouse&quot;&gt;Don’t touch the
   mouse - læs
-  mere&lt;/a&gt;){
-  .small-source }&lt;/p&gt;
+  mere&lt;/a&gt;){: target=”blank” }&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
     &lt;p&gt;At have automatiseret min visning. Når jeg gerne vil skrive
@@ -35,7 +35,7 @@ der minder om &lt;a href=&quot;https://github.com/vimwiki/vimwiki&quot;&gt;VimWi
 et program til VIM, hvor man har en index fil, der indeholder en
 oversigt over ens noter. Derfra kan man besøge hver note og også
 hoppe tilbage til oversigten via genveje. Dette beholder en
-struktur over emner, som jeg ønsker. &lt;a href=&quot;https://www.youtube.com/watch?v=ONh95PNBW-Q&amp;amp;t=396s&quot;&gt;Se den her video, hvis du vil
+struktur over emner, som jeg ønsker. &lt;a href=&quot;https://www.youtube.com/watch?v=ONh95PNBW-Q&amp;amp;t=396s&quot; target=&quot;blank&quot;&gt;Se den her video, hvis du vil
 vide mere&lt;/a&gt;&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
@@ -50,7 +50,8 @@ uden formatting kode - modsat Microsoft Word.&lt;/p&gt;
 &lt;h2 id=&quot;latex---meget-kraftfuld-dokumentbehandling&quot;&gt;LaTeX - meget kraftfuld dokumentbehandling&lt;/h2&gt;
 
 &lt;blockquote&gt;
-  &lt;p&gt;Det første jeg faldt over var &lt;a href=&quot;https://www.latex-project.org/&quot;&gt;LaTeX&lt;/a&gt;, som er en måde at skrive
+  &lt;p&gt;Det første jeg faldt over var &lt;a href=&quot;https://www.latex-project.org/&quot; target=&quot;blank&quot;&gt;LaTeX&lt;/a&gt;
+, som er en måde at skrive
 dokumenter på. Det er meget udbredt til specialer og større akademiske
 opgaver, da det er til at stole på. Forstået på den måde, at det du ser,
 er det du får(se billede underneden). Du kan ikke pludselig ødelægge din formatering ved at
@@ -67,7 +68,8 @@ op med automatiseret visning sammen med VIM.&lt;/p&gt;
 &lt;h3 id=&quot;vimtex&quot;&gt;VIMTEX!&lt;/h3&gt;
 
 &lt;p&gt;Heldigvis for mig er der nogle andre mennesker, der har lavet pluginnet
-&lt;a href=&quot;https://github.com/lervag/vimtex&quot;&gt;VimTex&lt;/a&gt;, der understøtter LaTeX
+&lt;a href=&quot;https://github.com/lervag/vimtex&quot; target=&quot;blank&quot;&gt;VimTex&lt;/a&gt;
+, der understøtter LaTeX
 skrivning i VIM. Det giver endda mulighed for at tilføje PDF visning med
 nogle genveje, når du er i et LaTeX dokument (.tex).&lt;/p&gt;
 
@@ -93,7 +95,8 @@ skriver. Og omvendt - fra PDF til koder.&lt;/p&gt;
 &lt;h4 id=&quot;opsætning-af-automatisk-pdf-visning&quot;&gt;Opsætning af automatisk PDF-visning&lt;/h4&gt;
 
 &lt;p&gt;Fra deres dokumentation skal man, efter at man har installeret VimTex
-(jeg bruger &lt;a href=&quot;https://github.com/VundleVim/Vundle.vim&quot;&gt;Vundle&lt;/a&gt;), sætte
+(jeg bruger &lt;a href=&quot;https://github.com/VundleVim/Vundle.vim&quot; target=&quot;blank&quot;&gt;Vundle&lt;/a&gt;
+), sætte
 nogle forskellige indstillinger i sin &lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;.vimrc&lt;/code&gt; fil.&lt;/strong&gt;&lt;/p&gt;
 
 &lt;blockquote&gt;
@@ -222,8 +225,9 @@ lykkedes faktisk, men der opstod mange uventede syntax og compile
 problemer.&lt;/p&gt;
 
 &lt;p&gt;VimWiki er et stort plugin med mange udviklere og ikke så let at ‘pille’
-ved, så jeg fandt et andet plugin, der hedder &lt;a href=&quot;https://github.com/mmai/vim-markdown-wiki&quot;&gt;Vim Markdown
-Wiki&lt;/a&gt;.&lt;/p&gt;
+ved, så jeg fandt et andet plugin, der hedder &lt;a href=&quot;https://github.com/mmai/vim-markdown-wiki&quot; target=&quot;blank&quot;&gt;Vim Markdown
+Wiki&lt;/a&gt;
+.&lt;/p&gt;
 
 &lt;p&gt;Det har en funktion, der minder meget om VimWikis, hvor man sætter sin
 markør over en tekst i [] (igen) og derefter trykker på en knap for at

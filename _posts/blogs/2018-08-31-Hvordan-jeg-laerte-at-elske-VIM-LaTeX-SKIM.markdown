@@ -23,7 +23,8 @@ Her er den oversigt, som jeg lavede for at komme nærmere, hvad det var for et s
 **Hvad jeg ønsker**: 
 
   1. At gøre brug af VIM ([læs mere, hvis du ikke kender
-     den](https://hilsen.it/blogs/2018/01/27/techlove.html#vim---en-gammel-teksteditor-med-superkr%C3%A6fter-den-sv%C3%A6re)),
+     den](https://hilsen.it/blogs/2018/01/27/techlove.html#vim---en-gammel-teksteditor-med-superkr%C3%A6fter-den-sv%C3%A6re)){: target="blank" }
+,
      som jeg elsker at arbejde i!
 
   2. At kunne skrive matematik, diagrammer og andre illustrationer med
@@ -31,8 +32,7 @@ Her er den oversigt, som jeg lavede for at komme nærmere, hvad det var for et s
      vil have det hele i tastaturet, så jeg ALDRIG skal besøge musen,
      for at finde formler, tegn eller andet frem. ([Don't touch the
        mouse - læs
-       mere](https://hilsen.it/blogs/2018/01/27/techlove.html#dttm---dont-touch-the-mouse)){
-       .small-source }
+       mere](https://hilsen.it/blogs/2018/01/27/techlove.html#dttm---dont-touch-the-mouse)){: target="blank" }
 
   3. At have automatiseret min visning. Når jeg gerne vil skrive
      matematik i koder, så skal resultatet vises i pdf eller HTML. Dette
@@ -45,7 +45,8 @@ Her er den oversigt, som jeg lavede for at komme nærmere, hvad det var for et s
      oversigt over ens noter. Derfra kan man besøge hver note og også
      hoppe tilbage til oversigten via genveje. Dette beholder en
      struktur over emner, som jeg ønsker. [Se den her video, hvis du vil
-     vide mere](https://www.youtube.com/watch?v=ONh95PNBW-Q&t=396s)
+     vide mere](https://www.youtube.com/watch?v=ONh95PNBW-Q&t=396s){: target="blank" }
+
 
   5. At kunne bruge Version Control (Github) til at gemme og arbejde
      sammen med andre. Dette betyder, at dokumentet skal være ren tekst
@@ -56,7 +57,8 @@ Her er den oversigt, som jeg lavede for at komme nærmere, hvad det var for et s
 
 ## LaTeX - meget kraftfuld dokumentbehandling
 
-> Det første jeg faldt over var [LaTeX](https://www.latex-project.org/), som er en måde at skrive
+> Det første jeg faldt over var [LaTeX](https://www.latex-project.org/){: target="blank" }
+, som er en måde at skrive
 dokumenter på. Det er meget udbredt til specialer og større akademiske
 opgaver, da det er til at stole på. Forstået på den måde, at det du ser,
 er det du får(se billede underneden). Du kan ikke pludselig ødelægge din formatering ved at
@@ -72,7 +74,8 @@ op med automatiseret visning sammen med VIM.
 ### VIMTEX! 
 
 Heldigvis for mig er der nogle andre mennesker, der har lavet pluginnet
-[VimTex](https://github.com/lervag/vimtex), der understøtter LaTeX
+[VimTex](https://github.com/lervag/vimtex){: target="blank" }
+, der understøtter LaTeX
 skrivning i VIM. Det giver endda mulighed for at tilføje PDF visning med
 nogle genveje, når du er i et LaTeX dokument (.tex). 
 
@@ -96,7 +99,8 @@ Det gør de workflow bedre. Jeg satte mig for at sætte det op.
 #### Opsætning af automatisk PDF-visning
 
 Fra deres dokumentation skal man, efter at man har installeret VimTex
-(jeg bruger [Vundle](https://github.com/VundleVim/Vundle.vim)), sætte
+(jeg bruger [Vundle](https://github.com/VundleVim/Vundle.vim){: target="blank" }
+), sætte
 nogle forskellige indstillinger i sin **`.vimrc` fil.**
 
 > **Forklaring:** `.vimrc` er det sted, hvor alle dine indstillinger for
@@ -226,7 +230,8 @@ problemer.
 
 VimWiki er et stort plugin med mange udviklere og ikke så let at 'pille'
 ved, så jeg fandt et andet plugin, der hedder [Vim Markdown
-Wiki](https://github.com/mmai/vim-markdown-wiki). 
+Wiki](https://github.com/mmai/vim-markdown-wiki){: target="blank" }
+. 
 
 Det har en funktion, der minder meget om VimWikis, hvor man sætter sin
 markør over en tekst i [] (igen) og derefter trykker på en knap for at
