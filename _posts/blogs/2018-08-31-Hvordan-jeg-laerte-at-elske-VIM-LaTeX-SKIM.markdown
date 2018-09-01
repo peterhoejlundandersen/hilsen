@@ -23,7 +23,7 @@ Her er den oversigt, som jeg lavede for at komme nærmere, hvad det var for et s
 **Hvad jeg ønsker**: 
 
   1. At gøre brug af VIM ([læs mere, hvis du ikke kender
-     den](https://hilsen.it/blogs/2018/01/27/techlove.html#vim---en-gammel-teksteditor-med-superkr%C3%A6fter-den-sv%C3%A6re)){: target="blank" }
+     den](https://hilsen.it/blogs/2018/01/27/techlove.html#vim---en-gammel-teksteditor-med-superkr%C3%A6fter-den-sv%C3%A6re)){:target="blank" }
 ,
      som jeg elsker at arbejde i!
 
@@ -45,7 +45,7 @@ Her er den oversigt, som jeg lavede for at komme nærmere, hvad det var for et s
      oversigt over ens noter. Derfra kan man besøge hver note og også
      hoppe tilbage til oversigten via genveje. Dette beholder en
      struktur over emner, som jeg ønsker. [Se den her video, hvis du vil
-     vide mere](https://www.youtube.com/watch?v=ONh95PNBW-Q&t=396s){: target="blank" }
+     vide mere](https://www.youtube.com/watch?v=ONh95PNBW-Q&t=396s){:target="blank" }
 
 
   5. At kunne bruge Version Control (Github) til at gemme og arbejde
@@ -57,7 +57,7 @@ Her er den oversigt, som jeg lavede for at komme nærmere, hvad det var for et s
 
 ## LaTeX - meget kraftfuld dokumentbehandling
 
-> Det første jeg faldt over var [LaTeX](https://www.latex-project.org/){: target="blank" }
+> Det første jeg faldt over var [LaTeX](https://www.latex-project.org/){:target="blank" }
 , som er en måde at skrive
 dokumenter på. Det er meget udbredt til specialer og større akademiske
 opgaver, da det er til at stole på. Forstået på den måde, at det du ser,
@@ -74,7 +74,7 @@ op med automatiseret visning sammen med VIM.
 ### VIMTEX! 
 
 Heldigvis for mig er der nogle andre mennesker, der har lavet pluginnet
-[VimTex](https://github.com/lervag/vimtex){: target="blank" }
+[VimTex](https://github.com/lervag/vimtex){:target="blank" }
 , der understøtter LaTeX
 skrivning i VIM. Det giver endda mulighed for at tilføje PDF visning med
 nogle genveje, når du er i et LaTeX dokument (.tex). 
@@ -85,7 +85,7 @@ dokumentation (findes ved at skrive `:h vimtex` i vim eller ved en
 normal søgning på internettet) 
 
 De har gjort det muligt at arbejde sammen med PDF-programmet
-[Skim](https://skim-app.sourceforge.io/){: target="blank" } (husk at
+[Skim](https://skim-app.sourceforge.io/){:target="blank" } (husk at
 installere det!), der er
 meget lightweight og støtter **forward og backward searching**.
 
@@ -99,7 +99,7 @@ Det gør de workflow bedre. Jeg satte mig for at sætte det op.
 #### Opsætning af automatisk PDF-visning
 
 Fra deres dokumentation skal man, efter at man har installeret VimTex
-(jeg bruger [Vundle](https://github.com/VundleVim/Vundle.vim){: target="blank" }
+(jeg bruger [Vundle](https://github.com/VundleVim/Vundle.vim){:target="blank" }
 ), sætte
 nogle forskellige indstillinger i sin **`.vimrc` fil.**
 
@@ -230,7 +230,7 @@ problemer.
 
 VimWiki er et stort plugin med mange udviklere og ikke så let at 'pille'
 ved, så jeg fandt et andet plugin, der hedder [Vim Markdown
-Wiki](https://github.com/mmai/vim-markdown-wiki){: target="blank" }
+Wiki](https://github.com/mmai/vim-markdown-wiki){:target="blank" }
 . 
 
 Det har en funktion, der minder meget om VimWikis, hvor man sætter sin
@@ -260,7 +260,7 @@ Hvis man ændrer det til:
 så bliver de nye filer lavet automatisk til `.tex` (LaTeX) filer.
 
 For at ændre i de koder og derefter integrere det i Vim
-[forker](https://help.github.com/articles/fork-a-repo/){: target="blank"
+[forker](https://help.github.com/articles/fork-a-repo/){:target="blank"
 } man mmai's branch til sin egen profil og installerer derefter den her
 version istedet for via Vundle:
 
@@ -303,7 +303,7 @@ til LaTeX filer (.tex) osv. osv.
 Jeg lavede min eget filnavn, der hedder `links.vim`. Heri puttede jeg hele
 det tilpasset tidligere nævnte plugin. 
 
-Nu skulle jeg 'bare' søger for, at `.links` filtypen bliver tilføjet til
+Nu skulle jeg 'bare' sørge for, at `.links` filtypen bliver tilføjet til
 både markdown filer og tex filer. 
 
 Det gøres således i `.vimrc`: 
