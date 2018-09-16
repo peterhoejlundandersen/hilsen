@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-09-01T02:51:52+02:00</updated><id>http://localhost:4000/</id><title type="html">Hilsen IT</title><subtitle>Designer hjemmesider med et sikkert fundament i Ruby on Rails, Jekyll og Angular</subtitle><entry><title type="html">Tag math noter og nyd det! - (Til dem der elsker terminalen &amp;lt;3)</title><link href="http://localhost:4000/blogs/2018/08/31/Hvordan-jeg-laerte-at-elske-VIM-LaTeX-SKIM.html" rel="alternate" type="text/html" title="Tag math noter og nyd det! - (Til dem der elsker terminalen &lt;3)" /><published>2018-08-31T00:00:00+02:00</published><updated>2018-08-31T00:00:00+02:00</updated><id>http://localhost:4000/blogs/2018/08/31/Hvordan-jeg-laerte-at-elske-VIM-LaTeX-SKIM</id><content type="html" xml:base="http://localhost:4000/blogs/2018/08/31/Hvordan-jeg-laerte-at-elske-VIM-LaTeX-SKIM.html">&lt;div class=&quot;js-hilsen-list facebook-blog&quot;&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-09-16T17:31:53+02:00</updated><id>http://localhost:4000/</id><title type="html">Hilsen IT</title><subtitle>Designer hjemmesider med et sikkert fundament i Ruby on Rails, Jekyll og Angular</subtitle><entry><title type="html">Tag math noter og nyd det! - (Til dem der elsker terminalen &amp;lt;3)</title><link href="http://localhost:4000/blogs/2018/08/31/Hvordan-jeg-laerte-at-elske-VIM-LaTeX-SKIM.html" rel="alternate" type="text/html" title="Tag math noter og nyd det! - (Til dem der elsker terminalen &lt;3)" /><published>2018-08-31T00:00:00+02:00</published><updated>2018-08-31T00:00:00+02:00</updated><id>http://localhost:4000/blogs/2018/08/31/Hvordan-jeg-laerte-at-elske-VIM-LaTeX-SKIM</id><content type="html" xml:base="http://localhost:4000/blogs/2018/08/31/Hvordan-jeg-laerte-at-elske-VIM-LaTeX-SKIM.html">&lt;div class=&quot;js-hilsen-list facebook-blog&quot;&gt;
 	&lt;!-- bliver udfyldt med en indholdsbetegnelse af js --&gt;
 &lt;/div&gt;
 
@@ -10,8 +10,8 @@
 
 &lt;ol&gt;
   &lt;li&gt;
-    &lt;p&gt;At gøre brug af VIM (&lt;a href=&quot;https://hilsen.it/blogs/2018/01/27/techlove.html#vim---en-gammel-teksteditor-med-superkr%C3%A6fter-den-sv%C3%A6re&quot;&gt;læs mere, hvis du ikke kender
-den&lt;/a&gt;){: target=”blank” }
+    &lt;p&gt;At gøre brug af VIM (&lt;a href=&quot;https://hilsen.it/blogs/2018/01/27/techlove.html#vim---en-gammel-teksteditor-med-superkr%C3%A6fter-den-sv%C3%A6re&quot; target=&quot;blank&quot;&gt;læs mere, hvis du ikke kender
+den&lt;/a&gt;)
 ,
 som jeg elsker at arbejde i!&lt;/p&gt;
   &lt;/li&gt;
@@ -19,9 +19,9 @@ som jeg elsker at arbejde i!&lt;/p&gt;
     &lt;p&gt;At kunne skrive matematik, diagrammer og andre illustrationer med
 bogstaver(forkortelser). Altså forstået på den måde, at jeg gerne
 vil have det hele i tastaturet, så jeg ALDRIG skal besøge musen,
-for at finde formler, tegn eller andet frem. (&lt;a href=&quot;https://hilsen.it/blogs/2018/01/27/techlove.html#dttm---dont-touch-the-mouse&quot;&gt;Don’t touch the
+for at finde formler, tegn eller andet frem. (&lt;a href=&quot;https://hilsen.it/blogs/2018/01/27/techlove.html#dttm---dont-touch-the-mouse&quot; target=&quot;blank&quot;&gt;Don’t touch the
   mouse - læs
-  mere&lt;/a&gt;){: target=”blank” }&lt;/p&gt;
+  mere&lt;/a&gt;)&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
     &lt;p&gt;At have automatiseret min visning. Når jeg gerne vil skrive
