@@ -1,0 +1,190 @@
+<style>
+body {
+  height: 10000px!important;
+}
+.site-title, header, footer, .hilsen-pagination, .blog-footer, .go-to-top {
+  display: none!important;
+}
+#container, #background {
+  position: absolute;
+  width: 100%;
+  left: 0; 
+  overflow: hidden;
+}
+
+#background {
+  top: 0;
+  z-index: 9;
+  height: 10000px;
+  background: rgb(139,0,255);
+  background: linear-gradient(180deg, rgba(139,0,255,1) 0%, rgba(9,9,121,1) 35%, rgba(216,242,255,1) 100%);
+}
+#container {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -moz-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  z-index: 9999;
+  height: auto;
+  bottom: 0px!important;
+}
+
+.bottom-of-page {
+  position: absolute;
+  bottom: 0;
+}
+#submit {
+  cursor: pointer;
+  padding: 10px;
+  display: inline-block;
+  width: 100px;
+  background-color: red;
+  color: white;
+  text-transform: uppercase;
+  font-size: 20px;
+}
+.mols-bjerge {
+  position: absolute;
+  bottom: 60vh;
+  right: 10%;
+  z-index: 9999;
+}
+
+.info-box {
+  position: fixed;
+  transform: translate3d(0,0,0);
+  width: 40%;
+  left: 50%;
+  top: 30%;
+  text-align: center;
+  margin-left: -250px;
+  z-index: 9999999999;
+  background-color: white;
+  border: 2px solid black;
+}
+.info-box h2 {
+  padding: 20px;
+}
+.info-box p {
+  padding: 0px 20px;
+  margin: 10px!important;
+}
+#house, #hills, #trees, #man {
+  position: absolute;
+}
+
+#man {
+  bottom: 140px;
+  width: 40px;
+  left: 20px;
+  z-index: 999;
+  
+}
+
+.speech-bubble {
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    width: 200px;
+    text-align: center;
+    padding: 5px;
+    bottom: 3px;
+    left: 28px;
+    z-index: 99999999;
+    position: absolute;
+}
+
+.speech-bubble .arrow {
+    border-style: solid;
+    position: absolute;
+}
+ 
+.bottom {
+    border-color: transparent transparent white transparent;
+    border-width: 0px 12px 12px 12px;
+    top: -12px;
+}
+
+#trees {
+  right: 10%;
+  bottom: 100px;
+  width: 30%!important;
+  z-index: 9999;
+}
+#hills {
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  z-index: 9;
+  min-height: 380px;
+}
+#house {
+  bottom: 50px;
+  left: 15%;
+  width: 30%;
+  min-width: 200px;
+  z-index: 99;
+}
+
+.death-info, .back-url {
+  position: fixed;
+  bottom: 100vh;
+  margin-bottom: -80px;
+  z-index: 99999999;
+  color: white!important;
+  font-size: 30px!important;
+  width: 45px;
+  text-align: center;
+}
+.back-url {
+  left: 0px;
+  height: 0;
+  border-top: 25px solid transparent!important;
+  border-bottom: 25px solid transparent!important;
+  border-right: 25px solid white!important;
+
+}
+.death-info {
+  left: 100px;
+  border: 2px solid white!important;
+  border-radius: 100%;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  -o-border-radius: 100%;
+}
+.death-info:hover {
+  border: 2px solid white!important;
+  color: white!important;
+}
+#container .back-url {
+  border-bottom: 25px solid transparent!important;
+}
+
+/* FORMEL */
+
+#back, #info {
+  position: fixed;
+
+}
+
+@media screen and (max-width: 700px) {
+  .info-box {
+    position: relative;
+    width: 100%;
+    left: 0%;
+    top: 20%;
+    font-size: 12px;
+    text-align: center;
+    margin-left: 0px!important;
+    z-index: 9999999999;
+    background-color: white;
+    border: 2px solid black;
+  }
+}
+
+</style>

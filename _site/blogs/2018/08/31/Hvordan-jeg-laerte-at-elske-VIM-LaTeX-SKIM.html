@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+	<link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/assets/favicon-96x96.png">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+  <link rel="stylesheet" href="/assets/main.css">
+  
+  <link rel="alternate" type="application/rss+xml" title="Hilsen IT" href="/feed.xml">
+	
+	<meta property="og:description" content=""/>
+	<meta property="og:image" content=""/>
+	
+  
+    <script src="/assets/js/set_menu.js"></script> 
+  
+  
+    <script src="/assets/js/facebook.js"></script>
+  
+	
+		<title>Hilsen IT | Tag math noter og nyd det! - (Til dem der elsker terminalen <3)</title>
+	
+</head>
+
+  <body>
+    <header class="site-header" role="banner">
+
+  <div class="wrapper">
+    <a class="site-title" rel="author" href="/">Hilsen IT</a>
+
+    
+  </div>
+</header>
+
+    <main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">Tag math noter og nyd det! - (Til dem der elsker terminalen &lt;3)</h1>
+    <p class="post-meta">
+      <time class="dt-published" datetime="2018-08-31T00:00:00+02:00" itemprop="datePublished">
+        
+        Aug 31, 2018
+      </time>
+      </p>
+  </header>
+
+	<hr>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <div class="js-hilsen-list facebook-blog">
+	<!-- bliver udfyldt med en indholdsbetegnelse af js -->
+</div>
+
+<h1 id="hvordan-vil-jeg-gerne-skrive-noter">Hvordan vil jeg gerne skrive noter?</h1>
+
+<p>Her er den oversigt, som jeg lavede for at komme nærmere, hvad det var for et system, som jeg gerne vil have:</p>
+
+<p><strong>Hvad jeg ønsker</strong>:</p>
+
+<ol>
+  <li>
+    <p>At gøre brug af VIM (<a href="https://hilsen.it/blogs/2018/01/27/techlove.html#vim---en-gammel-teksteditor-med-superkr%C3%A6fter-den-sv%C3%A6re" target="blank">læs mere, hvis du ikke kender
+den</a>)
+,
+som jeg elsker at arbejde i!</p>
+  </li>
+  <li>
+    <p>At kunne skrive matematik, diagrammer og andre illustrationer med
+bogstaver(forkortelser). Altså forstået på den måde, at jeg gerne
+vil have det hele i tastaturet, så jeg ALDRIG skal besøge musen,
+for at finde formler, tegn eller andet frem. (<a href="https://hilsen.it/blogs/2018/01/27/techlove.html#dttm---dont-touch-the-mouse" target="blank">Don’t touch the
+  mouse - læs
+  mere</a>)</p>
+  </li>
+  <li>
+    <p>At have automatiseret min visning. Når jeg gerne vil skrive
+matematik i koder, så skal resultatet vises i pdf eller HTML. Dette
+må gerne gøres automatisk hver gang jeg gemmer, så det bliver en
+flydende overgang mellem skrivning og visning.</p>
+  </li>
+  <li>
+    <p>At have en form for hierarki i mine noter. Jeg drømmer om noget,
+der minder om <a href="https://github.com/vimwiki/vimwiki">VimWiki</a>, der er
+et program til VIM, hvor man har en index fil, der indeholder en
+oversigt over ens noter. Derfra kan man besøge hver note og også
+hoppe tilbage til oversigten via genveje. Dette beholder en
+struktur over emner, som jeg ønsker. <a href="https://www.youtube.com/watch?v=ONh95PNBW-Q&amp;t=396s" target="blank">Se den her video, hvis du vil
+vide mere</a></p>
+  </li>
+  <li>
+    <p>At kunne bruge Version Control (Github) til at gemme og arbejde
+sammen med andre. Dette betyder, at dokumentet skal være ren tekst
+uden formatting kode - modsat Microsoft Word.</p>
+  </li>
+</ol>
+
+<hr />
+
+<h2 id="latex---meget-kraftfuld-dokumentbehandling">LaTeX - meget kraftfuld dokumentbehandling</h2>
+
+<blockquote>
+  <p>Det første jeg faldt over var <a href="https://www.latex-project.org/" target="blank">LaTeX</a>
+, som er en måde at skrive
+dokumenter på. Det er meget udbredt til specialer og større akademiske
+opgaver, da det er til at stole på. Forstået på den måde, at det du ser,
+er det du får(se billede underneden). Du kan ikke pludselig ødelægge din formatering ved at
+indsætte et billede et sted (Word). Derudover er det kompatibelt på
+kryds og tværs af alle computer, da det er ren tekst (punkt 5). Det
+støtter formler, diagrammer og matematik. Men det er ret svært at sætte
+op med automatiseret visning sammen med VIM.</p>
+</blockquote>
+
+<p><strong>Et eksempel på et LaTeX dokument og visning af ‘koderne’ som pdf:</strong></p>
+
+<p><img src="/assets/blogs/dtu/latex.png" alt="LaTeX eksempel" /></p>
+
+<h3 id="vimtex">VIMTEX!</h3>
+
+<p>Heldigvis for mig er der nogle andre mennesker, der har lavet pluginnet
+<a href="https://github.com/lervag/vimtex" target="blank">VimTex</a>
+, der understøtter LaTeX
+skrivning i VIM. Det giver endda mulighed for at tilføje PDF visning med
+nogle genveje, når du er i et LaTeX dokument (.tex).</p>
+
+<p>Som jeg nævnte i punkt 3, kunne jeg også godt tænke mig at have
+visningen automatiseret. Det er heldigvis beskrevet i deres
+dokumentation (findes ved at skrive <code class="highlighter-rouge">:h vimtex</code> i vim eller ved en
+normal søgning på internettet)</p>
+
+<p>De har gjort det muligt at arbejde sammen med PDF-programmet
+<a href="https://skim-app.sourceforge.io/" target="blank">Skim</a> (husk at
+installere det!), der er
+meget lightweight og støtter <strong>forward og backward searching</strong>.</p>
+
+<blockquote>
+  <p><strong>Forklaring:</strong> Forward og backward searhcing betyder simpelthen bare, at du kan
+markere et sted i dine koder (LaTex) og hoppe direkte til det sted i
+PDF-visningen. Altså så siden scroller til det sted, hvor du f.eks.
+skriver. Og omvendt - fra PDF til koder.</p>
+</blockquote>
+
+<p>Det gør de workflow bedre. Jeg satte mig for at sætte det op.</p>
+
+<h4 id="opsætning-af-automatisk-pdf-visning">Opsætning af automatisk PDF-visning</h4>
+
+<p>Fra deres dokumentation skal man, efter at man har installeret VimTex
+(jeg bruger <a href="https://github.com/VundleVim/Vundle.vim" target="blank">Vundle</a>
+), sætte
+nogle forskellige indstillinger i sin <strong><code class="highlighter-rouge">.vimrc</code> fil.</strong></p>
+
+<blockquote>
+  <p><strong>Forklaring:</strong> <code class="highlighter-rouge">.vimrc</code> er det sted, hvor alle dine indstillinger for
+din brug af VIM ligger. F.eks. kan du indsætte <code class="highlighter-rouge">set tw=112</code>, som så
+betyder: Min <strong>t</strong>ext<strong>w</strong>idth skal være 112. Det er også her, at du
+installerer forskellige plugins (udvidelse af funktionerne i VIM) og
+konfigurerer dem.</p>
+</blockquote>
+
+<p><strong>Indstillinger for brug af Skim i VimTex:</strong></p>
+
+<div class="language-vim highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c">"========== VIMTEX IN VIMWIKI</span>
+<span class="k">let</span> <span class="nv">g:vimtex_compiler_latexmk</span> <span class="p">=</span> <span class="p">{</span>
+<span class="se">    \</span> <span class="s1">'background'</span> <span class="p">:</span> <span class="m">1</span><span class="p">,</span>
+<span class="se">    \</span> <span class="s1">'build_dir'</span> <span class="p">:</span> <span class="s1">''</span><span class="p">,</span>
+<span class="se">    \</span> <span class="s1">'callback'</span> <span class="p">:</span> <span class="m">1</span><span class="p">,</span>
+<span class="se">    \</span> <span class="s1">'continuous'</span> <span class="p">:</span> <span class="m">1</span><span class="p">,</span>
+<span class="se">    \</span> <span class="s1">'executable'</span> <span class="p">:</span> <span class="s1">'latexmk'</span><span class="p">,</span>
+<span class="se">    \</span> <span class="s1">'options'</span> <span class="p">:</span> <span class="p">[</span>
+<span class="se">    \</span>   <span class="s1">'-verbose'</span><span class="p">,</span>
+<span class="se">    \</span>   <span class="s1">'-file-line-error'</span><span class="p">,</span>
+<span class="se">    \</span>   <span class="s1">'-synctex=1'</span><span class="p">,</span>
+<span class="se">    \</span>   <span class="s1">'-interaction=nonstopmode'</span><span class="p">,</span>
+<span class="se">    \</span> <span class="p">],</span>
+<span class="se">    \</span><span class="p">}</span>
+
+<span class="k">let</span> <span class="nv">g:vimtex_view_general_viewer</span> <span class="p">=</span> <span class="s1">'/Applications/Skim.app/Contents/SharedSupport/displayline'</span>
+<span class="k">let</span> <span class="nv">g:vimtex_view_general_options</span> <span class="p">=</span> <span class="s1">'-r @line @pdf @tex'</span>
+<span class="k">let</span> <span class="nv">g:vimtex_view_method</span> <span class="p">=</span> <span class="s1">'skim'</span>
+<span class="c">"Highlight PDF area</span>
+<span class="k">let</span> <span class="nv">g:vimtex_view_skim_activate</span><span class="p">=</span><span class="m">1</span>
+<span class="c">"============ VIMTEX END</span>
+</code></pre></div></div>
+
+<p>Du fortæller altså programmet, at det skal køre i baggrunden og køre
+indtil det for besked på at stoppe. Det vil altså sige, at du ‘kun’ skal
+aktivere det én gang, og så vil det selv opdatere filen, hver gang, at
+du gemmer.</p>
+
+<p>Derudover viser du VimTex, hvor den skal finde dit pdf program (Skim) i
+linjen: <code class="highlighter-rouge">let g:vimtex_view_general_viewer =
+'/Applications/Skim.app/Contents/SharedSupport/displayline'</code>.</p>
+
+<p>Det er ikke nok at linke til programmet, som du kan se. Du skal linke direkte
+til terminal kommandoen.</p>
+
+<p><code class="highlighter-rouge">let g:vimtex_view_general_options = '-r @line @pdf @tex'</code> er også
+vigtigt, da du fortæller hvilke oplysninger programmet (Skim) skal have
+sendt. I dette tilfælde: <code class="highlighter-rouge">@line</code>, linjenummer; @pdf, stien til pdf-filen;
+@tex stien til tex-filen.</p>
+
+<p><br /></p>
+<h4 id="lad-os-se-om-det-kører">Lad os se, om det kører</h4>
+
+<p>VimTex kommer også med nogle genveje til visningen af dokumentet.</p>
+
+<p><code class="highlighter-rouge">&lt;leader&gt;l</code> for at generere pdf-filen</p>
+
+<p><code class="highlighter-rouge">&lt;leader&gt;v</code> for at vise pdf-filen</p>
+
+<blockquote>
+  <p><strong>Forklaring:</strong> &lt;leader&gt; er en knap, som du vælger i VIM. Du kan se
+det som starten på dine personlige (hjemmelavet) genveje. Min selvvalgte
+knap er f.eks. , (komma), så jeg skal taste “,l”, for at genere filen.
+Men sætter sin &lt;leader&gt; i <code class="highlighter-rouge">.vimrc</code> ved at skrive: <code class="highlighter-rouge">let mapleader=","</code></p>
+</blockquote>
+
+<p><strong>Mon det virker?:</strong></p>
+
+<p><img src="/assets/blogs/dtu/vimtex-skim.gif" alt="LaTex Vimtex preview with Skim" /></p>
+
+<blockquote>
+  <p>I GIF’en ovenover afprøver jeg de nye indstillinger ved at have et
+  LaTeX dokument åbent på venstre side og derefter trykker jeg første
+  genvejen for at generere, og derefter for at vise i PDF-dokumentet,
+  hvor jeg er.</p>
+</blockquote>
+
+<p><strong>JA DET GØR DET!!</strong> (det tog 2 dage)</p>
+
+<h2 id="vimwiki---omg-det-her-bliver-svært">VimWiki - omg, det her bliver svært</h2>
+
+<blockquote>
+  <p>Nu er punkt 1, 2, 3 og 5 sådan set opfyldt. Nu mangler jeg ‘bare’ den
+  struktur, som jeg ønsker mig. Jeg fandt en smutvej, men den var ikke
+  køn!</p>
+</blockquote>
+
+<p>Den simple funktion, som jeg leder efter, er, at man via tastaturet kan
+oprette LaTeX (.tex) filer fra en index fil (en oversigt), så man f.eks. får en
+punktopstilling med links til de forskellige noter man har.</p>
+
+<p>Den kunne se sådan her ud:</p>
+
+<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+<span class="gh"># Matematik noter</span>
+
+<span class="gu">## Det her emne</span>
+<span class="p">
+  *</span> <span class="p">[</span><span class="nv">Svær matematik</span><span class="p">]</span> - en kort forklaring
+<span class="p">  *</span> <span class="p">[</span><span class="nv">Endnu sværere matematik</span><span class="p">]</span> - en længere forklaring
+<span class="p">  *</span> <span class="p">[</span><span class="nv">Overdrevet svært</span><span class="p">]</span> - en nogenlunde forklaring
+
+<span class="gu">## Et andet emne</span>
+…
+
+</code></pre></div></div>
+
+<blockquote>
+  <p>Altså skal man ‘kun’ indtaste et navn i brackets (f.eks. [Svær
+  matematik]) og så trykke Enter, når ens markør er over det, for at
+  oprette en ny fil og gå til den i VimWiki. Når man så har skrevet det
+  man skal, kan man trykke backslash for at komme tilbage til
+  oversigten. Smart, ikke?</p>
+</blockquote>
+
+<p><strong>Problemet:</strong> VimWiki genererer ikke <code class="highlighter-rouge">.tex</code> (LaTex) filer. Den genererer
+<code class="highlighter-rouge">.wiki</code> filer eller <code class="highlighter-rouge">.md</code> (markdown) filer, hvis du beder den om det.
+Altså virker VimTex ikke i de filer, som den genererer.</p>
+
+<h3 id="min-løsning-næsten">Min løsning (næsten)</h3>
+
+<p>Jeg prøvede i lang tid at få VimTex til at køre i markdown filer, og det
+lykkedes faktisk, men der opstod mange uventede syntax og compile
+problemer.</p>
+
+<p>VimWiki er et stort plugin med mange udviklere og ikke så let at ‘pille’
+ved, så jeg fandt et andet plugin, der hedder <a href="https://github.com/mmai/vim-markdown-wiki" target="blank">Vim Markdown
+Wiki</a>
+.</p>
+
+<p>Det har en funktion, der minder meget om VimWikis, hvor man sætter sin
+markør over en tekst i [] (igen) og derefter trykker på en knap for at
+lave en markdown fil.</p>
+
+<p>Jeg fandt dog hurtigt ud af, at man kunne lave det om i koderne!</p>
+
+<p>———————– SÅ SKER DET ———————–</p>
+
+<p>På linje 90 og 91 i pluginnets fil <code class="highlighter-rouge">vim-markdown-wiki/after/ftplugin/markdown.vim</code> står der:</p>
+
+<div class="language-vim highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    <span class="k">let</span> extension <span class="p">=</span> fnamemodify<span class="p">(</span>cur_file_name<span class="p">,</span> <span class="s2">":e"</span><span class="p">)</span>
+    <span class="k">let</span> file_name <span class="p">=</span> word<span class="p">.</span><span class="s2">"."</span><span class="p">.</span>extension
+</code></pre></div></div>
+
+<p>Her tager pluginnet filens endelse og videregiver den til den nye fil.</p>
+
+<p>Hvis man ændrer det til:</p>
+
+<div class="language-vim highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    <span class="k">let</span> extension <span class="p">=</span> <span class="s1">'tex'</span>
+    <span class="k">let</span> file_name <span class="p">=</span> word<span class="p">.</span><span class="s2">"."</span><span class="p">.</span>extension
+</code></pre></div></div>
+
+<p>så bliver de nye filer lavet automatisk til <code class="highlighter-rouge">.tex</code> (LaTeX) filer.</p>
+
+<p>For at ændre i de koder og derefter integrere det i Vim
+<a href="https://help.github.com/articles/fork-a-repo/" target="blank">forker</a> man mmai’s branch til sin egen profil og installerer derefter den her
+version istedet for via Vundle:</p>
+
+<div class="language-vim highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Plugin <span class="s1">'peterhoejlundandersen/vim-markdown-wiki'</span>
+</code></pre></div></div>
+
+<p><br /></p>
+<h4 id="men-et-problem-opstod-jeg-kan-ikke-komme-tilbage-til-index">MEN! Et problem opstod! Jeg kan ikke komme tilbage til index</h4>
+<blockquote>
+  <p><strong>Forklaring:</strong> Pluginnet er ‘kun’ lavet til at køre i markdown (.md)
+filer. Derfor virker min version fint så længe man er i oversigtsfilen
+(index). Den genererer linket og filen og flytter en videre til den nye
+<code class="highlighter-rouge">.tex</code> fil, som den skal. Men i <code class="highlighter-rouge">.tex</code> format <strong>virker pluginnet ikke,
+fordi det kun er lavet til markdown <code class="highlighter-rouge">.md</code> filer</strong>. Man kan altså ikke
+‘hoppe’ tilbage til sin oversigt fil, når man er færdig med at skrive
+noter.</p>
+</blockquote>
+
+<p>Her følger en lang forklaring om, hvordan VIM aktiverer plugins alt
+efter hvilken fil man er i osv. Tryk <code class="highlighter-rouge">:h filetype</code> i VIM, hvis du vil
+læse mere. Jeg kom op med en nogenlunde løsning efter at have læst en
+masse.</p>
+
+<p><br /></p>
+<h3 id="min-færdige-løsning">Min færdige løsning</h3>
+
+<p>En hvilken som helst fil i VIM får tilføjet en filetype, så VIM ved
+hvilken syntax filen skal have og hvilke plugins der skal gælde for den.</p>
+
+<p>Efter lang tids tænkning kom jeg frem til, at jeg måtte lave min egen
+syntax og tilføje den til både <code class="highlighter-rouge">.md</code> filer og <code class="highlighter-rouge">.tex</code> filer. Den syntax
+skal være forbundet til mit tilpasset plugin, så funktionen kan bruges i
+begge filtyper.</p>
+
+<p>VIM kalder plugins til filtyper på baggrund af hvilket filnavn som
+pluginnets filer har (hold da op en sætning).</p>
+
+<p>Altså bliver <code class="highlighter-rouge">markdown.vim</code> kaldt til markdown-filer, <code class="highlighter-rouge">tex.vim</code> filer
+til LaTeX filer (.tex) osv. osv.</p>
+
+<p>Jeg lavede min eget filnavn, der hedder <code class="highlighter-rouge">links.vim</code>. Heri puttede jeg hele
+det tilpasset tidligere nævnte plugin.</p>
+
+<p>Nu skulle jeg ‘bare’ sørge for, at <code class="highlighter-rouge">.links</code> filtypen bliver tilføjet til
+både markdown filer og tex filer.</p>
+
+<p>Det gøres således i <code class="highlighter-rouge">.vimrc</code>:</p>
+
+<div class="language-vim highlighter-rouge"><div class="highlight"><pre class="highlight"><code>autocmd <span class="nb">FileType</span><span class="p">,</span><span class="nb">BufNewFile</span><span class="p">,</span><span class="nb">BufFilePre</span><span class="p">,</span><span class="nb">BufRead</span> *<span class="p">.</span>md <span class="k">set</span> <span class="k">filetype</span><span class="p">+=.</span>links
+autocmd <span class="nb">FileType</span><span class="p">,</span><span class="nb">BufNewFile</span><span class="p">,</span><span class="nb">BufFilePre</span><span class="p">,</span><span class="nb">BufRead</span> *<span class="p">.</span>tex <span class="k">set</span> <span class="k">filetype</span><span class="p">+=.</span>links
+</code></pre></div></div>
+
+<blockquote>
+  <p><strong>Forklaring:</strong> de to linjer betyder at vim automatisk skal køre en
+kommando, når en fil bliver åbnet. Øverste linje kører når alle filer
+med md endelsen bliver åbnet <code class="highlighter-rouge">*.md</code>(regex) og derefter tilføjes <code class="highlighter-rouge">+=.</code>
+links syntaxen til filetype. Det samme gælder for <code class="highlighter-rouge">*.tex</code> filerne.</p>
+</blockquote>
+
+<h4 id="det-bedste-fra-to-verdener---dreeeeeam-3">Det bedste fra TO VERDENER - dreeeeeam &lt;3</h4>
+
+<p>Nu kan jeg i en normal markdown-fil bruge VimWiki’s fantastiske
+funtioner. Hvis jeg gør det, så genererer den markdown-filer, som den
+skal. Men via mit tilpasset plugin kan jeg <strong>OGSÅ</strong> genererer tex-filer.</p>
+
+<p>Det gøres via genveje, som jeg har sat i min <code class="highlighter-rouge">.vimrc</code>:</p>
+
+<div class="language-vim highlighter-rouge"><div class="highlight"><pre class="highlight"><code>nmap z<span class="p">&lt;</span>CR<span class="p">&gt;</span> <span class="p">:</span>MdwiGotoLink<span class="p">&lt;</span><span class="k">cr</span><span class="p">&gt;</span>
+nmap <span class="k">x</span><span class="p">&lt;</span>CR<span class="p">&gt;</span> <span class="p">:</span>MdwiReturn<span class="p">&lt;</span><span class="k">cr</span><span class="p">&gt;</span>
+</code></pre></div></div>
+
+<p>Hvis jeg trykket på Enter i en markdown-fil bliver den generet fil en
+markdown-fil. Men hvis jeg trykket på “z&lt;Enter&gt;” (z&lt;CR&gt;) bliver filen en
+tex-fil og alle de fantastiske funktioner fra VimTex følger med.</p>
+
+<p>Derudover kan jeg også hoppe tilbage via “x&lt;Enter&gt;” (x&lt;CR&gt;).</p>
+
+<hr />
+
+<p><br />
+<br />
+Det gik lidt stærkt med at lave dette indlæg. Men håber, at der er
+nogle, der kan bruge det til noget &lt;3 
+<br />
+<br /></p>
+
+
+  </div>
+
+		
+			<div class="hilsen-pagination">
+	
+    <a class="blue-highlight hilsen-prev" href="/blogs/2018/04/12/deathshowering.html">&#8592; Døde dyr i Danmark</a>
+	
+	
+    <a class="blue-highlight hilsen-next v-hidden" href="#"> &#8594;</a>
+  
+</div>
+
+
+		
+
+  <a class="u-url" href="/blogs/2018/08/31/Hvordan-jeg-laerte-at-elske-VIM-LaTeX-SKIM.html" hidden></a>
+
+  <hr>
+
+  <div class="blog-footer">
+    <footer class="site-footer h-card">
+  <div class="wrapper">
+	<h4>Kontakt:</h4>
+        <ul class="contact-list">
+          <li>
+						Mail: <a class="u-email blue-highlight" href="mailto:hoejlund@protonmail.com">hoejlund@protonmail.com</a>
+					</li>
+          <li>
+						Tlf. nr.: (+45) 42 64 58 98
+					</li>
+					<li>
+						<a class="blue-highlight" href="https://github.com/peterhoejlundandersen" target="_blank">Github</a>
+					</li>
+					<li>
+						<a class="blue-highlight" href="https://stackoverflow.com/users/7314004/peter-højlund-andersen" target="_blank">Stack Overflow</a>
+					</li>
+					<li>
+						CVR nr.: 35 70 23 18 
+					</li>
+					<li>
+					<li>
+						Ejet af: Peter Højlund Andersen
+					</li>
+					
+        </ul>
+    </div>
+  </div>
+
+</footer>
+ 
+
+    <a class="go-to-top" style="display: block; text-align: center" href="#">Gå til top</a>
+  </div>
+</article>
+
+      <div>
+    </main>
+  </body>
+  <a class="site-title" rel="author" href="/">Hilsen IT</a>
+	<div class="site-title-footer"></div>
+</html>

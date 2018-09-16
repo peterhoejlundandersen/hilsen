@@ -1,6 +1,10 @@
 /**
  * Site header
  */
+
+.text-center {
+  text-align: center;
+}
 .site-header {
   min-height: $spacing-unit * 1.865;
   // Positioning context for the mobile navigation icon

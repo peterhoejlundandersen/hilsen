@@ -1,6 +1,6 @@
 <footer class="site-footer h-card">
   <div class="wrapper">
-	<h3>Kontakt:</h3>
+	<h4>Kontakt:</h4>
         <ul class="contact-list">
           <li>
 						Mail: <a class="u-email blue-highlight" href="mailto:{{ site.email }}">{{ site.email }}</a>
@@ -27,3 +27,6 @@
   </div>
 
 </footer>
+{% if page.createFixedMenu %}
+  <script src="/assets/js/create_fixed_menu.js"></script>
+{% endif %} 

@@ -3,22 +3,31 @@ layout: default
 ---
 
 <div class="home">
+	<h3>Blog:</h3>
+	{% if site.categories.blogs.size > 0 %}
+		<ul>
+			{% for blog in site.categories.blogs %}
+        {% if blog.bottom %}
+          <li>
+            <!-- for at siden starter fra bunden -->
+            <a class="blue-highlight" href="{{ blog.url | relative_url }}#bottom">{{ blog.title | escape }}</a>
+            <p>{{ blog.desc }}</p>
+          </li>
+        {% else %}
+          <li>
+            <a class="blue-highlight" href="{{ blog.url | relative_url }}">{{ blog.title | escape }}</a>
+            <p>{{ blog.desc }}</p>
+          </li>
+        {% endif %}
+			{% endfor %}
+		</ul>
+	{% endif %}
+  <hr><br><br>
 	{% include introduction.html %}
 
   {{ content }}
 
 	<br>
-	<h3>Blog:</h3>
-	{% if site.categories.blogs.size > 0 %}
-		<ul>
-			{% for blog in site.categories.blogs %}
-			  <li>
-					<a class="blue-highlight" href="{{ blog.url | relative_url }}">{{ blog.title | escape }}</a>
-					<p>{{ blog.desc }}</p>
-				</li>
-			{% endfor %}
-		</ul>
-	{% endif %}
 	<h3>WordPress kursus:</h3>
   {% if site.categories.wordpress.size > 0 %}
     <ul>

@@ -1,3 +1,6 @@
+.site-title:hover {
+  border-bottom: 1px solid blue !important; }
+
 .menu-icon {
   display: none !important; }
 
@@ -189,6 +192,9 @@ table {
 /**
  * Site header
  */
+.text-center {
+  text-align: center; }
+
 .site-header {
   min-height: 55.95px;
   position: relative; }
@@ -533,7 +539,214 @@ table {
 .highlight .il {
   color: #099; }
 
+/* DEATHSHOWER START */
+/* DEATHSHOWER START */
+/* https://github.com/mastastealth/sass-flex-mixin/blob/master/_flex.scss */
+/* COLUMN */
+/* COLUMN END */
+.color-boxes, .exp-wrapper {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+  -ms-flex-pack: space-evenly;
+  -webkit-justify-content: space-evenly;
+  -moz-justify-content: space-evenly;
+  justify-content: space-evenly;
+  -webkit-flex-wrap: wrap;
+  -moz-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  overflow: hidden;
+  text-align: center; }
+
+.exp-wrapper .exp-img {
+  max-width: 40%;
+  border: 1px dashed black;
+  margin: 20px; }
+  @media screen and (max-width: 600px) {
+    .exp-wrapper .exp-img {
+      max-width: 90%; } }
+  .exp-wrapper .exp-img .exp-text {
+    padding: 20px; }
+
+.back-to-org-image {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  -moz-justify-content: center;
+  justify-content: center; }
+  .back-to-org-image > span {
+    width: 100%;
+    height: 14px;
+    display: block; }
+
+.color-box, .back-to-org-image {
+  display: inline-block;
+  cursor: pointer;
+  height: 70px;
+  overflow: hidden;
+  text-align: center;
+  width: 70px; }
+  @media screen and (max-width: 600px) {
+    .color-box, .back-to-org-image {
+      width: 13%; } }
+
+#white, .white {
+  background-color: #f9eff8; }
+
+#darkGreen, .dark-green {
+  background-color: #53625e; }
+
+#orange, .orange {
+  background-color: #df7158; }
+
+#blue, .blue {
+  background-color: #4d7cb2; }
+
+#yellow, .yellow {
+  background-color: #f3c676; }
+
+.float-right {
+  float: right; }
+
+.mb-4 {
+  margin-bottom: 40px; }
+
+.d-none {
+  display: none; }
+
+/* DEATHSHOWER END */
+/* DEATHSHOWER END */
 /* ALL STYLE FOR POSTS/POST*/
+.cursor-pointer {
+  cursor: pointer; }
+
+.smaller {
+  padding-left: 20px !important;
+  font-size: 0.8em; }
+
+.facebook-blog {
+  min-height: 457px !important; }
+
+.table {
+  min-height: 200px;
+  margin-bottom: 30px;
+  width: 100%;
+  text-align: left;
+  color: #3f3f3f;
+  border-collapse: collapse;
+  overflow: hidden; }
+  @media screen and (min-width: 600px) {
+    .table .table-cell {
+      float: left;
+      width: 20%; } }
+  .table .table-head {
+    background-color: blue;
+    color: white;
+    border: 1px dashed blue;
+    border-bottom-color: #c9c9c9;
+    padding: 10px 15px; }
+  .table .table-row {
+    border: 1px dashed blue;
+    padding: 10px 15px; }
+
+.small-source {
+  font-size: 0.7em;
+  vertical-align: top; }
+
+.center-image {
+  margin: 10px auto;
+  text-align: center; }
+
+a:visited {
+  color: black; }
+
+a {
+  color: black;
+  text-decoration: none !important;
+  border-bottom: 1px solid blue !important; }
+
+a:hover {
+  border-bottom: 1px solid transparent !important;
+  color: blue !important; }
+
+.green-table th {
+  background-color: green; }
+.green-table tbody tr td {
+  cursor: pointer; }
+
+@keyframes animateBorderOne {
+  to {
+    outline-color: white;
+    box-shadow: 0 0 0 10px red; } }
+.dystopia-red {
+  padding: 20px;
+  background-color: red;
+  color: white;
+  border: 1px solid red;
+  margin-right: 20px; }
+  .dystopia-red a:visited {
+    color: white; }
+  .dystopia-red a {
+    color: white;
+    text-decoration: none !important;
+    border-bottom: 1px solid white !important; }
+  .dystopia-red a:hover {
+    border-bottom: 0px solid white !important;
+    color: red !important; }
+  .dystopia-red blockquote {
+    margin-top: 32px;
+    margin-bottom: 32px;
+    color: white;
+    border-left: 4px solid white;
+    padding-left: 15px; }
+
+.first {
+  animation: 1s animateBorderOne ease infinite; }
+  .first:hover {
+    animation: 0s animateBorderOne ease infinite; }
+
+.dystopia {
+  margin-left: 0;
+  color: red;
+  padding: 20px;
+  outline: 10px dashed red;
+  box-shadow: 0 0 0 10px white; }
+
+.f-image-left {
+  margin-left: -150px;
+  margin-bottom: -300px;
+  float: left; }
+  @media screen and (max-width: 1000px) {
+    .f-image-left {
+      display: block;
+      margin: 50px auto 0px auto; } }
+
+.f-image-right {
+  margin-right: -150px;
+  margin-bottom: -300px;
+  float: right; }
+  @media screen and (max-width: 1000px) {
+    .f-image-right {
+      clear: both;
+      display: block;
+      margin: 50px auto 0px auto; } }
+
+.small {
+  font-size: 0.8em; }
+
+.blue-border {
+  border: 1px solid blue;
+  padding: 20px; }
+  .blue-border blockquote {
+    margin-top: 32px;
+    margin-bottom: 32px;
+    color: black;
+    border-left: 4px solid blue;
+    padding-left: 15px; }
+
 .post-link {
   color: black !important; }
 
@@ -552,11 +765,15 @@ h3 {
 .heading-brown {
   color: brown; }
 
-.js-hilsen-list {
-  height: 150px;
-  padding: 30px 0px; }
-  .js-hilsen-list li {
-    padding-left: 0; }
+.js-hilsen-list li {
+  padding-left: 0; }
+
+.techlove-indhold {
+  min-height: 350px;
+  margin-bottom: 100px; }
+
+.blog-footer {
+  text-align: center !important; }
 
 .shortcuts {
   margin: 20px 0px;
@@ -578,3 +795,7 @@ h3 {
 .in-finder .box .use {
   display: block;
   padding: 5px; }
+
+@media screen and (max-width: 700px) {
+  table th, table td {
+    padding: 0px !important; } }
