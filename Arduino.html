@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+<style>
+body {
+  width: 800px;
+  margin: 0 auto;
+}
+  <title>Arduino</title>
+  <style type="text/css">
+      code{white-space: pre-wrap;}
+      span.smallcaps{font-variant: small-caps;}
+      span.underline{text-decoration: underline;}
+      div.column{display: inline-block; vertical-align: top; width: 50%;}
+  </style>
+  <style type="text/css">
+a.sourceLine { display: inline-block; line-height: 1.25; }
+a.sourceLine { pointer-events: none; color: inherit; text-decoration: inherit; }
+a.sourceLine:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode { white-space: pre; position: relative; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+code.sourceCode { white-space: pre-wrap; }
+a.sourceLine { text-indent: -1em; padding-left: 1em; }
+}
+pre.numberSource a.sourceLine
+  { position: relative; left: -4em; }
+pre.numberSource a.sourceLine::before
+  { content: attr(data-line-number);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; pointer-events: all; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+    color: #aaaaaa;
+  }
+pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+div.sourceCode
+  {  }
+@media screen {
+a.sourceLine::before { text-decoration: underline; }
+}
+code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+code span.at { color: #7d9029; } /* Attribute */
+code span.bn { color: #40a070; } /* BaseN */
+code span.bu { } /* BuiltIn */
+code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+code span.ch { color: #4070a0; } /* Char */
+code span.cn { color: #880000; } /* Constant */
+code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+code span.dt { color: #902000; } /* DataType */
+code span.dv { color: #40a070; } /* DecVal */
+code span.er { color: #ff0000; font-weight: bold; } /* Error */
+code span.ex { } /* Extension */
+code span.fl { color: #40a070; } /* Float */
+code span.fu { color: #06287e; } /* Function */
+code span.im { } /* Import */
+code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+code span.op { color: #666666; } /* Operator */
+code span.ot { color: #007020; } /* Other */
+code span.pp { color: #bc7a00; } /* Preprocessor */
+code span.sc { color: #4070a0; } /* SpecialChar */
+code span.ss { color: #bb6688; } /* SpecialString */
+code span.st { color: #4070a0; } /* String */
+code span.va { color: #19177c; } /* Variable */
+code span.vs { color: #4070a0; } /* VerbatimString */
+code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+  </style>
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<header>
+</header>
+<h1 id="arduione">Arduione</h1>
+<blockquote>
+<p>Hvordan bygger man elektronik, der kan modtage data fra musens bevægelse og varme elementer op, som kan sættes på en krop?</p>
+</blockquote>
+<h2 id="beskrivelse">Beskrivelse</h2>
+<p>Arduionoen modtager data (i en eller anden form) fra hjemmesiden og varmer de nødvendige områder op.</p>
+<p>Lad os kalde den modtaget data for <strong>varmegraden af et område</strong>.</p>
+<p>Varmegraden af et område kunne i sin simpleste form være en Array med tal, hvor tallene beskriver hvor varmt et område skal være. F.eks.: 0 slukket - 10 varmest.</p>
+<p>Lad os forestille os, at der var 40 cylindre, der kunne varmes op af Arduionen seperat fra hinanden.</p>
+<p>Derfor bliver længden af dataen for varmegraderne 40, en varmegrad til hver cylinder.</p>
+<p>Arduionen modtager denne data og sætter derefter hver cylinders spænding, alt efter hvor varm den skal være.</p>
+<p>(Meget) simpelt eksempel i Ruby:</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode ruby"><code class="sourceCode ruby"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="kw">def</span> incoming_data</a>
+<a class="sourceLine" id="cb1-2" data-line-number="2">  <span class="co"># Varmegraden fra hjemmesiden</span></a>
+<a class="sourceLine" id="cb1-3" data-line-number="3">  website_data = [<span class="dv">0</span>,<span class="dv">0</span>,<span class="dv">3</span>,<span class="dv">5</span>,<span class="dv">6</span>,<span class="dv">4</span>,<span class="dv">2</span>,<span class="dv">1</span>,<span class="dv">0</span>,<span class="dv">0</span>,...,<span class="dv">4</span>,<span class="dv">8</span>,<span class="dv">9</span>,<span class="dv">3</span>,<span class="dv">2</span>,<span class="dv">1</span>,<span class="dv">0</span>] </a>
+<a class="sourceLine" id="cb1-4" data-line-number="4">  </a>
+<a class="sourceLine" id="cb1-5" data-line-number="5">  (<span class="dv">1</span>..<span class="dv">40</span>).to_a.each <span class="kw">do</span> |cylinder_index| <span class="co"># 40 cylindre, som et eksempel</span></a>
+<a class="sourceLine" id="cb1-6" data-line-number="6">    set_cylinder(cylinder_index, website_data[cylinder_index<span class="dv">-1</span>])</a>
+<a class="sourceLine" id="cb1-7" data-line-number="7">  <span class="kw">end</span></a>
+<a class="sourceLine" id="cb1-8" data-line-number="8"><span class="kw">end</span></a>
+<a class="sourceLine" id="cb1-9" data-line-number="9"></a>
+<a class="sourceLine" id="cb1-10" data-line-number="10"><span class="kw">def</span> set_cylinder cylinder_nr, level</a>
+<a class="sourceLine" id="cb1-11" data-line-number="11">  raise <span class="st">&quot;Error&quot;</span> <span class="kw">if</span> level &gt; <span class="dv">10</span> || level &lt; <span class="dv">0</span></a>
+<a class="sourceLine" id="cb1-12" data-line-number="12">  <span class="co"># En eller anden Arduino måde at sætte volt på et bestemt output og</span></a>
+<a class="sourceLine" id="cb1-13" data-line-number="13">  <span class="co"># meget meget andet :)</span></a>
+<a class="sourceLine" id="cb1-14" data-line-number="14"><span class="kw">end</span></a></code></pre></div>
+<h3 id="spørgsmål">Spørgsmål</h3>
+<ul>
+<li>Hvordan sikrer man, at områderne ikke bliver for varme (brænder den deltagende?)</li>
+<li>Hvordan sikrer man, at områder, der har været varme, men ikke er aktiveret længere, køler ned?</li>
+<li>Hvad kan varmes op i moduler af en Arduino og hvilke af disse er mulige at varme så lidt op, som jeg efterspørger?</li>
+<li>Hvor små kan disse varmemoduler blive inden for en rimelig økonomisk grænse? (ca. 1000 kr).</li>
+</ul>
+</body>
+</html>
