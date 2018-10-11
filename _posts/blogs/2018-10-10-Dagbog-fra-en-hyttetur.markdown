@@ -1,13 +1,14 @@
 ---
 layout: blog
-title: "Dagbog fra en DTU rustur"
-desc: "En lille historie om et studies alkoholkultur her i Danmark"
+title: "Dagbog fra en rustur"
+desc: "Jeg tog med på DTU's weekendsrustur på et afbud, da jeg godt kunne se,
+at jeg ikke havde engageret mig socialt. Dette er min historie om
+turen."
 category: blogs
 seocontent: "Dagbog fra en DTU hyttetur/rustur. En lille kort indsigt
 i, hvad det var for et program vi havde og ikke mindst hvilken
 dagsorden, som man skulle indordne sig efter."
 ---
-
 
 
 > Det er vigtigt at understrege, at det ikke er min mening at hænge
