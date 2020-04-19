@@ -1,0 +1,302 @@
+---
+layout: blog
+title: "Fire superkræfter til den studerende"
+desc: "Tre nemme værktøjer (plus et svært), der vil forbedre og sikre dit arbejde på computeren"
+category: blogs
+enableMenu: true
+createFixedMenu: true
+jsfile: "4-tools"
+seocontent: "Dette blogindlæg er en samling af værktøjer, som jeg gør brug af hver dag. De hjælper mig dagligt med at gøre det til en mere flydende bevægelse at arbejde på en computer. Hvis du som jeg sidder størstedelen af din arbejdstid ved computeren og samtidig elsker dette værktøj, så har du nu mulighed for at slibe det en smule 'skarpere'."
+seoimage: "https://hilsen.it/assets/blogs/techlove-facebook.jpg"
+---
+
+
+<h4>{{page.desc}}</h4>
+
+> Dette blogindlæg er en samling af værktøjer, som jeg gør brug af hver dag. De hjælper mig dagligt med at gøre det til en mere flydende bevægelse at arbejde på en computer. Hvis du som jeg sidder størstedelen af din arbejdstid ved computeren og samtidig elsker dette værktøj, så har du nu mulighed for at slibe det en smule 'skarpere'.
+
+<div class="js-hilsen-list techlove-indhold">
+	<!-- bliver udfyldt med en indholdsbetegnelse af js -->
+</div>
+
+
+
+![LastPass Logo](/assets/lastpass-logo.jpg)
+
+## LastPass - din skattekiste til kodeord
+
+> Du har måske, som jeg, opdaget at det er yderst vanskeligt at memorere sikre kodeord.  Man kommer let til at genbruge et kodeord på tværs af mange hjemmesider. Det er en potientiel bombe under din sikkerhed, hvis uheldet er ude og du bliver hacket. Her kan LastPass hjælpe dig til en sikrere fremtid.
+
+LastPass er et simpelt program til din computer/smartphone, der er integreret i din browser. Du opretter dig og indtaster ét avanceret (!) kodeord til en **skattekiste, der fremover vil indeholde alle dine kodeord**. Det er kun dig, der - med dette ene kodeord - kan få adgang til skattekisten (omtalt "vault").
+
+### Hvorfor er det smart?
+
+Det er smart, fordi du i fremtiden kun skal huske **et enkelt kodeord**, og samtidig får du nærmest ubrydelige kodeord genereret til dine konti på nettet.
+
+Hvis jeg for eksempel ville oprette en bruger på [Heroku](https://www.heroku.com/) - min fortrukne serverløsning - ser det således ud under adgangskodefeltet:
+
+![LastPass adgangskode generer](/assets/last-pass-example.jpg)
+
+LastPass hjælper dig altså til at generere **adgangskoder, der er længere og mere kompliceret** end du i din vildeste fantasi ville have mulighed for at huske. (Medmindre du selvfølgelig er Rain Man reinkarneret.)
+
+Lige nu har jeg fx **96 automatisk genererede kodeord på over 20 cifre i min skattekiste/vault**. [LastPass Chrome Extension](https://chrome.google.com/webstore/detail/lastpass-free-password-ma/hdokiejnpimakedhajhdlcegeplioahd?hl=da) (min primære browser er Chrome) holder så øje med min færden og udfylder kodeords-feltet, så snart jeg besøger en hjemmeside, som jeg har gemt et kodeord til. Du kender måske princippet fra Chrome, Safari og Firefox keychain.
+
+### Men hvad hvis der er én, der får adgang til skattekisten - så er alt vel tabt?
+
+Ja.. Så er jeg færdig... Med alt hvad det indebærer. Men.. 
+ 
+> LastPass gør det muligt kun at have én indgang til alle dine kodeord, som du så kan fokusere alle dine kræfter på at gøre sikker!
+
+#### To gode råd til at sikre dig selv:
+
+1. Memorer ét langt og sindssygt svært kodeord til LastPass. Inkluder gerne alle mulige underlige tegn udover bogstaver og tal for at gøre det endnu sikrere. **Lad være med at gem det på din computer!** 
+
+2. Aktiver [Multifactor Authentication](https://lastpass.com/multifactor-authentication/), så du skal bruge en tidsindstillet kode fra en app på din mobil for at åbne LastPass fra en anden computer end din egen.
+
+
+
+### Konklusion
+
+LastPass slogan er "Simplify your life". Hvis du ønsker at højne din sikkerhed til et niveau, som du kan være bekendt i 2018, så er det skridtet at tage.
+
+Du kan læse mere på [LastPass' hjemmeside](https://lastpass.com/){:target="_blank"}
+
+**Pris?** LastPass koster lidt velfortjente dollars om året til mobil. Der findes gratis alternativer, som du kan læse om [her.](https://www.makeuseof.com/tag/best-lastpass-alternatives/){:target="_blank"}
+
+
+***
+
+
+<br>
+<br>
+<br>
+
+![Tomighty logo](/assets/tomighty-logo.png)
+
+## Tomighty - dit nye tidsmodul: Tomaten
+
+> Hvorfor er det så svært at dæmme op for Facebook, Youtube og Heste-nettet, når man skal arbejde? Aner det ikke! Men et rigtig godt værktøj , har jeg fundet ud af, er tidsstyring... Til dette fungerer Tomighty fantastisk. Den indrammer din arbejdstid - og dine pause, så du har fuldstændig faste rammer for, hvornår du skal arbejde, og hvornår du kan tage dig en velfortjent pause. Sig hej til Tomaten fra Tomighty.
+
+Tomighty er et simpelt program, hvor du instiller en genvej på dit tastatur (DTTM) til at igangsætte en nedtælling. Den er standard 25 min. (én tomat), men du kan selv bestemme, hvor lang den skal være. 
+
+Når din tomat er færdig, igangsætter Tomighty automatisk en  pause (som du også selv kan indstille tiden på) og starter derefter de 25 minutters arbejdstid igen.
+
+Det bygger på en teknik, som hedder Pomodoro-teknikken. En teknik, som er skabt for at hjælpe dig til at beholde dit fokus på projekter, selvom de strækker sig over længere tid.
+
+Den samlede cyklus, som jeg har indstillet, ser således ud:
+
+| 25 min. arbejde | 5 min. pause |
+| 25 min. arbejde | 5 min. pause |
+| 25 min. arbejde | 5 min. pause |
+| 25 min. arbejde | 5 min. pause |
+| **15. min. pause** |
+
+I alt varer fire arbejdstomater altså 2 timer og 15 minutter med automatisk indlagte pauser samt en længere pause til sidst (i mit tilfælde 15 min.). 
+
+Det sikrer - især vigtigt, hvis du sidder foran en skærm hele dagen - at du får nogle pauser og at **din hjerne ikke ender som grød efter fem timer**. 
+
+
+### Pomodoro-teknikken - advanced!
+
+Teknikken er ikke kun en cyklus af arbejde og pause. Man kan også, hvis man har lyst, give sig i kast med seks Pomodoro-udfordringer, for at mestre den til fulde.
+
+[Gå til Pomodoro-teknikkens hjemmeside](https://cirillocompany.de/pages/pomodoro-technique){:target="_blank"}
+
+### Konklusion
+
+Hvis du ønsker at give dig i kast med en udfordring, så prøv Tomighty. Det vil være svært, hvis du lider af overspringshandlingssyge, men programmet kan være med til at give dig et helt nyt værktøj til kampen for koncentrationen!
+
+[Gå til Tomighty's hjemmeside](http://tomighty.org/){:target="_blank"}
+
+
+Held og lykke!
+
+
+***
+
+
+<br>
+<br>
+
+## DTTM - **D**on't **T**ouch **T**he **M**ouse
+
+> Don't touch the mouse er ikke et konkret program, men mere et mantra for dit brug af computeren. Det går kort og godt ud på at røre musen/mousepaden så lidt som overhovedet muligt. Men hvorfor egentlig det?
+
+
+Når du flytter din hånd fra tastaturet til musen/mousepaden er det ikke kun en belastning for håndledende (seneskedehindebetændelse!), men også en afbrydelse i dit arbejde. Mange bække små gør en stor å!
+
+
+Hvis du vil undgå dette, så vil jeg anbefale at lære de underliggende tastaturgenveje. 
+
+Hver gang, du skal til at røre musen/mousepaden, tænk da: "don't touch the mouse!" og "er der en smartere måde at gøre det her på med en genvej?".
+
+Efter en måned eller to - du vil være langsommere i starten - vil du skåne dine håndled og ikke mindst opleve et bedre flow i dit arbejde på computeren. 
+
+### Genveje til Mac (Windows kommer snart)
+
+
+{% include shortcuts.html %}
+
+> **Fif 2:** Hvis du vil 'tvinge' dig selv til at undgå musen, så kan jeg varmt anbefale at købe et [Roosts Stand](https://www.therooststand.com/){:target="_blank"} og et tilhørende tastatur (min favorit er [Apple Keyboard](https://www.apple.com/dk/shop/product/MLA22B/A/magic-keyboard-engelsk-storbritannien?fnode=56){:target="_blank"}). Nu mangler du en mus, og du vil automatisk ændre dine vaner. Derudover flytter Roost-stativet din computer op i en højde, så du sidder med ret ryg, når du arbejder (se GIF underneden).
+
+![Roost stand example]({{ "assets/blogs/roost-stand.gif" || absolute_url }})
+*GIF'en er lånt af [Roost Stand](https://www.therooststand.com/){:target="_blank"}* 
+
+
+Alt i alt er DTTM med til at forbedre dit værktøj (computeren), så du bliver hurtigere, oplever færre afbrydelser og skåner dine håndled/din ryg.
+
+God fornøjelse!
+
+<br>
+<br>
+
+***
+
+<br>
+<br>
+
+![VIM Editor logo](/assets/vim-editor-logo.png)
+
+## VIM - en gammel teksteditor med superkræfter (den svære)!
+
+
+> VIM er mest kendt som et værktøj for programmører/webdesignere, men kan også bruges til opgaveskrvning, korrekturlæsning og meget andet. Mest af alt vil det nok være interessant at se - hvis du ikke skriver kode - hvilke værktøjer, der findes, udover det velkendte (og langsomme) Microsoft Word. Det er som sagt den sværeste af de fire og vil, hvis klokken er blevet mange, være en hård nød at knække lige nu. Men kom endelig tilbage - du vil ikke fortryde det!
+
+VIM er noget ret specielt inden for kodeverden... Det er gammelt.. 26 år og det lever i bedste velgående. 
+
+Meget kort fortalt er VIM et tekstbehandlingsprogram med superkræfter!
+
+Det er svært at forklare, hvad de superkræfter består af, og ikke mindst hvor i enorm en grad de kan hjælpe dig, hvis du har meget med tekstredigering at gøre på en computer: programmering, korrekturlæsning, oversættelse eller opgaveskrivning osv. (næsten alle under 40 idag), men jeg har tænkt mig at gøre et forsøg!
+
+
+### VIM-modes - dit tastatur kan mere end at indtaste!
+
+For at forklare VIM ordentligt, bliver man nødt til at forstå **VIM modes**, som er et grundlæggende koncept i VIM.
+
+> **VIM modes** er overordnede indstillinger for dit tastatur. Altså kan dit tastatur (dine taster) have forskellige funktioner, afhængig af hvilket mode dit tastatur er i. I almindelige tekstprogrammer arbejder vi kun i såkaldt **insert-mode**, hvor c-tasten skriver 'c', men i VIM kan du som sagt skifte mode. Eksempelvis vil c-tasten stå for **change**, hvis du skifter til **normal-mode**. Eksempel følger:
+
+*Der findes også visual- og command-line-mode, men det tager vi en anden dag. Du kan læse mere via de links, som er listet under **Konklusion** nederst.*
+
+I normal-mode, som man tilgår ved at trykke ESC-knappen, betyder knappen c som sagt **change**. Knappen w betyder **word** og knappen i betyder **inside**, så hvis du sætter din cursor over et ord i normal-mode og trykker c, så i og så w lige efter, vil du **change inside word**, som betyder, at det ord, du står på, forsvinder og bliver erstattet af din cursor (går til insert-mode). Nu kan du taste et ord, som du kender det fra dit normale tekstprogram (insert-mode), og derefter trykke ESC-knappen for at gå til normal-mode igen.
+
+Forvirret? 
+
+Sådan er det altid med VIM i starten. Det tager tid at forstå og at implementere. Det er utrolig brugbart, men ENORMT svært at lære. Det skal nok give pote, og min erfaring siger mig, at du efter et par måneder aldrig vender tilbage til et normalt tekstprogram igen.
+
+Tilbage til normal-mode:
+ 
+**Hvad med andre knapper end w, i og c?.. Hvis man ikke kan bruge dem til at taste, hvad kan tastaturet så i normal-mode?** 
+
+Ja, som du nok har regnet ud, så har alle taster deres egen funktion, som du kan bruge til at navigere, gemme, kopiere, erstatte tekst mm. Her kommer et lille udsnit for at give dig en idé om, hvad du kan komme til at mestre!
+
+### Powers of VIM i normal-mode!
+
+*Læg mærke til, at der er forskel på 'g' og 'G'. 'G' er selvfølgelig bare 'g' med SHIFT (stort G).*
+
+| Indtastning | Funktion i normal-mode |
+|:--------|:-------:|
+| G   | Gå til sidste linje i dokumentet |
+| gg   | Gå til første linje |
+| d   | Slet |
+| dd   | Slet hele linjen |
+| D | Slet resten af linjen (fra hvor cursoren er) |
+| c | slet og gå til insert-mode (change) | 
+| cc | slet hele linjen og gå til insert-mode |
+| C | Slet resten af linjen (fra hvor cursoren er) og gå til insert mode |
+| e | Hop et ord frem |
+| b | Hop et ord tilbage |
+| a | Rundt om (around) |
+| i | Inden i (inside) | 
+| w | Ord (word) |
+| s | Sætning (sentence) |
+| t | Tag (HTML-tag) |
+| o | Lav ny linje under og gå til insert-mode |
+| O | Lav ny linje over og gå til insert-mode |
+| y | Kopier (yank) |
+| Y | Kopier hele linjen |
+| p | Indsæt (paste) |
+| P | Lav ny linje over og indsæt | 
+| f | Gå til næste på linjen |
+| F | Gå til forrige på linjen |
+| t | Gå til næste, men på pladsen før det valgte |
+| T | Gå til forrige, men på pladsen før det valgte |
+| h, j, k og l | Fungerer som piletasterne: venstre, ned, op, højre, så du ikke skal flytte hånden for at navigere |  
+
+*Forskellen på delete og change er, at change går direkte til insert-mode (normal indtastning), mens man efter at have brugt delete bliver i normal-mode.*
+
+Det er blot et meget lille udsnit, men hvad der er værd at vide er, at **funktionerne kan sættes sammen!**
+
+> **Sammensætning:** I VIM kan du sætte forskellige indtastninger sammen, så man f.eks. kan taste `di"`, som betyder: Slet alt inde i gåseøjnene. Eller med c, a og parentes: `ca(`, der betyder: Slet alt inden i parenteserne og tag parenteserne med og gå til insert-mode!
+
+Andre eksempler på sammensætninger - tal kan også bruges:
+
+| Indtastning | Funktion i normal-mode |
+|:--------|:-------:|
+| dG | slet resten af dokumentet |
+| 5j | hop 5 linjer ned |
+| d5j | slet 5 linjer |
+| 10e | hop 10 ord frem |
+| c10e | slet 10 ord frem og gå til insert-mode |
+| dis | slet denne sætning (uden punktum) |
+| ya( | kopier hele parentesen inkl. parenteserne |
+| df" | slet indtil gåseøjnene inkl. gåseøjnene |
+| dt" | slet indtil gåseøjnene  ekskl. gåseøjnene |
+| dT( | slet bagud indtil åben parentes ekskl. parentes |
+
+Som sagt er det **kun et lille udsnit**! Du kan nok forestille dig, hvor mange 100-vis af sammensatte kommandoer, der findes. Nogle af dem mere brugte end andre, men pointen er, at du pludselig kan sætte dine værktøjer sammen og bygge løsninger, der passer til enhver situation i tekst-sammenhænge.
+
+> Til sidst vil du bruge VIM-funktionerne i forlængelse af hinanden uden at tænke over det og får derved en vanvittig hurtig og fleksibel værktøjskasse!
+
+VIM har nogle mere advancerede funktioner såsom **register**, **makros** og mange, mange flere. Jeg er kun selv lige begyndt at udforske disse og bliver stadig overrasket over, hvad VIM er i stand til!
+
+
+### Fortvivlet? - spil det!
+
+Hvis du synes, at det lyder bare nogenlunde spændende, men tænker: Wtf? 
+Så tag at prøv spillet [VIM Adventures](https://vim-adventures.com/){:target="_blank"}, hvor du kan spille dig igennem de første mange funktioner og prøve kræfter med det. Det er en god smagsprøve.
+
+[![VIM Adventure](/assets/blogs/vim-adventure.jpg)](https://vim-adventures.com/){:target="_blank"}
+
+
+### Konklusion
+
+VIM er for dig, som ved, at du kommer til at sidde 1000-vis af timer ved et tastatur og behandle tekst og gerne vil investere i et værktøj, som på sigt giver en enorm gevinst. 
+
+Tro mig.. 
+
+Den første gang jeg prøvede, var jeg nødt til at opgive, da jeg var igang med et projekt med en stram deadline. To måneder senere tog jeg kampen op igen og blev ved med at tro på, at det ville betale sig en dag. Nu er det en fornøjelse hver gang, at jeg skal skrive kode eller f.eks. skrive indlæg til denne blog i [Jekyll](https://jekyllrb.com/){:target="_blank"}, og min hastighed er langt over, hvor jeg tidligere lå i [Sublime Text 2](https://www.sublimetext.com/2){:target="_blank"} (en normal teksteditor).
+
+Hvis du har lyst til at læse mere:
+
+
+* [En vanvittig god artikel om VIM](http://stevelosh.com/blog/2010/09/coming-home-to-vim/){:target="_blank"}
+* [VIM guide videoer](http://derekwyatt.org/vim/tutorials/novice/){:target="_blank"}
+* [VIM CASTS](http://vimcasts.org/episodes/archive/){:target="_blank"}
+* [VIM Wikipedia](https://da.wikipedia.org/wiki/Vim){:target="_blank"}
+
+
+*Hvis du ejer en Mac og har lyst til at prøve det direkte i din Terminal, så åbn terminalen og tast `vimtutor` og tryk derefter Enter. **Ja, VIM findes på din computer** uden, at du skal til at installere det!*
+
+
+<br>
+<br>
+
+
+<br>
+<br>
+
+***
+
+***
+
+<br>
+
+#### Det var de 4 værktøjer, som jeg bruger hver dag.  Jeg håber, at du kan bruge dem til noget.
+
+***
+
+<br>
+
+#### PS HackerNews - for dig der vil have endnu mere TECH!
+
+*LastPass og Tomighty stiftede jeg bekendtskab med gennem min storebror, som sidder på [Hacker News](https://news.ycombinator.com/){:target="_blank"}, når andre sidder på Facebook. Hvis du gerne vil have nyheder, der omhandler det nyeste nye inden for teknologi, så er det stedet at være!*

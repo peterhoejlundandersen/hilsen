@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+<style>
+body {
+  width: 800px;
+  margin: 0 auto;
+}
+  <title>Berør</title>
+  <style type="text/css">
+      code{white-space: pre-wrap;}
+      span.smallcaps{font-variant: small-caps;}
+      span.underline{text-decoration: underline;}
+      div.column{display: inline-block; vertical-align: top; width: 50%;}
+  </style>
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<header>
+</header>
+<h1 id="berør">Berør</h1>
+<blockquote>
+<p>En hjemmeside, som følger de besøgendes bevægelser og derigennem laver det område, der oplever størst bevægelse rødt. Denne bevægelse skal sendes til maskinen, som så laver det om til mere/mindre varme.</p>
+</blockquote>
+<h2 id="uddybende">Uddybende</h2>
+<p><strong>Digitale spor:</strong></p>
+<p>Et digitalt spor ment som en bevægelse på en skærm, via f.eks. en computermus eller en tidligere optaget interaktion. Ønsket er at ‘oversætte’ det digitale spor til en fysisk størrelse, som kan lægges på en krop.</p>
+<p>I den første idé er den fysiske størrelse varme, som skal kunne følge sporet. Dette tænkes at gøres gennem en elektronisk styret varmeplade, som modtager data fra en hjemmeside, hvor musens bevægelse finder sted. Den elektroniske varmeplade skal være opdelt i moduler, som en skærm er opdelt af pixels. Det skal dog understreges, at det ikke er muligt at opnå det samme antal opdelinger, men det er af største nødvendighed at varmen ‘flytter sig’ og giver den deltagende oplevelsen af at være underlagt en form for bevægelse.</p>
+<p><strong>Flere afsendere:</strong></p>
+<p>Derudover kunne det være interessant hvis afsenderen (musens bevæger) kunne være flere og i realtime se hinandens spor. Altså forstået på den måde at hjemmesiden er interaktiv og viser i farver hvor musen har bevæget sig og hvilket områder, der er ‘varmere’ end andre (blå for kold, rød for varmt eksempelvis).</p>
+<p>Det vil gøre brugerfladen til et sammenspil mellem afsenderne, hvor de kan følge hinandens bevægelse og derigennem ‘varme’ områder op sammen</p>
+<h1 id="todo">Todo</h1>
+<ul>
+<li>[ ] Sæt en local Ruby on Rails op med Action Cable, Postgres og Angular</li>
+<li>[ ] Lav Angular funktion, som generer områder alt efter, hvor stor den besøgendes skærm er.
+<ul>
+<li>Disse områder skal der ‘lyttes’ på, så graden af bevægelse fra musen kan sendes til Arduionen</li>
+<li>Samtidig skal disse områder også farves alt efter, hvor meget bevægelse der er.</li>
+</ul></li>
+</ul>
+<h2 id="andet">Andet</h2>
+<ul>
+<li>Skal hjemmesiden automatisk gå i fuldskærm mode? Hvilken effekt vil dette have?</li>
+</ul>
+</body>
+</html>

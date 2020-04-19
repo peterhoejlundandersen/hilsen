@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+	<link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/assets/favicon-96x96.png">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+  <link rel="stylesheet" href="/assets/main.css">
+  
+  <link rel="alternate" type="application/rss+xml" title="Hilsen IT" href="/feed.xml">
+	
+  
+  
+	
+		<title>Hilsen IT | Del 3 - WordPress... The basics</title>
+	
+</head>
+
+  <body>
+    <header class="site-header" role="banner">
+
+  <div class="wrapper">
+    <a class="site-title" rel="author" href="/">Hilsen IT</a>
+
+    
+  </div>
+</header>
+
+    <main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">Del 3 - WordPress... The basics</h1>
+    <p class="post-meta">
+      <time class="dt-published" datetime="2018-02-09T00:00:00+01:00" itemprop="datePublished">
+        
+        Feb 9, 2018
+      </time>
+      </p>
+  </header>
+
+	<hr>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <blockquote>
+  <p>Så kom vi endelig til det… WordPress. Det største CMS-system i verden. <a href="https://w3techs.com/blog/entry/wordpress-powers-25-percent-of-all-websites" target="_blank">25% af alle hjemmesider</a> (på the whiteweb) er <em>powered by</em> WordPress. Men hvad er et CMS-system, og hvorfor er der så mange millioner af hjemmesider, som bruger det? Det kommer vi til nu!</p>
+</blockquote>
+
+<h3 id="hvad-er-et-cms-system">Hvad er et CMS-system?</h3>
+
+<p>CMS står for Content Management System og er i grove træk et system til at bygge hjemmesider. Altså bruger du en platform - noget kode, som allerede er skrevet - til at bygge din hjemmeside i. Dette gør det muligt for ikke-kodere - eller folk, der kun har et meget lille kendskab - at bygge komplicerede funktioner/designs på internettet på relativt kort tid.</p>
+
+<p>CMS-systemet WordPress er ikke fastlagt i sine funktioner - det er tilpasningsdygtigt. Du får blot tildelt fundamentet og kan derfra næsten udbygge det, som du vil. Altså findes der et utal af tilbygninger (temaer og plugins), der gør det muligt at tilpasse sit system til lige netop den funktion/design, som man ønsker. Men hvad et tema og et plugin?</p>
+
+<h3 id="hvad-er-et-wordpress-tema">Hvad er et WordPress tema?</h3>
+
+<p><em>Den letteste måde at forklare et tema på er at sige, at det er din hjemmesides udseende. Det er et lag meget advanceret make-up, som oftest (afhænger af kompleksiteten af dit tema) giver dig mulighed for at rykke rundt på indhold, ændre farver, skifte billeder, font-størrelser, position mm. - altså en erstatning i store træk for at lære CSS. Og det er meget populært at kunne undgå!</em></p>
+
+<p>Temaer er vidt forskellige og de fleste større koster penge - forståeligt nok! Vi arbejder kun med temaet Twenty Seventeen, som er det tema, som man starter med, når man installerer WordPress.</p>
+
+<h3 id="hvad-er-et-wordpress-plugin">Hvad er et WordPress plugin?</h3>
+
+<p><em>En simpel måde at forklare et plugin på er at sige, at det er en funktion, som du tilføjer til WordPress (din hjemmeside) - et modul du lægger oven på fundamentet WordPress.</em></p>
+
+<blockquote>
+  <p>Det er basalt, men vigtigt for at forstå plugins, at det <strong>ikke koster noget at kopiere kode</strong>. Det gør det muligt, hvis du laver ét velfungerende og gennemtestet plugin at kopiere det til alle, der ønsker det, og genbruge det på kryds og tværs af WordPress på the World Wide Web.</p>
+</blockquote>
+
+<p><strong>Der kan være 1000-vis af brugere (nogle gange hundredetusinde), der bruger det samme plugin (udvidet funktion), fordi der er nogle funktioner, som går igen på næsten alle hjemmesider.</strong></p>
+
+<p>Med hvad for nogle funktioner kan jeg få ved at installere et plugin? Her er nogle af de mest kendte:</p>
+
+<ol>
+  <li><strong>En knap, der giver mulighed for at dele indholdet:</strong> de fleste hjemmesider er interesseret i at en besøgende kan dele artikler, blogindlæg osv. på Facebook, Instagram, Twitter etc.</li>
+  <li><strong>Kontaktside:</strong> Mulighed for at skrive til hjemmesidens ejer og måske endda integrere et kort (Google Maps).</li>
+  <li><strong>Optimere billeder:</strong> Næsten alle hjemmesider har billeder - men nogle er rigtig tunge. Her kan et plugin hjælpe til at gøre dem lettere (optimere dem).</li>
+  <li><strong>Et cache-system:</strong> Et cache-system kan være lidt svært at forstå. Det er grundlæggende en funktion hvor din hjemmeside kan blive hurtigere, fordi du gemmer en del af din hjemmeside på din besøgenes browser. Den besøgende vil så <strong>ved næste besøg</strong> opleve en hurtige load-tid, da personen har en del af din hjemmeside i browseren fra sidst og derfor ikke skal til at loade den på ny.</li>
+  <li><strong>Komprimering:</strong> Et plugin - tit er cache og komprimering i det samme - som komprimerer dine filer og samler dem, så din hjemmeside <strong>loader hurtigere</strong>, når du får besøg.</li>
+</ol>
+
+<p><em>Et eksempel på komprimering af en CSS-fil ser således ud - et kort sidespring:</em></p>
+
+<p><strong>Normal CSS-fil:</strong></p>
+
+<figure class="highlight"><pre><code class="language-css" data-lang="css"><span class="nc">.article</span> <span class="p">{</span>
+	<span class="nl">width</span><span class="p">:</span> <span class="m">80%</span><span class="p">;</span>
+	<span class="nl">color</span><span class="p">:</span> <span class="no">brown</span><span class="p">;</span>
+<span class="p">}</span></code></pre></figure>
+
+<p><strong>Komprimeret CSS-fil:</strong></p>
+
+<figure class="highlight"><pre><code class="language-css" data-lang="css"><span class="nc">.article</span><span class="p">{</span><span class="nl">width</span><span class="p">:</span><span class="m">80%</span><span class="p">;</span><span class="nl">color</span><span class="p">:</span><span class="no">brown</span><span class="p">;}</span></code></pre></figure>
+
+<p><em>Altså fjerner komprimering af HTML og CSS filer alle afstande (whitespaces), så filen bliver hurtigere at læse for en besøgende. Dette går ikke ud over dine filer, når du skal skrive i dem - de beholder den form, som du ser i det normale eksempel ovenover.</em></p>
+
+<blockquote>
+  <p><strong>Foklaring:</strong> Load-tid er et udtryk, som man bruger om den tid det tager for din hjemmeside at loade (blive vist) fra en evt. besøgende trykker dit domæne ind - f.eks. hundejegelsker.dk - og tykker enter indtil at din hjemmeside bliver vist.</p>
+</blockquote>
+
+<p>Du vil altså komme til at bruge plugins, når du kommer til at følge dig begrænset af WordPress, og skal bruge en ny funktion - vær dog opmærksom på at bruge et, som er opdateret og sikkert og helst et med mange brugere, hvis det er muligt.</p>
+
+<hr />
+
+<h2 id="lets-get-startet-mamp---din-nye-elefant">Let’s get startet! MAMP - din nye elefant!</h2>
+
+<p>For at kunne bruge WordPress uden et domæne, bliver vi nødt til installere programmet MAMP.</p>
+
+<blockquote>
+  <p>MAMP gør det muligt at have sin egen WordPress-server på sin computer. Det kaldes også <strong>lokal udvikling</strong>, som gør det muligt at arbejde på en hjemmeside, uden at have den oppe på internettet. Utrolig praktisk, når du skal lave ændringer, som du ikke vil have, at dine besøgende skal se. Det kan jo være, at du skal eksperimentere lidt, eller, at dine ændringer tager 4-5 dage at lave.</p>
+</blockquote>
+
+<h3 id="installation-og-opsætning-af-lokalt-miljø-til-mac">Installation og opsætning af lokalt miljø (til Mac)</h3>
+
+<ol>
+  <li>
+    <p>Gå til <a href="https://www.mamp.info/en/downloads/" target="_blank">MAMP download</a></p>
+  </li>
+  <li>
+    <p>Download til din computer (MacOS eller Windows)</p>
+  </li>
+  <li>
+    <p>Installer programmet</p>
+  </li>
+  <li>
+    <p>Gå til <a href="https://wordpress.org/download/" target="_blank">Wordpress.org</a></p>
+  </li>
+  <li>
+    <p>Tryk på den blå knap “Download WordPress ..”</p>
+  </li>
+  <li>
+    <p>Pak filen ud og læg den ind i <code class="highlighter-rouge">MAMP/htdocs</code> - findes i din application (program) folder.</p>
+  </li>
+  <li>
+    <p>Åben MAMP (ikke MAMP PRO)</p>
+  </li>
+  <li>
+    <p>Tryk “Start Servers”</p>
+  </li>
+  <li>
+    <p>Skriv http://localhost:8888/wordpress oppe i søgefeltet - i det vindue, som bliver åbnet i jeres browser</p>
+  </li>
+  <li>
+    <p>Vælg sprog og forsæt</p>
+  </li>
+  <li>
+    <p>“Lad os komme igang!” - hold den her fane åben - vi vender tilbage!</p>
+  </li>
+  <li>
+    <p>Gå til MAMP igen (programmet) og tryk “Open WebStart page”</p>
+  </li>
+  <li>
+    <p>Tryk på ‘Tools’ i den øverste menu i det vindue, som bliver åbnet og tryk på ‘phpMyAdmin’. <strong>Nu er vi i databasen - pas på - tryk ikke på noget</strong></p>
+  </li>
+  <li>
+    <p>Tryk på ‘New’ i venstre side (gul stjerne ved siden af)</p>
+  </li>
+  <li>
+    <p>Indtast et databasenavn (f.eks. wordpress) og tryk “Create” - husk det!</p>
+  </li>
+  <li>
+    <p>Gå tilbage til det tidligere vindue, indtast databasenavnet, som du har valgt. Indtast ‘root’ som brugernavn og som adgangskode og tryk derefter “Send”</p>
+  </li>
+  <li>
+    <p>KØR INSTALLATIONEN!!!</p>
+  </li>
+  <li>
+    <p>Udfyld de forskellige informationer</p>
+  </li>
+  <li>
+    <p>Log ind med dit tidligere valgte kodeord og brugernavn</p>
+  </li>
+  <li>
+    <p>Sådan - tillykke - nu har du en lokal WordPress installation. Se oppe i søgefeltet. Det er ikke et domæne. Det er din server! (du kan prøve at slukke for dit internet og reloade siden, hvis du ikke tror på mig)</p>
+  </li>
+</ol>
+
+<p><em>Når du skal bruge MAMP igen (lokal udvikling) skal du åbne programmet - trykke Start Server og gå til browseren og indtaste: http://localhost:8888/wordpress</em></p>
+
+<h2 id="the-basics-of-wordpress---backend-og-frontend">The basics of WordPress - backend og frontend</h2>
+
+<blockquote>
+  <p>WordPress består grundlæggende af en frontend og en backend. Det er vigtigt at forstå forskellen på disse to, for at du kan navigere i din nye installation.</p>
+</blockquote>
+
+<p>Frontend er det, som alle kan se, mens backend er det, som kun du kan se, og som du skal opgive adgangskode og brugernavn for at få adgang til.</p>
+
+<p>Det har du lige gjort (du loggede ind på din WordPress i punkt 19) og er nu på backend - dit dashboard. Her ville en fremmede besøgende ikke kunne få adgang til!</p>
+
+<p><img src="http://localhost:4000/assets/wordpress/backend.png" alt="Backend WordPress" /></p>
+
+<p>Backend gør det så muligt at lave rettelser på din hjemmeside.</p>
+
+<p>Du har nu, til forskel fra del 1 og del 2 eksemplet, en database koblet op på din side (du opretted den i punks 15). Dette betyder at din HTML ser anderledes ud. Den er blevet dynamisk. Altså viser den det indhold, som du opretter i din backend.</p>
+
+<p>Det kan være lidt svært at forstå, men lad os se på noget eksempelkode.</p>
+
+<p>Din HTML ser lidt anderledes ud end fra før. Se f.eks. din index.php fra det tema Twenty Seventeen, som du bruger nu.</p>
+
+<figure class="highlight"><pre><code class="language-php" data-lang="php"><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"wrap"</span><span class="nt">&gt;</span>
+	<span class="cp">&lt;?php</span> <span class="k">if</span> <span class="p">(</span> <span class="nx">is_home</span><span class="p">()</span> <span class="o">&amp;&amp;</span> <span class="o">!</span> <span class="nx">is_front_page</span><span class="p">()</span> <span class="p">)</span> <span class="o">:</span> <span class="cp">?&gt;</span>
+		<span class="nt">&lt;header</span> <span class="na">class=</span><span class="s">"page-header"</span><span class="nt">&gt;</span>
+			<span class="nt">&lt;h1</span> <span class="na">class=</span><span class="s">"page-title"</span><span class="nt">&gt;</span><span class="cp">&lt;?php</span> <span class="nx">single_post_title</span><span class="p">();</span> <span class="cp">?&gt;</span><span class="nt">&lt;/h1&gt;</span>
+		<span class="nt">&lt;/header&gt;</span>
+	<span class="cp">&lt;?php</span> <span class="k">endif</span><span class="p">;</span> <span class="cp">?&gt;</span>
+...
+<span class="nt">&lt;/div&gt;</span></code></pre></figure>
+
+<blockquote>
+  <p>index.php betyder, at det stadig er HTML-kode, men med PHP kode i sig - det er PHP’en, som kalder information op fra din database. I dette eksempel via <code class="highlighter-rouge">single_post_title()</code>.</p>
+</blockquote>
+
+<p>Vi kender HTML’en. Men hvad der er nyt er <code class="highlighter-rouge"><span class="cp">&lt;?php</span> <span class="o">...</span> <span class="cp">?&gt;</span></code>. De minder meget om HTML’ens <code class="highlighter-rouge">&lt;</code> og <code class="highlighter-rouge">&gt;</code>, men istedet for, at de viser, at nu er det HTML, der starter, så siger de: Nu er det PHP der starter.</p>
+
+<p>Jeg vil ikke gå i dybden med PHP, men blot vise det her for at forklare at <code class="highlighter-rouge">single_post_title()</code> er dynamisk - altså kan den ændres af dig i BACKEND. Det vil være den kode, der kalder et indlægs overskrift (single_post_title).</p>
+
+<h3 id="blog-eller-side-som-forside-hvad-skal-jeg-bruge-min-wordpress-til">Blog eller side som forside? Hvad skal jeg bruge min WordPress til?</h3>
+
+<blockquote>
+  <p>Det første du skal beslutte dig for i en nyinstalleret WordPress er, om du vil have en indlægsside (oversigt over blogindlæg) som forside eller en helt normal side. Men hvad er forskellen på de to?</p>
+</blockquote>
+
+<p>For at forstå hvad en indlægsside er, tager vi et kig på din nuværende forside, hvor du kan se overskriften, dato og en kort beskrivelse af det eksempelindlæg, som WordPress har genereret til os. Her tilføjes dine indlæg automatisk, når du opretter et.</p>
+
+<blockquote>
+  <p><strong>Udfordring:</strong> Opret et nyt blogindlæg under din backend (dashboard), hvor der ude i venstre menu står <em>Indlæg</em>. Husk at udgive det. Efter du har oprettet det, gå da tilbage til din forside (frontend) og reload siden(chrome-genvej på Mac/Windows: CMD + R/CTRL + R eller F5).</p>
+</blockquote>
+
+<p>Kan du se dit nye indlæg i oversigten? Det blev automatisk tilføjet til din forside. Det er en indlægsside og utrolig praktisk, hvis det er hovedformålet for din hjemmeside at være hjemsted for blogindlæg. Hvis du ønsker at din forside skal være en mere statisk side hvor du har mere kontrol over indholdet, kan du gå ind under <em>Udseende &gt; Tilpas</em>. Derinde finder du <em>Forside indstillinger</em>. Der kan du vælge om du vil have, at din forside skal være en <em>statisk side</em> eller til blogindlæg.</p>
+
+<p><em>Prøv at ændre din forside til en statisk side, da det er det, som vi kommer til at arbejde med i næste afsnit</em></p>
+
+<h3 id="sider">Sider</h3>
+
+<blockquote>
+  <p>Sider er det sted, hvor jeg har arbejdet mest. Det er der du (selvfølgelig) redigerer dine sider. En side kan f.eks. være: Om, Kontakt, Forside etc.</p>
+</blockquote>
+
+<p>Hvis du trykker på ‘Sider’ i din menu i venstre side og derefter ind på Eksempelside, som er en automatisk genereret side, som er en del af installationen, så kan du se din Backend for at redigere en side - det er simpelthen så let i forhold til at skulle rette i ren HTML.</p>
+
+<blockquote>
+  <p><strong>Udfordring:</strong> Indtast din egen tekst (eller brug Lorem tricket i Sublime Text 3 for at generere noget). Prøv at lav forskel på størrelserne med ‘Afsnit’ knappen. Prøv derefter at trykke ‘Preview ændringer’ - for at gå til hvordan denne side ser ud på frontend.</p>
+</blockquote>
+
+<p>Nu har du to faner åbne. Den nyeste er din frontend (den side, der blev åbnet, da du trykkede ‘Preview ændringer’), den ældste din backend. <strong>Sid lige et øjeblik og forstå dette.</strong> En af dem har kun du adgang til og kan ændre i - den anden er statisk og åben for hele verden.</p>
+
+<h3 id="menu---noget-svært-noget-hvis-du-ikke-bruger-et-cms-system">Menu - noget svært noget, hvis du ikke bruger et CMS-system</h3>
+
+<blockquote>
+  <p>En menu er noget, du har brugt 1000-vis af gange. Det er den navigationsbar, som går igen på næsten alle hjemmesider. Den sikrer, at en besøgende aldrig rammer en blindgyde på din hjemmeside - at man altid har mulighed for at gå videre. Og samtidig giver den et godt overblik over, hvad din hjemmeside handler om og har at tilbyde.</p>
+</blockquote>
+
+<p>En menu på eksempelvis <a href="https://www.nykredit.dk/" target="_blank">Nykredit</a> ser således ud:</p>
+
+<p><img src="http://localhost:4000/assets/wordpress/nykredit.png" alt="Nykredit menu eksempel" /></p>
+
+<p>Altså et overblik over de forskellige ting, som Nykredit tilbyder og hvert punkt linker så til en ny side med information om det (det ved du jo godt).</p>
+
+<p>Der kan dog sagtens findes <strong>flere menuer på én hjemmeside</strong>. F.eks. har Nykredit også en menu i sin footer (den del af en hjemmeside, der er nederst, som går igen):</p>
+
+<p><img src="http://localhost:4000/assets/wordpress/nykredit-footer.png" alt="Nykredit menu eksempel" /></p>
+
+<p>Du vil altså komme ud for, at du i nogle tilfælde skal lave flere menuer med forskellige menu-punkter i, der skal være forskellige steder på en side. Heldigvis for dig gør WordPress det enormt simpelt at mestre dette (noget af det jeg savner mest ved WordPress efter at have skiftet til Ruby on Rails)</p>
+
+<blockquote>
+  <p><strong>Udfordring 1:</strong> Fra dit dashboard (backend) gå da til <em>Udseende &gt; Menuer</em> og opret en menu.</p>
+</blockquote>
+
+<p>Her kan du i venstre side se, at du har mulighed for at tilføje forskellige menupunkter: Sider, Indlæg, Links og Kategorier.</p>
+
+<blockquote>
+  <p><strong>Udfordring 2:</strong> Tilføj nogle menupunkter. En side, et indlæg og måske et link til en anden side (din Facebook eksempelvis).</p>
+</blockquote>
+
+<p><strong>HUSK AT TRYKKE CHECK TIL, AT MENUEN SKAL BRUGES SOM <em>Topmenu</em> UNDER MENUINDSTILLINGER, ELLERS BLIVER DEN IKKE VIST</strong></p>
+
+<p>Efter alt dette er gjort tryk da ‘Gem’ og opdater din frontend, hvor du nu skulle se en velfungerende menu med de punkter, som du tilføjede.</p>
+
+<p>Du kan ændre på rækkefølgen ved drag-and-drop.</p>
+
+<h3 id="det-er-stadig-html-og-css---inspect-det-for-at-se">Det er stadig HTML og CSS - <em>Inspect</em> det for at se!</h3>
+
+<blockquote>
+  <p>WordPress sider er dog stadig HTML og CSS! Prøv at højreklikke på din frontend og tryk derefter ‘Inspicér’ (I Firefox eller Chrome).</p>
+</blockquote>
+
+<p><em>Nogle gange skal du skifte til ‘Elements’ for at få HTML frem oppe i den øverste menu.</em></p>
+
+<p>Det som du har åbnet er et webudviklingsværktøj - det skal nok gå! - som viser dig hvilke koder (oftest HTML, CSS og JavaScript), som en hjemmeside består af. Her kan du se en noget kompliceret udgave af, hvad vi arbejdede med i de første to dele af kurset. Der er forskellige HTML-tags, klasser og kommentarer. <strong>WordPress sidste funktion er altså at omforme det flotte tekst og style, som du har lavet i Backend, til HTML, CSS og JavaScript, der så bliver vist på din frontend</strong> (håber det giver mening). Det du ser nu er WordPress output, kan man vel godt sige.</p>
+
+<blockquote>
+  <p><strong>Udfordring:</strong> Prøv at ændre på noget af hjemmesidens CSS og se hvad der sker</p>
+</blockquote>
+
+<blockquote>
+  <p><strong>Fif:</strong> Tryk på musen over firkanten <img src="http://localhost:4000/assets/wordpress/inspicer.png" alt="Webdeveloper tool" /> og tryk derefter på et element på hjemmesiden. Nu vil du se elementets CSS og kan derefter ændre på det.</p>
+</blockquote>
+
+<p><em>Disse ændringer eksistere kun til næste reload. Værktøjet gør det muligt at se ændringer, før man integrerer dem. MEGET SMART - jeg bruger det næsten hver dag!</em></p>
+
+<p><strong>Vi kommer til at arbejde mere med dette værktøj. Det har var blot for at vise, at siden består af HTML og CSS (og noget andet) ligesom det simple eksempel, som vi startede ud med i del 1 og 2.</strong></p>
+
+<hr />
+
+<h2 id="lektier">Lektier</h2>
+
+<p><strong>1.</strong> Første lektie er simpel. Prøv WordPress af! Leg rundt, opret en side, opret et indlæg, lav om i menuen, indsæt et billede - hvad ved jeg. Få en fornemmelse af Dashboard og hvordan man bevæger sig rundt. Skriv ned, hvis du oplever nogle begrænsninger. Er der en funktion, som du gerne vil tilføje/fjerne?</p>
+
+<blockquote>
+  <p><strong>Fif:</strong> Når du vil starte din lokale WordPress igen skal du starte programmet MAMP (ikke MAMP PRO) og trykke på Start Servers. Derefter åbnes der et vindue, hvor du kan tilgå din installation ved at trykke: <code class="highlighter-rouge">http://localhost:8888/wordpress</code> i søgefeltet i din browser.  Hvis du ønsker at logge ind, tilføj da <code class="highlighter-rouge">/wp-admin</code> til så du får <code class="highlighter-rouge">http://localhost:8888/wordpress/wp-admin</code></p>
+</blockquote>
+
+<p><strong>2.</strong> Er lidt sværere. Prøv at ændre i CSS’en. Kan du lave baggrundsfarven om på et element på din side ved først at finde HTML klassen med <em>Inspect</em> og derefter at overskrive den i din CSS med <code class="highlighter-rouge">.den-klasse-du-har-fundet {...}</code>. Gå tilbage til del 1 og del 2, hvis du er i tvivl om, hvordan man skriver CSS.</p>
+
+<blockquote>
+  <p><strong>FIF:</strong> CSS’en er placeret under <em>Udseende &gt; Tilpas &gt; Ekstra CSS</em></p>
+</blockquote>
+
+<hr />
+
+
+  </div>
+
+		
+			<div class="hilsen-pagination">
+	
+    <a class="blue-highlight hilsen-prev" href="/wordpress/2018/02/03/del-2.html">&#8592; Del 2 - HTML og CSS Advanced</a>
+	
+	
+    <a class="blue-highlight hilsen-next" href="/wordpress/2018/02/19/del-4-tema-og-plugins.html">Del 4 - Get ready for a plugin-party! &#8594;</a>
+	
+</div>
+
+
+		
+
+  <a class="u-url" href="/wordpress/2018/02/09/del-3-Wordpress-basics.html" hidden></a>
+
+  <hr>
+
+  <div class="blog-footer">
+    <footer class="site-footer h-card">
+  <div class="wrapper">
+	<h4>Kontakt:</h4>
+        <ul class="contact-list">
+          <li>
+						Mail: <a class="u-email blue-highlight" href="mailto:hoejlund@protonmail.com">hoejlund@protonmail.com</a>
+					</li>
+          <li>
+						Tlf. nr.: (+45) 42 64 58 98
+					</li>
+					<li>
+						<a class="blue-highlight" href="https://github.com/peterhoejlundandersen" target="_blank">Github</a>
+					</li>
+					<li>
+						<a class="blue-highlight" href="https://stackoverflow.com/users/7314004/peter-højlund-andersen" target="_blank">Stack Overflow</a>
+					</li>
+					<li>
+						CVR nr.: 35 70 23 18 
+					</li>
+					<li>
+					<li>
+						Ejet af: Peter Højlund Andersen
+					</li>
+          <li>
+            <small><b>No trace: </b> Ingen cookies eller informationer bliver gemt om dig på denne side.<br></small>
+          </li>
+        </ul>
+    </div>
+  </div>
+
+</footer>
+ 
+
+    <a class="go-to-top" style="display: block; text-align: center" href="#">Gå til top</a>
+  </div>
+</article>
+
+      <div>
+    </main>
+  </body>
+  <a class="site-title" rel="author" href="/">Hilsen IT</a>
+	<div class="site-title-footer"></div>
+</html>

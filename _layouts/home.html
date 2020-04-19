@@ -1,0 +1,49 @@
+---
+layout: default
+---
+
+<div class="home">
+	<strong>Vigtigt:</strong> <br>
+	<i>Jeg er startet på Kunstakademiet i København. Du kan se, hvad jeg går og arbejder med på <a target="_blank" href="https://www.instagram.com/gips4life/">min Instagram.</a><br>
+        Det betyder også, at jeg dedikerer mindre og mindre tid til hjemmesidedesign og programmering. <br>
+	Jeg kan måske stadig hjælpe dig med at finde de rigtige værktøjer, men der er en lille sandsynlighed for, at jeg kommer til at tage jobs igen.
+	</i>
+	
+	<h3>Blog:</h3>
+	{% if site.categories.blogs.size > 0 %}
+		<ul>
+			{% for blog in site.categories.blogs %}
+        {% if blog.bottom %}
+          <li>
+            <!-- for at siden starter fra bunden -->
+            <a class="blue-highlight" href="{{ blog.url | relative_url }}#bottom">{{ blog.title | escape }}</a>
+            <p>{{ blog.desc }}</p>
+          </li>
+        {% else %}
+          <li>
+            <a class="blue-highlight" href="{{ blog.url | relative_url }}">{{ blog.title | escape }}</a>
+            <p>{{ blog.desc }}</p>
+          </li>
+        {% endif %}
+			{% endfor %}
+		</ul>
+	{% endif %}
+  <hr><br><br>
+	{% include introduction.html %}
+
+  {{ content }}
+
+	<br>
+	<h3>WordPress kursus:</h3>
+  {% if site.categories.wordpress.size > 0 %}
+    <ul>
+      {% for post in site.categories.wordpress %}
+        <li>
+          {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
+					<a class="blue-highlight" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+          <!-- <span class="post-meta">{{ post.date | date: date_format }}</span> -->
+        </li>
+      {% endfor %}
+    </ul>
+  {% endif %}
+</div>

@@ -1,0 +1,376 @@
+---
+layout: blog
+title:  "Del 6 - Skub op! - Duplicator afslutning"
+category: wordpress
+---
+
+> I den sidste del, da skal vi se på, hvordan vi skubber vores lokale miljø op på et domæne. Hvis du har fulgt [Køb af domæne ...](https://hilsen.it/wordpress/2018/02/20/koeb-af-dom%C3%A6ne.html){:target="_blank"}, har du mulighed for at skubbe det op på det købte. Hvis ikke, så kan du se, hvordan jeg skubber det op på mit. 
+
+> **Skubbe op** er et udtryk jeg bruger om at flytte noget lokalt(fra din computer) 'op' på internettet.
+
+Et domæne er din plads på internettet. F.eks. dette domæne: www.hilsen.it. Det kan forklares som alles adgang til din mappe (hvis du har købt et webhotel til), der ligger online. Altså er der filer og en mappestruktur, ligesom på din computer.
+
+## WordPress er 'bare' en mappe, som vi skal have op på et webhotel
+
+WordPress er en mappe med forskellige filer. Hvis du f.eks. åbner en WordPress installation [(Den vi downloadede i Installation af mamp 5.)](https://hilsen.it/wordpress/2018/02/09/del-3-Wordpress-basics.html#installation-og-opsætning-af-lokalt-miljø-til-mac){:target="_blank"} ser det nogenlunde sådan her ud: 
+
+![Wordpress Folder Structure]({{ "assets/wordpress/wordpress-folder.png" || absolute_url }})
+
+> En masse filer og 3 mapper. Det vigtigste lige nu er at forstå, at det er en struktur ligesom på en computer, og der derved også kan overskrives, flyttes og fjernes filer/mapper. **wp-content mappen indeholder dit temaer og dine plugins**. 
+
+Når vi arbejder lokalt, **så ændrer vi og tilføjer oftest kun i wp-content mappen**. Men andre ændringer bliver også lavet i foreksempel `wp-includes/images/`, hvor vores billeder ligger. Så vi bliver nødt til at få det hele med. 
+
+I 'gamle' dage havde vi gjort, som da vi installerede MAMP med en lokal installation af WordPress: oprettet database, kodeord osv, men idag findes der nogle smarte alternativer, som vil spare os en masse tid. 
+
+Ja... Vi skal bruge et plugin!
+
+Jeg har valgt at lave denne guide med [Duplicator](https://da.wordpress.org/plugins/duplicator/){:target="_blank"}, der er et gratis plugin, som gør en masse af det tunge arbejde for os.
+
+Og husk...
+
+> Dette er svært! Det er en kompliceret guide for en WordPress nybegynder, så hold tungen lige i munde og hold et par pauser (jeg har indlagt en, hvis det er ) :=) 
+
+
+### 1. Installér [Duplicator](https://da.wordpress.org/plugins/duplicator/){:target="_blank"} på din lokale side
+ 
+Først skal du tænde din MAMP server (Hjælp kan findes under [Del 3 ... Lektier Fif](https://hilsen.it/wordpress/2018/02/09/del-3-Wordpress-basics.html#lektier){:target="_blank"}) og logge ind på din lokale WordPress installation.
+
+Gå da til "Plugins" i menuen til venstre og tryk på "Tilføj plugin" øverst og søg derefter efter "Duplicator". 
+
+Logoet ser således ud:
+
+![Wordpress Duplicator logo]({{ "assets/wordpress/duplicator.png" || absolute_url }})
+
+**Installer det.** 
+
+**Husk at aktivere det!**
+
+### 2. Byg din første **Package**
+
+Duplicator har fået sit helt eget menupunkt nederst i WordPress menuen på din backend.
+
+**Tryk på det.**
+
+Nu vil du se en side, hvor du har mulighed for at "Create New" package i øverste højre hjørne. 
+
+> En Package er en kopi af din side og database, som vi senere skal **skubbe** op på dit domæne. 
+
+> **Husk:** Vi er ved at tage en kopi af din lokale side, og det er derfor denne lokale version, som du får op på dit domæne. Er alt som det skal være? 
+
+<br>
+
+Nu vil du få vist en side, hvor der er tre drop-down felter: **storage**, **archive** og **installer**.
+
+Her har du mulighed for at indstille din package (din kopi). Er der nogle felter i databasen eller filer, som du ikke vil have med?
+
+Nok ikke, men det er godt at vide, at du kan tilpasse din kopi til en anden gang, hvis det kun er en del af din lokale side, som du vil skubbe op på dit domæne.
+
+**Tryk på "Next" nederst i højre side.**
+
+Nu scanner Duplicator din side og ser om alt er som det skal være (en form for test).
+
+Det skulle se nogenlunde sådan her ud:
+
+![Wordpress Duplicator scanning green]({{ "assets/wordpress/green_scan.png" || absolute_url }})
+
+*Jeg håber, at alt er grønt ved dig. Der kan være store filer eller andre ting, som sætter sig på 'tværs'. Hvis der er noget rødt, så kan du oftest stadigvæk gå videre til næste punkt uden at være bekymret.*
+
+Nu skal vi endelig til det. 
+
+**Tryk "Build" nederst.** Nu bliver din kopi af database og filer lavet.
+
+.. ventetid ..
+
+Sådan! Nu skulle Duplicator gerne melde tilbage: **Package Completed**:
+
+![Wordpress Duplicator package complete]({{ "assets/wordpress/package_complete.png" || absolute_url }})
+
+Download de to pakker. Tryk på **Installer** og derefter **Archive**. Læg dem et sted, hvor du let kan finde dem senere.
+
+Nu skal vi uploade installer.php og din downloadede zip-fil (det du lige har downloadet) til din hjemmesides webhotel, men hvordan gør vi lige det? 
+
+Jo.. Vi bruger **FTP**.
+
+<br>
+### 3. FTP-adgang til din hjemmeside
+
+> FTP står for File Transfer Protocol og er måden hvorpå, at du kan få adgang til dit nyindkøbte webhotel (hjemmeside). Når den adgang er etableret (gennem et langt kodeord, brugernavn og host) kan du frit navigere, slette og ændre i din hjemmesides filer. Man kan også sige, at det er opkoblingen mellem din computer og din hjemmeside. 
+
+> **VIGTIGT:** Denne adgang er en potientiel bombe under din hjemmeside, da en fremmed med dårlige hensigter og adgang til din FTP vil kunne smadre din hjemmeside på 10 sek. Keep your passwords close! Tjek evt. [LastPass](https://hilsen.it/blogs/2018/01/27/techlove.html#lastpass---din-skattekiste-til-kodeord){:target="_blank"} for at få et godt sted at gemme dem.
+
+<br>
+#### FileZilla - din nye FTP-ven
+
+FileZilla er et program, som er bygget til at håndtere dine FTP-adgange. 
+
+[Download det her og installér det på din computer](https://filezilla-project.org/){:target="_blank"}
+
+Når du har downloadet det og installeret det skal et åbent vindue i FileZilla se nogenlunde sådan her ud: 
+
+![FileZilla program window]({{ "assets/wordpress/filezilla.png" || absolute_url }})
+
+*Din computers filer på venstre side og din hjemmesides filer på højre.*
+
+Men hov.. Vi mangler jo filerne på højre side - nu er det tid til at få kontakt!
+
+<br>
+### FTP-adgang - din hosting-løsning har adgangsoplysningerne. Find dem der!
+
+> Når du køber et domæne på internettet, køber du oftest også et webhotel. I [Køb af domæne..](https://hilsen.it/wordpress/2018/02/20/koeb-af-dom%C3%A6ne.html){:target="_blank"} købte vi domæne og webhotel hos [WebHosting](https://www.webhosting.dk/){:target="_blank"}. Derfor vil i resten af guiden bruge dem.
+
+> Dit webhotel ligger altid inde med oplysningerne om hvordan du får FTP-adgang.
+
+Gå til [WebHosting](https://www.webhosting.dk/){:target="_blank"} og log ind på din profil.
+
+Tryk på dit nyindkøbte domæne nederst på siden. (er understreget)
+
+Nu får du vist dit kontrolpanel for dette domæne.
+
+I det kontrolpanel finder du **FTP / PHP information** (er markeret på billedet).
+
+![WebHosting kontrolpanel]({{ "assets/wordpress/ftp.png" || absolute_url }})
+
+**Tryk på den**
+
+Nu har du FTP-oplysningerne til FileZilla.
+
+**Hold det her vindue åbent. Vi skal bruge det senere!**
+
+<br>
+### Indtast FTP-oplysningerne i FileZilla
+
+Åben da FileZilla igen og tryk på ![FileZilla button]({{ "assets/wordpress/filezilla_btn.png" || absolute_url }}) øverst i venstre hjørne. Det åbner et nyt vindue, hvor du snart skal indtaste dine oplysninger. Dette gemmer dine ftp-adgangsoplysninger, så du ikke skal forbi WebHosting næste gang, at du skal have FTP-kontakt til din hjemmeside.
+
+Tryk på "New Site" og giv den et navn (f.eks. dit domænenavn).
+
+Vinduets højre side ser nogenlunde sådan her ud:
+
+![FileZilla window]({{ "assets/wordpress/filezilla_window.png" || absolute_url }})
+
+Det er her, at du skal indtaste oplysningerne fra WebHosting's kontrolpanels FTP / PHP Information.
+
+Skift først **Logon Type:** til **Normal**.
+
+For at gøre det lettere for dig, da navnene faktisk er forskellige og derfor kan være ret forvirrende, har jeg lavet det her billede, for at forklare hvilke oplysninger fra WebHosting du skal bruge, og hvor de skal kopieres ind i FileZilla:
+
+*De rigtige oplysninger står ud for punkterne på WebHosting - jeg er ikke interesseret i at vise mine til internettet.*
+
+![FileZilla window]({{ "assets/wordpress/filezilla-webhosting.jpg" || absolute_url }})
+
+Når du har kopieret oplysningerne ind i FileZilla vinduet **tryk da på 'Connect'**.
+
+*Der vil højest sandsynligt komme et vindue, hvor der står 'Unknown Certificate'. Tryk 'Ok' på den og fortsæt.*
+
+Nu skulle FileZilla gerne se således ud:
+
+![FileZilla window]({{ "assets/wordpress/filezilla-kontakt.jpg" || absolute_url }})
+
+*Gå først videre, når du forstår konceptet beskrevet på billedet ovenover.*
+
+**Hvis du får en fejl (rød tekst), og der ikke viser sig nogen mappe i højre side som på forrige billede, gå da til [Fejl ved FTP](https://hilsen.it/wordpress/2018/02/23/del-6-skub-op.html#fejl-ved-ftp)**
+
+
+<br>
+#### Upload af Duplicator filer
+
+Det næste du skal gøre er at uploade dine 2 downloade filer fra Duplicator.
+
+Det gør du i FileZilla efter at du har oprettet en forbindelse til dit webhotel (der vises mapper/filer i højre side). 
+
+Nu finder du dine to filer i venstre side (din computer), markerer dem og højre-klikker på dem. 
+
+
+**Derefter trykker du på Upload** (se billede nedenunder):
+
+> **Vigtigt:** FileZilla skubber dine valgte filer op i den mappe, som du er i på højre side (dit webhotel). Det er vigtigt, at du er i root-mappen på dit webhotel (højre side), når du uploader Duplicator-filerne. Root mappen er også altid vist med et '/' uden noget efter, og det er den du starter i, når du får FTP-adgang.
+
+![FileZilla upload files]({{ "assets/wordpress/file-to-upload.png" || absolute_url }})
+
+
+
+------------------------------
+
+## Pause!
+
+Du har gjort det godt og har nu adgang til dit webhotel via FTP. Din nye installation er på vej op på internettet. Det vil tage et stykke tid alt efter hvor god en internetforbindelse du har og hvor meget arbejde, som du har lagt på din side.
+
+Snup en kop kaffe eller et nikotintyggegummi. Godt gået!
+
+
+<br>
+
+-----------------------------
+
+
+<br>
+<br>
+### Besøg din installer.php fil på dit nye domæne (vi skal installere vores lokale version).
+
+Når du uploader noget til din **root**, så vil du (oftest) kunne besøge filen ved at trykke `www.dit-domæne.dk/filnavn`
+
+Altså lægger det sig godt op af forklaringen: *Dit domæne kan forklares som adgangen til en mappe, der ligger online*. 
+
+Du kan altså indtaste stien til din fil, som så vil vise næste skridt.
+
+
+<br>
+
+#### Step 1
+
+Jeg har været så heldig at få lov til at låne: `http://friisstorb.org`. 
+
+Jeg kan derfor skrive `http://friisstorb.org/installer.php` (husk fileendelsen!) i mit søgefelt i min browser (Chrome).
+
+Du vil da, hvis du staver og skriver det rigtigt, få et vindue, som har overskrifterne: 
+
+![Duplicator heading]({{ "assets/wordpress/duplicator-heading.png" || absolute_url }})
+
+
+> Du har lige besøgt den fil `installer.php`, som du uploadede i FileZilla i sidste punkt. **Sådan!**
+
+*Der kan være røde fejl, men oftest vil det være fint at gå videre - især hvis det er et nyt domæne.*
+
+**Acceptér Duplicators betingelser og tryk 'Next'**
+
+
+<br>
+
+#### Step 2 - forbindelse til databasen
+
+*Du kan måske huske fra del 3 [Installation og opsætning af lokalt miljø](https://hilsen.it/wordpress/2018/02/09/del-3-Wordpress-basics.html#installation-og-opsætning-af-lokalt-miljø-til-mac){:target="_blank"} at vi oprettede en forbindelse til en database i punkt 15. Det er næsten det samme, som vi skal nu. Det var bare lokalt. Nu skal vi gøre det online.*
+
+De adgangsoplysninger til vores database(brugernavn, kodeord), som vi brugte lokalt, var korte og ens (root). Det var de fordi der ikke var nogen potientiel trussel ved at arbejde lokalt, da andre ikke har adgang til ens lokale miljø. 
+
+Nu er det noget andet. Alle kan potientielt prøve at få adgang til din database. Derfor gemmer vores webhotel (WebHosting) nogle længere og sikre oplysninger på, hvordan vi kan få adgang til databasen. Dem skal vi finde nu.
+
+Gå til kontrolpanelet for dit domæne (samme som i [FTP-adgang - din hosting-løsning har adgangsoplysningerne. Find dem der!](https://hilsen.it/wordpress/2018/02/23/del-6-skub-op.html#ftp-adgang---din-hosting-løsning-har-adgangsoplysningerne-find-dem-der){:target="_blank"}) og tryk denne gang på MySQL database information (er markeret på billedet underneden).
+
+![Mysql information]({{ "assets/wordpress/mysql_new.png" || absolute_url }})
+
+
+
+<br>
+
+Nu kommer du til en side, hvor dine databases adgangsoplysninger står nederst.
+
+Igen har jeg lavet et billede til hvilke værdier, der skal være hvor, for at undgå forvirring:
+
+![Mysql duplicator]({{ "assets/wordpress/webhosting-duplicator.jpg" || absolute_url }})
+
+Efter at du har sat alle oplysningerne ind (kopier oplysningerne, så du undgår tastefejl), **kan du trykke 'Next'**. 
+
+Nu overskriver Duplicator din database med alt den data, som du har fra dit lokale miljø. 
+
+> **Vigtigt for etablerede sider!** Vær opmærksom på, som fejlbeskederne også viser, at du **overskriver** alt din data. Altså vil din gamle data forsvinde fra jordens overflade, hvis du ikke har en backup. For et nyt domæne er det ligemeget, der er jo ingenting, som går tabt.
+
+<br>
+
+#### Step 3 - Din nye hjemmeside er klar!
+
+Nu kan du (hvis alt er gået efter planen) se dine grundlæggende oplysninger. 
+
+Mine ser således ud: 
+
+![Duplicator step 3]({{ "assets/wordpress/step-3.png" || absolute_url }})
+
+Her kan du se, at **Title** faktisk er taget fra vores lokale miljø. Altså det første tegn på, **at din lokale data nu ligger på internettet**.
+
+Der er mulighed for at indstille forskellige ting i **Options**, men jeg vil anbefale, at man gemmer det til en anden gang. 
+
+**Nu mangler du bare at trykke 'Next'.**
+
+<br>
+
+#### Step 4
+
+**Tillykke!** Du har skubbet din lokale side op på dit domæne.
+
+> Prøv at besøg dit domæne, så vil du se, at din hjemmeside (håber jeg) er identisk med din lokale side.
+
+Men stop ikke endnu! Det er vigtigt, at du går igennem den afsluttende tjekliste, før du popper en champagne!
+
+
+### Afsluttende tjekliste
+
+#### 1. Fjern gamle filer
+
+Alle kan tilgå `installer.php`, selvom du har gennemført en installation. Du kan slette dine oprindelige filer i FTP (god udfordring), eller du kan logge ind på din backend (på din online side), hvor Duplicator automatisk generere en fejlbesked:
+
+![Duplicator error message]({{ "assets/wordpress/duplicator-message.png" || absolute_url }})
+
+**Tryk på 'Take me there now!'**
+
+Nu vil du se Duplicator > Tools siden med forskellige indstillinger: Stored Data, Server Settings, Scan Validator og PHP Information.
+
+**Tryk på Stored Data**
+
+Nu vil du have mulighed for at fjerne filerne ved at trykke 'Remove Installation Files'.
+
+**Tryk på Remove Installation Files**
+
+Nu har Duplicator fjernet alle de filer, som ikke skal ligge på dit webhotel.
+
+
+<br>
+
+#### 2. Er dit brugernavn og din adgangskode sikkert nok til internettet?
+
+Din database har fået nye oplysninger, som passer bedre til The World Wide Web. 
+
+Men hvad med dit brugernavn og kodeord? Hvis det er for kort, fordi du (forståeligt nok) følte dig tryg lokalt, så tag og brug et par minutter på at ændre det i din backend. 
+
+Du finder din profil under Brugere > Alle brugere efter, at du har logget ind på din WordPress side.
+
+> **HUSK:** Du logger stadig ind ved at tilføje `/wp-admin` til din URL, ligesom du også gjorde lokalt. Altså: `dit-domæne.dk/wp-admin`. 
+
+<br>
+
+
+#### 3. Tjek din FTP igen (mest for sjov)
+
+For at se WordPress-filstrukturen, som er nævnt i starten af denne del, kan du prøve at tilgå dit webhotel igen via FTP.
+
+Nu vil du se hvilket tungt arbejde, som Duplicator har taget sig af.
+
+![FTP Wordpress Structure]({{ "assets/wordpress/last-ftp-shot.png" || absolute_url }})
+
+Tidligere var der blot en root-folder med få filer i. Men nu er hele WordPress kodebasen blevet uploadet via den tidligere zip-fil genereret af Duplicator.
+
+### Godt gået! Du har lige uploadet din lokale side til internettet!
+
+
+> Tak for et godt kursus. Hvis du har kommentarer, ris/ros eller har lyst til at fortælle mig, hvad mine typiske grammatiske fejl er, så er du meget velkommen til at skrive til min mail `kontakt@hilsen.it`
+
+Jeg håber, at du har fået et godt afsæt til at lave din egen hjemmeside.
+
+<br>
+<br>
+
+### Fejl ved FTP
+
+**1.** Gå dine oplysninger igennem. Er alt som det skal være? Har du fået det hele med - eller måske for meget?
+
+**2.** Tjek for whitespaces(mellemrum). Selv et lille mellemrum i starten eller slutningen af dine FTP-oplysninger kan give en fejl. 
+
+**3.** Sidder du på dit studie eller på et offentligt internet? De har til tider en sikker forbindelse, som gør, at du ikke kan oprette en FTP-adgang. Prøv da at del dit net fra din mobil - det virker hver gang!
+
+*Hvis ingen af delene hjælper kan jeg desværre ikke hjælpe. Du kan prøve at skrive til [WebHosting support](https://www.webhosting.dk/DKK/sendemail.php){:target="_blank"}. De plejer at være rigtig søde, men det kan også blive lidt teknisk.*
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
