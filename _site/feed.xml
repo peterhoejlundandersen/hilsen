@@ -1,4 +1,246 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-04-19T15:12:47+02:00</updated><id>http://localhost:4000/</id><title type="html">Hilsen IT</title><subtitle>Designer hjemmesider med et sikkert fundament i Ruby on Rails, Jekyll og Angular</subtitle><entry><title type="html">Dagbog fra en rustur</title><link href="http://localhost:4000/blogs/2018/10/10/Dagbog-fra-en-hyttetur.html" rel="alternate" type="text/html" title="Dagbog fra en rustur" /><published>2018-10-10T00:00:00+02:00</published><updated>2018-10-10T00:00:00+02:00</updated><id>http://localhost:4000/blogs/2018/10/10/Dagbog-fra-en-hyttetur</id><content type="html" xml:base="http://localhost:4000/blogs/2018/10/10/Dagbog-fra-en-hyttetur.html">&lt;blockquote&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-04-19T15:18:47+02:00</updated><id>http://localhost:4000/</id><title type="html">Hilsen IT</title><subtitle>Designer hjemmesider med et sikkert fundament i Ruby on Rails, Jekyll og Angular</subtitle><entry><title type="html">Det bedste fra Wordpress blandet med det bedste fra Timeline JS - tidslinje til Københavns Kunstakademi</title><link href="http://localhost:4000/blogs/2020/04/15/Bedste-fra-WordPress-og-Timeline-JS-kunstakademiet-tidslinje.html" rel="alternate" type="text/html" title="Det bedste fra Wordpress blandet med det bedste fra Timeline JS - tidslinje til Københavns Kunstakademi" /><published>2020-04-15T00:00:00+02:00</published><updated>2020-04-15T00:00:00+02:00</updated><id>http://localhost:4000/blogs/2020/04/15/Bedste-fra-WordPress-og-Timeline-JS-kunstakademiet-tidslinje</id><content type="html" xml:base="http://localhost:4000/blogs/2020/04/15/Bedste-fra-WordPress-og-Timeline-JS-kunstakademiet-tidslinje.html">&lt;blockquote&gt;
+  &lt;p&gt;For at forbedre overblikket for de mange studerende, så vi forstår hvad det er for en synkende skude vi befinder os på.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;I starten af dette skoleår kom det ud, at Det Kongelige Danske Kunstakademi skulle gennemgå nogle nye besparelser. Der blev lækket (i en lille grad, kan man sige) et dokument fra Driften (pedel, rengøring, daglig drift). Heri står der for eksempel:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Fra 1. februar 2022 skal Bygningsstyrelsen varetage levering af alle Kunstakademiets interne serviceydelser. &lt;strong&gt;Det vil ske gennem en privat leverandør.&lt;/strong&gt; Det drejer sig som udgangspunkt om kantine og mødeforplejning, rengøring, intern service og reception, indvendig vedligehold, udendørsarealer, vagt- og sikkerhed samt affaldshåndtering.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Altså er der fra den tidligere regerings side igangsat 3 forskellige bølger, hvor alle offentlige institutioners drift skal overgå til en privat leverandør.&lt;/p&gt;
+
+&lt;p&gt;Senere i teksten, som er skrevet af Administrationschef Jes Gjørup, beskrives det hvordan, at Akademiet har fået en form for særbehandling:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;For Kunstakademiets vedkommende kan der dog være serviceopgaver, som udgør så integreret en del af vores kerneopgaver – uddannelse, forskning og kunsthalsvirksomhed – at det ikke er hensigtsmæssigt at outsource opgaven.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Det &lt;strong&gt;STORE&lt;/strong&gt; spørgsmål, man kan stille i forlængelse af denne lange sætning er: &lt;strong&gt;Hvordan kan det være at drift og rengøring ikke bliver talt med i “kerneopgaver”?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;En hver der har været på akademiet og haft sin daglige gang der ved, at de opgaver som Driften og rengøring varetager er specialiseret. Det skyldes, at det er gamle bygninger med atypiske beboer (kunststuderende), der kræver en fleksibilitet, dialog og viden om, hvad der kan lade sig gøre. Viden, der for nogen er opbygget over årtier, men som åbenbart bliver overset.  Og nu vil de, som et plaster på såret, tilbyde de mest garvede et job ved den nye udbydere. Som er til en lavere løn og dårligere overenskomst. Samt at de kan blive udsat for at arbejde andre steder.&lt;/p&gt;
+
+&lt;p&gt;Helt ærligt. Det er på grænsen af elitært ikke at tælle disse mennesker med. Især når, at det er de vante og kendte ansigter/relationer, der gør, at man som studerende kan føle sig tryg i fucking Indre By’s lortekultur.&lt;/p&gt;
+
+&lt;p&gt;Vi var nogle elever der snakkede om, hvad vi kunne gøre. Organisere os og vise vores sympati med Driften og rengøringen.&lt;/p&gt;
+
+&lt;p&gt;I den samtale slog det os, at det måske kunne være fedt at lave en tidslinje til skolen. Tidligere elever har holdt en tidslinje løbende opdateret i et dokument, der beskriver ændringer fra 2007-18. Men hvorfor stoppede den og hvad kunne vi gøre for, at den blev mere tilgængelig… 
+Selvfølgelig:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Make a WEBSITE with a student login! For everyone → and visible for the whole world.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;timeline-js---the-perfect-tool&quot;&gt;Timeline JS - the perfect TOOL!&lt;/h2&gt;
+
+&lt;p&gt;Jeg fandt hurtigt &lt;a href=&quot;[https://timeline.knightlab.com/](https://timeline.knightlab.com/)&quot;&gt;Timeline JS&lt;/a&gt; (TL), som er et Javascript bibliotek, der tager JSON-data eller et offentlig Google Sheet(excelark) og laver den data om til en interaktiv tidslinje. Du kan besøge linket og se mere.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Til de personer, der ikke kender JSON-kode, så er det en simpel måde at gemme data på, som computere har let ved at læse. Google IT&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Problemet med dette program er, at det ikke er særlig mange mennesker (er min oplevelse), der gider at logge ind og tilføje data til et Excel-ark. Især når denne data kan være mange forskellige ting som billeder og html-kode osv. Det skal selvfølgelig forenes med &lt;strong&gt;en simpel brugervenlig backend som WordPress’!&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Jeg besluttede mig hurtigt for at dataudtrækket fra WordPress skulle være JSON, da jeg fandt ud af, at der er et indbygget måde at arbejde med JSON i PHP, der hedder:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;cp&quot;&gt;&amp;lt;?php&lt;/span&gt;
+&lt;span class=&quot;nv&quot;&gt;$myObj&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&amp;gt;&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;name&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;John&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;nv&quot;&gt;$myObj&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&amp;gt;&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;age&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;30&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;nv&quot;&gt;$myObj&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&amp;gt;&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;city&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;New York&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+
+&lt;span class=&quot;nv&quot;&gt;$myJSON&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;json_encode&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$myObj&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Du kan altså lave et Object og tilføje værdier på en meget simpel måde, hvorefter du kan transformere dette parent-object ind til json kode.&lt;/p&gt;
+
+&lt;h1 id=&quot;fra-wordpress-til-json-til-finished&quot;&gt;Fra Wordpress til JSON til FINISHED!&lt;/h1&gt;
+
+&lt;p&gt;Jeg valgte at eksportere WordPress’ Indlæg (Posts på engelsk) som events (begivenheder) på tidslinjen. For at dette skal fungere var jeg nødt til &lt;strong&gt;at eksportere data ind i JSON-struktur som TL kan læse.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Hvis du besøger &lt;a href=&quot;[https://timeline.knightlab.com/docs/json-format.html](https://timeline.knightlab.com/docs/json-format.html)&quot;&gt;TL kan du se deres JSON-struktur&lt;/a&gt; (format):&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;{
+  &quot;title&quot;: {
+    &quot;media&quot;: {
+      &quot;url&quot;: &quot;################&quot;,
+      &quot;caption&quot;: &quot;############&quot;,
+      &quot;credit&quot;: &quot;###########&quot;,
+    },
+    &quot;text&quot;: {
+      &quot;headline&quot;: &quot;Det siger de&quot;,
+      &quot;text&quot;: &quot;Halli hallo&quot;
+    }
+  },
+  &quot;events&quot;: [ // Læg mærke til at events er en array!
+      {
+        &quot;media&quot;: {
+          &quot;url&quot;: &quot;####&quot;,
+          &quot;thumbnail&quot;: &quot;####&quot;,
+          &quot;caption&quot;: &quot;#####&quot;,
+          &quot;credit&quot;: &quot;######&quot;,
+        },
+        &quot;start_date&quot;: {
+          &quot;year&quot;: &quot;1945&quot;
+        },
+        &quot;end_date&quot;: {
+          &quot;year&quot;: &quot;1950&quot;
+        },
+        &quot;text&quot;: {
+          &quot;headline&quot;: &quot;Der skete det&quot;,
+          &quot;text&quot;: &quot;Jamen dog&quot;
+        }
+      }, 
+      ..... // Next event
+    }
+  ]
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;em&gt;Forestil dig at programmet siger: SÅDAN HER SKAL DATAEN LEVERES FOR AT JEG PÅ NOGEN MÅDE KAN ARBEJDE MED DET! Nu ved du det.&lt;/em&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;tilføj-custom-fields-med-acf-til-et-indlæg-så-ingen-data-mangler&quot;&gt;Tilføj custom fields med ACF til et indlæg, så ingen data mangler!&lt;/h3&gt;
+
+&lt;p&gt;Det eneste der umiddelbart mangler som data i et indlæg (den har headline, text, billeder osv.) er: start_date og end_date. 
+Så der bruger jeg &lt;a href=&quot;[https://www.advancedcustomfields.com/](https://www.advancedcustomfields.com/)&quot;&gt;Advanced Custom Fields&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;SERIØST BEDSTE PLUGIN JEG NOGENSINDE HAR KØBT! - HAR BRUGT DET 100 GANGE!&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;I det plugin tilføjet jeg to datafield felter: start_date og end_date, som bliver vist under teksten på backend med guide-tekst:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;Det%20bedste%20fra%20Wordpress%20blandet%20med%20det%20bedste%20fr/Screen_Shot_2020-04-15_at_19.26.18.jpg&quot; alt=&quot;Det%20bedste%20fra%20Wordpress%20blandet%20med%20det%20bedste%20fr/Screen_Shot_2020-04-15_at_19.26.18.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;som brugeren så kan udfylde.&lt;/p&gt;
+
+&lt;p&gt;Nu mangler vi bare at gemme indlæggene som JSON-data!&lt;/p&gt;
+
+&lt;h3 id=&quot;gem-og-eksporter-dataen-fra-wordpress-til-en-json-fil&quot;&gt;Gem og eksporter dataen fra WordPress til en json fil!&lt;/h3&gt;
+
+&lt;p&gt;Derefter kom punktet, at jeg skulle lave en kode der blev &lt;em&gt;triggered&lt;/em&gt; hver gang et indlæg blev gemt. Denne kode skulle så loope igennem alle indlæg på siden og gemme hver deres data i det JSON-format som jeg lige har vist.&lt;/p&gt;
+
+&lt;p&gt;Det jeg kom frem til var det her:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;function export_posts_in_json (){
+// Tag alle (-1) indlæg (post) som er udgivet
+    $args = array(
+        'post_type' =&amp;gt; 'post',
+        'post_status' =&amp;gt; 'publish',
+        'posts_per_page' =&amp;gt; -1,
+    );
+
+// Udfyld den overordnet data (headline og text)
+    $query = new WP_Query( $args );
+    $text = new stdClass();
+    $text-&amp;gt;headline = &quot;Det Kongelige Danske Kunstakademi&quot;;
+    $text-&amp;gt;text = &quot;Som har været en del igennem&quot;;
+    $timelineObj = new stdClass();
+    $timelineObj-&amp;gt;title = &quot;media&quot;;
+    $timelineObj-&amp;gt;title = $text;
+
+    $eventArray = array();
+
+// Loop gennem alle inlæg 
+    while( $query-&amp;gt;have_posts() ) : $query-&amp;gt;the_post();
+
+      $obj = new stdClass();
+// Hvis et indlæg har et billede, så tilføj en lille thumbnail og et stort billede + mere
+      if( has_post_thumbnail() ) {
+        $media = new stdClass();
+        $media-&amp;gt;url = get_the_post_thumbnail_url(); 
+        $media-&amp;gt;thumbnail = get_the_post_thumbnail_url(get_the_ID(), 'thumbnail');
+        $media-&amp;gt;caption = get_post( get_post_thumbnail_id())-&amp;gt;post_excerpt;
+        $obj-&amp;gt;media = $media;
+      }
+// Titel og text
+      $text = new stdClass();
+      $text-&amp;gt;headline = get_the_title();
+      $text-&amp;gt;text = get_the_content();
+
+      $obj-&amp;gt;text = $text;
+
+// Få datafeltet og udvind år(Y), måned(m) og dag(d) fra data strengen.
+      $startDate = new stdClass();
+      $dateObject = new DateTime( get_field('startdato', get_the_ID() ) ); 
+      $startDate-&amp;gt;year = $dateObject-&amp;gt;format('Y');
+      $startDate-&amp;gt;month = $dateObject-&amp;gt;format('m');
+      $startDate-&amp;gt;day = $dateObject-&amp;gt;format('d');
+
+      $obj-&amp;gt;start_date = $startDate;
+// Samme
+      if( get_field('slutdato', get_the_ID() ) ) {  // Hvis der er en slutdato
+        $endDate = new stdClass();
+        $dateObject = new DateTime( get_field('slutdato', get_the_ID() ) ); 
+        $endDate-&amp;gt;year = $dateObject-&amp;gt;format('Y');
+        $endDate-&amp;gt;month = $dateObject-&amp;gt;format('m');
+        $endDate-&amp;gt;day = $dateObject-&amp;gt;format('d');
+
+        $obj-&amp;gt;end_date = $endDate;
+      }
+// Sæt det i en kategori, hvis det har en.
+      if( get_the_category() ) { // Can only take one!
+        $category = new stdClass();
+        $obj-&amp;gt;group = get_the_category()[0]-&amp;gt;name;
+      }
+
+      $eventArray[] = $obj; 
+
+    endwhile;
+
+    wp_reset_query();
+
+    $timelineObj-&amp;gt;events = $eventArray;
+// Lav hele objektet om til JSON-kode (også vist tidligere)
+    $data = json_encode($timelineObj);
+// Stien hvor det skal gemmes (get_stylesheet_directory er stien til child-theme)
+    $folder = get_stylesheet_directory() . '/it-timeline/';
+    $file_name = 'timeline-data.json';
+// Gem det JSON-dataen der!
+    $succes = file_put_contents( $folder.$file_name , $data );
+// SLUT - no problem. Ville nok have lavet en tester af, om det hele gik som det skulle
+// men ikke på et amatør job som det her &amp;lt;3 :)
+}
+
+// Hooket 'save_post' fyres hver gang et indlæg bliver udgivet eller opdateret.
+add_action( 'save_post', 'export_posts_in_json' );
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Nu bliver dataen gemt  i TL’s JSON-format hver gang. Nu skal frontend ‘bare’ finde filen og vise tidslinjen.&lt;/p&gt;
+
+&lt;h3 id=&quot;tilføj-timeline-js-til-frontend-og-kald-dataen&quot;&gt;Tilføj Timeline JS til frontend og kald dataen!&lt;/h3&gt;
+
+&lt;p&gt;Nu mangler vi bare at få al dataen vist.&lt;/p&gt;
+
+&lt;p&gt;Det gør vi ved at følge TL’s guide og ved at bruge et lille PHP til Javascript trick.&lt;/p&gt;
+
+&lt;p&gt;Find det sted, som du gerne vil vise tidslinjen og gå ind i PHP-koden der.&lt;/p&gt;
+
+&lt;p&gt;Jeg har valgt: &lt;code class=&quot;highlighter-rouge&quot;&gt;template-parts/page/content-front-page.php&lt;/code&gt; i WordPress’ eget tema: Tweenty Seventeen&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;lt;!-- TIMELINE JS OG CSS OG ET NØDVENDIGT HTML-TAG --&amp;gt;
+&amp;lt;link title=&quot;timeline-styles&quot; rel=&quot;stylesheet&quot; href=&quot;https://cdn.knightlab.com/libs/timeline3/latest/css/timeline.css&quot;&amp;gt;
+&amp;lt;script src=&quot;https://cdn.knightlab.com/libs/timeline3/latest/js/timeline.js&quot;&amp;gt;&amp;lt;/script&amp;gt;
+&amp;lt;div id='timeline-embed' style=&quot;width: 100%; height: 600px&quot;&amp;gt;&amp;lt;/div&amp;gt;
+
+&amp;lt;script type=&quot;text/javascript&quot;&amp;gt;
+// Det her er indstillinger, som du kan tilføje, så TL viser eller opfører sig på en bestemt måde.
+// Se deres hjemmeside for mere info.
+  var options = {
+    hash_bookmark: true 
+  }
+  var json_url = &quot;wp-content/themes/twentyseventeen-child/it-timeline/timeline-data.json&quot;;
+// Ram id'et fra HTML ovenover og fodre den med data. Sådan!
+  $.getJSON( json_url, function( data ) {
+    timeline = new TL.Timeline('timeline-embed', data, options);
+  } );
+&amp;lt;/script&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;SÅ!&lt;/strong&gt; Nu har du altså en brugervenlig måde at vise en tidslinje på.&lt;/p&gt;
+
+&lt;h3 id=&quot;afsluttende&quot;&gt;Afsluttende:&lt;/h3&gt;
+
+&lt;p&gt;Jeg gjorde det, at jeg oprettede en fælles bruger til eleverne på min skolen: Student. Som de hver især kan logge ind med og tilføje data.&lt;/p&gt;
+
+&lt;p&gt;Og husk at tjekke TL’s mobilversion ud! Den er virkelig god.&lt;/p&gt;
+
+&lt;p&gt;God arbejdslyst&lt;/p&gt;</content><author><name></name></author><category term="blogs" /><summary type="html">For at forbedre overblikket for de mange studerende, så vi forstår hvad det er for en synkende skude vi befinder os på.</summary></entry><entry><title type="html">Dagbog fra en rustur</title><link href="http://localhost:4000/blogs/2018/10/10/Dagbog-fra-en-hyttetur.html" rel="alternate" type="text/html" title="Dagbog fra en rustur" /><published>2018-10-10T00:00:00+02:00</published><updated>2018-10-10T00:00:00+02:00</updated><id>http://localhost:4000/blogs/2018/10/10/Dagbog-fra-en-hyttetur</id><content type="html" xml:base="http://localhost:4000/blogs/2018/10/10/Dagbog-fra-en-hyttetur.html">&lt;blockquote&gt;
   &lt;p&gt;Det er vigtigt at understrege, at det ikke er min mening at hænge
 nogen ud personligt. Hvis du oplever dette som tilfældet, må du endelig
 skrive til min mail eller ringe, så vil jeg med det samme ændre
@@ -2634,312 +2876,4 @@ Tryk derefter “Tryk her for at acceptere ordre”, hvis du ikke har flere indv
   &lt;li&gt;
     &lt;p&gt;Se Hobbitten triologien og nedskriv, hvor der er blevet brugt padding i filmen.&lt;/p&gt;
   &lt;/li&gt;
-&lt;/ol&gt;</content><author><name></name></author><category term="wordpress" /><summary type="html">#Del 2 - WordPress kursus</summary></entry><entry><title type="html">Del 1 - HTML, CSS og JavaScript</title><link href="http://localhost:4000/wordpress/2018/01/27/del-1-wordpress-kursus.html" rel="alternate" type="text/html" title="Del 1 - HTML, CSS og JavaScript" /><published>2018-01-27T00:00:00+01:00</published><updated>2018-01-27T00:00:00+01:00</updated><id>http://localhost:4000/wordpress/2018/01/27/del-1-wordpress-kursus</id><content type="html" xml:base="http://localhost:4000/wordpress/2018/01/27/del-1-wordpress-kursus.html">&lt;blockquote&gt;
-  &lt;p&gt;&lt;strong&gt;Forberedelse&lt;/strong&gt;: Start med at &lt;a href=&quot;/assets/wordpress/del-1.zip&quot; download=&quot;&quot;&gt;downloade eksemplet&lt;/a&gt; og åben den downloadede mappe i f.eks. &lt;a href=&quot;https://www.sublimetext.com/3&quot;&gt;Sublime Text 3&lt;/a&gt;. Åben derefter &lt;code class=&quot;highlighter-rouge&quot;&gt;index.html&lt;/code&gt; i en browser for at se indholdet. Dette vil være mappen, hvor du selv kan lave ændringer og afprøve den viden, som du møder hen af vejen.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;For at forstå WordPress ordentligt og senere hen at kunne lave de små ændringer, som temaet og de indbyggede page-builders ikke kan, bliver man nødt til at forstå hvad HTML, CSS og JavaScript er, og hvad man kan bruge dem til.&lt;/p&gt;
-
-&lt;p&gt;Vi starter med:&lt;/p&gt;
-
-&lt;h2 id=&quot;kodedyret---skelet-udseende-og-opførsel&quot;&gt;Kodedyret - skelet, udseende og opførsel!&lt;/h2&gt;
-&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/skeleton.png&quot; alt=&quot;Hvad gør de tre, og hvordan er de forskellige?&quot; /&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;html-skelettet&quot;&gt;HTML (SKELETTET):&lt;/h3&gt;
-&lt;p&gt;Er den grundlæggende struktur og er oftest det første en besøgende møder, når de besøger en hjemmeside.&lt;/p&gt;
-
-&lt;p&gt;Det er den, der holder styr på de resterende koder (CSS, JavaScript), og hvor de skal kaldes.&lt;/p&gt;
-
-&lt;p&gt;I HTML er der grundlæggende to inddelinger:&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;HEAD&lt;/strong&gt; samler alle ressourcerne, så siden har hvad den skal bruge, når den bliver vist og har alt information om hjemmesiden, der ikke er nødvendig at vise til en bruger.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;BODY&lt;/strong&gt; er content, det er alt det rå indhold, som skal vises, såsom tekst og billeder. Det bliver stylet af CSS, så det kommer til at se godt ud senere.&lt;/p&gt;
-
-&lt;p&gt;De ser sådan her ud i HTML:&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;head&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;c&quot;&gt;&amp;lt;!-- Jeg bliver ikke vist til en besøgende --&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;c&quot;&gt;&amp;lt;!-- Jeg samler ressourcerne ved at kalde dem ind --&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;nt&quot;&gt;&amp;lt;/head&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;nt&quot;&gt;&amp;lt;body&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;c&quot;&gt;&amp;lt;!-- Jeg er alt indhold og bliver designet af,
-hvad &amp;lt;head&amp;gt; har fundet af ressourcer(CSS og Javacript) --&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;nt&quot;&gt;&amp;lt;/body&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;&lt;em&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;!--&lt;/code&gt; og &lt;code class=&quot;highlighter-rouge&quot;&gt;--&amp;gt;&lt;/code&gt; bruges til at starte og slutte HTML kommentarer. Det er en måde at sige til computeren: Læs IKKE hvad der er imellem disse!&lt;/em&gt;&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;&lt;strong&gt;Huskeregel:&lt;/strong&gt; Hovedet (head) tænker og forbereder sig(samler ressourcer) til, hvad kroppen(body) skal gøre. Når hovedet er færdig med det, så gør kroppen det.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Et HTML tag starter med &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;&lt;/code&gt; og slutter med &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;gt;&lt;/code&gt; - som f.eks. &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;head&amp;gt;&lt;/code&gt;. Det er en måde at sige til computeren på: Du skal læse alt fra dette tegn &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;&lt;/code&gt; til dette tegn &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;gt;&lt;/code&gt;.&lt;/p&gt;
-
-&lt;p&gt;Derudover er der et &lt;strong&gt;start-tag&lt;/strong&gt; og et &lt;strong&gt;slut-tag&lt;/strong&gt;: &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;head&amp;gt;&lt;/code&gt; og &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;/head&amp;gt;&lt;/code&gt;.&lt;/p&gt;
-
-&lt;p&gt;Så når computeren er færdig med et start-tag, så ved den, at indtil den møder slut-tagget, så gælder det den har læst i start-tagget.&lt;/p&gt;
-
-&lt;p&gt;F.eks. ved &lt;strong&gt;headings&lt;/strong&gt;, som er det samme som overskrifter i Word, hvor der findes forskellige størrelser:
-I HTML er der 6: &lt;code class=&quot;highlighter-rouge&quot;&gt;h1, h2, h3, h4, h5&lt;/code&gt; og &lt;code class=&quot;highlighter-rouge&quot;&gt;h6&lt;/code&gt;.&lt;/p&gt;
-
-&lt;p&gt;De har hver deres tilsvarende HTML start- og slut-tag: &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;h1&amp;gt;&amp;lt;/h1&amp;gt;&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;h2&amp;gt;&amp;lt;/h2&amp;gt;&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;h3&amp;gt;&amp;lt;/h3&amp;gt;&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;h4&amp;gt;&amp;lt;/h4&amp;gt;&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;h5&amp;gt;&amp;lt;/h5&amp;gt;&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;h6&amp;gt;&amp;lt;/h6&amp;gt;&lt;/code&gt; (h1 er størst, h6 er mindst).
- `&lt;/p&gt;
-
-&lt;p&gt;Altså kan du i HTML skrive:&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;c&quot;&gt;&amp;lt;!-- Computeren rammer &amp;lt;h1&amp;gt; og ved at alt indtil den rammer &amp;lt;/h1&amp;gt; skal laves stort --&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;nt&quot;&gt;&amp;lt;h1&amp;gt;&lt;/span&gt;Jeg er den største!&lt;span class=&quot;nt&quot;&gt;&amp;lt;/h1&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;c&quot;&gt;&amp;lt;!-- Computeren rammer nu &amp;lt;h6&amp;gt; og ved at alt indtil den rammer &amp;lt;/h6&amp;gt; skal være småt --&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;nt&quot;&gt;&amp;lt;h6&amp;gt;&lt;/span&gt;Jeg er den mindste&lt;span class=&quot;nt&quot;&gt;&amp;lt;/h6&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;Dette vil på denne side blive vist som (uden streger selvfølgelig):&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h1 id=&quot;jeg-er-den-største&quot;&gt;Jeg er den største!&lt;/h1&gt;
-
-&lt;h6 id=&quot;jeg-er-den-mindste&quot;&gt;Jeg er den mindste&lt;/h6&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;Som du kan se, så er de HTML tags vi brugte væk!&lt;/p&gt;
-
-&lt;p&gt;Computeren har fået information om, hvordan vi gerne vil have, at teksten skal se ud og kan nu fjerne HTML tagsne, så de ikke gør hjemmesiden rodet og ulæselig.&lt;/p&gt;
-
-&lt;p&gt;Dette koncept gør sig så gældene for en bred vifte af HTML-tags, som så hver især ‘fortæller’ computeren noget forskelligt. De har hver især en funktion, som er en anden end h1-h6 tags.&lt;/p&gt;
-
-&lt;p&gt;Her er et lille udsnit, som er meget brugte: &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;div&amp;gt;&amp;lt;/div&amp;gt;&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;span&amp;gt;&amp;lt;span&amp;gt;&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;strong&amp;gt;&amp;lt;/strong&amp;gt;&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;footer&amp;gt;&amp;lt;/footer&amp;gt;&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;a&amp;gt;&amp;lt;/a&amp;gt;&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;nav&amp;gt;&amp;lt;/nav&amp;gt;&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;section&amp;gt;&amp;lt;/section&amp;gt;&lt;/code&gt;.&lt;/p&gt;
-
-&lt;p&gt;Fortvivl ikke. Deres funktion kommer vi til senere. :)
-&lt;br /&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;css-hudenudseendet&quot;&gt;CSS (HUDEN/UDSEENDET):&lt;/h3&gt;
-&lt;p&gt;CSS’en er style, altså hvordan skal hjemmesiden se ud.&lt;/p&gt;
-
-&lt;p&gt;Den styler det indhold (content) som er i HTML. Alt indhold mellem &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;body&amp;gt;&lt;/code&gt; og &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;/body&amp;gt;&lt;/code&gt; fra før.&lt;/p&gt;
-
-&lt;p&gt;Eksempler på dette kan være:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Hvor stor skal fonten(teksten) være? (Men hov, var det ikke h1-h6… Jo, men det kan CSS’en også bestemme)&lt;/li&gt;
-  &lt;li&gt;Hvor skal dette billede være placeret på hjemmesiden?&lt;/li&gt;
-  &lt;li&gt;Hvilken farve skal baggrunden være og hvor meget plads skal denne tekst have omkring sig?&lt;/li&gt;
-  &lt;li&gt;Hvordan skal hjemmesiden se ud på mobil?&lt;/li&gt;
-  &lt;li&gt;Skal billedet blive gennemsigtigt, når jeg holder musen over det?&lt;/li&gt;
-  &lt;li&gt;Hvor meget rum (pixels) skal der være mellem de her to bokse?&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;Men hvordan snakker HTML og CSS sammen? Hvordan styler CSS HTML?&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Hvis jeg f.eks. ønskede at HTML tagget fra før: &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;h1&amp;gt;Jeg er den største!&amp;lt;/h1&amp;gt;&lt;/code&gt; skulle være orange, så ville jeg skrive CSS for at gøre det.&lt;/p&gt;
-
-&lt;p&gt;CSS’en ville se således ud:&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-css&quot; data-lang=&quot;css&quot;&gt;&lt;span class=&quot;nt&quot;&gt;h1&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; 
-	&lt;span class=&quot;nl&quot;&gt;color&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;orange&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; 
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt; &lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;Altså: det første: &lt;code class=&quot;highlighter-rouge&quot;&gt;h1&lt;/code&gt;(også kaldet en &lt;strong&gt;selector&lt;/strong&gt;) siger: Alle HTML h1 tags skal være som jeg befaler inden for de næste &lt;code class=&quot;highlighter-rouge&quot;&gt;{&lt;/code&gt; og &lt;code class=&quot;highlighter-rouge&quot;&gt;}&lt;/code&gt;.&lt;/p&gt;
-
-&lt;p&gt;Jeg befaler at &lt;code class=&quot;highlighter-rouge&quot;&gt;color&lt;/code&gt;(også kaldet en &lt;strong&gt;property&lt;/strong&gt;) skal være &lt;code class=&quot;highlighter-rouge&quot;&gt;orange&lt;/code&gt; (også kaldet en &lt;strong&gt;value&lt;/strong&gt;).&lt;/p&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;&lt;strong&gt;VIGTIGT:&lt;/strong&gt; Læg mærke til at property og value er opdelt af et kolon og value afslutter linjen med et semikolon: &lt;code class=&quot;highlighter-rouge&quot;&gt;color: orange;&lt;/code&gt;. Uden dette gennemføres koden ikke.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Nu ville den blive vist som:&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h1 style=&quot;color: orange&quot;&gt;Jeg er den største!&lt;/h1&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;Eller hvis jeg ville have mere afstand mellem bogstaverne ville jeg tilføje:&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-css&quot; data-lang=&quot;css&quot;&gt;&lt;span class=&quot;nt&quot;&gt;h1&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; 
-	&lt;span class=&quot;nl&quot;&gt;color&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;orange&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; 
-	&lt;span class=&quot;nl&quot;&gt;letter-spacing&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;5px&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt; &lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;&lt;em&gt;px er, som det lyder, dit antal pixels på din skærm&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;Så ville det så således ud:&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h1 style=&quot;color: orange; letter-spacing: 5px;&quot;&gt;Jeg er den største!&lt;/h1&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;Eller en anden baggrundsfarve:&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-css&quot; data-lang=&quot;css&quot;&gt;&lt;span class=&quot;nt&quot;&gt;h1&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; 
-	&lt;span class=&quot;nl&quot;&gt;color&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;orange&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; 
-	&lt;span class=&quot;nl&quot;&gt;letter-spacing&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;5px&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-	&lt;span class=&quot;nl&quot;&gt;background-color&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;red&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt; &lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;hr /&gt;
-
-&lt;h1 style=&quot;background-color: red; color: orange; letter-spacing: 5px;&quot;&gt;Jeg er den største!&lt;/h1&gt;
-
-&lt;hr /&gt;
-&lt;p&gt;Osv. osv.&lt;/p&gt;
-
-&lt;p&gt;På den måde findes der et utal af &lt;strong&gt;properties&lt;/strong&gt; for næsten alle tænkelige ændringer, som man kunne lave på sine tekst og billeder.&lt;/p&gt;
-
-&lt;p&gt;Heldigvis giver de oftest sig selv og er derfor lette at huske. F.eks. &lt;code class=&quot;highlighter-rouge&quot;&gt;background-color&lt;/code&gt;.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;&lt;strong&gt;Udfordring:&lt;/strong&gt; Prøv f.eks. selv at indstille højden på din h1 selector til et antal px. på over 100 i dit eget dokument: &lt;code class=&quot;highlighter-rouge&quot;&gt;style.css&lt;/code&gt; i css mappen - hvad er højde mon skrevet som? (husk at reload siden, efter at du har lavet ændringerne)&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;h4 id=&quot;css-klasser&quot;&gt;CSS klasser&lt;/h4&gt;
-&lt;p&gt;For at forklare hvorfor CSS klasser er så pokkers smarte, kan vi prøve at besvare spørgsmålet:&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Hvad gør man, hvis man har 2 forskellige h4-tags og gerne vil have, at den ene skal være rød og den anden brun?&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Eksemplet:&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;HTML&lt;/strong&gt;&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;h4&amp;gt;&lt;/span&gt;Jeg vil gerne være RØD!&lt;span class=&quot;nt&quot;&gt;&amp;lt;/h4&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;nt&quot;&gt;&amp;lt;h4&amp;gt;&lt;/span&gt;Jeg vil gerne være BRUN!&lt;span class=&quot;nt&quot;&gt;&amp;lt;/h4&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;Så kunne man måske tro at dette ville virke:&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;CSS&lt;/strong&gt;&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-css&quot; data-lang=&quot;css&quot;&gt;&lt;span class=&quot;nt&quot;&gt;h4&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-	&lt;span class=&quot;nl&quot;&gt;color&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;brown&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-	&lt;span class=&quot;nl&quot;&gt;color&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;red&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;Men lad os prøve at se hvilken farve de får:&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h4 style=&quot;color: brown; color: red;&quot;&gt;Jeg vil gerne være RØD!&lt;/h4&gt;
-&lt;h4 style=&quot;color: brown; color: red;&quot;&gt;Jeg vil gerne være BRUN!&lt;/h4&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;Hvorfor dog det?&lt;/p&gt;
-
-&lt;p&gt;Jo, der kan kun være en indstilling for hver &lt;strong&gt;selectors&lt;/strong&gt;(h4) &lt;strong&gt;property&lt;/strong&gt;(color, background-color, letter-spacing etc.).
-Det giver ikke mening, at der kunne være to forskellige, for hvornår skulle den ene vises og hvornår den anden? Computeren ser alle h4 tags som de samme. Vi bliver nødt til at gøre brug af endnu en inddeling for at kunne adskille dem i deres style(CSS). Det er her &lt;strong&gt;CSS klasser&lt;/strong&gt; kommer ind i billedet.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;&lt;strong&gt;Men hvorfor rød?:&lt;/strong&gt; Det er altid den sidste property(color i det her tilfælde), som overskriver. Altså står &lt;code class=&quot;highlighter-rouge&quot;&gt;color: red&lt;/code&gt; i det her tilfælde nederst af de to og overskriver derfor det tidligere fundet &lt;code class=&quot;highlighter-rouge&quot;&gt;color: brown&lt;/code&gt; (computeren læser oppefra og ned).&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;CSS klasser giver os mulighed for at tilføje en værdi til et HTML tag, som vi så kan referere til i vores CSS.&lt;/p&gt;
-
-&lt;p&gt;Se hvordan HTML’en har ændret sig:&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;h4&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;heading-red&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;Jeg vil gerne være RØD!&lt;span class=&quot;nt&quot;&gt;&amp;lt;/h4&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;nt&quot;&gt;&amp;lt;h4&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;heading-brown&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;Jeg vil gerne være BRUN!&lt;span class=&quot;nt&quot;&gt;&amp;lt;/h4&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;&lt;strong&gt;Hvad sker der?&lt;/strong&gt; - Vi har i det første tilfælde tilføjet &lt;code class=&quot;highlighter-rouge&quot;&gt;class=&quot;heading-red&quot;&lt;/code&gt; direkte ind i HTML-tagget. Inden for &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;&lt;/code&gt; og &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;gt;&lt;/code&gt; af start-tagget.&lt;/p&gt;
-
-&lt;p&gt;Vi har simpelthen tilføjet information til HTML-tagget, som nu gør os istand til at kalde specifikt denne klasse i CSS’en:&lt;/p&gt;
-
-&lt;p&gt;Nu kan vi udforme vores CSS på en helt anden måde:&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-css&quot; data-lang=&quot;css&quot;&gt;&lt;span class=&quot;nc&quot;&gt;.heading-red&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-	&lt;span class=&quot;nl&quot;&gt;color&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;red&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-&lt;span class=&quot;nc&quot;&gt;.heading-brown&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-	&lt;span class=&quot;nl&quot;&gt;color&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;brown&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;Og nu ender vi med det ønskede resultat:&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h4 class=&quot;heading-red&quot;&gt;Jeg vil gerne være RØD!&lt;/h4&gt;
-&lt;h4 class=&quot;heading-brown&quot;&gt;Jeg vil gerne være BRUN!&lt;/h4&gt;
-
-&lt;hr /&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;&lt;strong&gt;Forklaring:&lt;/strong&gt; Punktummet før &lt;code class=&quot;highlighter-rouge&quot;&gt;heading-brown&lt;/code&gt; er CSS’s måde at sige på: Denne &lt;strong&gt;selector&lt;/strong&gt; leder efter en class af samme navn! Computeren møder altså &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;h4 class=&quot;heading-brown&quot;&amp;gt;...&amp;lt;/h4&amp;gt;&lt;/code&gt; og husker så, at den har en style for dette element i CSS’en (.heading-brown).&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;&lt;strong&gt;Udfordring:&lt;/strong&gt; Prøv selv at tilføje &lt;code class=&quot;highlighter-rouge&quot;&gt;class=&quot;..&quot;&lt;/code&gt; og CSS i din &lt;code class=&quot;highlighter-rouge&quot;&gt;index.html&lt;/code&gt; og &lt;code class=&quot;highlighter-rouge&quot;&gt;style.css&lt;/code&gt; - kan du ramme en klasse på samme måde? Hvad med at give hver sin h4 forskellige baggrundsfarver? Hvordan går det?&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;javascript-opførselbevægelse&quot;&gt;JavaScript (opførsel/bevægelse)&lt;/h3&gt;
-
-&lt;p&gt;JavaScript er det vildeste!
-Det er et af de mest udbredte kodesprog i verden (mest aktive på &lt;a href=&quot;https://stackoverflow.com/&quot;&gt;StackOverflow&lt;/a&gt;) og er dit kodedyrs bevægelse og opførelse. Det er helt klart et sværere kodesprog at skrive end HTML og CSS og der vil derfor ikke være eksempler, men blot en kort indsigt.&lt;/p&gt;
-
-&lt;p&gt;Du aktiverer JavaScript 100-vis af gange om dagen.&lt;/p&gt;
-
-&lt;p&gt;Du bruger det, når du søger, og der bliver vist søgeresultater imens.&lt;/p&gt;
-
-&lt;p&gt;Du bruger det, når dit billede uploader på Facebook.&lt;/p&gt;
-
-&lt;p&gt;Du bruger det i enorm grad på Google Maps.&lt;/p&gt;
-
-&lt;p&gt;Hvis du har en drøm om at blive en rig programmør, så skulle du tage at blive ekspert i dette.&lt;/p&gt;
-
-&lt;p&gt;Det kan hente data uden at dit vindue reloader. Det kan sætte cookies og meget, meget, meget mere.&lt;/p&gt;
-
-&lt;p&gt;JavaScript kan bruges i en simplere form, som hedder &lt;a href=&quot;https://jquery.com/&quot;&gt;jQuery&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Hvis vi får tid kommer vi til at lege lidt med jQuery med nogle dropdown-menuer og vilde effekter (bounce, bounce).&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;lektierstigninger&quot;&gt;Lektier/stigninger&lt;/h3&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Lektierne er inddelt i stigninger, så man selv kan bestemme, hvor svær en udfordring, som man vil tage op. Jeg vil selvfølgelig anbefale, at man laver alle tre, men se, hvad i kan få tid til. Hvis man ønsker at gå videre, så er det altid muligt at fortsætte læringen via et af de kurser, som er nævnt underneden.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h4 id=&quot;3-grads-stigning&quot;&gt;3. grads stigning:&lt;/h4&gt;
-&lt;p&gt;Lav 4 bokse med &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;div&amp;gt;&amp;lt;/div&amp;gt;&lt;/code&gt; og giv dem hver især forskellige baggrundsfarver, højder og bredder via forskellige klasser.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;&lt;strong&gt;Hint:&lt;/strong&gt; En div uden indhold har ingen højde og bredde, så den vil ikke kunne ses, før du giver den en højde &lt;code class=&quot;highlighter-rouge&quot;&gt;height: ...&lt;/code&gt; og en bredde &lt;code class=&quot;highlighter-rouge&quot;&gt;width: ...&lt;/code&gt;.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h4 id=&quot;2-grads-stigning&quot;&gt;2. grads stigning:&lt;/h4&gt;
-&lt;p&gt;Indsæt et billede øverst på din hjemmeside med et &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;img&amp;gt;&lt;/code&gt; HTML-tag i din &lt;code class=&quot;highlighter-rouge&quot;&gt;index.html&lt;/code&gt; og få det til at fylde hele din hjemmesides bredde. 
-&lt;a href=&quot;https://www.w3schools.com/html/html_images.asp&quot; target=&quot;_blank&quot;&gt;Læs mere her&lt;/a&gt;&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;&lt;strong&gt;Hint til bredde:&lt;/strong&gt; Man kan bruge &lt;code class=&quot;highlighter-rouge&quot;&gt;%&lt;/code&gt;(procenttegnet) i CSS. Derudover kan du også bruge &lt;code class=&quot;highlighter-rouge&quot;&gt;width:&lt;/code&gt;. Så hvor mange procent skal &lt;code class=&quot;highlighter-rouge&quot;&gt;width:&lt;/code&gt; sættes til for at fylde hele bredden?&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h4 id=&quot;1-grads-stigning&quot;&gt;1. grads stigning&lt;/h4&gt;
-&lt;p&gt;Kan du forklare hvad forskellen på et span-tag og et div-tag er?&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;&lt;strong&gt;Hint:&lt;/strong&gt; Div og span er begge HTML-tags (&lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;div&amp;gt;&lt;/code&gt; og &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;span&amp;gt;&lt;/code&gt;), som bliver brugt på kryds og tværs af internettet. De har dog to vidt forskellige funktioner, som har noget med deres standard CSS property &lt;code class=&quot;highlighter-rouge&quot;&gt;display:.. &lt;/code&gt; at gøre.&lt;/p&gt;
-  &lt;h3 id=&quot;kurser&quot;&gt;Kurser:&lt;/h3&gt;
-&lt;/blockquote&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.codecademy.com/learn/learn-html&quot;&gt;HTML kursus - CodeCademy&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.codecademy.com/learn/learn-css&quot;&gt;CSS kursus - CodeCademy&lt;/a&gt;&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;Tak for denne gang - glæder mig til næste del! :)&lt;/p&gt;</content><author><name></name></author><category term="wordpress" /><summary type="html">Forberedelse: Start med at downloade eksemplet og åben den downloadede mappe i f.eks. Sublime Text 3. Åben derefter index.html i en browser for at se indholdet. Dette vil være mappen, hvor du selv kan lave ændringer og afprøve den viden, som du møder hen af vejen.</summary></entry></feed>
+&lt;/ol&gt;</content><author><name></name></author><category term="wordpress" /><summary type="html">#Del 2 - WordPress kursus</summary></entry></feed>
