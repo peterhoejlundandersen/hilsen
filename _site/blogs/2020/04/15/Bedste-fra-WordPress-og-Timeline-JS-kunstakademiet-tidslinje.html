@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+	<link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/assets/favicon-96x96.png">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+  <link rel="stylesheet" href="/assets/main.css">
+  
+  <link rel="alternate" type="application/rss+xml" title="Hilsen IT" href="/feed.xml">
+	
+	<meta property="og:description" content="WordPress og Timline JS tidslinje integreret. Det Kongelige Danske Kunstakademi."/>
+	<meta property="og:image" content=""/>
+	
+  
+  
+	
+		<title>Hilsen IT | Det bedste fra Wordpress blandet med det bedste fra Timeline JS - tidslinje til Københavns Kunstakademi</title>
+	
+</head>
+
+  <body>
+    <header class="site-header" role="banner">
+
+  <div class="wrapper">
+    <a class="site-title" rel="author" href="/">Hilsen IT</a>
+
+    
+  </div>
+</header>
+
+    <main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">Det bedste fra Wordpress blandet med det bedste fra Timeline JS - tidslinje til Københavns Kunstakademi</h1>
+    <p class="post-meta">
+      <time class="dt-published" datetime="2020-04-15T00:00:00+02:00" itemprop="datePublished">
+        
+        Apr 15, 2020
+      </time>
+      </p>
+  </header>
+
+	<hr>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <blockquote>
+  <p>For at forbedre overblikket for de mange studerende, så vi forstår hvad det er for en synkende skude vi befinder os på.</p>
+</blockquote>
+
+<p>I starten af dette skoleår kom det ud, at Det Kongelige Danske Kunstakademi skulle gennemgå nogle nye besparelser. Der blev lækket (i en lille grad, kan man sige) et dokument fra Driften (pedel, rengøring, daglig drift). Heri står der for eksempel:</p>
+
+<blockquote>
+  <p>Fra 1. februar 2022 skal Bygningsstyrelsen varetage levering af alle Kunstakademiets interne serviceydelser. <strong>Det vil ske gennem en privat leverandør.</strong> Det drejer sig som udgangspunkt om kantine og mødeforplejning, rengøring, intern service og reception, indvendig vedligehold, udendørsarealer, vagt- og sikkerhed samt affaldshåndtering.</p>
+</blockquote>
+
+<p>Altså er der fra den tidligere regerings side igangsat 3 forskellige bølger, hvor alle offentlige institutioners drift skal overgå til en privat leverandør.</p>
+
+<p>Senere i teksten, som er skrevet af Administrationschef Jes Gjørup, beskrives det hvordan, at Akademiet har fået en form for særbehandling:</p>
+
+<blockquote>
+  <p>For Kunstakademiets vedkommende kan der dog være serviceopgaver, som udgør så integreret en del af vores kerneopgaver – uddannelse, forskning og kunsthalsvirksomhed – at det ikke er hensigtsmæssigt at outsource opgaven.</p>
+</blockquote>
+
+<p>Det <strong>STORE</strong> spørgsmål, man kan stille i forlængelse af denne lange sætning er: <strong>Hvordan kan det være at drift og rengøring ikke bliver talt med i “kerneopgaver”?</strong></p>
+
+<p>En hver der har været på akademiet og haft sin daglige gang der ved, at de opgaver som Driften og rengøring varetager er specialiseret. Det skyldes, at det er gamle bygninger med atypiske beboer (kunststuderende), der kræver en fleksibilitet, dialog og viden om, hvad der kan lade sig gøre. Viden, der for nogen er opbygget over årtier, men som åbenbart bliver overset.  Og nu vil de, som et plaster på såret, tilbyde de mest garvede et job ved den nye udbydere. Som er til en lavere løn og dårligere overenskomst. Samt at de kan blive udsat for at arbejde andre steder.</p>
+
+<p>Helt ærligt. Det er på grænsen af elitært ikke at tælle disse mennesker med. Især når, at det er de vante og kendte ansigter/relationer, der gør, at man som studerende kan føle sig tryg i fucking Indre By’s lortekultur.</p>
+
+<p>Vi var nogle elever der snakkede om, hvad vi kunne gøre. Organisere os og vise vores sympati med Driften og rengøringen.</p>
+
+<p>I den samtale slog det os, at det måske kunne være fedt at lave en tidslinje til skolen. Tidligere elever har holdt en tidslinje løbende opdateret i et dokument, der beskriver ændringer fra 2007-18. Men hvorfor stoppede den og hvad kunne vi gøre for, at den blev mere tilgængelig… 
+Selvfølgelig:</p>
+
+<blockquote>
+  <p>Make a WEBSITE with a student login! For everyone → and visible for the whole world.</p>
+</blockquote>
+
+<h2 id="timeline-js---the-perfect-tool">Timeline JS - the perfect TOOL!</h2>
+
+<p>Jeg fandt hurtigt <a href="[https://timeline.knightlab.com/](https://timeline.knightlab.com/)">Timeline JS</a> (TL), som er et Javascript bibliotek, der tager JSON-data eller et offentlig Google Sheet(excelark) og laver den data om til en interaktiv tidslinje. Du kan besøge linket og se mere.</p>
+
+<p><em>Til de personer, der ikke kender JSON-kode, så er det en simpel måde at gemme data på, som computere har let ved at læse. Google IT</em></p>
+
+<p>Problemet med dette program er, at det ikke er særlig mange mennesker (er min oplevelse), der gider at logge ind og tilføje data til et Excel-ark. Især når denne data kan være mange forskellige ting som billeder og html-kode osv. Det skal selvfølgelig forenes med <strong>en simpel brugervenlig backend som WordPress’!</strong></p>
+
+<p>Jeg besluttede mig hurtigt for at dataudtrækket fra WordPress skulle være JSON, da jeg fandt ud af, at der er et indbygget måde at arbejde med JSON i PHP, der hedder:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="cp">&lt;?php</span>
+<span class="nv">$myObj</span><span class="o">-&gt;</span><span class="na">name</span> <span class="o">=</span> <span class="s2">"John"</span><span class="p">;</span>
+<span class="nv">$myObj</span><span class="o">-&gt;</span><span class="na">age</span> <span class="o">=</span> <span class="mi">30</span><span class="p">;</span>
+<span class="nv">$myObj</span><span class="o">-&gt;</span><span class="na">city</span> <span class="o">=</span> <span class="s2">"New York"</span><span class="p">;</span>
+
+<span class="nv">$myJSON</span> <span class="o">=</span> <span class="nb">json_encode</span><span class="p">(</span><span class="nv">$myObj</span><span class="p">);</span>
+</code></pre></div></div>
+
+<p>Du kan altså lave et Object og tilføje værdier på en meget simpel måde, hvorefter du kan transformere dette parent-object ind til json kode.</p>
+
+<h1 id="fra-wordpress-til-json-til-finished">Fra Wordpress til JSON til FINISHED!</h1>
+
+<p>Jeg valgte at eksportere WordPress’ Indlæg (Posts på engelsk) som events (begivenheder) på tidslinjen. For at dette skal fungere var jeg nødt til <strong>at eksportere data ind i JSON-struktur som TL kan læse.</strong></p>
+
+<p>Hvis du besøger <a href="[https://timeline.knightlab.com/docs/json-format.html](https://timeline.knightlab.com/docs/json-format.html)">TL kan du se deres JSON-struktur</a> (format):</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>{
+  "title": {
+    "media": {
+      "url": "################",
+      "caption": "############",
+      "credit": "###########",
+    },
+    "text": {
+      "headline": "Det siger de",
+      "text": "Halli hallo"
+    }
+  },
+  "events": [ // Læg mærke til at events er en array!
+      {
+        "media": {
+          "url": "####",
+          "thumbnail": "####",
+          "caption": "#####",
+          "credit": "######",
+        },
+        "start_date": {
+          "year": "1945"
+        },
+        "end_date": {
+          "year": "1950"
+        },
+        "text": {
+          "headline": "Der skete det",
+          "text": "Jamen dog"
+        }
+      }, 
+      ..... // Next event
+    }
+  ]
+}
+</code></pre></div></div>
+
+<p><em>Forestil dig at programmet siger: SÅDAN HER SKAL DATAEN LEVERES FOR AT JEG PÅ NOGEN MÅDE KAN ARBEJDE MED DET! Nu ved du det.</em></p>
+
+<h3 id="tilføj-custom-fields-med-acf-til-et-indlæg-så-ingen-data-mangler">Tilføj custom fields med ACF til et indlæg, så ingen data mangler!</h3>
+
+<p>Det eneste der umiddelbart mangler som data i et indlæg (den har headline, text, billeder osv.) er: start_date og end_date. 
+Så der bruger jeg <a href="[https://www.advancedcustomfields.com/](https://www.advancedcustomfields.com/)">Advanced Custom Fields</a>.</p>
+
+<p><em>SERIØST BEDSTE PLUGIN JEG NOGENSINDE HAR KØBT! - HAR BRUGT DET 100 GANGE!</em></p>
+
+<p>I det plugin tilføjet jeg to datafield felter: start_date og end_date, som bliver vist under teksten på backend med guide-tekst:</p>
+
+<p><img src="Det%20bedste%20fra%20Wordpress%20blandet%20med%20det%20bedste%20fr/Screen_Shot_2020-04-15_at_19.26.18.jpg" alt="Det%20bedste%20fra%20Wordpress%20blandet%20med%20det%20bedste%20fr/Screen_Shot_2020-04-15_at_19.26.18.jpg" /></p>
+
+<p>som brugeren så kan udfylde.</p>
+
+<p>Nu mangler vi bare at gemme indlæggene som JSON-data!</p>
+
+<h3 id="gem-og-eksporter-dataen-fra-wordpress-til-en-json-fil">Gem og eksporter dataen fra WordPress til en json fil!</h3>
+
+<p>Derefter kom punktet, at jeg skulle lave en kode der blev <em>triggered</em> hver gang et indlæg blev gemt. Denne kode skulle så loope igennem alle indlæg på siden og gemme hver deres data i det JSON-format som jeg lige har vist.</p>
+
+<p>Det jeg kom frem til var det her:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>function export_posts_in_json (){
+// Tag alle (-1) indlæg (post) som er udgivet
+    $args = array(
+        'post_type' =&gt; 'post',
+        'post_status' =&gt; 'publish',
+        'posts_per_page' =&gt; -1,
+    );
+
+// Udfyld den overordnet data (headline og text)
+    $query = new WP_Query( $args );
+    $text = new stdClass();
+    $text-&gt;headline = "Det Kongelige Danske Kunstakademi";
+    $text-&gt;text = "Som har været en del igennem";
+    $timelineObj = new stdClass();
+    $timelineObj-&gt;title = "media";
+    $timelineObj-&gt;title = $text;
+
+    $eventArray = array();
+
+// Loop gennem alle inlæg 
+    while( $query-&gt;have_posts() ) : $query-&gt;the_post();
+
+      $obj = new stdClass();
+// Hvis et indlæg har et billede, så tilføj en lille thumbnail og et stort billede + mere
+      if( has_post_thumbnail() ) {
+        $media = new stdClass();
+        $media-&gt;url = get_the_post_thumbnail_url(); 
+        $media-&gt;thumbnail = get_the_post_thumbnail_url(get_the_ID(), 'thumbnail');
+        $media-&gt;caption = get_post( get_post_thumbnail_id())-&gt;post_excerpt;
+        $obj-&gt;media = $media;
+      }
+// Titel og text
+      $text = new stdClass();
+      $text-&gt;headline = get_the_title();
+      $text-&gt;text = get_the_content();
+
+      $obj-&gt;text = $text;
+
+// Få datafeltet og udvind år(Y), måned(m) og dag(d) fra data strengen.
+      $startDate = new stdClass();
+      $dateObject = new DateTime( get_field('startdato', get_the_ID() ) ); 
+      $startDate-&gt;year = $dateObject-&gt;format('Y');
+      $startDate-&gt;month = $dateObject-&gt;format('m');
+      $startDate-&gt;day = $dateObject-&gt;format('d');
+
+      $obj-&gt;start_date = $startDate;
+// Samme
+      if( get_field('slutdato', get_the_ID() ) ) {  // Hvis der er en slutdato
+        $endDate = new stdClass();
+        $dateObject = new DateTime( get_field('slutdato', get_the_ID() ) ); 
+        $endDate-&gt;year = $dateObject-&gt;format('Y');
+        $endDate-&gt;month = $dateObject-&gt;format('m');
+        $endDate-&gt;day = $dateObject-&gt;format('d');
+
+        $obj-&gt;end_date = $endDate;
+      }
+// Sæt det i en kategori, hvis det har en.
+      if( get_the_category() ) { // Can only take one!
+        $category = new stdClass();
+        $obj-&gt;group = get_the_category()[0]-&gt;name;
+      }
+
+      $eventArray[] = $obj; 
+
+    endwhile;
+
+    wp_reset_query();
+
+    $timelineObj-&gt;events = $eventArray;
+// Lav hele objektet om til JSON-kode (også vist tidligere)
+    $data = json_encode($timelineObj);
+// Stien hvor det skal gemmes (get_stylesheet_directory er stien til child-theme)
+    $folder = get_stylesheet_directory() . '/it-timeline/';
+    $file_name = 'timeline-data.json';
+// Gem det JSON-dataen der!
+    $succes = file_put_contents( $folder.$file_name , $data );
+// SLUT - no problem. Ville nok have lavet en tester af, om det hele gik som det skulle
+// men ikke på et amatør job som det her &lt;3 :)
+}
+
+// Hooket 'save_post' fyres hver gang et indlæg bliver udgivet eller opdateret.
+add_action( 'save_post', 'export_posts_in_json' );
+</code></pre></div></div>
+
+<p>Nu bliver dataen gemt  i TL’s JSON-format hver gang. Nu skal frontend ‘bare’ finde filen og vise tidslinjen.</p>
+
+<h3 id="tilføj-timeline-js-til-frontend-og-kald-dataen">Tilføj Timeline JS til frontend og kald dataen!</h3>
+
+<p>Nu mangler vi bare at få al dataen vist.</p>
+
+<p>Det gør vi ved at følge TL’s guide og ved at bruge et lille PHP til Javascript trick.</p>
+
+<p>Find det sted, som du gerne vil vise tidslinjen og gå ind i PHP-koden der.</p>
+
+<p>Jeg har valgt: <code class="highlighter-rouge">template-parts/page/content-front-page.php</code> i WordPress’ eget tema: Tweenty Seventeen</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;!-- TIMELINE JS OG CSS OG ET NØDVENDIGT HTML-TAG --&gt;
+&lt;link title="timeline-styles" rel="stylesheet" href="https://cdn.knightlab.com/libs/timeline3/latest/css/timeline.css"&gt;
+&lt;script src="https://cdn.knightlab.com/libs/timeline3/latest/js/timeline.js"&gt;&lt;/script&gt;
+&lt;div id='timeline-embed' style="width: 100%; height: 600px"&gt;&lt;/div&gt;
+
+&lt;script type="text/javascript"&gt;
+// Det her er indstillinger, som du kan tilføje, så TL viser eller opfører sig på en bestemt måde.
+// Se deres hjemmeside for mere info.
+  var options = {
+    hash_bookmark: true 
+  }
+  var json_url = "wp-content/themes/twentyseventeen-child/it-timeline/timeline-data.json";
+// Ram id'et fra HTML ovenover og fodre den med data. Sådan!
+  $.getJSON( json_url, function( data ) {
+    timeline = new TL.Timeline('timeline-embed', data, options);
+  } );
+&lt;/script&gt;
+</code></pre></div></div>
+
+<p><strong>SÅ!</strong> Nu har du altså en brugervenlig måde at vise en tidslinje på.</p>
+
+<h3 id="afsluttende">Afsluttende:</h3>
+
+<p>Jeg gjorde det, at jeg oprettede en fælles bruger til eleverne på min skolen: Student. Som de hver især kan logge ind med og tilføje data.</p>
+
+<p>Og husk at tjekke TL’s mobilversion ud! Den er virkelig god.</p>
+
+<p>God arbejdslyst</p>
+
+  </div>
+
+		
+			<div class="hilsen-pagination">
+	
+    <a class="blue-highlight hilsen-prev" href="/blogs/2018/10/10/Dagbog-fra-en-hyttetur.html">&#8592; Dagbog fra en rustur</a>
+	
+	
+    <a class="blue-highlight hilsen-next v-hidden" href="#"> &#8594;</a>
+  
+</div>
+
+
+		
+
+  <a class="u-url" href="/blogs/2020/04/15/Bedste-fra-WordPress-og-Timeline-JS-kunstakademiet-tidslinje.html" hidden></a>
+
+  <hr>
+
+  <div class="blog-footer">
+    <footer class="site-footer h-card">
+  <div class="wrapper">
+	<h4>Kontakt:</h4>
+        <ul class="contact-list">
+          <li>
+						Mail: <a class="u-email blue-highlight" href="mailto:hoejlund@protonmail.com">hoejlund@protonmail.com</a>
+					</li>
+          <li>
+						Tlf. nr.: (+45) 42 64 58 98
+					</li>
+					<li>
+						<a class="blue-highlight" href="https://github.com/peterhoejlundandersen" target="_blank">Github</a>
+					</li>
+					<li>
+						<a class="blue-highlight" href="https://stackoverflow.com/users/7314004/peter-højlund-andersen" target="_blank">Stack Overflow</a>
+					</li>
+					<li>
+						CVR nr.: 35 70 23 18 
+					</li>
+					<li>
+					<li>
+						Ejet af: Peter Højlund Palluth
+					</li>
+          <li>
+            <small><b>No trace: </b> Ingen cookies eller informationer bliver gemt om dig på denne side.<br></small>
+          </li>
+        </ul>
+    </div>
+  </div>
+
+</footer>
+ 
+
+    <a class="go-to-top" style="display: block; text-align: center" href="#">Gå til top</a>
+  </div>
+</article>
+
+      <div>
+    </main>
+  </body>
+  <a class="site-title" rel="author" href="/">Hilsen IT</a>
+	<div class="site-title-footer"></div>
+</html>
