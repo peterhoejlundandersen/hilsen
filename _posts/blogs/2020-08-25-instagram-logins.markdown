@@ -275,8 +275,8 @@ Aug 21, 2016 11:32am<br>
 Apr 10, 2013 4:54pm<br>
 Apr 10, 2013 4:54pm<br>
 <br>
-<br><br><br>
-## Interesser (meget af det er autogenereret af Instagram)
+<br>
+## Interesser (meget af det er autogenereret af Instagram)<br>
 Shopping and fashion<br>
 Interior design<br>
 Comedy movies<br>
@@ -304,11 +304,8 @@ Black comedy<br>
 Art director<br>
 Comic strip<br>
 Comedy movies<br>
-<br><br><br>
-<br>
-<br>
-## Skiftet kodeord
-<br>
+<br><br>
+## Skiftet kodeord<br>
 Jun 14, 2020 7:47pm<br>
 May 28, 2020 10:21pm<br>
 May 11, 2020 10:32pm<br>
@@ -319,10 +316,8 @@ Nov 19, 2016 6:31pm<br>
 Nov 19, 2016 6:30pm<br>
 <br>
 <br>
-<br><br><br>
-<br>
-## Profiler der følger mig
-<br>
+
+## Profiler der følger mig<br>
 adelafontaine<br>
 dagmar_kestner<br>
 blomsterneblomstrerjo<br>
@@ -650,8 +645,8 @@ emmamarkvad<br>
 gjbackhaus<br>
 <br>
 <br>
-<br><br><br>
-## Profiler jeg følger
+
+## Profiler jeg følger<br>
 adelafontaine<br>
 dagmar_kestner<br>
 blomsterneblomstrerjo<br>
@@ -934,7 +929,7 @@ frederikexner<br>
 safri_due<br>
 <br>
 <br>
-## Tidligere bio-tekster
+## Tidligere bio-tekster<br>
 RUNDGANG: Fodboldperformance d. 19 juni kl. 16 - kom!<br>
 Sportsfan<br>
 https://sexogsamfund.dk/skriv-under-mod-forbud-af-abort<br>
