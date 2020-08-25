@@ -276,7 +276,8 @@ Apr 10, 2013 4:54pm<br>
 Apr 10, 2013 4:54pm<br>
 <br>
 <br>
-## Interesser (meget af det er autogenereret af Instagram)<br>
+## Interesser (Ads interest) - ikke noget jeg selv har indtastet
+> De bruger det til at målrette reklamer
 Shopping and fashion<br>
 Interior design<br>
 Comedy movies<br>
