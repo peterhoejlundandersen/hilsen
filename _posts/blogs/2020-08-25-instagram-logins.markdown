@@ -275,8 +275,9 @@ Aug 21, 2016 11:32am<br>
 Apr 10, 2013 4:54pm<br>
 Apr 10, 2013 4:54pm<br>
 <br>
-<br><br><br>
-## Interesser (meget af det er autogenereret af Instagram)
+<br>
+## Interesser (Ads interest) - ikke noget jeg selv har indtastet<br>
+> De bruger det til at målrette reklamer <br>
 Shopping and fashion<br>
 Interior design<br>
 Comedy movies<br>
@@ -304,11 +305,8 @@ Black comedy<br>
 Art director<br>
 Comic strip<br>
 Comedy movies<br>
-<br><br><br>
-<br>
-<br>
-## Skiftet kodeord
-<br>
+<br><br>
+## Skiftet kodeord<br>
 Jun 14, 2020 7:47pm<br>
 May 28, 2020 10:21pm<br>
 May 11, 2020 10:32pm<br>
@@ -319,10 +317,8 @@ Nov 19, 2016 6:31pm<br>
 Nov 19, 2016 6:30pm<br>
 <br>
 <br>
-<br><br><br>
-<br>
-## Profiler der følger mig
-<br>
+
+## Profiler der følger mig<br>
 adelafontaine<br>
 dagmar_kestner<br>
 blomsterneblomstrerjo<br>
@@ -367,7 +363,7 @@ selmastage<br>
 ceciliemeiniche<br>
 rasgyl<br>
 ditte.johanne<br>
-bella__kris<br>
+bella_\_kris<br>
 alabama_shepherd<br>
 c3c1l13<br>
 bonic_water<br>
@@ -381,7 +377,7 @@ collective_disgrace<br>
 kickstartdinkarriere<br>
 esbenweile<br>
 lindalazer<br>
-the____fade<br>
+the_\_\_\_fade<br>
 fannylundgrenjensen<br>
 ech.ooooo<br>
 vestmainen<br>
@@ -401,7 +397,7 @@ anders_davidsen_<br>
 lillefisk<br>
 signerohardtlund<br>
 duecaroline<br>
-christine__arendse<br>
+christine_\_arendse<br>
 kristofferbech<br>
 hovedspring<br>
 melaniekitti<br>
@@ -437,7 +433,7 @@ _free_lilith_<br>
 gmork_nowotny<br>
 defeatdoesnotexist<br>
 aprioriouss<br>
-proxy__server<br>
+proxy_\_server<br>
 ungtblod<br>
 mussi5000<br>
 moodybeaches<br>
@@ -450,10 +446,10 @@ bas.bleau<br>
 thatjuliaaleks<br>
 clumsky_hans_gravy_dance<br>
 kenny_the_dogg<br>
-jonas__georg<br>
+jonas_\_georg<br>
 misha.mo<br>
 luxusmusklen<br>
-a________nny<br>
+a_\_\_\_\_\_\_\_nny<br>
 simonpost<br>
 peteremilsloth<br>
 maryloop_<br>
@@ -472,7 +468,7 @@ hirschsprung_official<br>
 theodornymark<br>
 davidehjort<br>
 sidisis_<br>
-anna__munk<br>
+anna_\_munk<br>
 larsfixen<br>
 elizabethandersen958<br>
 simonkrogh<br>
@@ -536,7 +532,7 @@ ronjamlj<br>
 helenahaj<br>
 ingefaer_lillium<br>
 askloef<br>
-anna___zt<br>
+anna_\_\_zt<br>
 spiseligehaver<br>
 duehelene<br>
 sidselfilipsen<br>
@@ -551,7 +547,7 @@ lucasskovgaard<br>
 elsekjaerulff<br>
 ras.daug<br>
 studio.johanne.bjerreskov<br>
-jeg__er__nannafriis<br>
+jeg_\_er_\_nannafriis<br>
 bronshojvandtaarn<br>
 louisekazimierska<br>
 marieduue<br>
@@ -620,7 +616,7 @@ wwwchilldk<br>
 takgeorgia<br>
 ptrvbrg<br>
 katrine_balle<br>
-marie______kim<br>
+marie_\_\_\_\_\_kim<br>
 annasofiefv<br>
 afrobatic<br>
 storetams24<br>
@@ -644,14 +640,14 @@ soerenkloeve<br>
 mikk.ansoe<br>
 cathrine_torp<br>
 majadalgaard<br>
-__m4ds_____<br>
+_\_m4ds_\_\_\_\_<br>
 adambecher<br>
 emmamarkvad<br>
 gjbackhaus<br>
 <br>
 <br>
-<br><br><br>
-## Profiler jeg følger
+
+## Profiler jeg følger<br>
 adelafontaine<br>
 dagmar_kestner<br>
 blomsterneblomstrerjo<br>
@@ -690,7 +686,7 @@ quartet_couture<br>
 lukasballin<br>
 ronny.roverdatter<br>
 ditte.johanne<br>
-bella__kris<br>
+bella_\_kris<br>
 2.718281828459045235360287420<br>
 klyngecontemporary<br>
 naughtycowgirls<br>
@@ -701,7 +697,7 @@ esbenweile<br>
 nadiatehran<br>
 angelchenwig<br>
 lindalazer<br>
-the____fade<br>
+the_\_\_\_fade<br>
 vestmainen<br>
 annastahn<br>
 almabraun<br>
@@ -720,7 +716,7 @@ aanneeholm<br>
 cadynoland<br>
 lillefisk<br>
 duecaroline<br>
-christine__arendse<br>
+christine_\_arendse<br>
 hets_explain_yourselves<br>
 hedviggreiffenberg<br>
 malthemoehr<br>
@@ -765,7 +761,7 @@ _free_lilith_<br>
 sonny5ideup<br>
 damesnolder<br>
 eloisechristensen<br>
-proxy__server<br>
+proxy_\_server<br>
 hekseditte<br>
 ungtblod<br>
 first.flush<br>
@@ -794,7 +790,7 @@ aldamohr<br>
 leosakharov<br>
 scumcrew<br>
 davidehjort<br>
-anna__munk<br>
+anna_\_munk<br>
 sidisis_<br>
 larsfixen<br>
 elizabethandersen958<br>
@@ -893,8 +889,8 @@ ronjamlj<br>
 annasamsoee<br>
 askloef<br>
 helenahaj<br>
-__m4ds_____<br>
-anna___zt<br>
+_\_m4ds_\_\_\_\_<br>
+anna_\_\_zt<br>
 vellnessplader<br>
 oureurope<br>
 sidselfilipsen<br>
@@ -916,25 +912,25 @@ katbachhansen<br>
 thomasbremerstent<br>
 ellahoejlund<br>
 sweet_boy_2019<br>
-marie______kim<br>
+marie_\_\_\_\_\_kim<br>
 ohave.dk<br>
 ellenhelakvallen<br>
 mikkeline_daa<br>
 safri_due<br>
 koebenhavnskunstskole<br>
-jeg__er__nannafriis<br>
+jeg_\_er_\_nannafriis<br>
 frederikexner<br>
 katrinebrunthorup<br>
 ras.daug<br>
 <br>
-## Søgehistorik
+## Søgehistorik (ved ikke, hvorfor der ikke er mere)
 <br>
 vildevalerie<br>
 frederikexner<br>
 safri_due<br>
 <br>
 <br>
-## Tidligere bio-tekster
+## Tidligere bio-tekster<br>
 RUNDGANG: Fodboldperformance d. 19 juni kl. 16 - kom!<br>
 Sportsfan<br>
 https://sexogsamfund.dk/skriv-under-mod-forbud-af-abort<br>
@@ -946,3 +942,209 @@ Jeg bruger ikke Instagram så meget længere. Skriv til 42645898 eller pianopha@
 Jeg bruger ikke Instagram så meget længere. Skriv til 42645898 eller pianopha@gmail.com, hvis du skal have fat i mig.<br>
 Bruger ikke Instagram længere. Skriv til 42645898 eller pianopha@gmail.com, hvis du skal have fat i mig.<br>
 <br>
+
+## Gamle opslag
+![](assets/instagram/File1.jpg) <br>
+![](assets/instagram/File2.jpg) <br>
+![](assets/instagram/File3.jpg) <br>
+![](assets/instagram/File4.jpg) <br>
+![](assets/instagram/File5.jpg) <br>
+![](assets/instagram/File6.jpg) <br>
+![](assets/instagram/File7.jpg) <br>
+![](assets/instagram/File8.jpg) <br>
+![](assets/instagram/File9.mp4) <br>
+![](assets/instagram/File11.jpg) <br>
+![](assets/instagram/File12.jpg) <br>
+![](assets/instagram/File13.jpg) <br>
+![](assets/instagram/File14.jpg) <br>
+![](assets/instagram/File15.jpg) <br>
+![](assets/instagram/File16.jpg) <br>
+![](assets/instagram/File17.jpg) <br>
+![](assets/instagram/File18.jpg) <br>
+![](assets/instagram/File19.jpg) <br>
+![](assets/instagram/File20.jpg) <br>
+![](assets/instagram/File21.mp4) <br>
+![](assets/instagram/File22.jpg) <br>
+![](assets/instagram/File23.jpg) <br>
+![](assets/instagram/File24.jpg) <br>
+![](assets/instagram/File25.jpg) <br>
+![](assets/instagram/File26.jpg) <br>
+![](assets/instagram/File27.jpg) <br>
+![](assets/instagram/File28.mp4) <br>
+![](assets/instagram/File29.jpg) <br>
+![](assets/instagram/File30.jpg) <br>
+![](assets/instagram/File31.jpg) <br>
+![](assets/instagram/File32.jpg) <br>
+![](assets/instagram/File33.jpg) <br>
+![](assets/instagram/File34.jpg) <br>
+![](assets/instagram/File35.jpg) <br>
+![](assets/instagram/File36.jpg) <br>
+![](assets/instagram/File37.jpg) <br>
+![](assets/instagram/File38.jpg) <br>
+![](assets/instagram/File39.jpg) <br>
+![](assets/instagram/File41.jpg) <br>
+![](assets/instagram/File42.jpg) <br>
+![](assets/instagram/File43.jpg) <br>
+![](assets/instagram/File44.jpg) <br>
+![](assets/instagram/File45.jpg) <br>
+![](assets/instagram/File46.jpg) <br>
+![](assets/instagram/File47.jpg) <br>
+![](assets/instagram/File48.jpg) <br>
+![](assets/instagram/File49.jpg) <br>
+![](assets/instagram/File51.jpg) <br>
+![](assets/instagram/File52.jpg) <br>
+![](assets/instagram/File53.jpg) <br>
+![](assets/instagram/File54.jpg) <br>
+![](assets/instagram/File55.jpg) <br>
+![](assets/instagram/File56.jpg) <br>
+![](assets/instagram/File57.jpg) <br>
+### Kun ved Måne part 1<br>
+Udstillingen er ovre og her kommer lidt billeder.<br>
+Tak til alle de fremmødte - det var en stor oplevelse og hvor er i dog fantastiske <3<br>
+Materialerne er: Gips, ler, plastikslanger, vandpumpe, timer, gasbeton, 2 plastikfustager<br>
+I den øverste væske er gemt en vandpumpe, som pumper væsken op, så det kan flyde ud af skulpturerne.<br>
+@arcway_nightlands_connector<br>
+![](assets/instagram/File58.jpg) <br>
+![](assets/instagram/File59.jpg) <br>
+![](assets/instagram/File61.jpg) <br>
+![](assets/instagram/File62.jpg) <br>
+![](assets/instagram/File63.jpg) <br>
+![](assets/instagram/File64.jpg) <br>
+![](assets/instagram/File65.jpg) <br>
+![](assets/instagram/File66.jpg) <br>
+![](assets/instagram/File67.jpg) <br>
+![](assets/instagram/File68.jpg) <br>
+![](assets/instagram/File69.jpg) <br>
+![](assets/instagram/File71.jpg) <br>
+![](assets/instagram/File72.jpg) <br>
+![](assets/instagram/File73.jpg) <br>
+![](assets/instagram/File74.jpg) <br>
+![](assets/instagram/File75.jpg) <br>
+![](assets/instagram/File76.jpg) <br>
+![](assets/instagram/File77.jpg) <br>
+![](assets/instagram/File78.jpg) <br>
+![](assets/instagram/File79.jpg) <br>
+![](assets/instagram/File81.jpg) <br>
+![](assets/instagram/File82.jpg) <br>
+![](assets/instagram/File83.jpg) <br>
+![](assets/instagram/File84.jpg) <br>
+![](assets/instagram/File85.mp4) <br>
+![](assets/instagram/File86.jpg) <br>
+![](assets/instagram/File87.jpg) <br>
+![](assets/instagram/File88.jpg) <br>
+![](assets/instagram/File89.jpg) <br>
+![](assets/instagram/File91.jpg) <br>
+![](assets/instagram/File92.jpg) <br>
+![](assets/instagram/File93.jpg) <br>
+![](assets/instagram/File94.jpg) <br>
+![](assets/instagram/File95.mp4) <br>
+![](assets/instagram/File96.jpg) <br>
+![](assets/instagram/File97.jpg) <br>
+![](assets/instagram/File98.jpg) <br>
+![](assets/instagram/File99.jpg) <br>
+![](assets/instagram/File102.jpg) <br>
+![](assets/instagram/File103.jpg) <br>
+![](assets/instagram/File104.jpg) <br>
+![](assets/instagram/File105.jpg) <br>
+![](assets/instagram/File106.jpg) <br>
+![](assets/instagram/File107.jpg) <br>
+![](assets/instagram/File108.jpg) <br>
+![](assets/instagram/File109.jpg) <br>
+![](assets/instagram/File110.jpg) <br>
+![](assets/instagram/File111.jpg) <br>
+![](assets/instagram/File112.jpg) <br>
+![](assets/instagram/File113.jpg) <br>
+![](assets/instagram/File114.jpg) <br>
+![](assets/instagram/File115.jpg) <br>
+![](assets/instagram/File116.jpg) <br>
+![](assets/instagram/File117.jpg) <br>
+![](assets/instagram/File118.jpg) <br>
+![](assets/instagram/File119.jpg) <br>
+![](assets/instagram/File121.jpg) <br>
+![](assets/instagram/File122.jpg) <br>
+![](assets/instagram/File123.jpg) <br>
+![](assets/instagram/File124.jpg) <br>
+![](assets/instagram/File125.jpg) <br>
+![](assets/instagram/File126.jpg) <br>
+![](assets/instagram/File127.jpg) <br>
+![](assets/instagram/File128.jpg) <br>
+![](assets/instagram/File129.jpg) <br>
+![](assets/instagram/File131.mp4) <br>
+![](assets/instagram/File132.jpg) <br>
+![](assets/instagram/File133.jpg) <br>
+![](assets/instagram/File134.jpg) <br>
+![](assets/instagram/File135.jpg) <br>
+![](assets/instagram/File136.jpg) <br>
+![](assets/instagram/File137.jpg) <br>
+![](assets/instagram/File138.jpg) <br>
+![](assets/instagram/File139.jpg) <br>
+![](assets/instagram/File141.mp4) <br>
+![](assets/instagram/File142.jpg) <br>
+![](assets/instagram/File143.jpg) <br>
+![](assets/instagram/File144.jpg) <br>
+![](assets/instagram/File145.jpg) <br>
+![](assets/instagram/File146.jpg) <br>
+![](assets/instagram/File147.jpg) <br>
+![](assets/instagram/File148.jpg) <br>
+![](assets/instagram/File149.jpg) <br>
+![](assets/instagram/File151.jpg) <br>
+![](assets/instagram/File152.jpg) <br>
+![](assets/instagram/File153.jpg) <br>
+![](assets/instagram/File154.jpg) <br>
+
+### Fuck hvor er det fedt at være i skole igen
+Har lavet en skulptur, der hedder: Fuck hvor er det fedt at være i skole igen.<br>
+Mine medstuderende <3<br>
+Uendelighedstegnet er lånt af @_free_lilith<br>
+Peace<br>
+Den er selvfølgelig til salg og leveres i Storkøbenhavn <3<br>
+
+![](assets/instagram/File155.mp4) <br>
+![](assets/instagram/File156.jpg) <br>
+![](assets/instagram/File157.jpg) <br>
+![](assets/instagram/File158.jpg) <br>
+![](assets/instagram/File159.jpg) <br>
+![](assets/instagram/File161.jpg) <br>
+![](assets/instagram/File162.jpg) <br>
+![](assets/instagram/File163.jpg) <br>
+![](assets/instagram/File164.jpg) <br>
+![](assets/instagram/File165.jpg) <br>
+![](assets/instagram/File166.jpg) <br>
+
+Min kære ven Klaus Klovn har lavet en skulptur som jeg simpelthen bliver nødt til at dele.<br>
+Der er stadig ikke nogen ko på isen<br>
+Tilladelse har jeg fået selvfølgelig.<br>
+Jeg er SoMe manager for ham.<br>
+
+![](assets/instagram/File167.jpg) <br>
+![](assets/instagram/File168.jpg) <br>
+![](assets/instagram/File169.jpg) <br>
+![](assets/instagram/File171.jpg) <br>
+![](assets/instagram/File172.jpg) <br>
+
+Kom til fodboldperformancen SELECT i morgen kl. 16. Rundgang 2020. Det er på kunstgræsbanen ved Arsenalvej (Holmens Idrætsanlæg). @superihsan
+@mbergerling <br> Link i bio til Facebook event <3<br>
+
+![](assets/instagram/File173.jpg) <br>
+![](assets/instagram/File174.jpg) <br>
+![](assets/instagram/File175.jpg) <br>
+![](assets/instagram/File176.jpg) <br>
+![](assets/instagram/File177.jpg) <br>
+![](assets/instagram/File178.jpg) <br>
+![](assets/instagram/File179.jpg) <br>
+![](assets/instagram/File180.mp4) <br>
+![](assets/instagram/File181.jpg) <br>
+![](assets/instagram/File182.jpg) <br>
+![](assets/instagram/File183.jpg) <br>
+![](assets/instagram/File184.jpg) <br>
+![](assets/instagram/File185.jpg) <br>
+![](assets/instagram/File186.jpg) <br>
+![](assets/instagram/File187.jpg) <br>
+![](assets/instagram/File188.jpg) <br>
+![](assets/instagram/File189.jpg) <br>
+![](assets/instagram/File190.jpg) <br>
+![](assets/instagram/File191.jpg) <br>
+![](assets/instagram/File192.jpg) <br>
+![](assets/instagram/File193.jpg) <br>
+![](assets/instagram/File194.jpg) <br>
+![](assets/instagram/File195.jpg) <br>
