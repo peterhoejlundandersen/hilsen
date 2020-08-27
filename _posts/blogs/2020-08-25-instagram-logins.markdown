@@ -1091,7 +1091,6 @@ I den øverste væske er gemt en vandpumpe, som pumper væsken op, så det kan f
 ![](assets/instagram/File152.jpg) <br>
 ![](assets/instagram/File153.jpg) <br>
 ![](assets/instagram/File154.jpg) <br>
-
 ### Fuck hvor er det fedt at være i skole igen
 Har lavet en skulptur, der hedder: Fuck hvor er det fedt at være i skole igen.<br>
 Mine medstuderende <3<br>
@@ -1104,6 +1103,7 @@ Den er selvfølgelig til salg og leveres i Storkøbenhavn <3<br>
 ![](assets/instagram/File157.jpg) <br>
 ![](assets/instagram/File158.jpg) <br>
 ![](assets/instagram/File159.jpg) <br>
+
 ![](assets/instagram/File161.jpg) <br>
 ![](assets/instagram/File162.jpg) <br>
 ![](assets/instagram/File163.jpg) <br>
@@ -1119,6 +1119,7 @@ Jeg er SoMe manager for ham.<br>
 ![](assets/instagram/File167.jpg) <br>
 ![](assets/instagram/File168.jpg) <br>
 ![](assets/instagram/File169.jpg) <br>
+
 ![](assets/instagram/File171.jpg) <br>
 ![](assets/instagram/File172.jpg) <br>
 

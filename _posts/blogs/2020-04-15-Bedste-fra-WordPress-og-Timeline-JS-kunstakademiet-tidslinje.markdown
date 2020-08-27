@@ -232,6 +232,8 @@ Jeg har valgt: `template-parts/page/content-front-page.php` i WordPress' eget te
 
 ### Afsluttende:
 
+Hvis du gerne vil se et eksempel med data fra Det Kongelige Danske Kunstakademi, så besøg: [mit midlertidige eksempel på et gæstedomæne](https://arcwaynightlandsconnectorjennifee-seealternate.dk/akademiet-tidslinje/#event-tl-tkxaaa). 
+
 Jeg gjorde det, at jeg oprettede en fælles bruger til eleverne på min skolen: Student. Som de hver især kan logge ind med og tilføje data.
 
 Og husk at tjekke TL's mobilversion ud! Den er virkelig god.
